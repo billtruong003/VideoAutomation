@@ -128,8 +128,26 @@ export function blendPose(a: Pose, b: Pose, t: number): Pose {
 }
 
 /**
+ * Control point for a noodle limb's curve: the midpoint of anchor->end, pushed
+ * perpendicular by `bend`.
+ *
+ * Split out from `limbPath` because V2 draws limbs with perfect-freehand, which needs
+ * POINTS along the curve rather than an SVG `d` string. Both callers share this maths so
+ * a limb bends identically however it is rendered.
+ */
+export function limbControl(anchor: readonly [number, number], limb: Limb): [number, number] {
+  const [ax, ay] = anchor;
+  const dx = limb.x - ax;
+  const dy = limb.y - ay;
+  const len = Math.hypot(dx, dy) || 1;
+  const px = -dy / len;
+  const py = dx / len;
+  return [(ax + limb.x) / 2 + px * limb.bend, (ay + limb.y) / 2 + py * limb.bend];
+}
+
+/**
  * Quadratic-bezier path for a noodle limb: anchor -> end, bowed perpendicular by `bend`.
- * Returns an SVG `d` string.
+ * Returns an SVG `d` string. Retained for tooling that wants a path rather than points.
  */
 export function limbPath(anchor: readonly [number, number], limb: Limb): string {
   const [ax, ay] = anchor;

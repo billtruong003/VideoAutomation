@@ -1,0 +1,594 @@
+{
+  "generatedBy": "tools/asset-qa.mjs",
+  "total": 73,
+  "passed": 73,
+  "failed": 0,
+  "results": [
+    {
+      "id": "ClockHands",
+      "group": "time",
+      "pathCount": 4,
+      "dLength": 2767,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "HugeWallClock",
+      "group": "time",
+      "pathCount": 19,
+      "dLength": 13290,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "WallClock",
+      "group": "time",
+      "pathCount": 19,
+      "dLength": 11166,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Wristwatch",
+      "group": "time",
+      "pathCount": 9,
+      "dLength": 8080,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "CeilingLight",
+      "group": "world",
+      "pathCount": 8,
+      "dLength": 7503,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "ComfyChair",
+      "group": "world",
+      "pathCount": 11,
+      "dLength": 14605,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Door",
+      "group": "world",
+      "pathCount": 6,
+      "dLength": 5272,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "DrinkCup",
+      "group": "world",
+      "pathCount": 7,
+      "dLength": 3305,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Moon",
+      "group": "world",
+      "pathCount": 2,
+      "dLength": 1327,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Plant",
+      "group": "world",
+      "pathCount": 11,
+      "dLength": 17670,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Sun",
+      "group": "world",
+      "pathCount": 10,
+      "dLength": 6090,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Window",
+      "group": "world",
+      "pathCount": 5,
+      "dLength": 2002,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "CasinoChip",
+      "group": "casino",
+      "pathCount": 9,
+      "dLength": 6938,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "CasinoSign",
+      "group": "casino",
+      "pathCount": 18,
+      "dLength": 21047,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "CeilingLightRow",
+      "group": "casino",
+      "pathCount": 25,
+      "dLength": 32416,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "ChipStack",
+      "group": "casino",
+      "pathCount": 10,
+      "dLength": 24153,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Dice",
+      "group": "casino",
+      "pathCount": 12,
+      "dLength": 15307,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "PlayingCards",
+      "group": "casino",
+      "pathCount": 22,
+      "dLength": 22611,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "RouletteTable",
+      "group": "casino",
+      "pathCount": 21,
+      "dLength": 20447,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "SlotMachine",
+      "group": "casino",
+      "pathCount": 35,
+      "dLength": 46966,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "SlotMachineRow",
+      "group": "casino",
+      "pathCount": 103,
+      "dLength": 146514,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Cash",
+      "group": "money",
+      "pathCount": 9,
+      "dLength": 9540,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "EmptyCup",
+      "group": "money",
+      "pathCount": 10,
+      "dLength": 11247,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "EmptyWallet",
+      "group": "money",
+      "pathCount": 16,
+      "dLength": 21900,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Receipt",
+      "group": "money",
+      "pathCount": 10,
+      "dLength": 4724,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "TrashPile",
+      "group": "money",
+      "pathCount": 22,
+      "dLength": 30133,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Wallet",
+      "group": "money",
+      "pathCount": 11,
+      "dLength": 8026,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Arrow",
+      "group": "fx",
+      "pathCount": 3,
+      "dLength": 2179,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "AttentionLines",
+      "group": "fx",
+      "pathCount": 9,
+      "dLength": 4990,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "DizzySpiral",
+      "group": "fx",
+      "pathCount": 1,
+      "dLength": 4246,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "ExclamationMark",
+      "group": "fx",
+      "pathCount": 3,
+      "dLength": 2728,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "ImpactStar",
+      "group": "fx",
+      "pathCount": 2,
+      "dLength": 7699,
+      "issues": [],
+      "warnings": [
+        "SMEAR: 3850 chars per rough path — check the contact sheet"
+      ]
+    },
+    {
+      "id": "MotionLines",
+      "group": "fx",
+      "pathCount": 4,
+      "dLength": 3172,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "QuestionMark",
+      "group": "fx",
+      "pathCount": 3,
+      "dLength": 3038,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "Sparkles",
+      "group": "fx",
+      "pathCount": 10,
+      "dLength": 3775,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "SweatDrops",
+      "group": "fx",
+      "pathCount": 3,
+      "dLength": 687,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "ThoughtCloud",
+      "group": "fx",
+      "pathCount": 6,
+      "dLength": 14016,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "neutral",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44034,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "walkA",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 43914,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "walkB",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 43977,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "pointing",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44158,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "thinking",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 43965,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "confused",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44041,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "surprised",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44073,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "suspicious",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 43892,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "sitting",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44088,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gambling",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44064,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "pressingButton",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44060,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "checkingWallet",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 43966,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "exhausted",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44115,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "exhaustedSitting",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44124,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dizzy",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44133,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "realization",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44175,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "relaxed",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44170,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "horrified",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44231,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "holdingObject",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 43680,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "holdingHeavy",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44055,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "lookLeft",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44069,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "lookRight",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 44055,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "turningBack",
+      "group": "pose",
+      "pathCount": 30,
+      "dLength": 43885,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "neutral",
+      "group": "expression",
+      "pathCount": 30,
+      "dLength": 44060,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "curious",
+      "group": "expression",
+      "pathCount": 31,
+      "dLength": 48697,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "confused",
+      "group": "expression",
+      "pathCount": 30,
+      "dLength": 44282,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "happy",
+      "group": "expression",
+      "pathCount": 26,
+      "dLength": 31323,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "focused",
+      "group": "expression",
+      "pathCount": 24,
+      "dLength": 30504,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "suspicious",
+      "group": "expression",
+      "pathCount": 24,
+      "dLength": 30780,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "shocked",
+      "group": "expression",
+      "pathCount": 32,
+      "dLength": 51392,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "exhausted",
+      "group": "expression",
+      "pathCount": 36,
+      "dLength": 46433,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "horrified",
+      "group": "expression",
+      "pathCount": 34,
+      "dLength": 52268,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "smug",
+      "group": "expression",
+      "pathCount": 24,
+      "dLength": 30683,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dizzy",
+      "group": "expression",
+      "pathCount": 24,
+      "dLength": 32725,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "content",
+      "group": "expression",
+      "pathCount": 24,
+      "dLength": 30865,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "deadpan",
+      "group": "expression",
+      "pathCount": 26,
+      "dLength": 34582,
+      "issues": [],
+      "warnings": []
+    }
+  ]
+}

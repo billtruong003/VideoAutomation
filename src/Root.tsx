@@ -6,6 +6,7 @@ import { TOTAL_FRAMES } from './lib/timing';
 import { CasinoClocks } from './video/CasinoClocks';
 import { CharacterSheet } from './qa/CharacterSheet';
 import { AssetSheet } from './qa/AssetSheet';
+import { StyleProbe } from './qa/StyleProbe';
 import { BackgroundSheet } from './qa/BackgroundSheet';
 
 export const RemotionRoot: React.FC = () => (
@@ -19,6 +20,14 @@ export const RemotionRoot: React.FC = () => (
       height={VIDEO.height}
     />
     {/* QA-only: the pose/expression contact sheet. Not part of the episode. */}
+    <Composition
+      id="StyleProbe"
+      component={StyleProbe}
+      durationInFrames={1}
+      fps={VIDEO.fps}
+      width={VIDEO.width}
+      height={VIDEO.height}
+    />
     <Composition
       id="AssetSheet"
       component={AssetSheet}

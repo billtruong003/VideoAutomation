@@ -1,233 +1,239 @@
 /**
- * casino.tsx — the generic casino-floor prop set.
+ * casino.tsx — the generic casino-floor prop set. V2: clean geometry, stylized by the renderer.
  *
- * Nothing here depicts a real venue, a real machine model or a real brand: these are
- * the *idea* of a slot machine, a chip, a wheel — scribbled fast, coloured past the
- * lines. Anything a scene needs to animate (lights on, lever pulled, reels showing a
- * particular glyph) is a prop of the component, never internal state.
+ * Nothing here depicts a real venue, a real machine model or a real brand: these are the
+ * *idea* of a slot machine, a chip, a wheel. In V1 that idea was chased by drawing badly
+ * on purpose — lopsided beziers, offset fills, hand-picked jitter. V2 does the opposite:
+ *
+ *      DESIGN CLEANLY.  RENDER IMPERFECTLY.
+ *
+ * A chip is a circle with six edge dashes. A die is a rounded square with round pips. A
+ * slot machine is a cabinet, a glass panel, three windows, a button, a tray and a lever.
+ * Every trace of hand-drawn-ness arrives later, from `RoughAsset`, identically for every
+ * asset in the channel.
+ *
+ * Two conventions worth knowing before editing:
+ *
+ *  1. Anything that ROTATES or ANIMATES is its own `AssetDef`, placed inside a `<g
+ *     transform="rotate(...)">`. The cached roughened geometry then never changes while
+ *     the part moves. (The slot lever; see `time.tsx` for the same trick on clock hands.)
+ *
+ *  2. Anything that TOGGLES — the `lit` bulbs — keeps the SAME def `id` across both
+ *     states. The id is the Rough.js seed, so sharing it means flipping the lights
+ *     repaints the bulbs without redrawing them: the sketch stays put, only the fill
+ *     changes. Two different ids would make the outlines jump on every flash.
  */
 
 import React from 'react';
-import { PALETTE, STROKE, HAND_STROKE, FONTS } from '../lib/style';
-import { DoodleProp, type DoodlePropProps } from '../components/DoodleProp';
-
-/** The wrapper contract minus `children` — every prop below draws its own art. */
-type PropArgs = Omit<DoodlePropProps, 'children'>;
+import { RoughAsset } from '../assets/RoughAsset';
+import { PropFrame, type PropArgs } from '../assets/PropFrame';
+import { PALETTE, FONTS } from '../style/tokens';
+import { ring, spoke, roundedRect, TINY, type AssetDef, type Pt, type Shape } from '../assets/shapes';
 
 // ---------------------------------------------------------------------------
-// helpers
+// authoring helpers
 // ---------------------------------------------------------------------------
+
+/** Evenly spaced points along a straight edge, inset half a step from each end. */
+const alongEdge = (a: Pt, b: Pt, count: number): Pt[] =>
+  Array.from({ length: count }, (_, i) => {
+    const t = (i + 0.5) / count;
+    return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t] as Pt;
+  });
+
+/** Evenly spaced points along a circular arc, inclusive of both ends — a marquee sweep. */
+const alongArc = (
+  cx: number,
+  cy: number,
+  r: number,
+  count: number,
+  fromDeg: number,
+  toDeg: number,
+): Pt[] =>
+  Array.from({ length: count }, (_, i) => {
+    const t = count === 1 ? 0.5 : i / (count - 1);
+    const a = ((fromDeg + (toDeg - fromDeg) * t) * Math.PI) / 180;
+    return [cx + Math.cos(a) * r, cy + Math.sin(a) * r] as Pt;
+  });
 
 /**
- * A lopsided bezier "potato" — the channel's stand-in for a circle. `k` picks a
- * different deterministic squash so two potatoes side by side are never twins.
+ * A run of marquee bulbs. Lit is a solid gold disc with an ink rim; unlit is a bare grey
+ * outline — the whole visual difference between "open" and "closed".
  */
-const potato = (cx: number, cy: number, rx: number, ry: number, k = 0): string => {
-  const C = 0.5523;
-  const J = [1.07, 0.93, 1.04, 0.96, 1.05, 0.95];
-  const j = (i: number) => J[(i + k) % J.length];
-  const rR = rx * j(0);
-  const rT = ry * j(1);
-  const rL = rx * j(2);
-  const rB = ry * j(3);
-  const n = (v: number) => v.toFixed(2);
-  const xR = cx + rR;
-  const xL = cx - rL;
-  const yT = cy - rT;
-  const yB = cy + rB;
-  return [
-    `M ${n(xR)} ${n(cy + ry * 0.05)}`,
-    `C ${n(xR)} ${n(cy - rT * C)} ${n(cx + rR * C)} ${n(yT)} ${n(cx - rx * 0.05)} ${n(yT)}`,
-    `C ${n(cx - rL * C)} ${n(yT)} ${n(xL)} ${n(cy - rB * C)} ${n(xL)} ${n(cy + ry * 0.03)}`,
-    `C ${n(xL)} ${n(cy + rB * C)} ${n(cx - rL * C)} ${n(yB)} ${n(cx + rx * 0.04)} ${n(yB)}`,
-    `C ${n(cx + rR * C)} ${n(yB)} ${n(xR)} ${n(cy + rT * C)} ${n(xR)} ${n(cy + ry * 0.05)}`,
-    'Z',
-  ].join(' ');
-};
-
-/** Many potatoes welded into one path `d`, so a ring of bulbs costs 2 elements. */
-const potatoes = (pts: ReadonlyArray<readonly [number, number]>, rx: number, ry: number): string =>
-  pts.map(([cx, cy], i) => potato(cx, cy, rx, ry, i)).join(' ');
+const bulbs = (pts: Pt[], r: number, lit: boolean, sw = 2.4): Shape[] =>
+  pts.map(([cx, cy]) => ({
+    k: 'circle' as const,
+    cx,
+    cy,
+    r,
+    fill: lit ? PALETTE.gold : undefined,
+    stroke: lit ? PALETTE.ink : PALETTE.greyDeep,
+    rough: 'detail' as const,
+    sw,
+    single: true,
+  }));
 
 // ---------------------------------------------------------------------------
-// slot machine
+// reel glyphs — geometric symbols, never letterforms
 // ---------------------------------------------------------------------------
 
-/** One reel glyph — a shape, never a letterform, so it reads at thumbnail size. */
-const ReelGlyph: React.FC<{ kind: string }> = ({ kind }) => {
-  const out = (d: string, w: number = STROKE.propFine) => (
-    <path d={d} stroke={PALETTE.ink} strokeWidth={w} {...HAND_STROKE} />
-  );
-  switch (kind) {
-    case 'cherry': {
-      const d = potato(-4, 4.5, 3.9, 3.5, 0) + ' ' + potato(4.6, 5.6, 3.6, 3.3, 3);
-      return (
-        <>
-          <path d={d} fill={PALETTE.coral} transform="translate(1.4 1.2)" />
-          {out(d)}
-          {out('M -3.4 1.2 C -2 -4 1.2 -7.2 5.2 -8.2 M 4.4 2.4 C 5.2 -2 5.6 -5.6 5.2 -8.2', STROKE.fine)}
-        </>
-      );
-    }
-    case 'bell': {
-      const d =
-        'M 0.4 -9 C 5.2 -8.4 7.6 -4 7.1 1 C 6.9 4 7.6 5.6 8.6 6.6 L -8.4 6.9 ' +
-        'C -7.3 5.7 -6.7 4 -6.9 1 C -7.4 -4.2 -4.6 -8.6 0.4 -9 Z';
-      return (
-        <>
-          <path d={d} fill={PALETTE.gold} transform="translate(1.6 1.4)" />
-          {out(d)}
-          <path d={potato(0.2, 9, 2.4, 2, 2)} fill={PALETTE.ink} />
-        </>
-      );
-    }
-    case 'star': {
-      const d =
-        'M 0 -9.4 L 2.7 -2.9 L 9.5 -2.3 L 4.2 2 L 6.1 8.7 L -0.2 4.8 ' +
-        'L -5.8 8.9 L -4.1 2 L -9.4 -2.7 L -2.6 -3.1 Z';
-      return (
-        <>
-          <path d={d} fill={PALETTE.gold} transform="translate(1.5 1.4)" />
-          {out(d)}
-        </>
-      );
-    }
-    case 'lemon': {
-      const d = potato(0, 0.5, 8, 6.2, 2);
-      return (
-        <>
-          <path d={d} fill={PALETTE.gold} transform="translate(1.6 1.3)" />
-          {out(d)}
-          {out('M 6.8 -4.4 C 8.6 -6.4 9.4 -7.2 9.8 -8.4', STROKE.fine)}
-        </>
-      );
-    }
-    case 'diamond': {
-      const d =
-        'M 0.3 -9.2 C 3.2 -4 6.2 -1 8.2 0.2 C 5 2.2 2 5.2 0 9.2 ' +
-        'C -2.2 5 -5.2 2 -8.2 0 C -5 -1.2 -2.8 -4.2 0.3 -9.2 Z';
-      return (
-        <>
-          <path d={d} fill={PALETTE.teal} transform="translate(1.5 1.4)" />
-          {out(d)}
-        </>
-      );
-    }
-    case 'seven':
-      return (
-        <>
-          {out('M -6.4 -7.4 L 7.2 -8 L 0.4 8.6', STROKE.prop)}
-          {out('M -3.2 0.6 L 4 0.2', STROKE.fine)}
-        </>
-      );
-    default: {
-      // "bar" — the safe fallback for any unknown glyph name
-      const d = 'M -9.2 -4.4 L 9 -5 L 9.6 4 L -8.6 4.8 Z';
-      return (
-        <>
-          <path d={d} fill={PALETTE.violet} transform="translate(1.6 1.4)" />
-          {out(d)}
-          {out('M -6 0.2 L 6.6 -0.4', STROKE.fine)}
-        </>
-      );
-    }
-  }
+/** Five-point star: outer and inner rings of five, interleaved. */
+const STAR_INNER = ring(0, 0, 4.2, 5, -54);
+const STAR_PTS: Pt[] = ring(0, 0, 9.4, 5).flatMap((p, i) => [p, STAR_INNER[i]]);
+
+const BAR_GLYPH: AssetDef = {
+  id: 'prop-reel-bar',
+  size: { w: 20, h: 20 },
+  shapes: [
+    { k: 'rect', x: -9, y: -4.6, w: 18, h: 9.2, fill: PALETTE.violet, rough: 'detail', sw: 2.6 },
+    { k: 'line', x1: -6, y1: 0, x2: 6, y2: 0, stroke: PALETTE.paper, rough: 'detail', sw: 2, single: true },
+  ],
 };
 
-const SLOT_BODY =
-  'M -50 3 C -54 -28 -55.5 -78 -53 -116 C -52 -140 -43 -151 -21 -154.5 ' +
-  'C 2 -158 25 -156.5 40.5 -151 C 52 -147 55.5 -135 54 -113.5 ' +
-  'C 52 -76 51 -28 49 2.5 Z';
+const REEL_GLYPHS: Record<string, AssetDef> = {
+  cherry: {
+    id: 'prop-reel-cherry',
+    size: { w: 20, h: 20 },
+    shapes: [
+      { k: 'curve', pts: [[-4, 3], [-1.4, -3.4], [2.6, -7.4], [5, -9]], rough: 'detail', sw: 2, single: true },
+      { k: 'curve', pts: [[4.6, 4], [5.6, -2], [5.4, -6.6], [5, -9]], rough: 'detail', sw: 2, single: true },
+      { k: 'circle', cx: -4, cy: 4.5, r: 3.8, fill: PALETTE.coral, rough: 'detail', sw: 2.4, ...TINY },
+      { k: 'circle', cx: 4.6, cy: 5.6, r: 3.5, fill: PALETTE.coral, rough: 'detail', sw: 2.4, ...TINY },
+    ],
+  },
+  bell: {
+    id: 'prop-reel-bell',
+    size: { w: 20, h: 20 },
+    shapes: [
+      { k: 'path', d: 'M -7 6 V -1 A 7 7 0 0 1 7 -1 V 6 Z', fill: PALETTE.gold, rough: 'detail', sw: 2.6 },
+      { k: 'line', x1: -8.6, y1: 6, x2: 8.6, y2: 6, rough: 'detail', sw: 2.4, single: true },
+      { k: 'circle', cx: 0, cy: 8.6, r: 2.2, fill: PALETTE.ink, rough: 'detail', sw: 2, ...TINY },
+    ],
+  },
+  star: {
+    id: 'prop-reel-star',
+    size: { w: 20, h: 20 },
+    shapes: [{ k: 'polygon', pts: STAR_PTS, fill: PALETTE.gold, rough: 'detail', sw: 2.6 }],
+  },
+  lemon: {
+    id: 'prop-reel-lemon',
+    size: { w: 20, h: 20 },
+    shapes: [
+      { k: 'ellipse', cx: 0, cy: 0.5, rx: 8, ry: 6.2, fill: PALETTE.gold, rough: 'detail', sw: 2.6 },
+      { k: 'line', x1: 6.4, y1: -4, x2: 9.2, y2: -7.4, rough: 'detail', sw: 2, single: true },
+    ],
+  },
+  diamond: {
+    id: 'prop-reel-diamond',
+    size: { w: 20, h: 20 },
+    shapes: [
+      { k: 'polygon', pts: [[0, -9.2], [8.2, 0], [0, 9.2], [-8.2, 0]], fill: PALETTE.teal, rough: 'detail', sw: 2.6 },
+    ],
+  },
+  seven: {
+    id: 'prop-reel-seven',
+    size: { w: 20, h: 20 },
+    shapes: [
+      { k: 'polyline', pts: [[-6.4, -7.4], [7, -7.4], [0.4, 8.6]], rough: 'detail', sw: 3.2, single: true },
+      { k: 'line', x1: -3.4, y1: 0.4, x2: 3.8, y2: 0.4, rough: 'detail', sw: 2.2, single: true },
+    ],
+  },
+  bar: BAR_GLYPH,
+};
 
-const SLOT_PANEL = 'M -41 -120 L 40 -122.5 L 42.5 -70 L -39 -67 Z';
+const glyphFor = (kind: string): AssetDef => REEL_GLYPHS[kind] ?? BAR_GLYPH;
 
-const slotWindow = (cx: number, i: number) =>
-  `M ${cx - 11.5} ${-113 - i * 0.6} L ${cx + 11} ${-114.5 - i * 0.4} ` +
-  `L ${cx + 10.6} ${-77 + i * 0.5} L ${cx - 11.8} ${-75.6 + i * 0.6} Z`;
+// ---------------------------------------------------------------------------
+// slot machine — ~110 x 160, origin on the floor at its centre
+// ---------------------------------------------------------------------------
 
-const SLOT_WINDOWS = [-26, -0.5, 25].map((cx, i) => slotWindow(cx, i)).join(' ');
+const REEL_X = [-26, 0, 26];
+const REEL_Y = -97;
 
-const SLOT_BULB_POS: ReadonlyArray<readonly [number, number]> = [
-  [-45, -128],
-  [-38.5, -142],
-  [-23, -151.5],
-  [-3, -155],
-  [17, -153],
-  [34.5, -146],
-  [46, -134],
-];
-const SLOT_BULBS = potatoes(SLOT_BULB_POS, 5.4, 5);
+/** Seven bulbs sweeping across the cabinet's crown. */
+const SLOT_BULB_PTS = alongArc(0, -100, 48, 7, -158, -22);
 
-const SLOT_TRAY = 'M -25 -22 L 24.5 -24 L 26 -8 L -26 -6 Z';
+const SLOT: AssetDef = {
+  id: 'prop-slot-machine',
+  size: { w: 110, h: 160 },
+  shapes: [
+    // cabinet
+    { ...roundedRect(-52, -156, 104, 158, 12), fill: PALETTE.grey },
+    // glass panel
+    { ...roundedRect(-42, -126, 84, 58, 6), fill: PALETTE.paper, rough: 'detail', sw: 3.2 },
+    // three reel windows
+    ...REEL_X.map((cx) => ({
+      ...roundedRect(cx - 11, -120, 22, 46, 3),
+      fill: PALETTE.paperShade,
+      rough: 'detail' as const,
+      sw: 2.6,
+    })),
+    // spin button
+    { k: 'circle', cx: 0, cy: -46, r: 13, fill: PALETTE.coral },
+    // payout tray
+    { ...roundedRect(-26, -26, 52, 18, 4), fill: PALETTE.greyDeep, rough: 'detail', sw: 3 },
+  ],
+};
+
+/** Both bulb states share one id, so lighting up never redraws the sketch. */
+const SLOT_BULBS_LIT: AssetDef = { id: 'prop-slot-bulbs', shapes: bulbs(SLOT_BULB_PTS, 5, true) };
+const SLOT_BULBS_OFF: AssetDef = { id: 'prop-slot-bulbs', shapes: bulbs(SLOT_BULB_PTS, 5, false) };
+
+/** The lever is its own def because it rotates — see the file header. */
+const lever = (knob: string): AssetDef => ({
+  id: 'prop-slot-lever',
+  size: { w: 18, h: 44 },
+  shapes: [
+    { k: 'line', x1: 0, y1: 2, x2: 0, y2: -30, rough: 'detail', sw: 4.2 },
+    { k: 'circle', cx: 0, cy: -37, r: 8, fill: knob, rough: 'detail', sw: 3 },
+  ],
+});
+const SLOT_LEVER_LIT = lever(PALETTE.gold);
+const SLOT_LEVER_OFF = lever(PALETTE.coral);
+
+export type SlotSymbols = [string, string, string];
 
 type SlotArtProps = {
   lit: boolean;
   reelSymbols: readonly [string, string, string];
   leverAngle: number;
+  /** Seed namespace, so two machines in one shot are the same object drawn twice. */
+  ns: string;
 };
 
-/** The slot machine drawing itself, shared by the single machine and the row. */
-const SlotMachineArt: React.FC<SlotArtProps> = ({ lit, reelSymbols, leverAngle }) => {
-  const ink = PALETTE.ink;
-  const bulbTone = lit ? PALETTE.gold : PALETTE.greyDeep;
-  return (
-    <>
-      {/* cabinet */}
-      <path d={SLOT_BODY} fill={PALETTE.grey} transform="translate(2.6 2.2)" />
-      <path d={SLOT_BODY} fill="none" stroke={ink} strokeWidth={STROKE.prop} strokeLinejoin="round" />
-
-      {/* glass panel */}
-      <path d={SLOT_PANEL} fill={PALETTE.paper} transform="translate(2.2 1.8)" />
-      <path d={SLOT_PANEL} fill="none" stroke={ink} strokeWidth={STROKE.propFine} strokeLinejoin="round" />
-
-      {/* three reel windows */}
-      <path d={SLOT_WINDOWS} fill={PALETTE.paperShade} transform="translate(2 1.6)" />
-      <path d={SLOT_WINDOWS} fill="none" stroke={ink} strokeWidth={STROKE.propFine} strokeLinejoin="round" />
-
-      <g transform="translate(-26 -95)">
-        <ReelGlyph kind={reelSymbols[0]} />
+/** The machine itself, without a frame — shared by the single machine and the row. */
+const SlotArt: React.FC<SlotArtProps> = ({ lit, reelSymbols, leverAngle, ns }) => (
+  <>
+    <RoughAsset def={SLOT} variant={ns} />
+    {reelSymbols.map((kind, i) => (
+      <g key={i} transform={`translate(${REEL_X[i]} ${REEL_Y})`}>
+        <RoughAsset def={glyphFor(kind)} variant={`${ns}-r${i}`} />
       </g>
-      <g transform="translate(-0.5 -95.5) rotate(-3)">
-        <ReelGlyph kind={reelSymbols[1]} />
-      </g>
-      <g transform="translate(25 -94.5) rotate(2)">
-        <ReelGlyph kind={reelSymbols[2]} />
-      </g>
-
-      {/* big round button */}
-      <path d={potato(-1, -45, 14.5, 12.5, 1)} fill={PALETTE.coral} transform="translate(2.4 2)" />
-      <path d={potato(-1, -45, 14.5, 12.5, 1)} fill="none" stroke={ink} strokeWidth={STROKE.prop} />
-      <path d="M -9 -50 C -6 -53.5 0 -54.5 5 -52.5" stroke={PALETTE.paper} strokeWidth={STROKE.fine} {...HAND_STROKE} />
-
-      {/* payout tray */}
-      <path d={SLOT_TRAY} fill={PALETTE.greyDeep} transform="translate(2.2 2)" />
-      <path d={SLOT_TRAY} fill="none" stroke={ink} strokeWidth={STROKE.propFine} strokeLinejoin="round" />
-
-      {/* marquee bulbs */}
-      <path d={SLOT_BULBS} fill={lit ? PALETTE.gold : 'none'} transform={lit ? 'translate(1.8 1.6)' : undefined} />
-      <path d={SLOT_BULBS} fill="none" stroke={lit ? ink : bulbTone} strokeWidth={STROKE.propFine} />
-
-      {/* pull lever — pivots on the cabinet's right shoulder */}
-      <g transform={`translate(53 -110) rotate(${leverAngle})`}>
-        <path d="M 0 2 C 7 -8 13 -20 17.5 -33" stroke={ink} strokeWidth={STROKE.prop} {...HAND_STROKE} />
-        <path d={potato(18.5, -36, 8, 7.4, 2)} fill={lit ? PALETTE.gold : PALETTE.coral} transform="translate(2 1.8)" />
-        <path d={potato(18.5, -36, 8, 7.4, 2)} fill="none" stroke={ink} strokeWidth={STROKE.propFine} />
-      </g>
-    </>
-  );
-};
+    ))}
+    <RoughAsset def={lit ? SLOT_BULBS_LIT : SLOT_BULBS_OFF} variant={ns} />
+    <g transform={`translate(52 -112) rotate(${leverAngle})`}>
+      <RoughAsset def={lit ? SLOT_LEVER_LIT : SLOT_LEVER_OFF} variant={ns} />
+    </g>
+  </>
+);
 
 /** A generic upright slot machine — three reels, one button, one lever. */
 export const SlotMachine: React.FC<
   PropArgs & {
     lit?: boolean;
-    reelSymbols?: [string, string, string];
+    reelSymbols?: SlotSymbols;
     leverAngle?: number;
   }
-> = ({ lit = false, reelSymbols = ['cherry', 'seven', 'bar'], leverAngle = 0, ...rest }) => (
-  <DoodleProp seed="slot-machine" {...rest}>
-    <SlotMachineArt lit={lit} reelSymbols={reelSymbols} leverAngle={leverAngle} />
-  </DoodleProp>
+> = ({
+  lit = false,
+  reelSymbols = ['cherry', 'seven', 'bar'],
+  leverAngle = 0,
+  seed = 'slot-machine',
+  ...rest
+}) => (
+  <PropFrame seed={seed} {...rest}>
+    <SlotArt lit={lit} reelSymbols={reelSymbols} leverAngle={leverAngle} ns={seed} />
+  </PropFrame>
 );
 
 const ROW_GLYPHS: ReadonlyArray<readonly [string, string, string]> = [
@@ -242,28 +248,27 @@ const ROW_GLYPHS: ReadonlyArray<readonly [string, string, string]> = [
 export const SlotMachineRow: React.FC<PropArgs & { count?: number; lit?: boolean }> = ({
   count = 3,
   lit = false,
+  seed = 'slot-row',
   ...rest
 }) => {
   const n = Math.max(1, Math.round(count));
   return (
-    <DoodleProp seed="slot-row" {...rest}>
+    <PropFrame seed={seed} {...rest}>
       {Array.from({ length: n }, (_, i) => {
         const s = 1 - i * 0.055;
-        const x = (i - (n - 1) / 2) * 104 + i * 2.5;
+        const x = (i - (n - 1) / 2) * 106;
         return (
-          <g
-            key={i}
-            transform={`translate(${x.toFixed(2)} ${(-i * 3.5).toFixed(2)}) scale(${s.toFixed(3)}) rotate(${(i % 2 === 0 ? -0.9 : 1.2).toFixed(2)})`}
-          >
-            <SlotMachineArt
+          <g key={i} transform={`translate(${x.toFixed(2)} ${(-i * 3.5).toFixed(2)}) scale(${s.toFixed(3)})`}>
+            <SlotArt
               lit={lit}
               reelSymbols={ROW_GLYPHS[i % ROW_GLYPHS.length]}
               leverAngle={i % 3 === 1 ? 14 : -4}
+              ns={`${seed}-${i}`}
             />
           </g>
         );
       })}
-    </DoodleProp>
+    </PropFrame>
   );
 };
 
@@ -271,32 +276,45 @@ export const SlotMachineRow: React.FC<PropArgs & { count?: number; lit?: boolean
 // chips
 // ---------------------------------------------------------------------------
 
-const CHIP_OUT = potato(0, 0, 13, 12.4, 0);
-const CHIP_IN = potato(0.4, 0.3, 7.2, 6.8, 3);
-/** Six edge dashes at hand-drawn angles — the thing that says "chip" instantly. */
-const CHIP_DASHES = [0, 62, 118, 178, 242, 302]
-  .map((deg, i) => {
-    const a = ((deg + i * 1.4) * Math.PI) / 180;
-    const c = Math.cos(a);
-    const s = Math.sin(a);
-    return `M ${(c * 8.4).toFixed(2)} ${(s * 8).toFixed(2)} L ${(c * 13.4).toFixed(2)} ${(s * 12.6).toFixed(2)}`;
-  })
-  .join(' ');
+/** Six edge dashes — the one detail that makes a disc read as a chip instantly. */
+const CHIP_DASHES: Shape[] = [0, 60, 120, 180, 240, 300].map((deg) => ({
+  ...spoke(0, 0, 8.6, 13.2, deg),
+  stroke: PALETTE.paper,
+  rough: 'detail' as const,
+  sw: 3,
+  single: true,
+}));
+
+const chipDef = (color: string): AssetDef => ({
+  id: 'prop-casino-chip',
+  size: { w: 26, h: 26 },
+  shapes: [
+    { k: 'circle', cx: 0, cy: 0, r: 13, fill: color },
+    ...CHIP_DASHES,
+    { k: 'circle', cx: 0, cy: 0, r: 7.2, rough: 'detail', sw: 2.6, single: true },
+  ],
+});
 
 /** A single casino chip, ~26 units across, with the classic edge dashes. */
 export const CasinoChip: React.FC<PropArgs & { color?: string }> = ({
   color = PALETTE.coral,
+  seed = 'casino-chip',
   ...rest
 }) => (
-  <DoodleProp seed="casino-chip" {...rest}>
-    <path d={CHIP_OUT} fill={color} transform="translate(2.2 1.9)" />
-    <path d={CHIP_OUT} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.prop} />
-    <path d={CHIP_DASHES} stroke={PALETTE.paper} strokeWidth={STROKE.detail} {...HAND_STROKE} />
-    <path d={CHIP_IN} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} />
-  </DoodleProp>
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset def={chipDef(color)} variant={seed} />
+  </PropFrame>
 );
 
-const CHIP_DISC = potato(0, 0, 13, 4.6, 1);
+/** One chip seen edge-on. Its own def so a stack is N cheap instances of one drawing. */
+const chipDiscDef = (color: string): AssetDef => ({
+  id: 'prop-chip-disc',
+  size: { w: 26, h: 9 },
+  shapes: [
+    { k: 'ellipse', cx: 0, cy: 0, rx: 13, ry: 4.6, fill: color, rough: 'detail', sw: 3.2 },
+  ],
+});
+
 const DEFAULT_STACK: readonly string[] = [
   PALETTE.coral,
   PALETTE.gold,
@@ -308,214 +326,275 @@ const DEFAULT_STACK: readonly string[] = [
 /** A stack of chips seen edge-on — the winnings, or what's left of them. */
 export const ChipStack: React.FC<PropArgs & { count?: number; colors?: string[] }> = ({
   count = 5,
-  colors = DEFAULT_STACK as string[],
+  colors,
+  seed = 'chip-stack',
   ...rest
 }) => {
   const n = Math.max(1, Math.round(count));
-  const tones = colors.length > 0 ? colors : (DEFAULT_STACK as string[]);
+  const tones = colors && colors.length > 0 ? colors : (DEFAULT_STACK as string[]);
   return (
-    <DoodleProp seed="chip-stack" {...rest}>
-      {Array.from({ length: n }, (_, i) => {
-        // stacked bottom-up, each chip nudged so the tower leans like a real one
-        const y = -i * 7.4;
-        const x = i * 0.7 - (i % 2) * 1.4;
-        return (
-          <g key={i} transform={`translate(${x.toFixed(2)} ${y.toFixed(2)}) rotate(${(i % 2 === 0 ? -1.1 : 1.3).toFixed(2)})`}>
-            <path d={CHIP_DISC} fill={tones[i % tones.length]} transform="translate(2 1.6)" />
-            <path d={CHIP_DISC} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} />
-          </g>
-        );
-      })}
-    </DoodleProp>
+    <PropFrame seed={seed} {...rest}>
+      {Array.from({ length: n }, (_, i) => (
+        <g key={i} transform={`translate(0 ${(-i * 7.4).toFixed(2)})`}>
+          <RoughAsset def={chipDiscDef(tones[i % tones.length])} variant={`${seed}-${i}`} />
+        </g>
+      ))}
+    </PropFrame>
   );
 };
 
 // ---------------------------------------------------------------------------
-// roulette
+// roulette — ~140 wide, seen flat-on from above
 // ---------------------------------------------------------------------------
 
-const TABLE_TOP = potato(0, 0, 70, 27, 0);
-const WHEEL_OUT = potato(-34, -1, 27, 14, 2);
-const WHEEL_IN = potato(-34, -1, 13, 6.6, 4);
-/** Eight pocket dividers, drawn as one path so the wheel stays cheap. */
-const WHEEL_SPOKES = [0, 45, 90, 135, 180, 225, 270, 315]
-  .map((deg, i) => {
-    const a = ((deg + i * 2) * Math.PI) / 180;
-    const c = Math.cos(a);
-    const s = Math.sin(a);
-    return `M ${(-34 + c * 13).toFixed(2)} ${(-1 + s * 6.6).toFixed(2)} L ${(-34 + c * 26.4).toFixed(2)} ${(-1 + s * 13.6).toFixed(2)}`;
-  })
-  .join(' ');
-const BET_GRID =
-  'M 6 -16 C 26 -19 48 -18.5 63 -14 M 5 -3 C 26 -6 48 -5 63 -1 M 6 10 C 26 7.5 47 8 61 12 ' +
-  'M 20 -18 C 21.5 -6 21 3 20.5 12 M 40 -18.5 C 41 -6 41.5 3 40 12';
+const WHEEL = { cx: -34, cy: -1, rx: 27, ry: 14, hubRx: 13, hubRy: 6.6 };
+
+/** A pocket divider: hub edge to rim, along the wheel's ellipse. */
+const pocketDivider = (deg: number): Shape => {
+  const a = (deg * Math.PI) / 180;
+  return {
+    k: 'line',
+    x1: WHEEL.cx + Math.cos(a) * WHEEL.hubRx,
+    y1: WHEEL.cy + Math.sin(a) * WHEEL.hubRy,
+    x2: WHEEL.cx + Math.cos(a) * WHEEL.rx,
+    y2: WHEEL.cy + Math.sin(a) * WHEEL.ry,
+    rough: 'detail',
+    sw: 2.2,
+    single: true,
+  };
+};
+
+/** The betting layout — three rows, three columns, drawn as plain rules. */
+const BET_GRID: Shape[] = [
+  ...[-16, -3, 10].map((y) => ({
+    k: 'line' as const, x1: 6, y1: y, x2: 63, y2: y,
+    stroke: PALETTE.inkSoft, rough: 'detail' as const, sw: 2, single: true,
+  })),
+  ...[21, 40].map((x) => ({
+    k: 'line' as const, x1: x, y1: -18, x2: x, y2: 12,
+    stroke: PALETTE.inkSoft, rough: 'detail' as const, sw: 2, single: true,
+  })),
+];
+
+const ROULETTE: AssetDef = {
+  id: 'prop-roulette-table',
+  size: { w: 140, h: 54 },
+  shapes: [
+    { k: 'ellipse', cx: 0, cy: 0, rx: 70, ry: 27, fill: PALETTE.grey },
+    ...BET_GRID,
+    { k: 'ellipse', cx: WHEEL.cx, cy: WHEEL.cy, rx: WHEEL.rx, ry: WHEEL.ry, fill: PALETTE.gold },
+    ...[0, 45, 90, 135, 180, 225, 270, 315].map(pocketDivider),
+    { k: 'ellipse', cx: WHEEL.cx, cy: WHEEL.cy, rx: WHEEL.hubRx, ry: WHEEL.hubRy, fill: PALETTE.paperShade, rough: 'detail', sw: 2.8 },
+    // the ball, resting in a pocket
+    { k: 'circle', cx: -24, cy: -9.5, r: 3, fill: PALETTE.coral, rough: 'detail', sw: 2, ...TINY },
+  ],
+};
 
 /** A flat-on roulette table with its wheel — the anchor prop for the floor shots. */
-export const RouletteTable: React.FC<PropArgs> = (rest) => (
-  <DoodleProp seed="roulette-table" {...rest}>
-    <path d={TABLE_TOP} fill={PALETTE.grey} transform="translate(2.6 2.2)" />
-    <path d={TABLE_TOP} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.prop} />
-    <path d={BET_GRID} stroke={PALETTE.inkSoft} strokeWidth={STROKE.fine} {...HAND_STROKE} />
-    <path d={WHEEL_OUT} fill={PALETTE.gold} transform="translate(2.2 1.8)" />
-    <path d={WHEEL_OUT} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.prop} />
-    <path d={WHEEL_SPOKES} stroke={PALETTE.ink} strokeWidth={STROKE.fine} {...HAND_STROKE} />
-    <path d={WHEEL_IN} fill={PALETTE.paperShade} transform="translate(1.6 1.2)" />
-    <path d={WHEEL_IN} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} />
-    <path d={potato(-24, -9.5, 3.2, 2.6, 1)} fill={PALETTE.coral} stroke={PALETTE.ink} strokeWidth={STROKE.fine} />
-  </DoodleProp>
+export const RouletteTable: React.FC<PropArgs> = ({ seed = 'roulette-table', ...rest }) => (
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset def={ROULETTE} variant={seed} />
+  </PropFrame>
 );
 
 // ---------------------------------------------------------------------------
 // cards & dice
 // ---------------------------------------------------------------------------
 
-const CARD_D =
-  'M -12.5 -19 C -12.5 -20.8 -11 -21.6 -8.6 -21.4 L 10 -20 ' +
-  'C 12.2 -19.8 13 -18.6 12.8 -16.4 L 11 17.8 C 10.8 20 9.4 20.8 7 20.6 ' +
-  'L -10.4 19.2 C -12.4 19 -13.2 17.8 -13 15.8 Z';
-
-const SUIT_SPADE =
-  'M 0 -8 C 4 -3.4 8 -0.6 7.4 3 C 7 5.8 3.4 6.6 0.6 4.4 C 1 7 1.6 8.6 3 10 ' +
-  'L -3.4 9.6 C -1.8 8.2 -1.2 6.6 -1 4 C -3.8 6 -7.4 5 -7.6 2.2 C -7.8 -1.4 -3.8 -3.6 0 -8 Z';
-const SUIT_HEART =
-  'M 0 9.6 C -6.4 3.4 -8.4 0.6 -7.6 -3 C -6.8 -6.6 -1.8 -7 0.2 -3 ' +
-  'C 2.4 -7.2 7.2 -6.4 7.8 -2.8 C 8.4 0.8 6 3.6 0 9.6 Z';
-const SUIT_DIAMOND = 'M 0.2 -8.6 C 3 -3 5.6 -0.6 7.6 0.4 C 5 2 2.4 4.8 0 9 C -2.4 4.6 -5 2 -7.4 0.2 C -4.6 -1 -2.4 -3.8 0.2 -8.6 Z';
-
-const SUITS: ReadonlyArray<readonly [string, string]> = [
-  [SUIT_SPADE, PALETTE.ink],
-  [SUIT_HEART, PALETTE.coral],
-  [SUIT_DIAMOND, PALETTE.coral],
-];
-
-/** Two or three playing cards with doodled suits — no real card faces, no brand marks. */
-export const PlayingCards: React.FC<PropArgs & { fanned?: boolean }> = ({ fanned = false, ...rest }) => {
-  const layout = fanned
-    ? [
-        [-16, 3, -24],
-        [0, -2, -3],
-        [16.5, 2.5, 19],
-      ]
-    : [
-        [-4.5, 1.5, -6],
-        [0, 0, -1],
-        [4.5, -1.5, 5],
-      ];
-  return (
-    <DoodleProp seed="playing-cards" {...rest}>
-      {layout.map((slot, i) => {
-        const suit = SUITS[i % SUITS.length];
-        return (
-          <g key={i} transform={`translate(${slot[0]} ${slot[1]}) rotate(${slot[2]})`}>
-            <path d={CARD_D} fill={PALETTE.paper} transform="translate(2.2 1.8)" />
-            <path d={CARD_D} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} strokeLinejoin="round" />
-            <path d={suit[0]} fill={suit[1]} transform="translate(0 -1)" />
-          </g>
-        );
-      })}
-    </DoodleProp>
-  );
+const CARD: AssetDef = {
+  id: 'prop-playing-card',
+  size: { w: 25, h: 42 },
+  shapes: [{ ...roundedRect(-12.5, -21, 25, 42, 3), fill: PALETTE.paper, rough: 'detail', sw: 3.4 }],
 };
 
-const DIE_D =
-  'M -14 -11.5 C -14 -14 -12.4 -15.4 -9.4 -15.2 L 10.5 -14.2 ' +
-  'C 13.4 -14 14.8 -12.4 14.6 -9.4 L 13.8 10.6 C 13.6 13.6 12 15 9 14.8 ' +
-  'L -10 13.8 C -13 13.6 -14.4 12 -14.2 9 Z';
+/** Generic pip suits — two lobes and a point. No card-brand marks anywhere. */
+const SUIT_SPADE: AssetDef = {
+  id: 'prop-suit-spade',
+  size: { w: 15, h: 18 },
+  shapes: [
+    { k: 'polygon', pts: [[0, -8.4], [6.6, 2], [-6.6, 2]], fill: PALETTE.ink, rough: 'detail', sw: 1.8, single: true },
+    { k: 'circle', cx: -3.4, cy: 1, r: 3.6, fill: PALETTE.ink, rough: 'detail', sw: 1.8, ...TINY },
+    { k: 'circle', cx: 3.4, cy: 1, r: 3.6, fill: PALETTE.ink, rough: 'detail', sw: 1.8, ...TINY },
+    { k: 'polygon', pts: [[-2.6, 8.6], [0, 3], [2.6, 8.6]], fill: PALETTE.ink, rough: 'detail', sw: 1.8, single: true },
+  ],
+};
 
-const PIP_LAYOUT: Record<number, ReadonlyArray<readonly [number, number]>> = {
+const SUIT_HEART: AssetDef = {
+  id: 'prop-suit-heart',
+  size: { w: 15, h: 18 },
+  shapes: [
+    { k: 'circle', cx: -3.3, cy: -2.6, r: 3.8, fill: PALETTE.coral, rough: 'detail', sw: 1.8, ...TINY },
+    { k: 'circle', cx: 3.3, cy: -2.6, r: 3.8, fill: PALETTE.coral, rough: 'detail', sw: 1.8, ...TINY },
+    { k: 'polygon', pts: [[-7, -1.4], [7, -1.4], [0, 8.8]], fill: PALETTE.coral, rough: 'detail', sw: 1.8, single: true },
+  ],
+};
+
+const SUIT_DIAMOND: AssetDef = {
+  id: 'prop-suit-diamond',
+  size: { w: 14, h: 18 },
+  shapes: [
+    { k: 'polygon', pts: [[0, -8.8], [6.4, 0.2], [0, 9], [-6.4, 0.2]], fill: PALETTE.coral, rough: 'detail', sw: 1.8, single: true },
+  ],
+};
+
+const SUITS: readonly AssetDef[] = [SUIT_SPADE, SUIT_HEART, SUIT_DIAMOND];
+
+/** [x, y, rotation] per card. Fanned spreads them; otherwise they sit in a near-stack. */
+const FANNED: ReadonlyArray<readonly [number, number, number]> = [
+  [-16, 3, -24],
+  [0, -2, -3],
+  [16.5, 2.5, 19],
+];
+const STACKED: ReadonlyArray<readonly [number, number, number]> = [
+  [-4.5, 1.5, -6],
+  [0, 0, -1],
+  [4.5, -1.5, 5],
+];
+
+/** Three playing cards with doodled suits — no real card faces, no brand marks. */
+export const PlayingCards: React.FC<PropArgs & { fanned?: boolean }> = ({
+  fanned = false,
+  seed = 'playing-cards',
+  ...rest
+}) => (
+  <PropFrame seed={seed} {...rest}>
+    {(fanned ? FANNED : STACKED).map(([x, y, rot], i) => (
+      <g key={i} transform={`translate(${x} ${y}) rotate(${rot})`}>
+        <RoughAsset def={CARD} variant={`${seed}-${i}`} />
+        <g transform="translate(0 -1)">
+          <RoughAsset def={SUITS[i % SUITS.length]} variant={`${seed}-${i}`} />
+        </g>
+      </g>
+    ))}
+  </PropFrame>
+);
+
+export type Pips = 1 | 2 | 3 | 4 | 5 | 6;
+
+const PIP_LAYOUT: Record<Pips, Pt[]> = {
   1: [[0, 0]],
-  2: [[-7, -7], [7.5, 6.5]],
-  3: [[-7, -7], [0.2, -0.3], [7.5, 6.5]],
-  4: [[-7, -7], [7, -6.6], [-6.6, 7], [7.4, 6.8]],
-  5: [[-7, -7], [7, -6.6], [0.2, -0.3], [-6.6, 7], [7.4, 6.8]],
-  6: [[-7, -7.4], [7, -6.6], [-7.2, -0.2], [7.2, 0.3], [-6.6, 7], [7.4, 6.8]],
+  2: [[-7, -7], [7, 7]],
+  3: [[-7, -7], [0, 0], [7, 7]],
+  4: [[-7, -7], [7, -7], [-7, 7], [7, 7]],
+  5: [[-7, -7], [7, -7], [0, 0], [-7, 7], [7, 7]],
+  6: [[-7, -7], [7, -7], [-7, 0], [7, 0], [-7, 7], [7, 7]],
+};
+
+const dieDef = (n: Pips): AssetDef => ({
+  id: `prop-dice-${n}`,
+  size: { w: 30, h: 30 },
+  shapes: [
+    { ...roundedRect(-14, -14, 28, 28, 5), fill: PALETTE.paper },
+    ...PIP_LAYOUT[n].map(([cx, cy]) => ({
+      k: 'circle' as const,
+      cx,
+      cy,
+      r: 2.9,
+      fill: PALETTE.ink,
+      stroke: PALETTE.ink,
+      rough: 'detail' as const,
+      sw: 1.2,
+      ...TINY,
+    })),
+  ],
+});
+
+const DICE: Record<Pips, AssetDef> = {
+  1: dieDef(1), 2: dieDef(2), 3: dieDef(3), 4: dieDef(4), 5: dieDef(5), 6: dieDef(6),
 };
 
 /** A single die, ~30 units, showing `pips` — the "one more roll" prop. */
-export const Dice: React.FC<PropArgs & { pips?: number }> = ({ pips = 5, ...rest }) => {
-  const n = Math.min(6, Math.max(1, Math.round(pips)));
-  const layout = PIP_LAYOUT[n];
-  const dots = layout.map(([cx, cy], i) => potato(cx, cy, 2.9, 2.7, i)).join(' ');
-  return (
-    <DoodleProp seed="dice" {...rest}>
-      <path d={DIE_D} fill={PALETTE.paper} transform="translate(2.4 2)" />
-      <path d={DIE_D} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.prop} strokeLinejoin="round" />
-      <path d={dots} fill={PALETTE.ink} />
-      <path d="M -11.5 -13.8 C -4 -16.6 6 -16.8 12.5 -14.2" stroke={PALETTE.greyDeep} strokeWidth={STROKE.fine} {...HAND_STROKE} />
-    </DoodleProp>
-  );
-};
+export const Dice: React.FC<PropArgs & { pips?: Pips }> = ({ pips = 5, seed = 'dice', ...rest }) => (
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset def={DICE[pips]} variant={seed} />
+  </PropFrame>
+);
 
 // ---------------------------------------------------------------------------
 // signage & ceiling
 // ---------------------------------------------------------------------------
 
-const SIGN_BOARD =
-  'M -62 -23 C -62 -25.6 -60 -26.6 -56 -26.4 L 32 -24.6 L 62 0.4 ' +
-  'L 31.5 25 L -57 23.4 C -60.6 23.2 -62.2 21.6 -62 18.6 Z';
+/** A board with an arrow point on the right — the shape of every roadside marquee. */
+const SIGN: AssetDef = {
+  id: 'prop-casino-sign-board',
+  size: { w: 124, h: 52 },
+  shapes: [
+    { k: 'polygon', pts: [[-62, -26], [32, -26], [62, 0], [32, 26], [-62, 26]], fill: PALETTE.grey },
+  ],
+};
 
-const SIGN_BULB_POS: ReadonlyArray<readonly [number, number]> = [
-  [-55, -19],
-  [-37, -20.5],
-  [-18, -21],
-  [1, -21.5],
-  [20, -20.5],
-  [40, -12],
-  [51, -3],
-  [40, 10],
-  [20, 18],
-  [1, 19],
-  [-18, 19.5],
-  [-37, 19],
-  [-55, 17.5],
+const SIGN_BULB_PTS: Pt[] = [
+  ...alongEdge([-57, -20], [30, -20], 5),
+  ...alongEdge([32, -20], [53, 0], 2),
+  ...alongEdge([53, 0], [32, 20], 2),
+  ...alongEdge([30, 20], [-57, 20], 5),
+  ...alongEdge([-57, 20], [-57, -20], 2),
 ];
-const SIGN_BULBS = potatoes(SIGN_BULB_POS, 3.4, 3.1);
 
-/** A generic illuminated arrow marquee — bulbs and a word, never a real venue's name. */
-export const CasinoSign: React.FC<PropArgs & { lit?: boolean }> = ({ lit = false, ...rest }) => (
-  <DoodleProp seed="casino-sign" {...rest}>
-    <path d={SIGN_BOARD} fill={lit ? PALETTE.gold : PALETTE.grey} transform="translate(2.6 2.2)" />
-    <path d={SIGN_BOARD} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.prop} strokeLinejoin="round" />
-    <path d={SIGN_BULBS} fill={lit ? PALETTE.paper : 'none'} transform={lit ? 'translate(1.4 1.2)' : undefined} />
-    <path d={SIGN_BULBS} fill="none" stroke={lit ? PALETTE.ink : PALETTE.greyDeep} strokeWidth={STROKE.fine} />
+const SIGN_BULBS_LIT: AssetDef = { id: 'prop-casino-sign-bulbs', shapes: bulbs(SIGN_BULB_PTS, 3.4, true, 2) };
+const SIGN_BULBS_OFF: AssetDef = { id: 'prop-casino-sign-bulbs', shapes: bulbs(SIGN_BULB_PTS, 3.4, false, 2) };
+
+/**
+ * A generic illuminated arrow marquee. The board tone stays constant so the bulbs carry
+ * the whole "open / closed" read, and the one word on it is a category, not a venue.
+ */
+export const CasinoSign: React.FC<PropArgs & { lit?: boolean }> = ({
+  lit = false,
+  seed = 'casino-sign',
+  ...rest
+}) => (
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset def={SIGN} variant={seed} />
+    <RoughAsset def={lit ? SIGN_BULBS_LIT : SIGN_BULBS_OFF} variant={seed} />
     <text
       x={-13}
-      y={9}
+      y={10}
       textAnchor="middle"
       fontFamily={FONTS.display}
       fontSize={30}
       fill={lit ? PALETTE.ink : PALETTE.greyDeep}
-      transform="rotate(-1.4 -13 9)"
     >
       CASINO
     </text>
-  </DoodleProp>
+  </PropFrame>
 );
 
-const DOWNLIGHT_HOUSING = 'M -11 -1 L 11.5 -1.5 L 8 12.5 L -8.5 13 Z';
+/** Stem and housing — the part of a downlight that does not change when it is switched. */
+const DOWNLIGHT: AssetDef = {
+  id: 'prop-ceiling-light',
+  size: { w: 24, h: 30 },
+  shapes: [
+    { k: 'line', x1: 0, y1: -16, x2: 0, y2: -1, rough: 'detail', sw: 3 },
+    { k: 'polygon', pts: [[-11, -1], [11, -1], [8, 13], [-8, 13]], fill: PALETTE.greyDeep, rough: 'detail', sw: 3 },
+  ],
+};
+
+/** The lamp itself. Same id in both states — see the file header. */
+const lampDef = (lit: boolean): AssetDef => ({
+  id: 'prop-ceiling-lamp',
+  shapes: [
+    { k: 'ellipse', cx: 0, cy: 13, rx: 7.6, ry: 3.4, fill: lit ? PALETTE.gold : PALETTE.grey, rough: 'detail', sw: 2.4 },
+  ],
+});
+const LAMP_LIT = lampDef(true);
+const LAMP_OFF = lampDef(false);
 
 /** A row of ceiling downlights — the enclosed, windowless, no-clock ceiling. */
 export const CeilingLightRow: React.FC<PropArgs & { count?: number; lit?: boolean }> = ({
   count = 5,
   lit = true,
+  seed = 'ceiling-lights',
   ...rest
 }) => {
   const n = Math.max(1, Math.round(count));
   return (
-    <DoodleProp seed="ceiling-lights" {...rest}>
-      {Array.from({ length: n }, (_, i) => {
-        const x = (i - (n - 1) / 2) * 82;
-        const tilt = i % 2 === 0 ? -1.4 : 1.1;
-        return (
-          <g key={i} transform={`translate(${x.toFixed(2)} ${(i % 3) * 1.2}) rotate(${tilt})`}>
-            <path d="M 0 -14 C 0.8 -9 0.4 -5 0 -1" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} {...HAND_STROKE} />
-            <path d={DOWNLIGHT_HOUSING} fill={PALETTE.greyDeep} transform="translate(2.2 1.8)" />
-            <path d={DOWNLIGHT_HOUSING} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} strokeLinejoin="round" />
-            <path d={potato(0, 13, 7.6, 3.4, i)} fill={lit ? PALETTE.gold : PALETTE.grey} transform="translate(1.6 1.4)" />
-            <path d={potato(0, 13, 7.6, 3.4, i)} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.fine} />
-          </g>
-        );
-      })}
-    </DoodleProp>
+    <PropFrame seed={seed} {...rest}>
+      {Array.from({ length: n }, (_, i) => (
+        <g key={i} transform={`translate(${((i - (n - 1) / 2) * 82).toFixed(2)} 0)`}>
+          <RoughAsset def={DOWNLIGHT} variant={`${seed}-${i}`} />
+          <RoughAsset def={lit ? LAMP_LIT : LAMP_OFF} variant={`${seed}-${i}`} />
+        </g>
+      ))}
+    </PropFrame>
   );
 };

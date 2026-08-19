@@ -1,230 +1,190 @@
 /**
- * time.tsx — clocks. The props that carry "how long have you actually been in here?".
+ * time.tsx — clocks and watches. V2: clean geometry, stylized by the renderer.
  *
- * Everything here is drawn around its own local origin (0,0) at the centre of the dial,
- * in character units (Nib's head is ~88 across), so a clock dropped next to Nib is
- * automatically in scale. Hand angles are always component props — a scene owns the
- * animation, the prop owns the drawing.
+ * REFERENCE IMPLEMENTATION for the V2 asset pattern. Every other prop file follows it.
+ *
+ * Note what the geometry below is: a circle, twelve evenly spaced ticks, two lines, a pin.
+ * That is what a clock IS. Nothing here tries to look hand-drawn — no lopsided beziers,
+ * no jitter tables, no "sketchy" intent. All of that arrives in `RoughAsset`, identically
+ * for every asset in the channel, which is precisely why V2 does not drift.
+ *
+ * Rotating parts (hands) are separate defs so the scene can spin them with an SVG
+ * transform while the roughened geometry underneath stays cached and stable.
  */
 
 import React from 'react';
-import { PALETTE, STROKE, HAND_STROKE } from '../lib/style';
-import { DoodleProp, type DoodlePropProps } from '../components/DoodleProp';
-
-/** Every prop takes the standard placement contract; children come from the art itself. */
-type PropArt = Omit<DoodlePropProps, 'children'>;
-
-// ---------------------------------------------------------------------------
-// geometry helpers — deterministic, deliberately lopsided
-// ---------------------------------------------------------------------------
-
-/**
- * Anchors for the dial rim: [angle°, radius multiplier]. Neither the angles nor the
- * radii are regular, which is what stops the "circle" from ever closing as a circle.
- */
-const RIM_ANCHORS: readonly (readonly [number, number])[] = [
-  [-94, 1.0],
-  [-31, 0.975],
-  [27, 1.025],
-  [91, 0.985],
-  [151, 1.015],
-  [-147, 0.965],
-];
-
-/** Catmull-Rom through the anchors, emitted as a closed cubic path: a bezier potato. */
-function blobPath(r: number, anchors: readonly (readonly [number, number])[]): string {
-  const n = anchors.length;
-  const pts: [number, number][] = anchors.map(([deg, f]) => {
-    const a = (deg * Math.PI) / 180;
-    return [Math.cos(a) * r * f, Math.sin(a) * r * f];
-  });
-  const f2 = (v: number) => v.toFixed(2);
-  let d = `M ${f2(pts[0][0])} ${f2(pts[0][1])}`;
-  for (let i = 0; i < n; i++) {
-    const pm = pts[(i - 1 + n) % n];
-    const p0 = pts[i];
-    const p1 = pts[(i + 1) % n];
-    const p2 = pts[(i + 2) % n];
-    const c1x = p0[0] + (p1[0] - pm[0]) / 6;
-    const c1y = p0[1] + (p1[1] - pm[1]) / 6;
-    const c2x = p1[0] - (p2[0] - p0[0]) / 6;
-    const c2y = p1[1] - (p2[1] - p0[1]) / 6;
-    d += ` C ${f2(c1x)} ${f2(c1y)} ${f2(c2x)} ${f2(c2y)} ${f2(p1[0])} ${f2(p1[1])}`;
-  }
-  return `${d} Z`;
-}
-
-/** Per-tick nudge, in degrees-ish. Hand-drawn dials never get the twelve marks even. */
-const TICK_JITTER = [0.9, -1.4, 1.8, -0.7, 1.2, -1.9, 0.5, 1.6, -1.1, 0.8, -1.6, 1.3];
-
-/** All twelve marks as ONE path with twelve subpaths — cheap, and still irregular. */
-function ticksPath(r: number, len: number): string {
-  const f2 = (v: number) => v.toFixed(2);
-  return TICK_JITTER.map((j, i) => {
-    const a = ((i * 30 + j * 1.8) * Math.PI) / 180 - Math.PI / 2;
-    const inner = r - len - Math.abs(j) * 0.9;
-    const outer = r - len * 0.42 + j * 0.35;
-    const c = Math.cos(a);
-    const s = Math.sin(a);
-    return `M ${f2(c * inner)} ${f2(s * inner)} L ${f2(c * outer)} ${f2(s * outer)}`;
-  }).join(' ');
-}
-
-/** A hand that bows very slightly, so it never reads as a ruler line. */
-function handPath(len: number, bow: number): string {
-  return `M ${(-bow * 0.3).toFixed(2)} 3.2 Q ${bow.toFixed(2)} ${(-len * 0.45).toFixed(2)} ${(bow * 0.35).toFixed(2)} ${(-len).toFixed(2)}`;
-}
-
-/** Shared hand pair + centre pin, used by every clock in the file. */
-function HandPair({
-  hourAngle,
-  minuteAngle,
-  length,
-  weight,
-  pin,
-}: {
-  hourAngle: number;
-  minuteAngle: number;
-  length: number;
-  weight: number;
-  pin: number;
-}) {
-  return (
-    <>
-      <g transform={`rotate(${hourAngle})`}>
-        <path
-          d={handPath(length * 0.6, 2.1)}
-          stroke={PALETTE.ink}
-          strokeWidth={weight}
-          {...HAND_STROKE}
-        />
-      </g>
-      <g transform={`rotate(${minuteAngle})`}>
-        <path
-          d={handPath(length, -1.7)}
-          stroke={PALETTE.ink}
-          strokeWidth={weight * 0.72}
-          {...HAND_STROKE}
-        />
-      </g>
-      <circle cx={0.5} cy={-0.4} r={pin} fill={PALETTE.ink} />
-    </>
-  );
-}
+import { RoughAsset } from '../assets/RoughAsset';
+import { PropFrame, type PropArgs } from '../assets/PropFrame';
+import { PALETTE } from '../style/tokens';
+import { TINY, spoke, type AssetDef, type Shape } from '../assets/shapes';
 
 // ---------------------------------------------------------------------------
-// clocks
+// clean geometry
 // ---------------------------------------------------------------------------
 
-const CLOCK_R = 34;
-const CLOCK_RIM = blobPath(CLOCK_R, RIM_ANCHORS);
+const R = 34;
 
-/** The standard analog wall clock — the episode's "how long has it been" instrument. */
-export const WallClock: React.FC<
-  PropArt & {
-    hourAngle?: number;
-    minuteAngle?: number;
-    faceColor?: string;
-    showHands?: boolean;
-  }
-> = ({
+/** Twelve ticks; the quarters are longer, exactly as on a real dial. */
+const ticks = (r: number, sw = 2.4): Shape[] =>
+  Array.from({ length: 12 }, (_, i) => ({
+    ...spoke(0, 0, i % 3 === 0 ? r * 0.74 : r * 0.82, r * 0.93, i * 30),
+    rough: 'detail' as const,
+    sw: i % 3 === 0 ? sw * 1.4 : sw,
+    single: true,
+  }));
+
+const clockFace = (id: string, r: number, face: string, sw: number): AssetDef => ({
+  id,
+  size: { w: r * 2, h: r * 2 },
+  shapes: [
+    { k: 'circle', cx: 0, cy: 0, r, fill: face, stroke: PALETTE.ink, sw },
+    ...ticks(r, r / 14),
+    { k: 'circle', cx: 0, cy: 0, r: r * 0.09, fill: PALETTE.ink, rough: 'detail', single: true },
+  ],
+});
+
+const hand = (id: string, len: number, width: number, color = PALETTE.ink): AssetDef => ({
+  id,
+  shapes: [{ k: 'line', x1: 0, y1: 0, x2: 0, y2: -len, rough: 'detail', sw: width, stroke: color, single: true }],
+});
+
+const WALL_FACE = clockFace('prop-clock-analog', R, PALETTE.paper, 4.2);
+const WALL_HOUR = hand('prop-clock-hand-hour', R * 0.52, 4.6);
+const WALL_MIN = hand('prop-clock-hand-minute', R * 0.8, 3.4);
+
+const HUGE_R = 73;
+const HUGE_FACE = clockFace('prop-clock-huge', HUGE_R, PALETTE.paper, 6.4);
+const HUGE_HOUR = hand('prop-clock-huge-hand-hour', HUGE_R * 0.52, 8);
+const HUGE_MIN = hand('prop-clock-huge-hand-minute', HUGE_R * 0.8, 6);
+
+/** The hanging lug that makes a disc read as a WALL clock rather than a plate. */
+const LUG: Shape = {
+  k: 'arc',
+  cx: 0,
+  cy: -R - 3,
+  rx: 5,
+  ry: 5,
+  start: 180,
+  stop: 360,
+  rough: 'detail',
+  sw: 2.6,
+  single: true,
+};
+
+// ---------------------------------------------------------------------------
+// components
+// ---------------------------------------------------------------------------
+
+export type ClockArgs = PropArgs & {
+  /** Degrees, 0 = 12 o'clock. */
+  hourAngle?: number;
+  minuteAngle?: number;
+  faceColor?: string;
+  showHands?: boolean;
+};
+
+/** Analog wall clock, ~68 units across. The episode's title object. */
+export const WallClock: React.FC<ClockArgs> = ({
   hourAngle = 0,
   minuteAngle = 0,
-  faceColor = PALETTE.paper,
+  faceColor,
   showHands = true,
   seed = 'wall-clock',
   ...rest
 }) => (
-  <DoodleProp seed={seed} {...rest}>
-    {/* face fill, nudged off its own outline the way a felt-tip overshoots */}
-    <path d={CLOCK_RIM} fill={faceColor} transform="translate(2.4 2)" />
-    <path d={CLOCK_RIM} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.prop} strokeLinejoin="round" />
-    <path d={ticksPath(CLOCK_R, 6.5)} stroke={PALETTE.ink} strokeWidth={STROKE.propFine} {...HAND_STROKE} />
-    {/* the little wall hook, off-centre on purpose */}
-    <path d="M -3.5 -37.5 C 0.5 -42.5 3 -41.5 4.5 -38" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} {...HAND_STROKE} />
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset
+      def={faceColor ? { ...WALL_FACE, shapes: recolorFace(WALL_FACE.shapes, faceColor) } : WALL_FACE}
+      variant={seed}
+    />
+    <RoughAsset def={{ id: 'prop-clock-lug', shapes: [LUG] }} variant={seed} />
     {showHands && (
-      <HandPair hourAngle={hourAngle} minuteAngle={minuteAngle} length={25} weight={STROKE.prop} pin={3.2} />
+      <>
+        <g transform={`rotate(${hourAngle})`}>
+          <RoughAsset def={WALL_HOUR} variant={seed} />
+        </g>
+        <g transform={`rotate(${minuteAngle})`}>
+          <RoughAsset def={WALL_MIN} variant={seed} />
+        </g>
+      </>
     )}
-  </DoodleProp>
+  </PropFrame>
 );
 
-/** Bare hands with no dial — so a scene can spin, detach or fling them on their own. */
-export const ClockHands: React.FC<
-  PropArt & { hourAngle?: number; minuteAngle?: number; length?: number }
-> = ({ hourAngle = 0, minuteAngle = 0, length = 25, seed = 'clock-hands', ...rest }) => (
-  <DoodleProp seed={seed} {...rest}>
-    <HandPair hourAngle={hourAngle} minuteAngle={minuteAngle} length={length} weight={STROKE.prop} pin={3.2} />
-  </DoodleProp>
-);
-
-const WATCH_R = 12.5;
-const WATCH_CASE = blobPath(WATCH_R, RIM_ANCHORS);
-
-/** A wristwatch — the small, personal, ignorable version of the same information. */
-export const Wristwatch: React.FC<
-  PropArt & { hourAngle?: number; minuteAngle?: number; faceColor?: string }
-> = ({
+/** Just the hands — for flinging them off a face, or animating them alone. */
+export const ClockHands: React.FC<ClockArgs & { length?: number }> = ({
   hourAngle = 0,
   minuteAngle = 0,
-  faceColor = PALETTE.paper,
-  seed = 'wristwatch',
+  length = 25,
+  seed = 'clock-hands',
   ...rest
 }) => (
-  <DoodleProp seed={seed} {...rest}>
-    {/* strap, drawn behind the case; upper and lower halves are not the same shape */}
-    <path
-      d="M -7.5 -11 C -9 -17.5 -8 -22.5 -7 -26.5 C -1.5 -28 3.5 -27.5 8 -26 C 8.5 -21 8 -16 7 -10.5 Z"
-      fill={PALETTE.greyDeep}
-      transform="translate(1.8 1.5)"
+  <PropFrame seed={seed} {...rest}>
+    <g transform={`rotate(${hourAngle})`}>
+      <RoughAsset def={hand('prop-clock-hand-hour', length * 0.65, 4.6)} variant={seed} />
+    </g>
+    <g transform={`rotate(${minuteAngle})`}>
+      <RoughAsset def={hand('prop-clock-hand-minute', length, 3.4)} variant={seed} />
+    </g>
+    <RoughAsset
+      def={{ id: 'prop-clock-pin', shapes: [{ k: 'circle', cx: 0, cy: 0, r: 3, fill: PALETTE.ink, rough: 'detail', ...TINY }] }}
+      variant={seed}
     />
-    <path
-      d="M -7.5 -11 C -9 -17.5 -8 -22.5 -7 -26.5 C -1.5 -28 3.5 -27.5 8 -26 C 8.5 -21 8 -16 7 -10.5"
-      stroke={PALETTE.ink}
-      strokeWidth={STROKE.propFine}
-      {...HAND_STROKE}
-    />
-    <path
-      d="M -7 11 C -8.5 17 -7.5 22 -6.5 26.5 C -1 28 4 27.5 8.5 26 C 8.5 21 8 16 7.5 10.5"
-      stroke={PALETTE.ink}
-      strokeWidth={STROKE.propFine}
-      {...HAND_STROKE}
-    />
-    {/* crown nub */}
-    <path d="M 13 -1.5 L 16.5 -2.5" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} {...HAND_STROKE} />
-    <path d={WATCH_CASE} fill={faceColor} transform="translate(1.6 1.4)" />
-    <path d={WATCH_CASE} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.propFine} strokeLinejoin="round" />
-    <HandPair hourAngle={hourAngle} minuteAngle={minuteAngle} length={8.5} weight={STROKE.fine} pin={1.4} />
-  </DoodleProp>
+  </PropFrame>
 );
 
-const HUGE_R = 73;
-const HUGE_RIM = blobPath(HUGE_R, RIM_ANCHORS);
+const WATCH: AssetDef = {
+  id: 'prop-wristwatch',
+  size: { w: 34, h: 40 },
+  shapes: [
+    // strap above and below, drawn first so the case sits on top
+    { k: 'rect', x: -7, y: -22, w: 14, h: 10, fill: PALETTE.greyDeep, rough: 'detail', sw: 2.2 },
+    { k: 'rect', x: -7, y: 12, w: 14, h: 10, fill: PALETTE.greyDeep, rough: 'detail', sw: 2.2 },
+    { k: 'circle', cx: 0, cy: 0, r: 12.5, fill: PALETTE.paper, rough: 'detail', sw: 3 },
+    { k: 'line', x1: 0, y1: 0, x2: 0, y2: -7, rough: 'detail', sw: 2.2, single: true },
+    { k: 'line', x1: 0, y1: 0, x2: 5, y2: 3, rough: 'detail', sw: 2.2, single: true },
+    { k: 'line', x1: 12, y1: -2, x2: 15, y2: -2, rough: 'detail', sw: 2.4, single: true },
+  ],
+};
 
-/** The absurdly oversized clock, for the gag where the thing has to be physically carried. */
-export const HugeWallClock: React.FC<
-  PropArt & {
-    hourAngle?: number;
-    minuteAngle?: number;
-    faceColor?: string;
-    showHands?: boolean;
-  }
-> = ({
+/** Small wristwatch, ~34 units wide. Used to prove clocks are not banned. */
+export const Wristwatch: React.FC<ClockArgs> = ({ seed = 'wristwatch', ...rest }) => (
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset def={WATCH} variant={seed} />
+  </PropFrame>
+);
+
+/** The absurdly large clock carried in the myth-correction beat, ~150 units across. */
+export const HugeWallClock: React.FC<ClockArgs> = ({
   hourAngle = 0,
   minuteAngle = 0,
-  faceColor = PALETTE.paper,
   showHands = true,
-  seed = 'huge-wall-clock',
+  seed = 'huge-clock',
   ...rest
 }) => (
-  <DoodleProp seed={seed} {...rest}>
-    <path d={HUGE_RIM} fill={faceColor} transform="translate(3 2.6)" />
-    <path d={HUGE_RIM} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.limb} strokeLinejoin="round" />
-    {/* an inner bezel line, drifting away from the rim as it goes round */}
-    <path d={blobPath(HUGE_R - 8.5, RIM_ANCHORS)} fill="none" stroke={PALETTE.ink} strokeWidth={STROKE.fine} strokeLinejoin="round" opacity={0.55} />
-    <path d={ticksPath(HUGE_R - 6, 12)} stroke={PALETTE.ink} strokeWidth={STROKE.prop} {...HAND_STROKE} />
-    <path d="M -7 -79 C 0 -88 6 -87 9 -80" stroke={PALETTE.ink} strokeWidth={STROKE.prop} {...HAND_STROKE} />
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset def={HUGE_FACE} variant={seed} />
+    <RoughAsset
+      def={{
+        id: 'prop-clock-huge-bezel',
+        shapes: [{ k: 'circle', cx: 0, cy: 0, r: HUGE_R * 0.86, stroke: PALETTE.greyDeep, sw: 2.4, rough: 'detail', single: true }],
+      }}
+      variant={seed}
+    />
     {showHands && (
-      <HandPair hourAngle={hourAngle} minuteAngle={minuteAngle} length={52} weight={STROKE.limb} pin={5.6} />
+      <>
+        <g transform={`rotate(${hourAngle})`}>
+          <RoughAsset def={HUGE_HOUR} variant={seed} />
+        </g>
+        <g transform={`rotate(${minuteAngle})`}>
+          <RoughAsset def={HUGE_MIN} variant={seed} />
+        </g>
+      </>
     )}
-  </DoodleProp>
+  </PropFrame>
 );
+
+/** Swap the dial colour without rebuilding the whole definition. */
+function recolorFace(shapes: Shape[], color: string): Shape[] {
+  return shapes.map((s, i) => (i === 0 ? { ...s, fill: color } : s));
+}

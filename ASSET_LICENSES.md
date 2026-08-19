@@ -1,107 +1,144 @@
-# Asset Provenance & Licences
+# Asset Provenance & Licences (V2)
 
-Everything in this video is either **original work created for this project** or a
-**self-hosted OFL font**. No stock art, no third-party illustration, no third-party audio,
-no scraped images.
+Machine-readable companion: **`data/asset-registry.json`** — every ingested asset's source,
+licence, normalization state, stylizer, seed and style version.
 
 ---
 
-## Artwork — 100% original
+## 1. Artwork authored in this repository
 
 | Asset group | Count | Origin |
 |---|---|---|
-| Protagonist "Nib" (rig, 23 poses, 13 expressions) | 36 | Original. Parametric SVG rig authored for this channel. |
-| Props (clocks, slots, chips, cards, wallet, window, plant…) | 27 | Original SVG components. |
-| FX marks (?, !, sparkles, impact lines, spirals…) | 10 | Original SVG components. |
-| Backgrounds | 6 | Original SVG components. |
-| Exported `.svg` snapshots in `public/doodle/` | 80 | Generated from the above by `tools/export-svg-assets.mjs`. |
+| Protagonist "Nib" — rig, 23 poses, 13 expressions | 36 | Original. Parametric rig authored for this channel. |
+| Props (clocks, slots, chips, cards, wallet, window, plant…) | 27 | Original clean geometry, stylized at render time. |
+| FX marks (?, !, sparkles, impact lines, spirals…) | 10 | Original. |
+| Backgrounds | 6 | Original. |
 
-Every path in the library was authored as code in this repository. Nothing was traced,
-imported, or derived from an existing illustration set.
+All authored as **clean semantic geometry** in `src/props/`, `src/fx/`, `src/backgrounds/`
+and `src/character/`. Nothing traced, imported, or adapted from an existing illustration set.
 
 ### Character originality
 
-The protagonist was designed from scratch for this channel. Open Doodles and Open Peeps
-were reviewed only as references for *modular SVG structure* (how to decompose a figure so
-parts can animate independently) — **no geometry, path data, or design element from either
-was used or adapted.** The rig, proportions, cowlick silhouette, face system and palette
-are original.
+Designed from scratch for this channel. Open Doodles and Open Peeps were reviewed only as
+references for *modular SVG structure* — **no geometry, path data, or design element from
+either was used or adapted**. The rig, proportions, cowlick silhouette, face system and
+palette are original.
 
-The general category of "limited doodle animation" is a style, not property. No specific
-creator's character design was cloned. Named-as-off-limits and deliberately avoided:
-Rennrat, Its ok koy, Sam O'Nella, Haminations, ChainsFR.
+"Limited doodle animation" is a style, not property. No identifiable creator's character
+design was cloned; Rennrat, Its ok koy, Sam O'Nella, Haminations and ChainsFR were
+explicitly avoided.
 
 ### No trademarks
 
-No real casino name, logo, mark, slogan, venue architecture, currency, or card-brand
-symbol appears. The one sign in the library reads the generic word "CASINO" set in the
-project's own display font. Reel symbols are abstract doodle glyphs.
+No real casino name, logo, mark, venue architecture, currency or card-brand symbol appears.
+The one sign reads the generic word "CASINO" in the project's own display font. Reel
+symbols and card suits are abstract geometric glyphs.
 
 ---
 
-## Audio
+## 2. Third-party artwork — Lucide icons (NEW in V2)
+
+**V1 contained no third-party illustration. V2 does.** Eight icons are ingested from
+`lucide-static` to exercise and prove the asset resolver chain end to end.
+
+| | |
+|---|---|
+| Package | `lucide-static@1.32.0` (npm) |
+| Licence | **ISC** — © 2026 Lucide Icons and Contributors |
+| Licence text | `node_modules/lucide-static/LICENSE`, and <https://github.com/lucide-icons/lucide/blob/main/LICENSE> |
+| Modified | **Yes** — normalized with SVGO, then stylized with Rough.js |
+| Icons | `alarm-clock`, `clock`, `eye`, `eye-off`, `hourglass`, `moon`, `sun`, `wallet` |
+
+Ingest chain, all recorded per-asset in the registry:
+
+```
+node_modules/lucide-static/icons/<name>.svg     (upstream, untouched)
+  → assets/vendor/lucide/<name>.svg             verbatim provenance copy
+  → assets/normalized/<name>.svg                SVGO, viewBox asserted
+  → assets/stylized/<name>.svg                  Rough.js, deterministic seed
+```
+
+ISC permits use, modification and redistribution with the copyright notice retained.
+
+> **Notice retention.** SVGO strips Lucide's upstream `<!-- @license -->` comment during
+> normalization. The notice is therefore preserved here and in every registry entry
+> (`license`, `licenseUrl`, `source`, `sourcePath`) rather than inside the SVG files.
+> `tools/ingest-vendor-assets.mjs` prints a warning if this ledger stops mentioning an
+> ingested source package.
+
+**Current usage:** these icons are ingested, validated and available to scenes. As of this
+build every entry's `usedIn` is empty — Episode 001's on-screen assets are all
+repository-authored. They exist to prove the pipeline, not to pad the episode.
+
+---
+
+## 3. Audio
 
 ### Narration
 
 Generated with ElevenLabs (voice: "Liam — Energetic, Social Media Creator") by the project
 owner, then processed locally by `tools/process-voiceover.mjs`. Raw source and alignment
-JSON preserved unmodified in `raw-source/`. Commercial usage rights follow the owner's
-ElevenLabs subscription terms.
+JSON preserved unmodified in `raw-source/`. Commercial rights follow the owner's ElevenLabs
+subscription terms.
 
-### Sound effects — 100% original, procedurally synthesised
+### Sound effects — original, procedurally synthesised
 
 All 15 effects are generated from scratch by `tools/make-sfx.mjs` using an inline
 oscillator/noise/filter synth. No sample libraries, no downloads, no third-party audio.
-The project owns them outright: nothing to licence, nothing to attribute, and no Content ID
-exposure.
+Deterministic (seeded xorshift), so re-running produces byte-identical files.
 
 ```
 tick · whoosh · clock-pull · pop · vanish · slot-beep · chip-clack · clock-spin
 money-flutter · record-scratch · impact · reveal-sting · swarm · light-hum · blip
 ```
 
-Deterministic: the generator uses a seeded xorshift, so re-running produces byte-identical
-files.
-
 ### Music
 
-None. Voice + SFX only, which is an explicitly acceptable outcome. No commercial music was
-used, so there is no music licensing exposure.
+None. Voice + SFX only. No music licensing exposure.
 
 ---
 
-## Typography
+## 4. Typography
 
 | Family | Used for | Source | Licence |
 |---|---|---|---|
-| **Bangers** | gag cards, captions | `@fontsource/bangers` (npm) | SIL Open Font License 1.1 |
-| **Patrick Hand** | small labels | `@fontsource/patrick-hand` (npm) | SIL Open Font License 1.1 |
+| **Bangers** | gag cards, captions | `@fontsource/bangers` | SIL OFL 1.1 |
+| **Patrick Hand** | small labels | `@fontsource/patrick-hand` | SIL OFL 1.1 |
 
-Both are self-hosted from `node_modules` rather than a CDN. That keeps renders offline-safe
-and deterministic, and guarantees the render can never silently fall back to a system font.
-OFL-1.1 permits embedding and commercial use; the fonts are not sold or redistributed
-standalone.
-
-Full licence text ships with each package at
-`node_modules/@fontsource/<name>/LICENSE`.
+Self-hosted from `node_modules`, never a CDN — renders stay offline-safe and deterministic,
+and can never silently fall back to a system font. Licence text ships at
+`node_modules/@fontsource/<name>/LICENSE`. OFL-1.1 permits embedding and commercial use;
+the fonts are not redistributed standalone.
 
 ---
 
-## Software
+## 5. Software
 
-| | |
+| | Licence / obligation |
 |---|---|
-| Remotion | Renderer. **Remotion is free for individuals and small companies but requires a paid company licence above a threshold — see <https://remotion.dev/license>.** This is the one obligation in this project that needs checking before commercial publication at scale. |
-| FFmpeg | Audio processing (LGPL/GPL build) |
+| **Remotion** | Renderer. **Free for individuals and small companies, but requires a paid company licence above a threshold — <https://remotion.dev/license>.** The one obligation in this project that needs checking before commercial publication at scale. |
+| Rough.js 4.6.6 | MIT |
+| perfect-freehand 1.2.3 | MIT |
+| SVGO 4.0.2 | MIT |
+| svg2roughjs 3.2.3 | MIT — **installed but not used at runtime**, see note below |
+| lucide-static 1.32.0 | ISC |
 | React, TypeScript, esbuild | MIT |
+| FFmpeg | LGPL/GPL build, audio processing only |
+
+> **svg2roughjs:** installed and evaluated, then **not used**. It fails to load under Node
+> ESM (its `main` is a UMD bundle exporting nothing) and depends on browser-only APIs
+> (`getBBox`, `getComputedStyle`, `canvas`, `Image`) that jsdom does not implement for SVG
+> geometry. `tools/roughify-svg.mjs` implements the equivalent directly against Rough.js.
+> It remains in `package.json` as a record of the evaluation; it can be removed.
 
 ---
 
-## Summary
+## 6. Summary
 
 | Category | Third-party content? |
 |---|---|
-| Illustration | None |
+| Illustration (on screen in the episode) | **None** |
+| Illustration (ingested, available) | Yes — 8 Lucide icons, ISC |
 | Character design | None |
 | Sound effects | None |
 | Music | None (unused) |

@@ -6,7 +6,24 @@ A programmatically produced vertical YouTube Short, rendered with
 [Remotion](https://www.remotion.dev/). This repository is not a one-off video project — it
 is the **channel engine**, with Episode 001 as its first payload.
 
-**Output:** `out/why-casinos-have-no-clocks.mp4` — 1080×1920, 30 fps, H.264, 40.6 s
+**Output:** `out/why-casinos-have-no-clocks-v2.mp4` — 1080×1920, 30 fps, H.264, 40.6 s
+(V1 preserved alongside it as `why-casinos-have-no-clocks.mp4` for comparison.)
+
+## V2 rendering architecture — DESIGN CLEANLY, RENDER IMPERFECTLY
+
+Assets are authored as **clean semantic geometry** (a clock is a circle, twelve ticks and
+two hands) and passed through **one deterministic stylizer** that supplies the hand-drawn
+look. V1 asked the author to draw badly and drifted; V2 makes the sketch quality a property
+of the pipeline.
+
+- **Rough.js** for structure — clock faces, cabinets, walls, window frames
+- **perfect-freehand** for gesture — brows, mouths, noodle limbs, arrows, speed lines
+- **SVGO + a seeded roughifier** to ingest external SVG (8 ISC Lucide icons prove the chain)
+- **Deterministic seeds** from stable asset identity; per-frame change is transform-only, so
+  roughened geometry is cached and linework never boils. Proven: 73/73 assets byte-identical
+  across independent renders (`npm run qa:assets`).
+
+Restyling the whole channel is a change to `src/style/tokens.ts`, not to 27 asset files.
 
 ---
 
@@ -56,6 +73,8 @@ npm run verify:audio   # prove the remap matches the delivered waveform
 npm run sfx            # synthesise the SFX library
 npm run storyboard     # derive the shot list from the narration
 npm run manifest       # inventory + cross-check every asset
+npm run qa:assets      # render all 73 assets in isolation and validate them
+npm run assets:ingest  # vendor icons -> normalize -> roughify -> registry
 
 npm run studio         # interactive editor
 npm run typecheck

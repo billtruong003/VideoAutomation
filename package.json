@@ -2,7 +2,7 @@
   "name": "doodle-explainer-ep001-casino-clocks",
   "version": "1.0.0",
   "private": true,
-  "description": "Episode 001 — Why Casinos Have No Clocks. Doodle explainer engine built on Remotion.",
+  "description": "Episode 001 \u2014 Why Casinos Have No Clocks. Doodle explainer engine built on Remotion.",
   "type": "module",
   "scripts": {
     "audio": "node tools/process-voiceover.mjs public/audio/voiceover-raw.mp3 public/audio/voiceover-processed.wav --minSilence 0.08",
@@ -14,9 +14,14 @@
     "studio": "remotion studio",
     "typecheck": "tsc --noEmit",
     "qa:stills": "node tools/render-qa-stills.mjs",
-    "preview": "remotion render CasinoClocks preview/preview.mp4 --scale=0.35 --crf=32",
-    "render": "remotion render CasinoClocks out/why-casinos-have-no-clocks.mp4 --codec=h264 --crf=17",
-    "validate": "node tools/validate-output.mjs"
+    "preview": "remotion render CasinoClocks preview/preview-v2.mp4 --scale=0.35 --crf=32",
+    "render": "remotion render CasinoClocks out/why-casinos-have-no-clocks-v2.mp4 --codec=h264 --crf=17",
+    "validate": "node tools/validate-output.mjs out/why-casinos-have-no-clocks-v2.mp4",
+    "qa:assets": "node tools/asset-qa.mjs",
+    "assets:normalize": "node tools/normalize-svg.mjs",
+    "assets:roughify": "node tools/roughify-svg.mjs",
+    "assets:ingest": "node tools/ingest-vendor-assets.mjs",
+    "motion": "node tools/motion-qa.mjs preview/preview-v2.mp4"
   },
   "dependencies": {
     "@fontsource/bangers": "^5.3.0",
@@ -25,9 +30,14 @@
     "@remotion/cli": "4.0.410",
     "@remotion/media-utils": "4.0.410",
     "@remotion/renderer": "4.0.410",
+    "lucide-static": "^1.32.0",
+    "perfect-freehand": "^1.2.3",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "remotion": "4.0.410"
+    "remotion": "4.0.410",
+    "roughjs": "^4.6.6",
+    "svg2roughjs": "^3.2.3",
+    "svgo": "^4.0.2"
   },
   "devDependencies": {
     "@types/react": "19.2.2",

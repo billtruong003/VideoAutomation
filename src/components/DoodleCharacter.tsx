@@ -1,194 +1,260 @@
 /**
- * DoodleCharacter.tsx — renders the channel protagonist from a pose + an expression.
+ * DoodleCharacter.tsx — the channel protagonist, rendered on the V2 stack.
  *
- * Generic on purpose. It knows nothing about casinos; it knows how to draw a doodle
- * person doing a named thing with a named face. Episode 002 imports this unchanged.
+ * The rig is unchanged from V1 (it was structurally sound): hip at origin, ~182 units
+ * tall, head ~44% of height, poses as pure joint data. What changed is how it is DRAWN.
  *
- * Everything is drawn in the rig's character space (hip at origin, ~182 units tall) and
- * placed by the caller with `x`, `y` and `scale`.
+ * V1 hand-authored a lopsided head path, offset fills and a jitter table, then wobbled
+ * the geometry every frame to fake life. V2 authors the character as clean geometry — the
+ * head is an ellipse, the torso is a trapezoid — and splits the drawing between the two
+ * tools by what each is actually good at:
  *
- * Two details do most of the "hand-drawn" work:
- *   1. flat fills are nudged a couple of units off their outlines, the way a felt-tip
- *      overshoots the pencil line it is colouring in;
- *   2. every part carries a deterministic sub-degree wobble, so nothing is ever
- *      perfectly still or perfectly aligned.
+ *   Rough.js         head, torso, hands, feet, open eyes, pupils
+ *                    (things with area and edges)
+ *   perfect-freehand limbs, hair, brows, mouths, closed eyes, sweat
+ *                    (things drawn in one motion, where the pressure IS the mark)
+ *
+ * Noodle limbs in particular are transformed by this: a limb is a single confident pen
+ * stroke that swells in the middle and tapers at the wrist. Rough.js cannot express that;
+ * perfect-freehand does it natively.
+ *
+ * CACHING CONTRACT: every rough-generated part is authored at the ORIGIN and moved into
+ * place with a transform. If hands were generated at their pose coordinates instead, a
+ * blended pose would mint a new cache entry on every frame and the character's linework
+ * would boil. Position is a transform. Always.
  */
 
 import React from 'react';
-import { PALETTE, STROKE, HAND_STROKE } from '../lib/style';
+import { RoughAsset } from '../assets/RoughAsset';
+import { freehandPath, arcPoints, quadPoints, type Point } from '../freehand/stroke';
+import { PALETTE } from '../style/tokens';
 import { wobble } from '../lib/rand';
-import { RIG, limbPath, type Expression, type Pose } from '../character/rig';
+import type { AssetDef } from '../assets/shapes';
+import { RIG, limbControl, type Expression, type Pose } from '../character/rig';
 
 // ---------------------------------------------------------------------------
-// static geometry — deliberately lopsided
+// clean geometry, all authored at the origin
 // ---------------------------------------------------------------------------
 
-/** Head outline, centred on (0,0). Wider top-left than bottom-right: never a circle. */
-const HEAD_D =
-  'M -44 -4 C -44.5 -30 -24 -41.5 3 -41 C 29 -40.5 44.5 -28 44 1 ' +
-  'C 43.5 26 25 41 -1 40.5 C -25 40 -43.5 25 -44 -4 Z';
+const HEAD: AssetDef = {
+  id: 'char-nib-head',
+  shapes: [{ k: 'ellipse', cx: 0, cy: 0, rx: RIG.headRx, ry: RIG.headRy, fill: PALETTE.skin, rough: 'character' }],
+};
 
-/** Torso, hip at origin, shoulders at y=-56. No neck — the head just sits on it. */
-const TORSO_D =
-  'M -17 -56 C -21 -38 -15 -17 -11 0 C -3.5 2.5 4 2.5 11 0 ' +
-  'C 15 -17 21 -38 17 -56 C 8 -60 -8 -60 -17 -56 Z';
+const HEAD_HALO: AssetDef = {
+  id: 'char-nib-head-halo',
+  shapes: [
+    { k: 'ellipse', cx: 0, cy: 0, rx: RIG.headRx + 1.5, ry: RIG.headRy + 1.5, fill: PALETTE.paper, stroke: PALETTE.paper, sw: 6, rough: 'character' },
+  ],
+};
 
-/** Three-stroke cowlick. This is the silhouette cue that makes the mascot recognisable. */
-const HAIR_D = [
-  'M -11 -38 C -17 -56 -4 -61 2 -50',
-  'M 5 -40 C 4 -59 16 -62 18 -52',
-  'M 18 -35 C 24 -52 33 -51 32 -42',
+/** Torso: a clean trapezoid, shoulders wider than hips. Rough supplies the character. */
+const torsoPts: [number, number][] = [[-17, -56], [17, -56], [12.5, 2], [-12.5, 2]];
+
+const torso = (fill: string): AssetDef => ({
+  id: 'char-nib-torso',
+  shapes: [{ k: 'polygon', pts: torsoPts, fill, rough: 'character' }],
+});
+
+const TORSO_HALO: AssetDef = {
+  id: 'char-nib-torso-halo',
+  shapes: [
+    { k: 'polygon', pts: [[-19, -58], [19, -58], [14, 4], [-14, 4]], fill: PALETTE.paper, stroke: PALETTE.paper, sw: 6, rough: 'character' },
+  ],
+};
+
+const HAND: AssetDef = {
+  id: 'char-nib-hand',
+  shapes: [{ k: 'circle', cx: 0, cy: 0, r: 7.8, fill: PALETTE.skin, rough: 'detail', sw: 2.8, roughness: 0.9 }],
+};
+const HAND_HALO: AssetDef = {
+  id: 'char-nib-hand-halo',
+  shapes: [{ k: 'circle', cx: 0, cy: 0, r: 9.6, fill: PALETTE.paper, stroke: PALETTE.paper, sw: 3, rough: 'detail' }],
+};
+
+const FOOT: AssetDef = {
+  id: 'char-nib-foot',
+  shapes: [{ k: 'ellipse', cx: 0, cy: 0, rx: 10.5, ry: 5.8, fill: PALETTE.ink, stroke: PALETTE.ink, rough: 'detail', sw: 2, roughness: 0.7 }],
+};
+const FOOT_HALO: AssetDef = {
+  id: 'char-nib-foot-halo',
+  shapes: [{ k: 'ellipse', cx: 0, cy: 0, rx: 12, ry: 7, fill: PALETTE.paper, stroke: PALETTE.paper, sw: 3, rough: 'detail' }],
+};
+
+const eyeWhite = (r: number): AssetDef => ({
+  id: `char-nib-eye-${r}`,
+  shapes: [{ k: 'circle', cx: 0, cy: 0, r, fill: PALETTE.paper, rough: 'detail', sw: 2.7, roughness: 0.85 }],
+});
+/**
+ * Pupils bypass most of the roughening. A 4-unit filled disc put through Rough.js at
+ * normal settings comes out as a scribble rather than an eye — below roughly 6 units,
+ * roughness stops reading as character and starts reading as dirt.
+ */
+const pupil = (r: number): AssetDef => ({
+  id: `char-nib-pupil-${r}`,
+  shapes: [
+    { k: 'circle', cx: 0, cy: 0, r, fill: PALETTE.ink, stroke: PALETTE.ink, rough: 'detail', sw: 1.2, roughness: 0.35, bowing: 0.3, single: true },
+  ],
+});
+
+const MOUTH_O: AssetDef = {
+  id: 'char-nib-mouth-o',
+  shapes: [{ k: 'ellipse', cx: 0, cy: 0, rx: 6.5, ry: 8, fill: PALETTE.ink, stroke: PALETTE.ink, rough: 'detail', sw: 2 }],
+};
+const MOUTH_GASP: AssetDef = {
+  id: 'char-nib-mouth-gasp',
+  shapes: [
+    { k: 'ellipse', cx: 0, cy: 1, rx: 9, ry: 13, fill: PALETTE.ink, stroke: PALETTE.ink, rough: 'detail', sw: 2 },
+    { k: 'ellipse', cx: 0, cy: 9, rx: 4.6, ry: 3, fill: PALETTE.coral, stroke: 'none', rough: 'detail' },
+  ],
+};
+const MOUTH_GRIMACE: AssetDef = {
+  id: 'char-nib-mouth-grimace',
+  shapes: [
+    { k: 'rect', x: -13, y: -5, w: 26, h: 10, fill: PALETTE.paper, rough: 'detail', sw: 2.6 },
+    { k: 'line', x1: -13, y1: 0, x2: 13, y2: 0, rough: 'detail', sw: 1.8, single: true },
+    { k: 'line', x1: -5, y1: -5, x2: -5, y2: 5, rough: 'detail', sw: 1.8, single: true },
+    { k: 'line', x1: 4, y1: -5, x2: 4, y2: 5, rough: 'detail', sw: 1.8, single: true },
+  ],
+};
+const SWEAT: AssetDef = {
+  id: 'char-nib-sweat',
+  shapes: [
+    { k: 'path', d: 'M 0 -14 C 5 -5 7 0 3 3 C -1 6 -4 1 0 -14 Z', fill: PALETTE.teal, rough: 'detail', sw: 2 },
+  ],
+};
+
+/** Three-stroke cowlick — the silhouette cue that makes the mascot recognisable. */
+const HAIR_STROKES: Point[][] = [
+  [[-11, -38], [-15, -48], [-8, -55], [2, -50]],
+  [[5, -40], [3, -52], [10, -60], [18, -52]],
+  [[18, -35], [22, -46], [30, -50], [32, -42]],
 ];
 
-const EYE_L: [number, number] = [-16, -6];
-const EYE_R: [number, number] = [15, -5];
+const EYE_L: Point = [-16, -6];
+const EYE_R: Point = [15, -5];
 const MOUTH_Y = 19;
 
 // ---------------------------------------------------------------------------
 // face parts
 // ---------------------------------------------------------------------------
 
-function Eye({
-  cx, cy, shape, look, mirrored,
-}: {
-  cx: number; cy: number; shape: Expression['eyes']; look: [number, number]; mirrored: boolean;
-}) {
-  const ink = PALETTE.ink;
-  const sw = STROKE.detail;
+const inkStroke = (
+  pts: Point[],
+  pen: Parameters<typeof freehandPath>[1],
+  seed: string,
+  size?: number,
+  color: string = PALETTE.ink,
+) => <path d={freehandPath(pts, pen, seed, size ? { size } : {})} fill={color} />;
 
-  if (shape === 'dots') {
-    return <circle cx={cx} cy={cy} r={4.6} fill={ink} />;
-  }
+function Eye({
+  at, shape, look, seed, mirrored,
+}: {
+  at: Point; shape: Expression['eyes']; look: [number, number]; seed: string; mirrored: boolean;
+}) {
+  const [cx, cy] = at;
 
   if (shape === 'squint' || shape === 'closed') {
-    // an upward arc — the universal "happy/shut" eye
-    const w = 11;
     const lift = shape === 'closed' ? 7.5 : 5.8;
     return (
-      <path
-        d={`M ${cx - w} ${cy + 1.5} Q ${cx} ${cy + 1.5 - lift} ${cx + w} ${cy + 1.5}`}
-        stroke={ink}
-        strokeWidth={sw}
-        {...HAND_STROKE}
-      />
+      <g transform={`translate(${cx} ${cy})`}>
+        {inkStroke(quadPoints([-11, 1.5], [0, 1.5 - lift * 2], [11, 1.5], 12), 'face', `${seed}:eye`, 4.6)}
+      </g>
     );
   }
 
   if (shape === 'dizzy') {
-    // spiral: over-stimulated
-    const turns = 2.4;
-    const pts: string[] = [];
-    for (let i = 0; i <= 40; i++) {
-      const t = i / 40;
-      const a = t * Math.PI * 2 * turns * (mirrored ? -1 : 1);
+    // over-stimulated spiral, drawn as one continuous gesture
+    const pts: Point[] = [];
+    for (let i = 0; i <= 44; i++) {
+      const t = i / 44;
+      const a = t * Math.PI * 2 * 2.3 * (mirrored ? -1 : 1);
       const r = t * 9.5;
-      pts.push(`${(cx + Math.cos(a) * r).toFixed(2)} ${(cy + Math.sin(a) * r).toFixed(2)}`);
+      pts.push([Math.cos(a) * r, Math.sin(a) * r]);
     }
-    return <path d={`M ${pts.join(' L ')}`} stroke={ink} strokeWidth={2.6} {...HAND_STROKE} />;
+    return <g transform={`translate(${cx} ${cy})`}>{inkStroke(pts, 'scribble', `${seed}:spiral`, 3.4)}</g>;
+  }
+
+  if (shape === 'dots') {
+    return (
+      <g transform={`translate(${cx} ${cy})`}>
+        <RoughAsset def={pupil(4.6)} variant={seed} />
+      </g>
+    );
   }
 
   const r = shape === 'wide' ? 12.5 : 9;
-  const pupilR = shape === 'wide' ? 3.6 : 4.3;
-  const reach = r - pupilR - 1.6;
-  const px = cx + look[0] * reach;
-  const py = cy + look[1] * reach;
+  const pr = shape === 'wide' ? 3.6 : 4.3;
+  const reach = r - pr - 1.6;
 
   return (
-    <>
-      <circle cx={cx} cy={cy} r={r} fill={PALETTE.paper} stroke={ink} strokeWidth={sw} />
-      <circle cx={px} cy={py} r={pupilR} fill={ink} />
+    <g transform={`translate(${cx} ${cy})`}>
+      <RoughAsset def={eyeWhite(r)} variant={seed} />
+      <g transform={`translate(${(look[0] * reach).toFixed(2)} ${(look[1] * reach).toFixed(2)})`}>
+        <RoughAsset def={pupil(pr)} variant={seed} />
+      </g>
       {shape === 'tired' && (
-        // heavy upper lid + a bag underneath
         <>
-          <path
-            d={`M ${cx - r - 1} ${cy - 2.5} Q ${cx} ${cy - r + 1.5} ${cx + r + 1} ${cy - 2.5}`}
-            stroke={ink}
-            strokeWidth={sw + 1.1}
-            {...HAND_STROKE}
-          />
-          <path
-            d={`M ${cx - r + 1} ${cy + r + 2.5} Q ${cx} ${cy + r + 5.5} ${cx + r - 1} ${cy + r + 2.5}`}
-            stroke={ink}
-            strokeWidth={2.1}
-            {...HAND_STROKE}
-          />
+          {inkStroke(arcPoints(0, -1, r + 1, r - 3, 200, 340, 10), 'face', `${seed}:lid`, 6)}
+          {inkStroke(arcPoints(0, r + 3, r - 1, 3, 20, 160, 8), 'face', `${seed}:bag`, 3)}
         </>
       )}
-    </>
-  );
-}
-
-function Brow({ cx, cy, brow, side }: { cx: number; cy: number; brow: number; side: -1 | 1 }) {
-  // raised brows arch and lift; furrowed brows drop and angle their INNER ends down
-  const lift = -brow * 4.6 - 16;
-  const rot = -brow * 15 * side;
-  const arch = brow > 0 ? 4.2 * brow : -1.8;
-  const w = 10.5;
-  return (
-    <g transform={`translate(${cx} ${cy + lift}) rotate(${rot})`}>
-      <path
-        d={`M ${-w} 0 Q 0 ${-arch} ${w} 0`}
-        stroke={PALETTE.ink}
-        strokeWidth={STROKE.detail + 0.6}
-        {...HAND_STROKE}
-      />
     </g>
   );
 }
 
-function Mouth({ shape, scale }: { shape: Expression['mouth']; scale: number }) {
-  const ink = PALETTE.ink;
-  const sw = STROKE.detail;
-  const inner = (() => {
-    switch (shape) {
-      case 'line':
-        return <path d="M -8 0 L 8 0" stroke={ink} strokeWidth={sw} {...HAND_STROKE} />;
-      case 'flat':
-        return <path d="M -10 0.5 L 10 -0.5" stroke={ink} strokeWidth={sw} {...HAND_STROKE} />;
-      case 'smile':
-        return <path d="M -9.5 -2.5 Q 0 5.5 9.5 -2.5" stroke={ink} strokeWidth={sw} {...HAND_STROKE} />;
-      case 'bigSmile':
-        return (
-          <>
-            <path d="M -12.5 -4 Q 0 10.5 12.5 -4 Z" fill={ink} stroke={ink} strokeWidth={sw} strokeLinejoin="round" />
-            <path d="M -8 3.6 Q 0 6.4 8 3.6" stroke={PALETTE.paper} strokeWidth={2} {...HAND_STROKE} />
-          </>
-        );
-      case 'frown':
-        return <path d="M -9.5 3.5 Q 0 -4 9.5 3.5" stroke={ink} strokeWidth={sw} {...HAND_STROKE} />;
-      case 'o':
-        return <ellipse cx={0} cy={0} rx={5} ry={6.2} fill={ink} />;
-      case 'gasp':
-        return (
-          <>
-            <ellipse cx={0} cy={1} rx={7} ry={10} fill={ink} />
-            <ellipse cx={0} cy={7.5} rx={3.6} ry={2.4} fill={PALETTE.coral} opacity={0.85} />
-          </>
-        );
-      case 'wavy':
-        return (
-          <path
-            d="M -10 0 Q -5 -4.5 0 0 Q 5 4.5 10 0"
-            stroke={ink}
-            strokeWidth={sw}
-            {...HAND_STROKE}
+function Brow({ at, brow, side, seed }: { at: Point; brow: number; side: -1 | 1; seed: string }) {
+  const lift = -brow * 4.6 - 16;
+  const rot = -brow * 15 * side;
+  const arch = brow > 0 ? 4.2 * brow : -1.8;
+  return (
+    <g transform={`translate(${at[0]} ${at[1] + lift}) rotate(${rot})`}>
+      {inkStroke(quadPoints([-10.5, 0], [0, -arch * 2], [10.5, 0], 10), 'face', `${seed}:brow`, 4.4)}
+    </g>
+  );
+}
+
+function Mouth({ shape, scale, seed }: { shape: Expression['mouth']; scale: number; seed: string }) {
+  const s = scale * 1.3;
+  const wrap = (node: React.ReactNode) => (
+    <g transform={`translate(0 ${MOUTH_Y}) scale(${s})`}>{node}</g>
+  );
+
+  switch (shape) {
+    case 'o':
+      return wrap(<RoughAsset def={MOUTH_O} variant={seed} />);
+    case 'gasp':
+      return wrap(<RoughAsset def={MOUTH_GASP} variant={seed} />);
+    case 'grimace':
+      return wrap(<RoughAsset def={MOUTH_GRIMACE} variant={seed} />);
+    case 'line':
+      return wrap(inkStroke([[-9, 0], [0, 1], [9, 0]], 'face', `${seed}:m`, 4.2));
+    case 'flat':
+      return wrap(inkStroke([[-11, 0.5], [0, 0], [11, -0.5]], 'face', `${seed}:m`, 4.2));
+    case 'smile':
+      return wrap(inkStroke(quadPoints([-10, -3], [0, 9], [10, -3], 12), 'face', `${seed}:m`, 4.6));
+    case 'bigSmile':
+      return wrap(
+        <>
+          <RoughAsset
+            def={{
+              id: 'char-nib-mouth-big',
+              shapes: [{ k: 'path', d: 'M -13 -4 Q 0 12 13 -4 Z', fill: PALETTE.ink, rough: 'detail', sw: 2.4 }],
+            }}
+            variant={seed}
           />
-        );
-      case 'smirk':
-        return <path d="M -8.5 2 Q 1.5 2.5 9.5 -4" stroke={ink} strokeWidth={sw} {...HAND_STROKE} />;
-      case 'grimace':
-        return (
-          <>
-            <path d="M -10 -4 L 10 -4 L 10 4 L -10 4 Z" fill={PALETTE.paper} stroke={ink} strokeWidth={2.4} strokeLinejoin="round" />
-            <path d="M -10 0 L 10 0 M -4 -4 L -4 4 M 3 -4 L 3 4" stroke={ink} strokeWidth={1.8} />
-          </>
-        );
-      default:
-        return null;
-    }
-  })();
-  // base 1.3 keeps the mouth legible against the bigger head
-  return <g transform={`translate(0 ${MOUTH_Y}) scale(${scale * 1.3})`}>{inner}</g>;
+          {inkStroke([[-7, 4], [0, 6.4], [7, 4]], 'face', `${seed}:tongue`, 2.6, PALETTE.paper)}
+        </>,
+      );
+    case 'frown':
+      return wrap(inkStroke(quadPoints([-10, 4], [0, -7], [10, 4], 12), 'face', `${seed}:m`, 4.6));
+    case 'wavy':
+      return wrap(inkStroke([[-10, 0], [-5, -4.5], [0, 0], [5, 4.5], [10, 0]], 'face', `${seed}:m`, 4.2));
+    case 'smirk':
+      return wrap(inkStroke(quadPoints([-9, 2], [1, 3], [10, -5], 12), 'face', `${seed}:m`, 4.2));
+    default:
+      return null;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -202,24 +268,18 @@ export type DoodleCharacterProps = {
   x: number;
   y: number;
   scale?: number;
-  /** Mirror horizontally (character faces the other way). */
   flip?: boolean;
-  /** Current frame — drives the wobble. Pass the scene's frame. */
+  /** Drives transform-level breathing only — never the drawn geometry. */
   frame: number;
-  /** Stable key so two characters in one shot wobble differently but reproducibly. */
+  /** Stable identity: the Rough.js seed namespace for this character instance. */
   seed?: string;
-  /** Amount of hand-drawn imperfection. 0 disables it. */
+  /** Retained from V1 for scene compatibility; now scales the transform-level drift. */
   wobbleAmount?: number;
   shirtColor?: string;
-  /**
-   * Paper outline behind the ink, so the character reads on dark backgrounds.
-   * On by default; turn it off for a character deliberately sinking into shadow.
-   */
+  /** Paper outline behind the ink so the character survives dark backgrounds. */
   halo?: boolean;
   opacity?: number;
-  /** Extra rotation of the whole body, degrees. */
   rotate?: number;
-  /** Drawn in character space, in front of the body — props held in hand, etc. */
   children?: React.ReactNode;
 };
 
@@ -239,7 +299,6 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
   rotate = 0,
   children,
 }) => {
-  const ink = PALETTE.ink;
   const w = (k: string, amp: number, spd = 0.09) => wobble(`${seed}:${k}`, frame, spd, amp * wobbleAmount);
 
   const [rootX, rootY] = pose.rootOffset ?? [0, 0];
@@ -249,7 +308,6 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
   const brow = expression.brow ?? 0;
   const browSkew = expression.browSkew ?? 0;
 
-  // whole-body breathing + drift
   const bodyRot = (pose.torsoLean ?? 0) + w('body', 0.9);
   const driftX = w('dx', 0.7, 0.06);
   const driftY = w('dy', 0.7, 0.075);
@@ -258,107 +316,76 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
 
   const [hx, hy] = RIG.headCenter;
 
-  /**
-   * Every ink stroke gets a paper-coloured stroke laid under it first. Noodle limbs are
-   * pure ink on a warm-charcoal line, so on the dark casino backgrounds they vanished
-   * completely — the character read as a floating head. The halo is the same trick the
-   * captions use, and it also reads as a deliberate sticker outline.
-   */
-  const limb = (path: string) => (
-    <>
-      {halo && (
-        <path d={path} stroke={PALETTE.paper} strokeWidth={STROKE.limb + 7} {...HAND_STROKE} />
-      )}
-      <path d={path} stroke={ink} strokeWidth={STROKE.limb} {...HAND_STROKE} />
-    </>
-  );
-  const hand = (l: { x: number; y: number }) => (
-    <>
-      {halo && <circle cx={l.x} cy={l.y} r={12} fill={PALETTE.paper} />}
-      <circle cx={l.x} cy={l.y} r={8.4} fill={PALETTE.skin} stroke={ink} strokeWidth={STROKE.outline - 0.8} />
-    </>
-  );
-  const foot = (l: { x: number; y: number }, dir: number) => (
-    <ellipse
-      cx={l.x + dir * 4}
-      cy={l.y + 3.5}
-      rx={11.5}
-      ry={6.4}
-      fill={ink}
-      stroke={halo ? PALETTE.paper : ink}
-      strokeWidth={halo ? 5 : 2}
-      paintOrder="stroke"
-    />
+  /** A noodle limb: one freehand stroke from anchor to hand/foot. */
+  const limb = (anchor: readonly [number, number], l: { x: number; y: number; bend: number }, key: string) => {
+    const c = limbControl(anchor, l);
+    const pts = quadPoints([anchor[0], anchor[1]], c, [l.x, l.y], 16);
+    return (
+      <>
+        {halo && <path d={freehandPath(pts, 'limb', `${seed}:${key}`, { size: 11 })} fill={PALETTE.paper} />}
+        <path d={freehandPath(pts, 'limb', `${seed}:${key}`)} fill={PALETTE.ink} />
+      </>
+    );
+  };
+
+  const at = (p: { x: number; y: number }, node: React.ReactNode) => (
+    <g transform={`translate(${p.x} ${p.y})`}>{node}</g>
   );
 
   const arms = (
     <>
-      {limb(limbPath(RIG.shoulderL, pose.armL))}
-      {limb(limbPath(RIG.shoulderR, pose.armR))}
-      {hand(pose.armL)}
-      {hand(pose.armR)}
+      {limb(RIG.shoulderL, pose.armL, 'armL')}
+      {limb(RIG.shoulderR, pose.armR, 'armR')}
+      {halo && at(pose.armL, <RoughAsset def={HAND_HALO} variant={`${seed}L`} />)}
+      {halo && at(pose.armR, <RoughAsset def={HAND_HALO} variant={`${seed}R`} />)}
+      {at(pose.armL, <RoughAsset def={HAND} variant={`${seed}L`} />)}
+      {at(pose.armR, <RoughAsset def={HAND} variant={`${seed}R`} />)}
     </>
   );
 
   return (
     <g
-      transform={`translate(${x + driftX * scale} ${y + driftY * scale}) scale(${scale * (flip ? -1 : 1)} ${scale}) rotate(${rotate})`}
+      transform={`translate(${(x + driftX * scale).toFixed(2)} ${(y + driftY * scale).toFixed(2)}) scale(${scale * (flip ? -1 : 1)} ${scale}) rotate(${rotate})`}
       opacity={opacity}
     >
       <g transform={`translate(${rootX} ${rootY})`}>
         <g transform={`rotate(${bodyRot}) scale(${sx} ${sy})`}>
-          {/* ---- legs (behind everything) ---- */}
-          {limb(limbPath(RIG.hipL, pose.legL))}
-          {limb(limbPath(RIG.hipR, pose.legR))}
-          {foot(pose.legL, -1)}
-          {foot(pose.legR, 1)}
+          {/* ---- legs ---- */}
+          {limb(RIG.hipL, pose.legL, 'legL')}
+          {limb(RIG.hipR, pose.legR, 'legR')}
+          {halo && at({ x: pose.legL.x - 4, y: pose.legL.y + 3.5 }, <RoughAsset def={FOOT_HALO} variant={`${seed}FL`} />)}
+          {halo && at({ x: pose.legR.x + 4, y: pose.legR.y + 3.5 }, <RoughAsset def={FOOT_HALO} variant={`${seed}FR`} />)}
+          {at({ x: pose.legL.x - 4, y: pose.legL.y + 3.5 }, <RoughAsset def={FOOT} variant={`${seed}FL`} />)}
+          {at({ x: pose.legR.x + 4, y: pose.legR.y + 3.5 }, <RoughAsset def={FOOT} variant={`${seed}FR`} />)}
 
-          {/*
-            ---- arms: BEHIND the body ----
-            Noodle arms drawn over the torso and head read as cut-out hands pasted on
-            top of the character. Tucked behind the silhouette they read as limbs that
-            belong to the body, and the shoulder joint stops needing to be drawn at all.
-            Poses set `armsInFront` only when the hand must physically be in front of the
-            face to mean anything (a hand on the chin, hands over the cheeks).
-          */}
+          {/* ---- arms behind the body (V1 lesson: drawn on top they read as pasted-on) ---- */}
           {pose.armsInFront ? null : arms}
 
-          {/* ---- torso: flat fill nudged off its own outline ---- */}
-          {halo && (
-            <path d={TORSO_D} fill={PALETTE.paper} stroke={PALETTE.paper} strokeWidth={9} strokeLinejoin="round" />
-          )}
-          <path d={TORSO_D} fill={shirtColor} transform="translate(2.2 1.8)" />
-          <path d={TORSO_D} fill="none" stroke={ink} strokeWidth={STROKE.outline} strokeLinejoin="round" />
+          {/* ---- torso ---- */}
+          {halo && <RoughAsset def={TORSO_HALO} variant={seed} />}
+          <RoughAsset def={torso(shirtColor)} variant={seed} />
 
           {/* ---- head ---- */}
           <g transform={`translate(${hx + headOX} ${hy + headOY + headBobY}) rotate(${headRot})`}>
-            {halo && (
-              <path d={HEAD_D} fill={PALETTE.paper} stroke={PALETTE.paper} strokeWidth={9} strokeLinejoin="round" />
-            )}
-            <path d={HEAD_D} fill={PALETTE.skin} transform="translate(2.4 2)" />
-            <path d={HEAD_D} fill="none" stroke={ink} strokeWidth={STROKE.outline} strokeLinejoin="round" />
+            {halo && <RoughAsset def={HEAD_HALO} variant={seed} />}
+            <RoughAsset def={HEAD} variant={seed} />
 
-            {HAIR_D.map((d, i) => (
-              <path key={i} d={d} stroke={ink} strokeWidth={STROKE.hair} {...HAND_STROKE} />
+            {HAIR_STROKES.map((pts, i) => (
+              <path key={i} d={freehandPath(pts, 'hair', `${seed}:hair${i}`)} fill={PALETTE.ink} />
             ))}
 
-            <Eye cx={EYE_L[0]} cy={EYE_L[1]} shape={expression.eyes} look={look} mirrored={false} />
-            <Eye cx={EYE_R[0]} cy={EYE_R[1]} shape={expression.eyes} look={look} mirrored />
+            <Eye at={EYE_L} shape={expression.eyes} look={look} seed={`${seed}:L`} mirrored={false} />
+            <Eye at={EYE_R} shape={expression.eyes} look={look} seed={`${seed}:R`} mirrored />
 
-            <Brow cx={EYE_L[0]} cy={EYE_L[1]} brow={brow} side={-1} />
-            <Brow cx={EYE_R[0]} cy={EYE_R[1]} brow={brow + browSkew * 0.9} side={1} />
+            <Brow at={EYE_L} brow={brow} side={-1} seed={`${seed}:L`} />
+            <Brow at={EYE_R} brow={brow + browSkew * 0.9} side={1} seed={`${seed}:R`} />
 
-            <Mouth shape={expression.mouth} scale={expression.mouthScale ?? 1} />
+            <Mouth shape={expression.mouth} scale={expression.mouthScale ?? 1} seed={seed} />
 
             {expression.sweat && (
-              <path
-                d="M 39 -19 C 44 -8 46.5 -3 42 0.5 C 37.5 4 34.5 -2 39 -19 Z"
-                fill={PALETTE.teal}
-                stroke={ink}
-                strokeWidth={1.8}
-                strokeLinejoin="round"
-                opacity={0.95}
-              />
+              <g transform="translate(39 -12)">
+                <RoughAsset def={SWEAT} variant={seed} />
+              </g>
             )}
           </g>
 

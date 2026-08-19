@@ -1,21 +1,35 @@
 /**
- * backgrounds/index.tsx — the six rooms this channel keeps returning to.
+ * backgrounds/index.tsx — the six rooms this channel keeps returning to. V2.
  *
- * Backgrounds are FULL STAGE: they draw into the same `0 0 1080 1920` SVG coordinate
- * space `Stage.tsx` sets up, so every component here returns a `<g>` sized for the whole
- * frame and a scene just drops it in behind its foreground art.
+ * FULL STAGE: every component here draws into the same `0 0 1080 1920` SVG space that
+ * `Stage.tsx` sets up, returns a single `<g>`, and a scene drops it in behind its
+ * foreground art.
  *
- * They are deliberately under-drawn. The character and the captions are the story; a
- * background that competes for ink makes both harder to read. So: thin strokes
- * (`STROKE.propFine`), muted colour, big flat shapes, and nothing detailed enough to
- * look at twice. Every architecture reads as "a place", never as a particular venue —
- * no real names, no logos, no recognisable buildings.
+ * V2 contract — DESIGN CLEANLY, RENDER IMPERFECTLY:
+ *
+ *   - A wall is a rectangle. A ceiling seam is a line. A window is a rectangle with one
+ *     mullion. Nothing below is hand-wobbled, and there are no jitter tables, no lumpy
+ *     "potato" helpers, no wonky-line generators. All of the drawn character arrives from
+ *     `RoughShapes` applying the `background` roughness token — thin, loose, and
+ *     deliberately weaker than anything in the foreground.
+ *   - Big colour fields are plain SVG `<rect>`s. A rough-generated 1080x1920 fill is
+ *     thousands of segments for zero visual gain; rough geometry is spent only on EDGES
+ *     and on objects that must read as drawn.
+ *   - `frame` drives transform-level drift ONLY (translate / rotate / scale on a `<g>`).
+ *     It never reaches the geometry handed to the stylizer — if it did, every frame would
+ *     miss the rough cache and the lines would boil.
+ *
+ * These rooms are under-drawn on purpose. The character and the captions (y ~1442) are the
+ * story; a background that competes for ink makes both harder to read. Every architecture
+ * reads as "a place", never a particular venue — no names, no logos, no real buildings.
  *
  * Anything a scene needs to change (`lit`, `intensity`, hung wall items) is a prop.
  */
 
 import React from 'react';
-import { PALETTE, STROKE, HAND_STROKE } from '../lib/style';
+import { RoughShapes } from '../assets/RoughAsset';
+import type { Shape } from '../assets/shapes';
+import { PALETTE } from '../style/tokens';
 import { hashString, rand01, valueNoise, wobble } from '../lib/rand';
 
 /** Shared contract: every background can breathe with the frame and fade as a whole. */
@@ -24,279 +38,200 @@ export type BackgroundProps = {
   opacity?: number;
 };
 
-/** Deterministic [0,1) from a seed plus a key. */
+const W = 1080;
+const H = 1920;
+
+/** Deterministic [0,1) from a seed plus a key — never `Math.random()`. */
 const r01 = (seed: string, key: string): number => rand01(hashString(`${seed}:${key}`));
 
-/** Deterministic [-1,1]. */
-const rSigned = (seed: string, key: string): number => r01(seed, key) * 2 - 1;
-
 /**
- * A whole-background sway of about a pixel. Backgrounds should feel drawn on the same
- * shaky page as the character, but they must never draw attention by moving.
+ * A whole-background sway of about a pixel, applied as a translate on the root `<g>`.
+ * Backgrounds should feel drawn on the same shaky page as the character, but they must
+ * never draw attention by moving — and this must stay a transform, never geometry.
  */
-const sway = (seed: string, frame: number, amp = 1.4): number =>
-  wobble(seed, frame, 0.028, amp);
+const sway = (key: string, frame: number, amp = 1.2): string =>
+  `translate(${wobble(key, frame, 0.024, amp).toFixed(2)} ${wobble(`${key}:y`, frame, 0.019, amp * 0.6).toFixed(2)})`;
 
-/** A closed lumpy blob — the honest way to draw anything round in this style. */
-function blob(
-  cx: number,
-  cy: number,
-  rx: number,
-  ry: number,
-  seed: string,
-  bumps = 9,
-): string {
-  const pts: Array<[number, number]> = [];
-  for (let i = 0; i < bumps; i++) {
-    const a = (i / bumps) * Math.PI * 2 + rSigned(seed, `a${i}`) * 0.18;
-    const k = 0.87 + r01(seed, `k${i}`) * 0.24;
-    pts.push([cx + Math.cos(a) * rx * k, cy + Math.sin(a) * ry * k]);
-  }
-  let d = `M ${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
-  for (let i = 0; i < bumps; i++) {
-    const p = pts[i];
-    const q = pts[(i + 1) % bumps];
-    const mx = (p[0] + q[0]) / 2;
-    const my = (p[1] + q[1]) / 2;
-    const ox = mx - cx;
-    const oy = my - cy;
-    const len = Math.hypot(ox, oy) || 1;
-    const push = 0.3 * Math.hypot(q[0] - p[0], q[1] - p[1]);
-    d +=
-      ` Q ${(mx + (ox / len) * push).toFixed(1)} ${(my + (oy / len) * push).toFixed(1)}` +
-      ` ${q[0].toFixed(1)} ${q[1].toFixed(1)}`;
-  }
-  return `${d} Z`;
-}
+/** Every background edge is drawn with the same loose, thin architectural hand. */
+const BG = 'background' as const;
 
-/** A wonky box, drawn corner by corner with every corner a unit or two off true. */
-function box(x: number, y: number, w: number, h: number, seed: string): string {
-  const j = (k: string) => rSigned(seed, k) * 3.4;
-  return (
-    `M ${(x + j('a')).toFixed(1)} ${(y + j('b')).toFixed(1)} ` +
-    `L ${(x + w + j('c')).toFixed(1)} ${(y + j('d')).toFixed(1)} ` +
-    `L ${(x + w + j('e')).toFixed(1)} ${(y + h + j('f')).toFixed(1)} ` +
-    `L ${(x + j('g')).toFixed(1)} ${(y + h + j('h')).toFixed(1)} Z`
-  );
-}
+// ===========================================================================
+// CasinoEntrance — the way in, seen head-on, with an unbranded sign over the door
+// ===========================================================================
 
-/** A never-quite-straight line between two points. */
-function wonkyLine(
-  x1: number,
-  y1: number,
-  x2: number,
-  y2: number,
-  seed: string,
-  bow = 6,
-): string {
-  const mx = (x1 + x2) / 2;
-  const my = (y1 + y2) / 2;
-  const nx = -(y2 - y1);
-  const ny = x2 - x1;
-  const len = Math.hypot(nx, ny) || 1;
-  const b = rSigned(seed, 'bow') * bow;
-  return (
-    `M ${x1.toFixed(1)} ${y1.toFixed(1)} ` +
-    `Q ${(mx + (nx / len) * b).toFixed(1)} ${(my + (ny / len) * b).toFixed(1)} ` +
-    `${x2.toFixed(1)} ${y2.toFixed(1)}`
-  );
-}
+const ENTRANCE_ID = 'bg-casino-entrance';
 
-// ---------------------------------------------------------------------------
+const ENTRANCE_SHAPES: Shape[] = [
+  // facade outline — the fill underneath is a plain rect
+  { k: 'rect', x: 88, y: 292, w: 904, h: 1224, stroke: PALETTE.greyDeep, sw: 2.6, rough: BG },
+  // parapet, so the roofline reads as built rather than cropped
+  { k: 'line', x1: 88, y1: 336, x2: 992, y2: 336, stroke: PALETTE.greyDeep, sw: 2.2, rough: BG, opacity: 0.7 },
+
+  // doorway — the only dark hole in the wall, so the eye goes straight in
+  { k: 'rect', x: 392, y: 1008, w: 300, h: 508, fill: PALETTE.nightWall, stroke: PALETTE.ink, sw: 2.8, rough: BG },
+  { k: 'line', x1: 542, y1: 1014, x2: 542, y2: 1510, stroke: PALETTE.greyDeep, sw: 2, rough: BG, opacity: 0.75 },
+
+  // generic sign — squiggle "text", so it never names anything
+  { k: 'rect', x: 344, y: 596, w: 396, h: 158, fill: PALETTE.gold, stroke: PALETTE.ink, sw: 2.8, rough: BG, opacity: 0.9 },
+  { k: 'line', x1: 388, y1: 646, x2: 690, y2: 646, stroke: PALETTE.inkSoft, sw: 2.4, rough: BG, opacity: 0.55 },
+  { k: 'line', x1: 402, y1: 688, x2: 664, y2: 688, stroke: PALETTE.inkSoft, sw: 2.4, rough: BG, opacity: 0.55 },
+  { k: 'line', x1: 424, y1: 726, x2: 622, y2: 726, stroke: PALETTE.inkSoft, sw: 2.4, rough: BG, opacity: 0.55 },
+
+  // ground line and one step, so the building sits on something
+  { k: 'line', x1: -20, y1: 1516, x2: 1100, y2: 1512, stroke: PALETTE.greyDeep, sw: 2.6, rough: BG },
+  { k: 'line', x1: 300, y1: 1594, x2: 800, y2: 1590, stroke: PALETTE.greyDeep, sw: 2.2, rough: BG, opacity: 0.6 },
+];
+
+/** Six sign bulbs — deterministic sizes, evenly spaced. Cheap casino glitter. */
+const ENTRANCE_BULBS: Shape[] = Array.from({ length: 6 }, (_, i): Shape => {
+  const t = i % 3;
+  return {
+    k: 'circle',
+    cx: 380 + t * 162,
+    cy: i < 3 ? 574 : 776,
+    r: 9 + r01(ENTRANCE_ID, `bulb${i}`) * 3,
+    fill: PALETTE.gold,
+    stroke: PALETTE.ink,
+    sw: 2,
+    rough: BG,
+    opacity: 0.8,
+  };
+});
 
 /** The way in: a generic entrance seen head-on, with an unbranded sign over the door. */
-export const CasinoEntrance: React.FC<BackgroundProps> = ({ frame = 0, opacity = 1 }) => {
-  const s = 'entrance';
-  const dx = sway(`${s}:dx`, frame);
+export const CasinoEntrance: React.FC<BackgroundProps> = ({ frame = 0, opacity = 1 }) => (
+  <g opacity={opacity} transform={sway(`${ENTRANCE_ID}:sway`, frame)}>
+    {/* flat fields: open air above the roofline, pavement below, facade between */}
+    <rect x={0} y={0} width={W} height={340} fill={PALETTE.grey} opacity={0.3} />
+    <rect x={0} y={1512} width={W} height={H - 1512} fill={PALETTE.paperShade} opacity={0.85} />
+    <rect x={88} y={292} width={904} height={1224} fill={PALETTE.paperShade} />
+    <RoughShapes id={ENTRANCE_ID} shapes={ENTRANCE_SHAPES} />
+    <RoughShapes id={`${ENTRANCE_ID}-bulbs`} shapes={ENTRANCE_BULBS} />
+  </g>
+);
 
-  const facade =
-    'M 96 296 C 340 276 742 282 986 300 L 1000 1516 L 82 1516 Z';
-  const doorway =
-    'M 392 1512 L 398 1022 C 452 942 640 938 690 1016 L 698 1512 Z';
-  const sign =
-    'M 340 600 C 500 584 598 586 742 604 C 752 662 750 716 740 750 ' +
-    'C 590 764 492 762 344 748 C 334 706 332 650 340 600 Z';
+// ===========================================================================
+// TraditionalFloor — sealed box, low ceiling, no windows, nothing to tell time by
+// ===========================================================================
 
-  const bulbs = Array.from({ length: 9 }, (_, i) => {
-    const t = i / 8;
-    return {
-      key: i,
-      cx: 356 + t * 372 + rSigned(s, `bx${i}`) * 5,
-      cy: (i % 2 === 0 ? 580 : 772) + rSigned(s, `by${i}`) * 5,
-      r: 8 + r01(s, `br${i}`) * 3,
-    };
-  });
+const TRAD_ID = 'bg-traditional-floor';
+const TRAD_CEILING = 300;
+const TRAD_BASE = 1258;
 
-  return (
-    <g opacity={opacity} transform={`translate(${dx.toFixed(2)} 0)`}>
-      {/* exterior: a strip of open air above the roofline, and the pavement below */}
-      <path d={box(-20, -20, 1120, 320, `${s}:sky`)} fill={PALETTE.grey} opacity={0.3} />
-      <path d={box(-20, 1500, 1120, 460, `${s}:pave`)} fill={PALETTE.paperShade} opacity={0.85} />
+const TRAD_SHAPES: Shape[] = [
+  // the ceiling seam, drawn LOW on purpose — that is the whole point of this room
+  { k: 'line', x1: -20, y1: TRAD_CEILING, x2: 1100, y2: TRAD_CEILING + 4, stroke: PALETTE.nightFloor, sw: 3.2, rough: BG },
+  // the walls close in slightly, so the box reads as enclosed
+  { k: 'line', x1: 74, y1: TRAD_CEILING + 4, x2: 44, y2: TRAD_BASE, stroke: PALETTE.nightFloor, sw: 2.4, rough: BG, opacity: 0.8 },
+  { k: 'line', x1: 1006, y1: TRAD_CEILING + 2, x2: 1038, y2: TRAD_BASE, stroke: PALETTE.nightFloor, sw: 2.4, rough: BG, opacity: 0.8 },
+  // wall/floor seam
+  { k: 'line', x1: -20, y1: TRAD_BASE, x2: 1100, y2: TRAD_BASE - 8, stroke: PALETTE.ink, sw: 2.6, rough: BG, opacity: 0.8 },
 
-      {/* facade */}
-      <path d={facade} fill={PALETTE.paperShade} transform="translate(3 3)" />
-      <path
-        d={facade}
-        fill="none"
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.propFine}
-        strokeLinejoin="round"
-      />
+  // three dim ceiling fittings — light exists here, daylight does not
+  { k: 'ellipse', cx: 250, cy: 188, rx: 96, ry: 26, fill: PALETTE.greyDeep, stroke: PALETTE.nightFloor, sw: 2, rough: BG, opacity: 0.3 },
+  { k: 'ellipse', cx: 546, cy: 172, rx: 88, ry: 24, fill: PALETTE.greyDeep, stroke: PALETTE.nightFloor, sw: 2, rough: BG, opacity: 0.26 },
+  { k: 'ellipse', cx: 848, cy: 190, rx: 92, ry: 25, fill: PALETTE.greyDeep, stroke: PALETTE.nightFloor, sw: 2, rough: BG, opacity: 0.3 },
 
-      {/* doorway — the only dark hole in the wall, so the eye goes straight in */}
-      <path d={doorway} fill={PALETTE.nightWall} transform="translate(3 2.6)" opacity={0.9} />
-      <path
-        d={doorway}
-        fill="none"
-        stroke={PALETTE.ink}
-        strokeWidth={STROKE.propFine}
-        strokeLinejoin="round"
-      />
-      <path
-        d={wonkyLine(544, 1008, 540, 1506, `${s}:split`, 4)}
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.fine}
-        {...HAND_STROKE}
-      />
+  // two blank wall panels — texture without anything worth looking at
+  { k: 'line', x1: 190, y1: 470, x2: 190, y2: 1210, stroke: PALETTE.nightFloor, sw: 2, rough: BG, opacity: 0.45 },
+  { k: 'line', x1: 890, y1: 470, x2: 890, y2: 1206, stroke: PALETTE.nightFloor, sw: 2, rough: BG, opacity: 0.45 },
+];
 
-      {/* generic sign — squiggles instead of words, so it never names anything */}
-      <path d={sign} fill={PALETTE.gold} transform="translate(3 2.6)" opacity={0.85} />
-      <path
-        d={sign}
-        fill="none"
-        stroke={PALETTE.ink}
-        strokeWidth={STROKE.propFine}
-        strokeLinejoin="round"
-      />
-      {[0, 1, 2].map((i) => (
-        <path
-          key={i}
-          d={wonkyLine(390 + i * 14, 650 + i * 34, 690 - i * 26, 652 + i * 34, `${s}:txt${i}`, 5)}
-          stroke={PALETTE.inkSoft}
-          strokeWidth={STROKE.propFine}
-          opacity={0.5}
-          {...HAND_STROKE}
-        />
-      ))}
-      {bulbs.map((b) => (
-        <path
-          key={b.key}
-          d={blob(b.cx, b.cy, b.r, b.r * 0.92, `${s}:bulb${b.key}`, 7)}
-          fill={PALETTE.gold}
-          stroke={PALETTE.ink}
-          strokeWidth={STROKE.fine}
-          strokeLinejoin="round"
-          opacity={0.8}
-        />
-      ))}
-
-      {/* ground line + a step, to sit the building on something */}
-      <path
-        d={wonkyLine(-20, 1514, 1100, 1508, `${s}:ground`, 9)}
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.propFine}
-        {...HAND_STROKE}
-      />
-      <path
-        d={wonkyLine(300, 1590, 800, 1584, `${s}:step`, 7)}
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.fine}
-        opacity={0.7}
-        {...HAND_STROKE}
-      />
-    </g>
-  );
-};
+/** Four floor seams converging away from camera. Nothing more happens down here. */
+const TRAD_FLOOR_SEAMS: Shape[] = Array.from({ length: 4 }, (_, i): Shape => ({
+  k: 'line',
+  x1: -60 + i * 400,
+  y1: H + 20,
+  x2: 300 + i * 170,
+  y2: TRAD_BASE + 6,
+  stroke: PALETTE.nightWall,
+  sw: 2.2,
+  rough: BG,
+  opacity: 0.7,
+}));
 
 /** The old-school floor: sealed box, low ceiling, no windows, nothing to tell time by. */
 export const TraditionalFloor: React.FC<
   BackgroundProps & { wallItems?: React.ReactNode }
-> = ({ frame = 0, opacity = 1, wallItems }) => {
-  const s = 'trad-floor';
-  const dx = sway(`${s}:dx`, frame, 1.1);
+> = ({ frame = 0, opacity = 1, wallItems }) => (
+  <g opacity={opacity} transform={sway(`${TRAD_ID}:sway`, frame, 1)}>
+    {/* flat fields: dark wall everywhere, darker ceiling pressing down, floor below */}
+    <rect x={0} y={0} width={W} height={H} fill={PALETTE.nightWall} />
+    <rect x={0} y={0} width={W} height={TRAD_CEILING} fill={PALETTE.ink} opacity={0.35} />
+    <rect x={0} y={TRAD_BASE} width={W} height={H - TRAD_BASE} fill={PALETTE.nightFloor} />
+    <RoughShapes id={TRAD_ID} shapes={TRAD_SHAPES} />
+    <RoughShapes id={`${TRAD_ID}-seams`} shapes={TRAD_FLOOR_SEAMS} />
+    {/* whatever the scene wants hung on that wall — a clock, or pointedly nothing */}
+    {wallItems}
+  </g>
+);
 
-  const ceiling = 'M -20 -20 L 1100 -20 L 1100 300 C 720 322 356 318 -20 296 Z';
-  const wall = 'M -20 296 C 356 318 720 322 1100 300 L 1100 1250 L -20 1258 Z';
-  const floor = 'M -20 1258 L 1100 1250 L 1100 1940 L -20 1940 Z';
+// ===========================================================================
+// SlotArea — a bank of machines receding into the room, under a run of ceiling lights
+// ===========================================================================
 
-  return (
-    <g opacity={opacity} transform={`translate(${dx.toFixed(2)} 0)`}>
-      {/* the ceiling is drawn LOW and dark on purpose — that is the whole point of the room */}
-      <path d={floor} fill={PALETTE.nightFloor} />
-      <path d={wall} fill={PALETTE.nightWall} />
-      <path d={ceiling} fill={PALETTE.nightWall} opacity={0.95} />
-      <path
-        d={wonkyLine(-20, 298, 1100, 300, `${s}:soffit`, 8)}
-        stroke={PALETTE.nightFloor}
-        strokeWidth={STROKE.prop}
-        {...HAND_STROKE}
-      />
+const SLOT_ID = 'bg-slot-area';
+const SLOT_BASE = 1280;
 
-      {/* corners: the walls close in slightly, so the room reads as enclosed */}
-      <path
-        d={wonkyLine(74, 302, 46, 1256, `${s}:cornerL`, 7)}
-        stroke={PALETTE.nightFloor}
-        strokeWidth={STROKE.propFine}
-        opacity={0.8}
-        {...HAND_STROKE}
-      />
-      <path
-        d={wonkyLine(1006, 300, 1036, 1252, `${s}:cornerR`, 7)}
-        stroke={PALETTE.nightFloor}
-        strokeWidth={STROKE.propFine}
-        opacity={0.8}
-        {...HAND_STROKE}
-      />
+/** Five ceiling fittings in a run. `glow` is the only thing `lit` changes. */
+const slotLights = (glow: string, lit: boolean): Shape[] =>
+  Array.from({ length: 5 }, (_, i): Shape => ({
+    k: 'ellipse',
+    cx: 140 + i * 200,
+    cy: 168 + Math.round(r01(SLOT_ID, `ly${i}`) * 18),
+    rx: 62,
+    ry: 20,
+    fill: glow,
+    stroke: PALETTE.nightFloor,
+    sw: 2,
+    rough: BG,
+    opacity: lit ? 0.55 : 0.28,
+  }));
 
-      {/* two dim ceiling fittings — light exists, daylight does not */}
-      {[318, 762].map((cx, i) => (
-        <g key={i}>
-          <path
-            d={blob(cx + i * 4, 190, 92, 26, `${s}:lamp${i}`, 8)}
-            fill={PALETTE.greyDeep}
-            opacity={0.35}
-          />
-          <path
-            d={blob(cx + i * 4, 190, 92, 26, `${s}:lamp${i}`, 8)}
-            fill="none"
-            stroke={PALETTE.nightFloor}
-            strokeWidth={STROKE.propFine}
-            strokeLinejoin="round"
-          />
-        </g>
-      ))}
-      {[1000, 470].map((cx, i) => (
-        <path
-          key={i}
-          d={blob(cx - i * 40, 178, 74, 22, `${s}:lampb${i}`, 8)}
-          fill={PALETTE.greyDeep}
-          opacity={0.22}
-        />
-      ))}
-
-      {/* floor: a few converging seams, nothing more */}
-      {[0, 1, 2, 3].map((i) => (
-        <path
-          key={i}
-          d={wonkyLine(-40 + i * 380, 1930, 300 + i * 170, 1262, `${s}:seam${i}`, 10)}
-          stroke={PALETTE.nightWall}
-          strokeWidth={STROKE.propFine}
-          opacity={0.7}
-          {...HAND_STROKE}
-        />
-      ))}
-      <path
-        d={wonkyLine(-20, 1256, 1100, 1250, `${s}:base`, 8)}
-        stroke={PALETTE.nightWall}
-        strokeWidth={STROKE.propFine}
-        {...HAND_STROKE}
-      />
-
-      {/* whatever the scene wants hung on that wall — a clock, or pointedly nothing */}
-      {wallItems}
-    </g>
+/**
+ * Two banks of three, receding. Silhouettes only — deep enough that the eye reads
+ * "rows and rows" without a single machine being worth a second look.
+ * Drawn far-to-near so the near ones overlap correctly.
+ */
+const slotMachines = (glow: string, lit: boolean): Shape[] =>
+  [2, 1, 0].flatMap((i) =>
+    [-1, 1].flatMap((side): Shape[] => {
+      const k = 1 - i * 0.18;
+      const w = 178 * k;
+      const h = 448 * k;
+      const jitter = (r01(SLOT_ID, `y${side}${i}`) - 0.5) * 14;
+      const x = side < 0 ? 28 + i * 106 : 1052 - i * 106 - w;
+      const y = 1580 - i * 100 - h + jitter;
+      return [
+        {
+          k: 'rect', x, y, w, h,
+          fill: PALETTE.nightWall,
+          stroke: PALETTE.nightFloor,
+          sw: 2.2,
+          rough: BG,
+          opacity: 0.6 + k * 0.3,
+        },
+        {
+          k: 'rect',
+          x: x + w * 0.18,
+          y: y + h * 0.16,
+          w: w * 0.64,
+          h: h * 0.28,
+          fill: glow,
+          stroke: 'none',
+          rough: BG,
+          opacity: lit ? 0.5 : 0.2,
+        },
+      ];
+    }),
   );
-};
+
+/** The aisle running away from camera, plus the seam it stands on. */
+const SLOT_AISLE: Shape[] = [
+  { k: 'line', x1: 430, y1: H + 10, x2: 512, y2: 1180, stroke: PALETTE.nightWall, sw: 2.2, rough: BG, opacity: 0.8 },
+  { k: 'line', x1: 660, y1: H + 10, x2: 574, y2: 1180, stroke: PALETTE.nightWall, sw: 2.2, rough: BG, opacity: 0.8 },
+  { k: 'line', x1: -20, y1: SLOT_BASE, x2: 1100, y2: SLOT_BASE - 6, stroke: PALETTE.nightWall, sw: 2.4, rough: BG, opacity: 0.7 },
+];
 
 /** A bank of machines receding into the room, with a run of ceiling lights over it. */
 export const SlotArea: React.FC<BackgroundProps & { lit?: boolean }> = ({
@@ -304,108 +239,62 @@ export const SlotArea: React.FC<BackgroundProps & { lit?: boolean }> = ({
   opacity = 1,
   lit = true,
 }) => {
-  const s = 'slot-area';
-  const dx = sway(`${s}:dx`, frame, 1.2);
   const glow = lit ? PALETTE.gold : PALETTE.greyDeep;
-
-  const rows = 5;
-  const machines = Array.from({ length: rows * 2 }, (_, n) => {
-    const i = n % rows;
-    const side = n < rows ? -1 : 1;
-    const k = 1 - i * 0.15;
-    const w = 168 * k;
-    const h = 430 * k;
-    const baseY = 1560 - i * 82 + rSigned(s, `y${n}`) * 6;
-    const x = side < 0 ? 26 + i * 92 : 1054 - i * 92 - w;
-    return { key: n, x, y: baseY - h, w, h, k };
-  }).sort((a, b) => b.h - a.h);
-
-  const lights = Array.from({ length: 6 }, (_, i) => ({
-    key: i,
-    cx: 120 + i * 170 + rSigned(s, `lx${i}`) * 8,
-    cy: 176 + rSigned(s, `ly${i}`) * 10,
-    rx: 56 - i * 1.5,
-  }));
-
+  const ns = lit ? `${SLOT_ID}-lit` : `${SLOT_ID}-dark`;
   return (
-    <g opacity={opacity} transform={`translate(${dx.toFixed(2)} 0)`}>
-      <path d={box(-20, -20, 1120, 1300, `${s}:room`)} fill={PALETTE.nightWall} opacity={0.92} />
-      <path d={box(-20, 1260, 1120, 700, `${s}:floor`)} fill={PALETTE.nightFloor} opacity={0.95} />
-
-      {/* ceiling run */}
-      {lights.map((l) => (
-        <g key={l.key}>
-          <path
-            d={blob(l.cx, l.cy, l.rx, 20, `${s}:light${l.key}`, 8)}
-            fill={glow}
-            opacity={lit ? 0.6 : 0.3}
-          />
-          <path
-            d={blob(l.cx, l.cy, l.rx, 20, `${s}:light${l.key}`, 8)}
-            fill="none"
-            stroke={PALETTE.nightFloor}
-            strokeWidth={STROKE.fine}
-            strokeLinejoin="round"
-          />
-        </g>
-      ))}
-
-      {/* the bank — silhouettes only, deep enough that the eye reads "rows and rows" */}
-      {machines.map((m) => {
-        const body = box(m.x, m.y, m.w, m.h, `${s}:m${m.key}`);
-        const screen = box(
-          m.x + m.w * 0.18,
-          m.y + m.h * 0.18,
-          m.w * 0.64,
-          m.h * 0.3,
-          `${s}:s${m.key}`,
-        );
-        return (
-          <g key={m.key} opacity={0.55 + m.k * 0.35}>
-            <path d={body} fill={PALETTE.nightWall} transform="translate(3 3)" />
-            <path
-              d={body}
-              fill="none"
-              stroke={PALETTE.nightFloor}
-              strokeWidth={STROKE.propFine}
-              strokeLinejoin="round"
-            />
-            <path d={screen} fill={glow} opacity={lit ? 0.55 : 0.22} />
-            <path
-              d={wonkyLine(
-                m.x + m.w * 0.2,
-                m.y + m.h * 0.62,
-                m.x + m.w * 0.8,
-                m.y + m.h * 0.62,
-                `${s}:sh${m.key}`,
-                4,
-              )}
-              stroke={PALETTE.nightFloor}
-              strokeWidth={STROKE.fine}
-              {...HAND_STROKE}
-            />
-          </g>
-        );
-      })}
-
-      {/* the aisle running away from camera */}
-      <path
-        d={wonkyLine(430, 1930, 512, 1180, `${s}:aisleL`, 12)}
-        stroke={PALETTE.nightWall}
-        strokeWidth={STROKE.propFine}
-        opacity={0.8}
-        {...HAND_STROKE}
-      />
-      <path
-        d={wonkyLine(660, 1930, 574, 1180, `${s}:aisleR`, 12)}
-        stroke={PALETTE.nightWall}
-        strokeWidth={STROKE.propFine}
-        opacity={0.8}
-        {...HAND_STROKE}
-      />
+    <g opacity={opacity} transform={sway(`${SLOT_ID}:sway`, frame, 1.1)}>
+      <rect x={0} y={0} width={W} height={SLOT_BASE} fill={PALETTE.nightWall} />
+      <rect x={0} y={SLOT_BASE} width={W} height={H - SLOT_BASE} fill={PALETTE.nightFloor} />
+      <RoughShapes id={`${ns}-lights`} shapes={slotLights(glow, lit)} />
+      <RoughShapes id={`${ns}-machines`} shapes={slotMachines(glow, lit)} />
+      <RoughShapes id={`${SLOT_ID}-aisle`} shapes={SLOT_AISLE} />
     </g>
   );
 };
+
+// ===========================================================================
+// TimeDistortionVoid — no room at all: a violet field of rings, for when time stops
+// ===========================================================================
+
+const VOID_ID = 'bg-time-distortion-void';
+const VOID_CX = 540;
+const VOID_CY = 920;
+const VOID_SEED = hashString(VOID_ID);
+
+/**
+ * Seven concentric rings. The radii vary by value noise on the ring INDEX — a fixed,
+ * frame-independent scatter — so the whole field can spin and breathe as a transform
+ * while the roughened geometry underneath stays cached.
+ */
+const VOID_RINGS: Shape[] = Array.from({ length: 7 }, (_, i): Shape => {
+  const r = 150 + i * 132 + valueNoise(i * 1.7, VOID_SEED) * 30;
+  return {
+    k: 'ellipse',
+    cx: VOID_CX,
+    cy: VOID_CY,
+    rx: r * 1.06,
+    ry: r * 0.84,
+    stroke: PALETTE.violet,
+    sw: 2.6,
+    rough: BG,
+    opacity: 0.5 - i * 0.035,
+  };
+});
+
+/** Three loose arcs, so the field swirls instead of merely pulsing. */
+const VOID_SWIRLS: Shape[] = Array.from({ length: 3 }, (_, i): Shape => ({
+  k: 'arc',
+  cx: VOID_CX,
+  cy: VOID_CY,
+  rx: 300 + i * 210,
+  ry: 250 + i * 170,
+  start: 20 + i * 118,
+  stop: 210 + i * 118,
+  stroke: PALETTE.violet,
+  sw: 2.2,
+  rough: 'accent',
+  opacity: 0.3,
+}));
 
 /** No room at all: a violet field of warped rings, for when time stops behaving. */
 export const TimeDistortionVoid: React.FC<BackgroundProps & { intensity?: number }> = ({
@@ -413,284 +302,129 @@ export const TimeDistortionVoid: React.FC<BackgroundProps & { intensity?: number
   opacity = 1,
   intensity = 0.6,
 }) => {
-  const s = 'time-void';
   const amt = Math.max(0, Math.min(1, intensity));
-  const cx = 540;
-  const cy = 920;
-  const key = hashString(s);
-
-  const ring = (radius: number, ri: number): string => {
-    const n = 30;
-    const pts: string[] = [];
-    for (let i = 0; i < n; i++) {
-      const a = (i / n) * Math.PI * 2;
-      // the warp: each ring breathes on its own slow noise, more so at high intensity
-      const warp =
-        valueNoise(i * 0.5 + ri * 3.7 + frame * 0.022, key + ri * 131) *
-        (14 + radius * 0.16) *
-        (0.35 + amt);
-      const rr = radius + warp;
-      pts.push(
-        `${(cx + Math.cos(a) * rr * 1.05).toFixed(1)} ${(cy + Math.sin(a) * rr * 0.84).toFixed(1)}`,
-      );
-    }
-    return `M ${pts.join(' L ')} Z`;
-  };
-
-  const rings = Array.from({ length: 9 }, (_, i) => ({
-    key: i,
-    d: ring(110 + i * 118, i),
-    o: (0.14 + i * 0.028) * (0.4 + amt * 0.6),
-  }));
-
-  // a couple of loose spiral arcs, so the field swirls instead of just pulsing
-  const swirls = Array.from({ length: 3 }, (_, i) => {
-    const steps = 46;
-    const pts: string[] = [];
-    for (let j = 0; j <= steps; j++) {
-      const t = j / steps;
-      const a = t * Math.PI * 2.4 + i * 2.1 + frame * 0.006;
-      const rr = 140 + t * 640 * (0.8 + r01(s, `sw${i}`) * 0.35);
-      pts.push(
-        `${(cx + Math.cos(a) * rr * 1.02).toFixed(1)} ${(cy + Math.sin(a) * rr * 0.82).toFixed(1)}`,
-      );
-    }
-    return { key: i, d: `M ${pts.join(' L ')}` };
-  });
-
+  // intensity and frame touch only opacity and transforms — never the geometry above,
+  // or every interpolated intensity value would mint a fresh set of rough paths.
+  const spin = frame * 0.05;
+  const breath = 1 + Math.sin(frame * 0.028) * 0.03 * (0.4 + amt);
   return (
     <g opacity={opacity}>
-      <path d={box(-20, -20, 1120, 1960, `${s}:field`)} fill={PALETTE.violet} opacity={0.14 + amt * 0.14} />
-      {rings.map((r) => (
-        <path
-          key={r.key}
-          d={r.d}
-          stroke={PALETTE.violet}
-          strokeWidth={STROKE.propFine}
-          opacity={r.o}
-          {...HAND_STROKE}
-        />
-      ))}
-      {swirls.map((sw) => (
-        <path
-          key={sw.key}
-          d={sw.d}
-          stroke={PALETTE.violet}
-          strokeWidth={STROKE.fine}
-          opacity={0.16 + amt * 0.2}
-          {...HAND_STROKE}
-        />
-      ))}
+      <rect x={0} y={0} width={W} height={H} fill={PALETTE.violet} opacity={0.14 + amt * 0.14} />
+      <g transform={`rotate(${spin.toFixed(2)} ${VOID_CX} ${VOID_CY})`} opacity={0.45 + amt * 0.55}>
+        <g
+          transform={`translate(${VOID_CX} ${VOID_CY}) scale(${breath.toFixed(4)}) translate(${-VOID_CX} ${-VOID_CY})`}
+        >
+          <RoughShapes id={`${VOID_ID}-rings`} shapes={VOID_RINGS} />
+        </g>
+      </g>
+      <g transform={`rotate(${(-spin * 0.6).toFixed(2)} ${VOID_CX} ${VOID_CY})`} opacity={0.4 + amt * 0.6}>
+        <RoughShapes id={`${VOID_ID}-swirls`} shapes={VOID_SWIRLS} />
+      </g>
     </g>
   );
 };
+
+// ===========================================================================
+// ModernCasino — the opposite room: high ceiling, open floor, daylight through glass
+// ===========================================================================
+
+const MODERN_ID = 'bg-modern-casino';
+const MODERN_CEILING = 172;
+const MODERN_BASE = 1440;
+
+/** Three tall windows. The whole twist of the episode lives in this wall. */
+const MODERN_WINDOWS: Shape[] = [0, 1, 2].flatMap((i): Shape[] => {
+  const x = 86 + i * 316;
+  const y = 306 + Math.round(r01(MODERN_ID, `wy${i}`) * 12);
+  const w = 268;
+  const h = 560;
+  return [
+    { k: 'rect', x, y, w, h, fill: PALETTE.teal, stroke: PALETTE.greyDeep, sw: 2.4, rough: BG, opacity: 0.32 },
+    { k: 'line', x1: x + 6, y1: y + h * 0.5, x2: x + w - 6, y2: y + h * 0.5, stroke: PALETTE.greyDeep, sw: 2, rough: BG, opacity: 0.6 },
+  ];
+});
+
+const MODERN_SHAPES: Shape[] = [
+  // the ceiling is drawn HIGH and light, with two beams running back
+  { k: 'line', x1: -20, y1: MODERN_CEILING, x2: 1100, y2: MODERN_CEILING - 8, stroke: PALETTE.greyDeep, sw: 2.4, rough: BG, opacity: 0.7 },
+  { k: 'line', x1: 130, y1: MODERN_CEILING + 6, x2: 404, y2: 264, stroke: PALETTE.greyDeep, sw: 2, rough: BG, opacity: 0.45 },
+  { k: 'line', x1: 950, y1: MODERN_CEILING + 6, x2: 676, y2: 264, stroke: PALETTE.greyDeep, sw: 2, rough: BG, opacity: 0.45 },
+
+  // daylight falling in — two faint slants, no gradient, no glow
+  { k: 'line', x1: 200, y1: 880, x2: 384, y2: MODERN_BASE, stroke: PALETTE.teal, sw: 2.4, rough: BG, opacity: 0.25 },
+  { k: 'line', x1: 672, y1: 880, x2: 856, y2: MODERN_BASE, stroke: PALETTE.teal, sw: 2.4, rough: BG, opacity: 0.25 },
+
+  // low, sparse furniture far away — the floor is mostly empty space, and that is the point
+  { k: 'ellipse', cx: 214, cy: 1352, rx: 96, ry: 24, fill: PALETTE.grey, stroke: PALETTE.greyDeep, sw: 2, rough: BG, opacity: 0.5 },
+  { k: 'ellipse', cx: 552, cy: 1368, rx: 88, ry: 22, fill: PALETTE.grey, stroke: PALETTE.greyDeep, sw: 2, rough: BG, opacity: 0.5 },
+  { k: 'ellipse', cx: 884, cy: 1348, rx: 80, ry: 21, fill: PALETTE.grey, stroke: PALETTE.greyDeep, sw: 2, rough: BG, opacity: 0.5 },
+
+  // wall/floor seam
+  { k: 'line', x1: -20, y1: MODERN_BASE, x2: 1100, y2: MODERN_BASE - 8, stroke: PALETTE.greyDeep, sw: 2.4, rough: BG, opacity: 0.75 },
+];
 
 /** The opposite room: high ceiling, open floor, and daylight coming in through glass. */
-export const ModernCasino: React.FC<BackgroundProps> = ({ frame = 0, opacity = 1 }) => {
-  const s = 'modern';
-  const dx = sway(`${s}:dx`, frame, 1.1);
+export const ModernCasino: React.FC<BackgroundProps> = ({ frame = 0, opacity = 1 }) => (
+  <g opacity={opacity} transform={sway(`${MODERN_ID}:sway`, frame, 1)}>
+    {/* everything stays near paper value — this room is about air, not ink */}
+    <rect x={0} y={0} width={W} height={H} fill={PALETTE.paper} opacity={0.92} />
+    <rect x={0} y={MODERN_BASE} width={W} height={H - MODERN_BASE} fill={PALETTE.paperShade} opacity={0.9} />
+    <RoughShapes id={`${MODERN_ID}-windows`} shapes={MODERN_WINDOWS} />
+    <RoughShapes id={MODERN_ID} shapes={MODERN_SHAPES} />
+  </g>
+);
 
-  const windows = [0, 1, 2].map((i) => {
-    const w = 268;
-    const x = 84 + i * 316 + rSigned(s, `wx${i}`) * 6;
-    return { key: i, x, y: 316 + rSigned(s, `wy${i}`) * 8, w, h: 520 };
-  });
+// ===========================================================================
+// OutsideWorld — daylight and ordinary life, the world that shrinks while you're in there
+// ===========================================================================
 
-  return (
-    <g opacity={opacity} transform={`translate(${dx.toFixed(2)} 0)`}>
-      {/* everything stays close to paper value — this room is about air, not ink */}
-      <path d={box(-20, -20, 1120, 1500, `${s}:wall`)} fill={PALETTE.paper} opacity={0.9} />
-      <path d={box(-20, 1440, 1120, 520, `${s}:floor`)} fill={PALETTE.paperShade} opacity={0.9} />
+const OUTSIDE_ID = 'bg-outside-world';
+const HORIZON = 1190;
 
-      {/* the ceiling is drawn HIGH and light, with two long beams running back */}
-      <path
-        d={wonkyLine(-20, 176, 1100, 168, `${s}:ceil`, 10)}
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.propFine}
-        opacity={0.7}
-        {...HAND_STROKE}
-      />
-      {[0, 1].map((i) => (
-        <path
-          key={i}
-          d={wonkyLine(120 + i * 640, 178, 400 + i * 250, 262, `${s}:beam${i}`, 6)}
-          stroke={PALETTE.greyDeep}
-          strokeWidth={STROKE.fine}
-          opacity={0.5}
-          {...HAND_STROKE}
-        />
-      ))}
+/** Two ordinary buildings with a few windows each. Nowhere in particular. */
+const OUTSIDE_BUILDINGS: Shape[] = [
+  { x: 120, y: 690, w: 250 },
+  { x: 392, y: 856, w: 196 },
+].flatMap((b, bi): Shape[] => [
+  {
+    k: 'rect', x: b.x, y: b.y, w: b.w, h: HORIZON - b.y,
+    fill: PALETTE.paperShade, stroke: PALETTE.greyDeep, sw: 2.4, rough: BG,
+  },
+  ...Array.from({ length: 2 }, (_, i): Shape => ({
+    k: 'rect',
+    x: b.x + 44 + i * b.w * 0.42,
+    y: b.y + 70,
+    w: b.w * 0.24,
+    h: 62,
+    fill: PALETTE.greyDeep,
+    stroke: 'none',
+    rough: BG,
+    opacity: 0.3 + r01(OUTSIDE_ID, `w${bi}${i}`) * 0.12,
+  })),
+]);
 
-      {/* big daylit glass */}
-      {windows.map((wn) => {
-        const d = box(wn.x, wn.y, wn.w, wn.h, `${s}:win${wn.key}`);
-        return (
-          <g key={wn.key}>
-            <path d={d} fill={PALETTE.teal} opacity={0.24} transform="translate(3 3)" />
-            <path
-              d={d}
-              fill="none"
-              stroke={PALETTE.greyDeep}
-              strokeWidth={STROKE.propFine}
-              strokeLinejoin="round"
-            />
-            <path
-              d={wonkyLine(wn.x + 6, wn.y + wn.h * 0.52, wn.x + wn.w - 6, wn.y + wn.h * 0.5, `${s}:mull${wn.key}`, 5)}
-              stroke={PALETTE.greyDeep}
-              strokeWidth={STROKE.fine}
-              opacity={0.6}
-              {...HAND_STROKE}
-            />
-          </g>
-        );
-      })}
+const OUTSIDE_SHAPES: Shape[] = [
+  { k: 'line', x1: -20, y1: HORIZON, x2: 1100, y2: HORIZON - 8, stroke: PALETTE.greyDeep, sw: 2.4, rough: BG },
+  // the sun is a circle. It gets its lopsidedness from the stylizer, not from me.
+  { k: 'circle', cx: 858, cy: 268, r: 74, fill: PALETTE.gold, stroke: PALETTE.greyDeep, sw: 2.4, rough: BG, opacity: 0.65 },
 
-      {/* daylight falling in — two faint slants, no gradient, no glow */}
-      {[0, 1].map((i) => (
-        <path
-          key={i}
-          d={wonkyLine(200 + i * 470, 850, 380 + i * 470, 1440, `${s}:ray${i}`, 8)}
-          stroke={PALETTE.teal}
-          strokeWidth={STROKE.propFine}
-          opacity={0.22}
-          {...HAND_STROKE}
-        />
-      ))}
+  // one tree, so outside reads as somewhere you would actually want to be
+  { k: 'polyline', pts: [[806, 1186], [800, 1060], [812, 962]], stroke: PALETTE.ink, sw: 2.8, rough: BG, opacity: 0.6 },
+  { k: 'line', x1: 804, y1: 1092, x2: 748, y2: 1052, stroke: PALETTE.ink, sw: 2.2, rough: BG, opacity: 0.5 },
+  { k: 'ellipse', cx: 806, cy: 908, rx: 122, ry: 96, fill: PALETTE.teal, stroke: PALETTE.greyDeep, sw: 2.4, rough: BG, opacity: 0.4 },
 
-      {/* low, sparse furniture in the distance — the floor is mostly empty space */}
-      {[0, 1, 2].map((i) => {
-        const cx = 200 + i * 340 + rSigned(s, `tx${i}`) * 20;
-        return (
-          <g key={i} opacity={0.55}>
-            <path d={blob(cx, 1352, 96 - i * 8, 24, `${s}:table${i}`, 8)} fill={PALETTE.grey} />
-            <path
-              d={blob(cx, 1352, 96 - i * 8, 24, `${s}:table${i}`, 8)}
-              fill="none"
-              stroke={PALETTE.greyDeep}
-              strokeWidth={STROKE.propFine}
-              strokeLinejoin="round"
-            />
-          </g>
-        );
-      })}
-
-      <path
-        d={wonkyLine(-20, 1444, 1100, 1436, `${s}:base`, 9)}
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.propFine}
-        opacity={0.75}
-        {...HAND_STROKE}
-      />
-    </g>
-  );
-};
+  // two path scratches on the ground, nothing else
+  { k: 'line', x1: 120, y1: 1340, x2: 700, y2: 1300, stroke: PALETTE.greyDeep, sw: 2.2, rough: BG, opacity: 0.4 },
+  { k: 'line', x1: 640, y1: 1460, x2: 1020, y2: 1430, stroke: PALETTE.greyDeep, sw: 2.2, rough: BG, opacity: 0.4 },
+];
 
 /** Daylight and ordinary life outside — the world that shrinks while you are in there. */
-export const OutsideWorld: React.FC<BackgroundProps> = ({ frame = 0, opacity = 1 }) => {
-  const s = 'outside';
-  const dx = sway(`${s}:dx`, frame, 1.3);
-  const horizon = 1190;
-
-  const buildings = [
-    { key: 0, x: 120, y: 690, w: 250, h: horizon - 690 },
-    { key: 1, x: 392, y: 856, w: 196, h: horizon - 856 },
-  ];
-
-  return (
-    <g opacity={opacity} transform={`translate(${dx.toFixed(2)} 0)`}>
-      {/* sky and ground: two flat bands, the simplest possible outdoors */}
-      <path d={box(-20, -20, 1120, horizon + 20, `${s}:sky`)} fill={PALETTE.teal} opacity={0.16} />
-      <path d={box(-20, horizon, 1120, 1960 - horizon, `${s}:ground`)} fill={PALETTE.grey} opacity={0.5} />
-      <path
-        d={wonkyLine(-20, horizon, 1100, horizon - 6, `${s}:horizon`, 10)}
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.propFine}
-        {...HAND_STROKE}
-      />
-
-      {/* sun: a lopsided potato, never a circle */}
-      <path d={blob(858, 268, 76, 70, `${s}:sun`, 9)} fill={PALETTE.gold} opacity={0.6} />
-      <path
-        d={blob(858, 268, 76, 70, `${s}:sun`, 9)}
-        fill="none"
-        stroke={PALETTE.greyDeep}
-        strokeWidth={STROKE.propFine}
-        strokeLinejoin="round"
-        opacity={0.8}
-      />
-
-      {/* a couple of ordinary buildings */}
-      {buildings.map((b) => {
-        const d = box(b.x, b.y, b.w, b.h, `${s}:b${b.key}`);
-        return (
-          <g key={b.key}>
-            <path d={d} fill={PALETTE.paperShade} transform="translate(3 3)" />
-            <path
-              d={d}
-              fill="none"
-              stroke={PALETTE.greyDeep}
-              strokeWidth={STROKE.propFine}
-              strokeLinejoin="round"
-            />
-            {Array.from({ length: 6 }, (_, i) => {
-              const col = i % 2;
-              const row = Math.floor(i / 2);
-              return (
-                <path
-                  key={i}
-                  d={box(
-                    b.x + 42 + col * (b.w * 0.42),
-                    b.y + 62 + row * 116,
-                    b.w * 0.24,
-                    62,
-                    `${s}:w${b.key}${i}`,
-                  )}
-                  fill={PALETTE.greyDeep}
-                  opacity={0.35}
-                />
-              );
-            })}
-          </g>
-        );
-      })}
-
-      {/* one tree, so the outside reads as somewhere you would actually want to be */}
-      <g>
-        <path
-          d="M 806 1188 C 812 1120 808 1060 800 1010 C 796 986 802 968 812 960"
-          stroke={PALETTE.ink}
-          strokeWidth={STROKE.prop}
-          opacity={0.6}
-          {...HAND_STROKE}
-        />
-        <path
-          d="M 806 1092 C 782 1070 764 1058 748 1052"
-          stroke={PALETTE.ink}
-          strokeWidth={STROKE.propFine}
-          opacity={0.55}
-          {...HAND_STROKE}
-        />
-        <path d={blob(806, 908, 122, 96, `${s}:canopy`, 11)} fill={PALETTE.teal} opacity={0.35} />
-        <path
-          d={blob(806, 908, 122, 96, `${s}:canopy`, 11)}
-          fill="none"
-          stroke={PALETTE.greyDeep}
-          strokeWidth={STROKE.propFine}
-          strokeLinejoin="round"
-        />
-      </g>
-
-      {/* two path scratches on the ground, nothing else */}
-      {[0, 1].map((i) => (
-        <path
-          key={i}
-          d={wonkyLine(120 + i * 520, 1340 + i * 120, 700 + i * 320, 1300 + i * 130, `${s}:pth${i}`, 14)}
-          stroke={PALETTE.greyDeep}
-          strokeWidth={STROKE.fine}
-          opacity={0.45}
-          {...HAND_STROKE}
-        />
-      ))}
-    </g>
-  );
-};
+export const OutsideWorld: React.FC<BackgroundProps> = ({ frame = 0, opacity = 1 }) => (
+  <g opacity={opacity} transform={sway(`${OUTSIDE_ID}:sway`, frame, 1.3)}>
+    {/* sky and ground: two flat bands, the simplest possible outdoors */}
+    <rect x={0} y={0} width={W} height={HORIZON} fill={PALETTE.teal} opacity={0.16} />
+    <rect x={0} y={HORIZON} width={W} height={H - HORIZON} fill={PALETTE.grey} opacity={0.5} />
+    <RoughShapes id={`${OUTSIDE_ID}-buildings`} shapes={OUTSIDE_BUILDINGS} />
+    <RoughShapes id={OUTSIDE_ID} shapes={OUTSIDE_SHAPES} />
+  </g>
+);

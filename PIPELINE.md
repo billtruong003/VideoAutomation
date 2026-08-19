@@ -1,5 +1,10 @@
 # Production Pipeline — how this channel actually makes a video
 
+> **V2.** The audio-first spine is unchanged from V1 and still correct. What was rebuilt is
+> everything downstream of the storyboard: the asset architecture and the rendering stack.
+> Sections marked **[V2]** are new. §11 (where the pipeline is weak) has been re-ranked
+> against what V2 actually fixed.
+
 > Written so it can be criticised and optimised. Every stage below lists **what it does**,
 > **why it exists**, **what it costs**, and **where it is weak**. The weaknesses are the
 > useful part — skip to §11 if that's what you're after.
@@ -43,9 +48,11 @@ The inverse (animate first, fit audio later) makes every later stage manual fore
                  │
    [4] build-storyboard.mjs ───► storyboard.json  (+ pacing check)
                  │
-   [5] STYLE.md ──► asset generation (props / fx / backgrounds)
+   [5] STYLE.md ──► clean semantic geometry (props / fx / backgrounds)
+                 │   normalize-svg → roughify-svg → asset-registry  [V2]
                  │
-   [6] build-asset-manifest.mjs ► asset-manifest.json      ◄── QA GATE 3
+   [6] asset-qa.mjs ──────────────────────────────────────  ◄── QA GATE 3 [V2]
+       build-asset-manifest.mjs ► asset-manifest.json
                  │
    [7] Remotion scenes (the only episode-specific code)
                  │
@@ -58,7 +65,7 @@ The inverse (animate first, fit audio later) makes every later stage manual fore
   [11] validate-output.mjs                                 ◄── DELIVERY GATE
                  │
  ┌─ OUTPUT ───────────────────────────────────────────────┐
- │  out/why-casinos-have-no-clocks.mp4                    │
+ │  out/why-casinos-have-no-clocks-v2.mp4                 │
  └────────────────────────────────────────────────────────┘
 ```
 
@@ -197,7 +204,85 @@ having.
 
 ---
 
-## 6. Stage 5 — Asset generation (the part most worth optimising)
+## 5b. [V2] The rendering architecture — DESIGN CLEANLY, RENDER IMPERFECTLY
+
+This is the change V2 exists for.
+
+### The V1 failure
+
+V1 produced its hand-drawn look by asking whoever authored an asset to *draw it badly*:
+lopsided beziers, manually offset fills, hand-picked jitter tables. Every new prop was a
+fresh negotiation with "what does sketchy mean", so the library drifted — and a generator
+asked for "a sketchy hand-drawn clock" produces a different, worse clock every time, while
+the same generator asked for "a clock" gets the semantics right almost always.
+
+### The V2 split
+
+| Stage | Owner | Output |
+|---|---|---|
+| **Author** | asset file | clean semantic geometry — a clock is a circle, twelve ticks, two hands |
+| **Stylize** | `src/assets/RoughAsset.tsx` | the channel's hand, applied identically to everything |
+
+There is exactly one stylizer. Restyling the channel is a token change in
+`src/style/tokens.ts`, not 27 rewrites.
+
+### Which library draws what
+
+| | Handles | Why |
+|---|---|---|
+| **Rough.js** 4.6.6 | STRUCTURE — clock faces, cabinets, walls, window frames, chairs | roughens an outline while preserving the shape's identity |
+| **perfect-freehand** 1.2.3 | GESTURE — brows, mouths, noodle limbs, arrows, sparkles, speed lines | produces a real pen mark that swells and tapers |
+
+Getting this backwards is the fastest way to break the style: a Rough.js eyebrow looks like
+a snapped twig, a freehand rectangle looks like a deflated balloon. `src/fx/marks.tsx` is
+almost entirely freehand; `src/props/*` is almost entirely Rough.js; the character uses both.
+
+### Determinism and the caching contract
+
+Remotion renders frames out of order across parallel workers, so unseeded roughness would
+give a different squiggle every frame — boiling static, not a drawing.
+
+- Seeds derive from a stable identity string (`assetId:variant:index`) via `seedFrom()`.
+- Roughened geometry is memoised on `(shape, options, seed)` in `src/rough/generator.ts`.
+- **Anything that changes per frame must be an SVG transform on the OUTPUT, never a change
+  to the geometry handed to the stylizer.** Every rough part of the character is authored at
+  the origin and translated into place; clock hands are separate defs inside a rotated `<g>`.
+  Break this and a blended pose mints a fresh cache entry every frame.
+
+`tools/asset-qa.mjs` proves the property: **73/73 assets byte-identical across two
+independent renders.**
+
+### Two calibration lessons
+
+1. **perfect-freehand `size` is the FULL width of the mark, not a centreline weight.**
+   Carrying V1's stroke widths across directly made every stroke ~2.5x too heavy.
+2. **Rough.js roughness is in absolute units, not relative to the shape.** On a 3-unit dice
+   pip the default wander is larger than the pip, so a grid of them merges into a black
+   smear — which is exactly how the first V2 dice rendered. Encoded as the `TINY` override
+   in `src/assets/shapes.ts`; an audit found 13 latent instances across the library.
+
+### [V2] The asset resolver chain
+
+```
+asset request
+  → existing internal library (src/props, src/fx, src/backgrounds)
+  → clean open/licensed source (lucide-static, ISC)      → assets/vendor/
+  → local licensed assets already in the workspace
+  → generate clean semantic SVG
+        ↓  tools/normalize-svg.mjs   (SVGO, viewBox asserted)  → assets/normalized/
+        ↓  tools/roughify-svg.mjs    (Rough.js, seeded)        → assets/stylized/
+        ↓  data/asset-registry.json  (source, licence, seed, styleVersion)
+        ↓  tools/asset-qa.mjs        (isolated render + validation)
+  usable in scenes
+```
+
+**On svg2roughjs:** installed, evaluated, **not used**. It does not load under Node ESM (its
+`main` is a UMD bundle exporting nothing) and depends on browser-only APIs — `getBBox`,
+`getComputedStyle`, `canvas`, `Image` — that jsdom does not implement for SVG geometry.
+`tools/roughify-svg.mjs` implements the equivalent directly against Rough.js, reusing the
+same seed derivation with a startup parity assertion so the copy cannot silently drift.
+
+## 6. Stage 5 — Asset generation
 
 ### 6.1 The style contract
 
@@ -375,71 +460,64 @@ loudness in YouTube range.
 
 ## 11. Where this pipeline is weak — the optimisation targets
 
-Ranked by expected payoff.
+Re-ranked after V2. Items V2 **fixed** are listed first with what actually changed, so the
+list stays honest about progress rather than repeating itself.
 
-### 11.1 Scene code is still hand-written — the real bottleneck
-Stages 1–6 are mechanical. Stage 7 (nine `.tsx` files) was ~60% of the effort and is the
-only thing standing between this and one-command episodes.
+### FIXED in V2
 
-*Possible fix:* a declarative scene DSL — the storyboard already carries `background`,
-`beats[]`, and keyword anchors. A schema like
-`{ actor, pose, at, x, y, scale, expression }` + `{ prop, at, x, y, enter: 'pop' }` would
-cover ~80% of what the nine scenes actually do. Scene `.tsx` becomes an interpreter, and
-episode-specific code drops to a JSON file. **This is the single highest-value change.**
+| Was | Now |
+|---|---|
+| **11.5 Asset generation was one-shot, unverified** | `tools/asset-qa.mjs` renders all 73 assets in isolation and asserts EMPTY / NAN / OVERSIZE / FLICKER before any scene renders. Determinism is proven, not assumed: 73/73 byte-identical across two renders. |
+| **Style drift from "draw it sketchily"** | Assets are clean geometry; one stylizer supplies the hand. The look is now a property of `style/tokens.ts`, not of the author's mood. |
+| **No asset provenance** | `data/asset-registry.json` tracks source, licence, normalization, stylizer, seed and styleVersion per asset. `ASSET_LICENSES.md` is derived from it. |
+| **No ingest path for external art** | normalize (SVGO) → roughify (seeded Rough.js) → registry → QA, demonstrated end to end on 8 ISC-licensed Lucide icons. |
 
-### 11.2 No feedback loop from QA back into the build
-QA emits reports; a human reads them and edits code. The static-stretch finder knows the
-scene *and* the timestamp — it could propose the beat.
+### STILL OPEN, in priority order
 
-*Possible fix:* make `motion-qa` and the pacing check emit machine-readable diagnostics
-keyed to storyboard beat IDs, then have a fixer stage insert secondary-action beats.
+**11.1 Scene code is still hand-written — still the bottleneck.**
+Nine `.tsx` files remain the only episode-specific code and still the bulk of the effort.
+V2 did *not* address this; it deliberately spent its budget on the rendering architecture.
+The storyboard already carries `background`, `beats[]` and keyword anchors, and V2 added a
+declarative asset layer — so the remaining gap is a scene DSL of roughly
+`{ actor, pose, at, x, y, expression }` + `{ prop, at, x, y, enter }`. Scene `.tsx` becomes
+an interpreter and episode-specific code drops to JSON. **Highest-value change remaining.**
 
-### 11.3 Composition collisions are found by eyeball
-Caption-vs-feet, clock-vs-head, sign-vs-sign were all caught by *me looking at stills*. All
-three are computable.
+**11.2 No feedback loop from QA back into the build.**
+QA emits reports; a human reads them and edits code. The static-stretch finder already knows
+the scene *and* the timestamp — it could propose the beat.
 
-*Possible fix:* scenes declare bounding boxes for placed elements; a checker asserts no
-overlap between "must-read" layers (captions, gag cards, faces) and flags safe-zone
-intrusions. Cheap, and it would have caught 3 of the 8 defects automatically.
+**11.3 Composition collisions are still found by eyeball.**
+Caption-vs-feet, clock-vs-head, halo weight — all caught by looking at stills. All are
+computable from declared bounding boxes. V2's asset QA validates assets *individually*; it
+does not yet check how they are *arranged*.
 
-### 11.4 Render cost dominates iteration
-~10 min final, ~4 min for 17 stills. Every visual fix costs a re-render.
+**11.4 Render cost still dominates iteration.**
+~10 min final, ~4 min for 17 stills, and the 17 stills still render serially despite being
+independent — an easy 3–4x win. Rough.js caching made per-frame cost lower, not zero.
 
-*Possible fix:* Remotion Studio for interactive iteration (already wired, underused);
-`--frames=a-b` range renders for single-scene checks; parallelise stills instead of
-rendering them in a serial loop (they're independent — easy 3–4× win).
+**11.6 Keyword anchors are hand-declared and occurrence-indexed.**
+`['clocks'], 1` is fragile: inserting an earlier "clocks" silently retargets a visual.
+Anchor on `(scene, wordIndexWithinScene)` instead.
 
-### 11.5 Asset generation is one-shot, unverified
-Three asset sets were generated and typechecked, but nothing verified they *looked* right
-until I rendered a contact sheet by hand.
+**11.7 Audio is measured, never heard.**
+Sync, levels and clipping are verified numerically. Subjective voice quality at 1.12x has
+never actually been listened to. A real hole. An ASR pass over the processed audio compared
+against the source transcript would close it objectively.
 
-*Possible fix:* Stix's approach — render each asset immediately after generation, screenshot,
-review, regenerate on failure (max 2 retries). Make the contact sheet part of generation
-rather than an afterthought.
+**11.8 New in V2 — the SMEAR heuristic is unreliable.**
+Path-data volume cannot distinguish "3-unit disc scribbled into a blob" from "22-vertex
+filled starburst". It is a warning, not a gate, and the contact sheets still make the call.
+A rasterised ink-coverage measure would be a real check.
 
-### 11.6 Keyword anchors are hand-declared
-`KEYWORD_SPECS` in `remap-timing.mjs` is manual, and occurrence indices (`['clocks'], 1`)
-are fragile — inserting an earlier "clocks" silently retargets a visual.
-
-*Possible fix:* anchor on `(scene, wordIndexWithinScene)` instead of global occurrence, or
-let the storyboard name the phrase and resolve the word within it.
-
-### 11.7 Audio is measured, never heard
-Sync, levels and clipping are verified numerically. **Subjective voice quality at 1.12× was
-never actually listened to** — that is a genuine hole, not a formality.
-
-*Possible fix:* a human listen-check gate, or an ASR pass over the processed audio compared
-against the source transcript (catches truncated words objectively).
-
-### 11.8 Minor
-- `constant-environment` scores lowest on motion (0.558 vs 0.975 median). Intentional —
-  monotony is the subject — but it's the first scene I'd revisit.
-- Backgrounds are exactly 1080×1920, forcing `MIN_ZOOM = 1`. Authoring them at 1.3× would
-  buy real pull-back moves.
-- `ClockHands` renders thin in isolation; unused in the final cut.
+**11.9 Minor**
+- `constant-environment` still scores lowest on motion (0.55 vs 1.04 median). Intentional —
+  monotony is the subject — but it is the first scene to revisit.
+- Backgrounds are exactly 1080x1920, forcing `MIN_ZOOM = 1`. Authoring at 1.3x would buy
+  real pull-back moves.
+- The 8 ingested Lucide icons are validated and available but unused on screen; they prove
+  the chain rather than appearing in the episode.
+- `svg2roughjs` remains in `package.json` as a record of the evaluation and can be removed.
 - Remotion needs a paid company licence above a size threshold — check before scaling.
-
----
 
 ## 12. Command reference
 
