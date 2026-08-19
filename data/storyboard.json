@@ -21,7 +21,7 @@
           "frame": 1,
           "tInScene": 0,
           "frameInScene": 0,
-          "action": "Nib walks in mid-stride, already inside frame; wall clock visible on the back wall",
+          "action": "Bill walks in mid-stride, already inside frame; wall clock visible on the back wall",
           "sync": "frame 0 — casino + clock readable immediately"
         },
         {
@@ -37,14 +37,14 @@
           "frame": 48,
           "tInScene": 1.55,
           "frameInScene": 47,
-          "action": "Nib plants, looks up at the clock (lookRight -> pointing anticipation)"
+          "action": "Bill plants, looks up at the clock (lookRight -> pointing anticipation)"
         },
         {
           "t": 2.49,
           "frame": 75,
           "tInScene": 2.45,
           "frameInScene": 74,
-          "action": "Nib points at the clock; attention lines burst"
+          "action": "Bill points at the clock; attention lines burst"
         },
         {
           "t": 3.877,
@@ -59,7 +59,7 @@
           "frame": 125,
           "tInScene": 4.117,
           "frameInScene": 124,
-          "action": "Nib freezes, turns deadpan to camera, question mark pops, camera punch",
+          "action": "Bill freezes, turns deadpan to camera, question mark pops, camera punch",
           "sync": "reaction beat right after the yank"
         }
       ]
@@ -87,7 +87,7 @@
           "frame": 160,
           "tInScene": 0.875,
           "frameInScene": 26,
-          "action": "manager gives an innocent smug smile; Nib turns suspicious; sweat drop",
+          "action": "manager gives an innocent smug smile; Bill turns suspicious; sweat drop",
           "sync": "keyword: accident"
         }
       ]
@@ -138,14 +138,14 @@
           "frame": 288,
           "tInScene": 3.7,
           "frameInScene": 111,
-          "action": "slot machines and tables slide inward from both edges, enclosing Nib"
+          "action": "slot machines and tables slide inward from both edges, enclosing Bill"
         },
         {
           "t": 11.38,
           "frame": 341,
           "tInScene": 5.483,
           "frameInScene": 164,
-          "action": "walls arrive at their tightest; Nib small and boxed in; camera punch",
+          "action": "walls arrive at their tightest; Bill small and boxed in; camera punch",
           "sync": "keyword: inside"
         }
       ]
@@ -159,7 +159,7 @@
       "duration": 5,
       "narration": "The lights stay the same, the machines keep flashing, and the outside world basically disappears.",
       "background": "SlotArea",
-      "note": "Dense, rapid beats. Nib presses the button on a loop throughout.",
+      "note": "Dense, rapid beats. Bill presses the button on a loop throughout.",
       "beats": [
         {
           "t": 12.233,
@@ -204,14 +204,14 @@
       "duration": 2.786,
       "narration": "So 20 minutes can start feeling a lot like 2 hours.",
       "background": "TimeDistortionVoid",
-      "note": "Main comedy scene. The environment stays IDENTICAL while Nib is destroyed — that contrast is the joke.",
+      "note": "Main comedy scene. The environment stays IDENTICAL while Bill is destroyed — that contrast is the joke.",
       "beats": [
         {
           "t": 17.658,
           "frame": 530,
           "tInScene": 0.269,
           "frameInScene": 8,
-          "action": "20 MINUTES card; Nib sitting upright and fine",
+          "action": "20 MINUTES card; Bill sitting upright and fine",
           "sync": "keyword: 20 minutes"
         },
         {
@@ -247,7 +247,7 @@
           "frame": 613,
           "tInScene": 0,
           "frameInScene": 0,
-          "action": "still in the dark enclosed casino; Nib mid-slump, nothing has changed yet"
+          "action": "still in the dark enclosed casino; Bill mid-slump, nothing has changed yet"
         },
         {
           "t": 20.866,
@@ -269,7 +269,7 @@
           "frame": 658,
           "tInScene": 1.5,
           "frameInScene": 45,
-          "action": "Nib squints in the sudden daylight, shields eyes, then relaxes"
+          "action": "Bill squints in the sudden daylight, shields eyes, then relaxes"
         }
       ]
     },
@@ -289,7 +289,7 @@
           "frame": 719,
           "tInScene": 0,
           "frameInScene": 0,
-          "action": "Nib steps forward into the open bright floor, still blinking at the light"
+          "action": "Bill steps forward into the open bright floor, still blinking at the light"
         },
         {
           "t": 24.864,
@@ -327,7 +327,7 @@
           "frame": 867,
           "tInScene": 4.948,
           "frameInScene": 148,
-          "action": "Nib sinks into the comfy chair, content, drink in hand",
+          "action": "Bill sinks into the comfy chair, content, drink in hand",
           "sync": "keyword: comfortable"
         }
       ]
@@ -348,7 +348,7 @@
           "frame": 912,
           "tInScene": 0,
           "frameInScene": 0,
-          "action": "Nib staggers on holding an absurdly large wall clock (holdingHeavy)"
+          "action": "Bill staggers on holding an absurdly large wall clock (holdingHeavy)"
         },
         {
           "t": 31.581,
@@ -363,14 +363,14 @@
           "frame": 964,
           "tInScene": 1.747,
           "frameInScene": 52,
-          "action": "a second character strolls past behind wearing a wristwatch; Nib double-takes"
+          "action": "a second character strolls past behind wearing a wristwatch; Bill double-takes"
         },
         {
           "t": 32.362,
           "frame": 971,
           "tInScene": 1.978,
           "frameInScene": 59,
-          "action": "Nib glances at the passing wristwatch, then back to camera"
+          "action": "Bill glances at the passing wristwatch, then back to camera"
         }
       ]
     },
@@ -390,14 +390,14 @@
           "frame": 987,
           "tInScene": 0.358,
           "frameInScene": 11,
-          "action": "back to the casino floor; Nib centre, calm"
+          "action": "back to the casino floor; Bill centre, calm"
         },
         {
           "t": 34.488,
           "frame": 1035,
           "tInScene": 1.941,
           "frameInScene": 58,
-          "action": "chips, cards, dice and sparkles start popping in around Nib",
+          "action": "chips, cards, dice and sparkles start popping in around Bill",
           "sync": "keyword: notice"
         },
         {
@@ -405,7 +405,7 @@
           "frame": 1044,
           "tInScene": 2.241,
           "frameInScene": 67,
-          "action": "WALLET begins floating away behind Nib — he does not react",
+          "action": "WALLET begins floating away behind Bill — he does not react",
           "sync": "the long gag starts here"
         },
         {
@@ -413,7 +413,7 @@
           "frame": 1063,
           "tInScene": 2.874,
           "frameInScene": 86,
-          "action": "distractions swarm; Nib goes dizzy-eyed; camera pushes in",
+          "action": "distractions swarm; Bill goes dizzy-eyed; camera pushes in",
           "sync": "keyword: immersed"
         },
         {
@@ -436,14 +436,14 @@
           "frame": 1158,
           "tInScene": 6.045,
           "frameInScene": 181,
-          "action": "outside world is now a dot; Nib lit only by machine glow"
+          "action": "outside world is now a dot; Bill lit only by machine glow"
         },
         {
           "t": 39.153,
           "frame": 1175,
           "tInScene": 6.606,
           "frameInScene": 198,
-          "action": "Nib turns (turningBack); the wallet is gone; horrified; hard cut",
+          "action": "Bill turns (turningBack); the wallet is gone; horrified; hard cut",
           "sync": "keyword: far away — final beat"
         }
       ]

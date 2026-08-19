@@ -2,7 +2,7 @@
  * TimeDistortionScene — "So 20 minutes can start feeling a lot like 2 hours."
  *
  * The main comedy scene, and the joke is a CONTRAST, not an event: the environment is
- * byte-for-byte identical either side of the cut while Nib is visibly destroyed. So the
+ * byte-for-byte identical either side of the cut while Bill is visibly destroyed. So the
  * background deliberately does not change, the machine does not move, and only the
  * character, the litter and the number on screen do.
  */
@@ -16,7 +16,7 @@ import { TimeDistortionVoid } from '../backgrounds';
 import { SlotMachine } from '../props/casino';
 import { WallClock } from '../props/time';
 import { Receipt, EmptyCup, TrashPile, EmptyWallet } from '../props/money';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
 import { POSES } from '../character/poses';
 import { SceneCamera, useCameraShake } from '../animation/SceneCamera';
 import { useClockSpin, clockAt } from '../animation/ClockSpin';
@@ -43,10 +43,10 @@ export const TimeDistortionScene: React.FC = () => {
     ease: 'accelerate',
   });
 
-  // Nib is fine, then — on the word — ruined. A hard swap, never a tween: the whole gag
+  // Bill is fine, then — on the word — ruined. A hard swap, never a tween: the whole gag
   // is that you never see the two hours happen.
   const pose = wrecked ? POSES.exhaustedSitting : POSES.sitting;
-  const expr = wrecked ? EXPRESSIONS.exhausted : EXPRESSIONS.focused;
+  const expr = wrecked ? BILL_EXPRESSIONS.exhausted : BILL_EXPRESSIONS.focused;
 
   const shake = useCameraShake(frame, F_2H, { amount: 22, duration: 14, seed: 'td' });
   const intensity = interpolate(frame, [F_SPIN, F_2H], [0.25, 1], {
@@ -84,13 +84,14 @@ export const TimeDistortionScene: React.FC = () => {
         )}
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
           expression={{ ...expr, look: wrecked ? [0, 0.35] : [0.1, 0] }}
           x={430}
           y={1225}
           scale={2.9}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
 
         <ImpactLines

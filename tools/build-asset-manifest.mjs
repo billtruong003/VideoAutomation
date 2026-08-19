@@ -51,8 +51,56 @@ function walk(dir) {
 // inventory
 // ---------------------------------------------------------------------------
 
-const poses = tableKeys('src/character/poses.ts', 'POSES');
-const expressions = tableKeys('src/character/expressions.ts', 'EXPRESSIONS');
+/*
+ * The cast, read straight out of the character definitions.
+ *
+ * Scraped from source rather than hand-listed for the same reason everything else here is:
+ * a manifest that has to be remembered is a manifest that goes stale. Adding a character
+ * or a pose updates this file by running it.
+ */
+const humanoidPoses = tableKeys('src/character/poses/humanoid.ts', 'HUMANOID_POSES');
+const creaturePoses = tableKeys('src/character/poses/creature.ts', 'CREATURE_POSES');
+
+const CAST = ['bill', 'mina', 'dex', 'gus', 'mochi'];
+const cast = CAST.map((id) => {
+  const file = `src/character/characters/${id}.ts`;
+  const src = readFileSync(file, 'utf8');
+  /*
+   * Deliberately a string scan, not an import.
+   *
+   * This tool is a plain .mjs run by node with no bundler, so importing a .ts character
+   * definition is not available to it. Slicing the array literal out of the source is
+   * uglier but it is the only option that keeps the manifest DERIVED — and a derived
+   * manifest that is slightly ugly beats a hand-maintained one that is wrong.
+   */
+  const listOf = (field) => {
+    const at = src.indexOf(field + ': [');
+    if (at < 0) return [];
+    const body = src.slice(at + field.length + 3, src.indexOf(']', at));
+    return [...body.matchAll(/'([^']+)'/g)].map((x) => x[1]);
+  };
+  const nameOf = (field) => {
+    const at = src.indexOf(`
+  ${field}: '`);
+    if (at < 0) return '';
+    const from = src.indexOf("'", at) + 1;
+    return src.slice(from, src.indexOf("'", from));
+  };
+  return {
+    id,
+    name: nameOf('name'),
+    module: file,
+    kind: id === 'mochi' ? 'creature' : 'humanoid',
+    defaultPose: nameOf('defaultPose'),
+    defaultExpression: nameOf('defaultExpression'),
+    corePoses: listOf('corePoses'),
+    coreExpressions: listOf('coreExpressions'),
+    anchors: listOf('anchors'),
+  };
+});
+
+const poses = humanoidPoses;
+const expressions = cast.flatMap((c) => c.coreExpressions.map((e) => `${c.id}:${e}`));
 
 const propModules = {
   'src/props/time.tsx': 'time',
@@ -115,20 +163,23 @@ const manifest = {
   episode: '001 — Why Casinos Have No Clocks',
   channel: 'We explain weird things with stupid drawings.',
 
-  character: {
-    name: 'Nib',
+  cast: {
     category: 'reusable',
-    origin: 'original — designed for this channel, modular parametric rig',
-    rig: 'src/character/rig.ts (hip at origin, ~182 units tall, head ~44% of height)',
+    bible: 'CHARACTER_BIBLE.md — binding',
+    registry: 'src/character/registry.ts',
     renderer: 'src/components/DoodleCharacter.tsx',
+    origin: 'original — designed for this channel, one parametric rig, five characters',
+    rig: 'src/character/rig.ts (hip at origin, ~185 units tall, head ~46% of height)',
     modularParts: [
-      'head', 'hair/cowlick', 'eyes', 'pupils', 'brows', 'mouth',
-      'torso', 'left arm', 'right arm', 'hands', 'left leg', 'right leg', 'feet',
+      'head', 'hair', 'glasses', 'eyes', 'brows', 'mouth', 'face accents',
+      'torso', 'shorts', 'left arm', 'right arm', 'hands', 'left leg', 'right leg', 'feet',
     ],
-    poseCount: poses.length,
-    poses,
-    expressionCount: expressions.length,
-    expressions,
+    sharedPoseLibrary: {
+      humanoid: { count: humanoidPoses.length, poses: humanoidPoses },
+      creature: { count: creaturePoses.length, poses: creaturePoses },
+    },
+    members: cast,
+    npcArchetypes: ['civilian', 'staff', 'suit', 'shadow'],
   },
 
   props: { category: 'reusable', count: props.length, items: props },

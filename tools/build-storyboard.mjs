@@ -49,12 +49,12 @@ const PLAN = {
     background: 'CasinoEntrance',
     note: 'No establishing shot. Casino + clock are on screen at frame 0.',
     beats: [
-      { at: 0, action: 'Nib walks in mid-stride, already inside frame; wall clock visible on the back wall', sync: 'frame 0 — casino + clock readable immediately' },
+      { at: 0, action: 'Bill walks in mid-stride, already inside frame; wall clock visible on the back wall', sync: 'frame 0 — casino + clock readable immediately' },
       { kw: 'casinos', action: 'generic casino sign lights up above the doorway', sync: 'keyword: casinos' },
-      { scene: 'hook', at: 1.55, action: 'Nib plants, looks up at the clock (lookRight -> pointing anticipation)' },
-      { scene: 'hook', at: 2.45, action: 'Nib points at the clock; attention lines burst' },
+      { scene: 'hook', at: 1.55, action: 'Bill plants, looks up at the clock (lookRight -> pointing anticipation)' },
+      { scene: 'hook', at: 2.45, action: 'Bill points at the clock; attention lines burst' },
       { kw: 'clock', action: 'CLOCK? gag card slams in AND the clock is violently yanked off-screen by a rope', sync: 'keyword: clock — the word and the theft land together' },
-      { kw: 'clock', offset: 0.28, action: 'Nib freezes, turns deadpan to camera, question mark pops, camera punch', sync: 'reaction beat right after the yank' },
+      { kw: 'clock', offset: 0.28, action: 'Bill freezes, turns deadpan to camera, question mark pops, camera punch', sync: 'reaction beat right after the yank' },
     ],
   },
 
@@ -63,7 +63,7 @@ const PLAN = {
     note: 'Very short comedic beat — two poses and a look.',
     beats: [
       { at: 0, action: 'manager-ish second character slides in from the right, clock hidden behind their back' },
-      { kw: 'accident', action: 'manager gives an innocent smug smile; Nib turns suspicious; sweat drop', sync: 'keyword: accident' },
+      { kw: 'accident', action: 'manager gives an innocent smug smile; Bill turns suspicious; sweat drop', sync: 'keyword: accident' },
     ],
   },
 
@@ -75,14 +75,14 @@ const PLAN = {
       { kw: 'clocks-vanish', action: 'CLOCK pops out of existence with a puff', sync: 'keyword: clocks' },
       { kw: 'windows', action: 'WINDOW pops out of existence', sync: 'keyword: windows' },
       { kw: 'windows', offset: 0.75, action: 'SUN / daylight slides away off the top' },
-      { scene: 'time-cues', at: 3.7, action: 'slot machines and tables slide inward from both edges, enclosing Nib' },
-      { kw: 'inside', action: 'walls arrive at their tightest; Nib small and boxed in; camera punch', sync: 'keyword: inside' },
+      { scene: 'time-cues', at: 3.7, action: 'slot machines and tables slide inward from both edges, enclosing Bill' },
+      { kw: 'inside', action: 'walls arrive at their tightest; Bill small and boxed in; camera punch', sync: 'keyword: inside' },
     ],
   },
 
   'constant-environment': {
     background: 'SlotArea',
-    note: 'Dense, rapid beats. Nib presses the button on a loop throughout.',
+    note: 'Dense, rapid beats. Bill presses the button on a loop throughout.',
     beats: [
       { kw: 'lights', action: 'row of ceiling lights: identical, unblinking, dead constant', sync: 'keyword: lights' },
       { kw: 'flashing', action: 'slot machine flashes hard on a 3-frame cycle', sync: 'keyword: flashing' },
@@ -93,9 +93,9 @@ const PLAN = {
 
   'time-distortion': {
     background: 'TimeDistortionVoid',
-    note: 'Main comedy scene. The environment stays IDENTICAL while Nib is destroyed — that contrast is the joke.',
+    note: 'Main comedy scene. The environment stays IDENTICAL while Bill is destroyed — that contrast is the joke.',
     beats: [
-      { kw: 'twenty-minutes', action: '20 MINUTES card; Nib sitting upright and fine', sync: 'keyword: 20 minutes' },
+      { kw: 'twenty-minutes', action: '20 MINUTES card; Bill sitting upright and fine', sync: 'keyword: 20 minutes' },
       { kw: 'twenty-minutes', offset: 0.45, action: 'clock hands accelerate into a blur; violet time rings ripple out' },
       { kw: 'two-hours', action: '2 HOURS?! card; hard swap to exhaustedSitting — messy, tired eyes, cups, receipts, empty wallet; camera shake', sync: 'keyword: 2 hours — the reveal' },
     ],
@@ -105,10 +105,10 @@ const PLAN = {
     background: 'ModernCasino',
     note: 'Hard interruption. The cut itself is the gag.',
     beats: [
-      { at: 0, action: 'still in the dark enclosed casino; Nib mid-slump, nothing has changed yet' },
+      { at: 0, action: 'still in the dark enclosed casino; Bill mid-slump, nothing has changed yet' },
       { kw: 'twist', action: 'BUT… slams in over a record-scratch; everything freezes for 2 frames', sync: 'keyword: twist' },
       { kw: 'twist', offset: 0.3, action: 'hard cut: dark enclosed casino -> bright modern casino, wipe from the right' },
-      { scene: 'twist', at: 1.5, action: 'Nib squints in the sudden daylight, shields eyes, then relaxes' },
+      { scene: 'twist', at: 1.5, action: 'Bill squints in the sudden daylight, shields eyes, then relaxes' },
     ],
   },
 
@@ -116,12 +116,12 @@ const PLAN = {
     background: 'ModernCasino',
     note: 'The visual opposite of the enclosed scene. Bright, open, calm.',
     beats: [
-      { at: 0, action: 'Nib steps forward into the open bright floor, still blinking at the light' },
+      { at: 0, action: 'Bill steps forward into the open bright floor, still blinking at the light' },
       { scene: 'modern-casino', at: 0.9, action: 'ceiling opens up; the room reads tall and airy' },
       { kw: 'daylight', action: 'big window + sun revealed; warm light sweeps across the floor', sync: 'keyword: daylight' },
       { kw: 'open-spaces', action: 'camera pulls back to reveal open floor, plant, comfortable chair', sync: 'keyword: open spaces' },
       { kw: 'clocks-modern', action: 'a clock appears ON the wall and ticks — openly, deliberately', sync: 'keyword: clocks' },
-      { kw: 'comfortable', action: 'Nib sinks into the comfy chair, content, drink in hand', sync: 'keyword: comfortable' },
+      { kw: 'comfortable', action: 'Bill sinks into the comfy chair, content, drink in hand', sync: 'keyword: comfortable' },
     ],
   },
 
@@ -129,10 +129,10 @@ const PLAN = {
     background: 'ModernCasino',
     note: 'Myth correction — the nuance the title deliberately omits.',
     beats: [
-      { at: 0, action: 'Nib staggers on holding an absurdly large wall clock (holdingHeavy)' },
+      { at: 0, action: 'Bill staggers on holding an absurdly large wall clock (holdingHeavy)' },
       { kw: 'ban', action: 'NOT BANNED stamps across the clock face', sync: 'keyword: ban' },
-      { kw: 'ban', offset: 0.55, action: 'a second character strolls past behind wearing a wristwatch; Nib double-takes' },
-      { scene: 'myth-correction', fromEnd: 0.15, action: 'Nib glances at the passing wristwatch, then back to camera' },
+      { kw: 'ban', offset: 0.55, action: 'a second character strolls past behind wearing a wristwatch; Bill double-takes' },
+      { scene: 'myth-correction', fromEnd: 0.15, action: 'Bill glances at the passing wristwatch, then back to camera' },
     ],
   },
 
@@ -140,14 +140,14 @@ const PLAN = {
     background: 'SlotArea',
     note: 'Camera pulls back the whole scene. The wallet gag runs underneath, unnoticed.',
     beats: [
-      { kw: 'trick', action: 'back to the casino floor; Nib centre, calm' },
-      { kw: 'notice', action: 'chips, cards, dice and sparkles start popping in around Nib', sync: 'keyword: notice' },
-      { kw: 'notice', offset: 0.3, action: 'WALLET begins floating away behind Nib — he does not react', sync: 'the long gag starts here' },
-      { kw: 'immersed', action: 'distractions swarm; Nib goes dizzy-eyed; camera pushes in', sync: 'keyword: immersed' },
+      { kw: 'trick', action: 'back to the casino floor; Bill centre, calm' },
+      { kw: 'notice', action: 'chips, cards, dice and sparkles start popping in around Bill', sync: 'keyword: notice' },
+      { kw: 'notice', offset: 0.3, action: 'WALLET begins floating away behind Bill — he does not react', sync: 'the long gag starts here' },
+      { kw: 'immersed', action: 'distractions swarm; Bill goes dizzy-eyed; camera pushes in', sync: 'keyword: immersed' },
       { kw: 'outside-world-2', action: 'camera pulls back hard; the outside world shrinks to a tiny distant square', sync: 'keyword: outside world' },
       { kw: 'outside-world-2', offset: 1.15, action: 'the swarm thickens; the wallet drifts past the far edge of frame, still unnoticed' },
-      { kw: 'outside-world-2', offset: 2.1, action: 'outside world is now a dot; Nib lit only by machine glow' },
-      { kw: 'far-away', action: 'Nib turns (turningBack); the wallet is gone; horrified; hard cut', sync: 'keyword: far away — final beat' },
+      { kw: 'outside-world-2', offset: 2.1, action: 'outside world is now a dot; Bill lit only by machine glow' },
+      { kw: 'far-away', action: 'Bill turns (turningBack); the wallet is gone; horrified; hard cut', sync: 'keyword: far away — final beat' },
     ],
   },
 };

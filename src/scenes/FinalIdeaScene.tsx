@@ -4,12 +4,12 @@
  *
  * Three ideas, staged as one continuous move:
  *   - "control what you notice"  -> distractions pop in and crowd the frame
- *   - "keep you immersed"        -> the camera pushes in, Nib's eyes go spiral
+ *   - "keep you immersed"        -> the camera pushes in, Bill's eyes go spiral
  *   - "outside world ... far away" -> the camera rips back and the world becomes a dot
  *
  * Underneath all of it the wallet drifts away, unnoticed, from the moment the word
  * "notice" is spoken. The payoff is that the viewer has been watching it leave for five
- * seconds before Nib turns around. Hard cut, no outro.
+ * seconds before Bill turns around. Hard cut, no outro.
  */
 
 import React from 'react';
@@ -20,7 +20,7 @@ import { SlotArea, OutsideWorld } from '../backgrounds';
 import { SlotMachine, CasinoChip, PlayingCards, Dice, ChipStack } from '../props/casino';
 import { Wallet } from '../props/money';
 import { Sparkles, ExclamationMark, DizzySpiral } from '../fx/marks';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
 import { usePoseSwap } from '../animation/PoseSwap';
 import { SceneCamera, useCameraPunch } from '../animation/SceneCamera';
 import { PopIn, popInValues } from '../animation/PopIn';
@@ -67,7 +67,7 @@ export const FinalIdeaScene: React.FC = () => {
           easing: (t) => t * t * (3 - 2 * t),
         });
 
-  // the wallet: leaves at "notice", gone well before Nib looks
+  // the wallet: leaves at "notice", gone well before Bill looks
   const walletT = interpolate(frame, [F_WALLET, F_FAR - 24], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
@@ -100,18 +100,18 @@ export const FinalIdeaScene: React.FC = () => {
   );
 
   const expr = turned
-    ? EXPRESSIONS.horrified
+    ? BILL_EXPRESSIONS.horrified
     : frame >= F_IMMERSED
-      ? EXPRESSIONS.dizzy
+      ? BILL_EXPRESSIONS.dizzy
       : frame >= F_NOTICE
-        ? EXPRESSIONS.focused
-        : EXPRESSIONS.neutral;
+        ? BILL_EXPRESSIONS.focused
+        : BILL_EXPRESSIONS.neutral;
 
   const punch = useCameraPunch(frame, F_FAR, { amount: 0.13, duration: 16 });
 
   // the camera can only pull back to 1.0 without exposing the background edge, so the
-  // sense of distance comes from Nib shrinking inside the frame as the world recedes
-  const nibScale = interpolate(frame, [F_WORLD, F_WORLD + 60], [2.8, 2.15], {
+  // sense of distance comes from Bill shrinking inside the frame as the world recedes
+  const billScale = interpolate(frame, [F_WORLD, F_WORLD + 60], [2.8, 2.15], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
     easing: (t) => t * t * (3 - 2 * t),
@@ -187,13 +187,14 @@ export const FinalIdeaScene: React.FC = () => {
         )}
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
           expression={{ ...expr, look: turned ? [-0.7, 0.1] : frame >= F_IMMERSED ? [0, 0] : [0.3, 0] }}
           x={480}
           y={1240}
-          scale={nibScale}
+          scale={billScale}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
 
         <ImpactLines frame={frame} at={F_FAR} x={480} y={950} count={16} innerRadius={200} reach={190} color={PALETTE.coral} />

@@ -66,7 +66,7 @@ audio. Durations are unequal because speech dictates structure.
 | 2 | `no-accident` | 4.45 | 5.70 | 1.25 s | A second character hides the stolen clock behind their back |
 | 3 | `time-cues` | 5.90 | 11.86 | 5.96 s | Clock, window, daylight each removed on their spoken noun |
 | 4 | `constant-environment` | 12.11 | 17.11 | 5.00 s | Lights never change; the outside world shrinks to a dot |
-| 5 | `time-distortion` | 17.39 | 20.18 | 2.79 s | **20 MINUTES → 2 HOURS?!** — the room identical, Nib destroyed |
+| 5 | `time-distortion` | 17.39 | 20.18 | 2.79 s | **20 MINUTES → 2 HOURS?!** — the room identical, Bill destroyed |
 | 6 | `twist` | 20.42 | 23.63 | 3.21 s | **BUT…** record scratch, hard wipe to a bright casino |
 | 7 | `modern-casino` | 23.96 | 30.11 | 6.15 s | Daylight, open space and a clock ADDED, one per spoken noun |
 | 8 | `myth-correction` | 30.38 | 32.51 | 2.13 s | **NOT BANNED** stamped across an absurd clock |
@@ -86,7 +86,7 @@ Visual actions are anchored to spoken words, not to guessed times. All 23 anchor
 |---|---|---|
 | casinos | 0.90 | marquee lights up |
 | **clock** | 3.88 | clock violently yanked off-screen + **CLOCK?** |
-| accident | 5.32 | culprit's innocent smile; Nib turns suspicious |
+| accident | 5.32 | culprit's innocent smile; Bill turns suspicious |
 | clocks | 7.70 | clock pops out of existence |
 | windows | 8.20 | window pops out of existence |
 | inside | 11.38 | walls arrive at their tightest |
@@ -100,13 +100,13 @@ Visual actions are anchored to spoken words, not to guessed times. All 23 anchor
 | daylight | 25.74 | window + sun revealed |
 | open spaces | 26.53 | camera opens out; plant and chair appear |
 | clocks | 27.81 | a clock, openly ticking on the wall |
-| comfortable | 28.97 | Nib sinks into the chair |
+| comfortable | 28.97 | Bill sinks into the chair |
 | **ban** | 31.64 | **NOT BANNED** |
 | trick | 32.96 | back to the floor |
 | notice | 34.55 | distractions start; the wallet begins to leave |
 | immersed | 35.48 | swarm; spiral eyes; camera pushes in |
 | outside world | 36.55 | camera rips back; the world becomes a square, then a dot |
-| far away | 39.21 | Nib turns — wallet gone — horrified — hard cut |
+| far away | 39.21 | Bill turns — wallet gone — horrified — hard cut |
 
 ---
 

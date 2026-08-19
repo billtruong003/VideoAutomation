@@ -1,7 +1,7 @@
 /**
  * MythCorrectionScene — "So casinos don't literally ban clocks."
  *
- * The nuance the title deliberately leaves out. Nib lugs an absurdly large clock into
+ * The nuance the title deliberately leaves out. Bill lugs an absurdly large clock into
  * frame, NOT BANNED stamps across it, and a passer-by wearing a wristwatch strolls
  * through behind — a second, quieter proof of the same point.
  */
@@ -14,7 +14,8 @@ import { GagCard } from '../components/GagCard';
 import { ModernCasino } from '../backgrounds';
 import { HugeWallClock, Wristwatch } from '../props/time';
 import { AttentionLines } from '../fx/marks';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
+import { makeNpc } from '../character/npc';
 import { POSES } from '../character/poses';
 import { usePoseSwap } from '../animation/PoseSwap';
 import { SceneCamera, useCameraPunch } from '../animation/SceneCamera';
@@ -24,15 +25,18 @@ import { clockAt } from '../animation/ClockSpin';
 
 const S = 'myth-correction';
 
+/** Episode-scoped extra. Hoisted so its seed is stable across frames. */
+const PASSERBY = makeNpc('civilian', 'passerby');
+
 export const MythCorrectionScene: React.FC = () => {
   const frame = useCurrentFrame();
 
   const F_BAN = kwIn(S, 'ban');
   const F_PASSERBY = F_BAN + 16;
 
-  // Nib staggers in under the weight — the clock bobs because he can barely hold it
+  // Bill staggers in under the weight — the clock bobs because he can barely hold it
   const stagger = Math.sin(frame * 0.55) * 7;
-  const nibX = interpolate(frame, [0, 18], [220, 430], {
+  const billX = interpolate(frame, [0, 18], [220, 430], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
     easing: (t) => 1 - Math.pow(1 - t, 2),
@@ -50,10 +54,10 @@ export const MythCorrectionScene: React.FC = () => {
 
   const expr =
     frame >= F_PASSERBY + 8 && frame < F_PASSERBY + 20
-      ? EXPRESSIONS.shocked
+      ? BILL_EXPRESSIONS.shocked
       : frame >= F_BAN
-        ? EXPRESSIONS.smug
-        : EXPRESSIONS.focused;
+        ? BILL_EXPRESSIONS.smug
+        : BILL_EXPRESSIONS.focused;
 
   // passer-by crosses behind, wearing a watch
   const passerX = interpolate(frame, [F_PASSERBY, F_PASSERBY + 46], [1280, 620], {
@@ -69,19 +73,19 @@ export const MythCorrectionScene: React.FC = () => {
       <SceneCamera zoom={punch} originX={540} originY={820}>
         <ModernCasino frame={frame} />
 
-        {/* passer-by, behind Nib */}
+        {/* A passer-by. An NPC, not a recoloured cast member — see character/npc.ts. */}
         {frame >= F_PASSERBY && (
           <g>
             <DoodleCharacter
+              def={PASSERBY}
               pose={passerWalk}
-              expression={EXPRESSIONS.neutral}
+              expression="neutral"
               x={passerX}
               y={1120}
               scale={2.2}
               frame={frame}
               seed="passerby"
               flip
-              shirtColor={PALETTE.teal}
               opacity={0.92}
             />
             <Wristwatch x={passerX - 62} y={1090} scale={1.9} frame={frame} seed="mc-watch" />
@@ -89,17 +93,18 @@ export const MythCorrectionScene: React.FC = () => {
         )}
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
           expression={{ ...expr, look: frame >= F_PASSERBY + 8 ? [0.8, 0.1] : [0, -0.1] }}
-          x={nibX}
+          x={billX}
           y={1180}
           scale={2.6}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
 
         {/* the absurd clock, hoisted in front of him — he peers over the top of it */}
-        <g transform={`translate(${nibX} ${1155 + stagger})`}>
+        <g transform={`translate(${billX} ${1155 + stagger})`}>
           <HugeWallClock x={0} y={0} scale={1.8} frame={frame} seed="mc-huge" {...clockAt(10, 10)} />
         </g>
 

@@ -16,7 +16,7 @@ import { GagCard } from '../components/GagCard';
 import { CasinoEntrance } from '../backgrounds';
 import { WallClock } from '../props/time';
 import { QuestionMark, AttentionLines, MotionLines, Sparkles } from '../fx/marks';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
 import { usePoseSwap } from '../animation/PoseSwap';
 import { useWalkCycle, walkX } from '../animation/WalkCycle';
 import { SceneCamera, useCameraPunch, useCameraShake } from '../animation/SceneCamera';
@@ -38,7 +38,7 @@ export const HookScene: React.FC = () => {
   const F_YANK = kwIn(S, 'clock');
   const F_DEADPAN = F_YANK + 9;
 
-  // ---- Nib walks in, plants, points, then turns to camera ----
+  // ---- Bill walks in, plants, points, then turns to camera ----
   const walking = frame < F_LOOK;
   const { pose: walkPose, bob } = useWalkCycle(frame, 4);
   const actedPose = usePoseSwap(
@@ -56,21 +56,21 @@ export const HookScene: React.FC = () => {
 
   const expression =
     frame >= F_DEADPAN
-      ? EXPRESSIONS.deadpan
+      ? BILL_EXPRESSIONS.deadpan
       : frame >= F_YANK
-        ? EXPRESSIONS.shocked
+        ? BILL_EXPRESSIONS.shocked
         : frame >= F_POINT
-          ? EXPRESSIONS.curious
+          ? BILL_EXPRESSIONS.curious
           : frame >= F_LOOK
-            ? EXPRESSIONS.curious
-            : EXPRESSIONS.neutral;
+            ? BILL_EXPRESSIONS.curious
+            : BILL_EXPRESSIONS.neutral;
 
   const idle = useIdleLook(frame, { seed: 'hook-nib', holdFrames: 18, range: 0.4 });
   const look: [number, number] =
     frame >= F_DEADPAN ? [0, 0] : frame >= F_LOOK && frame < F_YANK ? [0.75, -0.5] : idle;
 
-  const nibX = walkX(frame, { from: -170, to: 315, duration: F_LOOK });
-  const nibY = 1170 + (walking ? bob * 3 : 0);
+  const billX = walkX(frame, { from: -170, to: 315, duration: F_LOOK });
+  const billY = 1170 + (walking ? bob * 3 : 0);
 
   // ---- the clock: hangs, then is violently dragged off the top-right ----
   const yankT = interpolate(frame, [F_YANK, F_YANK + 9], [0, 1], {
@@ -129,17 +129,18 @@ export const HookScene: React.FC = () => {
         <ImpactLines frame={frame} at={F_YANK} x={762} y={560} count={13} reach={120} color={PALETTE.coral} />
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
           expression={{ ...expression, look }}
-          x={nibX}
-          y={nibY}
+          x={billX}
+          y={billY}
           scale={3.3}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
 
-        <PopIn frame={frame} at={F_DEADPAN + 3} originX={nibX + 210} originY={720}>
-          <QuestionMark x={nibX + 210} y={720} scale={2.6} frame={frame} seed="hook-q" />
+        <PopIn frame={frame} at={F_DEADPAN + 3} originX={billX + 210} originY={720}>
+          <QuestionMark x={billX + 210} y={720} scale={2.6} frame={frame} seed="hook-q" />
         </PopIn>
 
         <GagCard

@@ -71,7 +71,7 @@ const CUES: Cue[] = [
 
   // --- myth correction ---
   at('impact', kwSec('ban'), 0.28, 'NOT BANNED stamps down'),
-  at('blip', kwSec('ban') + 0.95, 0.16, 'Nib spots the wristwatch'),
+  at('blip', kwSec('ban') + 0.95, 0.16, 'Bill spots the wristwatch'),
 
   // --- final idea ---
   at('chip-clack', kwSec('notice'), 0.2, 'distractions start'),

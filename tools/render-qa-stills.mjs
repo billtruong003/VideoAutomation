@@ -24,12 +24,12 @@ const kw = (id) => {
 /** [output name, absolute seconds, what we are checking] */
 const SHOTS = [
   ['10-hook-open', 0.7, 'opening hook — casino + clock legible immediately'],
-  ['11-hook-point', kw('clock') - 0.9, 'Nib points at the clock'],
+  ['11-hook-point', kw('clock') - 0.9, 'Bill points at the clock'],
   ['12-clock-removal', kw('clock') + 0.22, 'clock yanked + CLOCK? card'],
   ['13-deadpan', kw('clock') + 0.55, 'deadpan to camera + question mark'],
-  ['14-no-accident', kw('accident') + 0.15, 'culprit hides the clock, Nib suspicious'],
+  ['14-no-accident', kw('accident') + 0.15, 'culprit hides the clock, Bill suspicious'],
   ['15-cues-vanish', kw('windows') + 0.2, 'window being removed'],
-  ['16-enclosed', kw('inside'), 'enclosed casino, Nib boxed in'],
+  ['16-enclosed', kw('inside'), 'enclosed casino, Bill boxed in'],
   ['17-flashing', kw('flashing') + 0.2, 'machines flashing, lights constant'],
   ['18-20-minutes', kw('twenty-minutes') + 0.25, '20 MINUTES'],
   ['19-2-hours', kw('two-hours') + 0.3, '2 HOURS?! reveal'],

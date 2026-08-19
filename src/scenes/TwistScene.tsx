@@ -15,7 +15,7 @@ import { GagCard } from '../components/GagCard';
 import { TraditionalFloor, ModernCasino } from '../backgrounds';
 import { SlotMachine } from '../props/casino';
 import { Window, Sun } from '../props/world';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
 import { usePoseSwap } from '../animation/PoseSwap';
 import { SceneCamera, useCameraShake, useCameraPunch } from '../animation/SceneCamera';
 import { useIdleLook } from '../animation/EyeLook';
@@ -72,10 +72,10 @@ export const TwistScene: React.FC = () => {
 
   const expr =
     frame >= F_RECOVER
-      ? EXPRESSIONS.curious
+      ? BILL_EXPRESSIONS.curious
       : frame >= F_CUT
-        ? EXPRESSIONS.shocked
-        : EXPRESSIONS.exhausted;
+        ? BILL_EXPRESSIONS.shocked
+        : BILL_EXPRESSIONS.exhausted;
 
   const lookAbout = useIdleLook(frame, { seed: 'twist-nib', holdFrames: 13, range: 0.65 });
   const shake = useCameraShake(frame, F_TWIST, { amount: 26, duration: 10, seed: 'twist' });
@@ -103,7 +103,7 @@ export const TwistScene: React.FC = () => {
           <rect x={wipeX - 8} y={0} width={10} height={VIDEO.height} fill={PALETTE.ink} />
         )}
 
-        {/* sweeping daylight — keeps the frame alive while Nib takes in the room */}
+        {/* sweeping daylight — keeps the frame alive while Bill takes in the room */}
         {wipe >= 1 && (
           <g opacity={0.5}>
             <path
@@ -115,6 +115,7 @@ export const TwistScene: React.FC = () => {
         )}
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
           expression={{
             ...expr,
@@ -129,7 +130,7 @@ export const TwistScene: React.FC = () => {
           y={frame >= F_CUT ? 1190 : 1265}
           scale={2.9}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
 
         <ImpactLines frame={frame} at={F_TWIST} x={540} y={700} count={16} innerRadius={180} reach={200} color={PALETTE.coral} />

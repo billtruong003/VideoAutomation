@@ -1,7 +1,7 @@
 {
   "generatedBy": "tools/asset-qa.mjs",
-  "total": 73,
-  "passed": 73,
+  "total": 197,
+  "passed": 197,
   "failed": 0,
   "results": [
     {
@@ -305,290 +305,1282 @@
       "warnings": []
     },
     {
-      "id": "neutral",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50299,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "walkA",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50293,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "walkB",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50331,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "pointing",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50330,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "thinking",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50296,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "confused",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50288,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "surprised",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50278,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "suspicious",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50330,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "sitting",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50290,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "gambling",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50306,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "pressingButton",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50274,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "checkingWallet",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50279,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "exhausted",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50249,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "exhaustedSitting",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50320,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "dizzy",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50305,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "realization",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50294,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "relaxed",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50270,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "horrified",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50327,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "holdingObject",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50328,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "holdingHeavy",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50271,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "lookLeft",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50326,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "lookRight",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50345,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "turningBack",
-      "group": "pose",
-      "pathCount": 30,
-      "dLength": 50239,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "neutral",
-      "group": "expression",
-      "pathCount": 30,
-      "dLength": 50319,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "curious",
-      "group": "expression",
-      "pathCount": 31,
-      "dLength": 54866,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "confused",
-      "group": "expression",
-      "pathCount": 30,
-      "dLength": 50655,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "happy",
-      "group": "expression",
-      "pathCount": 26,
-      "dLength": 39724,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "focused",
-      "group": "expression",
-      "pathCount": 24,
-      "dLength": 38849,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "suspicious",
-      "group": "expression",
-      "pathCount": 24,
-      "dLength": 40071,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "shocked",
-      "group": "expression",
-      "pathCount": 32,
-      "dLength": 57438,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "exhausted",
-      "group": "expression",
-      "pathCount": 36,
-      "dLength": 56676,
-      "issues": [],
-      "warnings": []
-    },
-    {
-      "id": "horrified",
-      "group": "expression",
+      "id": "bill:neutral",
+      "group": "pose:bill",
       "pathCount": 34,
-      "dLength": 58291,
+      "dLength": 37314,
       "issues": [],
       "warnings": []
     },
     {
-      "id": "smug",
-      "group": "expression",
-      "pathCount": 24,
-      "dLength": 39996,
+      "id": "bill:relaxed",
+      "group": "pose:bill",
+      "pathCount": 35,
+      "dLength": 37442,
       "issues": [],
       "warnings": []
     },
     {
-      "id": "dizzy",
-      "group": "expression",
-      "pathCount": 24,
-      "dLength": 46646,
+      "id": "bill:standAlert",
+      "group": "pose:bill",
+      "pathCount": 34,
+      "dLength": 37292,
       "issues": [],
       "warnings": []
     },
     {
-      "id": "content",
-      "group": "expression",
-      "pathCount": 24,
-      "dLength": 40073,
+      "id": "bill:walkA",
+      "group": "pose:bill",
+      "pathCount": 34,
+      "dLength": 37200,
       "issues": [],
       "warnings": []
     },
     {
-      "id": "deadpan",
-      "group": "expression",
+      "id": "bill:walkB",
+      "group": "pose:bill",
+      "pathCount": 34,
+      "dLength": 37218,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:runA",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37550,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:runB",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37570,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:pointLeft",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 39249,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:pointRight",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 39197,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:pointUp",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 39264,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:thinking",
+      "group": "pose:bill",
+      "pathCount": 35,
+      "dLength": 37450,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:confused",
+      "group": "pose:bill",
+      "pathCount": 38,
+      "dLength": 37699,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:shrug",
+      "group": "pose:bill",
+      "pathCount": 38,
+      "dLength": 37644,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:facepalm",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37549,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:armsCrossed",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37599,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:holdingSmall",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37543,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:holdingLarge",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37527,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:pressingButton",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 39231,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:checkingWallet",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37544,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:lookingAtPhone",
+      "group": "pose:bill",
+      "pathCount": 37,
+      "dLength": 39386,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:sitting",
+      "group": "pose:bill",
+      "pathCount": 34,
+      "dLength": 37239,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:exhaustedSitting",
+      "group": "pose:bill",
+      "pathCount": 34,
+      "dLength": 37243,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:crouching",
+      "group": "pose:bill",
+      "pathCount": 34,
+      "dLength": 37256,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:shockedBack",
+      "group": "pose:bill",
+      "pathCount": 38,
+      "dLength": 37661,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:panic",
+      "group": "pose:bill",
+      "pathCount": 38,
+      "dLength": 37659,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:falling",
+      "group": "pose:bill",
+      "pathCount": 38,
+      "dLength": 37729,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:lyingDown",
+      "group": "pose:bill",
+      "pathCount": 34,
+      "dLength": 37225,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:celebrating",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37573,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:angry",
+      "group": "pose:bill",
+      "pathCount": 36,
+      "dLength": 37588,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:horrified",
+      "group": "pose:bill",
+      "pathCount": 38,
+      "dLength": 37694,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:neutral",
+      "group": "expression:bill",
+      "pathCount": 34,
+      "dLength": 37238,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:happy",
+      "group": "expression:bill",
+      "pathCount": 34,
+      "dLength": 35667,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:smug",
+      "group": "expression:bill",
+      "pathCount": 32,
+      "dLength": 35901,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:confused",
+      "group": "expression:bill",
+      "pathCount": 34,
+      "dLength": 37353,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:surprised",
+      "group": "expression:bill",
+      "pathCount": 39,
+      "dLength": 44038,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:shocked",
+      "group": "expression:bill",
+      "pathCount": 40,
+      "dLength": 45227,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:horrified",
+      "group": "expression:bill",
+      "pathCount": 42,
+      "dLength": 45818,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:angry",
+      "group": "expression:bill",
+      "pathCount": 38,
+      "dLength": 39239,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:annoyed",
+      "group": "expression:bill",
+      "pathCount": 36,
+      "dLength": 39003,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:suspicious",
+      "group": "expression:bill",
+      "pathCount": 36,
+      "dLength": 40240,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:worried",
+      "group": "expression:bill",
+      "pathCount": 36,
+      "dLength": 38659,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:sad",
+      "group": "expression:bill",
+      "pathCount": 34,
+      "dLength": 38357,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:exhausted",
+      "group": "expression:bill",
+      "pathCount": 40,
+      "dLength": 42770,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:deadpan",
+      "group": "expression:bill",
+      "pathCount": 34,
+      "dLength": 37148,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:laughing",
+      "group": "expression:bill",
+      "pathCount": 34,
+      "dLength": 36551,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:panic",
+      "group": "expression:bill",
+      "pathCount": 45,
+      "dLength": 46286,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:curious",
+      "group": "expression:bill",
+      "pathCount": 35,
+      "dLength": 39272,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:focused",
+      "group": "expression:bill",
+      "pathCount": 32,
+      "dLength": 34653,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:content",
+      "group": "expression:bill",
+      "pathCount": 32,
+      "dLength": 36330,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "bill:dizzy",
+      "group": "expression:bill",
+      "pathCount": 32,
+      "dLength": 41972,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:neutral",
+      "group": "pose:mina",
+      "pathCount": 28,
+      "dLength": 31660,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:handsOnHips",
+      "group": "pose:mina",
+      "pathCount": 30,
+      "dLength": 32012,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:armsCrossed",
+      "group": "pose:mina",
+      "pathCount": 30,
+      "dLength": 31988,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:pointing",
+      "group": "pose:mina",
+      "pathCount": 30,
+      "dLength": 33387,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:explaining",
+      "group": "pose:mina",
+      "pathCount": 32,
+      "dLength": 32486,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:thinking",
+      "group": "pose:mina",
+      "pathCount": 29,
+      "dLength": 31856,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:lookLeft",
+      "group": "pose:mina",
+      "pathCount": 28,
+      "dLength": 31633,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:lookingAtPhone",
+      "group": "pose:mina",
+      "pathCount": 31,
+      "dLength": 33542,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:sitting",
+      "group": "pose:mina",
+      "pathCount": 28,
+      "dLength": 31626,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:walkA",
+      "group": "pose:mina",
+      "pathCount": 28,
+      "dLength": 31651,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:walkB",
+      "group": "pose:mina",
+      "pathCount": 28,
+      "dLength": 31600,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:shockedBack",
+      "group": "pose:mina",
+      "pathCount": 32,
+      "dLength": 32421,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:facepalm",
+      "group": "pose:mina",
+      "pathCount": 30,
+      "dLength": 32046,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:shrug",
+      "group": "pose:mina",
+      "pathCount": 32,
+      "dLength": 32469,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:holdingSmall",
+      "group": "pose:mina",
+      "pathCount": 30,
+      "dLength": 31976,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:deadpanStand",
+      "group": "pose:mina",
+      "pathCount": 28,
+      "dLength": 31732,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:neutral",
+      "group": "expression:mina",
+      "pathCount": 28,
+      "dLength": 31729,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:smallSmile",
+      "group": "expression:mina",
+      "pathCount": 28,
+      "dLength": 32852,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:happy",
+      "group": "expression:mina",
       "pathCount": 26,
-      "dLength": 40828,
+      "dLength": 30839,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:unimpressed",
+      "group": "expression:mina",
+      "pathCount": 30,
+      "dLength": 33600,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:suspicious",
+      "group": "expression:mina",
+      "pathCount": 30,
+      "dLength": 34745,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:confused",
+      "group": "expression:mina",
+      "pathCount": 28,
+      "dLength": 31899,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:surprised",
+      "group": "expression:mina",
+      "pathCount": 33,
+      "dLength": 38539,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:shocked",
+      "group": "expression:mina",
+      "pathCount": 34,
+      "dLength": 39753,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:annoyed",
+      "group": "expression:mina",
+      "pathCount": 30,
+      "dLength": 34514,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:angry",
+      "group": "expression:mina",
+      "pathCount": 29,
+      "dLength": 33323,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:worried",
+      "group": "expression:mina",
+      "pathCount": 28,
+      "dLength": 32621,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mina:deadpan",
+      "group": "expression:mina",
+      "pathCount": 28,
+      "dLength": 31732,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:neutral",
+      "group": "pose:dex",
+      "pathCount": 31,
+      "dLength": 36707,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:leanForward",
+      "group": "pose:dex",
+      "pathCount": 31,
+      "dLength": 36666,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:pointing",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 38390,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:whisper",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 36985,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:presenting",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 36963,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:pressingButton",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 38420,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:holdingSmall",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 37016,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:runA",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 37019,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:runB",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 36960,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:sneak",
+      "group": "pose:dex",
+      "pathCount": 35,
+      "dLength": 37356,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:celebrating",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 36994,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:panic",
+      "group": "pose:dex",
+      "pathCount": 35,
+      "dLength": 37350,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:falling",
+      "group": "pose:dex",
+      "pathCount": 35,
+      "dLength": 37393,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:shrug",
+      "group": "pose:dex",
+      "pathCount": 35,
+      "dLength": 37399,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:innocentStand",
+      "group": "pose:dex",
+      "pathCount": 31,
+      "dLength": 36702,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:laughing",
+      "group": "pose:dex",
+      "pathCount": 33,
+      "dLength": 37001,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:neutralGrin",
+      "group": "expression:dex",
+      "pathCount": 31,
+      "dLength": 36661,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:happy",
+      "group": "expression:dex",
+      "pathCount": 29,
+      "dLength": 34654,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:excited",
+      "group": "expression:dex",
+      "pathCount": 31,
+      "dLength": 32128,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:smug",
+      "group": "expression:dex",
+      "pathCount": 27,
+      "dLength": 33665,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:evilIdea",
+      "group": "expression:dex",
+      "pathCount": 31,
+      "dLength": 34566,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:surprised",
+      "group": "expression:dex",
+      "pathCount": 34,
+      "dLength": 41896,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:shocked",
+      "group": "expression:dex",
+      "pathCount": 35,
+      "dLength": 43051,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:confused",
+      "group": "expression:dex",
+      "pathCount": 29,
+      "dLength": 35150,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:panic",
+      "group": "expression:dex",
+      "pathCount": 37,
+      "dLength": 43581,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:fakeInnocent",
+      "group": "expression:dex",
+      "pathCount": 29,
+      "dLength": 34598,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:angry",
+      "group": "expression:dex",
+      "pathCount": 33,
+      "dLength": 37094,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "dex:horrified",
+      "group": "expression:dex",
+      "pathCount": 40,
+      "dLength": 44146,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:neutral",
+      "group": "pose:gus",
+      "pathCount": 35,
+      "dLength": 35325,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:armsBehindBack",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 35594,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:armsCrossed",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 35541,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:pointing",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 37118,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:clipboard",
+      "group": "pose:gus",
+      "pathCount": 38,
+      "dLength": 37224,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:explaining",
+      "group": "pose:gus",
+      "pathCount": 39,
+      "dLength": 35457,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:suspicious",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 35617,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:tinyShrug",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 35359,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:sitting",
+      "group": "pose:gus",
+      "pathCount": 35,
+      "dLength": 35270,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:walkA",
+      "group": "pose:gus",
+      "pathCount": 35,
+      "dLength": 35248,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:walkB",
+      "group": "pose:gus",
+      "pathCount": 35,
+      "dLength": 35222,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:stopHand",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 35370,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:facepalm",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 35358,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:exhausted",
+      "group": "pose:gus",
+      "pathCount": 35,
+      "dLength": 35275,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:holdingSign",
+      "group": "pose:gus",
+      "pathCount": 37,
+      "dLength": 35602,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:neutral",
+      "group": "expression:gus",
+      "pathCount": 37,
+      "dLength": 35557,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:deadpan",
+      "group": "expression:gus",
+      "pathCount": 35,
+      "dLength": 33640,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:mildlyAnnoyed",
+      "group": "expression:gus",
+      "pathCount": 37,
+      "dLength": 35542,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:suspicious",
+      "group": "expression:gus",
+      "pathCount": 37,
+      "dLength": 35571,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:tinySmile",
+      "group": "expression:gus",
+      "pathCount": 33,
+      "dLength": 32802,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:disappointed",
+      "group": "expression:gus",
+      "pathCount": 37,
+      "dLength": 36518,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:confused",
+      "group": "expression:gus",
+      "pathCount": 35,
+      "dLength": 33659,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:surprised",
+      "group": "expression:gus",
+      "pathCount": 40,
+      "dLength": 40563,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:angry",
+      "group": "expression:gus",
+      "pathCount": 36,
+      "dLength": 35248,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:exhausted",
+      "group": "expression:gus",
+      "pathCount": 41,
+      "dLength": 39239,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:horrified",
+      "group": "expression:gus",
+      "pathCount": 41,
+      "dLength": 41730,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "gus:smug",
+      "group": "expression:gus",
+      "pathCount": 33,
+      "dLength": 32325,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:loaf",
+      "group": "pose:mochi",
+      "pathCount": 20,
+      "dLength": 18154,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:stand",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27723,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:sit",
+      "group": "pose:mochi",
+      "pathCount": 26,
+      "dLength": 25298,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:walkA",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27753,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:walkB",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27750,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:runA",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27676,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:runB",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27708,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:jump",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27737,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:stretch",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27735,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:stealObject",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27730,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:carrying",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27704,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:sleep",
+      "group": "pose:mochi",
+      "pathCount": 20,
+      "dLength": 18181,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:hide",
+      "group": "pose:mochi",
+      "pathCount": 20,
+      "dLength": 18103,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:peek",
+      "group": "pose:mochi",
+      "pathCount": 24,
+      "dLength": 22923,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:shocked",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27738,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:attack",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27732,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:fall",
+      "group": "pose:mochi",
+      "pathCount": 28,
+      "dLength": 27731,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:neutral",
+      "group": "expression:mochi",
+      "pathCount": 20,
+      "dLength": 18161,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:happy",
+      "group": "expression:mochi",
+      "pathCount": 18,
+      "dLength": 16123,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:smug",
+      "group": "expression:mochi",
+      "pathCount": 17,
+      "dLength": 15145,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:curious",
+      "group": "expression:mochi",
+      "pathCount": 20,
+      "dLength": 18514,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:shocked",
+      "group": "expression:mochi",
+      "pathCount": 24,
+      "dLength": 23333,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:angry",
+      "group": "expression:mochi",
+      "pathCount": 17,
+      "dLength": 14871,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:scared",
+      "group": "expression:mochi",
+      "pathCount": 25,
+      "dLength": 22629,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:asleep",
+      "group": "expression:mochi",
+      "pathCount": 18,
+      "dLength": 16139,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:judging",
+      "group": "expression:mochi",
+      "pathCount": 21,
+      "dLength": 18358,
+      "issues": [],
+      "warnings": []
+    },
+    {
+      "id": "mochi:hungry",
+      "group": "expression:mochi",
+      "pathCount": 22,
+      "dLength": 14548,
       "issues": [],
       "warnings": []
     }

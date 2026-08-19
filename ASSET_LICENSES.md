@@ -9,7 +9,7 @@ licence, normalization state, stylizer, seed and style version.
 
 | Asset group | Count | Origin |
 |---|---|---|
-| Protagonist "Nib" — rig, 23 poses, 13 expressions | 36 | Original. Parametric rig authored for this channel. |
+| Recurring cast — Bill, Mina, Dex, Gus, Mochi: rig, 54 humanoid poses, 18 creature poses, 66 expressions | 132 | Original. Parametric rig and character system authored for this channel. See CHARACTER_BIBLE.md. |
 | Props (clocks, slots, chips, cards, wallet, window, plant…) | 27 | Original clean geometry, stylized at render time. |
 | FX marks (?, !, sparkles, impact lines, spirals…) | 10 | Original. |
 | Backgrounds | 6 | Original. |

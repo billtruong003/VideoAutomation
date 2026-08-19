@@ -16,7 +16,7 @@ import { WallClock } from '../props/time';
 import { Window, Sun } from '../props/world';
 import { SlotMachine } from '../props/casino';
 import { Sparkles } from '../fx/marks';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
 import { usePoseSwap } from '../animation/PoseSwap';
 import { SceneCamera, useCameraPunch } from '../animation/SceneCamera';
 import { useIdleLook } from '../animation/EyeLook';
@@ -54,7 +54,7 @@ export const TimeCuesScene: React.FC = () => {
     easing: (t) => t * t,
   });
 
-  // the walls of machines converge on Nib
+  // the walls of machines converge on Bill
   const close = interpolate(frame, [F_CLOSE, F_INSIDE], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
@@ -78,18 +78,18 @@ export const TimeCuesScene: React.FC = () => {
 
   const expr =
     frame >= F_INSIDE
-      ? EXPRESSIONS.exhausted
+      ? BILL_EXPRESSIONS.exhausted
       : frame >= F_CLOSE + 20
-        ? EXPRESSIONS.confused
+        ? BILL_EXPRESSIONS.confused
         : frame >= F_SUN
-          ? EXPRESSIONS.confused
-          : EXPRESSIONS.curious;
+          ? BILL_EXPRESSIONS.confused
+          : BILL_EXPRESSIONS.curious;
 
   const idle = useIdleLook(frame, { seed: 'tc-nib', holdFrames: 16, range: 0.5 });
   const punch = useCameraPunch(frame, F_INSIDE, { amount: 0.09, duration: 14 });
 
-  // as the room encloses, Nib gets smaller — the space is winning
-  const nibScale = interpolate(close, [0, 1], [3.1, 2.5]);
+  // as the room encloses, Bill gets smaller — the space is winning
+  const billScale = interpolate(close, [0, 1], [3.1, 2.5]);
 
   return (
     <Stage>
@@ -122,13 +122,14 @@ export const TimeCuesScene: React.FC = () => {
         <SlotMachine x={rightX + 260} y={1120} scale={2.3} frame={frame} seed="tc-m4" />
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
           expression={{ ...expr, look: frame >= F_CLOSE ? [0, 0.2] : idle }}
           x={545}
           y={1180}
-          scale={nibScale}
+          scale={billScale}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
       </SceneCamera>
     </Stage>

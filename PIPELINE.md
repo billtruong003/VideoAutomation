@@ -226,16 +226,24 @@ the same generator asked for "a clock" gets the semantics right almost always.
 There is exactly one stylizer. Restyling the channel is a token change in
 `src/style/tokens.ts`, not 27 rewrites.
 
-### Which library draws what
+### One library draws everything
 
-| | Handles | Why |
+| | Handles | How |
 |---|---|---|
-| **Rough.js** 4.6.6 | STRUCTURE — clock faces, cabinets, walls, window frames, chairs | roughens an outline while preserving the shape's identity |
-| **perfect-freehand** 1.2.3 | GESTURE — brows, mouths, noodle limbs, arrows, sparkles, speed lines | produces a real pen mark that swells and tapers |
+| **Rough.js** 4.6.6 | STRUCTURE — clock faces, cabinets, walls, window frames, heads, torsos | shape presets: roughens an outline while preserving the shape's identity |
+| **Rough.js** 4.6.6 | GESTURE — brows, mouths, noodle limbs, hair, arrows, speed lines | pen presets: a curve through deliberately boring points |
 
-Getting this backwards is the fastest way to break the style: a Rough.js eyebrow looks like
-a snapped twig, a freehand rectangle looks like a deflated balloon. `src/fx/marks.tsx` is
-almost entirely freehand; `src/props/*` is almost entirely Rough.js; the character uses both.
+There is one stylizer and one pen family. An earlier revision routed gestures to
+`perfect-freehand`, and it was removed for three reasons that are worth keeping on record:
+
+- it is an **authoring** tool, not a stylizer — its character comes from a hand-authored
+  pressure profile, which is V1's "the author supplies the hand" failure wearing a library
+- variable-width and uniform-width are two different pens; on one head the drawing visibly
+  had two hands, and at phone size the swelling went muddy
+- it **escaped the style switch**: `REMOTION_STYLE_MODE=clean` flattened every Rough.js
+  shape and left every freehand mark untouched, so half the frame obeyed
+
+All 15 gestural marks migrated with zero asset edits — one branch in the single stylizer.
 
 ### Determinism and the caching contract
 
@@ -249,14 +257,13 @@ give a different squiggle every frame — boiling static, not a drawing.
   the origin and translated into place; clock hands are separate defs inside a rotated `<g>`.
   Break this and a blended pose mints a fresh cache entry every frame.
 
-`tools/asset-qa.mjs` proves the property: **73/73 assets byte-identical across two
-independent renders.**
+`tools/asset-qa.mjs` proves the property: **197/197 assets byte-identical across two
+independent renders** — every prop and FX mark, plus every canonical pose and expression of
+all five cast members.
 
-### Two calibration lessons
+### The calibration lesson that keeps mattering
 
-1. **perfect-freehand `size` is the FULL width of the mark, not a centreline weight.**
-   Carrying V1's stroke widths across directly made every stroke ~2.5x too heavy.
-2. **Rough.js roughness is in absolute units, not relative to the shape.** On a 3-unit dice
+1. **Rough.js roughness is in absolute units, not relative to the shape.** On a 3-unit dice
    pip the default wander is larger than the pip, so a grid of them merges into a black
    smear — which is exactly how the first V2 dice rendered. Encoded as the `TINY` override
    in `src/assets/shapes.ts`; an audit found 13 latent instances across the library.
@@ -516,7 +523,6 @@ A rasterised ink-coverage measure would be a real check.
   real pull-back moves.
 - The 8 ingested Lucide icons are validated and available but unused on screen; they prove
   the chain rather than appearing in the episode.
-- `svg2roughjs` remains in `package.json` as a record of the evaluation and can be removed.
 - Remotion needs a paid company licence above a size threshold — check before scaling.
 
 ## 12. Command reference
