@@ -28,24 +28,71 @@ V2 inverts the responsibility:
 
 Consequence: restyling the whole channel is a token change, not 27 rewrites.
 
+### Turning the hand off
+
+Because styling is separated from authoring, the entire channel look is one switch:
+
+```bash
+REMOTION_STYLE_MODE=clean npx remotion render CasinoClocks out/clean.mp4
+```
+
+`clean` zeroes roughness and bowing and preserves vertices, so Rough.js emits the exact
+geometry each asset was authored as. No asset file changes. Useful for two things:
+
+1. **Proving the separation is real** — if turning the stylizer off required edits, the
+   style would still be baked into the assets, which is the V1 failure.
+2. **Diagnosis** — a layout problem seen in clean mode is a geometry bug; one that appears
+   only in rough mode is a roughness artefact (see the dice-pip case in §4).
+
+Since one stylizer draws everything, clean mode flattens the ENTIRE drawing. That was not
+true of an earlier revision, and the asymmetry is what exposed its design flaw — see §1.
+
 ---
 
-## 1. Which tool draws what
+## 1. One stylizer draws everything
 
-This is the single most consequential decision when authoring an asset.
+There is exactly **one** drawing engine: Rough.js, wrapped by `src/assets/RoughAsset.tsx`.
+Assets choose a *preset*, never an engine.
 
-| | Use for | Because |
+| Preset kind | For | Shape kinds |
 |---|---|---|
-| **Rough.js** (`k:'rect' \| 'circle' \| 'ellipse' \| 'line' \| 'polygon' \| 'path' \| 'arc'`) | **STRUCTURE** — anything with dimensions and edges: a clock face, a chair, a wall, a slot cabinet, a window frame | it roughens an outline while keeping the shape's identity |
-| **perfect-freehand** (`k:'stroke'`) | **GESTURE** — anything drawn in one motion where the pressure profile *is* the mark: an eyebrow, a mouth, a noodle limb, a scribble, a speed line, an arrow | it produces a real pen mark that swells and tapers |
+| **shape presets** (`ROUGH`) | things with area and edges — a clock face, a cabinet, a wall, a window frame | `rect` `circle` `ellipse` `line` `polygon` `path` `arc` `curve` |
+| **pen presets** (`PEN`) | things drawn in one motion — a brow, a mouth, a limb, a swoosh, a scribble | `stroke` |
 
-Getting this backwards is the fastest way to make the style look wrong:
+Both are the same engine with different parameters. A `stroke` is a curve through points
+drawn with a thinner, calmer roughness; that is the entire difference.
 
-- a Rough.js eyebrow looks like a snapped twig
-- a freehand rectangle looks like a deflated balloon
+### A correction, kept on the record
 
-`src/fx/marks.tsx` is almost entirely `stroke`. `src/props/*.tsx` is almost entirely
-Rough.js. The character uses both, deliberately.
+An earlier version of this document said:
+
+> *"a Rough.js eyebrow looks like a snapped twig"*
+
+and used that claim to justify adding **perfect-freehand** as a second drawing library for
+gestural marks. **The claim was never tested, and it was wrong.** `src/qa/PenProbe.tsx`
+rendered both side by side and the Rough.js mark was the cleaner of the two. The rendered
+evidence is at `qa/v2-pen-probe.png`.
+
+Worse, the second library was actively harmful:
+
+1. **perfect-freehand is an AUTHORING tool, not a stylizer.** Its character comes from a
+   pressure profile that has to be hand-authored — which is V1's failure ("the author
+   supplies the hand") wearing a library. The source geometry was no longer boring, so the
+   stylizer no longer owned the look.
+2. **Variable-width strokes are a different pen.** Rough.js gives a uniform ballpoint line;
+   perfect-freehand gives a tapered brush stroke. On the same head the drawing visibly had
+   two hands. At phone size the swelling just went muddy.
+3. **It escaped the style switch.** `REMOTION_STYLE_MODE=clean` flattened every Rough.js
+   shape and left every freehand mark untouched — half the frame obeyed, half didn't. That
+   asymmetry is what exposed the design flaw.
+
+The dependency was removed. All 15 `k:'stroke'` marks in the library migrated with **zero
+asset edits**, because the change was one branch in the single stylizer — which is the
+clearest demonstration so far that the authoring/styling separation is real.
+
+**Generalisable rule: for a roughening pipeline to work, the source must be genuinely clean
+and boring.** Anything that adds expressive character *before* the stylizer competes with
+it, and the drawing ends up with two authors.
 
 ---
 
@@ -108,19 +155,21 @@ Two calibration rules learned the hard way:
 1080×1920 on a phone — the hatching aliases into noise and fights the captions. `hachure`,
 `crossHatch` and `sparse` exist for deliberate texture moments only.
 
-### Freehand pens
+### Pen presets
 
-`FREEHAND` in tokens.ts. **`size` is the FULL width of the mark at peak pressure, not a
-centreline stroke weight** — carrying V1's stroke widths across directly made everything
-~2.5× too heavy on the first pass.
+`PEN` in tokens.ts — uniform-width strokes for gestural marks, drawn by the same stylizer.
 
-| Pen | For | size |
+| Pen | For | width / roughness |
 |---|---|---|
-| `face` | brows, mouths, closed eyes | 4.0 |
-| `hair` | cowlick | 4.6 |
-| `limb` | noodle arms and legs | 7.6 |
-| `accent` | emphasis marks, speed lines | 7 |
-| `scribble` | loose annotation | 4.2 |
+| `face` | brows, mouths, closed eyes | 3.6 / 0.75 |
+| `hair` | cowlick | 3.8 / 0.95 |
+| `limb` | noodle arms and legs | 7.0 / 0.70 |
+| `accent` | emphasis marks, speed lines | 5.5 / 1.70 |
+| `scribble` | loose annotation | 3.2 / 1.40 |
+
+Face pens are deliberately the calmest in the set: a scratchy eyebrow reads as a mistake,
+not as style. A tightly-coiled path (a dizzy spiral) must also use a low-roughness pen —
+when the wander between points exceeds the spacing between them, the coil collapses to a blob.
 
 ---
 

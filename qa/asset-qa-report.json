@@ -40,7 +40,7 @@
       "id": "CeilingLight",
       "group": "world",
       "pathCount": 8,
-      "dLength": 7503,
+      "dLength": 10430,
       "issues": [],
       "warnings": []
     },
@@ -176,7 +176,7 @@
       "id": "Cash",
       "group": "money",
       "pathCount": 9,
-      "dLength": 9540,
+      "dLength": 11766,
       "issues": [],
       "warnings": []
     },
@@ -224,7 +224,7 @@
       "id": "Arrow",
       "group": "fx",
       "pathCount": 3,
-      "dLength": 2179,
+      "dLength": 5247,
       "issues": [],
       "warnings": []
     },
@@ -232,7 +232,7 @@
       "id": "AttentionLines",
       "group": "fx",
       "pathCount": 9,
-      "dLength": 4990,
+      "dLength": 12790,
       "issues": [],
       "warnings": []
     },
@@ -240,15 +240,17 @@
       "id": "DizzySpiral",
       "group": "fx",
       "pathCount": 1,
-      "dLength": 4246,
+      "dLength": 11260,
       "issues": [],
-      "warnings": []
+      "warnings": [
+        "SMEAR: 11260 chars per rough path — check the contact sheet"
+      ]
     },
     {
       "id": "ExclamationMark",
       "group": "fx",
       "pathCount": 3,
-      "dLength": 2728,
+      "dLength": 4140,
       "issues": [],
       "warnings": []
     },
@@ -266,7 +268,7 @@
       "id": "MotionLines",
       "group": "fx",
       "pathCount": 4,
-      "dLength": 3172,
+      "dLength": 6541,
       "issues": [],
       "warnings": []
     },
@@ -274,7 +276,7 @@
       "id": "QuestionMark",
       "group": "fx",
       "pathCount": 3,
-      "dLength": 3038,
+      "dLength": 6161,
       "issues": [],
       "warnings": []
     },
@@ -282,7 +284,7 @@
       "id": "Sparkles",
       "group": "fx",
       "pathCount": 10,
-      "dLength": 3775,
+      "dLength": 14510,
       "issues": [],
       "warnings": []
     },
@@ -290,7 +292,7 @@
       "id": "SweatDrops",
       "group": "fx",
       "pathCount": 3,
-      "dLength": 687,
+      "dLength": 5025,
       "issues": [],
       "warnings": []
     },
@@ -306,7 +308,7 @@
       "id": "neutral",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44034,
+      "dLength": 50299,
       "issues": [],
       "warnings": []
     },
@@ -314,7 +316,7 @@
       "id": "walkA",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 43914,
+      "dLength": 50293,
       "issues": [],
       "warnings": []
     },
@@ -322,7 +324,7 @@
       "id": "walkB",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 43977,
+      "dLength": 50331,
       "issues": [],
       "warnings": []
     },
@@ -330,7 +332,7 @@
       "id": "pointing",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44158,
+      "dLength": 50330,
       "issues": [],
       "warnings": []
     },
@@ -338,7 +340,7 @@
       "id": "thinking",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 43965,
+      "dLength": 50296,
       "issues": [],
       "warnings": []
     },
@@ -346,7 +348,7 @@
       "id": "confused",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44041,
+      "dLength": 50288,
       "issues": [],
       "warnings": []
     },
@@ -354,7 +356,7 @@
       "id": "surprised",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44073,
+      "dLength": 50278,
       "issues": [],
       "warnings": []
     },
@@ -362,7 +364,7 @@
       "id": "suspicious",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 43892,
+      "dLength": 50330,
       "issues": [],
       "warnings": []
     },
@@ -370,7 +372,7 @@
       "id": "sitting",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44088,
+      "dLength": 50290,
       "issues": [],
       "warnings": []
     },
@@ -378,7 +380,7 @@
       "id": "gambling",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44064,
+      "dLength": 50306,
       "issues": [],
       "warnings": []
     },
@@ -386,7 +388,7 @@
       "id": "pressingButton",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44060,
+      "dLength": 50274,
       "issues": [],
       "warnings": []
     },
@@ -394,7 +396,7 @@
       "id": "checkingWallet",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 43966,
+      "dLength": 50279,
       "issues": [],
       "warnings": []
     },
@@ -402,7 +404,7 @@
       "id": "exhausted",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44115,
+      "dLength": 50249,
       "issues": [],
       "warnings": []
     },
@@ -410,7 +412,7 @@
       "id": "exhaustedSitting",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44124,
+      "dLength": 50320,
       "issues": [],
       "warnings": []
     },
@@ -418,7 +420,7 @@
       "id": "dizzy",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44133,
+      "dLength": 50305,
       "issues": [],
       "warnings": []
     },
@@ -426,7 +428,7 @@
       "id": "realization",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44175,
+      "dLength": 50294,
       "issues": [],
       "warnings": []
     },
@@ -434,7 +436,7 @@
       "id": "relaxed",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44170,
+      "dLength": 50270,
       "issues": [],
       "warnings": []
     },
@@ -442,7 +444,7 @@
       "id": "horrified",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44231,
+      "dLength": 50327,
       "issues": [],
       "warnings": []
     },
@@ -450,7 +452,7 @@
       "id": "holdingObject",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 43680,
+      "dLength": 50328,
       "issues": [],
       "warnings": []
     },
@@ -458,7 +460,7 @@
       "id": "holdingHeavy",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44055,
+      "dLength": 50271,
       "issues": [],
       "warnings": []
     },
@@ -466,7 +468,7 @@
       "id": "lookLeft",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44069,
+      "dLength": 50326,
       "issues": [],
       "warnings": []
     },
@@ -474,7 +476,7 @@
       "id": "lookRight",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 44055,
+      "dLength": 50345,
       "issues": [],
       "warnings": []
     },
@@ -482,7 +484,7 @@
       "id": "turningBack",
       "group": "pose",
       "pathCount": 30,
-      "dLength": 43885,
+      "dLength": 50239,
       "issues": [],
       "warnings": []
     },
@@ -490,7 +492,7 @@
       "id": "neutral",
       "group": "expression",
       "pathCount": 30,
-      "dLength": 44060,
+      "dLength": 50319,
       "issues": [],
       "warnings": []
     },
@@ -498,7 +500,7 @@
       "id": "curious",
       "group": "expression",
       "pathCount": 31,
-      "dLength": 48697,
+      "dLength": 54866,
       "issues": [],
       "warnings": []
     },
@@ -506,7 +508,7 @@
       "id": "confused",
       "group": "expression",
       "pathCount": 30,
-      "dLength": 44282,
+      "dLength": 50655,
       "issues": [],
       "warnings": []
     },
@@ -514,7 +516,7 @@
       "id": "happy",
       "group": "expression",
       "pathCount": 26,
-      "dLength": 31323,
+      "dLength": 39724,
       "issues": [],
       "warnings": []
     },
@@ -522,7 +524,7 @@
       "id": "focused",
       "group": "expression",
       "pathCount": 24,
-      "dLength": 30504,
+      "dLength": 38849,
       "issues": [],
       "warnings": []
     },
@@ -530,7 +532,7 @@
       "id": "suspicious",
       "group": "expression",
       "pathCount": 24,
-      "dLength": 30780,
+      "dLength": 40071,
       "issues": [],
       "warnings": []
     },
@@ -538,7 +540,7 @@
       "id": "shocked",
       "group": "expression",
       "pathCount": 32,
-      "dLength": 51392,
+      "dLength": 57438,
       "issues": [],
       "warnings": []
     },
@@ -546,7 +548,7 @@
       "id": "exhausted",
       "group": "expression",
       "pathCount": 36,
-      "dLength": 46433,
+      "dLength": 56676,
       "issues": [],
       "warnings": []
     },
@@ -554,7 +556,7 @@
       "id": "horrified",
       "group": "expression",
       "pathCount": 34,
-      "dLength": 52268,
+      "dLength": 58291,
       "issues": [],
       "warnings": []
     },
@@ -562,7 +564,7 @@
       "id": "smug",
       "group": "expression",
       "pathCount": 24,
-      "dLength": 30683,
+      "dLength": 39996,
       "issues": [],
       "warnings": []
     },
@@ -570,7 +572,7 @@
       "id": "dizzy",
       "group": "expression",
       "pathCount": 24,
-      "dLength": 32725,
+      "dLength": 46671,
       "issues": [],
       "warnings": []
     },
@@ -578,7 +580,7 @@
       "id": "content",
       "group": "expression",
       "pathCount": 24,
-      "dLength": 30865,
+      "dLength": 40073,
       "issues": [],
       "warnings": []
     },
@@ -586,7 +588,7 @@
       "id": "deadpan",
       "group": "expression",
       "pathCount": 26,
-      "dLength": 34582,
+      "dLength": 40828,
       "issues": [],
       "warnings": []
     }

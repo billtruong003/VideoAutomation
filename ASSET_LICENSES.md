@@ -118,18 +118,23 @@ the fonts are not redistributed standalone.
 |---|---|
 | **Remotion** | Renderer. **Free for individuals and small companies, but requires a paid company licence above a threshold — <https://remotion.dev/license>.** The one obligation in this project that needs checking before commercial publication at scale. |
 | Rough.js 4.6.6 | MIT |
-| perfect-freehand 1.2.3 | MIT |
 | SVGO 4.0.2 | MIT |
-| svg2roughjs 3.2.3 | MIT — **installed but not used at runtime**, see note below |
 | lucide-static 1.32.0 | ISC |
 | React, TypeScript, esbuild | MIT |
 | FFmpeg | LGPL/GPL build, audio processing only |
 
-> **svg2roughjs:** installed and evaluated, then **not used**. It fails to load under Node
-> ESM (its `main` is a UMD bundle exporting nothing) and depends on browser-only APIs
-> (`getBBox`, `getComputedStyle`, `canvas`, `Image`) that jsdom does not implement for SVG
-> geometry. `tools/roughify-svg.mjs` implements the equivalent directly against Rough.js.
-> It remains in `package.json` as a record of the evaluation; it can be removed.
+> **Two libraries were evaluated and removed:**
+>
+> - **svg2roughjs** — fails to load under Node ESM (its `main` is a UMD bundle exporting
+>   nothing) and depends on browser-only APIs (`getBBox`, `getComputedStyle`, `canvas`,
+>   `Image`) that jsdom does not implement for SVG geometry. `tools/roughify-svg.mjs`
+>   implements the equivalent directly against Rough.js.
+> - **perfect-freehand** — used briefly for gestural marks, then removed. It is an authoring
+>   tool rather than a stylizer: its character comes from a hand-authored pressure profile,
+>   which reintroduced the very problem V2 exists to solve, and its variable-width strokes
+>   read as a second hand in the drawing. See `STYLE.md` §1.
+>
+> Neither is a dependency any more.
 
 ---
 

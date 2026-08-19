@@ -1,21 +1,21 @@
 /**
  * StyleProbe.tsx — QA-only. Proves the V2 stylizer works before anything is built on it.
  *
- * Shows every Rough.js primitive at every roughness token, every fill strategy, and every
- * perfect-freehand pen, side by side. If the sketch language is wrong, it is wrong here —
- * and fixing it here costs seconds instead of rebuilding 27 assets.
+ * Shows every primitive at every roughness token, every fill strategy, and every pen
+ * preset, side by side. If the sketch language is wrong, it is wrong here — and fixing it
+ * here costs seconds instead of rebuilding 27 assets.
  */
 
 import React from 'react';
 import { Stage } from '../components/Stage';
 import { RoughShapes } from '../assets/RoughAsset';
-import { freehandPath, arcPoints, wobblyLine, scribblePoints, quadPoints } from '../freehand/stroke';
-import { PALETTE, FONTS, ROUGH, FREEHAND } from '../style/tokens';
+import { arcPoints, scribblePoints, quadPoints, linePoints } from '../lib/pathpoints';
+import { PALETTE, FONTS, ROUGH, PEN } from '../style/tokens';
 import type { Shape } from '../assets/shapes';
 import { ring, spoke, roundedRect } from '../assets/shapes';
 
 const ROUGH_TOKENS = Object.keys(ROUGH) as (keyof typeof ROUGH)[];
-const PENS = Object.keys(FREEHAND) as (keyof typeof FREEHAND)[];
+const PENS = Object.keys(PEN) as (keyof typeof PEN)[];
 
 const label = (x: number, y: number, t: string, size = 20) => (
   <text x={x} y={y} fontFamily={FONTS.hand} fontSize={size} fill={PALETTE.inkSoft} textAnchor="middle">
@@ -43,7 +43,7 @@ export const StyleProbe: React.FC = () => {
     <Stage>
       <>
         <text x={30} y={54} fontFamily={FONTS.display} fontSize={44} fill={PALETTE.ink}>
-          V2 STYLE PROBE — ROUGH.JS + PERFECT-FREEHAND
+          V2 STYLE PROBE — ONE STYLIZER
         </text>
 
         {/* ---- row 1: the same clock at every roughness token ---- */}
@@ -102,14 +102,14 @@ export const StyleProbe: React.FC = () => {
         {label(625, 740, 'cross-hatch')}
         {label(855, 740, 'sparse')}
 
-        {/* ---- row 4: perfect-freehand pens ---- */}
-        {label(540, 810, 'perfect-freehand pens — gesture, not structure', 22)}
+        {/* ---- row 4: pen presets ---- */}
+        {label(540, 810, 'pen presets — gesture, same stylizer as structure', 22)}
         {PENS.map((pen, i) => {
           const x0 = 70 + i * 195;
           const pts = quadPoints([x0, 900], [x0 + 80, 840], [x0 + 160, 900], 18);
           return (
             <g key={pen}>
-              <path d={freehandPath(pts, pen, `probe-pen-${pen}`)} fill={PALETTE.ink} />
+              <RoughShapes id={`probe-pen-${pen}`} shapes={[{ k: 'stroke', pts, pen }]} />
               {label(x0 + 80, 950, pen)}
             </g>
           );
@@ -117,22 +117,18 @@ export const StyleProbe: React.FC = () => {
 
         {/* ---- row 5: gestural marks ---- */}
         {label(540, 1010, 'gestural marks', 22)}
-        <path d={freehandPath(arcPoints(180, 1100, 70, 40, 180, 360), 'face', 'probe-arc')} fill={PALETTE.ink} />
+        <RoughShapes id="probe-arc" shapes={[{ k: 'stroke', pts: arcPoints(180, 1100, 70, 40, 180, 360), pen: 'face' }]} />
         {label(180, 1180, 'arc (mouth / brow)')}
 
-        <path d={freehandPath(wobblyLine([330, 1100], [520, 1100], 'probe-wob', 5), 'accent', 'probe-wobl')} fill={PALETTE.ink} />
-        {label(425, 1180, 'wobbly line')}
+        <RoughShapes id="probe-wobl" shapes={[{ k: 'stroke', pts: linePoints([330, 1100], [520, 1100]), pen: 'accent' }]} />
+        {label(425, 1180, 'straight run (bowed by rough)')}
 
-        <path d={freehandPath(scribblePoints(680, 1090, 130, 90, 'probe-scrib', 4), 'scribble', 'probe-scribs')} fill={PALETTE.inkSoft} />
+        <RoughShapes id="probe-scribs" shapes={[{ k: 'stroke', pts: scribblePoints(680, 1090, 130, 90, 'probe-scrib', 4), pen: 'scribble', color: PALETTE.inkSoft }]} />
         {label(680, 1180, 'scribble')}
 
-        <path
-          d={freehandPath(
-            [[880, 1140], [910, 1060], [940, 1120], [975, 1050], [1005, 1110]],
-            'accent',
-            'probe-zig',
-          )}
-          fill={PALETTE.coral}
+        <RoughShapes
+          id="probe-zig"
+          shapes={[{ k: 'stroke', pts: [[880, 1140], [910, 1060], [940, 1120], [975, 1050], [1005, 1110]], pen: 'accent', color: PALETTE.coral }]}
         />
         {label(940, 1180, 'zigzag accent')}
 

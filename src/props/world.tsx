@@ -27,7 +27,7 @@ import { RoughAsset } from '../assets/RoughAsset';
 import { PropFrame, type PropArgs } from '../assets/PropFrame';
 import { PALETTE } from '../style/tokens';
 import { TINY, group, roundedRect, spoke, type AssetDef, type Shape } from '../assets/shapes';
-import { wobblyLine } from '../freehand/stroke';
+import { wobblyLine } from '../lib/pathpoints';
 
 /**
  * Swap the fill of one or more shapes without rebuilding the definition. The id stays
@@ -59,7 +59,7 @@ const WINDOW: AssetDef = {
 
 /**
  * Two shafts of daylight. A shaft of light is a GESTURE — one fast diagonal swipe — so it
- * is a perfect-freehand stroke, not a Rough.js line.
+ * is a gesture stroke, not a straight structural line.
  */
 const WINDOW_DAYLIGHT: AssetDef = {
   id: 'prop-window-daylight',

@@ -1,10 +1,13 @@
 /**
  * RoughAsset.tsx — the single stylizer every asset passes through.
  *
- * This is the "render imperfectly" half of the contract. It takes clean geometry and
- * emits the channel's hand: Rough.js for structure, perfect-freehand for gesture, both
- * seeded from the asset's identity so the same clock is the same clock in every frame of
- * every render.
+ * This is the "render imperfectly" half of the contract. It takes clean geometry and emits
+ * the channel's hand, seeded from the asset's identity so the same clock is the same clock
+ * in every frame of every render.
+ *
+ * ONE engine draws everything. Shapes get shape presets, gestures get pen presets, but both
+ * are Rough.js. A previous revision used a second library for gestures; the drawing ended up
+ * with two different pens in it and half of it ignored the clean-mode switch.
  *
  * There is exactly ONE of these. If the channel's look needs to change, it changes here
  * and in `style/tokens.ts` — not across 27 asset files. That is the whole point of V2.
@@ -13,8 +16,8 @@
 import React from 'react';
 import type { Options } from 'roughjs/bin/core';
 import { roughPaths, seedFrom } from '../rough/generator';
-import { freehandPath } from '../freehand/stroke';
-import { PALETTE, ROUGH, FILL } from '../style/tokens';
+import { PALETTE, ROUGH, FILL, PEN, STYLE_MODE } from '../style/tokens';
+import { quantize } from '../lib/pathpoints';
 import type { AssetDef, Shape, ShapeStyle } from './shapes';
 
 /** Build the Rough.js option bag for one shape from its tokens plus overrides. */
@@ -36,6 +39,18 @@ function optionsFor(style: ShapeStyle, seed: number): Options {
   // single-pass outlines keep small details from turning to mud
   if (style.single) opts.disableMultiStroke = true;
 
+  /*
+   * Clean mode: Rough.js still draws every shape, but with no wander and no bow, and with
+   * vertices preserved exactly — so the output is the clean geometry the asset was
+   * authored as. One branch, in one function, turns the entire channel's hand off.
+   */
+  if (STYLE_MODE === 'clean') {
+    opts.roughness = 0;
+    opts.bowing = 0;
+    opts.disableMultiStroke = true;
+    opts.preserveVertices = true;
+  }
+
   return opts;
 }
 
@@ -51,23 +66,47 @@ function renderShape(shape: Shape, path: string, key: React.Key): React.ReactNod
     );
   }
 
-  // ---- gestural marks go to perfect-freehand ----
+  const seed = seedFrom(path);
+
+  /*
+   * ---- gestural marks ----
+   * A brow, a limb and a swoosh are curves through points. They go through the SAME
+   * stylizer as everything else, with a pen preset instead of a shape preset, so the whole
+   * drawing is made by one hand and obeys one style switch. An earlier revision routed
+   * these to perfect-freehand and the result had two visibly different pens in it — see
+   * src/qa/PenProbe.tsx and the PEN comment in style/tokens.ts.
+   */
   if (shape.k === 'stroke') {
-    const d = freehandPath(shape.pts, shape.pen ?? 'face', path, { size: shape.size });
-    if (!d) return null;
+    const pen = PEN[shape.pen ?? 'face'];
+    const strokeOpts = optionsFor(
+      {
+        stroke: shape.color ?? PALETTE.ink,
+        sw: shape.size ?? pen.strokeWidth,
+        roughness: pen.roughness,
+        bowing: pen.bowing,
+        single: true,
+      },
+      seed,
+    );
+    const strokePaths = roughPaths(path, { kind: 'curve', args: [quantize(shape.pts)] }, strokeOpts);
     return (
-      <path
-        key={key}
-        d={d}
-        fill={shape.color ?? PALETTE.ink}
-        stroke="none"
-        opacity={shape.opacity}
-      />
+      <g key={key} opacity={shape.opacity}>
+        {strokePaths.map((sp, i) => (
+          <path
+            key={i}
+            d={sp.d}
+            stroke={sp.stroke}
+            strokeWidth={sp.strokeWidth}
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        ))}
+      </g>
     );
   }
 
-  // ---- structural geometry goes to Rough.js ----
-  const seed = seedFrom(path);
+  // ---- structural geometry ----
   const opts = optionsFor(shape, seed);
 
   let paths;

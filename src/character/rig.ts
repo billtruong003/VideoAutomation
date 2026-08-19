@@ -131,9 +131,9 @@ export function blendPose(a: Pose, b: Pose, t: number): Pose {
  * Control point for a noodle limb's curve: the midpoint of anchor->end, pushed
  * perpendicular by `bend`.
  *
- * Split out from `limbPath` because V2 draws limbs with perfect-freehand, which needs
- * POINTS along the curve rather than an SVG `d` string. Both callers share this maths so
- * a limb bends identically however it is rendered.
+ * Split out from `limbPath` because V2 draws limbs as a sampled curve, which needs POINTS
+ * rather than an SVG `d` string. Both callers share this maths so a limb bends identically
+ * however it is rendered.
  */
 export function limbControl(anchor: readonly [number, number], limb: Limb): [number, number] {
   const [ax, ay] = anchor;

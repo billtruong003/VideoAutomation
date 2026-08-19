@@ -5,7 +5,7 @@
  * A wallet that is full, a wallet that is not, notes, a receipt that never ends, and the
  * litter that proves hours went by. No real currency, no denominations, no institution
  * marks — where a number would sit there is a scribble, and the scribble is the only mark
- * in this file drawn as a GESTURE (perfect-freehand) rather than as STRUCTURE (Rough.js).
+ * in this file authored as a GESTURE (a point path) rather than as STRUCTURE.
  *
  * Everything else is clean semantic geometry: a note is a rounded rectangle with a disc in
  * the middle, a crumpled ball is a circle with creases. The hand-drawn character is added
@@ -19,7 +19,7 @@ import React from 'react';
 import { RoughAsset } from '../assets/RoughAsset';
 import { PropFrame, type PropArgs } from '../assets/PropFrame';
 import { PALETTE } from '../style/tokens';
-import { scribblePoints } from '../freehand/stroke';
+import { scribblePoints } from '../lib/pathpoints';
 import { TINY, roundedRect, type AssetDef, type Pt, type Shape } from '../assets/shapes';
 
 // ---------------------------------------------------------------------------

@@ -9,14 +9,12 @@
  * head is an ellipse, the torso is a trapezoid — and splits the drawing between the two
  * tools by what each is actually good at:
  *
- *   Rough.js         head, torso, hands, feet, open eyes, pupils
- *                    (things with area and edges)
- *   perfect-freehand limbs, hair, brows, mouths, closed eyes, sweat
- *                    (things drawn in one motion, where the pressure IS the mark)
+ *   shape presets  head, torso, hands, feet, open eyes, pupils (things with area)
+ *   pen presets    limbs, hair, brows, mouths, closed eyes       (things drawn in one motion)
  *
- * Noodle limbs in particular are transformed by this: a limb is a single confident pen
- * stroke that swells in the middle and tapers at the wrist. Rough.js cannot express that;
- * perfect-freehand does it natively.
+ * Both are the SAME stylizer. An earlier V2 revision drew the gestures with a second
+ * library that produced variable-width strokes; the character ended up looking like two
+ * people drew it, and half of it ignored the clean-mode switch. See src/qa/PenProbe.tsx.
  *
  * CACHING CONTRACT: every rough-generated part is authored at the ORIGIN and moved into
  * place with a transform. If hands were generated at their pose coordinates instead, a
@@ -25,9 +23,9 @@
  */
 
 import React from 'react';
-import { RoughAsset } from '../assets/RoughAsset';
-import { freehandPath, arcPoints, quadPoints, type Point } from '../freehand/stroke';
-import { PALETTE } from '../style/tokens';
+import { RoughAsset, RoughShapes } from '../assets/RoughAsset';
+import { arcPoints, quadPoints, type Point } from '../lib/pathpoints';
+import { PALETTE, type PenToken } from '../style/tokens';
 import { wobble } from '../lib/rand';
 import type { AssetDef } from '../assets/shapes';
 import { RIG, limbControl, type Expression, type Pose } from '../character/rig';
@@ -139,13 +137,18 @@ const MOUTH_Y = 19;
 // face parts
 // ---------------------------------------------------------------------------
 
+/**
+ * Every gestural mark on the character — brow, mouth, closed eye, spiral, limb — is a
+ * `k:'stroke'` shape handed to the same stylizer that draws the head and torso. There is
+ * no second pen. See `PEN` in style/tokens.ts for why an earlier revision was wrong.
+ */
 const inkStroke = (
   pts: Point[],
-  pen: Parameters<typeof freehandPath>[1],
+  pen: PenToken,
   seed: string,
   size?: number,
   color: string = PALETTE.ink,
-) => <path d={freehandPath(pts, pen, seed, size ? { size } : {})} fill={color} />;
+) => <RoughShapes id={seed} shapes={[{ k: 'stroke', pts, pen, size, color }]} />;
 
 function Eye({
   at, shape, look, seed, mirrored,
@@ -172,7 +175,7 @@ function Eye({
       const r = t * 9.5;
       pts.push([Math.cos(a) * r, Math.sin(a) * r]);
     }
-    return <g transform={`translate(${cx} ${cy})`}>{inkStroke(pts, 'scribble', `${seed}:spiral`, 3.4)}</g>;
+    return <g transform={`translate(${cx} ${cy})`}>{inkStroke(pts, 'face', `${seed}:spiral`, 3.2)}</g>;
   }
 
   if (shape === 'dots') {
@@ -316,14 +319,14 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
 
   const [hx, hy] = RIG.headCenter;
 
-  /** A noodle limb: one freehand stroke from anchor to hand/foot. */
+  /** A noodle limb: one uniform-width stroke from anchor to hand/foot. */
   const limb = (anchor: readonly [number, number], l: { x: number; y: number; bend: number }, key: string) => {
     const c = limbControl(anchor, l);
-    const pts = quadPoints([anchor[0], anchor[1]], c, [l.x, l.y], 16);
+    const pts = quadPoints([anchor[0], anchor[1]], c, [l.x, l.y], 12);
     return (
       <>
-        {halo && <path d={freehandPath(pts, 'limb', `${seed}:${key}`, { size: 11 })} fill={PALETTE.paper} />}
-        <path d={freehandPath(pts, 'limb', `${seed}:${key}`)} fill={PALETTE.ink} />
+        {halo && inkStroke(pts, 'limb', `${seed}:${key}:halo`, 12.5, PALETTE.paper)}
+        {inkStroke(pts, 'limb', `${seed}:${key}`)}
       </>
     );
   };
@@ -371,7 +374,7 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
             <RoughAsset def={HEAD} variant={seed} />
 
             {HAIR_STROKES.map((pts, i) => (
-              <path key={i} d={freehandPath(pts, 'hair', `${seed}:hair${i}`)} fill={PALETTE.ink} />
+              <React.Fragment key={i}>{inkStroke(pts, 'hair', `${seed}:hair${i}`)}</React.Fragment>
             ))}
 
             <Eye at={EYE_L} shape={expression.eyes} look={look} seed={`${seed}:L`} mirrored={false} />

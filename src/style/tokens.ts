@@ -96,30 +96,43 @@ export const FILL = {
 } as const;
 
 // ---------------------------------------------------------------------------
-// perfect-freehand — organic marks
+// pens — gestural marks
 // ---------------------------------------------------------------------------
 
 /**
- * Rough.js is for STRUCTURE (things with dimensions: a clock, a chair, a wall).
- * perfect-freehand is for GESTURE (things drawn in one motion: an eyebrow, a scribble,
- * a swoosh). Using the wrong one is the most common way to make this style look wrong —
- * a rough-generated eyebrow looks like a broken twig, and a freehand-drawn rectangle
- * looks like a deflated balloon.
+ * Presets for marks drawn as a single gesture: brows, mouths, limbs, swooshes, scribbles.
+ *
+ * These used to be perfect-freehand configs producing VARIABLE-WIDTH strokes. That was a
+ * mistake, and `src/qa/PenProbe.tsx` is the evidence:
+ *
+ *   - A variable-width stroke is a different pen from a Rough.js outline. Side by side on
+ *     the same head, the drawing visibly has two hands.
+ *   - The taper reads as brush/calligraphy, not as the ballpoint this channel is drawn in.
+ *     At phone size the swelling just turns marks muddy.
+ *   - Worse architecturally: perfect-freehand is an AUTHORING tool, not a stylizer. Its
+ *     character comes from a pressure profile that has to be hand-authored — which is
+ *     exactly V1's failure (author supplies the hand) wearing a library.
+ *   - It also escaped the style switch: `REMOTION_STYLE_MODE=clean` flattened every
+ *     Rough.js shape and left every freehand mark untouched. Half the drawing obeyed.
+ *
+ * So gestures are now uniform-width strokes drawn by the SAME stylizer as everything else.
+ * The source geometry is deliberately boring — a plain curve through plain points — and
+ * Rough.js supplies 100% of the hand. That is what "design cleanly" actually requires.
  */
-export const FREEHAND = {
-  /** Facial features — brows, mouths, closed eyes. Tapered at both ends like a real pen. */
-  face: { size: 4.0, thinning: 0.62, smoothing: 0.55, streamline: 0.42, taperStart: 0.55, taperEnd: 0.85 },
-  /** Hair, cowlicks. Slightly heavier. */
-  hair: { size: 4.6, thinning: 0.6, smoothing: 0.5, streamline: 0.4, taperStart: 0.3, taperEnd: 0.95 },
-  /** Noodle limbs — confident, barely tapered. `size` is the FULL width of the mark. */
-  limb: { size: 7.6, thinning: 0.32, smoothing: 0.6, streamline: 0.45, taperStart: 0.15, taperEnd: 0.35 },
-  /** Emphasis marks, speed lines, impact strokes. Fast and sharply tapered. */
-  accent: { size: 7, thinning: 0.72, smoothing: 0.4, streamline: 0.3, taperStart: 0.9, taperEnd: 0.95 },
-  /** Loose scribbles and annotations. */
-  scribble: { size: 4.2, thinning: 0.5, smoothing: 0.45, streamline: 0.35, taperStart: 0.4, taperEnd: 0.6 },
+export const PEN = {
+  /** Brows, mouths, closed eyes. Fine and calm — a face mark must not look scratchy. */
+  face: { strokeWidth: 3.6, roughness: 0.75, bowing: 1.0 },
+  /** Hair, cowlicks. */
+  hair: { strokeWidth: 3.8, roughness: 0.95, bowing: 1.2 },
+  /** Noodle limbs — thick and load-bearing. */
+  limb: { strokeWidth: 7.0, roughness: 0.7, bowing: 1.0 },
+  /** Emphasis marks, speed lines, swooshes. Loose and fast. */
+  accent: { strokeWidth: 5.5, roughness: 1.7, bowing: 1.8 },
+  /** Loose annotation scribbles. */
+  scribble: { strokeWidth: 3.2, roughness: 1.4, bowing: 1.5 },
 } as const;
 
-export type FreehandToken = keyof typeof FREEHAND;
+export type PenToken = keyof typeof PEN;
 
 // ---------------------------------------------------------------------------
 // composition
@@ -147,3 +160,31 @@ export const CAPTION_Y = 1442;
  * if an asset's styleVersion is stale, its cached stylized form must be regenerated.
  */
 export const STYLE_VERSION = 'channel-v2';
+
+// ---------------------------------------------------------------------------
+// style mode
+// ---------------------------------------------------------------------------
+
+export type StyleMode = 'rough' | 'clean';
+
+/**
+ * Global stylizer mode, set with `REMOTION_STYLE_MODE=clean` (Remotion forwards any
+ * `REMOTION_`-prefixed environment variable into the browser bundle).
+ *
+ *   rough  the channel's look — Rough.js supplies the hand   (default)
+ *   clean  Rough.js emits exact geometry, roughness and bowing zeroed
+ *
+ * This exists as a real switch rather than a debug hack because it is the honest test of
+ * the V2 claim: if authoring is genuinely separate from styling, turning the stylizer off
+ * should cost one environment variable and change nothing else. It is also useful for
+ * diagnosing whether a layout problem is a geometry bug or a roughness artefact — clean
+ * mode shows you what the asset actually IS.
+ *
+ * Since one stylizer draws everything — shapes and gestures alike — clean mode flattens the
+ * ENTIRE drawing. An earlier revision used a second library for gestures and clean mode
+ * only flattened half the frame, which is how that design flaw was noticed.
+ */
+export const STYLE_MODE: StyleMode =
+  typeof process !== 'undefined' && process.env?.REMOTION_STYLE_MODE === 'clean'
+    ? 'clean'
+    : 'rough';

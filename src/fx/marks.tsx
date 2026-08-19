@@ -8,12 +8,9 @@
  *
  * WHY THIS FILE IS ALMOST ALL `k:'stroke'`
  *
- * Rough.js draws STRUCTURE — things with dimensions and edges. perfect-freehand draws
- * GESTURE — things made in one motion, where the pressure profile IS the drawing. Every
- * mark in this file is a gesture: a question mark is one swipe of a pen, a speed line is
- * one flick, a sparkle is two crossed flicks. A rough-generated question mark looks like a
- * snapped twig, so nothing here is roughened except the two marks that genuinely are
- * filled objects with an outline: the impact starburst and the thought cloud.
+ * These are GESTURES — marks made in one motion. They are authored as point paths
+ * (`k:'stroke'`) and drawn by the SAME stylizer as every shape in the project, using a
+ * pen preset instead of a shape preset. There is no second drawing engine.
  *
  * Nothing in here is hand-wobbled by an author. Point paths are authored as clean curves
  * (arcs, quadratics, straight runs) and all the character comes from the pen.
@@ -29,7 +26,7 @@ import { RoughAsset } from '../assets/RoughAsset';
 import { PropFrame, type PropArgs } from '../assets/PropFrame';
 import { PALETTE } from '../style/tokens';
 import { group, ring, type AssetDef, type Pt, type Shape } from '../assets/shapes';
-import { arcPoints, quadPoints, wobblyLine } from '../freehand/stroke';
+import { arcPoints, quadPoints, wobblyLine } from '../lib/pathpoints';
 import { hashString, rand01 } from '../lib/rand';
 
 /**

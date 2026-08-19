@@ -13,13 +13,15 @@
  *   - Restyling the whole channel becomes a token change, not 27 rewrites.
  *   - Geometry is inspectable and diffable; squiggles are not.
  *
- * `k: 'stroke'` is the one deliberate exception — gestural marks (a brow, a scribble)
- * genuinely ARE a path of motion, so they are authored as a point path and rendered by
- * perfect-freehand rather than by Rough.js.
+ * `k: 'stroke'` is a gestural mark — a brow, a limb, a scribble — authored as a path of
+ * motion rather than as a closed shape. It is still drawn by the SAME Rough.js stylizer as
+ * everything else, just with a pen preset instead of a shape preset. It is not a second
+ * drawing engine; an earlier revision made it one and the drawing ended up with two hands
+ * (see `src/qa/PenProbe.tsx`).
  */
 
 import type { RoughToken } from '../style/tokens';
-import type { FreehandToken } from '../style/tokens';
+import type { PenToken } from '../style/tokens';
 import type { FILL } from '../style/tokens';
 
 export type FillStyleName = keyof typeof FILL;
@@ -56,8 +58,8 @@ export type Geom =
   | { k: 'curve'; pts: Pt[] }
   | { k: 'path'; d: string }
   | { k: 'arc'; cx: number; cy: number; rx: number; ry: number; start: number; stop: number; closed?: boolean }
-  /** Gestural mark — rendered by perfect-freehand, not Rough.js. */
-  | { k: 'stroke'; pts: Pt[]; pen?: FreehandToken; size?: number; color?: string; opacity?: number }
+  /** Gestural mark: a curve through `pts`, drawn with a pen preset. `size` overrides width. */
+  | { k: 'stroke'; pts: Pt[]; pen?: PenToken; size?: number; color?: string; opacity?: number }
   /**
    * A nested group. `transform` is applied to the RENDERED output, never folded into the
    * geometry — that is what lets a clock hand rotate every frame while its roughened form
