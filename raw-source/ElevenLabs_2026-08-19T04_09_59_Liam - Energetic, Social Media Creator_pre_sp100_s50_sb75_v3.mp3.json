@@ -1,0 +1,1327 @@
+{
+  "language_code": null,
+  "segments": [
+    {
+      "text": "Ever notice how many casinos seem to",
+      "start_time": 0.119,
+      "end_time": 1.959,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Ever",
+          "start_time": 0.119,
+          "end_time": 0.28
+        },
+        {
+          "text": " ",
+          "start_time": 0.28,
+          "end_time": 0.399
+        },
+        {
+          "text": "notice",
+          "start_time": 0.399,
+          "end_time": 0.62
+        },
+        {
+          "text": " ",
+          "start_time": 0.62,
+          "end_time": 0.699
+        },
+        {
+          "text": "how",
+          "start_time": 0.699,
+          "end_time": 0.759
+        },
+        {
+          "text": " ",
+          "start_time": 0.759,
+          "end_time": 0.859
+        },
+        {
+          "text": "many",
+          "start_time": 0.859,
+          "end_time": 0.999
+        },
+        {
+          "text": " ",
+          "start_time": 0.999,
+          "end_time": 1.079
+        },
+        {
+          "text": "casinos",
+          "start_time": 1.079,
+          "end_time": 1.659
+        },
+        {
+          "text": " ",
+          "start_time": 1.659,
+          "end_time": 1.719
+        },
+        {
+          "text": "seem",
+          "start_time": 1.719,
+          "end_time": 1.86
+        },
+        {
+          "text": " ",
+          "start_time": 1.86,
+          "end_time": 1.899
+        },
+        {
+          "text": "to",
+          "start_time": 1.899,
+          "end_time": 1.959
+        }
+      ]
+    },
+    {
+      "text": "forget one tiny invention,",
+      "start_time": 2.039,
+      "end_time": 3.879,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "forget",
+          "start_time": 2.039,
+          "end_time": 2.359
+        },
+        {
+          "text": " ",
+          "start_time": 2.359,
+          "end_time": 2.559
+        },
+        {
+          "text": "one",
+          "start_time": 2.559,
+          "end_time": 2.759
+        },
+        {
+          "text": " ",
+          "start_time": 2.759,
+          "end_time": 2.919
+        },
+        {
+          "text": "tiny",
+          "start_time": 2.919,
+          "end_time": 3.259
+        },
+        {
+          "text": " ",
+          "start_time": 3.259,
+          "end_time": 3.319
+        },
+        {
+          "text": "invention,",
+          "start_time": 3.319,
+          "end_time": 3.879
+        }
+      ]
+    },
+    {
+      "text": "the clock?",
+      "start_time": 4.619,
+      "end_time": 5.179,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 4.619,
+          "end_time": 4.739
+        },
+        {
+          "text": " ",
+          "start_time": 4.739,
+          "end_time": 4.799
+        },
+        {
+          "text": "clock?",
+          "start_time": 4.799,
+          "end_time": 5.179
+        }
+      ]
+    },
+    {
+      "text": "That's not exactly an accident.",
+      "start_time": 6.079,
+      "end_time": 7.479,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "That's",
+          "start_time": 6.079,
+          "end_time": 6.259
+        },
+        {
+          "text": " ",
+          "start_time": 6.259,
+          "end_time": 6.299
+        },
+        {
+          "text": "not",
+          "start_time": 6.299,
+          "end_time": 6.419
+        },
+        {
+          "text": " ",
+          "start_time": 6.419,
+          "end_time": 6.46
+        },
+        {
+          "text": "exactly",
+          "start_time": 6.46,
+          "end_time": 6.859
+        },
+        {
+          "text": " ",
+          "start_time": 6.859,
+          "end_time": 6.879
+        },
+        {
+          "text": "an",
+          "start_time": 6.879,
+          "end_time": 6.94
+        },
+        {
+          "text": " ",
+          "start_time": 6.94,
+          "end_time": 7.059
+        },
+        {
+          "text": "accident.",
+          "start_time": 7.059,
+          "end_time": 7.479
+        }
+      ]
+    },
+    {
+      "text": "Traditional casino design often kept",
+      "start_time": 8.019,
+      "end_time": 9.96,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Traditional",
+          "start_time": 8.019,
+          "end_time": 8.399
+        },
+        {
+          "text": " ",
+          "start_time": 8.399,
+          "end_time": 8.5
+        },
+        {
+          "text": "casino",
+          "start_time": 8.5,
+          "end_time": 8.84
+        },
+        {
+          "text": " ",
+          "start_time": 8.84,
+          "end_time": 8.899
+        },
+        {
+          "text": "design",
+          "start_time": 8.899,
+          "end_time": 9.3
+        },
+        {
+          "text": " ",
+          "start_time": 9.3,
+          "end_time": 9.42
+        },
+        {
+          "text": "often",
+          "start_time": 9.42,
+          "end_time": 9.679
+        },
+        {
+          "text": " ",
+          "start_time": 9.679,
+          "end_time": 9.739
+        },
+        {
+          "text": "kept",
+          "start_time": 9.739,
+          "end_time": 9.96
+        }
+      ]
+    },
+    {
+      "text": "clocks and windows scarce, removing",
+      "start_time": 10.039,
+      "end_time": 12.299,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "clocks",
+          "start_time": 10.039,
+          "end_time": 10.38
+        },
+        {
+          "text": " ",
+          "start_time": 10.38,
+          "end_time": 10.42
+        },
+        {
+          "text": "and",
+          "start_time": 10.42,
+          "end_time": 10.52
+        },
+        {
+          "text": " ",
+          "start_time": 10.52,
+          "end_time": 10.599
+        },
+        {
+          "text": "windows",
+          "start_time": 10.599,
+          "end_time": 11.019
+        },
+        {
+          "text": " ",
+          "start_time": 11.019,
+          "end_time": 11.079
+        },
+        {
+          "text": "scarce,",
+          "start_time": 11.079,
+          "end_time": 11.539
+        },
+        {
+          "text": " ",
+          "start_time": 11.539,
+          "end_time": 11.92
+        },
+        {
+          "text": "removing",
+          "start_time": 11.92,
+          "end_time": 12.299
+        }
+      ]
+    },
+    {
+      "text": "obvious clues for how long you've been",
+      "start_time": 12.439,
+      "end_time": 14.119,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "obvious",
+          "start_time": 12.439,
+          "end_time": 12.839
+        },
+        {
+          "text": " ",
+          "start_time": 12.839,
+          "end_time": 12.92
+        },
+        {
+          "text": "clues",
+          "start_time": 12.92,
+          "end_time": 13.259
+        },
+        {
+          "text": " ",
+          "start_time": 13.259,
+          "end_time": 13.319
+        },
+        {
+          "text": "for",
+          "start_time": 13.319,
+          "end_time": 13.399
+        },
+        {
+          "text": " ",
+          "start_time": 13.399,
+          "end_time": 13.46
+        },
+        {
+          "text": "how",
+          "start_time": 13.46,
+          "end_time": 13.579
+        },
+        {
+          "text": " ",
+          "start_time": 13.579,
+          "end_time": 13.639
+        },
+        {
+          "text": "long",
+          "start_time": 13.639,
+          "end_time": 13.819
+        },
+        {
+          "text": " ",
+          "start_time": 13.819,
+          "end_time": 13.859
+        },
+        {
+          "text": "you've",
+          "start_time": 13.859,
+          "end_time": 13.98
+        },
+        {
+          "text": " ",
+          "start_time": 13.98,
+          "end_time": 14.019
+        },
+        {
+          "text": "been",
+          "start_time": 14.019,
+          "end_time": 14.119
+        }
+      ]
+    },
+    {
+      "text": "inside.",
+      "start_time": 14.159,
+      "end_time": 14.699,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "inside.",
+          "start_time": 14.159,
+          "end_time": 14.699
+        }
+      ]
+    },
+    {
+      "text": "The lights stay the same, the machines",
+      "start_time": 15.339,
+      "end_time": 17.359,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "The",
+          "start_time": 15.339,
+          "end_time": 15.38
+        },
+        {
+          "text": " ",
+          "start_time": 15.38,
+          "end_time": 15.479
+        },
+        {
+          "text": "lights",
+          "start_time": 15.479,
+          "end_time": 15.719
+        },
+        {
+          "text": " ",
+          "start_time": 15.719,
+          "end_time": 15.759
+        },
+        {
+          "text": "stay",
+          "start_time": 15.759,
+          "end_time": 15.939
+        },
+        {
+          "text": " ",
+          "start_time": 15.939,
+          "end_time": 16.0
+        },
+        {
+          "text": "the",
+          "start_time": 16.0,
+          "end_time": 16.1
+        },
+        {
+          "text": " ",
+          "start_time": 16.1,
+          "end_time": 16.139
+        },
+        {
+          "text": "same,",
+          "start_time": 16.139,
+          "end_time": 16.419
+        },
+        {
+          "text": " ",
+          "start_time": 16.419,
+          "end_time": 16.819
+        },
+        {
+          "text": "the",
+          "start_time": 16.819,
+          "end_time": 16.86
+        },
+        {
+          "text": " ",
+          "start_time": 16.86,
+          "end_time": 16.899
+        },
+        {
+          "text": "machines",
+          "start_time": 16.899,
+          "end_time": 17.359
+        }
+      ]
+    },
+    {
+      "text": "keep flashing, and the outside world",
+      "start_time": 17.42,
+      "end_time": 19.6,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "keep",
+          "start_time": 17.42,
+          "end_time": 17.579
+        },
+        {
+          "text": " ",
+          "start_time": 17.579,
+          "end_time": 17.659
+        },
+        {
+          "text": "flashing,",
+          "start_time": 17.659,
+          "end_time": 18.119
+        },
+        {
+          "text": " ",
+          "start_time": 18.119,
+          "end_time": 18.5
+        },
+        {
+          "text": "and",
+          "start_time": 18.5,
+          "end_time": 18.579
+        },
+        {
+          "text": " ",
+          "start_time": 18.579,
+          "end_time": 18.619
+        },
+        {
+          "text": "the",
+          "start_time": 18.619,
+          "end_time": 18.659
+        },
+        {
+          "text": " ",
+          "start_time": 18.659,
+          "end_time": 18.739
+        },
+        {
+          "text": "outside",
+          "start_time": 18.739,
+          "end_time": 19.159
+        },
+        {
+          "text": " ",
+          "start_time": 19.159,
+          "end_time": 19.219
+        },
+        {
+          "text": "world",
+          "start_time": 19.219,
+          "end_time": 19.6
+        }
+      ]
+    },
+    {
+      "text": "basically disappears. So 20 minutes can",
+      "start_time": 19.659,
+      "end_time": 22.399,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "basically",
+          "start_time": 19.659,
+          "end_time": 20.139
+        },
+        {
+          "text": " ",
+          "start_time": 20.139,
+          "end_time": 20.199
+        },
+        {
+          "text": "disappears.",
+          "start_time": 20.199,
+          "end_time": 20.939
+        },
+        {
+          "text": " ",
+          "start_time": 20.939,
+          "end_time": 21.459
+        },
+        {
+          "text": "So",
+          "start_time": 21.459,
+          "end_time": 21.52
+        },
+        {
+          "text": " ",
+          "start_time": 21.52,
+          "end_time": 21.76
+        },
+        {
+          "text": "20",
+          "start_time": 21.76,
+          "end_time": 21.859
+        },
+        {
+          "text": " ",
+          "start_time": 21.859,
+          "end_time": 21.899
+        },
+        {
+          "text": "minutes",
+          "start_time": 21.899,
+          "end_time": 22.199
+        },
+        {
+          "text": " ",
+          "start_time": 22.199,
+          "end_time": 22.279
+        },
+        {
+          "text": "can",
+          "start_time": 22.279,
+          "end_time": 22.399
+        }
+      ]
+    },
+    {
+      "text": "start feeling a lot like 2 hours.",
+      "start_time": 22.439,
+      "end_time": 24.579,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "start",
+          "start_time": 22.439,
+          "end_time": 22.659
+        },
+        {
+          "text": " ",
+          "start_time": 22.659,
+          "end_time": 22.739
+        },
+        {
+          "text": "feeling",
+          "start_time": 22.739,
+          "end_time": 22.979
+        },
+        {
+          "text": " ",
+          "start_time": 22.979,
+          "end_time": 23.039
+        },
+        {
+          "text": "a",
+          "start_time": 23.039,
+          "end_time": 23.159
+        },
+        {
+          "text": " ",
+          "start_time": 23.159,
+          "end_time": 23.239
+        },
+        {
+          "text": "lot",
+          "start_time": 23.239,
+          "end_time": 23.559
+        },
+        {
+          "text": " ",
+          "start_time": 23.559,
+          "end_time": 23.639
+        },
+        {
+          "text": "like",
+          "start_time": 23.639,
+          "end_time": 23.819
+        },
+        {
+          "text": " ",
+          "start_time": 23.819,
+          "end_time": 24.0
+        },
+        {
+          "text": "2",
+          "start_time": 24.0,
+          "end_time": 24.019
+        },
+        {
+          "text": " ",
+          "start_time": 24.019,
+          "end_time": 24.099
+        },
+        {
+          "text": "hours.",
+          "start_time": 24.1,
+          "end_time": 24.579
+        }
+      ]
+    },
+    {
+      "text": "But here's the twist. Not every modern",
+      "start_time": 25.379,
+      "end_time": 27.539,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "But",
+          "start_time": 25.379,
+          "end_time": 25.459
+        },
+        {
+          "text": " ",
+          "start_time": 25.459,
+          "end_time": 25.519
+        },
+        {
+          "text": "here's",
+          "start_time": 25.519,
+          "end_time": 25.699
+        },
+        {
+          "text": " ",
+          "start_time": 25.699,
+          "end_time": 25.739
+        },
+        {
+          "text": "the",
+          "start_time": 25.739,
+          "end_time": 25.799
+        },
+        {
+          "text": " ",
+          "start_time": 25.799,
+          "end_time": 25.879
+        },
+        {
+          "text": "twist.",
+          "start_time": 25.879,
+          "end_time": 26.299
+        },
+        {
+          "text": " ",
+          "start_time": 26.299,
+          "end_time": 26.759
+        },
+        {
+          "text": "Not",
+          "start_time": 26.76,
+          "end_time": 26.919
+        },
+        {
+          "text": " ",
+          "start_time": 26.919,
+          "end_time": 27.019
+        },
+        {
+          "text": "every",
+          "start_time": 27.019,
+          "end_time": 27.239
+        },
+        {
+          "text": " ",
+          "start_time": 27.239,
+          "end_time": 27.299
+        },
+        {
+          "text": "modern",
+          "start_time": 27.299,
+          "end_time": 27.539
+        }
+      ]
+    },
+    {
+      "text": "casino follows this rule.",
+      "start_time": 27.599,
+      "end_time": 28.979,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "casino",
+          "start_time": 27.599,
+          "end_time": 28.059
+        },
+        {
+          "text": " ",
+          "start_time": 28.059,
+          "end_time": 28.139
+        },
+        {
+          "text": "follows",
+          "start_time": 28.139,
+          "end_time": 28.439
+        },
+        {
+          "text": " ",
+          "start_time": 28.439,
+          "end_time": 28.479
+        },
+        {
+          "text": "this",
+          "start_time": 28.479,
+          "end_time": 28.639
+        },
+        {
+          "text": " ",
+          "start_time": 28.639,
+          "end_time": 28.719
+        },
+        {
+          "text": "rule.",
+          "start_time": 28.719,
+          "end_time": 28.979
+        }
+      ]
+    },
+    {
+      "text": "Some newer casinos deliberately use",
+      "start_time": 29.699,
+      "end_time": 31.559,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Some",
+          "start_time": 29.699,
+          "end_time": 29.879
+        },
+        {
+          "text": " ",
+          "start_time": 29.879,
+          "end_time": 29.979
+        },
+        {
+          "text": "newer",
+          "start_time": 29.979,
+          "end_time": 30.159
+        },
+        {
+          "text": " ",
+          "start_time": 30.159,
+          "end_time": 30.219
+        },
+        {
+          "text": "casinos",
+          "start_time": 30.219,
+          "end_time": 30.679
+        },
+        {
+          "text": " ",
+          "start_time": 30.679,
+          "end_time": 30.739
+        },
+        {
+          "text": "deliberately",
+          "start_time": 30.739,
+          "end_time": 31.259
+        },
+        {
+          "text": " ",
+          "start_time": 31.259,
+          "end_time": 31.359
+        },
+        {
+          "text": "use",
+          "start_time": 31.359,
+          "end_time": 31.559
+        }
+      ]
+    },
+    {
+      "text": "daylight, open spaces, and even clocks",
+      "start_time": 31.619,
+      "end_time": 34.399,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "daylight,",
+          "start_time": 31.619,
+          "end_time": 32.04
+        },
+        {
+          "text": " ",
+          "start_time": 32.04,
+          "end_time": 32.499
+        },
+        {
+          "text": "open",
+          "start_time": 32.5,
+          "end_time": 32.759
+        },
+        {
+          "text": " ",
+          "start_time": 32.759,
+          "end_time": 32.799
+        },
+        {
+          "text": "spaces,",
+          "start_time": 32.799,
+          "end_time": 33.319
+        },
+        {
+          "text": " ",
+          "start_time": 33.319,
+          "end_time": 33.419
+        },
+        {
+          "text": "and",
+          "start_time": 33.419,
+          "end_time": 33.54
+        },
+        {
+          "text": " ",
+          "start_time": 33.54,
+          "end_time": 33.599
+        },
+        {
+          "text": "even",
+          "start_time": 33.599,
+          "end_time": 33.84
+        },
+        {
+          "text": " ",
+          "start_time": 33.84,
+          "end_time": 33.939
+        },
+        {
+          "text": "clocks",
+          "start_time": 33.939,
+          "end_time": 34.399
+        }
+      ]
+    },
+    {
+      "text": "because making you comfortable can work",
+      "start_time": 34.459,
+      "end_time": 36.239,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "because",
+          "start_time": 34.459,
+          "end_time": 34.7
+        },
+        {
+          "text": " ",
+          "start_time": 34.7,
+          "end_time": 34.779
+        },
+        {
+          "text": "making",
+          "start_time": 34.779,
+          "end_time": 35.04
+        },
+        {
+          "text": " ",
+          "start_time": 35.04,
+          "end_time": 35.079
+        },
+        {
+          "text": "you",
+          "start_time": 35.079,
+          "end_time": 35.179
+        },
+        {
+          "text": " ",
+          "start_time": 35.179,
+          "end_time": 35.239
+        },
+        {
+          "text": "comfortable",
+          "start_time": 35.239,
+          "end_time": 35.799
+        },
+        {
+          "text": " ",
+          "start_time": 35.799,
+          "end_time": 35.84
+        },
+        {
+          "text": "can",
+          "start_time": 35.84,
+          "end_time": 35.979
+        },
+        {
+          "text": " ",
+          "start_time": 35.979,
+          "end_time": 36.04
+        },
+        {
+          "text": "work",
+          "start_time": 36.04,
+          "end_time": 36.239
+        }
+      ]
+    },
+    {
+      "text": "too.",
+      "start_time": 36.299,
+      "end_time": 36.579,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "too.",
+          "start_time": 36.299,
+          "end_time": 36.579
+        }
+      ]
+    },
+    {
+      "text": "So casinos don't literally ban clocks. The",
+      "start_time": 37.259,
+      "end_time": 39.939,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "So",
+          "start_time": 37.259,
+          "end_time": 37.34
+        },
+        {
+          "text": " ",
+          "start_time": 37.34,
+          "end_time": 37.399
+        },
+        {
+          "text": "casinos",
+          "start_time": 37.399,
+          "end_time": 37.84
+        },
+        {
+          "text": " ",
+          "start_time": 37.84,
+          "end_time": 37.899
+        },
+        {
+          "text": "don't",
+          "start_time": 37.899,
+          "end_time": 38.06
+        },
+        {
+          "text": " ",
+          "start_time": 38.06,
+          "end_time": 38.159
+        },
+        {
+          "text": "literally",
+          "start_time": 38.159,
+          "end_time": 38.54
+        },
+        {
+          "text": " ",
+          "start_time": 38.54,
+          "end_time": 38.599
+        },
+        {
+          "text": "ban",
+          "start_time": 38.599,
+          "end_time": 38.899
+        },
+        {
+          "text": " ",
+          "start_time": 38.899,
+          "end_time": 38.999
+        },
+        {
+          "text": "clocks.",
+          "start_time": 39.0,
+          "end_time": 39.859
+        },
+        {
+          "text": " ",
+          "start_time": 39.859,
+          "end_time": 39.899
+        },
+        {
+          "text": "The",
+          "start_time": 39.899,
+          "end_time": 39.939
+        }
+      ]
+    },
+    {
+      "text": "real trick is simpler. Control what you",
+      "start_time": 40.04,
+      "end_time": 42.219,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "real",
+          "start_time": 40.04,
+          "end_time": 40.239
+        },
+        {
+          "text": " ",
+          "start_time": 40.239,
+          "end_time": 40.299
+        },
+        {
+          "text": "trick",
+          "start_time": 40.299,
+          "end_time": 40.459
+        },
+        {
+          "text": " ",
+          "start_time": 40.459,
+          "end_time": 40.52
+        },
+        {
+          "text": "is",
+          "start_time": 40.52,
+          "end_time": 40.619
+        },
+        {
+          "text": " ",
+          "start_time": 40.619,
+          "end_time": 40.659
+        },
+        {
+          "text": "simpler.",
+          "start_time": 40.659,
+          "end_time": 41.02
+        },
+        {
+          "text": " ",
+          "start_time": 41.02,
+          "end_time": 41.479
+        },
+        {
+          "text": "Control",
+          "start_time": 41.479,
+          "end_time": 41.88
+        },
+        {
+          "text": " ",
+          "start_time": 41.88,
+          "end_time": 41.939
+        },
+        {
+          "text": "what",
+          "start_time": 41.939,
+          "end_time": 42.059
+        },
+        {
+          "text": " ",
+          "start_time": 42.059,
+          "end_time": 42.119
+        },
+        {
+          "text": "you",
+          "start_time": 42.119,
+          "end_time": 42.219
+        }
+      ]
+    },
+    {
+      "text": "notice, keep you immersed, and make the",
+      "start_time": 42.279,
+      "end_time": 44.579,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "notice,",
+          "start_time": 42.279,
+          "end_time": 42.939
+        },
+        {
+          "text": " ",
+          "start_time": 42.939,
+          "end_time": 43.02
+        },
+        {
+          "text": "keep",
+          "start_time": 43.02,
+          "end_time": 43.2
+        },
+        {
+          "text": " ",
+          "start_time": 43.2,
+          "end_time": 43.239
+        },
+        {
+          "text": "you",
+          "start_time": 43.239,
+          "end_time": 43.34
+        },
+        {
+          "text": " ",
+          "start_time": 43.34,
+          "end_time": 43.439
+        },
+        {
+          "text": "immersed,",
+          "start_time": 43.439,
+          "end_time": 44.099
+        },
+        {
+          "text": " ",
+          "start_time": 44.099,
+          "end_time": 44.159
+        },
+        {
+          "text": "and",
+          "start_time": 44.159,
+          "end_time": 44.239
+        },
+        {
+          "text": " ",
+          "start_time": 44.239,
+          "end_time": 44.299
+        },
+        {
+          "text": "make",
+          "start_time": 44.299,
+          "end_time": 44.459
+        },
+        {
+          "text": " ",
+          "start_time": 44.459,
+          "end_time": 44.479
+        },
+        {
+          "text": "the",
+          "start_time": 44.479,
+          "end_time": 44.579
+        }
+      ]
+    },
+    {
+      "text": "outside world feel very, very far away.",
+      "start_time": 44.639,
+      "end_time": 47.879,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "outside",
+          "start_time": 44.639,
+          "end_time": 45.059
+        },
+        {
+          "text": " ",
+          "start_time": 45.059,
+          "end_time": 45.119
+        },
+        {
+          "text": "world",
+          "start_time": 45.119,
+          "end_time": 45.439
+        },
+        {
+          "text": " ",
+          "start_time": 45.439,
+          "end_time": 45.52
+        },
+        {
+          "text": "feel",
+          "start_time": 45.52,
+          "end_time": 45.799
+        },
+        {
+          "text": " ",
+          "start_time": 45.799,
+          "end_time": 45.879
+        },
+        {
+          "text": "very,",
+          "start_time": 45.879,
+          "end_time": 46.579
+        },
+        {
+          "text": " ",
+          "start_time": 46.579,
+          "end_time": 46.639
+        },
+        {
+          "text": "very",
+          "start_time": 46.639,
+          "end_time": 47.239
+        },
+        {
+          "text": " ",
+          "start_time": 47.239,
+          "end_time": 47.319
+        },
+        {
+          "text": "far",
+          "start_time": 47.319,
+          "end_time": 47.5
+        },
+        {
+          "text": " ",
+          "start_time": 47.5,
+          "end_time": 47.619
+        },
+        {
+          "text": "away.",
+          "start_time": 47.619,
+          "end_time": 47.879
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "note": "Derived from source by tools/build-asset-manifest.mjs — do not hand-edit. Components are the source of truth; the .svg files under public/doodle are exported snapshots.",
+  "episode": "001 — Why Casinos Have No Clocks",
+  "channel": "We explain weird things with stupid drawings.",
+  "character": {
+    "name": "Nib",
+    "category": "reusable",
+    "origin": "original — designed for this channel, modular parametric rig",
+    "rig": "src/character/rig.ts (hip at origin, ~182 units tall, head ~44% of height)",
+    "renderer": "src/components/DoodleCharacter.tsx",
+    "modularParts": [
+      "head",
+      "hair/cowlick",
+      "eyes",
+      "pupils",
+      "brows",
+      "mouth",
+      "torso",
+      "left arm",
+      "right arm",
+      "hands",
+      "left leg",
+      "right leg",
+      "feet"
+    ],
+    "poseCount": 23,
+    "poses": [
+      "neutral",
+      "walkA",
+      "walkB",
+      "pointing",
+      "thinking",
+      "confused",
+      "surprised",
+      "suspicious",
+      "sitting",
+      "gambling",
+      "pressingButton",
+      "checkingWallet",
+      "exhausted",
+      "exhaustedSitting",
+      "dizzy",
+      "realization",
+      "relaxed",
+      "horrified",
+      "holdingObject",
+      "holdingHeavy",
+      "lookLeft",
+      "lookRight",
+      "turningBack"
+    ],
+    "expressionCount": 13,
+    "expressions": [
+      "neutral",
+      "curious",
+      "confused",
+      "happy",
+      "focused",
+      "suspicious",
+      "shocked",
+      "exhausted",
+      "horrified",
+      "smug",
+      "dizzy",
+      "content",
+      "deadpan"
+    ]
+  },
+  "props": {
+    "category": "reusable",
+    "count": 27,
+    "items": [
+      {
+        "name": "WallClock",
+        "group": "time",
+        "module": "src/props/time.tsx"
+      },
+      {
+        "name": "ClockHands",
+        "group": "time",
+        "module": "src/props/time.tsx"
+      },
+      {
+        "name": "Wristwatch",
+        "group": "time",
+        "module": "src/props/time.tsx"
+      },
+      {
+        "name": "HugeWallClock",
+        "group": "time",
+        "module": "src/props/time.tsx"
+      },
+      {
+        "name": "Window",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "Sun",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "Moon",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "CeilingLight",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "Door",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "Plant",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "ComfyChair",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "DrinkCup",
+        "group": "world",
+        "module": "src/props/world.tsx"
+      },
+      {
+        "name": "SlotMachine",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "SlotMachineRow",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "CasinoChip",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "ChipStack",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "RouletteTable",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "PlayingCards",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "Dice",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "CasinoSign",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "CeilingLightRow",
+        "group": "casino",
+        "module": "src/props/casino.tsx"
+      },
+      {
+        "name": "Wallet",
+        "group": "money",
+        "module": "src/props/money.tsx"
+      },
+      {
+        "name": "EmptyWallet",
+        "group": "money",
+        "module": "src/props/money.tsx"
+      },
+      {
+        "name": "Cash",
+        "group": "money",
+        "module": "src/props/money.tsx"
+      },
+      {
+        "name": "Receipt",
+        "group": "money",
+        "module": "src/props/money.tsx"
+      },
+      {
+        "name": "EmptyCup",
+        "group": "money",
+        "module": "src/props/money.tsx"
+      },
+      {
+        "name": "TrashPile",
+        "group": "money",
+        "module": "src/props/money.tsx"
+      }
+    ]
+  },
+  "fx": {
+    "category": "reusable",
+    "count": 10,
+    "items": [
+      {
+        "name": "QuestionMark",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "ExclamationMark",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "Arrow",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "Sparkles",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "AttentionLines",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "MotionLines",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "ImpactStar",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "SweatDrops",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "DizzySpiral",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      },
+      {
+        "name": "ThoughtCloud",
+        "group": "fx",
+        "module": "src/fx/marks.tsx"
+      }
+    ]
+  },
+  "backgrounds": {
+    "category": "reusable",
+    "count": 6,
+    "items": [
+      {
+        "name": "CasinoEntrance",
+        "module": "src/backgrounds/index.tsx"
+      },
+      {
+        "name": "TraditionalFloor",
+        "module": "src/backgrounds/index.tsx"
+      },
+      {
+        "name": "SlotArea",
+        "module": "src/backgrounds/index.tsx"
+      },
+      {
+        "name": "TimeDistortionVoid",
+        "module": "src/backgrounds/index.tsx"
+      },
+      {
+        "name": "ModernCasino",
+        "module": "src/backgrounds/index.tsx"
+      },
+      {
+        "name": "OutsideWorld",
+        "module": "src/backgrounds/index.tsx"
+      }
+    ]
+  },
+  "animationPrimitives": {
+    "category": "reusable",
+    "files": [
+      {
+        "file": "src/animation/ClockSpin.tsx",
+        "exports": [
+          "clockAt",
+          "useClockSpin",
+          "useTick"
+        ]
+      },
+      {
+        "file": "src/animation/EyeLook.tsx",
+        "exports": [
+          "useIdleLook",
+          "lookAt",
+          "useLookKeys"
+        ]
+      },
+      {
+        "file": "src/animation/Float.tsx",
+        "exports": [
+          "useFloat",
+          "Float"
+        ]
+      },
+      {
+        "file": "src/animation/HandDrawnWobble.tsx",
+        "exports": [
+          "HandDrawnWobble"
+        ]
+      },
+      {
+        "file": "src/animation/ImpactLines.tsx",
+        "exports": [
+          "ImpactLines"
+        ]
+      },
+      {
+        "file": "src/animation/MoneyFly.tsx",
+        "exports": [
+          "useFlight",
+          "MoneyFly"
+        ]
+      },
+      {
+        "file": "src/animation/PopIn.tsx",
+        "exports": [
+          "usePopIn",
+          "popInValues",
+          "PopIn"
+        ]
+      },
+      {
+        "file": "src/animation/PoseSwap.tsx",
+        "exports": [
+          "usePoseSwap",
+          "beat"
+        ]
+      },
+      {
+        "file": "src/animation/SceneCamera.tsx",
+        "exports": [
+          "SceneCamera",
+          "useCameraPunch",
+          "useCameraShake",
+          "useCameraDolly"
+        ]
+      },
+      {
+        "file": "src/animation/WalkCycle.tsx",
+        "exports": [
+          "useWalkCycle",
+          "walkX"
+        ]
+      }
+    ]
+  },
+  "sharedComponents": {
+    "category": "reusable",
+    "files": [
+      {
+        "file": "src/components/Caption.tsx",
+        "exports": [
+          "Caption"
+        ]
+      },
+      {
+        "file": "src/components/DoodleCharacter.tsx",
+        "exports": [
+          "DoodleCharacter"
+        ]
+      },
+      {
+        "file": "src/components/DoodleProp.tsx",
+        "exports": [
+          "DoodleProp"
+        ]
+      },
+      {
+        "file": "src/components/GagCard.tsx",
+        "exports": [
+          "GagCard"
+        ]
+      },
+      {
+        "file": "src/components/Paper.tsx",
+        "exports": [
+          "PaperTexture"
+        ]
+      },
+      {
+        "file": "src/components/SoundDesign.tsx",
+        "exports": [
+          "SoundDesign",
+          "SFX_CUES"
+        ]
+      },
+      {
+        "file": "src/components/Stage.tsx",
+        "exports": [
+          "Stage"
+        ]
+      }
+    ]
+  },
+  "scenes": {
+    "category": "episode",
+    "note": "The only episode-specific visual code. Everything above is channel infrastructure.",
+    "files": [
+      {
+        "file": "src/scenes/ConstantEnvironmentScene.tsx",
+        "exports": [
+          "ConstantEnvironmentScene"
+        ]
+      },
+      {
+        "file": "src/scenes/FinalIdeaScene.tsx",
+        "exports": [
+          "FinalIdeaScene"
+        ]
+      },
+      {
+        "file": "src/scenes/HookScene.tsx",
+        "exports": [
+          "HookScene"
+        ]
+      },
+      {
+        "file": "src/scenes/ModernCasinoScene.tsx",
+        "exports": [
+          "ModernCasinoScene"
+        ]
+      },
+      {
+        "file": "src/scenes/MythCorrectionScene.tsx",
+        "exports": [
+          "MythCorrectionScene"
+        ]
+      },
+      {
+        "file": "src/scenes/NoAccidentScene.tsx",
+        "exports": [
+          "NoAccidentScene"
+        ]
+      },
+      {
+        "file": "src/scenes/TimeCuesScene.tsx",
+        "exports": [
+          "TimeCuesScene"
+        ]
+      },
+      {
+        "file": "src/scenes/TimeDistortionScene.tsx",
+        "exports": [
+          "TimeDistortionScene"
+        ]
+      },
+      {
+        "file": "src/scenes/TwistScene.tsx",
+        "exports": [
+          "TwistScene"
+        ]
+      }
+    ]
+  },
+  "sfx": {
+    "category": "generated",
+    "origin": "procedurally synthesised by tools/make-sfx.mjs — original work, no third-party audio",
+    "count": 15,
+    "files": [
+      "public/sfx/blip.wav",
+      "public/sfx/chip-clack.wav",
+      "public/sfx/clock-pull.wav",
+      "public/sfx/clock-spin.wav",
+      "public/sfx/impact.wav",
+      "public/sfx/light-hum.wav",
+      "public/sfx/money-flutter.wav",
+      "public/sfx/pop.wav",
+      "public/sfx/record-scratch.wav",
+      "public/sfx/reveal-sting.wav",
+      "public/sfx/slot-beep.wav",
+      "public/sfx/swarm.wav",
+      "public/sfx/tick.wav",
+      "public/sfx/vanish.wav",
+      "public/sfx/whoosh.wav"
+    ]
+  },
+  "generatedSvg": {
+    "category": "generated",
+    "origin": "tools/export-svg-assets.mjs (react-dom/server snapshots of the components)",
+    "count": 80,
+    "files": [
+      "public/doodle/backgrounds/casino-entrance.svg",
+      "public/doodle/backgrounds/modern-casino.svg",
+      "public/doodle/backgrounds/outside-world.svg",
+      "public/doodle/backgrounds/slot-area.svg",
+      "public/doodle/backgrounds/time-distortion-void.svg",
+      "public/doodle/backgrounds/traditional-floor.svg",
+      "public/doodle/characters/main/expression-confused.svg",
+      "public/doodle/characters/main/expression-content.svg",
+      "public/doodle/characters/main/expression-curious.svg",
+      "public/doodle/characters/main/expression-deadpan.svg",
+      "public/doodle/characters/main/expression-dizzy.svg",
+      "public/doodle/characters/main/expression-exhausted.svg",
+      "public/doodle/characters/main/expression-focused.svg",
+      "public/doodle/characters/main/expression-happy.svg",
+      "public/doodle/characters/main/expression-horrified.svg",
+      "public/doodle/characters/main/expression-neutral.svg",
+      "public/doodle/characters/main/expression-shocked.svg",
+      "public/doodle/characters/main/expression-smug.svg",
+      "public/doodle/characters/main/expression-suspicious.svg",
+      "public/doodle/characters/main/pose-checkingWallet.svg",
+      "public/doodle/characters/main/pose-confused.svg",
+      "public/doodle/characters/main/pose-dizzy.svg",
+      "public/doodle/characters/main/pose-exhausted.svg",
+      "public/doodle/characters/main/pose-exhaustedSitting.svg",
+      "public/doodle/characters/main/pose-gambling.svg",
+      "public/doodle/characters/main/pose-holdingHeavy.svg",
+      "public/doodle/characters/main/pose-holdingObject.svg",
+      "public/doodle/characters/main/pose-horrified.svg",
+      "public/doodle/characters/main/pose-lookLeft.svg",
+      "public/doodle/characters/main/pose-lookRight.svg",
+      "public/doodle/characters/main/pose-neutral.svg",
+      "public/doodle/characters/main/pose-pointing.svg",
+      "public/doodle/characters/main/pose-pressingButton.svg",
+      "public/doodle/characters/main/pose-realization.svg",
+      "public/doodle/characters/main/pose-relaxed.svg",
+      "public/doodle/characters/main/pose-sitting.svg",
+      "public/doodle/characters/main/pose-surprised.svg",
+      "public/doodle/characters/main/pose-suspicious.svg",
+      "public/doodle/characters/main/pose-thinking.svg",
+      "public/doodle/characters/main/pose-turningBack.svg",
+      "public/doodle/characters/main/pose-walkA.svg",
+      "public/doodle/characters/main/pose-walkB.svg",
+      "public/doodle/fx/arrow.svg",
+      "public/doodle/fx/attention-lines.svg",
+      "public/doodle/fx/dizzy-spiral.svg",
+      "public/doodle/fx/exclamation-mark.svg",
+      "public/doodle/fx/impact-star.svg",
+      "public/doodle/fx/motion-lines.svg",
+      "public/doodle/fx/question-mark.svg",
+      "public/doodle/fx/sparkles.svg",
+      "public/doodle/fx/sweat-drops.svg",
+      "public/doodle/fx/thought-cloud.svg",
+      "public/doodle/props/cash.svg",
+      "public/doodle/props/casino-chip.svg",
+      "public/doodle/props/casino-sign.svg",
+      "public/doodle/props/ceiling-light-row.svg",
+      "public/doodle/props/ceiling-light.svg",
+      "public/doodle/props/chip-stack.svg",
+      "public/doodle/props/clock-hands.svg",
+      "public/doodle/props/comfy-chair.svg",
+      "public/doodle/props/dice.svg",
+      "public/doodle/props/door.svg",
+      "public/doodle/props/drink-cup.svg",
+      "public/doodle/props/empty-cup.svg",
+      "public/doodle/props/empty-wallet.svg",
+      "public/doodle/props/huge-wall-clock.svg",
+      "public/doodle/props/moon.svg",
+      "public/doodle/props/plant.svg",
+      "public/doodle/props/playing-cards.svg",
+      "public/doodle/props/receipt.svg",
+      "public/doodle/props/roulette-table.svg",
+      "public/doodle/props/slot-machine-row.svg",
+      "public/doodle/props/slot-machine.svg",
+      "public/doodle/props/sun.svg",
+      "public/doodle/props/trash-pile.svg",
+      "public/doodle/props/wall-clock.svg",
+      "public/doodle/props/wallet.svg",
+      "public/doodle/props/window-daylight.svg",
+      "public/doodle/props/window-dull.svg",
+      "public/doodle/props/wristwatch.svg"
+    ]
+  },
+  "externalAssets": {
+    "note": "No third-party illustration is used. The only external dependency is typography.",
+    "fonts": [
+      {
+        "family": "Bangers",
+        "source": "@fontsource/bangers (npm, self-hosted)",
+        "licence": "OFL-1.1"
+      },
+      {
+        "family": "Patrick Hand",
+        "source": "@fontsource/patrick-hand (npm, self-hosted)",
+        "licence": "OFL-1.1"
+      }
+    ]
+  },
+  "missing": []
+}

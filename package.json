@@ -1,0 +1,36 @@
+{
+  "name": "doodle-explainer-ep001-casino-clocks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Episode 001 — Why Casinos Have No Clocks. Doodle explainer engine built on Remotion.",
+  "type": "module",
+  "scripts": {
+    "audio": "node tools/process-voiceover.mjs public/audio/voiceover-raw.mp3 public/audio/voiceover-processed.wav --minSilence 0.08",
+    "timing": "node tools/remap-timing.mjs",
+    "verify:audio": "node tools/verify-sync.mjs",
+    "sfx": "node tools/make-sfx.mjs",
+    "storyboard": "node tools/build-storyboard.mjs",
+    "manifest": "node tools/build-asset-manifest.mjs",
+    "studio": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "qa:stills": "node tools/render-qa-stills.mjs",
+    "preview": "remotion render CasinoClocks preview/preview.mp4 --scale=0.35 --crf=32",
+    "render": "remotion render CasinoClocks out/why-casinos-have-no-clocks.mp4 --codec=h264 --crf=17",
+    "validate": "node tools/validate-output.mjs"
+  },
+  "dependencies": {
+    "@fontsource/bangers": "^5.3.0",
+    "@fontsource/patrick-hand": "^5.3.0",
+    "@remotion/bundler": "4.0.410",
+    "@remotion/cli": "4.0.410",
+    "@remotion/media-utils": "4.0.410",
+    "@remotion/renderer": "4.0.410",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.410"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

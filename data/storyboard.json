@@ -1,0 +1,452 @@
+{
+  "note": "Derived from data/narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "001 — Why Casinos Have No Clocks",
+  "audio": "public/audio/voiceover-processed.wav",
+  "fps": 30,
+  "narrationDuration": 39.458,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.04,
+      "end": 4.216,
+      "startFrame": 1,
+      "endFrame": 126,
+      "duration": 4.176,
+      "narration": "Ever notice how many casinos seem to forget one tiny invention, the clock?",
+      "background": "CasinoEntrance",
+      "note": "No establishing shot. Casino + clock are on screen at frame 0.",
+      "beats": [
+        {
+          "t": 0.04,
+          "frame": 1,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Nib walks in mid-stride, already inside frame; wall clock visible on the back wall",
+          "sync": "frame 0 — casino + clock readable immediately"
+        },
+        {
+          "t": 0.897,
+          "frame": 27,
+          "tInScene": 0.857,
+          "frameInScene": 26,
+          "action": "generic casino sign lights up above the doorway",
+          "sync": "keyword: casinos"
+        },
+        {
+          "t": 1.59,
+          "frame": 48,
+          "tInScene": 1.55,
+          "frameInScene": 47,
+          "action": "Nib plants, looks up at the clock (lookRight -> pointing anticipation)"
+        },
+        {
+          "t": 2.49,
+          "frame": 75,
+          "tInScene": 2.45,
+          "frameInScene": 74,
+          "action": "Nib points at the clock; attention lines burst"
+        },
+        {
+          "t": 3.877,
+          "frame": 116,
+          "tInScene": 3.837,
+          "frameInScene": 115,
+          "action": "CLOCK? gag card slams in AND the clock is violently yanked off-screen by a rope",
+          "sync": "keyword: clock — the word and the theft land together"
+        },
+        {
+          "t": 4.157,
+          "frame": 125,
+          "tInScene": 4.117,
+          "frameInScene": 124,
+          "action": "Nib freezes, turns deadpan to camera, question mark pops, camera punch",
+          "sync": "reaction beat right after the yank"
+        }
+      ]
+    },
+    {
+      "scene": "no-accident",
+      "start": 4.446,
+      "end": 5.696,
+      "startFrame": 133,
+      "endFrame": 171,
+      "duration": 1.25,
+      "narration": "That's not exactly an accident.",
+      "background": "TraditionalFloor",
+      "note": "Very short comedic beat — two poses and a look.",
+      "beats": [
+        {
+          "t": 4.446,
+          "frame": 133,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "manager-ish second character slides in from the right, clock hidden behind their back"
+        },
+        {
+          "t": 5.321,
+          "frame": 160,
+          "tInScene": 0.875,
+          "frameInScene": 26,
+          "action": "manager gives an innocent smug smile; Nib turns suspicious; sweat drop",
+          "sync": "keyword: accident"
+        }
+      ]
+    },
+    {
+      "scene": "time-cues",
+      "start": 5.897,
+      "end": 11.862,
+      "startFrame": 177,
+      "endFrame": 356,
+      "duration": 5.965,
+      "narration": "Traditional casino design often kept clocks and windows scarce, removing obvious clues for how long you've been inside.",
+      "background": "TraditionalFloor",
+      "note": "Cues are removed one at a time, then the room closes in.",
+      "beats": [
+        {
+          "t": 5.897,
+          "frame": 177,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "enclosed traditional interior: clock on wall, window, daylight outside"
+        },
+        {
+          "t": 7.701,
+          "frame": 231,
+          "tInScene": 1.804,
+          "frameInScene": 54,
+          "action": "CLOCK pops out of existence with a puff",
+          "sync": "keyword: clocks"
+        },
+        {
+          "t": 8.201,
+          "frame": 246,
+          "tInScene": 2.304,
+          "frameInScene": 69,
+          "action": "WINDOW pops out of existence",
+          "sync": "keyword: windows"
+        },
+        {
+          "t": 8.951,
+          "frame": 269,
+          "tInScene": 3.054,
+          "frameInScene": 92,
+          "action": "SUN / daylight slides away off the top"
+        },
+        {
+          "t": 9.597,
+          "frame": 288,
+          "tInScene": 3.7,
+          "frameInScene": 111,
+          "action": "slot machines and tables slide inward from both edges, enclosing Nib"
+        },
+        {
+          "t": 11.38,
+          "frame": 341,
+          "tInScene": 5.483,
+          "frameInScene": 164,
+          "action": "walls arrive at their tightest; Nib small and boxed in; camera punch",
+          "sync": "keyword: inside"
+        }
+      ]
+    },
+    {
+      "scene": "constant-environment",
+      "start": 12.108,
+      "end": 17.108,
+      "startFrame": 363,
+      "endFrame": 513,
+      "duration": 5,
+      "narration": "The lights stay the same, the machines keep flashing, and the outside world basically disappears.",
+      "background": "SlotArea",
+      "note": "Dense, rapid beats. Nib presses the button on a loop throughout.",
+      "beats": [
+        {
+          "t": 12.233,
+          "frame": 367,
+          "tInScene": 0.125,
+          "frameInScene": 4,
+          "action": "row of ceiling lights: identical, unblinking, dead constant",
+          "sync": "keyword: lights"
+        },
+        {
+          "t": 14.18,
+          "frame": 425,
+          "tInScene": 2.072,
+          "frameInScene": 62,
+          "action": "slot machine flashes hard on a 3-frame cycle",
+          "sync": "keyword: flashing"
+        },
+        {
+          "t": 15.144,
+          "frame": 454,
+          "tInScene": 3.036,
+          "frameInScene": 91,
+          "action": "a porthole of outside world appears and begins shrinking",
+          "sync": "keyword: outside world"
+        },
+        {
+          "t": 16.448,
+          "frame": 493,
+          "tInScene": 4.34,
+          "frameInScene": 130,
+          "action": "the porthole shrinks to a dot and vanishes",
+          "sync": "keyword: disappears"
+        }
+      ]
+    },
+    {
+      "scene": "time-distortion",
+      "start": 17.389,
+      "end": 20.175,
+      "startFrame": 522,
+      "endFrame": 605,
+      "duration": 2.786,
+      "narration": "So 20 minutes can start feeling a lot like 2 hours.",
+      "background": "TimeDistortionVoid",
+      "note": "Main comedy scene. The environment stays IDENTICAL while Nib is destroyed — that contrast is the joke.",
+      "beats": [
+        {
+          "t": 17.658,
+          "frame": 530,
+          "tInScene": 0.269,
+          "frameInScene": 8,
+          "action": "20 MINUTES card; Nib sitting upright and fine",
+          "sync": "keyword: 20 minutes"
+        },
+        {
+          "t": 18.108,
+          "frame": 543,
+          "tInScene": 0.719,
+          "frameInScene": 22,
+          "action": "clock hands accelerate into a blur; violet time rings ripple out"
+        },
+        {
+          "t": 19.658,
+          "frame": 590,
+          "tInScene": 2.269,
+          "frameInScene": 68,
+          "action": "2 HOURS?! card; hard swap to exhaustedSitting — messy, tired eyes, cups, receipts, empty wallet; camera shake",
+          "sync": "keyword: 2 hours — the reveal"
+        }
+      ]
+    },
+    {
+      "scene": "twist",
+      "start": 20.42,
+      "end": 23.634,
+      "startFrame": 613,
+      "endFrame": 709,
+      "duration": 3.214,
+      "narration": "But here's the twist. Not every modern casino follows this rule.",
+      "background": "ModernCasino",
+      "note": "Hard interruption. The cut itself is the gag.",
+      "beats": [
+        {
+          "t": 20.42,
+          "frame": 613,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "still in the dark enclosed casino; Nib mid-slump, nothing has changed yet"
+        },
+        {
+          "t": 20.866,
+          "frame": 626,
+          "tInScene": 0.446,
+          "frameInScene": 13,
+          "action": "BUT… slams in over a record-scratch; everything freezes for 2 frames",
+          "sync": "keyword: twist"
+        },
+        {
+          "t": 21.166,
+          "frame": 635,
+          "tInScene": 0.746,
+          "frameInScene": 22,
+          "action": "hard cut: dark enclosed casino -> bright modern casino, wipe from the right"
+        },
+        {
+          "t": 21.92,
+          "frame": 658,
+          "tInScene": 1.5,
+          "frameInScene": 45,
+          "action": "Nib squints in the sudden daylight, shields eyes, then relaxes"
+        }
+      ]
+    },
+    {
+      "scene": "modern-casino",
+      "start": 23.964,
+      "end": 30.109,
+      "startFrame": 719,
+      "endFrame": 903,
+      "duration": 6.145,
+      "narration": "Some newer casinos deliberately use daylight, open spaces, and even clocks because making you comfortable can work too.",
+      "background": "ModernCasino",
+      "note": "The visual opposite of the enclosed scene. Bright, open, calm.",
+      "beats": [
+        {
+          "t": 23.964,
+          "frame": 719,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Nib steps forward into the open bright floor, still blinking at the light"
+        },
+        {
+          "t": 24.864,
+          "frame": 746,
+          "tInScene": 0.9,
+          "frameInScene": 27,
+          "action": "ceiling opens up; the room reads tall and airy"
+        },
+        {
+          "t": 25.679,
+          "frame": 770,
+          "tInScene": 1.715,
+          "frameInScene": 51,
+          "action": "big window + sun revealed; warm light sweeps across the floor",
+          "sync": "keyword: daylight"
+        },
+        {
+          "t": 26.466,
+          "frame": 794,
+          "tInScene": 2.502,
+          "frameInScene": 75,
+          "action": "camera pulls back to reveal open floor, plant, comfortable chair",
+          "sync": "keyword: open spaces"
+        },
+        {
+          "t": 27.751,
+          "frame": 833,
+          "tInScene": 3.787,
+          "frameInScene": 114,
+          "action": "a clock appears ON the wall and ticks — openly, deliberately",
+          "sync": "keyword: clocks"
+        },
+        {
+          "t": 28.912,
+          "frame": 867,
+          "tInScene": 4.948,
+          "frameInScene": 148,
+          "action": "Nib sinks into the comfy chair, content, drink in hand",
+          "sync": "keyword: comfortable"
+        }
+      ]
+    },
+    {
+      "scene": "myth-correction",
+      "start": 30.384,
+      "end": 32.512,
+      "startFrame": 912,
+      "endFrame": 975,
+      "duration": 2.128,
+      "narration": "So casinos don't literally ban clocks.",
+      "background": "ModernCasino",
+      "note": "Myth correction — the nuance the title deliberately omits.",
+      "beats": [
+        {
+          "t": 30.384,
+          "frame": 912,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Nib staggers on holding an absurdly large wall clock (holdingHeavy)"
+        },
+        {
+          "t": 31.581,
+          "frame": 947,
+          "tInScene": 1.197,
+          "frameInScene": 36,
+          "action": "NOT BANNED stamps across the clock face",
+          "sync": "keyword: ban"
+        },
+        {
+          "t": 32.131,
+          "frame": 964,
+          "tInScene": 1.747,
+          "frameInScene": 52,
+          "action": "a second character strolls past behind wearing a wristwatch; Nib double-takes"
+        },
+        {
+          "t": 32.362,
+          "frame": 971,
+          "tInScene": 1.978,
+          "frameInScene": 59,
+          "action": "Nib glances at the passing wristwatch, then back to camera"
+        }
+      ]
+    },
+    {
+      "scene": "final-idea",
+      "start": 32.547,
+      "end": 39.385,
+      "startFrame": 976,
+      "endFrame": 1182,
+      "duration": 6.838,
+      "narration": "The real trick is simpler. Control what you notice, keep you immersed, and make the outside world feel very, very far away.",
+      "background": "SlotArea",
+      "note": "Camera pulls back the whole scene. The wallet gag runs underneath, unnoticed.",
+      "beats": [
+        {
+          "t": 32.905,
+          "frame": 987,
+          "tInScene": 0.358,
+          "frameInScene": 11,
+          "action": "back to the casino floor; Nib centre, calm"
+        },
+        {
+          "t": 34.488,
+          "frame": 1035,
+          "tInScene": 1.941,
+          "frameInScene": 58,
+          "action": "chips, cards, dice and sparkles start popping in around Nib",
+          "sync": "keyword: notice"
+        },
+        {
+          "t": 34.788,
+          "frame": 1044,
+          "tInScene": 2.241,
+          "frameInScene": 67,
+          "action": "WALLET begins floating away behind Nib — he does not react",
+          "sync": "the long gag starts here"
+        },
+        {
+          "t": 35.421,
+          "frame": 1063,
+          "tInScene": 2.874,
+          "frameInScene": 86,
+          "action": "distractions swarm; Nib goes dizzy-eyed; camera pushes in",
+          "sync": "keyword: immersed"
+        },
+        {
+          "t": 36.492,
+          "frame": 1095,
+          "tInScene": 3.945,
+          "frameInScene": 118,
+          "action": "camera pulls back hard; the outside world shrinks to a tiny distant square",
+          "sync": "keyword: outside world"
+        },
+        {
+          "t": 37.642,
+          "frame": 1129,
+          "tInScene": 5.095,
+          "frameInScene": 153,
+          "action": "the swarm thickens; the wallet drifts past the far edge of frame, still unnoticed"
+        },
+        {
+          "t": 38.592,
+          "frame": 1158,
+          "tInScene": 6.045,
+          "frameInScene": 181,
+          "action": "outside world is now a dot; Nib lit only by machine glow"
+        },
+        {
+          "t": 39.153,
+          "frame": 1175,
+          "tInScene": 6.606,
+          "frameInScene": 198,
+          "action": "Nib turns (turningBack); the wallet is gone; horrified; hard cut",
+          "sync": "keyword: far away — final beat"
+        }
+      ]
+    }
+  ]
+}

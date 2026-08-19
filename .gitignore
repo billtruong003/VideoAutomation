@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# Remotion / bundler caches
+.remotion/
+*.tsbuildinfo
+
+# scratch renders — regenerable in ~4 min via `npm run preview`
+preview/
+
+# intermediate files written by tools/process-voiceover.mjs
+*.__work.wav
+*.__cut.wav
+*.__cut.pcm
+
+# temporary entry/bundle written by tools/export-svg-assets.mjs
+tools/.svg-export-entry.tsx
+tools/.svg-export-bundle.cjs
+
+# stray log from a DBeaver MCP server that happened to start in this folder.
+# Nothing to do with this project.
+dbeaver-mcp.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
