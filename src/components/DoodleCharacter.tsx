@@ -25,10 +25,35 @@
 import React from 'react';
 import { RoughAsset, RoughShapes } from '../assets/RoughAsset';
 import { arcPoints, quadPoints, type Point } from '../lib/pathpoints';
-import { PALETTE, type PenToken } from '../style/tokens';
+import { PALETTE, PEN, CHARACTER_ROUGH_SCALE, CHARACTER_SINGLE_PASS, CHARACTER_HAND, type PenToken } from '../style/tokens';
 import { wobble } from '../lib/rand';
 import type { AssetDef } from '../assets/shapes';
+import { ROUGH } from '../style/tokens';
 import { RIG, limbControl, type Expression, type Pose } from '../character/rig';
+
+// ---------------------------------------------------------------------------
+// character hand
+// ---------------------------------------------------------------------------
+
+/**
+ * Scale the roughness of everything the character is made of.
+ *
+ * Applied at render time rather than baked into the defs, so the module-level geometry
+ * stays a single canonical description and the cache still keys on the resulting options.
+ * At scale 1 this is a no-op and the character draws with the same hand as the world.
+ */
+function handOf(def: AssetDef): AssetDef {
+  if (CHARACTER_HAND === 'rough') return def;
+  return {
+    id: `${def.id}@${CHARACTER_HAND}`,
+    shapes: def.shapes.map((sh) => ({
+      ...sh,
+      roughness: (sh.roughness ?? ROUGH[sh.rough ?? 'prop'].roughness) * CHARACTER_ROUGH_SCALE,
+      bowing: (sh.bowing ?? ROUGH[sh.rough ?? 'prop'].bowing) * CHARACTER_ROUGH_SCALE,
+      single: CHARACTER_SINGLE_PASS,
+    })),
+  };
+}
 
 // ---------------------------------------------------------------------------
 // clean geometry, all authored at the origin
@@ -148,7 +173,26 @@ const inkStroke = (
   seed: string,
   size?: number,
   color: string = PALETTE.ink,
-) => <RoughShapes id={seed} shapes={[{ k: 'stroke', pts, pen, size, color }]} />;
+) => (
+  <RoughShapes
+    id={CHARACTER_HAND === 'rough' ? seed : `${seed}@${CHARACTER_HAND}`}
+    shapes={[
+      {
+        k: 'stroke',
+        pts,
+        pen,
+        size,
+        color,
+        ...(CHARACTER_HAND === 'rough'
+          ? {}
+          : {
+              roughness: PEN[pen].roughness * CHARACTER_ROUGH_SCALE,
+              bowing: PEN[pen].bowing * CHARACTER_ROUGH_SCALE,
+            }),
+      },
+    ]}
+  />
+);
 
 function Eye({
   at, shape, look, seed, mirrored,
@@ -181,7 +225,7 @@ function Eye({
   if (shape === 'dots') {
     return (
       <g transform={`translate(${cx} ${cy})`}>
-        <RoughAsset def={pupil(4.6)} variant={seed} />
+        <RoughAsset def={handOf(pupil(4.6))} variant={seed} />
       </g>
     );
   }
@@ -192,9 +236,9 @@ function Eye({
 
   return (
     <g transform={`translate(${cx} ${cy})`}>
-      <RoughAsset def={eyeWhite(r)} variant={seed} />
+      <RoughAsset def={handOf(eyeWhite(r))} variant={seed} />
       <g transform={`translate(${(look[0] * reach).toFixed(2)} ${(look[1] * reach).toFixed(2)})`}>
-        <RoughAsset def={pupil(pr)} variant={seed} />
+        <RoughAsset def={handOf(pupil(pr))} variant={seed} />
       </g>
       {shape === 'tired' && (
         <>
@@ -225,11 +269,11 @@ function Mouth({ shape, scale, seed }: { shape: Expression['mouth']; scale: numb
 
   switch (shape) {
     case 'o':
-      return wrap(<RoughAsset def={MOUTH_O} variant={seed} />);
+      return wrap(<RoughAsset def={handOf(MOUTH_O)} variant={seed} />);
     case 'gasp':
-      return wrap(<RoughAsset def={MOUTH_GASP} variant={seed} />);
+      return wrap(<RoughAsset def={handOf(MOUTH_GASP)} variant={seed} />);
     case 'grimace':
-      return wrap(<RoughAsset def={MOUTH_GRIMACE} variant={seed} />);
+      return wrap(<RoughAsset def={handOf(MOUTH_GRIMACE)} variant={seed} />);
     case 'line':
       return wrap(inkStroke([[-9, 0], [0, 1], [9, 0]], 'face', `${seed}:m`, 4.2));
     case 'flat':
@@ -240,10 +284,10 @@ function Mouth({ shape, scale, seed }: { shape: Expression['mouth']; scale: numb
       return wrap(
         <>
           <RoughAsset
-            def={{
+            def={handOf({
               id: 'char-nib-mouth-big',
               shapes: [{ k: 'path', d: 'M -13 -4 Q 0 12 13 -4 Z', fill: PALETTE.ink, rough: 'detail', sw: 2.4 }],
-            }}
+            })}
             variant={seed}
           />
           {inkStroke([[-7, 4], [0, 6.4], [7, 4]], 'face', `${seed}:tongue`, 2.6, PALETTE.paper)}
@@ -339,10 +383,10 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
     <>
       {limb(RIG.shoulderL, pose.armL, 'armL')}
       {limb(RIG.shoulderR, pose.armR, 'armR')}
-      {halo && at(pose.armL, <RoughAsset def={HAND_HALO} variant={`${seed}L`} />)}
-      {halo && at(pose.armR, <RoughAsset def={HAND_HALO} variant={`${seed}R`} />)}
-      {at(pose.armL, <RoughAsset def={HAND} variant={`${seed}L`} />)}
-      {at(pose.armR, <RoughAsset def={HAND} variant={`${seed}R`} />)}
+      {halo && at(pose.armL, <RoughAsset def={handOf(HAND_HALO)} variant={`${seed}L`} />)}
+      {halo && at(pose.armR, <RoughAsset def={handOf(HAND_HALO)} variant={`${seed}R`} />)}
+      {at(pose.armL, <RoughAsset def={handOf(HAND)} variant={`${seed}L`} />)}
+      {at(pose.armR, <RoughAsset def={handOf(HAND)} variant={`${seed}R`} />)}
     </>
   );
 
@@ -356,22 +400,22 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
           {/* ---- legs ---- */}
           {limb(RIG.hipL, pose.legL, 'legL')}
           {limb(RIG.hipR, pose.legR, 'legR')}
-          {halo && at({ x: pose.legL.x - 4, y: pose.legL.y + 3.5 }, <RoughAsset def={FOOT_HALO} variant={`${seed}FL`} />)}
-          {halo && at({ x: pose.legR.x + 4, y: pose.legR.y + 3.5 }, <RoughAsset def={FOOT_HALO} variant={`${seed}FR`} />)}
-          {at({ x: pose.legL.x - 4, y: pose.legL.y + 3.5 }, <RoughAsset def={FOOT} variant={`${seed}FL`} />)}
-          {at({ x: pose.legR.x + 4, y: pose.legR.y + 3.5 }, <RoughAsset def={FOOT} variant={`${seed}FR`} />)}
+          {halo && at({ x: pose.legL.x - 4, y: pose.legL.y + 3.5 }, <RoughAsset def={handOf(FOOT_HALO)} variant={`${seed}FL`} />)}
+          {halo && at({ x: pose.legR.x + 4, y: pose.legR.y + 3.5 }, <RoughAsset def={handOf(FOOT_HALO)} variant={`${seed}FR`} />)}
+          {at({ x: pose.legL.x - 4, y: pose.legL.y + 3.5 }, <RoughAsset def={handOf(FOOT)} variant={`${seed}FL`} />)}
+          {at({ x: pose.legR.x + 4, y: pose.legR.y + 3.5 }, <RoughAsset def={handOf(FOOT)} variant={`${seed}FR`} />)}
 
           {/* ---- arms behind the body (V1 lesson: drawn on top they read as pasted-on) ---- */}
           {pose.armsInFront ? null : arms}
 
           {/* ---- torso ---- */}
-          {halo && <RoughAsset def={TORSO_HALO} variant={seed} />}
-          <RoughAsset def={torso(shirtColor)} variant={seed} />
+          {halo && <RoughAsset def={handOf(TORSO_HALO)} variant={seed} />}
+          <RoughAsset def={handOf(torso(shirtColor))} variant={seed} />
 
           {/* ---- head ---- */}
           <g transform={`translate(${hx + headOX} ${hy + headOY + headBobY}) rotate(${headRot})`}>
-            {halo && <RoughAsset def={HEAD_HALO} variant={seed} />}
-            <RoughAsset def={HEAD} variant={seed} />
+            {halo && <RoughAsset def={handOf(HEAD_HALO)} variant={seed} />}
+            <RoughAsset def={handOf(HEAD)} variant={seed} />
 
             {HAIR_STROKES.map((pts, i) => (
               <React.Fragment key={i}>{inkStroke(pts, 'hair', `${seed}:hair${i}`)}</React.Fragment>
@@ -387,7 +431,7 @@ export const DoodleCharacter: React.FC<DoodleCharacterProps> = ({
 
             {expression.sweat && (
               <g transform="translate(39 -12)">
-                <RoughAsset def={SWEAT} variant={seed} />
+                <RoughAsset def={handOf(SWEAT)} variant={seed} />
               </g>
             )}
           </g>

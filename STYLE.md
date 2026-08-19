@@ -94,6 +94,30 @@ clearest demonstration so far that the authoring/styling separation is real.
 and boring.** Anything that adds expressive character *before* the stylizer competes with
 it, and the drawing ends up with two authors.
 
+### Dialling the character's hand separately
+
+The protagonist is the subject: largest on screen, moving, and carrying the performance in
+face marks only a few units across. Roughness costs the most legibility exactly there and
+almost nothing on architecture — so it is dialled separately.
+
+```bash
+REMOTION_CHARACTER=rough|single|soft|clean npx remotion render ...
+```
+
+| Mode | What it does | Reads as |
+|---|---|---|
+| `rough` | same hand as the world (default) | sketched, but hairy at large scale |
+| `single` | full roughness, **one pass instead of two** | drawn fast and confidently |
+| `soft` | one pass + roughness × 0.35 | drawn, but crisp |
+| `clean` | exact geometry | clean figure against a sketched world |
+
+**The finding worth keeping:** most of the visual noise on the character was never the
+roughness — it was Rough.js drawing every outline **twice**. `single` removes the hairiness
+while keeping all the character. Compare `qa/final/hand-zoom4.png`.
+
+This only affects the protagonist. Props, FX and backgrounds keep the world's hand, which
+is what gives the figure/ground separation.
+
 ---
 
 ## 2. Hard bans

@@ -184,6 +184,39 @@ export type StyleMode = 'rough' | 'clean';
  * ENTIRE drawing. An earlier revision used a second library for gestures and clean mode
  * only flattened half the frame, which is how that design flaw was noticed.
  */
+/**
+ * How rough the PROTAGONIST is drawn, independently of the world around him.
+ *
+ * The character is the subject: he is on screen at the largest scale, he moves, and his
+ * face carries the performance in marks only a few units across. Roughness costs the most
+ * legibility exactly there, while on props and architecture it costs almost nothing. So
+ * this is worth being able to dial separately rather than inheriting the global setting.
+ *
+ * Set with `REMOTION_CHARACTER=clean|soft|rough`.
+ *
+ *   rough   same hand as everything else (default)
+ *   single  full roughness, but ONE pass instead of two. Rough.js draws every outline
+ *           twice by default, and on the character that doubling — not the roughness —
+ *           turns out to be most of the visual noise.
+ *   soft    single pass AND roughness at ~a third; still drawn, calmer than the world
+ *   clean   exact geometry; a clean figure against a sketched world
+ *
+ * Multiplies the character's roughness and bowing; it never touches props, FX or
+ * backgrounds.
+ */
+export type CharacterHand = 'rough' | 'single' | 'soft' | 'clean';
+
+const _hand = typeof process !== 'undefined' ? process.env?.REMOTION_CHARACTER : undefined;
+export const CHARACTER_HAND: CharacterHand =
+  _hand === 'clean' || _hand === 'soft' || _hand === 'single' ? _hand : 'rough';
+
+/** Multiplier applied to every roughness/bowing value inside the character. */
+export const CHARACTER_ROUGH_SCALE =
+  CHARACTER_HAND === 'clean' ? 0 : CHARACTER_HAND === 'soft' ? 0.35 : 1;
+
+/** Whether the character's outlines are drawn once instead of twice. */
+export const CHARACTER_SINGLE_PASS = CHARACTER_HAND !== 'rough';
+
 export const STYLE_MODE: StyleMode =
   typeof process !== 'undefined' && process.env?.REMOTION_STYLE_MODE === 'clean'
     ? 'clean'

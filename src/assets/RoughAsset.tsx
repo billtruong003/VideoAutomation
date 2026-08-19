@@ -82,8 +82,9 @@ function renderShape(shape: Shape, path: string, key: React.Key): React.ReactNod
       {
         stroke: shape.color ?? PALETTE.ink,
         sw: shape.size ?? pen.strokeWidth,
-        roughness: pen.roughness,
-        bowing: pen.bowing,
+        // the shape may override its pen — used to dial the character's hand independently
+        roughness: shape.roughness ?? pen.roughness,
+        bowing: shape.bowing ?? pen.bowing,
         single: true,
       },
       seed,
