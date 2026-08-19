@@ -2,7 +2,7 @@
   "name": "doodle-explainer-ep001-casino-clocks",
   "version": "1.0.0",
   "private": true,
-  "description": "Episode 001 — Why Casinos Have No Clocks. Doodle explainer engine built on Remotion.",
+  "description": "Episode 001 \u2014 Why Casinos Have No Clocks. Doodle explainer engine built on Remotion.",
   "type": "module",
   "scripts": {
     "audio": "node tools/process-voiceover.mjs public/audio/voiceover-raw.mp3 public/audio/voiceover-processed.wav --minSilence 0.08",
@@ -18,6 +18,8 @@
     "render": "remotion render CasinoClocks out/why-casinos-have-no-clocks-v2.mp4 --codec=h264 --crf=17",
     "validate": "node tools/validate-output.mjs out/why-casinos-have-no-clocks-v2.mp4",
     "qa:assets": "node tools/asset-qa.mjs",
+    "qa:characters": "node tools/render-character-qa.mjs",
+    "assets:export": "node tools/export-character-svgs.mjs",
     "assets:normalize": "node tools/normalize-svg.mjs",
     "assets:roughify": "node tools/roughify-svg.mjs",
     "assets:ingest": "node tools/ingest-vendor-assets.mjs",

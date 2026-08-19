@@ -45,11 +45,82 @@ export const PALETTE = {
   nightFloor: '#3B3550',
   nightWall: '#2A2438',
 
-  /** The protagonist. Neutral by design — a doodle person, not a depiction of anyone. */
+  /** Legacy protagonist tokens. Kept so pre-cast props/backgrounds keep compiling. */
   skin: '#FDF8ED',
   shirt: '#5B7FB9',
   shirtDark: '#47679B',
 } as const;
+
+// ---------------------------------------------------------------------------
+// cast colour — the canonical recurring characters
+// ---------------------------------------------------------------------------
+
+/**
+ * Every colour any cast member is made of, in one place.
+ *
+ * Character code names a token; it never spells a hex value. That is what makes a
+ * palette correction a one-line change instead of a hunt through five character files,
+ * and it is what lets the silhouette QA sheet flatten a character to pure ink by
+ * swapping the palette rather than by maintaining a second set of geometry.
+ *
+ * Names are `<character><Part>` so a grep for `bill` finds Bill's entire palette.
+ */
+export const CAST = {
+  // ---- Bill: the mascot. Silver mop, black rectangular glasses, yellow top. ----
+  billSkin: '#F6DCBE',
+  billSkinShade: '#E8C5A0',
+  billHair: '#C9C6C2',
+  billHairShade: '#A9A6A2',
+  billShirt: '#F2B33D',
+  billShirtShade: '#D8942A',
+  billPants: '#2B3A66',
+  billGlasses: '#1E1B18',
+  billOutline: '#23201D',
+  billShoe: '#F0E7D6',
+
+  // ---- Mina: composed. Dark bob, teal top. ----
+  minaSkin: '#F3D3B5',
+  minaSkinShade: '#DFB994',
+  minaHair: '#3A2E2A',
+  minaHairShade: '#241C19',
+  minaShirt: '#2E9E8F',
+  minaShirtShade: '#227A6E',
+  minaPants: '#4A3350',
+  minaOutline: '#23201D',
+  minaShoe: '#EFE6D5',
+
+  // ---- Dex: chaos. Charcoal spikes, orange hoodie. ----
+  dexSkin: '#E9BE95',
+  dexSkinShade: '#D3A379',
+  dexHair: '#2A2724',
+  dexHairShade: '#171513',
+  dexShirt: '#E8703A',
+  dexShirtShade: '#C4552A',
+  dexPants: '#40452F',
+  dexOutline: '#23201D',
+  dexShoe: '#EDE2CE',
+
+  // ---- Gus: authority. Grey receding hair, sage top. ----
+  gusSkin: '#EACAA6',
+  gusSkinShade: '#D3AE87',
+  gusHair: '#B9B5AE',
+  gusHairShade: '#98938B',
+  gusShirt: '#7C8F6B',
+  gusShirtShade: '#5F7050',
+  gusPants: '#4A4038',
+  gusOutline: '#23201D',
+  gusShoe: '#4A4038',
+
+  // ---- Mochi: the pet. Cream loaf, charcoal accents. ----
+  mochiBody: '#F4E4C6',
+  mochiBodyShade: '#E0CBA4',
+  mochiAccent: '#59544E',
+  mochiAccentSoft: '#7C766E',
+  mochiOutline: '#23201D',
+  mochiNose: '#E8896F',
+} as const;
+
+export type CastColor = keyof typeof CAST;
 
 // ---------------------------------------------------------------------------
 // roughness — the heart of the V2 look
@@ -192,12 +263,13 @@ export type StyleMode = 'rough' | 'clean';
  * legibility exactly there, while on props and architecture it costs almost nothing. So
  * this is worth being able to dial separately rather than inheriting the global setting.
  *
- * Set with `REMOTION_CHARACTER=clean|soft|rough`.
+ * Set with `REMOTION_CHARACTER=rough|soft|clean`.
  *
- *   rough   same hand as everything else (default)
- *   single  full roughness, but ONE pass instead of two. Rough.js draws every outline
- *           twice by default, and on the character that doubling — not the roughness —
- *           turns out to be most of the visual noise.
+ *   single  DEFAULT. Full roughness, but ONE pass instead of two. Rough.js draws every
+ *           outline twice by default, and on a character that doubling — not the
+ *           roughness — turns out to be most of the visual noise: the two passes land
+ *           slightly apart and read as a hairy line at face scale.
+ *   rough   same hand as everything else
  *   soft    single pass AND roughness at ~a third; still drawn, calmer than the world
  *   clean   exact geometry; a clean figure against a sketched world
  *
@@ -208,7 +280,7 @@ export type CharacterHand = 'rough' | 'single' | 'soft' | 'clean';
 
 const _hand = typeof process !== 'undefined' ? process.env?.REMOTION_CHARACTER : undefined;
 export const CHARACTER_HAND: CharacterHand =
-  _hand === 'clean' || _hand === 'soft' || _hand === 'single' ? _hand : 'rough';
+  _hand === 'clean' || _hand === 'soft' || _hand === 'rough' ? _hand : 'single';
 
 /** Multiplier applied to every roughness/bowing value inside the character. */
 export const CHARACTER_ROUGH_SCALE =

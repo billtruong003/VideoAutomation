@@ -43,8 +43,7 @@ writeFileSync(
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { DoodleCharacter } from '../src/components/DoodleCharacter';
-import { POSES } from '../src/character/poses';
-import { EXPRESSIONS } from '../src/character/expressions';
+import { CAST_ORDER, CHARACTERS } from '../src/character/registry';
 import * as Time from '../src/props/time';
 import * as World from '../src/props/world';
 import * as Casino from '../src/props/casino';
@@ -75,16 +74,21 @@ for (const [group, mod] of mods) {
   }
 }
 
-// every pose and expression
-for (const name of Object.keys(POSES)) {
-  push('pose', name,
-    <DoodleCharacter pose={(POSES as any)[name]} expression={EXPRESSIONS.neutral}
-      x={0} y={0} frame={0} wobbleAmount={0} halo={false} seed={'qa-pose-' + name} />, 300);
-}
-for (const name of Object.keys(EXPRESSIONS)) {
-  push('expression', name,
-    <DoodleCharacter pose={POSES.neutral} expression={(EXPRESSIONS as any)[name]}
-      x={0} y={0} frame={0} wobbleAmount={0} halo={false} seed={'qa-expr-' + name} />, 300);
+// every canonical pose and expression, for every member of the cast
+for (const id of CAST_ORDER) {
+  const c = CHARACTERS[id];
+  for (const name of c.corePoses) {
+    push('pose:' + id, id + ':' + name,
+      <DoodleCharacter character={id} pose={name} expression={c.defaultExpression}
+        x={0} y={0} frame={0} wobbleAmount={0} blink={false} gaze="center"
+        seed={'qa-pose-' + id + '-' + name} />, 300);
+  }
+  for (const name of c.coreExpressions) {
+    push('expression:' + id, id + ':' + name,
+      <DoodleCharacter character={id} pose={c.defaultPose} expression={name}
+        x={0} y={0} frame={0} wobbleAmount={0} blink={false} gaze="center"
+        seed={'qa-expr-' + id + '-' + name} />, 300);
+  }
 }
 
 const render = (el: React.ReactNode) =>
@@ -154,11 +158,13 @@ for (const a of assets) {
   }
 
   /*
-   * SMEAR only applies to ROUGH.JS output. A single perfect-freehand gesture is one very
-   * long filled outline by design — a spiral is thousands of characters of `d` and is
-   * perfectly healthy. Rough.js paths carry a stroke-width; freehand paths are pure fills.
-   * Scoping to the former is what makes this check mean "a small shape got scribbled into
-   * a blob" rather than "a long stroke exists".
+   * SMEAR only looks at STROKED paths, not filled ones.
+   *
+   * A filled path can legitimately be enormous — Bill's hair silhouette and Mochi's body
+   * are each one long `d` string and both are perfectly healthy. What the check is
+   * actually hunting is a small shape whose OUTLINE got scribbled into a blob, and that
+   * always shows up as stroke-width path data. Scoping to stroked paths is what makes the
+   * measurement mean "scribbled" rather than "large".
    */
   const roughPaths = [...a.svg.matchAll(/<path[^>]*stroke-width[^>]*\sd="([^"]+)"|<path[^>]*\sd="([^"]+)"[^>]*stroke-width/g)]
     .map((m) => m[1] ?? m[2]);

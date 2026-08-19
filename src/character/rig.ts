@@ -1,101 +1,116 @@
 /**
- * rig.ts — the skeleton contract for the channel protagonist, "Nib".
+ * rig.ts — the skeleton contract every cast member is animated on.
  *
- * Coordinate system (borrowed from Stix's asset contract, which is a good idea):
- *   - the HIP sits at the origin (0, 0)
+ * This contract is INHERITED, not new. It was authored for the channel's first
+ * protagonist and it was structurally sound, so Character System V1.0 kept every bit of
+ * it and only replaced what sits on top:
+ *
+ *   - the HIP is the origin (0, 0)
  *   - up is negative Y
- *   - the character stands ~182 units tall, from head top (-140) to sole (+42)
+ *   - a character stands ~185 units tall, head top to sole
+ *   - a pose is pure joint data; position and scale are transforms applied to the output
  *
- * Scenes never touch these numbers; they place the character with a translate+scale
- * and describe what it is DOING with a named pose. That decoupling is what lets one
- * character serve every future episode.
+ * What V1.0 added is `Build`: the proportions that differ between characters. Bill has a
+ * huge rounded-square head on a tiny body; Gus is stockier; Mina is narrower. They are
+ * all the same skeleton with different numbers, which is why one renderer, one pose
+ * library and one blend function serve the whole cast.
+ *
+ *   RIG    = skeleton / animation contract   (this file)
+ *   BUILD  = proportions                     (this file)
+ *   LOOK   = hair, glasses, palette          (characters/*)
  */
 
-export const RIG = {
-  /**
-   * Head is deliberately ~half the total height. A doodle mascot reads by its head:
-   * expression is the performance, the body is just a delivery mechanism for arms.
-   */
-  headCenter: [0, -100] as const,
-  headRx: 44,
-  headRy: 40,
-  /**
-   * Shoulders sit just below the head's lower edge (-60), not behind it. An earlier
-   * revision tucked them at -36, which buried the whole torso under the head and made
-   * the arms appear to sprout from the chin — at poster size it read as a head with stubs.
-   */
-  shoulderL: [-17, -56] as const,
-  shoulderR: [17, -56] as const,
-  hipL: [-10, 0] as const,
-  hipR: [10, 0] as const,
-  /** Where feet rest when standing. */
-  groundY: 36,
-  /** Nominal full height (head top -140 to sole +42). Head is ~44% of it. */
-  height: 182,
-} as const;
+import type { Build, Limb, Pose, Vec2 } from './types';
+
+export type { Build, Expression, Limb, Pose, Vec2 } from './types';
+export type {
+  BrowState,
+  CharacterDef,
+  CharacterId,
+  CreaturePose,
+  EyeState,
+  Facing,
+  HandState,
+  MouthState,
+  TalkState,
+} from './types';
+
+// ---------------------------------------------------------------------------
+// builds
+// ---------------------------------------------------------------------------
 
 /**
- * A limb is described by where its END lands (hand or foot, in character space) plus a
- * `bend` — how far the midpoint bows perpendicular to the straight line. Noodle limbs
- * have no elbows or knees, so one curve per limb is the whole anatomy, and two poses
- * can be blended by simply interpolating these numbers.
+ * The house proportions, and the base every cast member is derived from.
+ *
+ * These are Bill's numbers because Bill is the channel mascot and everyone else is
+ * measured against him. `buildFrom` takes the deltas.
  */
-export type Limb = {
-  x: number;
-  y: number;
-  bend: number;
-};
-
-export type Pose = {
-  /** Moves the entire body (sitting, crouching, slumping). */
-  rootOffset?: [number, number];
-  /** Degrees; positive tips the head to the character's right (screen right). */
-  headTilt?: number;
-  headOffset?: [number, number];
-  /** Degrees of torso lean. */
-  torsoLean?: number;
-  /** Squash and stretch, applied about the hip. */
-  bodyScale?: [number, number];
-  /**
-   * Arms render BEHIND the torso and head by default — noodle limbs drawn on top read
-   * as hands pasted onto the character rather than as part of it.
-   *
-   * Because of that, any hand placed inside the head or torso silhouette disappears, so
-   * poses keep their hands clear of it. Set this flag only where the hand must be in
-   * front of the face for the pose to mean anything (hand on chin, hands over cheeks).
+export const BILL_BUILD: Build = {
+  headCenter: [0, -100],
+  headHW: 48,
+  headHH: 43,
+  /*
+   * 20, not 26. At 26 the corner arc ate most of the jaw, and with the mop covering the
+   * top corners the remaining silhouette read as an oval — losing the broad cheeks and
+   * simple lower jaw the design depends on.
    */
-  armsInFront?: boolean;
-  armL: Limb;
-  armR: Limb;
-  legL: Limb;
-  legR: Limb;
+  headR: 20,
+  /*
+   * Shoulders sit at the torso's outer top corner, NOT tucked inside it.
+   *
+   * The previous revision anchored arms at ±17 while the torso was ±17 wide, so a resting
+   * arm travelled entirely inside the torso silhouette and — with arms drawn behind the
+   * body — vanished, leaving the hand as a dot floating in space. Anchoring on the edge
+   * is half the fix; drawing arms in front of the torso is the other half.
+   */
+  shoulderX: 19,
+  shoulderY: -52,
+  torsoTop: -56,
+  torsoBottom: 2,
+  hipHalfW: 14,
+  hipX: 10,
+  hipY: 4,
+  groundY: 36,
+  pantsTop: -6,
+  pantsBottom: 15,
+  pantsHalfW: 16,
+  handRadius: 7.6,
+  footRx: 10.5,
+  footRy: 5.8,
+  height: 185,
 };
 
-export type EyeShape = 'open' | 'wide' | 'squint' | 'closed' | 'dizzy' | 'tired' | 'dots';
-export type MouthShape =
-  | 'line'
-  | 'smile'
-  | 'bigSmile'
-  | 'frown'
-  | 'o'
-  | 'gasp'
-  | 'wavy'
-  | 'smirk'
-  | 'grimace'
-  | 'flat';
+/** Derive a build from Bill's, overriding only what actually differs. */
+export const buildFrom = (over: Partial<Build>): Build => ({ ...BILL_BUILD, ...over });
 
-export type Expression = {
-  eyes: EyeShape;
-  /** Pupil offset within the eye, -1..1 on each axis. */
-  look?: [number, number];
-  /** -1 furrowed/angry, 0 flat, +1 raised/surprised. */
-  brow?: number;
-  /** Asymmetric brow tilt — one raised eyebrow reads as suspicion. */
-  browSkew?: number;
-  mouth: MouthShape;
-  mouthScale?: number;
-  sweat?: boolean;
-};
+/**
+ * LEGACY alias.
+ *
+ * Pre-V1.0 modules (props, backgrounds, a couple of scene helpers) import `RIG` for the
+ * head centre and ground line. It resolves to Bill's build so those call sites keep
+ * meaning what they meant, and the fields they used are mapped across.
+ */
+export const RIG = {
+  headCenter: BILL_BUILD.headCenter,
+  headRx: BILL_BUILD.headHW,
+  headRy: BILL_BUILD.headHH,
+  shoulderL: [-BILL_BUILD.shoulderX, BILL_BUILD.shoulderY] as Vec2,
+  shoulderR: [BILL_BUILD.shoulderX, BILL_BUILD.shoulderY] as Vec2,
+  hipL: [-BILL_BUILD.hipX, BILL_BUILD.hipY] as Vec2,
+  hipR: [BILL_BUILD.hipX, BILL_BUILD.hipY] as Vec2,
+  groundY: BILL_BUILD.groundY,
+  height: BILL_BUILD.height,
+} as const;
+
+export const shoulderOf = (b: Build, side: 'L' | 'R'): Vec2 =>
+  [side === 'L' ? -b.shoulderX : b.shoulderX, b.shoulderY] as Vec2;
+
+export const hipOf = (b: Build, side: 'L' | 'R'): Vec2 =>
+  [side === 'L' ? -b.hipX : b.hipX, b.hipY] as Vec2;
+
+// ---------------------------------------------------------------------------
+// pose maths
+// ---------------------------------------------------------------------------
 
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
@@ -120,6 +135,12 @@ export function blendPose(a: Pose, b: Pose, t: number): Pose {
       lerp(a.bodyScale?.[0] ?? 1, b.bodyScale?.[0] ?? 1, t),
       lerp(a.bodyScale?.[1] ?? 1, b.bodyScale?.[1] ?? 1, t),
     ],
+    // discrete properties belong to whichever pose is more than half applied
+    armLayer: t < 0.5 ? a.armLayer : b.armLayer,
+    handL: t < 0.5 ? a.handL : b.handL,
+    handR: t < 0.5 ? a.handR : b.handR,
+    handRotL: lerp(a.handRotL ?? 0, b.handRotL ?? 0, t),
+    handRotR: lerp(a.handRotR ?? 0, b.handRotR ?? 0, t),
     armL: lerpLimb(a.armL, b.armL, t),
     armR: lerpLimb(a.armR, b.armR, t),
     legL: lerpLimb(a.legL, b.legL, t),
@@ -131,9 +152,9 @@ export function blendPose(a: Pose, b: Pose, t: number): Pose {
  * Control point for a noodle limb's curve: the midpoint of anchor->end, pushed
  * perpendicular by `bend`.
  *
- * Split out from `limbPath` because V2 draws limbs as a sampled curve, which needs POINTS
- * rather than an SVG `d` string. Both callers share this maths so a limb bends identically
- * however it is rendered.
+ * Split out from `limbPath` because limbs are drawn as a sampled curve, which needs
+ * POINTS rather than an SVG `d` string. Both callers share this maths so a limb bends
+ * identically however it is rendered.
  */
 export function limbControl(anchor: readonly [number, number], limb: Limb): [number, number] {
   const [ax, ay] = anchor;
@@ -151,20 +172,62 @@ export function limbControl(anchor: readonly [number, number], limb: Limb): [num
  */
 export function limbPath(anchor: readonly [number, number], limb: Limb): string {
   const [ax, ay] = anchor;
-  const dx = limb.x - ax;
-  const dy = limb.y - ay;
-  const len = Math.hypot(dx, dy) || 1;
-  // perpendicular unit vector
-  const px = -dy / len;
-  const py = dx / len;
-  const cx = (ax + limb.x) / 2 + px * limb.bend;
-  const cy = (ay + limb.y) / 2 + py * limb.bend;
+  const [cx, cy] = limbControl(anchor, limb);
   return `M ${ax.toFixed(2)} ${ay.toFixed(2)} Q ${cx.toFixed(2)} ${cy.toFixed(2)} ${limb.x.toFixed(2)} ${limb.y.toFixed(2)}`;
 }
 
+// ---------------------------------------------------------------------------
+// attachment points
+// ---------------------------------------------------------------------------
+
 /**
- * Where a hand actually ends up in character space, after the pose's root offset.
- * Scenes use this to put a prop IN the character's hand instead of guessing.
+ * Where things can be hung on a posed character, in rig space.
+ *
+ * Scenes used to eyeball a prop into a hand and re-eyeball it for the next pose. Every
+ * one of those was a magic number that silently broke when the pose changed. These are
+ * derived from the pose itself, so a clock stays in the hand that holds it.
+ */
+export type Attachments = {
+  handL: Vec2;
+  handR: Vec2;
+  /** Centre of the head, after head offset — hats, halos, thought bubbles. */
+  head: Vec2;
+  /** Crown of the head: the top edge, where a hat actually sits. */
+  crown: Vec2;
+  /** Middle of the face — glasses, masks, a speech anchor. */
+  face: Vec2;
+  /** Chest centre — badges, ties, held-to-the-chest props. */
+  torso: Vec2;
+  /** Behind the shoulders — backpacks, wings, capes. */
+  back: Vec2;
+  /** Between the feet at ground level — shadows, puddles, "standing on" props. */
+  feet: Vec2;
+};
+
+export function attachmentsOf(pose: Pose, build: Build): Attachments {
+  const [ox, oy] = pose.rootOffset ?? [0, 0];
+  const [hox, hoy] = pose.headOffset ?? [0, 0];
+  const [hcx, hcy] = build.headCenter;
+  const headX = hcx + hox + ox;
+  const headY = hcy + hoy + oy;
+
+  return {
+    handL: [pose.armL.x + ox, pose.armL.y + oy],
+    handR: [pose.armR.x + ox, pose.armR.y + oy],
+    head: [headX, headY],
+    crown: [headX, headY - build.headHH],
+    face: [headX, headY + build.headHH * 0.08],
+    torso: [ox, (build.torsoTop + build.torsoBottom) / 2 + oy],
+    back: [ox, build.torsoTop + 8 + oy],
+    feet: [ox, build.groundY + build.footRy + oy],
+  };
+}
+
+/**
+ * Where a hand ends up in character space, after the pose's root offset.
+ *
+ * Kept as a named function because it is the single most-used attachment and scenes read
+ * better with `handAnchor(pose, 'R')` than with a property lookup.
  */
 export function handAnchor(pose: Pose, side: 'L' | 'R'): [number, number] {
   const limb = side === 'L' ? pose.armL : pose.armR;

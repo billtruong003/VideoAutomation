@@ -15,7 +15,7 @@ import { ModernCasino } from '../backgrounds';
 import { Window, Sun, Plant, ComfyChair, DrinkCup } from '../props/world';
 import { WallClock } from '../props/time';
 import { Sparkles } from '../fx/marks';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
 import { usePoseSwap } from '../animation/PoseSwap';
 import { SceneCamera, useCameraDolly } from '../animation/SceneCamera';
 import { PopIn } from '../animation/PopIn';
@@ -59,12 +59,12 @@ export const ModernCasinoScene: React.FC = () => {
 
   const expr =
     frame >= F_COMFY
-      ? EXPRESSIONS.content
+      ? BILL_EXPRESSIONS.content
       : frame >= F_CLOCK
-        ? EXPRESSIONS.happy
+        ? BILL_EXPRESSIONS.happy
         : frame >= F_DAYLIGHT
-          ? EXPRESSIONS.happy
-          : EXPRESSIONS.curious;
+          ? BILL_EXPRESSIONS.happy
+          : BILL_EXPRESSIONS.curious;
 
   const idle = useIdleLook(frame, { seed: 'mc-nib', holdFrames: 24, range: 0.35 });
   const seated = frame >= F_COMFY;
@@ -105,13 +105,14 @@ export const ModernCasinoScene: React.FC = () => {
         </PopIn>
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
           expression={{ ...expr, look: frame >= F_DAYLIGHT && frame < F_CLOCK ? [0.6, -0.3] : idle }}
           x={seated ? 618 : 470}
           y={seated ? 1178 : 1215}
           scale={2.85}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
 
         {seated && (

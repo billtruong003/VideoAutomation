@@ -16,14 +16,44 @@ two hands) and passed through **one deterministic stylizer** that supplies the h
 look. V1 asked the author to draw badly and drifted; V2 makes the sketch quality a property
 of the pipeline.
 
-- **Rough.js** for structure — clock faces, cabinets, walls, window frames
-- **perfect-freehand** for gesture — brows, mouths, noodle limbs, arrows, speed lines
+- **Rough.js** for everything — shape presets for structure, pen presets for gesture. One
+  stylizer, one hand. (`perfect-freehand` was evaluated and removed; see `PIPELINE.md`.)
 - **SVGO + a seeded roughifier** to ingest external SVG (8 ISC Lucide icons prove the chain)
 - **Deterministic seeds** from stable asset identity; per-frame change is transform-only, so
-  roughened geometry is cached and linework never boils. Proven: 73/73 assets byte-identical
-  across independent renders (`npm run qa:assets`).
+  roughened geometry is cached and linework never boils. Proven: 197/197 assets
+  byte-identical across independent renders (`npm run qa:assets`).
 
 Restyling the whole channel is a change to `src/style/tokens.ts`, not to 27 asset files.
+
+---
+
+## Character System V1.0 — the recurring cast
+
+The channel has **five canonical recurring characters**, and the list is closed:
+
+| | Role |
+|---|---|
+| **Bill** | Main protagonist and mascot. The default audience surrogate — whatever an episode explains, it happens to Bill |
+| **Mina** | The composed counterweight. Facts, sanity, the unimpressed reaction |
+| **Dex** | Chaotic friend. Terrible ideas, confidently |
+| **Gus** | Older deadpan authority. Manager, guard, official — the role changes, he does not |
+| **Mochi** | Silent mascot pet. Reaction gags and visual punchlines, never dialogue |
+
+They are not episode assets. A scene names a character, a pose and an expression, and the
+system supplies the drawing:
+
+```tsx
+<DoodleCharacter character="bill" pose="thinking" expression="confused" gaze="left" />
+```
+
+Scene code cannot reach hair geometry, glasses coordinates or limb numbers — that
+ignorance is the mechanism that keeps the cast canonical across hundreds of episodes. An
+unknown pose or expression name **throws** rather than falling back, because a character
+silently rendering wrong for a whole episode is worse than a crash during a still render.
+
+**`CHARACTER_BIBLE.md` is binding.** It carries each character's identity anchors, palette,
+expression language, motion personality and narrative role, plus the rules for costumes,
+scale, and the NPC archetypes that keep episode extras from becoming a sixth cast member.
 
 ---
 
@@ -73,7 +103,9 @@ npm run verify:audio   # prove the remap matches the delivered waveform
 npm run sfx            # synthesise the SFX library
 npm run storyboard     # derive the shot list from the narration
 npm run manifest       # inventory + cross-check every asset
-npm run qa:assets      # render all 73 assets in isolation and validate them
+npm run qa:assets      # render all 197 assets in isolation and validate them
+npm run qa:characters  # render every character model / expression / pose / cast sheet
+npm run assets:export  # standalone character SVGs, generated from the components
 npm run assets:ingest  # vendor icons -> normalize -> roughify -> registry
 
 npm run studio         # interactive editor
@@ -101,27 +133,36 @@ data/
   storyboard.json            keyword-anchored shot list
   asset-manifest.json        derived inventory
 src/
-  Root.tsx                   compositions (episode + 3 QA sheets)
+  Root.tsx                   compositions (episode + 18 QA sheets)
   video/CasinoClocks.tsx     assembly — reads scene spans from timing
   scenes/                    the ONLY episode-specific visual code (9 files)
-  character/                 rig.ts, poses.ts, expressions.ts
+  character/                 THE CAST — see CHARACTER_BIBLE.md
+    registry.ts              the five canonical characters; the only door in
+    types.ts  rig.ts         vocabulary + the skeleton and proportion contract
+    face/                    eyes, brows, mouths, accents, per-character metrics
+    poses/                   one shared humanoid library + Mochi's creature library
+    characters/              bill, mina, dex, gus, mochi, hair, accessories
+    npc.ts  motion.ts        episode extras, and motion personality defaults
   components/                DoodleCharacter, DoodleProp, Stage, Paper, Caption, GagCard, SoundDesign
   animation/                 PoseSwap, WalkCycle, SceneCamera, PopIn, Float, EyeLook,
                              ClockSpin, MoneyFly, ImpactLines, HandDrawnWobble
   props/  fx/  backgrounds/  the reusable art library
   qa/                        contact-sheet compositions
+    characters/              model / expression / pose / lineup / silhouette / size sheets
 tools/                       the whole pipeline, as reusable CLIs
 qa/                          rendered QA stills
+  characters/                the character system's acceptance gates
 ```
 
 ---
 
 ## What is reusable vs. episode-specific
 
-**Reusable (Episode 002 gets these free):** the protagonist and their 23 poses / 13
-expressions, all 27 props, 10 FX marks, 6 backgrounds, all 23 animation primitives, the
-caption system, the gag-card system, the paper/stage surface, the SFX library and
-synthesiser, and every tool in `tools/`.
+**Reusable (Episode 002 gets these free):** the whole canonical cast — Bill, Mina, Dex,
+Gus and Mochi, with a 54-pose shared humanoid library, 18 creature poses and 66 expressions between them —
+plus all 27 props, 10 FX marks, 6 backgrounds, all 23 animation primitives, the caption
+system, the gag-card system, the paper/stage surface, the SFX library and synthesiser, the
+NPC archetypes, and every tool in `tools/`.
 
 **Episode-specific:** the nine files in `src/scenes/`, and the beat plan inside
 `tools/build-storyboard.mjs`. That is all.
@@ -133,6 +174,8 @@ Generic things have generic names on purpose — `CameraPunch`, not
 
 ## Making Episode 002
 
+0. Pick the cast. Most episodes are Bill plus zero to two others — see `CHARACTER_BIBLE.md`
+   §12. No character work is needed; they already exist.
 1. Drop the new ElevenLabs mp3 + alignment json in `public/audio/` and `data/`.
 2. `npm run audio && npm run timing && npm run verify:audio` — do not proceed until both
    gates pass.
@@ -153,6 +196,8 @@ block that.
 
 ## Documentation
 
+- **`CHARACTER_BIBLE.md`** — the recurring cast, binding. **Start here if you are touching
+  a character.**
 - **`PIPELINE.md`** — how a video actually gets made, stage by stage, with costs and a
   ranked list of where the pipeline is weak. **Start here if you want to optimise it.**
 - **`STYLE.md`** — the binding visual contract, injected into any process that generates art

@@ -3,7 +3,7 @@
  * And the outside world basically disappears."
  *
  * Three clauses, three beats. The trick here is that the SCENE must feel monotonous
- * while the EDIT stays busy: Nib presses the same button on a loop and the lights never
+ * while the EDIT stays busy: Bill presses the same button on a loop and the lights never
  * change, but the slot flashes hard and the outside world visibly shrinks away. Sameness
  * is the subject, so sameness has to be shown, not merely stated.
  */
@@ -15,7 +15,7 @@ import { DoodleCharacter } from '../components/DoodleCharacter';
 import { SlotArea, OutsideWorld } from '../backgrounds';
 import { SlotMachine, CeilingLightRow } from '../props/casino';
 import { MotionLines } from '../fx/marks';
-import { EXPRESSIONS } from '../character/expressions';
+import { BILL_EXPRESSIONS } from '../character/characters/bill';
 import { POSES } from '../character/poses';
 import { SceneCamera } from '../animation/SceneCamera';
 import { PALETTE } from '../lib/style';
@@ -31,7 +31,7 @@ export const ConstantEnvironmentScene: React.FC = () => {
   const F_WORLD = kwIn(S, 'outside-world-1');
   const F_GONE = kwIn(S, 'disappears');
 
-  // Nib presses the button forever. Two drawings, four frames each — a loop that never
+  // Bill presses the button forever. Two drawings, four frames each — a loop that never
   // develops, which is the point.
   const pressing = Math.floor(frame / 5) % 2 === 0;
   const pose = pressing ? POSES.pressingButton : POSES.sitting;
@@ -81,7 +81,7 @@ export const ConstantEnvironmentScene: React.FC = () => {
           </g>
         )}
 
-        {/* the machine Nib is glued to */}
+        {/* the machine Bill is glued to */}
         <SlotMachine
           x={545}
           y={1040}
@@ -99,13 +99,14 @@ export const ConstantEnvironmentScene: React.FC = () => {
         )}
 
         <DoodleCharacter
+          character="bill"
           pose={pose}
-          expression={{ ...EXPRESSIONS.focused, look: [0.15, 0.1] }}
+          expression={{ ...BILL_EXPRESSIONS.focused, look: [0.15, 0.1] }}
           x={430}
           y={1215}
           scale={2.9}
           frame={frame}
-          seed="nib"
+          seed="bill"
         />
       </SceneCamera>
     </Stage>

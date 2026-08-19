@@ -106,17 +106,25 @@ REMOTION_CHARACTER=rough|single|soft|clean npx remotion render ...
 
 | Mode | What it does | Reads as |
 |---|---|---|
-| `rough` | same hand as the world (default) | sketched, but hairy at large scale |
-| `single` | full roughness, **one pass instead of two** | drawn fast and confidently |
+| `single` | full roughness, **one pass instead of two** (default) | drawn fast and confidently |
+| `rough` | same hand as the world | sketched, but hairy at large scale |
 | `soft` | one pass + roughness × 0.35 | drawn, but crisp |
 | `clean` | exact geometry | clean figure against a sketched world |
 
 **The finding worth keeping:** most of the visual noise on the character was never the
 roughness — it was Rough.js drawing every outline **twice**. `single` removes the hairiness
-while keeping all the character. Compare `qa/final/hand-zoom4.png`.
+while keeping all the character. Compare `qa/final/hand-zoom4.png`. It is the default as of
+Character System V1.0; the experiment is over.
 
-This only affects the protagonist. Props, FX and backgrounds keep the world's hand, which
-is what gives the figure/ground separation.
+This only affects the cast. Props, FX and backgrounds keep the world's hand, which is what
+gives the figure/ground separation.
+
+### The white rim is off
+
+Characters draw with **no paper halo** by default. It exists as an opt-in prop for the one
+case that needs it — a character standing on a genuinely dark background who would
+otherwise lose their outline — and on the normal paper stage it only fringes the drawing in
+white and cheapens it. If a shot needs separation, that shot asks for it.
 
 ---
 
