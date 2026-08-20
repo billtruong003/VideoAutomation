@@ -847,3 +847,106 @@ export async function getSettings() {
 
 export { setSetting };
 export { canTransition };
+
+/* ===================================================================== audio library */
+
+/**
+ * Search the indexed packs.
+ *
+ * Duplicates are hidden by default: 329 of the 3,733 indexed files are byte-identical copies
+ * across the two overlapping meme packs, and showing all of them turns every search into a
+ * list of the same sound repeated.
+ *
+ * Risk is a first-class filter rather than a badge, because the useful question here is
+ * almost never "what sounds exist" -- it is "what can I actually use", and the answer to
+ * that is 53 of 3,395.
+ */
+export function searchAudio({ q = '', category = '', risk = '', pack = '', imported = null,
+  includeDupes = false, limit = 120, offset = 0 } = {}) {
+  const db = getDb();
+  const where = [];
+  const args = {};
+
+  if (!includeDupes) where.push('dup_of IS NULL');
+  if (q) {
+    where.push('(filename LIKE @q OR tags LIKE @q OR subcategory LIKE @q)');
+    args.q = `%${q}%`;
+  }
+  if (category) { where.push('category = @category'); args.category = category; }
+  if (risk) { where.push('risk = @risk'); args.risk = risk; }
+  if (pack) { where.push('pack = @pack'); args.pack = pack; }
+  if (imported === true) where.push('imported_id IS NOT NULL');
+  if (imported === false) where.push('imported_id IS NULL');
+
+  const sql = where.length ? `WHERE ${where.join(' AND ')}` : '';
+  const total = db.prepare(`SELECT COUNT(*) n FROM audio_source ${sql}`).get(args).n;
+
+  /*
+   * Ordered by risk first, so the handful of usable sounds surface above the thousands that
+   * need a listen. A relevance sort would bury them.
+   */
+  const rows = db.prepare(`
+    SELECT id, pack, filename, ext, bytes, duration_s, sample_rate, channels, peak_db, rms_db,
+           category, subcategory, tags, risk, risk_reasons, provenance, dup_of, imported_id
+    FROM audio_source ${sql}
+    ORDER BY CASE risk WHEN 'USABLE' THEN 0 WHEN 'REVIEW' THEN 1 ELSE 2 END,
+             duration_s ASC, filename ASC
+    LIMIT @limit OFFSET @offset`).all({ ...args, limit, offset });
+
+  return {
+    total,
+    offset,
+    items: rows.map((r) => ({
+      ...r,
+      tags: safeJson(r.tags, []),
+      riskReasons: safeJson(r.risk_reasons, []),
+    })),
+  };
+}
+
+/** Counts for the filter chips, so the UI never shows a filter that would return nothing. */
+export function audioFacets() {
+  const db = getDb();
+  const group = (col) => db.prepare(
+    `SELECT COALESCE(${col}, 'UNKNOWN') k, COUNT(*) n FROM audio_source WHERE dup_of IS NULL
+     GROUP BY k ORDER BY n DESC`).all();
+  return {
+    risk: group('risk'),
+    category: group('category'),
+    pack: group('pack'),
+    totals: db.prepare(`
+      -- "indexed" is a keyword in SQLite (INDEXED BY), so it cannot be a bare alias.
+      SELECT COUNT(*) total_indexed,
+             SUM(CASE WHEN dup_of IS NULL THEN 1 ELSE 0 END) unique_sounds,
+             SUM(CASE WHEN dup_of IS NOT NULL THEN 1 ELSE 0 END) duplicates,
+             SUM(CASE WHEN imported_id IS NOT NULL THEN 1 ELSE 0 END) imported
+      FROM audio_source`).get(),
+  };
+}
+
+/** The assets actually in the repository, with how often each has been used. */
+export function listAudioAssets() {
+  const db = getDb();
+  return db.prepare(`
+    SELECT a.*, (SELECT COUNT(*) FROM audio_usage u WHERE u.asset_id = a.id) uses
+    FROM audio_asset a ORDER BY a.type, a.id`).all()
+    .map((r) => ({ ...r, tags: safeJson(r.tags, []) }));
+}
+
+/**
+ * The absolute path of an indexed source, for previewing.
+ *
+ * Looked up by database id rather than accepted as a path, so a request cannot name an
+ * arbitrary file on disk. The packs are read-only and nothing here ever opens them for
+ * writing.
+ */
+export function audioSourcePath(id) {
+  const row = getDb().prepare('SELECT path, ext FROM audio_source WHERE id = ?').get(Number(id));
+  if (!row) throw new DomainError(ERROR.NOT_FOUND, 'No such indexed sound.');
+  if (!existsSync(row.path)) throw new DomainError(ERROR.NOT_FOUND, 'The pack file is no longer at its indexed path.');
+  return row;
+}
+
+function safeJson(s, fallback) {
+  try { return JSON.parse(s ?? ''); } catch { return fallback; }
+}

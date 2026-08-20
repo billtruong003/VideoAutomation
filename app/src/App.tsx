@@ -15,6 +15,7 @@ import VideoDetail from './pages/VideoDetail';
 import MetadataStudio from './pages/MetadataStudio';
 import PublishStudio from './pages/PublishStudio';
 import Queue from './pages/Queue';
+import AudioLibrary from './pages/AudioLibrary';
 import Analytics from './pages/Analytics';
 import Retention from './pages/Retention';
 import ApiHealth from './pages/ApiHealth';
@@ -27,6 +28,7 @@ const NAV = [
     items: [
       { to: '/videos', text: 'Videos' },
       { to: '/metadata', text: 'Metadata Studio' },
+      { to: '/audio', text: 'Audio Library' },
     ],
   },
   {
@@ -99,6 +101,7 @@ export default function App() {
           <Route path="/videos/:id" element={<VideoDetail />} />
           <Route path="/metadata" element={<MetadataStudio />} />
           <Route path="/metadata/:id" element={<MetadataStudio />} />
+          <Route path="/audio" element={<AudioLibrary />} />
           <Route path="/publish" element={<PublishStudio />} />
           <Route path="/publish/:id" element={<PublishStudio />} />
           <Route path="/queue" element={<Queue />} />

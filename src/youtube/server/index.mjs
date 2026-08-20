@@ -150,6 +150,61 @@ export function createServer() {
   app.post('/api/tags/normalise', wrap(async (req, res) =>
     res.json(svc.normaliseTags(TagsBody.parse(req.body ?? {}).tags))));
 
+  // --------------------------------------------------------- audio library
+  const AudioQuery = z.object({
+    q: z.string().default(''),
+    category: z.string().default(''),
+    risk: z.string().default(''),
+    pack: z.string().default(''),
+    imported: z.enum(['yes', 'no']).optional(),
+    includeDupes: z.coerce.boolean().default(false),
+    limit: z.coerce.number().int().min(1).max(300).default(120),
+    offset: z.coerce.number().int().min(0).default(0),
+  });
+
+  app.get('/api/audio/search', wrap(async (req, res) => {
+    const q = AudioQuery.parse(req.query ?? {});
+    res.json(svc.searchAudio({
+      ...q,
+      imported: q.imported === 'yes' ? true : q.imported === 'no' ? false : null,
+    }));
+  }));
+
+  app.get('/api/audio/facets', wrap(async (req, res) => res.json(svc.audioFacets())));
+  app.get('/api/audio/assets', wrap(async (req, res) => res.json(svc.listAudioAssets())));
+
+  /*
+   * Preview streams straight from the read-only pack. The file is located by database id,
+   * never by a path from the request, so no input can name a file outside the index -- and
+   * the handler only ever opens it for reading.
+   */
+  app.get('/api/audio/:id/preview', wrap(async (req, res) => {
+    const { path, ext } = svc.audioSourcePath(req.params.id);
+    const stat = statSync(path);
+    const type = ext === '.wav' ? 'audio/wav' : ext === '.ogg' ? 'audio/ogg' : 'audio/mpeg';
+    const range = req.headers.range;
+
+    if (range) {
+      const [s, e] = range.replace(/bytes=/, '').split('-');
+      const start = Number(s);
+      const end = e ? Number(e) : stat.size - 1;
+      if (Number.isNaN(start) || start >= stat.size) {
+        res.status(416).set('Content-Range', `bytes */${stat.size}`).end();
+        return;
+      }
+      res.status(206).set({
+        'Content-Range': `bytes ${start}-${end}/${stat.size}`,
+        'Accept-Ranges': 'bytes',
+        'Content-Length': end - start + 1,
+        'Content-Type': type,
+      });
+      createReadStream(path, { start, end }).pipe(res);
+      return;
+    }
+    res.set({ 'Content-Length': stat.size, 'Content-Type': type, 'Accept-Ranges': 'bytes' });
+    createReadStream(path).pipe(res);
+  }));
+
   // -------------------------------------------------------------- manifest
   app.get('/api/content/:id/manifest', wrap(async (req, res) => res.json(svc.getManifest(req.params.id))));
 
