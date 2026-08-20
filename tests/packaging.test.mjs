@@ -313,21 +313,48 @@ describe('borrowed audio at publish time', () => {
     return m;
   };
 
-  it('reads the exported plan rather than assuming nothing was borrowed', () => {
+  /** A manifest whose plan borrows one bed with unverifiable rights. */
+  const withBorrowedBed = () => {
     const m = base();
-    expect(m.audio.recorded).toBe(true);
-    expect(m.audio.music.length).toBeGreaterThan(0);
+    m.audio = {
+      recorded: true,
+      music: [{ id: 'tiptoe', provenance: 'USER_PROVIDED_UNKNOWN_LICENSE' }],
+      sfx: [],
+    };
+    return m;
+  };
+
+  it('reads the exported plan rather than assuming nothing was borrowed', () => {
+    // The plan exists and was read. What it CONTAINS is a production decision that changes
+    // between batches, so this asserts the reading, not the contents.
+    expect(base().audio.recorded).toBe(true);
   });
 
-  it('warns that the bed licence is unverified, naming it', () => {
-    const r = publishReadiness(base());
-    const w = r.warnings.find((x) => /unverified licence/.test(x));
+  it('warns that a bed licence is unverified, naming it', () => {
+    /*
+     * Exercised against an inline plan rather than whatever batch 001 happens to use. These
+     * assertions used to read the real manifest, so removing the unlicensed music for the
+     * release broke them -- a test of the WARNING should not depend on there being something
+     * to warn about that day.
+     */
+    const w = publishReadiness(withBorrowedBed()).warnings.find((x) => /unverified licence/.test(x));
     expect(w).toBeDefined();
     expect(w).toContain('tiptoe');
   });
 
+  it('stays silent when nothing was borrowed', () => {
+    // Batch 001 publishes with no music at all, and that must not read as a licence problem.
+    const m = base();
+    m.audio = { recorded: true, music: [], sfx: [{ file: 'sfx/pop.wav', provenance: 'GENERATED' }] };
+    expect(publishReadiness(m).warnings.some((x) => /unverified licence/.test(x))).toBe(false);
+  });
+
   it('does not block on it — the licence call is the creator\'s', () => {
-    expect(publishReadiness(base()).blockers.some((b) => /licence/i.test(b))).toBe(false);
+    // Against a manifest that DOES borrow a bed — otherwise this passes trivially, because a
+    // manifest with no music has nothing to warn about in the first place.
+    const r = publishReadiness(withBorrowedBed());
+    expect(r.warnings.some((w) => /unverified licence/.test(w))).toBe(true);
+    expect(r.blockers.some((b) => /licence/i.test(b))).toBe(false);
   });
 
   it('says so when no plan has been exported, rather than reporting nothing borrowed', () => {

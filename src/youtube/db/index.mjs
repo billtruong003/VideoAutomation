@@ -310,6 +310,22 @@ const MIGRATIONS = [
       CREATE INDEX idx_src_risk ON audio_source(risk);
     `,
   },
+  {
+    id: 4,
+    name: 'release-tracking',
+    sql: `
+      -- What the release actually did to each video, beyond what YouTube reports back.
+      -- Kept separate from youtube_video (which mirrors YouTube) because these are OUR
+      -- artefacts: which caption track we inserted, which playlist item, what we scheduled.
+      ALTER TABLE youtube_video ADD COLUMN caption_track_id  TEXT;
+      ALTER TABLE youtube_video ADD COLUMN playlist_item_id  TEXT;
+      ALTER TABLE youtube_video ADD COLUMN thumbnail_status  TEXT;
+      ALTER TABLE youtube_video ADD COLUMN schedule_status   TEXT;
+      ALTER TABLE youtube_video ADD COLUMN uploaded_at       TEXT;
+      ALTER TABLE youtube_video ADD COLUMN asset_hash        TEXT;
+      ALTER TABLE youtube_video ADD COLUMN metadata_hash     TEXT;
+    `,
+  },
 ];
 
 export function getDb() {
