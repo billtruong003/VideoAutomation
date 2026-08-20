@@ -358,3 +358,49 @@ export const RoadDash: React.FC<PropArgs & { len?: number; thick?: number; color
     />
   </PropFrame>
 );
+
+/**
+ * A plain workbench, seen straight on. Origin sits on the TOP SURFACE.
+ *
+ * The `science` scene of old-book-smell was authored against a bench its storyboard describes
+ * but nothing ever drew. Without it the book was placed at y=1200 — straddling the lab
+ * background's 1204 horizon — so it read as floating at the wall/floor junction and overlapped
+ * Mina, who stands beside it.
+ *
+ * Origin on the surface rather than at the centre is the whole point: a prop that sits on a
+ * bench should be positioned relative to the surface it rests on, and every previous
+ * placement bug on this channel has come from an origin that was not where the author assumed.
+ * `legHeight` reaches down to the floor, so the caller sets the surface height and the bench
+ * meets the ground on its own.
+ */
+const benchDef = (width: number, legHeight: number): AssetDef => {
+  const half = width / 2;
+  const inset = Math.min(46, width * 0.12);
+  return {
+    id: `prop-bench-${Math.round(width)}-${Math.round(legHeight)}`,
+    size: { w: width + 20, h: legHeight + 40 },
+    shapes: [
+      // the slab, with a visible front edge so it reads as a surface rather than a line
+      { k: 'rect', x: -half, y: 0, w: width, h: 24, fill: PALETTE.paper, stroke: PALETTE.ink },
+      { k: 'line', x1: -half + 8, y1: 24, x2: half - 8, y2: 24, sw: 3, rough: 'detail', opacity: 0.5 },
+      // legs
+      { k: 'rect', x: -half + inset, y: 24, w: 22, h: legHeight, fill: PALETTE.paperShade, stroke: PALETTE.ink },
+      { k: 'rect', x: half - inset - 22, y: 24, w: 22, h: legHeight, fill: PALETTE.paperShade, stroke: PALETTE.ink },
+      // a stretcher between them, which is what makes it read as furniture and not two posts
+      {
+        k: 'line',
+        x1: -half + inset + 22, y1: 24 + legHeight * 0.68,
+        x2: half - inset - 22, y2: 24 + legHeight * 0.68,
+        sw: 6,
+      },
+    ],
+  };
+};
+
+export const LabBench: React.FC<PropArgs & { width?: number; legHeight?: number }> = ({
+  width = 520, legHeight = 250, seed = 'bench', ...rest
+}) => (
+  <PropFrame seed={seed} {...rest}>
+    <RoughAsset def={benchDef(width, legHeight)} variant={`${seed}:${width}`} />
+  </PropFrame>
+);

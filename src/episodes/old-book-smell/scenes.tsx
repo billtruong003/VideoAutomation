@@ -17,7 +17,7 @@ import { useCurrentFrame } from 'remotion';
 import { Stage } from '../../components/Stage';
 import { DoodleCharacter } from '../../components/DoodleCharacter';
 import { LibraryShelf, CutawayVoid, ConservationLab } from '../../backgrounds/everyday';
-import { Book, BookCutaway } from '../../props/objects';
+import { Book, BookCutaway, LabBench } from '../../props/objects';
 import { ScentCurls, Molecule, CircleIt } from '../../fx/diagram';
 import { Sparkles } from '../../fx/marks';
 import { usePoseSwap } from '../../animation/PoseSwap';
@@ -355,22 +355,32 @@ const Science: React.FC = () => {
       <SceneCamera originX={540} originY={1000}>
         <ConservationLab frame={frame} />
 
-        <Book x={430} y={1200} scale={1.6} frame={frame} seed="ep10-book-lab" open wear={0.9} />
+        {/*
+          * The bench the storyboard always described. Its surface is at y=1150 and its legs
+          * reach the floor; the book then sits ON it rather than hovering at the background's
+          * 1204 horizon, which is what made it look like it was floating through Mina.
+          *
+          * Book maths: the open book's shapes run to +62 locally, so at scale 1.6 its lower
+          * edge is 99px below its origin. Origin 1051 puts that edge on the 1150 surface.
+          */}
+        <LabBench x={560} y={1150} width={560} legHeight={270} frame={frame} seed="ep10-bench" />
+
+        <Book x={470} y={1051} scale={1.6} frame={frame} seed="ep10-book-lab" open wear={0.9} />
 
         {/* a collection funnel over the book */}
         <g>
           <polygon
-            points="330,900 530,900 460,760 400,760"
+            points="370,900 570,900 500,760 440,760"
             fill={PALETTE.paper}
             stroke={PALETTE.ink}
             strokeWidth={6}
           />
-          <rect x={400} y={640} width={60} height={124} fill={PALETTE.paper} stroke={PALETTE.ink} strokeWidth={6} />
+          <rect x={440} y={640} width={60} height={124} fill={PALETTE.paper} stroke={PALETTE.ink} strokeWidth={6} />
         </g>
 
         {after(frame, F_EMIT) && (
           <g opacity={collect}>
-            <ScentCurls x={430} y={1080} scale={1.5} frame={frame} seed="ep10-collect" count={2} height={200} decay={0.6} />
+            <ScentCurls x={470} y={950} scale={1.5} frame={frame} seed="ep10-collect" count={2} height={200} decay={0.6} />
           </g>
         )}
 
@@ -397,7 +407,7 @@ const Science: React.FC = () => {
           character="mina"
           pose="clipboard"
           expression={after(frame, F_AGE) ? 'smallSmile' : 'neutral'}
-          x={200}
+          x={130}
           y={1294}
           scale={2.3}
           frame={frame}

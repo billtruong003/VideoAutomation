@@ -126,7 +126,11 @@ const CannotFall: React.FC = () => {
       <SceneCamera originX={540} originY={1000}>
         <CutawayVoid frame={frame} />
 
-        <ManholeShaft x={540} y={1100} scale={2.2} frame={frame} seed="ep8-shaft" />
+        {/*
+          * depth 0.6 stops the void at y≈1364, clearing the caption band that begins around
+          * 1400. At full depth it reached 1540 and the caption sat inside it.
+          */}
+        <ManholeShaft x={540} y={1100} scale={2.2} depth={0.6} frame={frame} seed="ep8-shaft" />
 
         {/* the cover, tilted and turned — it catches on the rim every time */}
         <g transform={`translate(540 1010) rotate(${spin}) scale(1 ${0.4 + Math.abs(Math.cos((spin * Math.PI) / 180)) * 0.6})`}>
@@ -184,7 +188,11 @@ const OtherShapes: React.FC = () => {
       <SceneCamera x={shake.x} y={shake.y} rotate={shake.rotate} originX={540} originY={1050}>
         <CutawayVoid frame={frame} />
 
-        <ManholeShaft x={540} y={1100} scale={2.2} frame={frame} seed="ep8-shaft" />
+        {/*
+          * depth 0.6 stops the void at y≈1364, clearing the caption band that begins around
+          * 1400. At full depth it reached 1540 and the caption sat inside it.
+          */}
+        <ManholeShaft x={540} y={1100} scale={2.2} depth={0.6} frame={frame} seed="ep8-shaft" />
 
         {/* the square, confidently placed, then gone */}
         {after(frame, F_OTHER) && drop < 1 && (
@@ -304,7 +312,7 @@ const OtherWins: React.FC = () => {
 
         {after(frame, F_SHAFT) && (
           <>
-            <ManholeShaft x={540} y={1150} scale={2.2} frame={frame} seed="ep8-shaft" />
+            <ManholeShaft x={540} y={1150} scale={2.2} depth={0.52} frame={frame} seed="ep8-shaft" />
             <ManholeCover x={540} y={1130} scale={2.4} frame={frame} seed="ep8-cover" />
             <Reveal frame={frame} at={F_SHAFT + 8} originX={840} originY={1130}>
               <Tick x={840} y={1130} scale={1.8} frame={frame} seed="ep8-seats" />

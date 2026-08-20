@@ -436,22 +436,32 @@ export const ManholeCover: React.FC<PropArgs & { shape?: 'round' | 'square' }> =
   </PropFrame>
 );
 
-/** The opening in section: a rim and a shaft dropping into the dark. Origin at road level. */
-const SHAFT: AssetDef = {
-  id: 'prop-manhole-shaft',
-  size: { w: 160, h: 220 },
+/**
+ * The opening in section: a rim and a shaft dropping into the dark. Origin at road level.
+ *
+ * `depth` scales how far the shaft descends WITHOUT narrowing it. A plain `scale` change would
+ * shrink the width too, and the cover has to stay visibly wider than the hole it cannot fall
+ * through -- that relationship is the entire point of the episode. Depth exists because at
+ * full extent the void ran from y=1100 to y=1540 and swallowed the caption band at 1442,
+ * leaving near-black text on a near-black rectangle.
+ */
+const shaftDef = (depth: number): AssetDef => ({
+  id: `prop-manhole-shaft-${Math.round(depth * 100)}`,
+  size: { w: 160, h: 20 + 200 * depth },
   shapes: [
-    { k: 'rect', x: -78, y: 0, w: 16, h: 200, fill: PALETTE.grey, stroke: PALETTE.ink },
-    { k: 'rect', x: 62, y: 0, w: 16, h: 200, fill: PALETTE.grey, stroke: PALETTE.ink },
-    { k: 'rect', x: -62, y: 0, w: 124, h: 200, fill: PALETTE.nightWall, stroke: 'none' },
+    { k: 'rect', x: -78, y: 0, w: 16, h: 200 * depth, fill: PALETTE.grey, stroke: PALETTE.ink },
+    { k: 'rect', x: 62, y: 0, w: 16, h: 200 * depth, fill: PALETTE.grey, stroke: PALETTE.ink },
+    { k: 'rect', x: -62, y: 0, w: 124, h: 200 * depth, fill: PALETTE.nightWall, stroke: 'none' },
     // the rim the cover rests on — the ledge that makes a circle safe
     { k: 'line', x1: -92, y1: 0, x2: -62, y2: 0, sw: 5 },
     { k: 'line', x1: 62, y1: 0, x2: 92, y2: 0, sw: 5 },
   ],
-};
+});
 
-export const ManholeShaft: React.FC<PropArgs> = ({ seed = 'manhole-shaft', ...rest }) => (
+export const ManholeShaft: React.FC<PropArgs & { depth?: number }> = ({
+  seed = 'manhole-shaft', depth = 1, ...rest
+}) => (
   <PropFrame seed={seed} {...rest}>
-    <RoughAsset def={SHAFT} variant={seed} />
+    <RoughAsset def={shaftDef(depth)} variant={`${seed}:${depth}`} />
   </PropFrame>
 );
