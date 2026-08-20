@@ -263,3 +263,41 @@ describe('audio risk model', () => {
     expect(at('1272_TF2_Explosion.mp3').reasons.length).toBeGreaterThan(0);
   });
 });
+
+describe('tag generation traps', () => {
+  it('does not match a mechanism term inside a longer word', () => {
+    // "eventually" contains "vent", and a plain includes() tagged an episode about jeans
+    // pockets as being about ventilation.
+    const { candidates } = generateTags(
+      { coreObject: 'Jeans Watch Pocket' },
+      { transcript: 'The pocket eventually stopped being used for a watch.' });
+    expect(candidates.map((c) => c.text)).not.toContain('vent');
+  });
+
+  it('still matches a mechanism term that is genuinely present', () => {
+    const { candidates } = generateTags(
+      { coreObject: 'Microwave Door Mesh' },
+      { transcript: 'The mesh blocks the wavelength while letting light through.' });
+    expect(candidates.map((c) => c.text)).toContain('wavelength');
+  });
+
+  it('matches a plural mention of a mechanism term', () => {
+    const { candidates } = generateTags(
+      { coreObject: 'Manhole Covers' },
+      { transcript: 'Round covers cannot fall in, unlike square vents.' });
+    expect(candidates.map((c) => c.text)).toContain('vent');
+  });
+
+  it('never pluralises a leading adjective into the subject', () => {
+    // "old book smell" produced "why olds have book smell".
+    const { candidates } = generateTags({ coreObject: 'Old Book Smell' }, { transcript: '' });
+    const texts = candidates.map((c) => c.text);
+    expect(texts.some((t) => t.startsWith('why olds'))).toBe(false);
+    expect(texts).toContain('what causes old book smell');
+  });
+
+  it('keeps the possessive frame when the object leads with a noun', () => {
+    const { candidates } = generateTags({ coreObject: 'Jeans Watch Pocket' }, { transcript: '' });
+    expect(candidates.map((c) => c.text)).toContain('why jeans have watch pocket');
+  });
+});

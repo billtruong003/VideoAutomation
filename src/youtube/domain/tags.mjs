@@ -111,16 +111,34 @@ export function generateTags(brief, { transcript = '' } = {}) {
   if (words.length > 2) add(words.slice(-2).join(' '), 'EXACT_SUBJECT');
   if (words.length > 1) add(words.slice(0, 2).join(' '), 'EXACT_SUBJECT');
 
-  // B. MECHANISM — real technical terms, taken only if the transcript actually says them.
-  const t = norm(transcript);
+  /*
+   * B. MECHANISM — real technical terms, taken only if the transcript actually says them.
+   *
+   * Matched on WORD BOUNDARIES. A plain `includes` tagged an episode about jeans pockets
+   * with "vent", because the narration contains "eventually" -- the same substring trap that
+   * a naive filename match falls into.
+   */
+  const t = ` ${norm(transcript)} `;
   for (const term of MECHANISM_TERMS) {
-    if (t.includes(term)) add(term, 'MECHANISM');
+    if (t.includes(` ${term} `) || t.includes(` ${term}s `)) add(term, 'MECHANISM');
   }
 
-  // C. NATURAL QUERY — how a person would actually type the question.
+  /*
+   * C. NATURAL QUERY — how a person would actually type the question.
+   *
+   * The "why X have Y" frame only works when the first word is the thing itself. Applied
+   * blindly it pluralises whatever is there, and "old book smell" became "why olds have book
+   * smell". When the object leads with a modifier, what a person actually searches is the
+   * cause, so that is what gets emitted instead.
+   */
   if (words.length >= 2) {
-    add(`why ${plural(words[0])} have ${words.slice(1).join(' ')}`, 'NATURAL_QUERY');
-    add(`what is the ${words.slice(-2).join(' ')} for`, 'NATURAL_QUERY');
+    if (ADJECTIVES.has(words[0])) {
+      add(`what causes ${object}`, 'NATURAL_QUERY');
+      add(`why ${object} happens`, 'NATURAL_QUERY');
+    } else {
+      add(`why ${plural(words[0])} have ${words.slice(1).join(' ')}`, 'NATURAL_QUERY');
+      add(`what is the ${words.slice(-2).join(' ')} for`, 'NATURAL_QUERY');
+    }
   }
 
   // D. SYNONYM — only from a curated map, never invented.
@@ -142,6 +160,13 @@ const decorate = (t) => ({
   cost: t.text.length + (/\s/.test(t.text) ? 2 : 0),
   locked: false,
 });
+
+/** Modifiers that must never be pluralised into the subject of a query. */
+const ADJECTIVES = new Set([
+  'old', 'new', 'tiny', 'little', 'small', 'big', 'large', 'round', 'square', 'flat',
+  'high', 'low', 'hidden', 'secret', 'weird', 'strange', 'empty', 'extra', 'spare',
+  'yellow', 'red', 'blue', 'white', 'black', 'double', 'single',
+]);
 
 const plural = (w) => (w.endsWith('s') ? w : /(?:ch|sh|x|s)$/.test(w) ? `${w}es` : `${w}s`);
 
