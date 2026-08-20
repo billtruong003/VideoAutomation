@@ -183,3 +183,79 @@ export type Job = {
   attempt: number; max_attempts: number; error_code: string | null; error_message: string | null;
   next_retry_at: string | null; created_at: string; updated_at: string; bytes_sent: number;
 };
+
+/* ---------------------------------------------------------- title engine */
+
+export type Gate = { id: string; label: string; pass: boolean; detail: string | null };
+export type DimensionScore = { points: number; max: number; why: string };
+export type PenaltyApplied = { id: string; label: string; points: number; why: string };
+
+export type TitleEvidence = {
+  supportedTerms: string[];
+  numericClaims: string[];
+  matchedSentence: string | null;
+  missingTerms?: string[];
+};
+
+export type TitleCandidate = {
+  title: string;
+  family: string;
+  rejected: boolean;
+  failedGates: string[];
+  gates: Gate[];
+  evidence: TitleEvidence;
+  editorial: { parts: Record<string, DimensionScore>; raw: number } | null;
+  penalties: { applied: PenaltyApplied[]; total: number } | null;
+  score: number | null;
+};
+
+export type TitleScoringConfig = {
+  hardGates: { id: string; label: string }[];
+  editorialDimensions: { id: string; label: string; max: number; note: string }[];
+  editorialTotal: number;
+  penalties: { id: string; label: string; max: number }[];
+  limits: Record<string, unknown>;
+};
+
+export type TitleGen = {
+  provider: { id: string; label: string; configured: boolean; note: string };
+  config: TitleScoringConfig;
+  brief: { coreObject: string; coreQuestion: string; actualReveal: string; payoff: string };
+  history: string[];
+  poolSize: number;
+  passed: number;
+  candidates: TitleCandidate[];
+};
+
+export type BatchPick = {
+  contentId: string;
+  episodeNumber: number;
+  title: string | null;
+  score: number | null;
+  family: string | null;
+  penalties: PenaltyApplied[];
+  description: string | null;
+  descriptionChars: number;
+  tags: string[];
+  tagCount: number;
+  tagBudget: number;
+  state: string;
+  metadataHash: string | null;
+};
+
+export type BatchHealth = {
+  count: number;
+  averageScore: number; minScore: number; maxScore: number;
+  averageTitleLength: number;
+  familyDistribution: [string, number][];
+  familyDiversity: number;
+  openingDistribution: [string, number][];
+  repeatedKeywords: [string, number][];
+  tinyCount: number; whyCount: number;
+  similarityMatrix: number[][];
+  mostSimilarPairs: { a: string; b: string; similarity: number }[];
+  spoilerWarnings: { contentId: string; title: string }[];
+  aiStyleWarnings: { contentId: string; title: string }[];
+};
+
+export type BatchReview = { picks: BatchPick[]; health: BatchHealth | null; playlistId: string };

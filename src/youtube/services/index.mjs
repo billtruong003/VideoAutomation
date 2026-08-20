@@ -26,6 +26,10 @@ import {
 import { lintCandidate, rankCandidates } from '../metadata/lint.mjs';
 import { generateDescriptions, lintDescription, CTA_VARIANTS } from '../domain/description.mjs';
 import { budgetOf, dedupeTags, generateTags, lintTags } from '../domain/tags.mjs';
+import { generateCandidatePool } from '../metadata/title-candidates.mjs';
+import { evaluatePool, classifyFamily } from '../metadata/title-engine.mjs';
+import { batchHealth } from '../metadata/title-batch.mjs';
+import { titleScoringConfig } from '../metadata/title-config.mjs';
 import { DomainError, ERROR } from '../server/errors.mjs';
 import { log } from '../server/logger.mjs';
 
@@ -959,3 +963,100 @@ export function audioSourcePath(id) {
 function safeJson(s, fallback) {
   try { return JSON.parse(s ?? ''); } catch { return fallback; }
 }
+
+/* ================================================================ title engine */
+
+/**
+ * Candidates for one episode, gated and scored by the new engine.
+ *
+ * History is the other nine episodes in the batch plus anything already chosen. For a channel
+ * with nothing published, the batch IS the channel's voice -- and colliding inside the batch
+ * is exactly the failure that matters when ten videos go out together.
+ */
+export function generateTitleCandidates(id) {
+  const db = getDb();
+  const content = db.prepare('SELECT * FROM content_item WHERE content_id = ?').get(id);
+  if (!content) throw new DomainError(ERROR.NOT_FOUND, 'No such content item.');
+
+  const brief = buildBrief(content);
+  const siblings = db.prepare(`
+    SELECT m.text FROM metadata_candidate m
+    WHERE m.kind = 'title' AND m.selected = 1 AND m.content_id != ?
+    ORDER BY m.id DESC LIMIT 20`).all(id).map((r) => r.text);
+
+  const ctx = {
+    facts: content.facts_text ?? '',
+    script: content.script_text ?? '',
+    actualReveal: brief.actualReveal,
+    payoff: brief.payoff,
+    coreObject: brief.coreObject,
+    history: siblings,
+    existingTitles: [],
+  };
+
+  const pool = generateCandidatePool(brief);
+  const candidates = evaluatePool(pool, ctx);
+
+  return {
+    provider: resolveProvider(),
+    config: titleScoringConfig,
+    brief: {
+      coreObject: brief.coreObject,
+      coreQuestion: brief.coreQuestion,
+      actualReveal: brief.actualReveal,
+      payoff: brief.payoff,
+    },
+    history: siblings,
+    poolSize: pool.length,
+    passed: candidates.filter((c) => !c.rejected).length,
+    candidates,
+  };
+}
+
+/**
+ * The whole batch in one view.
+ *
+ * Ten titles chosen well individually can still be a bad feed, and nothing on a per-episode
+ * screen can show that. This is the screen where repeated grammar and repeated openers are
+ * visible.
+ */
+export function batchReview() {
+  const db = getDb();
+  const rows = db.prepare('SELECT * FROM content_item ORDER BY episode_number').all();
+
+  const picks = rows.map((c) => {
+    const chosen = db.prepare(
+      "SELECT text, score, lint_json FROM metadata_candidate WHERE content_id = ? AND kind = 'title' AND selected = 1 ORDER BY id DESC LIMIT 1").get(c.content_id);
+    const desc = db.prepare(
+      "SELECT text FROM metadata_candidate WHERE content_id = ? AND kind = 'description' AND selected = 1 ORDER BY id DESC LIMIT 1").get(c.content_id);
+    const manifestRow = db.prepare('SELECT manifest_json FROM publish_manifest WHERE content_id = ?').get(c.content_id);
+    const manifest = manifestRow ? JSON.parse(manifestRow.manifest_json) : null;
+    const tags = manifest?.metadata?.tags ?? [];
+    let detail = null;
+    try { detail = chosen?.lint_json ? JSON.parse(chosen.lint_json) : null; } catch { detail = null; }
+
+    return {
+      contentId: c.content_id,
+      episodeNumber: c.episode_number,
+      title: chosen?.text ?? null,
+      score: chosen?.score ?? null,
+      family: chosen?.text ? classifyFamily(chosen.text) : null,
+      penalties: detail?.penalties?.applied ?? [],
+      description: desc?.text ?? manifest?.metadata?.description ?? null,
+      descriptionChars: (desc?.text ?? manifest?.metadata?.description ?? '').length,
+      tags,
+      tagCount: tags.length,
+      tagBudget: budgetOf(tags),
+      state: manifest ? 'METADATA_LOCKED' : 'DRAFT',
+      metadataHash: manifest ? computeMetadataHash(manifest) : null,
+    };
+  });
+
+  const withTitles = picks.filter((p) => p.title);
+  const health = withTitles.length ? batchHealth(withTitles) : null;
+
+  return { picks, health, playlistId: 'PLGqOZxhW6Pak' };
+}
+
+/** The scoring configuration, for the Settings screen to display. */
+export const scoringConfig = () => titleScoringConfig;

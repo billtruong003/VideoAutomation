@@ -143,6 +143,18 @@ export function createServer() {
   app.post('/api/content/:id/tags/generate', wrap(async (req, res) =>
     res.json(svc.generateTagsFor(req.params.id))));
 
+  /*
+   * The title engine. Separate from /metadata/generate, which still serves the older combined
+   * shape -- this one returns gates, editorial breakdown and penalties per candidate so the
+   * UI can show every deduction rather than a bare number.
+   */
+  app.post('/api/content/:id/titles/generate', wrap(async (req, res) =>
+    res.json(svc.generateTitleCandidates(req.params.id))));
+
+  app.get('/api/batch/review', wrap(async (req, res) => res.json(svc.batchReview())));
+
+  app.get('/api/config/title-scoring', wrap(async (req, res) => res.json(svc.scoringConfig())));
+
   const TagsBody = z.object({ tags: z.array(z.string()).default([]) });
 
   // Normalisation is a server concern: the tag budget rules are subtle enough that the

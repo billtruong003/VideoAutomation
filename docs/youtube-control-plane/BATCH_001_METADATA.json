@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:46:39.232Z",
+  "generatedAt": "2026-08-20T07:54:06.825Z",
   "batch": "batch-001",
   "playlistId": "PLGqOZxhW6Pak",
   "publishDefaults": {
@@ -658,7 +658,7 @@
       ],
       "metadataHash": "sha256:e7e29db06f4edbc940ad7e7b8673ab5185ee98a31f49536eb1c7a0e8cc82a42d",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "escalator-brushes",
@@ -1028,7 +1028,7 @@
       ],
       "metadataHash": "sha256:1746f33a80ebcc5a945b1808a16d419350154d70506d9f32e43537a0f0b4086c",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "gas-pump-shutoff",
@@ -1465,7 +1465,7 @@
       ],
       "metadataHash": "sha256:2c20143dfeaa4aa35a8937c60e0c6851195656102bf79e49275868962cef03b1",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "microwave-door-mesh",
@@ -1881,7 +1881,7 @@
       ],
       "metadataHash": "sha256:6da7458682f5ffdec90d0ed2f41f6c33212faf5ac08d4857106c6632ace6b406",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "jeans-watch-pocket",
@@ -2270,7 +2270,7 @@
       ],
       "metadataHash": "sha256:44b05ca1ce7d63c6c25e7123a22bcc36964429c068505ad87d1ffbe9a9423649",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "highway-lane-lines",
@@ -2676,7 +2676,7 @@
       ],
       "metadataHash": "sha256:d768e7fb0bc3d5133240026bd31cd51d8f92fa9d9e303f3606f79e113001c194",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "fuel-door-arrow",
@@ -3096,7 +3096,7 @@
       ],
       "metadataHash": "sha256:6a5a8840116dbb4f568ccee7f29e182d8d3e1b39b06ffd503180a7e28fb0f0bd",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "round-manhole-covers",
@@ -3418,7 +3418,7 @@
       ],
       "metadataHash": "sha256:963e8192ea3ac2b8e49d38cf385aa2ba48fcae30d67bb4f23f0c0d5fa4d5a8ca",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "pen-cap-hole",
@@ -3835,7 +3835,7 @@
       ],
       "metadataHash": "sha256:1d8c4e692bef134d95523875001f80834f1958dbbeda68cab4c6d71699e29560",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     },
     {
       "contentId": "old-book-smell",
@@ -4210,7 +4210,7 @@
       ],
       "metadataHash": "sha256:492560ebdc3261e27b25bfdfe35ed69e9d09c0b345b934623a33436f20574842",
       "lockState": "METADATA_LOCKED",
-      "lockedAt": "2026-08-20T07:46:39.229Z"
+      "lockedAt": "2026-08-20T07:54:06.819Z"
     }
   ],
   "releasePlan": {

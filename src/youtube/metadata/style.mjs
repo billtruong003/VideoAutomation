@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 /**
  * style.mjs — the Bill Finds Out copy rules, as data.
  *
@@ -13,6 +14,8 @@
  * hidden secrets of" is not. Each entry is matched case-insensitively against the whole
  * candidate, so word-boundary noise is avoided.
  */
+import { classifyFamily } from './title-engine.mjs';
+
 export const STOCK_PHRASES = [
   'did you know', "you won't believe", 'you wont believe', "here's why", 'heres why',
   "let's dive in", 'lets dive in', "in today's video", 'in todays video',
@@ -72,5 +75,12 @@ export const LIMITS = {
   historyWindow: 20,
 };
 
-export const classifyTitleFamily = (title) =>
-  TITLE_FAMILIES.find((f) => f.test.test(title.trim()))?.id ?? 'CLAIM';
+/**
+ * Grammar family.
+ *
+ * Delegates to the title engine so there is ONE taxonomy. Keeping a second six-family table
+ * here meant the live linter reported "HOW" on the same title the engine called "MECHANISM",
+ * side by side on the same screen -- exactly the drift that duplicating a judgement always
+ * produces. `TITLE_FAMILIES` above is retained only for the older linter's own reporting.
+ */
+export const classifyTitleFamily = (title) => classifyFamily(title ?? '');

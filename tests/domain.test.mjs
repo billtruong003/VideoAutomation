@@ -27,16 +27,26 @@ const FACTS = 'That tiny hole in your airplane window is supposed to be there. I
 // ---------------------------------------------------------------------------
 
 describe('title grammar families', () => {
+  /*
+   * These names moved when the title engine landed, and the old ones are gone on purpose.
+   * `classifyTitleFamily` now delegates to the engine so there is exactly one taxonomy:
+   * keeping a second table here meant the live linter reported "HOW" on the same title the
+   * engine called "MECHANISM", side by side on one screen.
+   */
   it('separates the families this channel rotates through', () => {
-    expect(classifyTitleFamily('Why Manhole Covers Are Round')).toBe('WHY');
-    expect(classifyTitleFamily('How a Gas Pump Knows Your Tank Is Full')).toBe('HOW');
-    expect(classifyTitleFamily("Escalator Brushes Aren't for Your Shoes")).toBe('NEGATION');
-    expect(classifyTitleFamily('The Hidden Reason Manhole Covers Are Round')).toBe('HIDDEN');
-    expect(classifyTitleFamily('That Tiny Hole in a Pen Cap Has a Job')).toBe('OBJECT_JOB');
+    expect(classifyTitleFamily('Why Manhole Covers Are Round')).toBe('OBSERVATION');
+    expect(classifyTitleFamily('How a Gas Pump Knows Your Tank Is Full')).toBe('MECHANISM');
+    expect(classifyTitleFamily("Escalator Brushes Aren't for Your Shoes")).toBe('CONTRADICTION');
+    expect(classifyTitleFamily('The Hidden Reason Manhole Covers Are Round')).toBe('HIDDEN_REASON');
+    // "has a job" wins over "that tiny": the function claim is the more specific signal,
+    // and family order is deliberately most-specific-first.
+    expect(classifyTitleFamily('That Tiny Hole in a Pen Cap Has a Job')).toBe('HIDDEN_FUNCTION');
+    expect(classifyTitleFamily('That Tiny Pocket on Your Jeans')).toBe('OBJECT_MYSTERY');
   });
 
-  it('falls back to CLAIM rather than throwing on an unusual shape', () => {
-    expect(classifyTitleFamily('Airplane Windows, Explained')).toBe('CLAIM');
+  it('falls back to a real category rather than throwing on an unusual shape', () => {
+    // SHORT_DECLARATIVE is a genuine family, not the `/.*/` catch-all the old table used.
+    expect(classifyTitleFamily('Airplane Windows, Explained')).toBe('SHORT_DECLARATIVE');
   });
 });
 

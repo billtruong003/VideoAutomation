@@ -26,6 +26,7 @@ import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { getDb, now } from '../src/youtube/db/index.mjs';
 import { buildBrief } from '../src/youtube/domain/generate.mjs';
+import { buildManifest } from '../src/youtube/domain/manifest.mjs';
 import { generateCandidatePool } from '../src/youtube/metadata/title-candidates.mjs';
 import { evaluatePool, classifyFamily } from '../src/youtube/metadata/title-engine.mjs';
 import { optimiseBatch, batchHealth } from '../src/youtube/metadata/title-batch.mjs';
@@ -208,9 +209,19 @@ if (!DRY) {
       upsert.run(r.contentId, 'description', r.description, null, null,
         JSON.stringify(r.descriptionLint), 'description-engine', now());
 
+      /*
+       * Create the manifest if it does not exist yet.
+       *
+       * Only one episode had ever been opened in Publish Studio, so only one had a manifest
+       * row -- and updating "if (row)" silently skipped the other nine. They locked their
+       * title and description into metadata_candidate and lost their tags and publish
+       * defaults entirely, which showed up as nine DRAFT rows with zero tags on the batch
+       * screen. Locking metadata has to create the record it is locking.
+       */
       const row = db.prepare('SELECT manifest_json FROM publish_manifest WHERE content_id = ?').get(r.contentId);
-      if (row) {
-        const m = JSON.parse(row.manifest_json);
+      const content = rows.find((c) => c.content_id === r.contentId);
+      const m = row ? JSON.parse(row.manifest_json) : buildManifest(content);
+      {
         m.metadata.selectedTitle = r.title;
         m.metadata.description = r.description;
         m.metadata.tags = r.tags;
@@ -226,8 +237,16 @@ if (!DRY) {
           containsSyntheticMedia: defaults.containsSyntheticMedia,
           playlistId: PLAYLIST_ID,
         };
-        db.prepare('UPDATE publish_manifest SET manifest_json = ?, updated_at = ? WHERE content_id = ?')
-          .run(JSON.stringify(m), now(), r.contentId);
+        if (row) {
+          db.prepare('UPDATE publish_manifest SET manifest_json = ?, metadata_hash = ?, updated_at = ? WHERE content_id = ?')
+            .run(JSON.stringify(m), r.metadataHash, now(), r.contentId);
+        } else {
+          db.prepare(`INSERT INTO publish_manifest
+                        (content_id, schema_version, state, manifest_json, metadata_hash, created_at, updated_at)
+                      VALUES (?,?,?,?,?,?,?)`)
+            .run(r.contentId, m.schemaVersion, content.publish_state ?? 'METADATA_READY',
+              JSON.stringify(m), r.metadataHash, now(), now());
+        }
       }
     }
   })();

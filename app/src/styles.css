@@ -339,3 +339,38 @@ details.raw pre {
 .btn.play { font-size: 11px; min-width: 26px; padding: 4px 7px; }
 .row-imported td { background: rgba(46, 158, 143, .05); }
 .grid.c4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+
+/* ------------------------------------------------------------ title engine */
+
+/*
+ * The three layers are visually distinct on purpose. A gate is pass/fail and a dimension is
+ * a quantity, and showing them in the same style is what let truthfulness read as a score in
+ * the first place.
+ */
+.gates { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0; }
+.gate {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 11.5px; padding: 3px 8px; border-radius: 5px;
+  background: #E7F5F1; color: #1C6B5F; border: 1px solid #C6E7DE;
+}
+.gate.fail { background: #FCEAE6; color: #8E2A1B; border-color: #F1C6BC; }
+
+.dims { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; font-size: 12px; margin-top: 8px; }
+.dim-label { color: var(--ink-soft); }
+.dim-bar { position: relative; height: 4px; border-radius: 2px; background: var(--paper-shade); grid-column: 1 / -1; margin-bottom: 5px; }
+.dim-fill { height: 100%; border-radius: 2px; background: var(--teal); }
+.dim-fill.part { background: var(--gold); }
+.dim-value { font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 600; }
+
+.deduction { display: flex; justify-content: space-between; gap: 10px; font-size: 12px; padding: 3px 0; }
+.deduction b { color: var(--coral); font-variant-numeric: tabular-nums; }
+
+.final-score { display: flex; align-items: baseline; gap: 8px; margin: 10px 0 2px; }
+.final-score .n { font-size: 30px; font-weight: 750; letter-spacing: -.02em; line-height: 1; }
+.final-score .of { font-size: 12px; color: var(--ink-faint); }
+.score-maths { font-size: 11.5px; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+
+.repeat-mark { background: #FDF0D2; border-radius: 3px; padding: 0 3px; }
+td.over { color: var(--coral); font-weight: 600; }
+.evidence { font-size: 11.5px; color: var(--ink-faint); line-height: 1.6; margin-top: 8px; }
+.candidate.rejected { opacity: .62; }
