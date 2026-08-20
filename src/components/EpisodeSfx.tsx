@@ -23,34 +23,55 @@ import React from 'react';
 import { Audio, Sequence, staticFile } from 'remotion';
 import type { Storyboard } from '../episodes/registry';
 
-type Rule = { test: RegExp; file: string; volume: number };
+type Rule = { test: RegExp; file: string; volume: number; weight: Weight };
+
+/**
+ * How much a sound is carrying.
+ *
+ * STRUCTURAL cues mark a story beat -- the slam, the reveal, the thing clicking shut. They
+ * are the ones a viewer would miss.
+ *
+ * TEXTURE cues were doing atmospheric work: a flicker, a rattle, dust settling. The music bed
+ * now does that job continuously and better, so keeping them means two things filling the
+ * same space and a mix that never rests. They are dropped whenever an episode has a bed.
+ */
+type Weight = 'STRUCTURAL' | 'TEXTURE';
+
+/** The brief asks for 2-6 meaningful effects per Short, and it is right to. */
+const MAX_CUES = 6;
 
 /**
  * First match wins, so the table is ordered most-specific first. A beat that both "slams in"
  * and "pops" should read as the slam.
  */
 const RULES: Rule[] = [
-  { test: /record[- ]scratch|hard cut:|hard interruption/i, file: 'record-scratch', volume: 0.3 },
-  { test: /slams?|stamps?|snaps? (?:shut|in|onto)|clunk|thump|lands hard/i, file: 'impact', volume: 0.28 },
-  { test: /camera punch|jolts|impact lines|drops straight down/i, file: 'impact', volume: 0.24 },
-  { test: /\bclick\b|clicks|seats perfectly|valve shuts/i, file: 'tick', volume: 0.26 },
-  { test: /crossed out|vanishe?s?|blinks out|pops out of existence|fades? to|blows away|dissolve/i, file: 'vanish', volume: 0.24 },
-  { test: /sparkles?|glows?|blazes|lights up|spotlight|reveal/i, file: 'reveal-sting', volume: 0.2 },
-  { test: /pops? (?:in|on|back)|pops\b|outlines?|labels?|circles? (?:teal|coral)/i, file: 'pop', volume: 0.2 },
-  { test: /slides?|swings?|sweeps?|dives?|pulls? back|streams?|rolls?|whips?|yanked|drifts? past/i, file: 'whoosh', volume: 0.2 },
-  { test: /ticks?|clock hands|counts?/i, file: 'tick', volume: 0.18 },
-  { test: /rattles?|shuffles?|stacks? up|clutter|flakes?|dust/i, file: 'chip-clack', volume: 0.16 },
-  { test: /flashes?|pulses?|flickers?|beeps?/i, file: 'blip', volume: 0.16 },
+  { test: /record[- ]scratch|hard cut:|hard interruption/i, file: 'record-scratch', volume: 0.3, weight: 'STRUCTURAL' },
+  { test: /slams?|stamps?|snaps? (?:shut|in|onto)|clunk|thump|lands hard/i, file: 'impact', volume: 0.28, weight: 'STRUCTURAL' },
+  { test: /camera punch|jolts|impact lines|drops straight down/i, file: 'impact', volume: 0.24, weight: 'STRUCTURAL' },
+  { test: /\bclick\b|clicks|seats perfectly|valve shuts/i, file: 'tick', volume: 0.26, weight: 'STRUCTURAL' },
+  { test: /crossed out|vanishe?s?|blinks out|pops out of existence|fades? to|blows away|dissolve/i, file: 'vanish', volume: 0.24, weight: 'STRUCTURAL' },
+  { test: /sparkles?|glows?|blazes|lights up|spotlight|reveal/i, file: 'reveal-sting', volume: 0.2, weight: 'STRUCTURAL' },
+  { test: /pops? (?:in|on|back)|pops\b|outlines?|labels?|circles? (?:teal|coral)/i, file: 'pop', volume: 0.2, weight: 'TEXTURE' },
+  { test: /slides?|swings?|sweeps?|dives?|pulls? back|streams?|rolls?|whips?|yanked|drifts? past/i, file: 'whoosh', volume: 0.2, weight: 'STRUCTURAL' },
+  { test: /ticks?|clock hands|counts?/i, file: 'tick', volume: 0.18, weight: 'TEXTURE' },
+  { test: /rattles?|shuffles?|stacks? up|clutter|flakes?|dust/i, file: 'chip-clack', volume: 0.16, weight: 'TEXTURE' },
+  { test: /flashes?|pulses?|flickers?|beeps?/i, file: 'blip', volume: 0.16, weight: 'TEXTURE' },
 ];
 
 /** Beats that are purely a held expression or a look get nothing. */
 const SILENT = /deadpan|looks at|watches|expression|blissful|content|nods?|stares?|thinks?|leans in/i;
 
-export type SfxCue = { file: string; at: number; volume: number; note: string };
+export type SfxCue = { file: string; at: number; volume: number; note: string; weight: Weight };
 
-/** Derive the cue sheet for one episode. Pure — safe to memoise per storyboard. */
-export function cuesFor(storyboard: Storyboard): SfxCue[] {
-  const cues: SfxCue[] = [];
+/**
+ * Derive the cue sheet for one episode. Pure — safe to memoise per storyboard.
+ *
+ * `hasBed` matters: with music underneath, texture cues are covered and the effects that
+ * remain should be the ones marking story beats. Without it, texture is all the atmosphere
+ * the episode has, so it stays.
+ */
+export function cuesFor(storyboard: Storyboard, { hasBed = false } = {}): SfxCue[] {
+  const found: SfxCue[] = [];
   let lastAt = -Infinity;
 
   const beats = storyboard.scenes
@@ -61,20 +82,53 @@ export function cuesFor(storyboard: Storyboard): SfxCue[] {
     if (SILENT.test(beat.action) && !/slams?|stamps?|pops?/i.test(beat.action)) continue;
     const rule = RULES.find((r) => r.test.test(beat.action));
     if (!rule) continue;
+    if (hasBed && rule.weight === 'TEXTURE') continue;
     // Two sounds inside 140 ms read as one messy noise, so the second is dropped.
     if (beat.t - lastAt < 0.14) continue;
     lastAt = beat.t;
-    cues.push({ file: rule.file, at: beat.t, volume: rule.volume, note: `${beat.scene}: ${beat.action.slice(0, 60)}` });
+    found.push({
+      file: rule.file, at: beat.t, volume: rule.volume, weight: rule.weight,
+      note: `${beat.scene}: ${beat.action.slice(0, 60)}`,
+    });
   }
 
-  return cues;
+  if (found.length <= MAX_CUES) return found;
+
+  /*
+   * Over budget. Volume in the rule table is already a judgement about how much a sound is
+   * carrying -- a slam at 0.28 earns its place over a pop at 0.2 -- so it drives the ranking.
+   *
+   * But ranking on volume ALONE picks the same sound over and over: `impact` is the loudest
+   * rule, and a straight sort left episodes with five impacts out of six, which is more
+   * monotonous than the busy version it replaced. So each repeat of a sound already chosen
+   * costs it, and cues too close to one already kept cost more. The result keeps the strong
+   * beats while staying varied and spread out.
+   */
+  const kept: SfxCue[] = [];
+  const remaining = [...found];
+
+  while (kept.length < MAX_CUES && remaining.length) {
+    let bestIdx = 0;
+    let bestScore = -Infinity;
+    for (let i = 0; i < remaining.length; i++) {
+      const cue = remaining[i];
+      const repeats = kept.filter((k) => k.file === cue.file).length;
+      const crowded = kept.some((k) => Math.abs(k.at - cue.at) < 1.2);
+      const score = cue.volume - repeats * 0.07 - (crowded ? 0.12 : 0);
+      if (score > bestScore) { bestScore = score; bestIdx = i; }
+    }
+    kept.push(remaining.splice(bestIdx, 1)[0]);
+  }
+
+  return kept.sort((a, b) => a.at - b.at);
 }
 
-export const EpisodeSfx: React.FC<{ storyboard: Storyboard; fps: number }> = ({
+export const EpisodeSfx: React.FC<{ storyboard: Storyboard; fps: number; hasBed?: boolean }> = ({
   storyboard,
   fps,
+  hasBed = false,
 }) => {
-  const cues = React.useMemo(() => cuesFor(storyboard), [storyboard]);
+  const cues = React.useMemo(() => cuesFor(storyboard, { hasBed }), [storyboard, hasBed]);
 
   return (
     <>

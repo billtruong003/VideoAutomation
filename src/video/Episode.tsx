@@ -16,7 +16,7 @@ import React from 'react';
 import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 
 import { EpisodeCaption, type CaptionHighlights } from '../components/EpisodeCaption';
-import { EpisodeMusic } from '../components/EpisodeMusic';
+import { EpisodeMusic, MUSIC_PLAN } from '../components/EpisodeMusic';
 import { EpisodeSfx } from '../components/EpisodeSfx';
 import { clockFor, STORYBOARDS, type EpisodeId } from '../episodes/registry';
 import { SCENE_MODULES } from '../episodes/scenes';
@@ -40,7 +40,7 @@ export const Episode: React.FC<{ id: EpisodeId }> = ({ id }) => {
         duration={clock.TOTAL_FRAMES / fps}
         fps={fps}
       />
-      <EpisodeSfx storyboard={storyboard} fps={fps} />
+      <EpisodeSfx storyboard={storyboard} fps={fps} hasBed={Boolean(MUSIC_PLAN[id])} />
 
       {clock.SCENE_SPANS.map((span) => {
         const Scene = mod.SCENES[span.id];
