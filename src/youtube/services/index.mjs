@@ -467,6 +467,15 @@ export function getManifest(id) {
   const row = db.prepare('SELECT * FROM publish_manifest WHERE content_id = ?').get(id);
   const manifest = row ? JSON.parse(row.manifest_json) : buildManifest(content);
 
+  /*
+   * `audio` is DERIVED from the exported plan, not edited by anyone, so it is refreshed on
+   * every read rather than trusted from whenever the manifest happened to be saved. A stored
+   * copy would describe the mix as it was at save time and keep asserting that after the mix
+   * changed -- which is exactly the claim the licence warning must never get wrong. It also
+   * means a manifest saved before this field existed picks it up without a migration.
+   */
+  manifest.audio = buildManifest(content).audio;
+
   return {
     manifest,
     state: row?.state ?? content.publish_state,
