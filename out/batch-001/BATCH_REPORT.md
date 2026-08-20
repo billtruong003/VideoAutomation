@@ -10,9 +10,9 @@ Every number below is read from the artifacts the pipeline produced, not transcr
 | | |
 |---|---|
 | Remote | `https://github.com/billtruong003/VideoAutomation.git` |
-| Branch | `main` |
+| Branch | `feat/youtube-creator-os-ui` |
 | Previous HEAD | `8008c46` — *Dial the character's hand independently of the world's* |
-| Final HEAD | `a0325d6` — *Merge pull request #1 from billtruong003/character-system-v1* |
+| Final HEAD | `e364fe8` — *Measure the bed on the mix alone, because the reference was the noisy part* |
 | Sync method | fast-forward merge of `origin/main` |
 | Local work | stashed, restored, one conflict resolved in favour of upstream |
 
@@ -289,7 +289,7 @@ evidence available that Character System V1.0 is correctly scoped.
 
 | | |
 |---|---|
-| Repository synced | **yes** — fast-forward to `a0325d6`, local work preserved |
+| Repository synced | **yes** — fast-forward to `e364fe8`, local work preserved |
 | Pairs resolved and validated | **10/10** |
 | Narrations processed and **LOCKED** | **10/10** |
 | Storyboards passing the pacing gate | **10/10** |
