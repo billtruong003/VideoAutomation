@@ -221,6 +221,95 @@ const MIGRATIONS = [
       CREATE INDEX idx_approval_content ON approval(content_id);
     `,
   },
+  {
+    id: 2,
+    name: 'audio-library',
+    sql: `
+      -- One row per file discovered in an external pack. The packs stay READ-ONLY; this is
+      -- an index of them, not a copy. Absolute source paths live here, in the local database,
+      -- and deliberately never in a portable manifest.
+      CREATE TABLE audio_source (
+        id             INTEGER PRIMARY KEY AUTOINCREMENT,
+        sha256         TEXT,
+        pack           TEXT NOT NULL,
+        path           TEXT NOT NULL UNIQUE,
+        filename       TEXT NOT NULL,
+        ext            TEXT,
+        bytes          INTEGER,
+        mtime          REAL,
+        duration_s     REAL,
+        sample_rate    INTEGER,
+        channels       INTEGER,
+        codec          TEXT,
+        bitrate_kbps   INTEGER,
+        peak_db        REAL,
+        rms_db         REAL,
+        silence_ratio  REAL,
+        fingerprint    TEXT,
+        category       TEXT,
+        subcategory    TEXT,
+        tags           TEXT,
+        provenance     TEXT NOT NULL DEFAULT 'UNKNOWN',
+        valid          INTEGER NOT NULL DEFAULT 1,
+        error          TEXT,
+        dup_of         INTEGER,
+        dup_kind       TEXT,          -- 'EXACT' | 'NEAR'
+        shortlisted    INTEGER NOT NULL DEFAULT 0,
+        imported_id    TEXT,
+        scanned_at     TEXT NOT NULL
+      );
+
+      -- Assets actually copied into the repository. Portable: no absolute source path.
+      CREATE TABLE audio_asset (
+        id             TEXT PRIMARY KEY,      -- e.g. sfx-reveal-ding-001
+        type           TEXT NOT NULL,         -- 'sfx' | 'music'
+        category       TEXT,
+        subcategory    TEXT,
+        tags           TEXT,
+        rel_path       TEXT NOT NULL UNIQUE,  -- relative to public/
+        sha256         TEXT NOT NULL,
+        duration_s     REAL,
+        peak_db        REAL,
+        rms_db         REAL,
+        source_pack    TEXT,
+        source_filename TEXT,
+        provenance     TEXT NOT NULL,
+        usage_count    INTEGER NOT NULL DEFAULT 0,
+        imported_at    TEXT NOT NULL
+      );
+
+      -- Where each asset is used, so repetition across episodes is measurable.
+      CREATE TABLE audio_usage (
+        id          INTEGER PRIMARY KEY AUTOINCREMENT,
+        asset_id    TEXT NOT NULL REFERENCES audio_asset(id) ON DELETE CASCADE,
+        content_id  TEXT NOT NULL,
+        role        TEXT,
+        at_seconds  REAL,
+        created_at  TEXT NOT NULL,
+        UNIQUE(asset_id, content_id, at_seconds)
+      );
+
+      CREATE INDEX idx_src_pack     ON audio_source(pack);
+      CREATE INDEX idx_src_cat      ON audio_source(category, subcategory);
+      CREATE INDEX idx_src_dup      ON audio_source(dup_of);
+      CREATE INDEX idx_src_fp       ON audio_source(fingerprint);
+      CREATE INDEX idx_usage_asset  ON audio_usage(asset_id);
+      CREATE INDEX idx_usage_content ON audio_usage(content_id);
+    `,
+  },
+  {
+    id: 3,
+    name: 'audio-risk',
+    sql: `
+      -- Risk is deliberately separate from category. Category answers "what is this
+      -- sound?"; risk answers "can this channel actually use it?". The scan showed the
+      -- two are almost independent -- plenty of correctly-categorised impacts are
+      -- unusable because they are a franchise sting.
+      ALTER TABLE audio_source ADD COLUMN risk         TEXT;
+      ALTER TABLE audio_source ADD COLUMN risk_reasons TEXT;
+      CREATE INDEX idx_src_risk ON audio_source(risk);
+    `,
+  },
 ];
 
 export function getDb() {

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "creator-os",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "tools/creator-os.mjs"
+      ],
+      "port": 5199,
+      "autoPort": false,
+      "env": {
+        "BFO_UI_PORT": "5199"
+      }
+    }
+  ]
+}
