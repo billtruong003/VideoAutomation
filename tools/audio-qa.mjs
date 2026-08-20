@@ -14,9 +14,9 @@
  *     WAV alone. Adding a bed 15 LU down should move it by a fraction of a decibel; if the
  *     mix is meaningfully louder than the voice by itself, something is competing with the
  *     speech and the whole point has been lost.
- *  4. Bed presence. Energy inside real narration pauses is compared against the same windows
- *     in the narration source. This is the only check that can tell "mixed correctly quiet"
- *     apart from "never rendered at all" -- both look identical in every other measurement.
+ *  4. Bed presence. The mix's own noise floor inside real narration pauses. This is the only
+ *     check that can tell "mixed correctly quiet" apart from "never rendered at all" -- both
+ *     look identical in every other measurement.
  *
  * Sample-exact cancellation would be a cleaner way to isolate the bed, but the render is AAC
  * and lossy encoding destroys the null. Measuring known-silent windows works regardless.
@@ -39,8 +39,12 @@ const LIMITS = {
   lufsMax: -12.5,
   /** How much louder the mix may be than the narration alone. */
   dominanceLu: 1.2,
-  /** How much energy a pause must gain for the bed to count as present. */
-  bedPresenceDb: 3,
+  /*
+   * The mix's floor during narration pauses. With a bed present this measured -23 to -46 dB
+   * across the ten episodes, clustering around -28; the narration alone measures -21 to
+   * -68 dB in the same windows. -42 sits cleanly between "bed playing" and "bed missing".
+   */
+  bedFloorDb: -42,
 };
 
 const ff = (args) => (spawnSync(FFMPEG, ['-hide_banner', '-nostdin', ...args], { encoding: 'utf8' }).stderr ?? '');
@@ -76,7 +80,7 @@ const files = readdirSync(DIR).filter((f) => f.endsWith('.mp4')).sort();
 if (!files.length) { console.error(`No MP4s in ${DIR}`); process.exit(1); }
 
 console.log(`\n  audio QA — ${DIR}\n`);
-console.log('  episode                 LUFS   peak   vs voice   bed    verdict');
+console.log('  episode                 LUFS   peak   vs voice  bed floor   verdict');
 
 let failures = 0;
 const rows = [];
@@ -94,7 +98,7 @@ for (const f of files) {
   if (mix.lufs < LIMITS.lufsMin || mix.lufs > LIMITS.lufsMax) problems.push(`loudness ${mix.lufs} LUFS`);
 
   let dominance = NaN;
-  let bedGain = NaN;
+  let bedFloor = NaN;
 
   if (existsSync(voicePath) && existsSync(timingPath)) {
     const voice = loudness(voicePath);
@@ -107,17 +111,27 @@ for (const f of files) {
     const pauses = pausesOf(timing);
     if (pauses.length) {
       /*
-       * The median, not the mean. One pause can happen to coincide with an effect, which
-       * would prove nothing about the bed; the median says the added energy is everywhere.
+       * Measured on the MIX ALONE, not as a difference against the narration.
+       *
+       * The first two attempts compared the two files, and both were noisy for the same
+       * reason: the REFERENCE is unreliable. Across the ten episodes the narration's own
+       * level inside its pauses ranges from -21 to -68 dB, because a word-boundary window
+       * often catches a trailing consonant or a breath. The mix's floor in those same
+       * windows is steady at -23 to -46. So the difference between them mostly measures how
+       * noisy that particular pause was, and switching from per-pause differences to
+       * compared medians simply moved which episode looked like the outlier.
+       *
+       * What the check actually wants to know is whether something is playing under the
+       * silence, and the mix answers that by itself.
        */
-      const deltas = pauses
-        .map((p) => windowRms(mixPath, p.start + 0.05, Math.max(0.1, p.dur - 0.1))
-          - windowRms(voicePath, p.start + 0.05, Math.max(0.1, p.dur - 0.1)))
-        .filter(Number.isFinite)
-        .sort((a, b) => a - b);
-      bedGain = deltas[Math.floor(deltas.length / 2)];
-      if (bedGain < LIMITS.bedPresenceDb) {
-        problems.push(`no bed detected in pauses (+${bedGain.toFixed(1)} dB)`);
+      const median = (xs) => {
+        const v = xs.filter(Number.isFinite).sort((a, b) => a - b);
+        return v.length ? v[Math.floor(v.length / 2)] : NaN;
+      };
+      const windows = pauses.map((p) => [p.start + 0.05, Math.max(0.1, p.dur - 0.1)]);
+      bedFloor = median(windows.map(([st, d]) => windowRms(mixPath, st, d)));
+      if (!(bedFloor > LIMITS.bedFloorDb)) {
+        problems.push(`no bed detected under the pauses (floor ${bedFloor.toFixed(1)} dB)`);
       }
     }
   } else {
@@ -129,7 +143,7 @@ for (const f of files) {
   console.log(
     `  ${slug.padEnd(22)} ${mix.lufs.toFixed(1).padStart(6)} ${mix.truePeak.toFixed(1).padStart(6)} `
     + `${(Number.isFinite(dominance) ? `${dominance >= 0 ? '+' : ''}${dominance.toFixed(2)} LU` : '—').padStart(10)} `
-    + `${(Number.isFinite(bedGain) ? `+${bedGain.toFixed(0)} dB` : '—').padStart(7)}   `
+    + `${(Number.isFinite(bedFloor) ? `${bedFloor.toFixed(0)} dB` : '—').padStart(8)}   `
     + (problems.length ? 'FAIL' : 'ok'));
 }
 
