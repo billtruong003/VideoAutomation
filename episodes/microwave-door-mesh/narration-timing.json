@@ -1,0 +1,951 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/microwave-door-mesh.wav.",
+  "episode": "microwave-door-mesh",
+  "title": "Why You Can See Through A Microwave Door",
+  "audio": "public/audio/microwave-door-mesh.wav",
+  "staticAudio": "audio/microwave-door-mesh.wav",
+  "duration": 29.495,
+  "fps": 30,
+  "rawDuration": 37.642,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11977,
+  "silenceRemoved": 4.615,
+  "wordCount": 95,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Why can you see through a microwave door if the microwaves are supposed to stay trapped inside?",
+      "start": 0.106,
+      "end": 4.411,
+      "wordRange": [
+        0,
+        16
+      ]
+    },
+    {
+      "id": "mesh",
+      "text": "Because that black metal mesh is doing something clever.",
+      "start": 4.68,
+      "end": 7.18,
+      "wordRange": [
+        17,
+        25
+      ]
+    },
+    {
+      "id": "blocked",
+      "text": "Microwave energy has a wavelength much larger than those tiny openings, so the conductive screen strongly blocks it from escaping.",
+      "start": 7.549,
+      "end": 14.321,
+      "wordRange": [
+        26,
+        45
+      ]
+    },
+    {
+      "id": "light",
+      "text": "Visible light has a vastly shorter wavelength, so light can pass through the holes and reach your eyes,",
+      "start": 14.652,
+      "end": 19.771,
+      "wordRange": [
+        46,
+        63
+      ]
+    },
+    {
+      "id": "both",
+      "text": "which means the same door can behave like a window for you while acting like a barrier for the energy cooking your leftovers.",
+      "start": 20.058,
+      "end": 25.917,
+      "wordRange": [
+        64,
+        86
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "Your microwave is basically wearing extremely nerdy sunglasses.",
+      "start": 26.243,
+      "end": 29.457,
+      "wordRange": [
+        87,
+        94
+      ]
+    }
+  ],
+  "keywords": {
+    "see-through": {
+      "start": 0.625,
+      "end": 1.125,
+      "wordIndex": 3
+    },
+    "trapped": {
+      "start": 3.589,
+      "end": 3.948,
+      "wordIndex": 15
+    },
+    "mesh": {
+      "start": 5.753,
+      "end": 5.972,
+      "wordIndex": 21
+    },
+    "clever": {
+      "start": 6.786,
+      "end": 7.18,
+      "wordIndex": 25
+    },
+    "wavelength-big": {
+      "start": 8.705,
+      "end": 9.238,
+      "wordIndex": 30
+    },
+    "openings": {
+      "start": 10.648,
+      "end": 11.162,
+      "wordIndex": 36
+    },
+    "escaping": {
+      "start": 13.78,
+      "end": 14.321,
+      "wordIndex": 45
+    },
+    "wavelength-small": {
+      "start": 16.311,
+      "end": 16.841,
+      "wordIndex": 52
+    },
+    "holes": {
+      "start": 18.432,
+      "end": 18.696,
+      "wordIndex": 59
+    },
+    "eyes": {
+      "start": 19.474,
+      "end": 19.771,
+      "wordIndex": 63
+    },
+    "window": {
+      "start": 21.98,
+      "end": 22.278,
+      "wordIndex": 73
+    },
+    "barrier": {
+      "start": 23.737,
+      "end": 24.09,
+      "wordIndex": 80
+    },
+    "leftovers": {
+      "start": 25.354,
+      "end": 25.917,
+      "wordIndex": 86
+    },
+    "nerdy": {
+      "start": 28.511,
+      "end": 28.812,
+      "wordIndex": 93
+    },
+    "sunglasses": {
+      "start": 28.812,
+      "end": 29.457,
+      "wordIndex": 94
+    }
+  },
+  "captions": [
+    {
+      "text": "Why can you see",
+      "words": [
+        "Why",
+        "can",
+        "you",
+        "see"
+      ],
+      "start": 0.106,
+      "end": 0.797
+    },
+    {
+      "text": "through a microwave",
+      "words": [
+        "through",
+        "a",
+        "microwave"
+      ],
+      "start": 0.797,
+      "end": 1.626
+    },
+    {
+      "text": "door if the microwaves",
+      "words": [
+        "door",
+        "if",
+        "the",
+        "microwaves"
+      ],
+      "start": 1.626,
+      "end": 2.704
+    },
+    {
+      "text": "are supposed to stay",
+      "words": [
+        "are",
+        "supposed",
+        "to",
+        "stay"
+      ],
+      "start": 2.704,
+      "end": 3.589
+    },
+    {
+      "text": "trapped inside?",
+      "words": [
+        "trapped",
+        "inside?"
+      ],
+      "start": 3.589,
+      "end": 4.631
+    },
+    {
+      "text": "Because that black",
+      "words": [
+        "Because",
+        "that",
+        "black"
+      ],
+      "start": 4.68,
+      "end": 5.495
+    },
+    {
+      "text": "metal mesh is doing",
+      "words": [
+        "metal",
+        "mesh",
+        "is",
+        "doing"
+      ],
+      "start": 5.495,
+      "end": 6.368
+    },
+    {
+      "text": "something clever.",
+      "words": [
+        "something",
+        "clever."
+      ],
+      "start": 6.368,
+      "end": 7.4
+    },
+    {
+      "text": "Microwave energy has a",
+      "words": [
+        "Microwave",
+        "energy",
+        "has",
+        "a"
+      ],
+      "start": 7.549,
+      "end": 8.705
+    },
+    {
+      "text": "wavelength much larger",
+      "words": [
+        "wavelength",
+        "much",
+        "larger"
+      ],
+      "start": 8.705,
+      "end": 9.839
+    },
+    {
+      "text": "than those tiny",
+      "words": [
+        "than",
+        "those",
+        "tiny"
+      ],
+      "start": 9.839,
+      "end": 10.648
+    },
+    {
+      "text": "openings,",
+      "words": [
+        "openings,"
+      ],
+      "start": 10.648,
+      "end": 11.162
+    },
+    {
+      "text": "so the conductive",
+      "words": [
+        "so",
+        "the",
+        "conductive"
+      ],
+      "start": 11.162,
+      "end": 12.283
+    },
+    {
+      "text": "screen strongly blocks",
+      "words": [
+        "screen",
+        "strongly",
+        "blocks"
+      ],
+      "start": 12.283,
+      "end": 13.379
+    },
+    {
+      "text": "it from escaping.",
+      "words": [
+        "it",
+        "from",
+        "escaping."
+      ],
+      "start": 13.379,
+      "end": 14.541
+    },
+    {
+      "text": "Visible light has a",
+      "words": [
+        "Visible",
+        "light",
+        "has",
+        "a"
+      ],
+      "start": 14.652,
+      "end": 15.664
+    },
+    {
+      "text": "vastly shorter",
+      "words": [
+        "vastly",
+        "shorter"
+      ],
+      "start": 15.664,
+      "end": 16.311
+    },
+    {
+      "text": "wavelength,",
+      "words": [
+        "wavelength,"
+      ],
+      "start": 16.311,
+      "end": 16.841
+    },
+    {
+      "text": "so light can pass",
+      "words": [
+        "so",
+        "light",
+        "can",
+        "pass"
+      ],
+      "start": 16.841,
+      "end": 17.908
+    },
+    {
+      "text": "through the holes and",
+      "words": [
+        "through",
+        "the",
+        "holes",
+        "and"
+      ],
+      "start": 17.908,
+      "end": 18.986
+    },
+    {
+      "text": "reach your eyes,",
+      "words": [
+        "reach",
+        "your",
+        "eyes,"
+      ],
+      "start": 18.986,
+      "end": 19.991
+    },
+    {
+      "text": "which means the same",
+      "words": [
+        "which",
+        "means",
+        "the",
+        "same"
+      ],
+      "start": 20.058,
+      "end": 20.97
+    },
+    {
+      "text": "door can behave like",
+      "words": [
+        "door",
+        "can",
+        "behave",
+        "like"
+      ],
+      "start": 20.97,
+      "end": 21.882
+    },
+    {
+      "text": "a window for you",
+      "words": [
+        "a",
+        "window",
+        "for",
+        "you"
+      ],
+      "start": 21.882,
+      "end": 22.865
+    },
+    {
+      "text": "while acting like a",
+      "words": [
+        "while",
+        "acting",
+        "like",
+        "a"
+      ],
+      "start": 22.865,
+      "end": 23.737
+    },
+    {
+      "text": "barrier for the energy",
+      "words": [
+        "barrier",
+        "for",
+        "the",
+        "energy"
+      ],
+      "start": 23.737,
+      "end": 24.774
+    },
+    {
+      "text": "cooking your",
+      "words": [
+        "cooking",
+        "your"
+      ],
+      "start": 24.774,
+      "end": 25.354
+    },
+    {
+      "text": "leftovers.",
+      "words": [
+        "leftovers."
+      ],
+      "start": 25.354,
+      "end": 26.137
+    },
+    {
+      "text": "Your microwave is",
+      "words": [
+        "Your",
+        "microwave",
+        "is"
+      ],
+      "start": 26.243,
+      "end": 27.145
+    },
+    {
+      "text": "basically wearing",
+      "words": [
+        "basically",
+        "wearing"
+      ],
+      "start": 27.145,
+      "end": 28.025
+    },
+    {
+      "text": "extremely nerdy",
+      "words": [
+        "extremely",
+        "nerdy"
+      ],
+      "start": 28.025,
+      "end": 28.812
+    },
+    {
+      "text": "sunglasses.",
+      "words": [
+        "sunglasses."
+      ],
+      "start": 28.812,
+      "end": 29.495
+    }
+  ],
+  "words": [
+    {
+      "text": "Why",
+      "start": 0.106,
+      "end": 0.28
+    },
+    {
+      "text": "can",
+      "start": 0.28,
+      "end": 0.452
+    },
+    {
+      "text": "you",
+      "start": 0.452,
+      "end": 0.625
+    },
+    {
+      "text": "see",
+      "start": 0.625,
+      "end": 0.797
+    },
+    {
+      "text": "through",
+      "start": 0.797,
+      "end": 1.125
+    },
+    {
+      "text": "a",
+      "start": 1.125,
+      "end": 1.221
+    },
+    {
+      "text": "microwave",
+      "start": 1.221,
+      "end": 1.626
+    },
+    {
+      "text": "door",
+      "start": 1.626,
+      "end": 1.837
+    },
+    {
+      "text": "if",
+      "start": 1.837,
+      "end": 2.088
+    },
+    {
+      "text": "the",
+      "start": 2.088,
+      "end": 2.26
+    },
+    {
+      "text": "microwaves",
+      "start": 2.26,
+      "end": 2.704
+    },
+    {
+      "text": "are",
+      "start": 2.704,
+      "end": 2.877
+    },
+    {
+      "text": "supposed",
+      "start": 2.877,
+      "end": 3.243
+    },
+    {
+      "text": "to",
+      "start": 3.243,
+      "end": 3.377
+    },
+    {
+      "text": "stay",
+      "start": 3.377,
+      "end": 3.589
+    },
+    {
+      "text": "trapped",
+      "start": 3.589,
+      "end": 3.948
+    },
+    {
+      "text": "inside?",
+      "start": 3.948,
+      "end": 4.411
+    },
+    {
+      "text": "Because",
+      "start": 4.68,
+      "end": 5.019
+    },
+    {
+      "text": "that",
+      "start": 5.019,
+      "end": 5.237
+    },
+    {
+      "text": "black",
+      "start": 5.237,
+      "end": 5.495
+    },
+    {
+      "text": "metal",
+      "start": 5.495,
+      "end": 5.753
+    },
+    {
+      "text": "mesh",
+      "start": 5.753,
+      "end": 5.972
+    },
+    {
+      "text": "is",
+      "start": 5.972,
+      "end": 6.11
+    },
+    {
+      "text": "doing",
+      "start": 6.11,
+      "end": 6.368
+    },
+    {
+      "text": "something",
+      "start": 6.368,
+      "end": 6.786
+    },
+    {
+      "text": "clever.",
+      "start": 6.786,
+      "end": 7.18
+    },
+    {
+      "text": "Microwave",
+      "start": 7.549,
+      "end": 8.036
+    },
+    {
+      "text": "energy",
+      "start": 8.036,
+      "end": 8.382
+    },
+    {
+      "text": "has",
+      "start": 8.382,
+      "end": 8.591
+    },
+    {
+      "text": "a",
+      "start": 8.591,
+      "end": 8.705
+    },
+    {
+      "text": "wavelength",
+      "start": 8.705,
+      "end": 9.238
+    },
+    {
+      "text": "much",
+      "start": 9.238,
+      "end": 9.492
+    },
+    {
+      "text": "larger",
+      "start": 9.492,
+      "end": 9.839
+    },
+    {
+      "text": "than",
+      "start": 9.839,
+      "end": 10.093
+    },
+    {
+      "text": "those",
+      "start": 10.093,
+      "end": 10.394
+    },
+    {
+      "text": "tiny",
+      "start": 10.394,
+      "end": 10.648
+    },
+    {
+      "text": "openings,",
+      "start": 10.648,
+      "end": 11.162
+    },
+    {
+      "text": "so",
+      "start": 11.162,
+      "end": 11.561
+    },
+    {
+      "text": "the",
+      "start": 11.561,
+      "end": 11.768
+    },
+    {
+      "text": "conductive",
+      "start": 11.768,
+      "end": 12.283
+    },
+    {
+      "text": "screen",
+      "start": 12.283,
+      "end": 12.619
+    },
+    {
+      "text": "strongly",
+      "start": 12.619,
+      "end": 13.044
+    },
+    {
+      "text": "blocks",
+      "start": 13.044,
+      "end": 13.379
+    },
+    {
+      "text": "it",
+      "start": 13.379,
+      "end": 13.535
+    },
+    {
+      "text": "from",
+      "start": 13.535,
+      "end": 13.78
+    },
+    {
+      "text": "escaping.",
+      "start": 13.78,
+      "end": 14.321
+    },
+    {
+      "text": "Visible",
+      "start": 14.652,
+      "end": 14.996
+    },
+    {
+      "text": "light",
+      "start": 14.996,
+      "end": 15.257
+    },
+    {
+      "text": "has",
+      "start": 15.257,
+      "end": 15.564
+    },
+    {
+      "text": "a",
+      "start": 15.564,
+      "end": 15.664
+    },
+    {
+      "text": "vastly",
+      "start": 15.664,
+      "end": 15.967
+    },
+    {
+      "text": "shorter",
+      "start": 15.967,
+      "end": 16.311
+    },
+    {
+      "text": "wavelength,",
+      "start": 16.311,
+      "end": 16.841
+    },
+    {
+      "text": "so",
+      "start": 16.841,
+      "end": 17.242
+    },
+    {
+      "text": "light",
+      "start": 17.242,
+      "end": 17.504
+    },
+    {
+      "text": "can",
+      "start": 17.504,
+      "end": 17.685
+    },
+    {
+      "text": "pass",
+      "start": 17.685,
+      "end": 17.908
+    },
+    {
+      "text": "through",
+      "start": 17.908,
+      "end": 18.25
+    },
+    {
+      "text": "the",
+      "start": 18.25,
+      "end": 18.432
+    },
+    {
+      "text": "holes",
+      "start": 18.432,
+      "end": 18.696
+    },
+    {
+      "text": "and",
+      "start": 18.696,
+      "end": 18.986
+    },
+    {
+      "text": "reach",
+      "start": 18.986,
+      "end": 19.25
+    },
+    {
+      "text": "your",
+      "start": 19.25,
+      "end": 19.474
+    },
+    {
+      "text": "eyes,",
+      "start": 19.474,
+      "end": 19.771
+    },
+    {
+      "text": "which",
+      "start": 20.058,
+      "end": 20.317
+    },
+    {
+      "text": "means",
+      "start": 20.317,
+      "end": 20.574
+    },
+    {
+      "text": "the",
+      "start": 20.574,
+      "end": 20.752
+    },
+    {
+      "text": "same",
+      "start": 20.752,
+      "end": 20.97
+    },
+    {
+      "text": "door",
+      "start": 20.97,
+      "end": 21.188
+    },
+    {
+      "text": "can",
+      "start": 21.188,
+      "end": 21.366
+    },
+    {
+      "text": "behave",
+      "start": 21.366,
+      "end": 21.664
+    },
+    {
+      "text": "like",
+      "start": 21.664,
+      "end": 21.882
+    },
+    {
+      "text": "a",
+      "start": 21.882,
+      "end": 21.98
+    },
+    {
+      "text": "window",
+      "start": 21.98,
+      "end": 22.278
+    },
+    {
+      "text": "for",
+      "start": 22.278,
+      "end": 22.456
+    },
+    {
+      "text": "you",
+      "start": 22.456,
+      "end": 22.865
+    },
+    {
+      "text": "while",
+      "start": 22.865,
+      "end": 23.123
+    },
+    {
+      "text": "acting",
+      "start": 23.123,
+      "end": 23.42
+    },
+    {
+      "text": "like",
+      "start": 23.42,
+      "end": 23.638
+    },
+    {
+      "text": "a",
+      "start": 23.638,
+      "end": 23.737
+    },
+    {
+      "text": "barrier",
+      "start": 23.737,
+      "end": 24.09
+    },
+    {
+      "text": "for",
+      "start": 24.09,
+      "end": 24.276
+    },
+    {
+      "text": "the",
+      "start": 24.276,
+      "end": 24.463
+    },
+    {
+      "text": "energy",
+      "start": 24.463,
+      "end": 24.774
+    },
+    {
+      "text": "cooking",
+      "start": 24.774,
+      "end": 25.127
+    },
+    {
+      "text": "your",
+      "start": 25.127,
+      "end": 25.354
+    },
+    {
+      "text": "leftovers.",
+      "start": 25.354,
+      "end": 25.917
+    },
+    {
+      "text": "Your",
+      "start": 26.243,
+      "end": 26.498
+    },
+    {
+      "text": "microwave",
+      "start": 26.498,
+      "end": 26.983
+    },
+    {
+      "text": "is",
+      "start": 26.983,
+      "end": 27.145
+    },
+    {
+      "text": "basically",
+      "start": 27.145,
+      "end": 27.632
+    },
+    {
+      "text": "wearing",
+      "start": 27.632,
+      "end": 28.025
+    },
+    {
+      "text": "extremely",
+      "start": 28.025,
+      "end": 28.511
+    },
+    {
+      "text": "nerdy",
+      "start": 28.511,
+      "end": 28.812
+    },
+    {
+      "text": "sunglasses.",
+      "start": 28.812,
+      "end": 29.457
+    }
+  ]
+}

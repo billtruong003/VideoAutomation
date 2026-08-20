@@ -1,0 +1,267 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "escalator-brushes",
+  "title": "Escalator Brushes Are Not For Your Shoes",
+  "audio": "public/audio/escalator-brushes.wav",
+  "fps": 30,
+  "narrationDuration": 25.952,
+  "beatCount": 22,
+  "longestGap": 1.692,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.065,
+      "end": 4.51,
+      "startFrame": 2,
+      "endFrame": 135,
+      "duration": 4.445,
+      "narration": "Those brushes on the side of an escalator are not there to clean your shoes. They're warning you.",
+      "background": "MallEscalator",
+      "note": "Open mid-misuse. Dex is already scrubbing his shoe on the brush, delighted.",
+      "cast": [
+        "bill",
+        "dex"
+      ],
+      "beats": [
+        {
+          "t": 0.065,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Dex crouched at the escalator edge scrubbing a shoe against the brush, grinning; Bill watches, unsure"
+        },
+        {
+          "t": 1.359,
+          "frame": 41,
+          "tInScene": 1.294,
+          "frameInScene": 39,
+          "action": "Bill edges closer to look at what Dex is doing, still not understanding it",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 2.652,
+          "frame": 80,
+          "tInScene": 2.587,
+          "frameInScene": 78,
+          "action": "a NOT A SHOE CLEANER card slams over the brush; Dex freezes mid-scrub",
+          "sync": "keyword: clean"
+        },
+        {
+          "t": 3.939,
+          "frame": 118,
+          "tInScene": 3.874,
+          "frameInScene": 116,
+          "action": "the brush turns coral and pulses; three warning marks burst above it; camera punch",
+          "sync": "keyword: warning — the reframe"
+        }
+      ]
+    },
+    {
+      "scene": "gap",
+      "start": 4.784,
+      "end": 9.374,
+      "startFrame": 144,
+      "endFrame": 281,
+      "duration": 4.59,
+      "narration": "The dangerous part is the tiny gap between the moving steps and the stationary side panel.",
+      "background": "MallEscalatorCloseup",
+      "note": "The mechanism. Camera goes in tight on the seam so the gap is unmissable.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 4.784,
+          "frame": 144,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "hard cut to a tight side view of the step edge meeting the side panel"
+        },
+        {
+          "t": 6.44,
+          "frame": 193,
+          "tInScene": 1.656,
+          "frameInScene": 50,
+          "action": "the gap between moving step and fixed panel lights up coral; an arrow labels it",
+          "sync": "keyword: gap"
+        },
+        {
+          "t": 7.185,
+          "frame": 216,
+          "tInScene": 2.401,
+          "frameInScene": 72,
+          "action": "the steps start moving and the panel visibly does not; the shear at the seam is the whole point",
+          "sync": "keyword: moving steps"
+        },
+        {
+          "t": 8.362,
+          "frame": 251,
+          "tInScene": 3.578,
+          "frameInScene": 107,
+          "action": "the panel flashes STATIONARY; the contrast holds for a beat",
+          "sync": "keyword: stationary side panel"
+        }
+      ]
+    },
+    {
+      "scene": "danger",
+      "start": 9.76,
+      "end": 12.706,
+      "startFrame": 293,
+      "endFrame": 381,
+      "duration": 2.946,
+      "narration": "Loose shoelaces, clothes, or bags can get caught there,",
+      "background": "MallEscalatorCloseup",
+      "note": "Three things get eaten in sequence. Fast, rhythmic, escalating — then Mochi.",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "beats": [
+        {
+          "t": 10.027,
+          "frame": 301,
+          "tInScene": 0.267,
+          "frameInScene": 8,
+          "action": "a loose shoelace whips into the gap and vanishes with a snap",
+          "sync": "keyword: shoelaces"
+        },
+        {
+          "t": 10.527,
+          "frame": 316,
+          "tInScene": 0.767,
+          "frameInScene": 23,
+          "action": "a coat hem follows it in",
+          "sync": "keyword: clothes"
+        },
+        {
+          "t": 11.282,
+          "frame": 338,
+          "tInScene": 1.522,
+          "frameInScene": 46,
+          "action": "a shopping bag is yanked down and gone; Bill goes horrified",
+          "sync": "keyword: bags"
+        },
+        {
+          "t": 11.876,
+          "frame": 356,
+          "tInScene": 2.116,
+          "frameInScene": 63,
+          "action": "Mochi's tail drifts toward the seam; she is stolen off-frame at speed and reappears above, unimpressed",
+          "sync": "keyword: caught — the gag on top of the danger"
+        }
+      ]
+    },
+    {
+      "scene": "mechanism",
+      "start": 13.059,
+      "end": 17.381,
+      "startFrame": 392,
+      "endFrame": 521,
+      "duration": 4.322,
+      "narration": "so the brushes touch your shoes and naturally encourage you to move your feet away from the edge.",
+      "background": "MallEscalatorCloseup",
+      "note": "The brushes finally do their real job, on screen, to Bill's foot.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 13.059,
+          "frame": 392,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "camera pulls back to Bill standing too close to the edge"
+        },
+        {
+          "t": 14.845,
+          "frame": 445,
+          "tInScene": 1.786,
+          "frameInScene": 54,
+          "action": "Bill checks his own shoelaces and tucks them in, quietly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 13.697,
+          "frame": 411,
+          "tInScene": 0.638,
+          "frameInScene": 19,
+          "action": "the brush touches his shoe; he flinches and lifts the foot",
+          "sync": "keyword: touch"
+        },
+        {
+          "t": 15.993,
+          "frame": 480,
+          "tInScene": 2.934,
+          "frameInScene": 88,
+          "action": "Bill shuffles sideways away from the edge; a teal SAFE band appears where he lands",
+          "sync": "keyword: move your feet"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 17.685,
+      "end": 25.888,
+      "startFrame": 531,
+      "endFrame": 777,
+      "duration": 8.203,
+      "narration": "Basically, every time you rub your shoe against one because it feels nice, the escalator is politely asking you to stop standing next to the part that can eat it.",
+      "background": "MallEscalator",
+      "note": "Callback: Dex is still scrubbing. Nothing has been learned. Hard cut.",
+      "cast": [
+        "bill",
+        "dex"
+      ],
+      "beats": [
+        {
+          "t": 17.685,
+          "frame": 531,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "wide shot: Dex is scrubbing his shoe on the brush again, blissful"
+        },
+        {
+          "t": 19.27,
+          "frame": 578,
+          "tInScene": 1.585,
+          "frameInScene": 48,
+          "action": "Dex scrubs faster, enjoying himself more; Bill watches with growing dread",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 24.039,
+          "frame": 721,
+          "tInScene": 6.354,
+          "frameInScene": 191,
+          "action": "the brush bristles bend and spring back once, patient about it",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 20.854,
+          "frame": 626,
+          "tInScene": 3.169,
+          "frameInScene": 95,
+          "action": "a little heart pops over Dex; Bill facepalms",
+          "sync": "keyword: feels nice"
+        },
+        {
+          "t": 22.511,
+          "frame": 675,
+          "tInScene": 4.826,
+          "frameInScene": 145,
+          "action": "the brush sprouts a tiny speech tail reading PLEASE MOVE",
+          "sync": "keyword: politely"
+        },
+        {
+          "t": 25.566,
+          "frame": 767,
+          "tInScene": 7.881,
+          "frameInScene": 236,
+          "action": "the gap gains cartoon teeth for exactly four frames; Dex finally steps back; hard cut",
+          "sync": "keyword: eat it — final beat"
+        }
+      ]
+    }
+  ]
+}

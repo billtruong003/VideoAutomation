@@ -1,0 +1,313 @@
+{
+  "slug": "microwave-door-mesh",
+  "title": "Why You Can See Through A Microwave Door",
+  "hook": "The door is a window and a wall at the same time, and both are true.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "mina"
+    ],
+    "note": "Mina supplies the wavelength explanation. She is right, brief, and slightly bored."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Why can you",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Bill's face is already pressed to the microwave at frame 0. The question is the hook.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill nose-to-glass watching a plate rotate; microwave glow on his face"
+        },
+        {
+          "fromEnd": 0.1,
+          "action": "Bill leans back slowly, suspicious of his own kitchen"
+        },
+        {
+          "at": 2.001,
+          "action": "the plate inside completes a slow rotation; Bill tracks it with his eyes",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "see-through",
+          "action": "camera punches onto the mesh; the honeycomb pattern resolves for the first time",
+          "sync": "keyword: see through"
+        },
+        {
+          "kw": "trapped",
+          "action": "angry orange energy dots pile up against the inside of the door and bounce back",
+          "sync": "keyword: trapped inside"
+        }
+      ]
+    },
+    {
+      "id": "mesh",
+      "from": "Because that black",
+      "background": "MicrowaveDoorCloseup",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "note": "Mina arrives. Mechanism scene begins — the mesh gets named as the actor.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "hard cut to the mesh filling frame; each opening is a clean hexagon"
+        },
+        {
+          "kw": "mesh",
+          "action": "the mesh flashes teal and a label snaps onto it",
+          "sync": "keyword: mesh"
+        },
+        {
+          "kw": "clever",
+          "action": "Mina steps into frame with armsCrossed and a small knowing look",
+          "sync": "keyword: clever"
+        }
+      ]
+    },
+    {
+      "id": "blocked",
+      "from": "Microwave energy has",
+      "background": "MicrowaveDoorCloseup",
+      "cast": [
+        "mina"
+      ],
+      "note": "The size comparison IS the explanation. Draw the wave enormous next to the holes.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a fat orange sine wave draws itself across frame, far wider than the mesh openings"
+        },
+        {
+          "at": 4.665,
+          "action": "the orange wave takes a second run at the mesh and bounces again, harder",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "wavelength-big",
+          "action": "the wave's width is measured against one opening; it does not come close to fitting",
+          "sync": "keyword: wavelength much larger"
+        },
+        {
+          "kw": "openings",
+          "action": "the openings pulse; the wave bumps them and bounces back with impact marks",
+          "sync": "keyword: tiny openings"
+        },
+        {
+          "kw": "escaping",
+          "action": "the wave rebounds into the oven cavity; a BLOCKED stamp lands on the mesh",
+          "sync": "keyword: blocks it from escaping"
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "from": "Visible light has",
+      "background": "MicrowaveDoorCloseup",
+      "cast": [
+        "bill"
+      ],
+      "note": "Same diagram, opposite outcome. Reuse the exact framing so only the wave changes.",
+      "beats": [
+        {
+          "at": 0.394,
+          "action": "the rebounding wave rattles around the cavity, losing energy",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "wavelength-small",
+          "action": "a thin bright teal wave draws itself, tiny beside the orange one",
+          "sync": "keyword: shorter wavelength"
+        },
+        {
+          "kw": "holes",
+          "action": "the small wave slips straight through an opening without touching the sides",
+          "sync": "keyword: through the holes"
+        },
+        {
+          "kw": "eyes",
+          "action": "the light lands in Bill's eye; his pupil catches a highlight",
+          "sync": "keyword: reach your eyes"
+        }
+      ]
+    },
+    {
+      "id": "both",
+      "from": "which means the",
+      "background": "MicrowaveDoorCloseup",
+      "cast": [
+        "bill"
+      ],
+      "note": "The door is split down the middle: window on Bill's side, barrier on the energy's side.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "camera pulls back; the door splits into two labelled halves"
+        },
+        {
+          "kw": "window",
+          "action": "the left half stamps WINDOW in teal; light streams through it",
+          "sync": "keyword: window for you"
+        },
+        {
+          "kw": "barrier",
+          "action": "the right half stamps BARRIER in coral; orange dots slam into it",
+          "sync": "keyword: barrier"
+        },
+        {
+          "kw": "leftovers",
+          "action": "inside, a sad plate of leftovers rotates, being cooked by the trapped energy",
+          "sync": "keyword: leftovers"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Your microwave is",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "note": "The gag is literal. Put sunglasses on the appliance and cut.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "back to the kitchen wide; microwave centre frame"
+        },
+        {
+          "at": 1.134,
+          "action": "the glasses slip a few units further down the door and stay crooked",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "nerdy",
+          "action": "a pair of thick nerdy glasses drops onto the microwave door and settles crooked",
+          "sync": "keyword: nerdy"
+        },
+        {
+          "kw": "sunglasses",
+          "action": "the microwave gains a tiny smug tilt; Mina gives it an unimpressed look; hard cut",
+          "sync": "keyword: sunglasses — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "see-through",
+      [
+        "see",
+        "through"
+      ],
+      0
+    ],
+    [
+      "trapped",
+      [
+        "trapped"
+      ],
+      0
+    ],
+    [
+      "mesh",
+      [
+        "mesh"
+      ],
+      0
+    ],
+    [
+      "clever",
+      [
+        "clever"
+      ],
+      0
+    ],
+    [
+      "wavelength-big",
+      [
+        "wavelength"
+      ],
+      0
+    ],
+    [
+      "openings",
+      [
+        "openings"
+      ],
+      0
+    ],
+    [
+      "escaping",
+      [
+        "escaping"
+      ],
+      0
+    ],
+    [
+      "wavelength-small",
+      [
+        "wavelength"
+      ],
+      1
+    ],
+    [
+      "holes",
+      [
+        "holes"
+      ],
+      0
+    ],
+    [
+      "eyes",
+      [
+        "eyes"
+      ],
+      0
+    ],
+    [
+      "window",
+      [
+        "window"
+      ],
+      0
+    ],
+    [
+      "barrier",
+      [
+        "barrier"
+      ],
+      0
+    ],
+    [
+      "leftovers",
+      [
+        "leftovers"
+      ],
+      0
+    ],
+    [
+      "nerdy",
+      [
+        "nerdy"
+      ],
+      0
+    ],
+    [
+      "sunglasses",
+      [
+        "sunglasses"
+      ],
+      0
+    ]
+  ]
+}

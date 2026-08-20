@@ -17,7 +17,7 @@
  * motion rather than as a closed shape. It is still drawn by the SAME Rough.js stylizer as
  * everything else, just with a pen preset instead of a shape preset. It is not a second
  * drawing engine; an earlier revision made it one and the drawing ended up with two hands
- * (see `src/qa/PenProbe.tsx`).
+ * (see `qa/v2-pen-probe.png`).
  */
 
 import type { RoughToken } from '../style/tokens';

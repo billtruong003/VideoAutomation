@@ -1,0 +1,355 @@
+{
+  "slug": "old-book-smell",
+  "title": "Old Book Smell Is The Book Falling Apart",
+  "hook": "The smell you love is the object dying, slowly, in front of you.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "mina",
+      "mochi"
+    ],
+    "note": "The narration names Bill directly at the payoff. Mina is the conservator. Mochi smells the book too and is unimpressed by it."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "That amazing old",
+      "background": "LibraryShelf",
+      "cast": [
+        "bill"
+      ],
+      "note": "Bill has his face in a book at frame 0, blissful. The reveal turns the bliss into decay.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill with his nose buried in an open old book, eyes closed, deeply content; scent curls rise"
+        },
+        {
+          "at": 2.379,
+          "action": "the scent curls thicken; a single page corner flakes away and drifts down",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "smell",
+          "action": "the scent curls draw upward in warm gold",
+          "sync": "keyword: smell"
+        },
+        {
+          "kw": "breaking-down",
+          "action": "the curls turn from gold to sickly green and the book's edges visibly crumble; Bill's eyes snap open",
+          "sync": "keyword: breaking down — the turn"
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "from": "As paper",
+      "background": "BookCutaway",
+      "cast": [],
+      "note": "Four materials named, four labelled and aged in turn. Rhythmic — one per keyword.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "cutaway of the book's spine and pages, exploded slightly apart"
+        },
+        {
+          "kw": "paper",
+          "action": "the page stack labels PAPER and yellows",
+          "sync": "keyword: paper"
+        },
+        {
+          "kw": "ink",
+          "action": "the ink labels and fades brown",
+          "sync": "keyword: ink"
+        },
+        {
+          "kw": "glue",
+          "action": "the spine glue labels and cracks",
+          "sync": "keyword: glue"
+        },
+        {
+          "kw": "bindings",
+          "action": "the stitching labels and frays",
+          "sync": "keyword: bindings"
+        },
+        {
+          "kw": "chemicals",
+          "action": "small molecule marks lift off every labelled part and drift upward",
+          "sync": "keyword: volatile chemicals"
+        }
+      ]
+    },
+    {
+      "id": "compounds",
+      "from": "Different compounds can",
+      "background": "BookCutaway",
+      "cast": [],
+      "note": "Four smells, four icons. Each pops on its own word — this is the densest scene in the episode.",
+      "beats": [
+        {
+          "at": 0.05,
+          "action": "the molecule marks rise past the labelled layers, gathering into a cloud",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "grassy",
+          "action": "a grass blade icon pops in on a green scent curl",
+          "sync": "keyword: grassy"
+        },
+        {
+          "kw": "musty",
+          "action": "a dusty cloud icon pops in on a grey curl",
+          "sync": "keyword: musty"
+        },
+        {
+          "kw": "almond",
+          "action": "an almond icon pops in on a tan curl",
+          "sync": "keyword: almond-like"
+        },
+        {
+          "kw": "vanilla",
+          "action": "a vanilla pod icon pops in on a warm cream curl; the four hang together",
+          "sync": "keyword: vanilla-like"
+        }
+      ]
+    },
+    {
+      "id": "vanillin",
+      "from": "Vanillin is one",
+      "background": "BookCutaway",
+      "cast": [
+        "mina"
+      ],
+      "note": "The one named compound. Mina supplies it. Keep the molecule simple and readable, not accurate chemistry.",
+      "beats": [
+        {
+          "at": 1.36,
+          "action": "the three dimmed scent icons drift quietly behind the vanillin one",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "vanillin",
+          "action": "the three other scent icons dim; the vanilla one enlarges and labels VANILLIN",
+          "sync": "keyword: vanillin"
+        },
+        {
+          "kw": "sweet",
+          "action": "Mina steps in and points at it; a small sweet-note flourish",
+          "sync": "keyword: sweet note"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "from": "Scientists and conservators",
+      "background": "ConservationLab",
+      "cast": [
+        "mina"
+      ],
+      "note": "The smell becomes data. Scent curls get captured and turned into a readout.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "cut to a plain lab bench; the book sits under a collection funnel"
+        },
+        {
+          "at": 1.187,
+          "action": "the readout needle settles and holds; the jar clouds slightly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "emissions",
+          "action": "scent curls are drawn up the funnel into a jar",
+          "sync": "keyword: emissions"
+        },
+        {
+          "kw": "aging-paper",
+          "action": "the jar feeds a readout showing a condition score; Mina reads it and nods",
+          "sync": "keyword: condition of aging paper"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "So when Bill",
+      "background": "LibraryShelf",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "note": "Bill is named in the narration. Return to the exact opening framing so the reframe lands.",
+      "beats": [
+        {
+          "at": 2.311,
+          "action": "dust drifts down through the shelf light behind Bill",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 5.738,
+          "action": "Mochi sits down beside the book and stares at it, deciding",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "bill-named",
+          "action": "back to the opening shot: Bill's face back in the book",
+          "sync": "keyword: Bill — named in the narration"
+        },
+        {
+          "kw": "hundred-year",
+          "action": "a 100 YEARS card stamps on the cover; dust puffs off it",
+          "sync": "keyword: 100-year-old"
+        },
+        {
+          "kw": "delicious",
+          "action": "Bill goes blissful again, unbothered by everything he just learned",
+          "sync": "keyword: delicious"
+        },
+        {
+          "kw": "slow-motion",
+          "action": "the molecule marks drift past at absurdly slow speed; Mochi sniffs the book once and walks away judging him; hard cut",
+          "sync": "keyword: extremely slow motion — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "smell",
+      [
+        "smell"
+      ],
+      0
+    ],
+    [
+      "breaking-down",
+      [
+        "breaking"
+      ],
+      0
+    ],
+    [
+      "paper",
+      [
+        "paper"
+      ],
+      0
+    ],
+    [
+      "ink",
+      [
+        "ink"
+      ],
+      0
+    ],
+    [
+      "glue",
+      [
+        "glue"
+      ],
+      0
+    ],
+    [
+      "bindings",
+      [
+        "bindings"
+      ],
+      0
+    ],
+    [
+      "chemicals",
+      [
+        "chemicals"
+      ],
+      0
+    ],
+    [
+      "grassy",
+      [
+        "grassy"
+      ],
+      0
+    ],
+    [
+      "musty",
+      [
+        "musty"
+      ],
+      0
+    ],
+    [
+      "almond",
+      [
+        "almondlike"
+      ],
+      0
+    ],
+    [
+      "vanilla",
+      [
+        "vanillalike"
+      ],
+      0
+    ],
+    [
+      "vanillin",
+      [
+        "vanillin"
+      ],
+      0
+    ],
+    [
+      "sweet",
+      [
+        "sweet"
+      ],
+      0
+    ],
+    [
+      "emissions",
+      [
+        "emissions"
+      ],
+      0
+    ],
+    [
+      "aging-paper",
+      [
+        "aging",
+        "paper"
+      ],
+      0
+    ],
+    [
+      "bill-named",
+      [
+        "bill"
+      ],
+      0
+    ],
+    [
+      "hundred-year",
+      [
+        "100yearold"
+      ],
+      0
+    ],
+    [
+      "delicious",
+      [
+        "delicious"
+      ],
+      0
+    ],
+    [
+      "slow-motion",
+      [
+        "slow"
+      ],
+      0
+    ]
+  ]
+}

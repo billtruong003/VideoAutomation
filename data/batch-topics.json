@@ -1,0 +1,44 @@
+{
+  "_note": "Topic identity for each ElevenLabs generation, keyed by its render timestamp (+ '#1' for a re-download). Filenames carry no topic, so this is where a slug and an English title come from. Key order is episode order. Each entry was written after READING the paired transcript, not guessed from the filename.",
+
+  "2026-08-19T16_31_15#0": {
+    "slug": "airplane-window-hole",
+    "title": "The Hole In Your Airplane Window Is Supposed To Be There"
+  },
+  "2026-08-19T16_32_13#0": {
+    "slug": "escalator-brushes",
+    "title": "Escalator Brushes Are Not For Your Shoes"
+  },
+  "2026-08-19T16_33_09#0": {
+    "slug": "gas-pump-shutoff",
+    "title": "How A Gas Pump Knows Your Tank Is Full"
+  },
+  "2026-08-19T16_33_57#0": {
+    "slug": "microwave-door-mesh",
+    "title": "Why You Can See Through A Microwave Door"
+  },
+  "2026-08-19T16_49_35#0": {
+    "slug": "jeans-watch-pocket",
+    "title": "Your Jeans Have A Pocket For A Gadget From The 1800s"
+  },
+  "2026-08-19T16_50_48#0": {
+    "slug": "highway-lane-lines",
+    "title": "Highway Lines Are Way Bigger Than You Think"
+  },
+  "2026-08-19T16_52_23#0": {
+    "slug": "fuel-door-arrow",
+    "title": "The Arrow That Tells You Which Side Your Fuel Door Is On"
+  },
+  "2026-08-19T21_48_28#0": {
+    "slug": "round-manhole-covers",
+    "title": "Why Manhole Covers Are Round"
+  },
+  "2026-08-19T21_50_41#0": {
+    "slug": "pen-cap-hole",
+    "title": "The Hole In A Pen Cap Is A Safety Feature"
+  },
+  "2026-08-19T21_51_23#1": {
+    "slug": "old-book-smell",
+    "title": "Old Book Smell Is The Book Falling Apart"
+  }
+}

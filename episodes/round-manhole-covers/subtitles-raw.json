@@ -1,0 +1,539 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T21_48_28_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T21_48_28_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "A round manhole cover can do something surprisingly important:",
+      "start_time": 0.079,
+      "end_time": 3.46,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "A",
+          "start_time": 0.079,
+          "end_time": 0.202
+        },
+        {
+          "text": "round",
+          "start_time": 0.202,
+          "end_time": 0.524
+        },
+        {
+          "text": "manhole",
+          "start_time": 0.524,
+          "end_time": 0.947
+        },
+        {
+          "text": "cover",
+          "start_time": 0.947,
+          "end_time": 1.269
+        },
+        {
+          "text": "can",
+          "start_time": 1.269,
+          "end_time": 1.492
+        },
+        {
+          "text": "do",
+          "start_time": 1.492,
+          "end_time": 1.665
+        },
+        {
+          "text": "something",
+          "start_time": 1.665,
+          "end_time": 2.187
+        },
+        {
+          "text": "surprisingly",
+          "start_time": 2.187,
+          "end_time": 2.858
+        },
+        {
+          "text": "important:",
+          "start_time": 2.858,
+          "end_time": 3.46
+        }
+      ]
+    },
+    {
+      "text": "stay above the manhole.",
+      "start_time": 4.42,
+      "end_time": 5.599,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "stay",
+          "start_time": 4.42,
+          "end_time": 4.68
+        },
+        {
+          "text": "above",
+          "start_time": 4.68,
+          "end_time": 4.953
+        },
+        {
+          "text": "the",
+          "start_time": 4.953,
+          "end_time": 5.141
+        },
+        {
+          "text": "manhole.",
+          "start_time": 5.141,
+          "end_time": 5.599
+        }
+      ]
+    },
+    {
+      "text": "A circular cover cannot fall straight through its own circular opening.",
+      "start_time": 6.559,
+      "end_time": 10.3,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "A",
+          "start_time": 6.559,
+          "end_time": 6.671
+        },
+        {
+          "text": "circular",
+          "start_time": 6.671,
+          "end_time": 7.1
+        },
+        {
+          "text": "cover",
+          "start_time": 7.1,
+          "end_time": 7.393
+        },
+        {
+          "text": "cannot",
+          "start_time": 7.393,
+          "end_time": 7.902
+        },
+        {
+          "text": "fall",
+          "start_time": 7.902,
+          "end_time": 8.15
+        },
+        {
+          "text": "straight",
+          "start_time": 8.15,
+          "end_time": 8.579
+        },
+        {
+          "text": "through",
+          "start_time": 8.579,
+          "end_time": 8.963
+        },
+        {
+          "text": "its",
+          "start_time": 8.963,
+          "end_time": 9.165
+        },
+        {
+          "text": "own",
+          "start_time": 9.165,
+          "end_time": 9.368
+        },
+        {
+          "text": "circular",
+          "start_time": 9.368,
+          "end_time": 9.797
+        },
+        {
+          "text": "opening.",
+          "start_time": 9.797,
+          "end_time": 10.3
+        }
+      ]
+    },
+    {
+      "text": "With some other shapes, orientation can become a problem.",
+      "start_time": 11.3,
+      "end_time": 14.259,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "With",
+          "start_time": 11.3,
+          "end_time": 11.527
+        },
+        {
+          "text": "some",
+          "start_time": 11.527,
+          "end_time": 11.755
+        },
+        {
+          "text": "other",
+          "start_time": 11.755,
+          "end_time": 12.023
+        },
+        {
+          "text": "shapes,",
+          "start_time": 12.023,
+          "end_time": 12.69
+        },
+        {
+          "text": "orientation",
+          "start_time": 12.69,
+          "end_time": 13.209
+        },
+        {
+          "text": "can",
+          "start_time": 13.209,
+          "end_time": 13.394
+        },
+        {
+          "text": "become",
+          "start_time": 13.394,
+          "end_time": 13.705
+        },
+        {
+          "text": "a",
+          "start_time": 13.705,
+          "end_time": 13.807
+        },
+        {
+          "text": "problem.",
+          "start_time": 13.807,
+          "end_time": 14.259
+        }
+      ]
+    },
+    {
+      "text": "Round covers are also easy to roll, don't need to be rotated into one exact",
+      "start_time": 15.239,
+      "end_time": 20.319,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Round",
+          "start_time": 15.239,
+          "end_time": 15.593
+        },
+        {
+          "text": "covers",
+          "start_time": 15.593,
+          "end_time": 16.001
+        },
+        {
+          "text": "are",
+          "start_time": 16.001,
+          "end_time": 16.245
+        },
+        {
+          "text": "also",
+          "start_time": 16.245,
+          "end_time": 16.544
+        },
+        {
+          "text": "easy",
+          "start_time": 16.544,
+          "end_time": 16.843
+        },
+        {
+          "text": "to",
+          "start_time": 16.843,
+          "end_time": 17.032
+        },
+        {
+          "text": "roll,",
+          "start_time": 17.032,
+          "end_time": 17.928
+        },
+        {
+          "text": "don't",
+          "start_time": 17.928,
+          "end_time": 18.282
+        },
+        {
+          "text": "need",
+          "start_time": 18.282,
+          "end_time": 18.581
+        },
+        {
+          "text": "to",
+          "start_time": 18.581,
+          "end_time": 18.77
+        },
+        {
+          "text": "be",
+          "start_time": 18.77,
+          "end_time": 18.96
+        },
+        {
+          "text": "rotated",
+          "start_time": 18.96,
+          "end_time": 19.422
+        },
+        {
+          "text": "into",
+          "start_time": 19.422,
+          "end_time": 19.721
+        },
+        {
+          "text": "one",
+          "start_time": 19.721,
+          "end_time": 19.965
+        },
+        {
+          "text": "exact",
+          "start_time": 19.965,
+          "end_time": 20.319
+        }
+      ]
+    },
+    {
+      "text": "alignment, and fit naturally over circular shafts.",
+      "start_time": 20.319,
+      "end_time": 23.5,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "alignment,",
+          "start_time": 20.319,
+          "end_time": 21.315
+        },
+        {
+          "text": "and",
+          "start_time": 21.315,
+          "end_time": 21.52
+        },
+        {
+          "text": "fit",
+          "start_time": 21.52,
+          "end_time": 21.726
+        },
+        {
+          "text": "naturally",
+          "start_time": 21.726,
+          "end_time": 22.208
+        },
+        {
+          "text": "over",
+          "start_time": 22.208,
+          "end_time": 22.46
+        },
+        {
+          "text": "circular",
+          "start_time": 22.46,
+          "end_time": 22.896
+        },
+        {
+          "text": "shafts.",
+          "start_time": 22.896,
+          "end_time": 23.5
+        }
+      ]
+    },
+    {
+      "text": "So engineers didn't choose the circle because it looks nice. They chose a shape",
+      "start_time": 24.439,
+      "end_time": 28.959,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "So",
+          "start_time": 24.439,
+          "end_time": 24.586
+        },
+        {
+          "text": "engineers",
+          "start_time": 24.586,
+          "end_time": 25.03
+        },
+        {
+          "text": "didn't",
+          "start_time": 25.03,
+          "end_time": 25.347
+        },
+        {
+          "text": "choose",
+          "start_time": 25.347,
+          "end_time": 25.663
+        },
+        {
+          "text": "the",
+          "start_time": 25.663,
+          "end_time": 25.853
+        },
+        {
+          "text": "circle",
+          "start_time": 25.853,
+          "end_time": 26.17
+        },
+        {
+          "text": "because",
+          "start_time": 26.17,
+          "end_time": 26.529
+        },
+        {
+          "text": "it",
+          "start_time": 26.529,
+          "end_time": 26.676
+        },
+        {
+          "text": "looks",
+          "start_time": 26.676,
+          "end_time": 26.95
+        },
+        {
+          "text": "nice.",
+          "start_time": 26.95,
+          "end_time": 27.284
+        },
+        {
+          "text": "They",
+          "start_time": 27.284,
+          "end_time": 28.216
+        },
+        {
+          "text": "chose",
+          "start_time": 28.216,
+          "end_time": 28.49
+        },
+        {
+          "text": "a",
+          "start_time": 28.49,
+          "end_time": 28.595
+        },
+        {
+          "text": "shape",
+          "start_time": 28.595,
+          "end_time": 28.959
+        }
+      ]
+    },
+    {
+      "text": "that quietly solves several annoying problems at once,",
+      "start_time": 28.959,
+      "end_time": 32.139,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "that",
+          "start_time": 28.959,
+          "end_time": 29.232
+        },
+        {
+          "text": "quietly",
+          "start_time": 29.232,
+          "end_time": 29.654
+        },
+        {
+          "text": "solves",
+          "start_time": 29.654,
+          "end_time": 30.237
+        },
+        {
+          "text": "several",
+          "start_time": 30.237,
+          "end_time": 30.659
+        },
+        {
+          "text": "annoying",
+          "start_time": 30.659,
+          "end_time": 31.132
+        },
+        {
+          "text": "problems",
+          "start_time": 31.132,
+          "end_time": 31.604
+        },
+        {
+          "text": "at",
+          "start_time": 31.604,
+          "end_time": 31.777
+        },
+        {
+          "text": "once,",
+          "start_time": 31.777,
+          "end_time": 32.139
+        }
+      ]
+    },
+    {
+      "text": "which is basically engineering's favorite way of showing off.",
+      "start_time": 33.079,
+      "end_time": 35.88,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "which",
+          "start_time": 33.079,
+          "end_time": 33.335
+        },
+        {
+          "text": "is",
+          "start_time": 33.335,
+          "end_time": 33.473
+        },
+        {
+          "text": "basically",
+          "start_time": 33.473,
+          "end_time": 33.888
+        },
+        {
+          "text": "engineering's",
+          "start_time": 33.888,
+          "end_time": 34.462
+        },
+        {
+          "text": "favorite",
+          "start_time": 34.462,
+          "end_time": 34.837
+        },
+        {
+          "text": "way",
+          "start_time": 34.837,
+          "end_time": 35.014
+        },
+        {
+          "text": "of",
+          "start_time": 35.014,
+          "end_time": 35.152
+        },
+        {
+          "text": "showing",
+          "start_time": 35.152,
+          "end_time": 35.488
+        },
+        {
+          "text": "off.",
+          "start_time": 35.488,
+          "end_time": 35.88
+        }
+      ]
+    }
+  ]
+}

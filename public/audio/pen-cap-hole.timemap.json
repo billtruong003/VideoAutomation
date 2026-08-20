@@ -1,0 +1,188 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T21_50_41_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/pen-cap-hole.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11982,
+  "sampleRate": 48000,
+  "rawDuration": 35.709,
+  "cutDuration": 32.883,
+  "processedDuration": 29.365,
+  "silenceRemoved": 2.826,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.08,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "leading",
+      "raw": 0.095,
+      "kept": 0.04,
+      "removed": 0.055
+    },
+    {
+      "kind": "kept-intact",
+      "at": 2.13,
+      "raw": 0.16,
+      "kept": 0.16,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 5.076,
+      "raw": 0.891,
+      "kept": 0.3,
+      "removed": 0.591
+    },
+    {
+      "kind": "shortened",
+      "at": 8.592,
+      "raw": 0.351,
+      "kept": 0.21,
+      "removed": 0.141
+    },
+    {
+      "kind": "shortened",
+      "at": 10.535,
+      "raw": 0.657,
+      "kept": 0.271,
+      "removed": 0.386
+    },
+    {
+      "kind": "kept-intact",
+      "at": 13.571,
+      "raw": 0.152,
+      "kept": 0.152,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 15.331,
+      "raw": 0.412,
+      "kept": 0.222,
+      "removed": 0.189
+    },
+    {
+      "kind": "shortened",
+      "at": 18.391,
+      "raw": 0.324,
+      "kept": 0.205,
+      "removed": 0.119
+    },
+    {
+      "kind": "shortened",
+      "at": 20.369,
+      "raw": 0.876,
+      "kept": 0.3,
+      "removed": 0.576
+    },
+    {
+      "kind": "kept-intact",
+      "at": 22.897,
+      "raw": 0.177,
+      "kept": 0.177,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 26.191,
+      "raw": 0.826,
+      "kept": 0.3,
+      "removed": 0.526
+    },
+    {
+      "kind": "kept-intact",
+      "at": 28.112,
+      "raw": 0.131,
+      "kept": 0.131,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 30.769,
+      "raw": 0.335,
+      "kept": 0.207,
+      "removed": 0.128
+    },
+    {
+      "kind": "shortened",
+      "at": 33.419,
+      "raw": 0.319,
+      "kept": 0.204,
+      "removed": 0.115
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0.055,
+      "rawEnd": 5.226,
+      "outStart": 0,
+      "outEnd": 4.618
+    },
+    {
+      "rawStart": 5.816,
+      "rawEnd": 8.697,
+      "outStart": 4.618,
+      "outEnd": 7.19
+    },
+    {
+      "rawStart": 8.838,
+      "rawEnd": 10.671,
+      "outStart": 7.19,
+      "outEnd": 8.827
+    },
+    {
+      "rawStart": 11.057,
+      "rawEnd": 15.442,
+      "outStart": 8.827,
+      "outEnd": 12.743
+    },
+    {
+      "rawStart": 15.631,
+      "rawEnd": 18.493,
+      "outStart": 12.743,
+      "outEnd": 15.299
+    },
+    {
+      "rawStart": 18.612,
+      "rawEnd": 20.519,
+      "outStart": 15.299,
+      "outEnd": 17.002
+    },
+    {
+      "rawStart": 21.096,
+      "rawEnd": 26.341,
+      "outStart": 17.002,
+      "outEnd": 21.686
+    },
+    {
+      "rawStart": 26.867,
+      "rawEnd": 30.872,
+      "outStart": 21.686,
+      "outEnd": 25.262
+    },
+    {
+      "rawStart": 31,
+      "rawEnd": 33.52,
+      "outStart": 25.262,
+      "outEnd": 27.513
+    },
+    {
+      "rawStart": 33.636,
+      "rawEnd": 35.709,
+      "outStart": 27.513,
+      "outEnd": 29.365
+    }
+  ]
+}

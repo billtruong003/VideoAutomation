@@ -1,0 +1,595 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_33_57_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_33_57_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "Why can you see through a microwave door if the microwaves are supposed to stay",
+      "start_time": 0.119,
+      "end_time": 4.019,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Why",
+          "start_time": 0.119,
+          "end_time": 0.313
+        },
+        {
+          "text": "can",
+          "start_time": 0.313,
+          "end_time": 0.506
+        },
+        {
+          "text": "you",
+          "start_time": 0.506,
+          "end_time": 0.7
+        },
+        {
+          "text": "see",
+          "start_time": 0.7,
+          "end_time": 0.893
+        },
+        {
+          "text": "through",
+          "start_time": 0.893,
+          "end_time": 1.26
+        },
+        {
+          "text": "a",
+          "start_time": 1.26,
+          "end_time": 1.367
+        },
+        {
+          "text": "microwave",
+          "start_time": 1.367,
+          "end_time": 1.821
+        },
+        {
+          "text": "door",
+          "start_time": 1.821,
+          "end_time": 2.057
+        },
+        {
+          "text": "if",
+          "start_time": 2.057,
+          "end_time": 2.338
+        },
+        {
+          "text": "the",
+          "start_time": 2.338,
+          "end_time": 2.531
+        },
+        {
+          "text": "microwaves",
+          "start_time": 2.531,
+          "end_time": 3.028
+        },
+        {
+          "text": "are",
+          "start_time": 3.028,
+          "end_time": 3.222
+        },
+        {
+          "text": "supposed",
+          "start_time": 3.222,
+          "end_time": 3.632
+        },
+        {
+          "text": "to",
+          "start_time": 3.632,
+          "end_time": 3.782
+        },
+        {
+          "text": "stay",
+          "start_time": 3.782,
+          "end_time": 4.019
+        }
+      ]
+    },
+    {
+      "text": "trapped inside?",
+      "start_time": 4.019,
+      "end_time": 4.94,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "trapped",
+          "start_time": 4.019,
+          "end_time": 4.421
+        },
+        {
+          "text": "inside?",
+          "start_time": 4.421,
+          "end_time": 4.94
+        }
+      ]
+    },
+    {
+      "text": "Because that black metal mesh is doing something clever.",
+      "start_time": 6.48,
+      "end_time": 9.279,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Because",
+          "start_time": 6.48,
+          "end_time": 6.859
+        },
+        {
+          "text": "that",
+          "start_time": 6.859,
+          "end_time": 7.103
+        },
+        {
+          "text": "black",
+          "start_time": 7.103,
+          "end_time": 7.392
+        },
+        {
+          "text": "metal",
+          "start_time": 7.392,
+          "end_time": 7.681
+        },
+        {
+          "text": "mesh",
+          "start_time": 7.681,
+          "end_time": 7.926
+        },
+        {
+          "text": "is",
+          "start_time": 7.926,
+          "end_time": 8.081
+        },
+        {
+          "text": "doing",
+          "start_time": 8.081,
+          "end_time": 8.37
+        },
+        {
+          "text": "something",
+          "start_time": 8.37,
+          "end_time": 8.838
+        },
+        {
+          "text": "clever.",
+          "start_time": 8.838,
+          "end_time": 9.279
+        }
+      ]
+    },
+    {
+      "text": "Microwave energy has a wavelength much larger than those tiny openings, so the",
+      "start_time": 10.3,
+      "end_time": 15.299,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Microwave",
+          "start_time": 10.3,
+          "end_time": 10.845
+        },
+        {
+          "text": "energy",
+          "start_time": 10.845,
+          "end_time": 11.233
+        },
+        {
+          "text": "has",
+          "start_time": 11.233,
+          "end_time": 11.466
+        },
+        {
+          "text": "a",
+          "start_time": 11.466,
+          "end_time": 11.594
+        },
+        {
+          "text": "wavelength",
+          "start_time": 11.594,
+          "end_time": 12.191
+        },
+        {
+          "text": "much",
+          "start_time": 12.191,
+          "end_time": 12.476
+        },
+        {
+          "text": "larger",
+          "start_time": 12.476,
+          "end_time": 12.864
+        },
+        {
+          "text": "than",
+          "start_time": 12.864,
+          "end_time": 13.149
+        },
+        {
+          "text": "those",
+          "start_time": 13.149,
+          "end_time": 13.485
+        },
+        {
+          "text": "tiny",
+          "start_time": 13.485,
+          "end_time": 13.77
+        },
+        {
+          "text": "openings,",
+          "start_time": 13.77,
+          "end_time": 14.346
+        },
+        {
+          "text": "so",
+          "start_time": 14.346,
+          "end_time": 15.067
+        },
+        {
+          "text": "the",
+          "start_time": 15.067,
+          "end_time": 15.299
+        }
+      ]
+    },
+    {
+      "text": "conductive screen strongly blocks it from escaping.",
+      "start_time": 15.299,
+      "end_time": 18.159,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "conductive",
+          "start_time": 15.299,
+          "end_time": 15.876
+        },
+        {
+          "text": "screen",
+          "start_time": 15.876,
+          "end_time": 16.252
+        },
+        {
+          "text": "strongly",
+          "start_time": 16.252,
+          "end_time": 16.728
+        },
+        {
+          "text": "blocks",
+          "start_time": 16.728,
+          "end_time": 17.104
+        },
+        {
+          "text": "it",
+          "start_time": 17.104,
+          "end_time": 17.278
+        },
+        {
+          "text": "from",
+          "start_time": 17.278,
+          "end_time": 17.553
+        },
+        {
+          "text": "escaping.",
+          "start_time": 17.553,
+          "end_time": 18.159
+        }
+      ]
+    },
+    {
+      "text": "Visible light has a vastly shorter wavelength, so light can pass through the",
+      "start_time": 19.159,
+      "end_time": 23.519,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Visible",
+          "start_time": 19.159,
+          "end_time": 19.544
+        },
+        {
+          "text": "light",
+          "start_time": 19.544,
+          "end_time": 19.837
+        },
+        {
+          "text": "has",
+          "start_time": 19.837,
+          "end_time": 20.18
+        },
+        {
+          "text": "a",
+          "start_time": 20.18,
+          "end_time": 20.292
+        },
+        {
+          "text": "vastly",
+          "start_time": 20.292,
+          "end_time": 20.631
+        },
+        {
+          "text": "shorter",
+          "start_time": 20.631,
+          "end_time": 21.016
+        },
+        {
+          "text": "wavelength,",
+          "start_time": 21.016,
+          "end_time": 21.609
+        },
+        {
+          "text": "so",
+          "start_time": 21.609,
+          "end_time": 22.187
+        },
+        {
+          "text": "light",
+          "start_time": 22.187,
+          "end_time": 22.48
+        },
+        {
+          "text": "can",
+          "start_time": 22.48,
+          "end_time": 22.683
+        },
+        {
+          "text": "pass",
+          "start_time": 22.683,
+          "end_time": 22.932
+        },
+        {
+          "text": "through",
+          "start_time": 22.932,
+          "end_time": 23.316
+        },
+        {
+          "text": "the",
+          "start_time": 23.316,
+          "end_time": 23.519
+        }
+      ]
+    },
+    {
+      "text": "holes and reach your eyes,",
+      "start_time": 23.519,
+      "end_time": 25.019,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "holes",
+          "start_time": 23.519,
+          "end_time": 23.815
+        },
+        {
+          "text": "and",
+          "start_time": 23.815,
+          "end_time": 24.14
+        },
+        {
+          "text": "reach",
+          "start_time": 24.14,
+          "end_time": 24.436
+        },
+        {
+          "text": "your",
+          "start_time": 24.436,
+          "end_time": 24.686
+        },
+        {
+          "text": "eyes,",
+          "start_time": 24.686,
+          "end_time": 25.019
+        }
+      ]
+    },
+    {
+      "text": "which means the same door can behave like a window for you while acting like a",
+      "start_time": 26.019,
+      "end_time": 30.419,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "which",
+          "start_time": 26.019,
+          "end_time": 26.308
+        },
+        {
+          "text": "means",
+          "start_time": 26.308,
+          "end_time": 26.596
+        },
+        {
+          "text": "the",
+          "start_time": 26.596,
+          "end_time": 26.796
+        },
+        {
+          "text": "same",
+          "start_time": 26.796,
+          "end_time": 27.04
+        },
+        {
+          "text": "door",
+          "start_time": 27.04,
+          "end_time": 27.284
+        },
+        {
+          "text": "can",
+          "start_time": 27.284,
+          "end_time": 27.483
+        },
+        {
+          "text": "behave",
+          "start_time": 27.483,
+          "end_time": 27.817
+        },
+        {
+          "text": "like",
+          "start_time": 27.817,
+          "end_time": 28.061
+        },
+        {
+          "text": "a",
+          "start_time": 28.061,
+          "end_time": 28.171
+        },
+        {
+          "text": "window",
+          "start_time": 28.171,
+          "end_time": 28.504
+        },
+        {
+          "text": "for",
+          "start_time": 28.504,
+          "end_time": 28.703
+        },
+        {
+          "text": "you",
+          "start_time": 28.703,
+          "end_time": 29.443
+        },
+        {
+          "text": "while",
+          "start_time": 29.443,
+          "end_time": 29.732
+        },
+        {
+          "text": "acting",
+          "start_time": 29.732,
+          "end_time": 30.065
+        },
+        {
+          "text": "like",
+          "start_time": 30.065,
+          "end_time": 30.309
+        },
+        {
+          "text": "a",
+          "start_time": 30.309,
+          "end_time": 30.419
+        }
+      ]
+    },
+    {
+      "text": "barrier for the energy cooking your leftovers.",
+      "start_time": 30.42,
+      "end_time": 32.86,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "barrier",
+          "start_time": 30.42,
+          "end_time": 30.815
+        },
+        {
+          "text": "for",
+          "start_time": 30.815,
+          "end_time": 31.023
+        },
+        {
+          "text": "the",
+          "start_time": 31.023,
+          "end_time": 31.232
+        },
+        {
+          "text": "energy",
+          "start_time": 31.232,
+          "end_time": 31.58
+        },
+        {
+          "text": "cooking",
+          "start_time": 31.58,
+          "end_time": 31.975
+        },
+        {
+          "text": "your",
+          "start_time": 31.975,
+          "end_time": 32.23
+        },
+        {
+          "text": "leftovers.",
+          "start_time": 32.23,
+          "end_time": 32.86
+        }
+      ]
+    },
+    {
+      "text": "Your microwave is basically wearing extremely nerdy sunglasses.",
+      "start_time": 34,
+      "end_time": 37.599,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Your",
+          "start_time": 34,
+          "end_time": 34.285
+        },
+        {
+          "text": "microwave",
+          "start_time": 34.285,
+          "end_time": 34.829
+        },
+        {
+          "text": "is",
+          "start_time": 34.829,
+          "end_time": 35.01
+        },
+        {
+          "text": "basically",
+          "start_time": 35.01,
+          "end_time": 35.555
+        },
+        {
+          "text": "wearing",
+          "start_time": 35.555,
+          "end_time": 35.996
+        },
+        {
+          "text": "extremely",
+          "start_time": 35.996,
+          "end_time": 36.54
+        },
+        {
+          "text": "nerdy",
+          "start_time": 36.54,
+          "end_time": 36.877
+        },
+        {
+          "text": "sunglasses.",
+          "start_time": 36.877,
+          "end_time": 37.599
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_32_13_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_32_13_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "Those brushes on the side of an escalator are not there to clean your shoes. They're",
+      "start_time": 0.14,
+      "end_time": 4.779,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Those",
+          "start_time": 0.14,
+          "end_time": 0.401
+        },
+        {
+          "text": "brushes",
+          "start_time": 0.401,
+          "end_time": 0.743
+        },
+        {
+          "text": "on",
+          "start_time": 0.743,
+          "end_time": 0.883
+        },
+        {
+          "text": "the",
+          "start_time": 0.883,
+          "end_time": 1.063
+        },
+        {
+          "text": "side",
+          "start_time": 1.063,
+          "end_time": 1.284
+        },
+        {
+          "text": "of",
+          "start_time": 1.284,
+          "end_time": 1.424
+        },
+        {
+          "text": "an",
+          "start_time": 1.424,
+          "end_time": 1.564
+        },
+        {
+          "text": "escalator",
+          "start_time": 1.564,
+          "end_time": 1.986
+        },
+        {
+          "text": "are",
+          "start_time": 1.986,
+          "end_time": 2.166
+        },
+        {
+          "text": "not",
+          "start_time": 2.166,
+          "end_time": 2.537
+        },
+        {
+          "text": "there",
+          "start_time": 2.537,
+          "end_time": 2.898
+        },
+        {
+          "text": "to",
+          "start_time": 2.898,
+          "end_time": 3.038
+        },
+        {
+          "text": "clean",
+          "start_time": 3.038,
+          "end_time": 3.299
+        },
+        {
+          "text": "your",
+          "start_time": 3.299,
+          "end_time": 3.519
+        },
+        {
+          "text": "shoes.",
+          "start_time": 3.519,
+          "end_time": 3.877
+        },
+        {
+          "text": "They're",
+          "start_time": 3.877,
+          "end_time": 4.779
+        }
+      ]
+    },
+    {
+      "text": "warning you.",
+      "start_time": 4.779,
+      "end_time": 5.419,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "warning",
+          "start_time": 4.779,
+          "end_time": 5.116
+        },
+        {
+          "text": "you.",
+          "start_time": 5.116,
+          "end_time": 5.419
+        }
+      ]
+    },
+    {
+      "text": "The dangerous part is the tiny gap between the moving steps and the stationary side",
+      "start_time": 6.179,
+      "end_time": 11.119,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "The",
+          "start_time": 6.179,
+          "end_time": 6.394
+        },
+        {
+          "text": "dangerous",
+          "start_time": 6.394,
+          "end_time": 6.897
+        },
+        {
+          "text": "part",
+          "start_time": 6.897,
+          "end_time": 7.389
+        },
+        {
+          "text": "is",
+          "start_time": 7.389,
+          "end_time": 7.556
+        },
+        {
+          "text": "the",
+          "start_time": 7.556,
+          "end_time": 7.77
+        },
+        {
+          "text": "tiny",
+          "start_time": 7.77,
+          "end_time": 8.033
+        },
+        {
+          "text": "gap",
+          "start_time": 8.033,
+          "end_time": 8.247
+        },
+        {
+          "text": "between",
+          "start_time": 8.247,
+          "end_time": 8.654
+        },
+        {
+          "text": "the",
+          "start_time": 8.654,
+          "end_time": 8.868
+        },
+        {
+          "text": "moving",
+          "start_time": 8.868,
+          "end_time": 9.227
+        },
+        {
+          "text": "steps",
+          "start_time": 9.227,
+          "end_time": 9.537
+        },
+        {
+          "text": "and",
+          "start_time": 9.537,
+          "end_time": 10.092
+        },
+        {
+          "text": "the",
+          "start_time": 10.092,
+          "end_time": 10.306
+        },
+        {
+          "text": "stationary",
+          "start_time": 10.306,
+          "end_time": 10.857
+        },
+        {
+          "text": "side",
+          "start_time": 10.857,
+          "end_time": 11.119
+        }
+      ]
+    },
+    {
+      "text": "panel.",
+      "start_time": 11.119,
+      "end_time": 11.439,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "panel.",
+          "start_time": 11.119,
+          "end_time": 11.439
+        }
+      ]
+    },
+    {
+      "text": "Loose shoelaces, clothes, or bags can get caught there,",
+      "start_time": 12.5,
+      "end_time": 15.799,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Loose",
+          "start_time": 12.5,
+          "end_time": 12.799
+        },
+        {
+          "text": "shoelaces,",
+          "start_time": 12.799,
+          "end_time": 13.358
+        },
+        {
+          "text": "clothes,",
+          "start_time": 13.358,
+          "end_time": 14.043
+        },
+        {
+          "text": "or",
+          "start_time": 14.043,
+          "end_time": 14.204
+        },
+        {
+          "text": "bags",
+          "start_time": 14.204,
+          "end_time": 14.457
+        },
+        {
+          "text": "can",
+          "start_time": 14.457,
+          "end_time": 14.664
+        },
+        {
+          "text": "get",
+          "start_time": 14.664,
+          "end_time": 14.87
+        },
+        {
+          "text": "caught",
+          "start_time": 14.87,
+          "end_time": 15.326
+        },
+        {
+          "text": "there,",
+          "start_time": 15.326,
+          "end_time": 15.799
+        }
+      ]
+    },
+    {
+      "text": "so the brushes touch your shoes and naturally encourage you to move your feet",
+      "start_time": 16.639,
+      "end_time": 20.639,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "so",
+          "start_time": 16.639,
+          "end_time": 16.79
+        },
+        {
+          "text": "the",
+          "start_time": 16.79,
+          "end_time": 16.984
+        },
+        {
+          "text": "brushes",
+          "start_time": 16.984,
+          "end_time": 17.353
+        },
+        {
+          "text": "touch",
+          "start_time": 17.353,
+          "end_time": 17.634
+        },
+        {
+          "text": "your",
+          "start_time": 17.634,
+          "end_time": 17.872
+        },
+        {
+          "text": "shoes",
+          "start_time": 17.872,
+          "end_time": 18.154
+        },
+        {
+          "text": "and",
+          "start_time": 18.154,
+          "end_time": 18.668
+        },
+        {
+          "text": "naturally",
+          "start_time": 18.668,
+          "end_time": 19.124
+        },
+        {
+          "text": "encourage",
+          "start_time": 19.124,
+          "end_time": 19.58
+        },
+        {
+          "text": "you",
+          "start_time": 19.58,
+          "end_time": 19.774
+        },
+        {
+          "text": "to",
+          "start_time": 19.774,
+          "end_time": 19.925
+        },
+        {
+          "text": "move",
+          "start_time": 19.925,
+          "end_time": 20.163
+        },
+        {
+          "text": "your",
+          "start_time": 20.163,
+          "end_time": 20.401
+        },
+        {
+          "text": "feet",
+          "start_time": 20.401,
+          "end_time": 20.639
+        }
+      ]
+    },
+    {
+      "text": "away from the edge.",
+      "start_time": 20.639,
+      "end_time": 21.479,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "away",
+          "start_time": 20.639,
+          "end_time": 20.832
+        },
+        {
+          "text": "from",
+          "start_time": 20.832,
+          "end_time": 21.025
+        },
+        {
+          "text": "the",
+          "start_time": 21.025,
+          "end_time": 21.182
+        },
+        {
+          "text": "edge.",
+          "start_time": 21.182,
+          "end_time": 21.479
+        }
+      ]
+    },
+    {
+      "text": "Basically, every time you rub your shoe against one because it feels nice,",
+      "start_time": 22.42,
+      "end_time": 26.599,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Basically,",
+          "start_time": 22.42,
+          "end_time": 23.183
+        },
+        {
+          "text": "every",
+          "start_time": 23.183,
+          "end_time": 23.479
+        },
+        {
+          "text": "time",
+          "start_time": 23.479,
+          "end_time": 23.73
+        },
+        {
+          "text": "you",
+          "start_time": 23.73,
+          "end_time": 23.935
+        },
+        {
+          "text": "rub",
+          "start_time": 23.935,
+          "end_time": 24.139
+        },
+        {
+          "text": "your",
+          "start_time": 24.139,
+          "end_time": 24.39
+        },
+        {
+          "text": "shoe",
+          "start_time": 24.39,
+          "end_time": 24.64
+        },
+        {
+          "text": "against",
+          "start_time": 24.64,
+          "end_time": 25.028
+        },
+        {
+          "text": "one",
+          "start_time": 25.028,
+          "end_time": 25.423
+        },
+        {
+          "text": "because",
+          "start_time": 25.423,
+          "end_time": 25.811
+        },
+        {
+          "text": "it",
+          "start_time": 25.811,
+          "end_time": 25.97
+        },
+        {
+          "text": "feels",
+          "start_time": 25.97,
+          "end_time": 26.266
+        },
+        {
+          "text": "nice,",
+          "start_time": 26.266,
+          "end_time": 26.599
+        }
+      ]
+    },
+    {
+      "text": "the escalator is politely asking you to stop standing next to the part that can",
+      "start_time": 27.399,
+      "end_time": 31.699,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 27.399,
+          "end_time": 27.612
+        },
+        {
+          "text": "escalator",
+          "start_time": 27.612,
+          "end_time": 28.111
+        },
+        {
+          "text": "is",
+          "start_time": 28.111,
+          "end_time": 28.277
+        },
+        {
+          "text": "politely",
+          "start_time": 28.277,
+          "end_time": 28.728
+        },
+        {
+          "text": "asking",
+          "start_time": 28.728,
+          "end_time": 29.084
+        },
+        {
+          "text": "you",
+          "start_time": 29.084,
+          "end_time": 29.298
+        },
+        {
+          "text": "to",
+          "start_time": 29.298,
+          "end_time": 29.463
+        },
+        {
+          "text": "stop",
+          "start_time": 29.463,
+          "end_time": 29.724
+        },
+        {
+          "text": "standing",
+          "start_time": 29.724,
+          "end_time": 30.175
+        },
+        {
+          "text": "next",
+          "start_time": 30.175,
+          "end_time": 30.436
+        },
+        {
+          "text": "to",
+          "start_time": 30.436,
+          "end_time": 30.601
+        },
+        {
+          "text": "the",
+          "start_time": 30.601,
+          "end_time": 30.814
+        },
+        {
+          "text": "part",
+          "start_time": 30.814,
+          "end_time": 31.075
+        },
+        {
+          "text": "that",
+          "start_time": 31.075,
+          "end_time": 31.486
+        },
+        {
+          "text": "can",
+          "start_time": 31.486,
+          "end_time": 31.699
+        }
+      ]
+    },
+    {
+      "text": "eat it.",
+      "start_time": 31.699,
+      "end_time": 32.059,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "eat",
+          "start_time": 31.699,
+          "end_time": 31.855
+        },
+        {
+          "text": "it.",
+          "start_time": 31.855,
+          "end_time": 32.059
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "slug": "escalator-brushes",
+  "title": "Escalator Brushes Are Not For Your Shoes",
+  "hook": "A thing you assumed was a courtesy is actually a warning.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "dex",
+      "mochi"
+    ],
+    "note": "Dex enjoys the brushes wrongly and enthusiastically. Mochi is the thing that nearly gets eaten."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Those brushes on",
+      "background": "MallEscalator",
+      "cast": [
+        "bill",
+        "dex"
+      ],
+      "note": "Open mid-misuse. Dex is already scrubbing his shoe on the brush, delighted.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Dex crouched at the escalator edge scrubbing a shoe against the brush, grinning; Bill watches, unsure"
+        },
+        {
+          "at": 1.294,
+          "action": "Bill edges closer to look at what Dex is doing, still not understanding it",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "clean",
+          "action": "a NOT A SHOE CLEANER card slams over the brush; Dex freezes mid-scrub",
+          "sync": "keyword: clean"
+        },
+        {
+          "kw": "warning",
+          "action": "the brush turns coral and pulses; three warning marks burst above it; camera punch",
+          "sync": "keyword: warning — the reframe"
+        }
+      ]
+    },
+    {
+      "id": "gap",
+      "from": "The dangerous part",
+      "background": "MallEscalatorCloseup",
+      "cast": [
+        "bill"
+      ],
+      "note": "The mechanism. Camera goes in tight on the seam so the gap is unmissable.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "hard cut to a tight side view of the step edge meeting the side panel"
+        },
+        {
+          "kw": "gap",
+          "action": "the gap between moving step and fixed panel lights up coral; an arrow labels it",
+          "sync": "keyword: gap"
+        },
+        {
+          "kw": "moving-steps",
+          "action": "the steps start moving and the panel visibly does not; the shear at the seam is the whole point",
+          "sync": "keyword: moving steps"
+        },
+        {
+          "kw": "side-panel",
+          "action": "the panel flashes STATIONARY; the contrast holds for a beat",
+          "sync": "keyword: stationary side panel"
+        }
+      ]
+    },
+    {
+      "id": "danger",
+      "from": "Loose shoelaces",
+      "background": "MallEscalatorCloseup",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "note": "Three things get eaten in sequence. Fast, rhythmic, escalating — then Mochi.",
+      "beats": [
+        {
+          "kw": "shoelaces",
+          "action": "a loose shoelace whips into the gap and vanishes with a snap",
+          "sync": "keyword: shoelaces"
+        },
+        {
+          "kw": "clothes",
+          "action": "a coat hem follows it in",
+          "sync": "keyword: clothes"
+        },
+        {
+          "kw": "bags",
+          "action": "a shopping bag is yanked down and gone; Bill goes horrified",
+          "sync": "keyword: bags"
+        },
+        {
+          "kw": "caught",
+          "action": "Mochi's tail drifts toward the seam; she is stolen off-frame at speed and reappears above, unimpressed",
+          "sync": "keyword: caught — the gag on top of the danger"
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "from": "so the brushes",
+      "background": "MallEscalatorCloseup",
+      "cast": [
+        "bill"
+      ],
+      "note": "The brushes finally do their real job, on screen, to Bill's foot.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "camera pulls back to Bill standing too close to the edge"
+        },
+        {
+          "at": 1.786,
+          "action": "Bill checks his own shoelaces and tucks them in, quietly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "touch",
+          "action": "the brush touches his shoe; he flinches and lifts the foot",
+          "sync": "keyword: touch"
+        },
+        {
+          "kw": "move-feet",
+          "action": "Bill shuffles sideways away from the edge; a teal SAFE band appears where he lands",
+          "sync": "keyword: move your feet"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Basically every time",
+      "background": "MallEscalator",
+      "cast": [
+        "bill",
+        "dex"
+      ],
+      "note": "Callback: Dex is still scrubbing. Nothing has been learned. Hard cut.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "wide shot: Dex is scrubbing his shoe on the brush again, blissful"
+        },
+        {
+          "at": 1.585,
+          "action": "Dex scrubs faster, enjoying himself more; Bill watches with growing dread",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 6.354,
+          "action": "the brush bristles bend and spring back once, patient about it",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "feels-nice",
+          "action": "a little heart pops over Dex; Bill facepalms",
+          "sync": "keyword: feels nice"
+        },
+        {
+          "kw": "politely",
+          "action": "the brush sprouts a tiny speech tail reading PLEASE MOVE",
+          "sync": "keyword: politely"
+        },
+        {
+          "kw": "eat",
+          "action": "the gap gains cartoon teeth for exactly four frames; Dex finally steps back; hard cut",
+          "sync": "keyword: eat it — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "clean",
+      [
+        "clean"
+      ],
+      0
+    ],
+    [
+      "warning",
+      [
+        "warning"
+      ],
+      0
+    ],
+    [
+      "gap",
+      [
+        "gap"
+      ],
+      0
+    ],
+    [
+      "moving-steps",
+      [
+        "moving",
+        "steps"
+      ],
+      0
+    ],
+    [
+      "side-panel",
+      [
+        "stationary",
+        "side"
+      ],
+      0
+    ],
+    [
+      "shoelaces",
+      [
+        "shoelaces"
+      ],
+      0
+    ],
+    [
+      "clothes",
+      [
+        "clothes"
+      ],
+      0
+    ],
+    [
+      "bags",
+      [
+        "bags"
+      ],
+      0
+    ],
+    [
+      "caught",
+      [
+        "caught"
+      ],
+      0
+    ],
+    [
+      "touch",
+      [
+        "touch"
+      ],
+      0
+    ],
+    [
+      "move-feet",
+      [
+        "move",
+        "your",
+        "feet"
+      ],
+      0
+    ],
+    [
+      "feels-nice",
+      [
+        "feels",
+        "nice"
+      ],
+      0
+    ],
+    [
+      "politely",
+      [
+        "politely"
+      ],
+      0
+    ],
+    [
+      "eat",
+      [
+        "eat"
+      ],
+      0
+    ]
+  ]
+}

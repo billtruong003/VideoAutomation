@@ -1,0 +1,115 @@
+{
+  "slug": "gas-pump-shutoff",
+  "title": "How A Gas Pump Knows Your Tank Is Full",
+  "hook": "A machine reads your car without any electronics at all.",
+  "cast": { "lead": "bill", "support": ["gus"], "note": "Gus runs the station. He knows how it works and has never once been asked." },
+
+  "audio": { "tempo": 1.12, "minSilence": 0.08 },
+
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Your gas pump",
+      "background": "GasStation",
+      "cast": ["bill"],
+      "note": "Bill is mid-fill at frame 0. Pump, nozzle, car all legible immediately.",
+      "beats": [
+        { "at": 0, "action": "Bill holding the nozzle in the car's filler neck, bored, looking away" },
+        { "kw": "full", "action": "the pump display flashes FULL and the nozzle clicks; Bill jumps", "sync": "keyword: full" },
+        { "kw": "talking", "action": "a dashed 'signal' line tries to connect nozzle to car, then snaps and falls; a NO card lands on it", "sync": "keyword: talking to your car" }
+      ]
+    },
+    {
+      "id": "nozzle",
+      "from": "Near the tip",
+      "background": "NozzleCutaway",
+      "cast": ["bill"],
+      "note": "The mechanism scene. Camera dives into the nozzle tip; this is the money diagram.",
+      "beats": [
+        { "at": 0, "action": "camera dives from the pump down the hose into a side-on cutaway of the nozzle tip" },
+        { "kw": "sensing-hole", "action": "the tiny sensing hole pops on near the tip, circled coral", "sync": "keyword: sensing hole" },
+        { "kw": "air-passage", "action": "the air passage draws itself from the hole back up the nozzle body as a teal channel", "sync": "keyword: air passage" }
+      ]
+    },
+    {
+      "id": "pumping",
+      "from": "While you're pumping",
+      "background": "NozzleCutaway",
+      "cast": [],
+      "note": "Normal operation. Air flows. Establish the baseline so the change reads.",
+      "beats": [
+        { "at": 0, "action": "fuel streams down the nozzle; the tank level starts rising" },
+        { "kw": "air-move", "action": "little air arrows run freely up the passage past the open hole", "sync": "keyword: air can move through it" }
+      ]
+    },
+    {
+      "id": "covered",
+      "from": "but once the",
+      "background": "NozzleCutaway",
+      "cast": [],
+      "note": "The turn. Fuel reaches the hole and the air arrows die. Do not rush this.",
+      "beats": [
+        { "kw": "gasoline", "action": "the fuel level in the filler neck climbs toward the sensing hole", "sync": "keyword: gasoline" },
+        { "kw": "cover", "action": "fuel seals the hole; it goes dark; the air arrows stall and turn coral", "sync": "keyword: cover that hole" },
+        { "kw": "airflow", "action": "the air passage flashes and empties; a vacuum symbol pops at its top", "sync": "keyword: the airflow suddenly changes" }
+      ]
+    },
+    {
+      "id": "click",
+      "from": "That pressure change",
+      "background": "NozzleCutaway",
+      "cast": [],
+      "note": "The payoff of the mechanism. The diaphragm snaps, the valve drops, on the word 'click'.",
+      "beats": [
+        { "kw": "pressure-change", "action": "the diaphragm chamber pops into the cutaway and starts flexing", "sync": "keyword: pressure change" },
+        { "kw": "diaphragm", "action": "the diaphragm sucks inward hard; a linkage arm cocks", "sync": "keyword: diaphragm" },
+        { "kw": "click-word", "action": "CLICK card slams in; the whole frame jolts; impact lines", "sync": "keyword: click — the word and the mechanism land together" },
+        { "kw": "valve", "action": "the valve plate drops shut; the fuel stream cuts to nothing mid-air", "sync": "keyword: the valve shuts" }
+      ]
+    },
+    {
+      "id": "no-tech",
+      "from": "No Wi-Fi",
+      "background": "GasStation",
+      "cast": ["bill"],
+      "note": "Three denials, three props popping out of existence. Rhythmic.",
+      "beats": [
+        { "kw": "wifi", "action": "a wifi icon pops in over the pump and is immediately crossed out and gone", "sync": "keyword: Wi-Fi" },
+        { "kw": "computer", "action": "a little computer pops in and is crossed out", "sync": "keyword: computer" },
+        { "kw": "secret-signal", "action": "a dashed secret-signal beam pops in between car and pump and is crossed out; Bill blinks", "sync": "keyword: secret signal" }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Just air pressure",
+      "background": "GasStation",
+      "cast": ["bill", "gus"],
+      "note": "Gus has been standing there the whole time. Smallest possible reaction closes the episode.",
+      "beats": [
+        { "at": 0, "action": "the nozzle floats up beside Bill with a tiny halo; he looks at it with new respect" },
+        { "kw": "clever", "action": "sparkles burst around the nozzle; Bill is genuinely impressed", "sync": "keyword: ridiculously clever" },
+        { "kw": "engineering", "action": "Gus, who has been in frame the entire scene, gives one slow nod; hard cut", "sync": "keyword: engineering — final beat" }
+      ]
+    }
+  ],
+
+  "keywords": [
+    ["full", ["full"], 0],
+    ["talking", ["talking"], 0],
+    ["sensing-hole", ["sensing", "hole"], 0],
+    ["air-passage", ["air", "passage"], 0],
+    ["air-move", ["air", "can", "move"], 0],
+    ["gasoline", ["gasoline"], 0],
+    ["cover", ["cover"], 0],
+    ["airflow", ["airflow"], 0],
+    ["pressure-change", ["pressure", "change"], 0],
+    ["diaphragm", ["diaphragm"], 0],
+    ["click-word", ["click"], 0],
+    ["valve", ["valve"], 0],
+    ["wifi", ["wifi"], 0],
+    ["computer", ["computer"], 0],
+    ["secret-signal", ["secret", "signal"], 0],
+    ["clever", ["clever"], 0],
+    ["engineering", ["engineering"], 0]
+  ]
+}

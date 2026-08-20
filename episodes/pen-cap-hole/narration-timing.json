@@ -1,0 +1,961 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/pen-cap-hole.wav.",
+  "episode": "pen-cap-hole",
+  "title": "The Hole In A Pen Cap Is A Safety Feature",
+  "audio": "public/audio/pen-cap-hole.wav",
+  "staticAudio": "audio/pen-cap-hole.wav",
+  "duration": 29.365,
+  "fps": 30,
+  "rawDuration": 35.709,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11982,
+  "silenceRemoved": 2.826,
+  "wordCount": 98,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "That tiny hole in some pen caps can serve a much more serious purpose than you'd expect.",
+      "start": 0.039,
+      "end": 4.469,
+      "wordRange": [
+        0,
+        16
+      ]
+    },
+    {
+      "id": "vented",
+      "text": "On vented caps, such as the Bic Cristal, the opening is there for safety.",
+      "start": 4.782,
+      "end": 8.691,
+      "wordRange": [
+        17,
+        30
+      ]
+    },
+    {
+      "id": "airway",
+      "text": "If someone accidentally inhales the cap and it gets lodged in the airway, the vent may still allow some air to pass through while emergency help is needed.",
+      "start": 9.007,
+      "end": 16.877,
+      "wordRange": [
+        31,
+        58
+      ]
+    },
+    {
+      "id": "standards",
+      "text": "International safety standards specifically address vented pen caps for this reason.",
+      "start": 17.201,
+      "end": 21.542,
+      "wordRange": [
+        59,
+        69
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So one of the cheapest, most forgettable pieces of plastic on your desk has a design feature meant for an emergency where a few extra breaths could matter.",
+      "start": 21.893,
+      "end": 29.285,
+      "wordRange": [
+        70,
+        97
+      ]
+    }
+  ],
+  "keywords": {
+    "hole": {
+      "start": 0.506,
+      "end": 0.739,
+      "wordIndex": 2
+    },
+    "serious": {
+      "start": 2.772,
+      "end": 3.134,
+      "wordIndex": 12
+    },
+    "vented": {
+      "start": 4.933,
+      "end": 5.258,
+      "wordIndex": 18
+    },
+    "safety": {
+      "start": 8.254,
+      "end": 8.691,
+      "wordIndex": 30
+    },
+    "lodged": {
+      "start": 11.576,
+      "end": 11.89,
+      "wordIndex": 40
+    },
+    "vent": {
+      "start": 12.994,
+      "end": 13.232,
+      "wordIndex": 45
+    },
+    "pass-through": {
+      "start": 14.544,
+      "end": 15.134,
+      "wordIndex": 52
+    },
+    "emergency-help": {
+      "start": 15.604,
+      "end": 16.279,
+      "wordIndex": 55
+    },
+    "standards": {
+      "start": 18.237,
+      "end": 18.919,
+      "wordIndex": 61
+    },
+    "this-reason": {
+      "start": 20.988,
+      "end": 21.542,
+      "wordIndex": 68
+    },
+    "cheapest": {
+      "start": 22.521,
+      "end": 23.1,
+      "wordIndex": 74
+    },
+    "plastic": {
+      "start": 24.242,
+      "end": 24.576,
+      "wordIndex": 79
+    },
+    "breaths": {
+      "start": 28.279,
+      "end": 28.623,
+      "wordIndex": 95
+    },
+    "matter": {
+      "start": 28.884,
+      "end": 29.285,
+      "wordIndex": 97
+    }
+  },
+  "captions": [
+    {
+      "text": "That tiny hole in",
+      "words": [
+        "That",
+        "tiny",
+        "hole",
+        "in"
+      ],
+      "start": 0.039,
+      "end": 0.888
+    },
+    {
+      "text": "some pen caps can",
+      "words": [
+        "some",
+        "pen",
+        "caps",
+        "can"
+      ],
+      "start": 0.888,
+      "end": 1.736
+    },
+    {
+      "text": "serve a much more",
+      "words": [
+        "serve",
+        "a",
+        "much",
+        "more"
+      ],
+      "start": 1.736,
+      "end": 2.772
+    },
+    {
+      "text": "serious purpose than",
+      "words": [
+        "serious",
+        "purpose",
+        "than"
+      ],
+      "start": 2.772,
+      "end": 3.729
+    },
+    {
+      "text": "you'd expect.",
+      "words": [
+        "you'd",
+        "expect."
+      ],
+      "start": 3.729,
+      "end": 4.689
+    },
+    {
+      "text": "On vented caps,",
+      "words": [
+        "On",
+        "vented",
+        "caps,"
+      ],
+      "start": 4.782,
+      "end": 5.565
+    },
+    {
+      "text": "such as the Bic",
+      "words": [
+        "such",
+        "as",
+        "the",
+        "Bic"
+      ],
+      "start": 5.565,
+      "end": 6.342
+    },
+    {
+      "text": "Cristal,",
+      "words": [
+        "Cristal,"
+      ],
+      "start": 6.342,
+      "end": 6.87
+    },
+    {
+      "text": "the opening is there",
+      "words": [
+        "the",
+        "opening",
+        "is",
+        "there"
+      ],
+      "start": 6.87,
+      "end": 8.06
+    },
+    {
+      "text": "for safety.",
+      "words": [
+        "for",
+        "safety."
+      ],
+      "start": 8.06,
+      "end": 8.911
+    },
+    {
+      "text": "If someone",
+      "words": [
+        "If",
+        "someone"
+      ],
+      "start": 9.007,
+      "end": 9.511
+    },
+    {
+      "text": "accidentally inhales",
+      "words": [
+        "accidentally",
+        "inhales"
+      ],
+      "start": 9.511,
+      "end": 10.436
+    },
+    {
+      "text": "the cap and it",
+      "words": [
+        "the",
+        "cap",
+        "and",
+        "it"
+      ],
+      "start": 10.436,
+      "end": 11.344
+    },
+    {
+      "text": "gets lodged in the",
+      "words": [
+        "gets",
+        "lodged",
+        "in",
+        "the"
+      ],
+      "start": 11.344,
+      "end": 12.225
+    },
+    {
+      "text": "airway,",
+      "words": [
+        "airway,"
+      ],
+      "start": 12.225,
+      "end": 12.608
+    },
+    {
+      "text": "the vent may still",
+      "words": [
+        "the",
+        "vent",
+        "may",
+        "still"
+      ],
+      "start": 12.608,
+      "end": 13.705
+    },
+    {
+      "text": "allow some air to",
+      "words": [
+        "allow",
+        "some",
+        "air",
+        "to"
+      ],
+      "start": 13.705,
+      "end": 14.544
+    },
+    {
+      "text": "pass through while",
+      "words": [
+        "pass",
+        "through",
+        "while"
+      ],
+      "start": 14.544,
+      "end": 15.604
+    },
+    {
+      "text": "emergency help is",
+      "words": [
+        "emergency",
+        "help",
+        "is"
+      ],
+      "start": 15.604,
+      "end": 16.425
+    },
+    {
+      "text": "needed.",
+      "words": [
+        "needed."
+      ],
+      "start": 16.425,
+      "end": 17.097
+    },
+    {
+      "text": "International safety",
+      "words": [
+        "International",
+        "safety"
+      ],
+      "start": 17.201,
+      "end": 18.237
+    },
+    {
+      "text": "standards specifically",
+      "words": [
+        "standards",
+        "specifically"
+      ],
+      "start": 18.237,
+      "end": 19.555
+    },
+    {
+      "text": "address vented pen",
+      "words": [
+        "address",
+        "vented",
+        "pen"
+      ],
+      "start": 19.555,
+      "end": 20.519
+    },
+    {
+      "text": "caps for this reason.",
+      "words": [
+        "caps",
+        "for",
+        "this",
+        "reason."
+      ],
+      "start": 20.519,
+      "end": 21.762
+    },
+    {
+      "text": "So one of the",
+      "words": [
+        "So",
+        "one",
+        "of",
+        "the"
+      ],
+      "start": 21.893,
+      "end": 22.521
+    },
+    {
+      "text": "cheapest,",
+      "words": [
+        "cheapest,"
+      ],
+      "start": 22.521,
+      "end": 23.1
+    },
+    {
+      "text": "most forgettable",
+      "words": [
+        "most",
+        "forgettable"
+      ],
+      "start": 23.1,
+      "end": 23.81
+    },
+    {
+      "text": "pieces of plastic on",
+      "words": [
+        "pieces",
+        "of",
+        "plastic",
+        "on"
+      ],
+      "start": 23.81,
+      "end": 24.714
+    },
+    {
+      "text": "your desk has a",
+      "words": [
+        "your",
+        "desk",
+        "has",
+        "a"
+      ],
+      "start": 24.714,
+      "end": 25.618
+    },
+    {
+      "text": "design feature meant",
+      "words": [
+        "design",
+        "feature",
+        "meant"
+      ],
+      "start": 25.618,
+      "end": 26.527
+    },
+    {
+      "text": "for an emergency where",
+      "words": [
+        "for",
+        "an",
+        "emergency",
+        "where"
+      ],
+      "start": 26.527,
+      "end": 27.735
+    },
+    {
+      "text": "a few extra breaths",
+      "words": [
+        "a",
+        "few",
+        "extra",
+        "breaths"
+      ],
+      "start": 27.735,
+      "end": 28.623
+    },
+    {
+      "text": "could matter.",
+      "words": [
+        "could",
+        "matter."
+      ],
+      "start": 28.623,
+      "end": 29.365
+    }
+  ],
+  "words": [
+    {
+      "text": "That",
+      "start": 0.039,
+      "end": 0.272
+    },
+    {
+      "text": "tiny",
+      "start": 0.272,
+      "end": 0.506
+    },
+    {
+      "text": "hole",
+      "start": 0.506,
+      "end": 0.739
+    },
+    {
+      "text": "in",
+      "start": 0.739,
+      "end": 0.888
+    },
+    {
+      "text": "some",
+      "start": 0.888,
+      "end": 1.121
+    },
+    {
+      "text": "pen",
+      "start": 1.121,
+      "end": 1.312
+    },
+    {
+      "text": "caps",
+      "start": 1.312,
+      "end": 1.545
+    },
+    {
+      "text": "can",
+      "start": 1.545,
+      "end": 1.736
+    },
+    {
+      "text": "serve",
+      "start": 1.736,
+      "end": 2.2
+    },
+    {
+      "text": "a",
+      "start": 2.2,
+      "end": 2.305
+    },
+    {
+      "text": "much",
+      "start": 2.305,
+      "end": 2.538
+    },
+    {
+      "text": "more",
+      "start": 2.538,
+      "end": 2.772
+    },
+    {
+      "text": "serious",
+      "start": 2.772,
+      "end": 3.134
+    },
+    {
+      "text": "purpose",
+      "start": 3.134,
+      "end": 3.495
+    },
+    {
+      "text": "than",
+      "start": 3.495,
+      "end": 3.729
+    },
+    {
+      "text": "you'd",
+      "start": 3.729,
+      "end": 4.004
+    },
+    {
+      "text": "expect.",
+      "start": 4.004,
+      "end": 4.469
+    },
+    {
+      "text": "On",
+      "start": 4.782,
+      "end": 4.933
+    },
+    {
+      "text": "vented",
+      "start": 4.933,
+      "end": 5.258
+    },
+    {
+      "text": "caps,",
+      "start": 5.258,
+      "end": 5.565
+    },
+    {
+      "text": "such",
+      "start": 5.565,
+      "end": 5.803
+    },
+    {
+      "text": "as",
+      "start": 5.803,
+      "end": 5.954
+    },
+    {
+      "text": "the",
+      "start": 5.954,
+      "end": 6.148
+    },
+    {
+      "text": "Bic",
+      "start": 6.148,
+      "end": 6.342
+    },
+    {
+      "text": "Cristal,",
+      "start": 6.342,
+      "end": 6.87
+    },
+    {
+      "text": "the",
+      "start": 6.87,
+      "end": 7.063
+    },
+    {
+      "text": "opening",
+      "start": 7.063,
+      "end": 7.628
+    },
+    {
+      "text": "is",
+      "start": 7.628,
+      "end": 7.779
+    },
+    {
+      "text": "there",
+      "start": 7.779,
+      "end": 8.06
+    },
+    {
+      "text": "for",
+      "start": 8.06,
+      "end": 8.254
+    },
+    {
+      "text": "safety.",
+      "start": 8.254,
+      "end": 8.691
+    },
+    {
+      "text": "If",
+      "start": 9.007,
+      "end": 9.154
+    },
+    {
+      "text": "someone",
+      "start": 9.154,
+      "end": 9.511
+    },
+    {
+      "text": "accidentally",
+      "start": 9.511,
+      "end": 10.079
+    },
+    {
+      "text": "inhales",
+      "start": 10.079,
+      "end": 10.436
+    },
+    {
+      "text": "the",
+      "start": 10.436,
+      "end": 10.625
+    },
+    {
+      "text": "cap",
+      "start": 10.625,
+      "end": 10.813
+    },
+    {
+      "text": "and",
+      "start": 10.813,
+      "end": 11.002
+    },
+    {
+      "text": "it",
+      "start": 11.002,
+      "end": 11.344
+    },
+    {
+      "text": "gets",
+      "start": 11.344,
+      "end": 11.576
+    },
+    {
+      "text": "lodged",
+      "start": 11.576,
+      "end": 11.89
+    },
+    {
+      "text": "in",
+      "start": 11.89,
+      "end": 12.037
+    },
+    {
+      "text": "the",
+      "start": 12.037,
+      "end": 12.225
+    },
+    {
+      "text": "airway,",
+      "start": 12.225,
+      "end": 12.608
+    },
+    {
+      "text": "the",
+      "start": 12.608,
+      "end": 12.994
+    },
+    {
+      "text": "vent",
+      "start": 12.994,
+      "end": 13.232
+    },
+    {
+      "text": "may",
+      "start": 13.232,
+      "end": 13.431
+    },
+    {
+      "text": "still",
+      "start": 13.431,
+      "end": 13.705
+    },
+    {
+      "text": "allow",
+      "start": 13.705,
+      "end": 13.978
+    },
+    {
+      "text": "some",
+      "start": 13.978,
+      "end": 14.209
+    },
+    {
+      "text": "air",
+      "start": 14.209,
+      "end": 14.398
+    },
+    {
+      "text": "to",
+      "start": 14.398,
+      "end": 14.544
+    },
+    {
+      "text": "pass",
+      "start": 14.544,
+      "end": 14.776
+    },
+    {
+      "text": "through",
+      "start": 14.776,
+      "end": 15.134
+    },
+    {
+      "text": "while",
+      "start": 15.134,
+      "end": 15.604
+    },
+    {
+      "text": "emergency",
+      "start": 15.604,
+      "end": 16.047
+    },
+    {
+      "text": "help",
+      "start": 16.047,
+      "end": 16.279
+    },
+    {
+      "text": "is",
+      "start": 16.279,
+      "end": 16.425
+    },
+    {
+      "text": "needed.",
+      "start": 16.425,
+      "end": 16.877
+    },
+    {
+      "text": "International",
+      "start": 17.201,
+      "end": 17.884
+    },
+    {
+      "text": "safety",
+      "start": 17.884,
+      "end": 18.237
+    },
+    {
+      "text": "standards",
+      "start": 18.237,
+      "end": 18.919
+    },
+    {
+      "text": "specifically",
+      "start": 18.919,
+      "end": 19.555
+    },
+    {
+      "text": "address",
+      "start": 19.555,
+      "end": 19.955
+    },
+    {
+      "text": "vented",
+      "start": 19.955,
+      "end": 20.307
+    },
+    {
+      "text": "pen",
+      "start": 20.307,
+      "end": 20.519
+    },
+    {
+      "text": "caps",
+      "start": 20.519,
+      "end": 20.777
+    },
+    {
+      "text": "for",
+      "start": 20.777,
+      "end": 20.988
+    },
+    {
+      "text": "this",
+      "start": 20.988,
+      "end": 21.185
+    },
+    {
+      "text": "reason.",
+      "start": 21.185,
+      "end": 21.542
+    },
+    {
+      "text": "So",
+      "start": 21.893,
+      "end": 22.03
+    },
+    {
+      "text": "one",
+      "start": 22.03,
+      "end": 22.207
+    },
+    {
+      "text": "of",
+      "start": 22.207,
+      "end": 22.344
+    },
+    {
+      "text": "the",
+      "start": 22.344,
+      "end": 22.521
+    },
+    {
+      "text": "cheapest,",
+      "start": 22.521,
+      "end": 23.1
+    },
+    {
+      "text": "most",
+      "start": 23.1,
+      "end": 23.317
+    },
+    {
+      "text": "forgettable",
+      "start": 23.317,
+      "end": 23.81
+    },
+    {
+      "text": "pieces",
+      "start": 23.81,
+      "end": 24.105
+    },
+    {
+      "text": "of",
+      "start": 24.105,
+      "end": 24.242
+    },
+    {
+      "text": "plastic",
+      "start": 24.242,
+      "end": 24.576
+    },
+    {
+      "text": "on",
+      "start": 24.576,
+      "end": 24.714
+    },
+    {
+      "text": "your",
+      "start": 24.714,
+      "end": 24.93
+    },
+    {
+      "text": "desk",
+      "start": 24.93,
+      "end": 25.146
+    },
+    {
+      "text": "has",
+      "start": 25.146,
+      "end": 25.521
+    },
+    {
+      "text": "a",
+      "start": 25.521,
+      "end": 25.618
+    },
+    {
+      "text": "design",
+      "start": 25.618,
+      "end": 25.921
+    },
+    {
+      "text": "feature",
+      "start": 25.921,
+      "end": 26.264
+    },
+    {
+      "text": "meant",
+      "start": 26.264,
+      "end": 26.527
+    },
+    {
+      "text": "for",
+      "start": 26.527,
+      "end": 26.708
+    },
+    {
+      "text": "an",
+      "start": 26.708,
+      "end": 26.848
+    },
+    {
+      "text": "emergency",
+      "start": 26.848,
+      "end": 27.273
+    },
+    {
+      "text": "where",
+      "start": 27.273,
+      "end": 27.735
+    },
+    {
+      "text": "a",
+      "start": 27.735,
+      "end": 27.836
+    },
+    {
+      "text": "few",
+      "start": 27.836,
+      "end": 28.017
+    },
+    {
+      "text": "extra",
+      "start": 28.017,
+      "end": 28.279
+    },
+    {
+      "text": "breaths",
+      "start": 28.279,
+      "end": 28.623
+    },
+    {
+      "text": "could",
+      "start": 28.623,
+      "end": 28.884
+    },
+    {
+      "text": "matter.",
+      "start": 28.884,
+      "end": 29.285
+    }
+  ]
+}

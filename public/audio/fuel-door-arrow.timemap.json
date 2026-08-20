@@ -1,0 +1,207 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_52_23_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/fuel-door-arrow.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11952,
+  "sampleRate": 48000,
+  "rawDuration": 35.161,
+  "cutDuration": 30.561,
+  "processedDuration": 27.298,
+  "silenceRemoved": 4.6,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.08,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "leading",
+      "raw": 0.081,
+      "kept": 0.04,
+      "removed": 0.041
+    },
+    {
+      "kind": "shortened",
+      "at": 3.205,
+      "raw": 0.873,
+      "kept": 0.3,
+      "removed": 0.573
+    },
+    {
+      "kind": "shortened",
+      "at": 6.635,
+      "raw": 0.812,
+      "kept": 0.3,
+      "removed": 0.512
+    },
+    {
+      "kind": "kept-intact",
+      "at": 8.281,
+      "raw": 0.193,
+      "kept": 0.193,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 10.914,
+      "raw": 0.908,
+      "kept": 0.3,
+      "removed": 0.608
+    },
+    {
+      "kind": "shortened",
+      "at": 12.772,
+      "raw": 0.305,
+      "kept": 0.201,
+      "removed": 0.104
+    },
+    {
+      "kind": "shortened",
+      "at": 14.734,
+      "raw": 0.733,
+      "kept": 0.287,
+      "removed": 0.446
+    },
+    {
+      "kind": "kept-intact",
+      "at": 16.382,
+      "raw": 0.208,
+      "kept": 0.208,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 17.393,
+      "raw": 0.834,
+      "kept": 0.3,
+      "removed": 0.534
+    },
+    {
+      "kind": "kept-intact",
+      "at": 21.457,
+      "raw": 0.262,
+      "kept": 0.262,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 24.049,
+      "raw": 0.907,
+      "kept": 0.3,
+      "removed": 0.607
+    },
+    {
+      "kind": "shortened",
+      "at": 27.496,
+      "raw": 0.594,
+      "kept": 0.259,
+      "removed": 0.335
+    },
+    {
+      "kind": "shortened",
+      "at": 29.191,
+      "raw": 0.597,
+      "kept": 0.259,
+      "removed": 0.338
+    },
+    {
+      "kind": "shortened",
+      "at": 30.366,
+      "raw": 0.425,
+      "kept": 0.225,
+      "removed": 0.2
+    },
+    {
+      "kind": "shortened",
+      "at": 31.693,
+      "raw": 0.55,
+      "kept": 0.25,
+      "removed": 0.3
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0.041,
+      "rawEnd": 3.355,
+      "outStart": 0,
+      "outEnd": 2.959
+    },
+    {
+      "rawStart": 3.928,
+      "rawEnd": 6.785,
+      "outStart": 2.959,
+      "outEnd": 5.512
+    },
+    {
+      "rawStart": 7.298,
+      "rawEnd": 11.064,
+      "outStart": 5.512,
+      "outEnd": 8.876
+    },
+    {
+      "rawStart": 11.672,
+      "rawEnd": 12.872,
+      "outStart": 8.876,
+      "outEnd": 9.948
+    },
+    {
+      "rawStart": 12.976,
+      "rawEnd": 14.878,
+      "outStart": 9.948,
+      "outEnd": 11.647
+    },
+    {
+      "rawStart": 15.324,
+      "rawEnd": 17.543,
+      "outStart": 11.647,
+      "outEnd": 13.629
+    },
+    {
+      "rawStart": 18.077,
+      "rawEnd": 24.199,
+      "outStart": 13.629,
+      "outEnd": 19.098
+    },
+    {
+      "rawStart": 24.807,
+      "rawEnd": 27.625,
+      "outStart": 19.098,
+      "outEnd": 21.615
+    },
+    {
+      "rawStart": 27.96,
+      "rawEnd": 29.321,
+      "outStart": 21.615,
+      "outEnd": 22.83
+    },
+    {
+      "rawStart": 29.658,
+      "rawEnd": 30.479,
+      "outStart": 22.83,
+      "outEnd": 23.563
+    },
+    {
+      "rawStart": 30.679,
+      "rawEnd": 31.818,
+      "outStart": 23.563,
+      "outEnd": 24.581
+    },
+    {
+      "rawStart": 32.118,
+      "rawEnd": 35.161,
+      "outStart": 24.581,
+      "outEnd": 27.298
+    }
+  ]
+}

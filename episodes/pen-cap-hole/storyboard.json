@@ -1,0 +1,268 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "pen-cap-hole",
+  "title": "The Hole In A Pen Cap Is A Safety Feature",
+  "audio": "public/audio/pen-cap-hole.wav",
+  "fps": 30,
+  "narrationDuration": 29.365,
+  "beatCount": 23,
+  "longestGap": 2.019,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.039,
+      "end": 4.469,
+      "startFrame": 1,
+      "endFrame": 134,
+      "duration": 4.43,
+      "narration": "That tiny hole in some pen caps can serve a much more serious purpose than you'd expect.",
+      "background": "DeskSurface",
+      "note": "TONE: this episode touches a real choking hazard. It stays a DIAGRAM throughout. Nobody chokes on screen, nothing is played for laughs, and Bill is never in distress. The comedy is respect for an overlooked object, not the emergency.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.039,
+          "frame": 1,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill at a desk idly turning a pen cap over; the vent hole is visible at frame 0"
+        },
+        {
+          "t": 1.639,
+          "frame": 49,
+          "tInScene": 1.6,
+          "frameInScene": 48,
+          "action": "Bill stops turning the cap and holds it still, looking at the hole properly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 0.506,
+          "frame": 15,
+          "tInScene": 0.467,
+          "frameInScene": 14,
+          "action": "camera punches onto the hole in the cap; it circles teal",
+          "sync": "keyword: hole"
+        },
+        {
+          "t": 2.772,
+          "frame": 83,
+          "tInScene": 2.733,
+          "frameInScene": 82,
+          "action": "the light shifts cooler; Bill's expression settles from bored to attentive",
+          "sync": "keyword: serious purpose — the tonal turn"
+        }
+      ]
+    },
+    {
+      "scene": "vented",
+      "start": 4.782,
+      "end": 8.691,
+      "startFrame": 143,
+      "endFrame": 261,
+      "duration": 3.909,
+      "narration": "On vented caps, such as the Bic Cristal, the opening is there for safety.",
+      "background": "PenCapCloseup",
+      "note": "Generic vented cap — no brand marks, no logo, even though the narration names one.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 4.782,
+          "frame": 143,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the cap fills frame, drawn plainly and generically; no branding anywhere"
+        },
+        {
+          "t": 6.593,
+          "frame": 198,
+          "tInScene": 1.811,
+          "frameInScene": 54,
+          "action": "the cross-section rotates slowly so the vent channel reads end to end",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 4.933,
+          "frame": 148,
+          "tInScene": 0.151,
+          "frameInScene": 5,
+          "action": "the vent hole outlines and a cross-section peels open beside it",
+          "sync": "keyword: vented caps"
+        },
+        {
+          "t": 8.254,
+          "frame": 248,
+          "tInScene": 3.472,
+          "frameInScene": 104,
+          "action": "a SAFETY FEATURE label lands, plain and unfunny",
+          "sync": "keyword: safety"
+        }
+      ]
+    },
+    {
+      "scene": "airway",
+      "start": 9.007,
+      "end": 16.877,
+      "startFrame": 270,
+      "endFrame": 506,
+      "duration": 7.87,
+      "narration": "If someone accidentally inhales the cap and it gets lodged in the airway, the vent may still allow some air to pass through while emergency help is needed.",
+      "background": "AirwayDiagram",
+      "note": "Pure schematic. A simple tube, the cap lodged in it, and air getting through the vent. No character, no face, no panic.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 9.007,
+          "frame": 270,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "clean schematic of an airway as a plain tube; no body drawn around it"
+        },
+        {
+          "t": 10.291,
+          "frame": 309,
+          "tInScene": 1.284,
+          "frameInScene": 39,
+          "action": "the cap settles a fraction deeper; the tube outline pulses once",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 11.576,
+          "frame": 347,
+          "tInScene": 2.569,
+          "frameInScene": 77,
+          "action": "the cap settles into the tube and blocks it; the tube outlines coral",
+          "sync": "keyword: lodged in the airway"
+        },
+        {
+          "t": 12.994,
+          "frame": 390,
+          "tInScene": 3.987,
+          "frameInScene": 120,
+          "action": "the vent hole lights teal; a thin air path draws straight through the cap",
+          "sync": "keyword: the vent"
+        },
+        {
+          "t": 14.544,
+          "frame": 436,
+          "tInScene": 5.537,
+          "frameInScene": 166,
+          "action": "steady air arrows move through the vent; the coral outline softens",
+          "sync": "keyword: allow some air to pass through"
+        },
+        {
+          "t": 15.604,
+          "frame": 468,
+          "tInScene": 6.597,
+          "frameInScene": 198,
+          "action": "a clock ticks beside the diagram — the vent buys time, it does not solve it",
+          "sync": "keyword: while emergency help is needed"
+        }
+      ]
+    },
+    {
+      "scene": "standards",
+      "start": 17.201,
+      "end": 21.542,
+      "startFrame": 516,
+      "endFrame": 646,
+      "duration": 4.341,
+      "narration": "International safety standards specifically address vented pen caps for this reason.",
+      "background": "DeskSurface",
+      "note": "Gus stamps the document. One motion, no expression change. That restraint is the character.",
+      "cast": [
+        "gus"
+      ],
+      "beats": [
+        {
+          "t": 17.201,
+          "frame": 516,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a plain standards document slides in; Gus steps up with a clipboard"
+        },
+        {
+          "t": 19.612,
+          "frame": 588,
+          "tInScene": 2.411,
+          "frameInScene": 72,
+          "action": "Gus squares the document edge with one finger before leaving",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 18.237,
+          "frame": 547,
+          "tInScene": 1.036,
+          "frameInScene": 31,
+          "action": "Gus stamps the page once, hard; the stamp reads VENTED CAPS",
+          "sync": "keyword: standards"
+        },
+        {
+          "t": 20.988,
+          "frame": 630,
+          "tInScene": 3.787,
+          "frameInScene": 114,
+          "action": "the page files itself into a drawer; Gus walks out of frame without looking up",
+          "sync": "keyword: for this reason"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 21.893,
+      "end": 29.285,
+      "startFrame": 657,
+      "endFrame": 879,
+      "duration": 7.392,
+      "narration": "So one of the cheapest, most forgettable pieces of plastic on your desk has a design feature meant for an emergency where a few extra breaths could matter.",
+      "background": "DeskSurface",
+      "note": "The reframe: the cheapest object on the desk gets treated as important. Sincere, not sarcastic. Hard cut.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 26.261,
+          "frame": 788,
+          "tInScene": 4.368,
+          "frameInScene": 131,
+          "action": "the pen cap turns a half rotation more, catching the light on the vent",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 22.521,
+          "frame": 676,
+          "tInScene": 0.628,
+          "frameInScene": 19,
+          "action": "the desk clutter greys out until only the pen cap is drawn in full ink",
+          "sync": "keyword: cheapest"
+        },
+        {
+          "t": 24.242,
+          "frame": 727,
+          "tInScene": 2.349,
+          "frameInScene": 70,
+          "action": "the cap lifts and turns slowly, lit like an artefact",
+          "sync": "keyword: plastic on your desk"
+        },
+        {
+          "t": 28.279,
+          "frame": 848,
+          "tInScene": 6.386,
+          "frameInScene": 192,
+          "action": "two small, calm air marks pass through the vent",
+          "sync": "keyword: a few extra breaths"
+        },
+        {
+          "t": 28.884,
+          "frame": 867,
+          "tInScene": 6.991,
+          "frameInScene": 210,
+          "action": "Bill puts the cap back on his pen carefully, the way you handle something that matters; hard cut",
+          "sync": "keyword: could matter — final beat"
+        }
+      ]
+    }
+  ]
+}

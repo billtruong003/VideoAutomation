@@ -1,0 +1,631 @@
+{
+  "note": "Timings correspond to public/audio/highway-lane-lines.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/highway-lane-lines/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/highway-lane-lines.timemap.json",
+  "audio": "public/audio/highway-lane-lines.wav",
+  "duration": 27.578,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "Those tiny dashed lines on the highway are much bigger than your brain thinks.",
+      "start": 0.04,
+      "end": 3.918
+    },
+    {
+      "text": "In the United States, a standard broken lane marking is typically about 10 feet",
+      "start": 4.214,
+      "end": 8.535
+    },
+    {
+      "text": "long,",
+      "start": 8.535,
+      "end": 8.803
+    },
+    {
+      "text": "and the gap after it is around 30 feet.",
+      "start": 9.095,
+      "end": 11.132
+    },
+    {
+      "text": "But from inside a moving car, perspective makes them look like tiny little strips of",
+      "start": 11.407,
+      "end": 15.497
+    },
+    {
+      "text": "paint.",
+      "start": 15.497,
+      "end": 15.819
+    },
+    {
+      "text": "10 feet is about 3 meters, so if Bill stood next to one of those little road",
+      "start": 16.138,
+      "end": 20.354
+    },
+    {
+      "text": "lines,",
+      "start": 20.354,
+      "end": 20.676
+    },
+    {
+      "text": "the line would absolutely destroy him in a height comparison.",
+      "start": 20.955,
+      "end": 23.654
+    },
+    {
+      "text": "Your brain has basically been shrinking the road underneath you this entire time.",
+      "start": 23.998,
+      "end": 27.535
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "Those",
+      "start": 0.04,
+      "end": 0.314
+    },
+    {
+      "i": 1,
+      "text": "tiny",
+      "start": 0.314,
+      "end": 0.544
+    },
+    {
+      "i": 2,
+      "text": "dashed",
+      "start": 0.544,
+      "end": 0.858
+    },
+    {
+      "i": 3,
+      "text": "lines",
+      "start": 0.858,
+      "end": 1.131
+    },
+    {
+      "i": 4,
+      "text": "on",
+      "start": 1.131,
+      "end": 1.276
+    },
+    {
+      "i": 5,
+      "text": "the",
+      "start": 1.276,
+      "end": 1.465
+    },
+    {
+      "i": 6,
+      "text": "highway",
+      "start": 1.465,
+      "end": 1.821
+    },
+    {
+      "i": 7,
+      "text": "are",
+      "start": 1.821,
+      "end": 2.01
+    },
+    {
+      "i": 8,
+      "text": "much",
+      "start": 2.01,
+      "end": 2.365
+    },
+    {
+      "i": 9,
+      "text": "bigger",
+      "start": 2.365,
+      "end": 2.76
+    },
+    {
+      "i": 10,
+      "text": "than",
+      "start": 2.76,
+      "end": 2.991
+    },
+    {
+      "i": 11,
+      "text": "your",
+      "start": 2.991,
+      "end": 3.221
+    },
+    {
+      "i": 12,
+      "text": "brain",
+      "start": 3.221,
+      "end": 3.494
+    },
+    {
+      "i": 13,
+      "text": "thinks.",
+      "start": 3.494,
+      "end": 3.918
+    },
+    {
+      "i": 14,
+      "text": "In",
+      "start": 4.214,
+      "end": 4.364
+    },
+    {
+      "i": 15,
+      "text": "the",
+      "start": 4.364,
+      "end": 4.559
+    },
+    {
+      "i": 16,
+      "text": "United",
+      "start": 4.559,
+      "end": 4.884
+    },
+    {
+      "i": 17,
+      "text": "States,",
+      "start": 4.884,
+      "end": 5.493
+    },
+    {
+      "i": 18,
+      "text": "a",
+      "start": 5.493,
+      "end": 5.601
+    },
+    {
+      "i": 19,
+      "text": "standard",
+      "start": 5.601,
+      "end": 6.014
+    },
+    {
+      "i": 20,
+      "text": "broken",
+      "start": 6.014,
+      "end": 6.339
+    },
+    {
+      "i": 21,
+      "text": "lane",
+      "start": 6.339,
+      "end": 6.577
+    },
+    {
+      "i": 22,
+      "text": "marking",
+      "start": 6.577,
+      "end": 6.945
+    },
+    {
+      "i": 23,
+      "text": "is",
+      "start": 6.945,
+      "end": 7.24
+    },
+    {
+      "i": 24,
+      "text": "typically",
+      "start": 7.24,
+      "end": 7.696
+    },
+    {
+      "i": 25,
+      "text": "about",
+      "start": 7.696,
+      "end": 7.978
+    },
+    {
+      "i": 26,
+      "text": "10",
+      "start": 7.978,
+      "end": 8.297
+    },
+    {
+      "i": 27,
+      "text": "feet",
+      "start": 8.297,
+      "end": 8.535
+    },
+    {
+      "i": 28,
+      "text": "long,",
+      "start": 8.535,
+      "end": 8.803
+    },
+    {
+      "i": 29,
+      "text": "and",
+      "start": 9.095,
+      "end": 9.27
+    },
+    {
+      "i": 30,
+      "text": "the",
+      "start": 9.27,
+      "end": 9.445
+    },
+    {
+      "i": 31,
+      "text": "gap",
+      "start": 9.445,
+      "end": 9.62
+    },
+    {
+      "i": 32,
+      "text": "after",
+      "start": 9.62,
+      "end": 9.874
+    },
+    {
+      "i": 33,
+      "text": "it",
+      "start": 9.874,
+      "end": 10.01
+    },
+    {
+      "i": 34,
+      "text": "is",
+      "start": 10.01,
+      "end": 10.146
+    },
+    {
+      "i": 35,
+      "text": "around",
+      "start": 10.146,
+      "end": 10.439
+    },
+    {
+      "i": 36,
+      "text": "30",
+      "start": 10.439,
+      "end": 10.816
+    },
+    {
+      "i": 37,
+      "text": "feet.",
+      "start": 10.816,
+      "end": 11.132
+    },
+    {
+      "i": 38,
+      "text": "But",
+      "start": 11.407,
+      "end": 11.594
+    },
+    {
+      "i": 39,
+      "text": "from",
+      "start": 11.594,
+      "end": 11.822
+    },
+    {
+      "i": 40,
+      "text": "inside",
+      "start": 11.822,
+      "end": 12.133
+    },
+    {
+      "i": 41,
+      "text": "a",
+      "start": 12.133,
+      "end": 12.237
+    },
+    {
+      "i": 42,
+      "text": "moving",
+      "start": 12.237,
+      "end": 12.549
+    },
+    {
+      "i": 43,
+      "text": "car,",
+      "start": 12.549,
+      "end": 12.801
+    },
+    {
+      "i": 44,
+      "text": "perspective",
+      "start": 12.801,
+      "end": 13.546
+    },
+    {
+      "i": 45,
+      "text": "makes",
+      "start": 13.546,
+      "end": 13.816
+    },
+    {
+      "i": 46,
+      "text": "them",
+      "start": 13.816,
+      "end": 14.044
+    },
+    {
+      "i": 47,
+      "text": "look",
+      "start": 14.044,
+      "end": 14.273
+    },
+    {
+      "i": 48,
+      "text": "like",
+      "start": 14.273,
+      "end": 14.5
+    },
+    {
+      "i": 49,
+      "text": "tiny",
+      "start": 14.5,
+      "end": 14.729
+    },
+    {
+      "i": 50,
+      "text": "little",
+      "start": 14.729,
+      "end": 15.041
+    },
+    {
+      "i": 51,
+      "text": "strips",
+      "start": 15.041,
+      "end": 15.353
+    },
+    {
+      "i": 52,
+      "text": "of",
+      "start": 15.353,
+      "end": 15.497
+    },
+    {
+      "i": 53,
+      "text": "paint.",
+      "start": 15.497,
+      "end": 15.819
+    },
+    {
+      "i": 54,
+      "text": "10",
+      "start": 16.138,
+      "end": 16.439
+    },
+    {
+      "i": 55,
+      "text": "feet",
+      "start": 16.439,
+      "end": 16.664
+    },
+    {
+      "i": 56,
+      "text": "is",
+      "start": 16.664,
+      "end": 16.806
+    },
+    {
+      "i": 57,
+      "text": "about",
+      "start": 16.806,
+      "end": 17.071
+    },
+    {
+      "i": 58,
+      "text": "3",
+      "start": 17.071,
+      "end": 17.252
+    },
+    {
+      "i": 59,
+      "text": "meters,",
+      "start": 17.252,
+      "end": 17.866
+    },
+    {
+      "i": 60,
+      "text": "so",
+      "start": 17.866,
+      "end": 18.008
+    },
+    {
+      "i": 61,
+      "text": "if",
+      "start": 18.008,
+      "end": 18.151
+    },
+    {
+      "i": 62,
+      "text": "Bill",
+      "start": 18.151,
+      "end": 18.376
+    },
+    {
+      "i": 63,
+      "text": "stood",
+      "start": 18.376,
+      "end": 18.641
+    },
+    {
+      "i": 64,
+      "text": "next",
+      "start": 18.641,
+      "end": 18.866
+    },
+    {
+      "i": 65,
+      "text": "to",
+      "start": 18.866,
+      "end": 19.008
+    },
+    {
+      "i": 66,
+      "text": "one",
+      "start": 19.008,
+      "end": 19.191
+    },
+    {
+      "i": 67,
+      "text": "of",
+      "start": 19.191,
+      "end": 19.334
+    },
+    {
+      "i": 68,
+      "text": "those",
+      "start": 19.334,
+      "end": 19.823
+    },
+    {
+      "i": 69,
+      "text": "little",
+      "start": 19.823,
+      "end": 20.13
+    },
+    {
+      "i": 70,
+      "text": "road",
+      "start": 20.13,
+      "end": 20.354
+    },
+    {
+      "i": 71,
+      "text": "lines,",
+      "start": 20.354,
+      "end": 20.676
+    },
+    {
+      "i": 72,
+      "text": "the",
+      "start": 20.955,
+      "end": 21.132
+    },
+    {
+      "i": 73,
+      "text": "line",
+      "start": 21.132,
+      "end": 21.349
+    },
+    {
+      "i": 74,
+      "text": "would",
+      "start": 21.349,
+      "end": 21.606
+    },
+    {
+      "i": 75,
+      "text": "absolutely",
+      "start": 21.606,
+      "end": 22.06
+    },
+    {
+      "i": 76,
+      "text": "destroy",
+      "start": 22.06,
+      "end": 22.396
+    },
+    {
+      "i": 77,
+      "text": "him",
+      "start": 22.396,
+      "end": 22.573
+    },
+    {
+      "i": 78,
+      "text": "in",
+      "start": 22.573,
+      "end": 22.711
+    },
+    {
+      "i": 79,
+      "text": "a",
+      "start": 22.711,
+      "end": 22.808
+    },
+    {
+      "i": 80,
+      "text": "height",
+      "start": 22.808,
+      "end": 23.105
+    },
+    {
+      "i": 81,
+      "text": "comparison.",
+      "start": 23.105,
+      "end": 23.654
+    },
+    {
+      "i": 82,
+      "text": "Your",
+      "start": 23.998,
+      "end": 24.214
+    },
+    {
+      "i": 83,
+      "text": "brain",
+      "start": 24.214,
+      "end": 24.47
+    },
+    {
+      "i": 84,
+      "text": "has",
+      "start": 24.47,
+      "end": 24.647
+    },
+    {
+      "i": 85,
+      "text": "basically",
+      "start": 24.647,
+      "end": 25.06
+    },
+    {
+      "i": 86,
+      "text": "been",
+      "start": 25.06,
+      "end": 25.277
+    },
+    {
+      "i": 87,
+      "text": "shrinking",
+      "start": 25.277,
+      "end": 25.69
+    },
+    {
+      "i": 88,
+      "text": "the",
+      "start": 25.69,
+      "end": 25.867
+    },
+    {
+      "i": 89,
+      "text": "road",
+      "start": 25.867,
+      "end": 26.083
+    },
+    {
+      "i": 90,
+      "text": "underneath",
+      "start": 26.083,
+      "end": 26.536
+    },
+    {
+      "i": 91,
+      "text": "you",
+      "start": 26.536,
+      "end": 26.713
+    },
+    {
+      "i": 92,
+      "text": "this",
+      "start": 26.713,
+      "end": 26.929
+    },
+    {
+      "i": 93,
+      "text": "entire",
+      "start": 26.929,
+      "end": 27.224
+    },
+    {
+      "i": 94,
+      "text": "time.",
+      "start": 27.224,
+      "end": 27.535
+    }
+  ]
+}

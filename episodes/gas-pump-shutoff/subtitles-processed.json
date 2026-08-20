@@ -1,0 +1,611 @@
+{
+  "note": "Timings correspond to public/audio/gas-pump-shutoff.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/gas-pump-shutoff/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/gas-pump-shutoff.timemap.json",
+  "audio": "public/audio/gas-pump-shutoff.wav",
+  "duration": 28.557,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "Your gas pump knows when your tank is full without talking to your car.",
+      "start": 0.082,
+      "end": 3.512
+    },
+    {
+      "text": "Near the tip of the nozzle is a tiny sensing hole connected to an air passage.",
+      "start": 3.88,
+      "end": 7.825
+    },
+    {
+      "text": "While you're pumping, air can move through it,",
+      "start": 8.141,
+      "end": 10.159
+    },
+    {
+      "text": "but once the gasoline rises high enough to cover that hole, the airflow suddenly",
+      "start": 10.435,
+      "end": 14.363
+    },
+    {
+      "text": "changes.",
+      "start": 14.363,
+      "end": 14.845
+    },
+    {
+      "text": "That pressure change triggers a mechanical diaphragm inside the nozzle",
+      "start": 15.157,
+      "end": 18.48
+    },
+    {
+      "text": "and",
+      "start": 18.841,
+      "end": 19.037
+    },
+    {
+      "text": "click.",
+      "start": 19.36,
+      "end": 19.646
+    },
+    {
+      "text": "The valve shuts.",
+      "start": 19.915,
+      "end": 20.7
+    },
+    {
+      "text": "No Wi-Fi, no computer, no secret signal from your car.",
+      "start": 21.062,
+      "end": 24.436
+    },
+    {
+      "text": "Just air pressure and a ridiculously clever little piece of mechanical",
+      "start": 24.742,
+      "end": 27.904
+    },
+    {
+      "text": "engineering.",
+      "start": 27.904,
+      "end": 28.475
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "Your",
+      "start": 0.082,
+      "end": 0.299
+    },
+    {
+      "i": 1,
+      "text": "gas",
+      "start": 0.299,
+      "end": 0.477
+    },
+    {
+      "i": 2,
+      "text": "pump",
+      "start": 0.477,
+      "end": 0.695
+    },
+    {
+      "i": 3,
+      "text": "knows",
+      "start": 0.695,
+      "end": 1.077
+    },
+    {
+      "i": 4,
+      "text": "when",
+      "start": 1.077,
+      "end": 1.294
+    },
+    {
+      "i": 5,
+      "text": "your",
+      "start": 1.294,
+      "end": 1.512
+    },
+    {
+      "i": 6,
+      "text": "tank",
+      "start": 1.512,
+      "end": 1.729
+    },
+    {
+      "i": 7,
+      "text": "is",
+      "start": 1.729,
+      "end": 1.868
+    },
+    {
+      "i": 8,
+      "text": "full",
+      "start": 1.868,
+      "end": 2.085
+    },
+    {
+      "i": 9,
+      "text": "without",
+      "start": 2.085,
+      "end": 2.547
+    },
+    {
+      "i": 10,
+      "text": "talking",
+      "start": 2.547,
+      "end": 2.883
+    },
+    {
+      "i": 11,
+      "text": "to",
+      "start": 2.883,
+      "end": 3.022
+    },
+    {
+      "i": 12,
+      "text": "your",
+      "start": 3.022,
+      "end": 3.239
+    },
+    {
+      "i": 13,
+      "text": "car.",
+      "start": 3.239,
+      "end": 3.512
+    },
+    {
+      "i": 14,
+      "text": "Near",
+      "start": 3.88,
+      "end": 4.101
+    },
+    {
+      "i": 15,
+      "text": "the",
+      "start": 4.101,
+      "end": 4.283
+    },
+    {
+      "i": 16,
+      "text": "tip",
+      "start": 4.283,
+      "end": 4.464
+    },
+    {
+      "i": 17,
+      "text": "of",
+      "start": 4.464,
+      "end": 4.604
+    },
+    {
+      "i": 18,
+      "text": "the",
+      "start": 4.604,
+      "end": 4.785
+    },
+    {
+      "i": 19,
+      "text": "nozzle",
+      "start": 4.785,
+      "end": 5.293
+    },
+    {
+      "i": 20,
+      "text": "is",
+      "start": 5.293,
+      "end": 5.434
+    },
+    {
+      "i": 21,
+      "text": "a",
+      "start": 5.434,
+      "end": 5.534
+    },
+    {
+      "i": 22,
+      "text": "tiny",
+      "start": 5.534,
+      "end": 5.756
+    },
+    {
+      "i": 23,
+      "text": "sensing",
+      "start": 5.756,
+      "end": 6.099
+    },
+    {
+      "i": 24,
+      "text": "hole",
+      "start": 6.099,
+      "end": 6.321
+    },
+    {
+      "i": 25,
+      "text": "connected",
+      "start": 6.321,
+      "end": 6.906
+    },
+    {
+      "i": 26,
+      "text": "to",
+      "start": 6.906,
+      "end": 7.046
+    },
+    {
+      "i": 27,
+      "text": "an",
+      "start": 7.046,
+      "end": 7.187
+    },
+    {
+      "i": 28,
+      "text": "air",
+      "start": 7.187,
+      "end": 7.368
+    },
+    {
+      "i": 29,
+      "text": "passage.",
+      "start": 7.368,
+      "end": 7.825
+    },
+    {
+      "i": 30,
+      "text": "While",
+      "start": 8.141,
+      "end": 8.359
+    },
+    {
+      "i": 31,
+      "text": "you're",
+      "start": 8.359,
+      "end": 8.613
+    },
+    {
+      "i": 32,
+      "text": "pumping,",
+      "start": 8.613,
+      "end": 9.204
+    },
+    {
+      "i": 33,
+      "text": "air",
+      "start": 9.204,
+      "end": 9.355
+    },
+    {
+      "i": 34,
+      "text": "can",
+      "start": 9.355,
+      "end": 9.507
+    },
+    {
+      "i": 35,
+      "text": "move",
+      "start": 9.507,
+      "end": 9.692
+    },
+    {
+      "i": 36,
+      "text": "through",
+      "start": 9.692,
+      "end": 9.98
+    },
+    {
+      "i": 37,
+      "text": "it,",
+      "start": 9.98,
+      "end": 10.159
+    },
+    {
+      "i": 38,
+      "text": "but",
+      "start": 10.435,
+      "end": 10.624
+    },
+    {
+      "i": 39,
+      "text": "once",
+      "start": 10.624,
+      "end": 10.855
+    },
+    {
+      "i": 40,
+      "text": "the",
+      "start": 10.855,
+      "end": 11.044
+    },
+    {
+      "i": 41,
+      "text": "gasoline",
+      "start": 11.044,
+      "end": 11.444
+    },
+    {
+      "i": 42,
+      "text": "rises",
+      "start": 11.444,
+      "end": 11.717
+    },
+    {
+      "i": 43,
+      "text": "high",
+      "start": 11.717,
+      "end": 11.948
+    },
+    {
+      "i": 44,
+      "text": "enough",
+      "start": 11.948,
+      "end": 12.264
+    },
+    {
+      "i": 45,
+      "text": "to",
+      "start": 12.264,
+      "end": 12.41
+    },
+    {
+      "i": 46,
+      "text": "cover",
+      "start": 12.41,
+      "end": 12.683
+    },
+    {
+      "i": 47,
+      "text": "that",
+      "start": 12.683,
+      "end": 12.915
+    },
+    {
+      "i": 48,
+      "text": "hole,",
+      "start": 12.915,
+      "end": 13.417
+    },
+    {
+      "i": 49,
+      "text": "the",
+      "start": 13.417,
+      "end": 13.605
+    },
+    {
+      "i": 50,
+      "text": "airflow",
+      "start": 13.605,
+      "end": 13.963
+    },
+    {
+      "i": 51,
+      "text": "suddenly",
+      "start": 13.963,
+      "end": 14.363
+    },
+    {
+      "i": 52,
+      "text": "changes.",
+      "start": 14.363,
+      "end": 14.845
+    },
+    {
+      "i": 53,
+      "text": "That",
+      "start": 15.157,
+      "end": 15.489
+    },
+    {
+      "i": 54,
+      "text": "pressure",
+      "start": 15.489,
+      "end": 15.892
+    },
+    {
+      "i": 55,
+      "text": "change",
+      "start": 15.892,
+      "end": 16.21
+    },
+    {
+      "i": 56,
+      "text": "triggers",
+      "start": 16.21,
+      "end": 16.614
+    },
+    {
+      "i": 57,
+      "text": "a",
+      "start": 16.614,
+      "end": 16.718
+    },
+    {
+      "i": 58,
+      "text": "mechanical",
+      "start": 16.718,
+      "end": 17.207
+    },
+    {
+      "i": 59,
+      "text": "diaphragm",
+      "start": 17.207,
+      "end": 17.653
+    },
+    {
+      "i": 60,
+      "text": "inside",
+      "start": 17.653,
+      "end": 17.972
+    },
+    {
+      "i": 61,
+      "text": "the",
+      "start": 17.972,
+      "end": 18.162
+    },
+    {
+      "i": 62,
+      "text": "nozzle",
+      "start": 18.162,
+      "end": 18.48
+    },
+    {
+      "i": 63,
+      "text": "and",
+      "start": 18.841,
+      "end": 19.037
+    },
+    {
+      "i": 64,
+      "text": "click.",
+      "start": 19.36,
+      "end": 19.646
+    },
+    {
+      "i": 65,
+      "text": "The",
+      "start": 19.915,
+      "end": 20.09
+    },
+    {
+      "i": 66,
+      "text": "valve",
+      "start": 20.09,
+      "end": 20.344
+    },
+    {
+      "i": 67,
+      "text": "shuts.",
+      "start": 20.344,
+      "end": 20.7
+    },
+    {
+      "i": 68,
+      "text": "No",
+      "start": 21.062,
+      "end": 21.232
+    },
+    {
+      "i": 69,
+      "text": "Wi-Fi,",
+      "start": 21.232,
+      "end": 21.578
+    },
+    {
+      "i": 70,
+      "text": "no",
+      "start": 21.578,
+      "end": 21.748
+    },
+    {
+      "i": 71,
+      "text": "computer,",
+      "start": 21.748,
+      "end": 22.442
+    },
+    {
+      "i": 72,
+      "text": "no",
+      "start": 22.442,
+      "end": 22.825
+    },
+    {
+      "i": 73,
+      "text": "secret",
+      "start": 22.825,
+      "end": 23.191
+    },
+    {
+      "i": 74,
+      "text": "signal",
+      "start": 23.191,
+      "end": 23.557
+    },
+    {
+      "i": 75,
+      "text": "from",
+      "start": 23.557,
+      "end": 23.824
+    },
+    {
+      "i": 76,
+      "text": "your",
+      "start": 23.824,
+      "end": 24.092
+    },
+    {
+      "i": 77,
+      "text": "car.",
+      "start": 24.092,
+      "end": 24.436
+    },
+    {
+      "i": 78,
+      "text": "Just",
+      "start": 24.742,
+      "end": 24.962
+    },
+    {
+      "i": 79,
+      "text": "air",
+      "start": 24.962,
+      "end": 25.142
+    },
+    {
+      "i": 80,
+      "text": "pressure",
+      "start": 25.142,
+      "end": 25.523
+    },
+    {
+      "i": 81,
+      "text": "and",
+      "start": 25.523,
+      "end": 25.801
+    },
+    {
+      "i": 82,
+      "text": "a",
+      "start": 25.801,
+      "end": 25.901
+    },
+    {
+      "i": 83,
+      "text": "ridiculously",
+      "start": 25.901,
+      "end": 26.443
+    },
+    {
+      "i": 84,
+      "text": "clever",
+      "start": 26.443,
+      "end": 26.743
+    },
+    {
+      "i": 85,
+      "text": "little",
+      "start": 26.743,
+      "end": 27.043
+    },
+    {
+      "i": 86,
+      "text": "piece",
+      "start": 27.043,
+      "end": 27.303
+    },
+    {
+      "i": 87,
+      "text": "of",
+      "start": 27.303,
+      "end": 27.443
+    },
+    {
+      "i": 88,
+      "text": "mechanical",
+      "start": 27.443,
+      "end": 27.904
+    },
+    {
+      "i": 89,
+      "text": "engineering.",
+      "start": 27.904,
+      "end": 28.475
+    }
+  ]
+}

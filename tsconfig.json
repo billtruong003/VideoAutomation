@@ -16,6 +16,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "data"],
+  "include": ["src", "data", "episodes"],
   "exclude": ["node_modules", "out", "preview", "qa"]
 }

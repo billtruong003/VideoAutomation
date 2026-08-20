@@ -69,7 +69,7 @@ An earlier version of this document said:
 > *"a Rough.js eyebrow looks like a snapped twig"*
 
 and used that claim to justify adding **perfect-freehand** as a second drawing library for
-gestural marks. **The claim was never tested, and it was wrong.** `src/qa/PenProbe.tsx`
+gestural marks. **The claim was never tested, and it was wrong.** `qa/v2-pen-probe.png`
 rendered both side by side and the Rough.js mark was the cleaner of the two. The rendered
 evidence is at `qa/v2-pen-probe.png`.
 

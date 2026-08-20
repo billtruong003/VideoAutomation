@@ -1,0 +1,128 @@
+{
+  "note": "Resolved audio+subtitle pairs. Join key is the ElevenLabs render timestamp in both filenames.",
+  "batch": "batch-001",
+  "source": "C:/Users/ducnq/Downloads/VoiceOver",
+  "count": 10,
+  "episodes": [
+    {
+      "n": 1,
+      "slug": "airplane-window-hole",
+      "title": "The Hole In Your Airplane Window Is Supposed To Be There",
+      "stamp": "2026-08-19T16_31_15",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_31_15_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_31_15_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 33.8,
+      "subtitleEnd": 33.759,
+      "words": 90,
+      "transcript": "That tiny hole in your airplane window is supposed to be there. Passenger windows use multiple layers, and that little breather hole sits in one of the inner panes. It helps manage the pressure between the layers, so the outer structural pane takes most of the pressure difference while you're flying at altitude. It also helps moisture escape from between the panes. So no, your airplane window does not have a manufacturing defect. That suspicious little hole is actually part of the reason the window works in the 1st place."
+    },
+    {
+      "n": 2,
+      "slug": "escalator-brushes",
+      "title": "Escalator Brushes Are Not For Your Shoes",
+      "stamp": "2026-08-19T16_32_13",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_32_13_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_32_13_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 32.13,
+      "subtitleEnd": 32.059,
+      "words": 91,
+      "transcript": "Those brushes on the side of an escalator are not there to clean your shoes. They're warning you. The dangerous part is the tiny gap between the moving steps and the stationary side panel. Loose shoelaces, clothes, or bags can get caught there, so the brushes touch your shoes and naturally encourage you to move your feet away from the edge. Basically, every time you rub your shoe against one because it feels nice, the escalator is politely asking you to stop standing next to the part that can eat it."
+    },
+    {
+      "n": 3,
+      "slug": "gas-pump-shutoff",
+      "title": "How A Gas Pump Knows Your Tank Is Full",
+      "stamp": "2026-08-19T16_33_09",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_33_09_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_33_09_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 37.25,
+      "subtitleEnd": 37.159,
+      "words": 90,
+      "transcript": "Your gas pump knows when your tank is full without talking to your car. Near the tip of the nozzle is a tiny sensing hole connected to an air passage. While you're pumping, air can move through it, but once the gasoline rises high enough to cover that hole, the airflow suddenly changes. That pressure change triggers a mechanical diaphragm inside the nozzle and click. The valve shuts. No Wi-Fi, no computer, no secret signal from your car. Just air pressure and a ridiculously clever little piece of mechanical engineering."
+    },
+    {
+      "n": 4,
+      "slug": "microwave-door-mesh",
+      "title": "Why You Can See Through A Microwave Door",
+      "stamp": "2026-08-19T16_33_57",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_33_57_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_33_57_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 37.64,
+      "subtitleEnd": 37.599,
+      "words": 95,
+      "transcript": "Why can you see through a microwave door if the microwaves are supposed to stay trapped inside? Because that black metal mesh is doing something clever. Microwave energy has a wavelength much larger than those tiny openings, so the conductive screen strongly blocks it from escaping. Visible light has a vastly shorter wavelength, so light can pass through the holes and reach your eyes, which means the same door can behave like a window for you while acting like a barrier for the energy cooking your leftovers. Your microwave is basically wearing extremely nerdy sunglasses."
+    },
+    {
+      "n": 5,
+      "slug": "jeans-watch-pocket",
+      "title": "Your Jeans Have A Pocket For A Gadget From The 1800s",
+      "stamp": "2026-08-19T16_49_35",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_49_35_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_49_35_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 37.25,
+      "subtitleEnd": 37.18,
+      "words": 90,
+      "transcript": "Your jeans have a pocket designed for a gadget from the 1800s. [chuckles] That tiny pocket inside the front pocket wasn't originally for coins, AirPods, or whatever else you can barely fit inside it. Early Levi's jeans included it as a watch pocket. Pocket watches were common, and workers needed a small, protected place to keep them. Wristwatches eventually took over. The pocket watch mostly disappeared, but the pocket survived. So that useless little compartment on your jeans is basically a tiny fossil from a technology nobody carries anymore. [sighs]"
+    },
+    {
+      "n": 6,
+      "slug": "highway-lane-lines",
+      "title": "Highway Lines Are Way Bigger Than You Think",
+      "stamp": "2026-08-19T16_50_48",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_50_48_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_50_48_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 34.84,
+      "subtitleEnd": 34.799,
+      "words": 95,
+      "transcript": "Those tiny dashed lines on the highway are much bigger than your brain thinks. In the United States, a standard broken lane marking is typically about 10 feet long, and the gap after it is around 30 feet. But from inside a moving car, perspective makes them look like tiny little strips of paint. 10 feet is about 3 meters, so if Bill stood next to one of those little road lines, the line would absolutely destroy him in a height comparison. Your brain has basically been shrinking the road underneath you this entire time."
+    },
+    {
+      "n": 7,
+      "slug": "fuel-door-arrow",
+      "title": "The Arrow That Tells You Which Side Your Fuel Door Is On",
+      "stamp": "2026-08-19T16_52_23",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_52_23_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_52_23_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 35.16,
+      "subtitleEnd": 35.119,
+      "words": 99,
+      "transcript": "Your car may have been answering this question your entire life. Look at the little fuel pump symbol on your dashboard. On many cars, there's a tiny arrow or triangle beside it. If it points left, your fuel door is on the left. If it points right, it's on the right. Manufacturers don't all put fuel doors on the same side, so this tiny symbol saves you from guessing, which means every time you pulled into a gas station, chose the wrong pump, reversed, and tried again, the answer may have been glowing directly in front of your face."
+    },
+    {
+      "n": 8,
+      "slug": "round-manhole-covers",
+      "title": "Why Manhole Covers Are Round",
+      "stamp": "2026-08-19T21_48_28",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T21_48_28_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T21_48_28_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 35.97,
+      "subtitleEnd": 35.88,
+      "words": 86,
+      "transcript": "A round manhole cover can do something surprisingly important: stay above the manhole. A circular cover cannot fall straight through its own circular opening. With some other shapes, orientation can become a problem. Round covers are also easy to roll, don't need to be rotated into one exact alignment, and fit naturally over circular shafts. So engineers didn't choose the circle because it looks nice. They chose a shape that quietly solves several annoying problems at once, which is basically engineering's favorite way of showing off."
+    },
+    {
+      "n": 9,
+      "slug": "pen-cap-hole",
+      "title": "The Hole In A Pen Cap Is A Safety Feature",
+      "stamp": "2026-08-19T21_50_41",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T21_50_41_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T21_50_41_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt",
+      "rawDuration": 35.7,
+      "subtitleEnd": 35.619,
+      "words": 98,
+      "transcript": "That tiny hole in some pen caps can serve a much more serious purpose than you'd expect. On vented caps, such as the Bic Cristal, the opening is there for safety. If someone accidentally inhales the cap and it gets lodged in the airway, the vent may still allow some air to pass through while emergency help is needed. International safety standards specifically address vented pen caps for this reason. So one of the cheapest, most forgettable pieces of plastic on your desk has a design feature meant for an emergency where a few extra breaths could matter."
+    },
+    {
+      "n": 10,
+      "slug": "old-book-smell",
+      "title": "Old Book Smell Is The Book Falling Apart",
+      "stamp": "2026-08-19T21_51_23",
+      "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T21_51_23_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3 (1).mp3",
+      "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T21_51_23_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_1_eng.srt",
+      "rawDuration": 41.32,
+      "subtitleEnd": 41.239,
+      "words": 94,
+      "transcript": "That amazing old book smell is literally the smell of the book slowly breaking down. As paper, ink, glue, and bindings age, they release volatile chemicals into the air. Different compounds can create grassy, musty, almond-like, and even vanilla-like smells. Vanillin is one of the compounds associated with that familiar sweet note. Scientists and conservators can even study these emissions to learn about the condition of aging paper. So when Bill opens a 100-year-old book and thinks it smells weirdly delicious, he is basically enjoying the smell of chemistry happening in extremely slow motion."
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T21_51_23_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3 (1).mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T21_51_23_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_1_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "That amazing old book smell is literally the smell of the book slowly breaking",
+      "start_time": 0.14,
+      "end_time": 4.679,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "That",
+          "start_time": 0.14,
+          "end_time": 0.405
+        },
+        {
+          "text": "amazing",
+          "start_time": 0.405,
+          "end_time": 0.906
+        },
+        {
+          "text": "old",
+          "start_time": 0.906,
+          "end_time": 1.123
+        },
+        {
+          "text": "book",
+          "start_time": 1.123,
+          "end_time": 1.388
+        },
+        {
+          "text": "smell",
+          "start_time": 1.388,
+          "end_time": 1.701
+        },
+        {
+          "text": "is",
+          "start_time": 1.701,
+          "end_time": 2.17
+        },
+        {
+          "text": "literally",
+          "start_time": 2.17,
+          "end_time": 2.677
+        },
+        {
+          "text": "the",
+          "start_time": 2.677,
+          "end_time": 2.894
+        },
+        {
+          "text": "smell",
+          "start_time": 2.894,
+          "end_time": 3.208
+        },
+        {
+          "text": "of",
+          "start_time": 3.208,
+          "end_time": 3.376
+        },
+        {
+          "text": "the",
+          "start_time": 3.376,
+          "end_time": 3.592
+        },
+        {
+          "text": "book",
+          "start_time": 3.592,
+          "end_time": 3.858
+        },
+        {
+          "text": "slowly",
+          "start_time": 3.858,
+          "end_time": 4.22
+        },
+        {
+          "text": "breaking",
+          "start_time": 4.22,
+          "end_time": 4.679
+        }
+      ]
+    },
+    {
+      "text": "down.",
+      "start_time": 4.679,
+      "end_time": 5.059,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "down.",
+          "start_time": 4.679,
+          "end_time": 5.059
+        }
+      ]
+    },
+    {
+      "text": "As paper, ink, glue, and bindings age, they release volatile chemicals into the",
+      "start_time": 6.099,
+      "end_time": 11.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "As",
+          "start_time": 6.099,
+          "end_time": 6.276
+        },
+        {
+          "text": "paper,",
+          "start_time": 6.276,
+          "end_time": 6.877
+        },
+        {
+          "text": "ink,",
+          "start_time": 6.877,
+          "end_time": 7.426
+        },
+        {
+          "text": "glue,",
+          "start_time": 7.426,
+          "end_time": 7.787
+        },
+        {
+          "text": "and",
+          "start_time": 7.787,
+          "end_time": 8.015
+        },
+        {
+          "text": "bindings",
+          "start_time": 8.015,
+          "end_time": 8.497
+        },
+        {
+          "text": "age,",
+          "start_time": 8.497,
+          "end_time": 8.807
+        },
+        {
+          "text": "they",
+          "start_time": 8.807,
+          "end_time": 9.465
+        },
+        {
+          "text": "release",
+          "start_time": 9.465,
+          "end_time": 9.897
+        },
+        {
+          "text": "volatile",
+          "start_time": 9.897,
+          "end_time": 10.38
+        },
+        {
+          "text": "chemicals",
+          "start_time": 10.38,
+          "end_time": 10.913
+        },
+        {
+          "text": "into",
+          "start_time": 10.913,
+          "end_time": 11.192
+        },
+        {
+          "text": "the",
+          "start_time": 11.192,
+          "end_time": 11.42
+        }
+      ]
+    },
+    {
+      "text": "air.",
+      "start_time": 11.42,
+      "end_time": 11.679,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "air.",
+          "start_time": 11.42,
+          "end_time": 11.679
+        }
+      ]
+    },
+    {
+      "text": "Different compounds can create grassy, musty, almond-like, and even vanilla-like",
+      "start_time": 12.659,
+      "end_time": 18.059,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Different",
+          "start_time": 12.659,
+          "end_time": 13.206
+        },
+        {
+          "text": "compounds",
+          "start_time": 13.206,
+          "end_time": 13.754
+        },
+        {
+          "text": "can",
+          "start_time": 13.754,
+          "end_time": 13.987
+        },
+        {
+          "text": "create",
+          "start_time": 13.987,
+          "end_time": 14.378
+        },
+        {
+          "text": "grassy,",
+          "start_time": 14.378,
+          "end_time": 15.112
+        },
+        {
+          "text": "musty,",
+          "start_time": 15.112,
+          "end_time": 15.834
+        },
+        {
+          "text": "almond-like,",
+          "start_time": 15.834,
+          "end_time": 16.517
+        },
+        {
+          "text": "and",
+          "start_time": 16.517,
+          "end_time": 17.121
+        },
+        {
+          "text": "even",
+          "start_time": 17.121,
+          "end_time": 17.407
+        },
+        {
+          "text": "vanilla-like",
+          "start_time": 17.407,
+          "end_time": 18.059
+        }
+      ]
+    },
+    {
+      "text": "smells.",
+      "start_time": 18.059,
+      "end_time": 18.539,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "smells.",
+          "start_time": 18.059,
+          "end_time": 18.539
+        }
+      ]
+    },
+    {
+      "text": "Vanillin is one of the compounds associated with that familiar sweet note.",
+      "start_time": 19.619,
+      "end_time": 23.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Vanillin",
+          "start_time": 19.619,
+          "end_time": 20.045
+        },
+        {
+          "text": "is",
+          "start_time": 20.045,
+          "end_time": 20.201
+        },
+        {
+          "text": "one",
+          "start_time": 20.201,
+          "end_time": 20.402
+        },
+        {
+          "text": "of",
+          "start_time": 20.402,
+          "end_time": 20.558
+        },
+        {
+          "text": "the",
+          "start_time": 20.558,
+          "end_time": 20.759
+        },
+        {
+          "text": "compounds",
+          "start_time": 20.759,
+          "end_time": 21.23
+        },
+        {
+          "text": "associated",
+          "start_time": 21.23,
+          "end_time": 21.747
+        },
+        {
+          "text": "with",
+          "start_time": 21.747,
+          "end_time": 21.993
+        },
+        {
+          "text": "that",
+          "start_time": 21.993,
+          "end_time": 22.239
+        },
+        {
+          "text": "familiar",
+          "start_time": 22.239,
+          "end_time": 22.665
+        },
+        {
+          "text": "sweet",
+          "start_time": 22.665,
+          "end_time": 22.956
+        },
+        {
+          "text": "note.",
+          "start_time": 22.956,
+          "end_time": 23.42
+        }
+      ]
+    },
+    {
+      "text": "Scientists and conservators can even study these emissions to learn about the",
+      "start_time": 24.399,
+      "end_time": 28.799,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Scientists",
+          "start_time": 24.399,
+          "end_time": 25.001
+        },
+        {
+          "text": "and",
+          "start_time": 25.001,
+          "end_time": 25.197
+        },
+        {
+          "text": "conservators",
+          "start_time": 25.197,
+          "end_time": 25.786
+        },
+        {
+          "text": "can",
+          "start_time": 25.786,
+          "end_time": 26.252
+        },
+        {
+          "text": "even",
+          "start_time": 26.252,
+          "end_time": 26.491
+        },
+        {
+          "text": "study",
+          "start_time": 26.491,
+          "end_time": 26.774
+        },
+        {
+          "text": "these",
+          "start_time": 26.774,
+          "end_time": 27.057
+        },
+        {
+          "text": "emissions",
+          "start_time": 27.057,
+          "end_time": 27.515
+        },
+        {
+          "text": "to",
+          "start_time": 27.515,
+          "end_time": 27.667
+        },
+        {
+          "text": "learn",
+          "start_time": 27.667,
+          "end_time": 28.32
+        },
+        {
+          "text": "about",
+          "start_time": 28.32,
+          "end_time": 28.603
+        },
+        {
+          "text": "the",
+          "start_time": 28.603,
+          "end_time": 28.799
+        }
+      ]
+    },
+    {
+      "text": "condition of aging paper.",
+      "start_time": 28.799,
+      "end_time": 30.239,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "condition",
+          "start_time": 28.799,
+          "end_time": 29.311
+        },
+        {
+          "text": "of",
+          "start_time": 29.311,
+          "end_time": 29.48
+        },
+        {
+          "text": "aging",
+          "start_time": 29.48,
+          "end_time": 29.796
+        },
+        {
+          "text": "paper.",
+          "start_time": 29.796,
+          "end_time": 30.239
+        }
+      ]
+    },
+    {
+      "text": "So when Bill opens a 100-year-old book and thinks it smells weirdly delicious,",
+      "start_time": 31.26,
+      "end_time": 35.899,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "So",
+          "start_time": 31.26,
+          "end_time": 31.427
+        },
+        {
+          "text": "when",
+          "start_time": 31.427,
+          "end_time": 31.691
+        },
+        {
+          "text": "Bill",
+          "start_time": 31.691,
+          "end_time": 31.955
+        },
+        {
+          "text": "opens",
+          "start_time": 31.955,
+          "end_time": 32.268
+        },
+        {
+          "text": "a",
+          "start_time": 32.268,
+          "end_time": 32.387
+        },
+        {
+          "text": "100-year-old",
+          "start_time": 32.387,
+          "end_time": 33.22
+        },
+        {
+          "text": "book",
+          "start_time": 33.22,
+          "end_time": 33.484
+        },
+        {
+          "text": "and",
+          "start_time": 33.484,
+          "end_time": 34.01
+        },
+        {
+          "text": "thinks",
+          "start_time": 34.01,
+          "end_time": 34.371
+        },
+        {
+          "text": "it",
+          "start_time": 34.371,
+          "end_time": 34.538
+        },
+        {
+          "text": "smells",
+          "start_time": 34.538,
+          "end_time": 34.899
+        },
+        {
+          "text": "weirdly",
+          "start_time": 34.899,
+          "end_time": 35.307
+        },
+        {
+          "text": "delicious,",
+          "start_time": 35.307,
+          "end_time": 35.899
+        }
+      ]
+    },
+    {
+      "text": "he is basically enjoying the smell of chemistry happening in extremely slow",
+      "start_time": 36.599,
+      "end_time": 40.819,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "he",
+          "start_time": 36.599,
+          "end_time": 36.766
+        },
+        {
+          "text": "is",
+          "start_time": 36.766,
+          "end_time": 36.931
+        },
+        {
+          "text": "basically",
+          "start_time": 36.931,
+          "end_time": 37.431
+        },
+        {
+          "text": "enjoying",
+          "start_time": 37.431,
+          "end_time": 37.884
+        },
+        {
+          "text": "the",
+          "start_time": 37.884,
+          "end_time": 38.097
+        },
+        {
+          "text": "smell",
+          "start_time": 38.097,
+          "end_time": 38.406
+        },
+        {
+          "text": "of",
+          "start_time": 38.406,
+          "end_time": 38.572
+        },
+        {
+          "text": "chemistry",
+          "start_time": 38.572,
+          "end_time": 39.392
+        },
+        {
+          "text": "happening",
+          "start_time": 39.392,
+          "end_time": 39.892
+        },
+        {
+          "text": "in",
+          "start_time": 39.892,
+          "end_time": 40.058
+        },
+        {
+          "text": "extremely",
+          "start_time": 40.058,
+          "end_time": 40.558
+        },
+        {
+          "text": "slow",
+          "start_time": 40.558,
+          "end_time": 40.819
+        }
+      ]
+    },
+    {
+      "text": "motion.",
+      "start_time": 40.819,
+      "end_time": 41.239,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "motion.",
+          "start_time": 40.819,
+          "end_time": 41.239
+        }
+      ]
+    }
+  ]
+}

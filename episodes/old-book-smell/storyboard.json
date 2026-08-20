@@ -1,0 +1,326 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "old-book-smell",
+  "title": "Old Book Smell Is The Book Falling Apart",
+  "audio": "public/audio/old-book-smell.wav",
+  "fps": 30,
+  "narrationDuration": 33.189,
+  "beatCount": 28,
+  "longestGap": 2.123,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.077,
+      "end": 4.47,
+      "startFrame": 2,
+      "endFrame": 134,
+      "duration": 4.393,
+      "narration": "That amazing old book smell is literally the smell of the book slowly breaking down.",
+      "background": "LibraryShelf",
+      "note": "Bill has his face in a book at frame 0, blissful. The reveal turns the bliss into decay.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.077,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill with his nose buried in an open old book, eyes closed, deeply content; scent curls rise"
+        },
+        {
+          "t": 2.456,
+          "frame": 74,
+          "tInScene": 2.379,
+          "frameInScene": 71,
+          "action": "the scent curls thicken; a single page corner flakes away and drifts down",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 1.191,
+          "frame": 36,
+          "tInScene": 1.114,
+          "frameInScene": 33,
+          "action": "the scent curls draw upward in warm gold",
+          "sync": "keyword: smell"
+        },
+        {
+          "t": 3.72,
+          "frame": 112,
+          "tInScene": 3.643,
+          "frameInScene": 109,
+          "action": "the curls turn from gold to sickly green and the book's edges visibly crumble; Bill's eyes snap open",
+          "sync": "keyword: breaking down — the turn"
+        }
+      ]
+    },
+    {
+      "scene": "materials",
+      "start": 4.81,
+      "end": 9.657,
+      "startFrame": 144,
+      "endFrame": 290,
+      "duration": 4.847,
+      "narration": "As paper, ink, glue, and bindings age, they release volatile chemicals into the air.",
+      "background": "BookCutaway",
+      "note": "Four materials named, four labelled and aged in turn. Rhythmic — one per keyword.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 4.81,
+          "frame": 144,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "cutaway of the book's spine and pages, exploded slightly apart"
+        },
+        {
+          "t": 4.968,
+          "frame": 149,
+          "tInScene": 0.158,
+          "frameInScene": 5,
+          "action": "the page stack labels PAPER and yellows",
+          "sync": "keyword: paper"
+        },
+        {
+          "t": 5.505,
+          "frame": 165,
+          "tInScene": 0.695,
+          "frameInScene": 21,
+          "action": "the ink labels and fades brown",
+          "sync": "keyword: ink"
+        },
+        {
+          "t": 5.995,
+          "frame": 180,
+          "tInScene": 1.185,
+          "frameInScene": 36,
+          "action": "the spine glue labels and cracks",
+          "sync": "keyword: glue"
+        },
+        {
+          "t": 6.521,
+          "frame": 196,
+          "tInScene": 1.711,
+          "frameInScene": 51,
+          "action": "the stitching labels and frays",
+          "sync": "keyword: bindings"
+        },
+        {
+          "t": 8.496,
+          "frame": 255,
+          "tInScene": 3.686,
+          "frameInScene": 111,
+          "action": "small molecule marks lift off every labelled part and drift upward",
+          "sync": "keyword: volatile chemicals"
+        }
+      ]
+    },
+    {
+      "scene": "compounds",
+      "start": 9.978,
+      "end": 15.118,
+      "startFrame": 299,
+      "endFrame": 454,
+      "duration": 5.14,
+      "narration": "Different compounds can create grassy, musty, almond-like, and even vanilla-like smells.",
+      "background": "BookCutaway",
+      "note": "Four smells, four icons. Each pops on its own word — this is the densest scene in the episode.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 10.028,
+          "frame": 301,
+          "tInScene": 0.05,
+          "frameInScene": 2,
+          "action": "the molecule marks rise past the labelled layers, gathering into a cloud",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 11.514,
+          "frame": 345,
+          "tInScene": 1.536,
+          "frameInScene": 46,
+          "action": "a grass blade icon pops in on a green scent curl",
+          "sync": "keyword: grassy"
+        },
+        {
+          "t": 12.169,
+          "frame": 365,
+          "tInScene": 2.191,
+          "frameInScene": 66,
+          "action": "a dusty cloud icon pops in on a grey curl",
+          "sync": "keyword: musty"
+        },
+        {
+          "t": 12.814,
+          "frame": 384,
+          "tInScene": 2.836,
+          "frameInScene": 85,
+          "action": "an almond icon pops in on a tan curl",
+          "sync": "keyword: almond-like"
+        },
+        {
+          "t": 14.107,
+          "frame": 423,
+          "tInScene": 4.129,
+          "frameInScene": 124,
+          "action": "a vanilla pod icon pops in on a warm cream curl; the four hang together",
+          "sync": "keyword: vanilla-like"
+        }
+      ]
+    },
+    {
+      "scene": "vanillin",
+      "start": 15.419,
+      "end": 18.814,
+      "startFrame": 463,
+      "endFrame": 564,
+      "duration": 3.395,
+      "narration": "Vanillin is one of the compounds associated with that familiar sweet note.",
+      "background": "BookCutaway",
+      "note": "The one named compound. Mina supplies it. Keep the molecule simple and readable, not accurate chemistry.",
+      "cast": [
+        "mina"
+      ],
+      "beats": [
+        {
+          "t": 16.779,
+          "frame": 503,
+          "tInScene": 1.36,
+          "frameInScene": 41,
+          "action": "the three dimmed scent icons drift quietly behind the vanillin one",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 15.419,
+          "frame": 463,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the three other scent icons dim; the vanilla one enlarges and labels VANILLIN",
+          "sync": "keyword: vanillin"
+        },
+        {
+          "t": 18.139,
+          "frame": 544,
+          "tInScene": 2.72,
+          "frameInScene": 82,
+          "action": "Mina steps in and points at it; a small sweet-note flourish",
+          "sync": "keyword: sweet note"
+        }
+      ]
+    },
+    {
+      "scene": "science",
+      "start": 19.191,
+      "end": 24.274,
+      "startFrame": 576,
+      "endFrame": 728,
+      "duration": 5.083,
+      "narration": "Scientists and conservators can even study these emissions to learn about the condition of aging paper.",
+      "background": "ConservationLab",
+      "note": "The smell becomes data. Scent curls get captured and turned into a readout.",
+      "cast": [
+        "mina"
+      ],
+      "beats": [
+        {
+          "t": 19.191,
+          "frame": 576,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "cut to a plain lab bench; the book sits under a collection funnel"
+        },
+        {
+          "t": 20.378,
+          "frame": 611,
+          "tInScene": 1.187,
+          "frameInScene": 36,
+          "action": "the readout needle settles and holds; the jar clouds slightly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 21.565,
+          "frame": 647,
+          "tInScene": 2.374,
+          "frameInScene": 71,
+          "action": "scent curls are drawn up the funnel into a jar",
+          "sync": "keyword: emissions"
+        },
+        {
+          "t": 23.597,
+          "frame": 708,
+          "tInScene": 4.406,
+          "frameInScene": 132,
+          "action": "the jar feeds a readout showing a condition score; Mina reads it and nods",
+          "sync": "keyword: condition of aging paper"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 24.642,
+      "end": 33.111,
+      "startFrame": 739,
+      "endFrame": 993,
+      "duration": 8.469,
+      "narration": "So when Bill opens a 100-year-old book and thinks it smells weirdly delicious, he is basically enjoying the smell of chemistry happening in extremely slow motion.",
+      "background": "LibraryShelf",
+      "note": "Bill is named in the narration. Return to the exact opening framing so the reframe lands.",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "beats": [
+        {
+          "t": 26.953,
+          "frame": 809,
+          "tInScene": 2.311,
+          "frameInScene": 69,
+          "action": "dust drifts down through the shelf light behind Bill",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 30.38,
+          "frame": 911,
+          "tInScene": 5.738,
+          "frameInScene": 172,
+          "action": "Mochi sits down beside the book and stares at it, deciding",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 25.027,
+          "frame": 751,
+          "tInScene": 0.385,
+          "frameInScene": 12,
+          "action": "back to the opening shot: Bill's face back in the book",
+          "sync": "keyword: Bill — named in the narration"
+        },
+        {
+          "t": 25.649,
+          "frame": 769,
+          "tInScene": 1.007,
+          "frameInScene": 30,
+          "action": "a 100 YEARS card stamps on the cover; dust puffs off it",
+          "sync": "keyword: 100-year-old"
+        },
+        {
+          "t": 28.257,
+          "frame": 848,
+          "tInScene": 3.615,
+          "frameInScene": 108,
+          "action": "Bill goes blissful again, unbothered by everything he just learned",
+          "sync": "keyword: delicious"
+        },
+        {
+          "t": 32.503,
+          "frame": 975,
+          "tInScene": 7.861,
+          "frameInScene": 236,
+          "action": "the molecule marks drift past at absurdly slow speed; Mochi sniffs the book once and walks away judging him; hard cut",
+          "sync": "keyword: extremely slow motion — final beat"
+        }
+      ]
+    }
+  ]
+}

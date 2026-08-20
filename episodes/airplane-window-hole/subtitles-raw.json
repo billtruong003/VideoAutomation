@@ -1,0 +1,559 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_31_15_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_31_15_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "That tiny hole in your airplane window is supposed to be there.",
+      "start_time": 0.119,
+      "end_time": 3.519,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "That",
+          "start_time": 0.119,
+          "end_time": 0.362
+        },
+        {
+          "text": "tiny",
+          "start_time": 0.362,
+          "end_time": 0.604
+        },
+        {
+          "text": "hole",
+          "start_time": 0.604,
+          "end_time": 0.847
+        },
+        {
+          "text": "in",
+          "start_time": 0.847,
+          "end_time": 1
+        },
+        {
+          "text": "your",
+          "start_time": 1,
+          "end_time": 1.243
+        },
+        {
+          "text": "airplane",
+          "start_time": 1.243,
+          "end_time": 1.663
+        },
+        {
+          "text": "window",
+          "start_time": 1.663,
+          "end_time": 1.994
+        },
+        {
+          "text": "is",
+          "start_time": 1.994,
+          "end_time": 2.148
+        },
+        {
+          "text": "supposed",
+          "start_time": 2.148,
+          "end_time": 2.818
+        },
+        {
+          "text": "to",
+          "start_time": 2.818,
+          "end_time": 2.972
+        },
+        {
+          "text": "be",
+          "start_time": 2.972,
+          "end_time": 3.126
+        },
+        {
+          "text": "there.",
+          "start_time": 3.126,
+          "end_time": 3.519
+        }
+      ]
+    },
+    {
+      "text": "Passenger windows use multiple layers, and that little breather hole sits in one of",
+      "start_time": 4.679,
+      "end_time": 9.759,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Passenger",
+          "start_time": 4.679,
+          "end_time": 5.16
+        },
+        {
+          "text": "windows",
+          "start_time": 5.16,
+          "end_time": 5.549
+        },
+        {
+          "text": "use",
+          "start_time": 5.549,
+          "end_time": 5.755
+        },
+        {
+          "text": "multiple",
+          "start_time": 5.755,
+          "end_time": 6.19
+        },
+        {
+          "text": "layers,",
+          "start_time": 6.19,
+          "end_time": 6.607
+        },
+        {
+          "text": "and",
+          "start_time": 6.607,
+          "end_time": 7.172
+        },
+        {
+          "text": "that",
+          "start_time": 7.172,
+          "end_time": 7.424
+        },
+        {
+          "text": "little",
+          "start_time": 7.424,
+          "end_time": 7.987
+        },
+        {
+          "text": "breather",
+          "start_time": 7.987,
+          "end_time": 8.422
+        },
+        {
+          "text": "hole",
+          "start_time": 8.422,
+          "end_time": 8.674
+        },
+        {
+          "text": "sits",
+          "start_time": 8.674,
+          "end_time": 9.235
+        },
+        {
+          "text": "in",
+          "start_time": 9.235,
+          "end_time": 9.394
+        },
+        {
+          "text": "one",
+          "start_time": 9.394,
+          "end_time": 9.6
+        },
+        {
+          "text": "of",
+          "start_time": 9.6,
+          "end_time": 9.759
+        }
+      ]
+    },
+    {
+      "text": "the inner panes.",
+      "start_time": 9.76,
+      "end_time": 10.679,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 9.76,
+          "end_time": 9.963
+        },
+        {
+          "text": "inner",
+          "start_time": 9.963,
+          "end_time": 10.257
+        },
+        {
+          "text": "panes.",
+          "start_time": 10.257,
+          "end_time": 10.679
+        }
+      ]
+    },
+    {
+      "text": "It helps manage the pressure between the layers, so the outer structural pane takes",
+      "start_time": 11.8,
+      "end_time": 16.52,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "It",
+          "start_time": 11.8,
+          "end_time": 11.957
+        },
+        {
+          "text": "helps",
+          "start_time": 11.957,
+          "end_time": 12.25
+        },
+        {
+          "text": "manage",
+          "start_time": 12.25,
+          "end_time": 12.589
+        },
+        {
+          "text": "the",
+          "start_time": 12.589,
+          "end_time": 12.791
+        },
+        {
+          "text": "pressure",
+          "start_time": 12.791,
+          "end_time": 13.22
+        },
+        {
+          "text": "between",
+          "start_time": 13.22,
+          "end_time": 13.604
+        },
+        {
+          "text": "the",
+          "start_time": 13.604,
+          "end_time": 13.806
+        },
+        {
+          "text": "layers,",
+          "start_time": 13.806,
+          "end_time": 14.597
+        },
+        {
+          "text": "so",
+          "start_time": 14.597,
+          "end_time": 14.754
+        },
+        {
+          "text": "the",
+          "start_time": 14.754,
+          "end_time": 14.956
+        },
+        {
+          "text": "outer",
+          "start_time": 14.956,
+          "end_time": 15.25
+        },
+        {
+          "text": "structural",
+          "start_time": 15.25,
+          "end_time": 15.769
+        },
+        {
+          "text": "pane",
+          "start_time": 15.769,
+          "end_time": 16.017
+        },
+        {
+          "text": "takes",
+          "start_time": 16.017,
+          "end_time": 16.52
+        }
+      ]
+    },
+    {
+      "text": "most of the pressure difference while you're flying at altitude.",
+      "start_time": 16.52,
+      "end_time": 19.539,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "most",
+          "start_time": 16.52,
+          "end_time": 16.729
+        },
+        {
+          "text": "of",
+          "start_time": 16.729,
+          "end_time": 16.862
+        },
+        {
+          "text": "the",
+          "start_time": 16.862,
+          "end_time": 17.033
+        },
+        {
+          "text": "pressure",
+          "start_time": 17.033,
+          "end_time": 17.395
+        },
+        {
+          "text": "difference",
+          "start_time": 17.395,
+          "end_time": 18.114
+        },
+        {
+          "text": "while",
+          "start_time": 18.114,
+          "end_time": 18.362
+        },
+        {
+          "text": "you're",
+          "start_time": 18.362,
+          "end_time": 18.647
+        },
+        {
+          "text": "flying",
+          "start_time": 18.647,
+          "end_time": 18.933
+        },
+        {
+          "text": "at",
+          "start_time": 18.933,
+          "end_time": 19.066
+        },
+        {
+          "text": "altitude.",
+          "start_time": 19.066,
+          "end_time": 19.539
+        }
+      ]
+    },
+    {
+      "text": "It also helps moisture escape from between the panes.",
+      "start_time": 20.6,
+      "end_time": 23.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "It",
+          "start_time": 20.6,
+          "end_time": 20.757
+        },
+        {
+          "text": "also",
+          "start_time": 20.757,
+          "end_time": 21.005
+        },
+        {
+          "text": "helps",
+          "start_time": 21.005,
+          "end_time": 21.298
+        },
+        {
+          "text": "moisture",
+          "start_time": 21.298,
+          "end_time": 21.727
+        },
+        {
+          "text": "escape",
+          "start_time": 21.727,
+          "end_time": 22.065
+        },
+        {
+          "text": "from",
+          "start_time": 22.065,
+          "end_time": 22.402
+        },
+        {
+          "text": "between",
+          "start_time": 22.402,
+          "end_time": 22.786
+        },
+        {
+          "text": "the",
+          "start_time": 22.786,
+          "end_time": 22.988
+        },
+        {
+          "text": "panes.",
+          "start_time": 22.988,
+          "end_time": 23.42
+        }
+      ]
+    },
+    {
+      "text": "So no, your airplane window does not have a manufacturing defect.",
+      "start_time": 24.68,
+      "end_time": 28.479,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "So",
+          "start_time": 24.68,
+          "end_time": 24.843
+        },
+        {
+          "text": "no,",
+          "start_time": 24.843,
+          "end_time": 25.081
+        },
+        {
+          "text": "your",
+          "start_time": 25.081,
+          "end_time": 25.579
+        },
+        {
+          "text": "airplane",
+          "start_time": 25.579,
+          "end_time": 26.024
+        },
+        {
+          "text": "window",
+          "start_time": 26.024,
+          "end_time": 26.375
+        },
+        {
+          "text": "does",
+          "start_time": 26.375,
+          "end_time": 26.632
+        },
+        {
+          "text": "not",
+          "start_time": 26.632,
+          "end_time": 26.842
+        },
+        {
+          "text": "have",
+          "start_time": 26.842,
+          "end_time": 27.099
+        },
+        {
+          "text": "a",
+          "start_time": 27.099,
+          "end_time": 27.215
+        },
+        {
+          "text": "manufacturing",
+          "start_time": 27.215,
+          "end_time": 27.896
+        },
+        {
+          "text": "defect.",
+          "start_time": 27.896,
+          "end_time": 28.479
+        }
+      ]
+    },
+    {
+      "text": "That suspicious little hole is actually part of the reason the window works in the",
+      "start_time": 29.219,
+      "end_time": 33.2,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "That",
+          "start_time": 29.219,
+          "end_time": 29.446
+        },
+        {
+          "text": "suspicious",
+          "start_time": 29.446,
+          "end_time": 29.921
+        },
+        {
+          "text": "little",
+          "start_time": 29.921,
+          "end_time": 30.231
+        },
+        {
+          "text": "hole",
+          "start_time": 30.231,
+          "end_time": 30.457
+        },
+        {
+          "text": "is",
+          "start_time": 30.457,
+          "end_time": 30.851
+        },
+        {
+          "text": "actually",
+          "start_time": 30.851,
+          "end_time": 31.243
+        },
+        {
+          "text": "part",
+          "start_time": 31.243,
+          "end_time": 31.47
+        },
+        {
+          "text": "of",
+          "start_time": 31.47,
+          "end_time": 31.614
+        },
+        {
+          "text": "the",
+          "start_time": 31.614,
+          "end_time": 31.799
+        },
+        {
+          "text": "reason",
+          "start_time": 31.799,
+          "end_time": 32.108
+        },
+        {
+          "text": "the",
+          "start_time": 32.108,
+          "end_time": 32.294
+        },
+        {
+          "text": "window",
+          "start_time": 32.294,
+          "end_time": 32.603
+        },
+        {
+          "text": "works",
+          "start_time": 32.603,
+          "end_time": 32.871
+        },
+        {
+          "text": "in",
+          "start_time": 32.871,
+          "end_time": 33.015
+        },
+        {
+          "text": "the",
+          "start_time": 33.015,
+          "end_time": 33.2
+        }
+      ]
+    },
+    {
+      "text": "1st place.",
+      "start_time": 33.2,
+      "end_time": 33.759,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "1st",
+          "start_time": 33.2,
+          "end_time": 33.397
+        },
+        {
+          "text": "place.",
+          "start_time": 33.397,
+          "end_time": 33.759
+        }
+      ]
+    }
+  ]
+}

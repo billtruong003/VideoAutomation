@@ -1,0 +1,282 @@
+{
+  "slug": "jeans-watch-pocket",
+  "title": "Your Jeans Have A Pocket For A Gadget From The 1800s",
+  "hook": "You are wearing a fitting for a device nobody owns.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "mochi"
+    ],
+    "note": "Mochi steals the pocket watch during the history beat and keeps it. No one comments."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Your jeans have",
+      "background": "BedroomFloor",
+      "cast": [
+        "bill"
+      ],
+      "note": "Bill is already looking down into the tiny pocket at frame 0. Jeans fill the lower frame.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill standing, one thumb hooked in the small pocket, staring down into it"
+        },
+        {
+          "at": 1.31,
+          "action": "Bill tugs the small pocket open wider and peers in like it is a cave",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "1800s",
+          "action": "camera punches to the tiny pocket; an 1800s date card stamps beside it",
+          "sync": "keyword: 1800s"
+        },
+        {
+          "kw": "1800s",
+          "offset": 0.7,
+          "action": "Bill looks up at camera, deeply confused by his own trousers"
+        }
+      ]
+    },
+    {
+      "id": "not-for",
+      "from": "That tiny pocket",
+      "background": "JeansCloseup",
+      "cast": [
+        "bill"
+      ],
+      "note": "Three wrong answers pop in and are rejected. Rhythmic, fast, one per keyword.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "tight on the front pocket; the little pocket inside it outlines in coral"
+        },
+        {
+          "at": 1.582,
+          "action": "he tries a folded receipt; it goes in and immediately will not come out",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "coins",
+          "action": "a coin tries to go in and is crossed out",
+          "sync": "keyword: coins"
+        },
+        {
+          "kw": "airpods",
+          "action": "an earbud case tries to go in, does not fit, is crossed out",
+          "sync": "keyword: AirPods"
+        },
+        {
+          "kw": "barely-fit",
+          "action": "Bill jams a finger in and it wedges; he cannot get it out for a beat",
+          "sync": "keyword: barely fit inside it"
+        }
+      ]
+    },
+    {
+      "id": "watch-pocket",
+      "from": "Early Levi's jeans",
+      "background": "JeansCloseup",
+      "cast": [],
+      "note": "The reveal. A pocket watch slides in and fits perfectly — that fit is the whole episode.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the frame goes sepia for four frames — an old photograph feel, then back"
+        },
+        {
+          "kw": "watch-pocket",
+          "action": "a pocket watch lowers into the little pocket and seats perfectly; a satisfying click",
+          "sync": "keyword: watch pocket"
+        },
+        {
+          "kw": "watch-pocket",
+          "offset": 0.8,
+          "action": "a teal PERFECT FIT tick pops beside it"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "from": "Pocket watches were",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "note": "Compressed history. Bill becomes the 1800s worker; Mochi steals the watch mid-scene.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill in a flat-cap silhouette as a period worker, pocket watch on a chain"
+        },
+        {
+          "kw": "workers",
+          "action": "he tucks the watch into the small pocket and pats it; a protective glow"
+        },
+        {
+          "kw": "protected",
+          "action": "Mochi pads in behind him, hooks the chain, and walks off with the watch",
+          "sync": "keyword: protected — the gag runs under the fact"
+        }
+      ]
+    },
+    {
+      "id": "extinction",
+      "from": "Wristwatches eventually took",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "The extinction event, in two props. Wristwatch in, pocket watch out, pocket stays.",
+      "beats": [
+        {
+          "at": 1.403,
+          "action": "the wristwatch ticks smugly on his wrist while the old watch outline fades further",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "wristwatches",
+          "action": "a wristwatch straps itself onto Bill's wrist with a snap",
+          "sync": "keyword: wristwatches"
+        },
+        {
+          "kw": "disappeared",
+          "action": "the pocket watch fades to a grey outline and blows away",
+          "sync": "keyword: disappeared"
+        },
+        {
+          "kw": "survived",
+          "action": "everything else clears out of frame; the tiny pocket remains, alone, unbothered",
+          "sync": "keyword: the pocket survived"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "So that useless",
+      "background": "BedroomFloor",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "note": "Museum framing for a seam. Mochi is visible in the background still wearing the watch.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "back to Bill; the little pocket gets a museum plinth and a velvet rope"
+        },
+        {
+          "at": 1.698,
+          "action": "the plinth gets a tiny brass rail; the pocket sits there being historic",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "fossil",
+          "action": "a FOSSIL placard stamps under it; Bill looks at it like an exhibit",
+          "sync": "keyword: fossil"
+        },
+        {
+          "kw": "nobody-carries",
+          "action": "Mochi strolls past the background wearing the stolen pocket watch; Bill does not notice; hard cut",
+          "sync": "keyword: nobody carries anymore — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "1800s",
+      [
+        "1800s"
+      ],
+      0
+    ],
+    [
+      "coins",
+      [
+        "coins"
+      ],
+      0
+    ],
+    [
+      "airpods",
+      [
+        "airpods"
+      ],
+      0
+    ],
+    [
+      "barely-fit",
+      [
+        "barely",
+        "fit"
+      ],
+      0
+    ],
+    [
+      "watch-pocket",
+      [
+        "watch",
+        "pocket"
+      ],
+      0
+    ],
+    [
+      "workers",
+      [
+        "workers"
+      ],
+      0
+    ],
+    [
+      "protected",
+      [
+        "protected"
+      ],
+      0
+    ],
+    [
+      "wristwatches",
+      [
+        "wristwatches"
+      ],
+      0
+    ],
+    [
+      "disappeared",
+      [
+        "disappeared"
+      ],
+      0
+    ],
+    [
+      "survived",
+      [
+        "survived"
+      ],
+      0
+    ],
+    [
+      "fossil",
+      [
+        "fossil"
+      ],
+      0
+    ],
+    [
+      "nobody-carries",
+      [
+        "nobody",
+        "carries"
+      ],
+      0
+    ]
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "fuel-door-arrow",
+  "title": "The Arrow That Tells You Which Side Your Fuel Door Is On",
+  "audio": "public/audio/fuel-door-arrow.wav",
+  "fps": 30,
+  "narrationDuration": 27.298,
+  "beatCount": 24,
+  "longestGap": 2.176,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.07,
+      "end": 2.82,
+      "startFrame": 2,
+      "endFrame": 85,
+      "duration": 2.75,
+      "narration": "Your car may have been answering this question your entire life.",
+      "background": "CarInterior",
+      "note": "Dashboard legible at frame 0. Bill mid-argument with himself about which side the tank is on.",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "beats": [
+        {
+          "t": 0.07,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill at the wheel craning to look over both shoulders; Mina beside him, already unimpressed"
+        },
+        {
+          "t": 1.61,
+          "frame": 48,
+          "tInScene": 1.54,
+          "frameInScene": 46,
+          "action": "a giant question mark pops over Bill's head and wobbles",
+          "sync": "keyword: this question"
+        },
+        {
+          "t": 2.168,
+          "frame": 65,
+          "tInScene": 2.098,
+          "frameInScene": 63,
+          "action": "the question mark multiplies into a small crowd of them; camera punch",
+          "sync": "keyword: your entire life"
+        }
+      ]
+    },
+    {
+      "scene": "symbol",
+      "start": 3.13,
+      "end": 5.382,
+      "startFrame": 94,
+      "endFrame": 161,
+      "duration": 2.252,
+      "narration": "Look at the little fuel pump symbol on your dashboard.",
+      "background": "DashboardCloseup",
+      "note": "Dive to the gauge. The pump icon is found before the arrow — order matters.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 3.13,
+          "frame": 94,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "camera dives into the instrument cluster; the fuel gauge fills frame"
+        },
+        {
+          "t": 3.89,
+          "frame": 117,
+          "tInScene": 0.76,
+          "frameInScene": 23,
+          "action": "the little pump icon lights up and pulses",
+          "sync": "keyword: fuel pump symbol"
+        },
+        {
+          "t": 4.886,
+          "frame": 147,
+          "tInScene": 1.756,
+          "frameInScene": 53,
+          "action": "everything else on the cluster dims to grey so only the icon reads",
+          "sync": "keyword: dashboard"
+        }
+      ]
+    },
+    {
+      "scene": "arrow",
+      "start": 5.692,
+      "end": 8.747,
+      "startFrame": 171,
+      "endFrame": 262,
+      "duration": 3.055,
+      "narration": "On many cars, there's a tiny arrow or triangle beside it.",
+      "background": "DashboardCloseup",
+      "note": "The reveal beat. The arrow has to pop, not fade — it is the whole video.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 7.062,
+          "frame": 212,
+          "tInScene": 1.37,
+          "frameInScene": 41,
+          "action": "the tiny arrow pops in beside the pump icon with a hard snap and a ring of sparkles",
+          "sync": "keyword: tiny arrow"
+        },
+        {
+          "t": 7.726,
+          "frame": 232,
+          "tInScene": 2.034,
+          "frameInScene": 61,
+          "action": "the arrow morphs to a triangle and back, showing both forms",
+          "sync": "keyword: triangle"
+        }
+      ]
+    },
+    {
+      "scene": "left-right",
+      "start": 9.043,
+      "end": 13.483,
+      "startFrame": 271,
+      "endFrame": 404,
+      "duration": 4.44,
+      "narration": "If it points left, your fuel door is on the left. If it points right, it's on the right.",
+      "background": "CarTopDown",
+      "note": "Top-down car so left and right are unambiguous. Two clean symmetrical demonstrations.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 9.043,
+          "frame": 271,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "hard cut to a top-down car; fuel doors drawn on both sides, both closed"
+        },
+        {
+          "t": 10.673,
+          "frame": 320,
+          "tInScene": 1.63,
+          "frameInScene": 49,
+          "action": "the top-down car rotates a few degrees so both fuel doors stay readable",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 9.316,
+          "frame": 279,
+          "tInScene": 0.273,
+          "frameInScene": 8,
+          "action": "the arrow swings left; the LEFT fuel door flips open and glows teal",
+          "sync": "keyword: points left"
+        },
+        {
+          "t": 12.03,
+          "frame": 361,
+          "tInScene": 2.987,
+          "frameInScene": 90,
+          "action": "the arrow swings right; the RIGHT door opens instead and the left snaps shut",
+          "sync": "keyword: points right"
+        }
+      ]
+    },
+    {
+      "scene": "why",
+      "start": 13.845,
+      "end": 18.937,
+      "startFrame": 415,
+      "endFrame": 568,
+      "duration": 5.092,
+      "narration": "Manufacturers don't all put fuel doors on the same side, so this tiny symbol saves you from guessing,",
+      "background": "CarTopDown",
+      "note": "Why the arrow needs to exist: the industry never agreed. Show four cars disagreeing.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 15.006,
+          "frame": 450,
+          "tInScene": 1.161,
+          "frameInScene": 35,
+          "action": "the four cars shuffle order; their fuel doors still disagree",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 17.373,
+          "frame": 521,
+          "tInScene": 3.528,
+          "frameInScene": 106,
+          "action": "each car flashes its door side in turn, none of them matching",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 13.845,
+          "frame": 415,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "four little cars pop in in a row, fuel doors on alternating sides",
+          "sync": "keyword: manufacturers"
+        },
+        {
+          "t": 16.167,
+          "frame": 485,
+          "tInScene": 2.322,
+          "frameInScene": 70,
+          "action": "a NO STANDARD stamp lands across the row",
+          "sync": "keyword: same side"
+        },
+        {
+          "t": 18.58,
+          "frame": 557,
+          "tInScene": 4.735,
+          "frameInScene": 142,
+          "action": "the arrow reappears over each car in turn, correct every time; teal ticks",
+          "sync": "keyword: saves you from guessing"
+        }
+      ]
+    },
+    {
+      "scene": "regret",
+      "start": 19.252,
+      "end": 24.421,
+      "startFrame": 578,
+      "endFrame": 733,
+      "duration": 5.169,
+      "narration": "which means every time you pulled into a gas station, chose the wrong pump, reversed, and tried again,",
+      "background": "GasStationForecourt",
+      "note": "The montage of past failure. Three beats, escalating, comic timing on the reverse.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 19.752,
+          "frame": 593,
+          "tInScene": 0.5,
+          "frameInScene": 15,
+          "action": "the arrow spins once and settles, still correct",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 20.924,
+          "frame": 628,
+          "tInScene": 1.672,
+          "frameInScene": 50,
+          "action": "Bill drives into a forecourt, confident",
+          "sync": "keyword: gas station"
+        },
+        {
+          "t": 22.188,
+          "frame": 666,
+          "tInScene": 2.936,
+          "frameInScene": 88,
+          "action": "he stops at the wrong pump; the hose is comically far from the filler",
+          "sync": "keyword: wrong pump"
+        },
+        {
+          "t": 22.992,
+          "frame": 690,
+          "tInScene": 3.74,
+          "frameInScene": 112,
+          "action": "the car reverses in a fast stepped jerk and tries again, still wrong; motion lines",
+          "sync": "keyword: reversed and tried again"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 24.725,
+      "end": 27.26,
+      "startFrame": 742,
+      "endFrame": 818,
+      "duration": 2.535,
+      "narration": "the answer may have been glowing directly in front of your face.",
+      "background": "DashboardCloseup",
+      "note": "Return to the arrow, now glowing. Mina's non-reaction is the punchline. Hard cut.",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "beats": [
+        {
+          "t": 24.725,
+          "frame": 742,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "snap back to the dashboard; the arrow is right there"
+        },
+        {
+          "t": 25.687,
+          "frame": 771,
+          "tInScene": 0.962,
+          "frameInScene": 29,
+          "action": "the arrow blazes gold; a spotlight cone drops onto it",
+          "sync": "keyword: glowing"
+        },
+        {
+          "t": 26.984,
+          "frame": 810,
+          "tInScene": 2.259,
+          "frameInScene": 68,
+          "action": "pull back: it is directly in front of Bill's face; he goes deadpan; Mina slowly turns to look at him; hard cut",
+          "sync": "keyword: in front of your face — final beat"
+        }
+      ]
+    }
+  ]
+}

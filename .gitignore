@@ -21,6 +21,39 @@ tools/.svg-export-bundle.cjs
 # Nothing to do with this project.
 dbeaver-mcp.log
 
+# ---------------------------------------------------------------------------
+# SECRETS — nothing here may ever be committed.
+#
+# The YouTube control plane reads a Google OAuth client from a path given by
+# configuration and stores its tokens OUTSIDE this repository. These patterns are the
+# backstop for a mistake, not the mechanism: the real rule is that credentials live in
+# %LOCALAPPDATA%\BillFindsOut, never in the working tree.
+#
+# Patterns are deliberately narrow. A broad rule like `*secret*` or `*.json` would
+# swallow legitimate source — this project keeps episode configs, storyboards, timing
+# maps and asset manifests in .json, and any of them going silently untracked would be a
+# far more expensive accident than it looks.
+# ---------------------------------------------------------------------------
+client_secret*.json
+*client_secret*.json
+credentials*.json
+oauth*.json
+token.json
+tokens.json
+*.token.json
+youtube-token*.json
+.secrets/
+*.pem
+*.p12
+
+# env files, except the committed example
+.env
+.env.*
+!.env.example
+
+# redundant archive of qa/characters/*.png, which are tracked individually
+qa/characters.zip
+
 # OS junk
 .DS_Store
 Thumbs.db

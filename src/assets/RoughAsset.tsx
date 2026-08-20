@@ -74,7 +74,7 @@ function renderShape(shape: Shape, path: string, key: React.Key): React.ReactNod
    * stylizer as everything else, with a pen preset instead of a shape preset, so the whole
    * drawing is made by one hand and obeys one style switch. An earlier revision routed
    * these to perfect-freehand and the result had two visibly different pens in it — see
-   * src/qa/PenProbe.tsx and the PEN comment in style/tokens.ts.
+   * qa/v2-pen-probe.png and the PEN comment in style/tokens.ts.
    */
   if (shape.k === 'stroke') {
     const pen = PEN[shape.pen ?? 'face'];

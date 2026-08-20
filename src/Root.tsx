@@ -4,6 +4,9 @@ import './lib/fonts';
 import { VIDEO } from './lib/style';
 import { TOTAL_FRAMES } from './lib/timing';
 import { CasinoClocks } from './video/CasinoClocks';
+import { Episode } from './video/Episode';
+import { clockFor, compositionId, EPISODE_ORDER } from './episodes/registry';
+import { ChannelAvatar, ChannelBanner } from './branding/Branding';
 import { AssetSheet } from './qa/AssetSheet';
 import { StyleProbe } from './qa/StyleProbe';
 import { BackgroundSheet } from './qa/BackgroundSheet';
@@ -31,6 +34,50 @@ export const RemotionRoot: React.FC = () => (
       fps={VIDEO.fps}
       width={VIDEO.width}
       height={VIDEO.height}
+    />
+
+    {/*
+      Batch 001 — ten Shorts.
+
+      Registered from EPISODE_ORDER rather than typed out, so an episode cannot be added to
+      the batch and then silently left un-renderable. Duration comes from that episode's own
+      locked narration; nothing here picks a length.
+    */}
+    {EPISODE_ORDER.map((id) => {
+      const clock = clockFor(id);
+      return (
+        <Composition
+          key={id}
+          id={compositionId(id)}
+          component={Episode}
+          defaultProps={{ id }}
+          durationInFrames={clock.TOTAL_FRAMES}
+          fps={VIDEO.fps}
+          width={VIDEO.width}
+          height={VIDEO.height}
+        />
+      );
+    })}
+
+    {/*
+      Channel branding. Composed from the canonical cast components, so the avatar and
+      banner cannot drift away from the character sheets — they share one source.
+    */}
+    <Composition
+      id="ChannelAvatar"
+      component={ChannelAvatar}
+      durationInFrames={1}
+      fps={VIDEO.fps}
+      width={1024}
+      height={1024}
+    />
+    <Composition
+      id="ChannelBanner"
+      component={ChannelBanner}
+      durationInFrames={1}
+      fps={VIDEO.fps}
+      width={2560}
+      height={1440}
     />
 
     {/* ---- character system QA ---- */}

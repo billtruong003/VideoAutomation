@@ -1,0 +1,258 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "highway-lane-lines",
+  "title": "Highway Lines Are Way Bigger Than You Think",
+  "audio": "public/audio/highway-lane-lines.wav",
+  "fps": 30,
+  "narrationDuration": 27.578,
+  "beatCount": 20,
+  "longestGap": 2.125,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.04,
+      "end": 3.918,
+      "startFrame": 1,
+      "endFrame": 118,
+      "duration": 3.878,
+      "narration": "Those tiny dashed lines on the highway are much bigger than your brain thinks.",
+      "background": "HighwayFromCar",
+      "note": "Driver's-eye view at frame 0. The lines look small on purpose — that is the lie being set up.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 0.04,
+          "frame": 1,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "driver's-eye view down a highway; dashes streaming toward camera, looking tiny"
+        },
+        {
+          "t": 0.544,
+          "frame": 16,
+          "tInScene": 0.504,
+          "frameInScene": 15,
+          "action": "one dash is circled as it passes",
+          "sync": "keyword: dashed lines"
+        },
+        {
+          "t": 2.365,
+          "frame": 71,
+          "tInScene": 2.325,
+          "frameInScene": 70,
+          "action": "the circled dash swells violently for six frames then snaps back; camera punch",
+          "sync": "keyword: much bigger — the promise"
+        }
+      ]
+    },
+    {
+      "scene": "ten-feet",
+      "start": 4.214,
+      "end": 8.803,
+      "startFrame": 126,
+      "endFrame": 264,
+      "duration": 4.589,
+      "narration": "In the United States, a standard broken lane marking is typically about 10 feet long,",
+      "background": "HighwayTopDown",
+      "note": "Switch to top-down so a measurement is readable. The number gets drawn, not stated.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 4.214,
+          "frame": 126,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "hard cut to a top-down view of one lane; a single dash sits centre frame"
+        },
+        {
+          "t": 6.339,
+          "frame": 190,
+          "tInScene": 2.125,
+          "frameInScene": 64,
+          "action": "the dash outlines and a dimension line draws along it",
+          "sync": "keyword: lane marking"
+        },
+        {
+          "t": 7.978,
+          "frame": 239,
+          "tInScene": 3.764,
+          "frameInScene": 113,
+          "action": "10 FEET card stamps on the dimension line",
+          "sync": "keyword: 10 feet"
+        }
+      ]
+    },
+    {
+      "scene": "the-gap",
+      "start": 9.095,
+      "end": 11.132,
+      "startFrame": 273,
+      "endFrame": 334,
+      "duration": 2.037,
+      "narration": "and the gap after it is around 30 feet.",
+      "background": "HighwayTopDown",
+      "note": "The gap is three times the dash. Draw it at true relative length so the eye does the maths.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 9.095,
+          "frame": 273,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "camera pulls back to reveal the gap after the dash"
+        },
+        {
+          "t": 10.439,
+          "frame": 313,
+          "tInScene": 1.344,
+          "frameInScene": 40,
+          "action": "30 FEET card stamps on the gap; it is visibly three times the dash",
+          "sync": "keyword: 30 feet"
+        }
+      ]
+    },
+    {
+      "scene": "perspective",
+      "start": 11.407,
+      "end": 15.819,
+      "startFrame": 342,
+      "endFrame": 475,
+      "duration": 4.412,
+      "narration": "But from inside a moving car, perspective makes them look like tiny little strips of paint.",
+      "background": "HighwayFromCar",
+      "note": "Return to the driver's eye with the truth now known. Same shot, different meaning.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 11.407,
+          "frame": 342,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "cut back inside the car; Bill at the wheel, lines streaming past looking tiny again"
+        },
+        {
+          "t": 14.149,
+          "frame": 424,
+          "tInScene": 2.742,
+          "frameInScene": 82,
+          "action": "the perspective lines pulse; the dashes near the horizon squeeze to nothing",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 12.801,
+          "frame": 384,
+          "tInScene": 1.394,
+          "frameInScene": 42,
+          "action": "perspective lines draw over the shot, converging at the horizon",
+          "sync": "keyword: perspective"
+        },
+        {
+          "t": 15.497,
+          "frame": 465,
+          "tInScene": 4.09,
+          "frameInScene": 123,
+          "action": "the dashes shrink to little paint flecks; a LIE stamp flickers over them for four frames",
+          "sync": "keyword: strips of paint"
+        }
+      ]
+    },
+    {
+      "scene": "bill-scale",
+      "start": 16.138,
+      "end": 23.654,
+      "startFrame": 484,
+      "endFrame": 710,
+      "duration": 7.516,
+      "narration": "10 feet is about 3 meters, so if Bill stood next to one of those little road lines, the line would absolutely destroy him in a height comparison.",
+      "background": "HighwayRoadside",
+      "note": "The scale gag the script asks for by name. Bill must be visibly, comically shorter than the line.",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "beats": [
+        {
+          "t": 20.105,
+          "frame": 603,
+          "tInScene": 3.967,
+          "frameInScene": 119,
+          "action": "Bill walks the full length of the upright line and does not reach the top",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 17.071,
+          "frame": 512,
+          "tInScene": 0.933,
+          "frameInScene": 28,
+          "action": "3 METRES card stamps; a human-height ruler draws itself",
+          "sync": "keyword: 3 meters"
+        },
+        {
+          "t": 18.151,
+          "frame": 545,
+          "tInScene": 2.013,
+          "frameInScene": 60,
+          "action": "Bill walks on and stands beside a single road line stood on its end",
+          "sync": "keyword: Bill — he is named in the narration"
+        },
+        {
+          "t": 22.06,
+          "frame": 662,
+          "tInScene": 5.922,
+          "frameInScene": 178,
+          "action": "the line towers over him; Bill goes tiny and horrified; Mina holds the tape and looks delighted",
+          "sync": "keyword: destroy him"
+        },
+        {
+          "t": 22.808,
+          "frame": 684,
+          "tInScene": 6.67,
+          "frameInScene": 200,
+          "action": "a height-comparison bracket snaps between the two; Bill loses badly",
+          "sync": "keyword: height comparison"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 23.998,
+      "end": 27.535,
+      "startFrame": 720,
+      "endFrame": 826,
+      "duration": 3.537,
+      "narration": "Your brain has basically been shrinking the road underneath you this entire time.",
+      "background": "HighwayFromCar",
+      "note": "The reveal turns inward: the road was never the problem. Hard cut.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 23.998,
+          "frame": 720,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "back to the driving view; the road ahead"
+        },
+        {
+          "t": 25.277,
+          "frame": 758,
+          "tInScene": 1.279,
+          "frameInScene": 38,
+          "action": "the whole road visibly compresses under the car like a squeezed accordion",
+          "sync": "keyword: shrinking the road"
+        },
+        {
+          "t": 26.929,
+          "frame": 808,
+          "tInScene": 2.931,
+          "frameInScene": 88,
+          "action": "Bill's eye twitches; a tiny brain icon pops beside his head looking guilty; hard cut",
+          "sync": "keyword: this entire time — final beat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_50_48_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_50_48_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "Those tiny dashed lines on the highway are much bigger than your brain thinks.",
+      "start_time": 0.119,
+      "end_time": 4.46,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Those",
+          "start_time": 0.119,
+          "end_time": 0.425
+        },
+        {
+          "text": "tiny",
+          "start_time": 0.425,
+          "end_time": 0.683
+        },
+        {
+          "text": "dashed",
+          "start_time": 0.683,
+          "end_time": 1.035
+        },
+        {
+          "text": "lines",
+          "start_time": 1.035,
+          "end_time": 1.34
+        },
+        {
+          "text": "on",
+          "start_time": 1.34,
+          "end_time": 1.503
+        },
+        {
+          "text": "the",
+          "start_time": 1.503,
+          "end_time": 1.714
+        },
+        {
+          "text": "highway",
+          "start_time": 1.714,
+          "end_time": 2.113
+        },
+        {
+          "text": "are",
+          "start_time": 2.113,
+          "end_time": 2.324
+        },
+        {
+          "text": "much",
+          "start_time": 2.324,
+          "end_time": 2.722
+        },
+        {
+          "text": "bigger",
+          "start_time": 2.722,
+          "end_time": 3.164
+        },
+        {
+          "text": "than",
+          "start_time": 3.164,
+          "end_time": 3.422
+        },
+        {
+          "text": "your",
+          "start_time": 3.422,
+          "end_time": 3.68
+        },
+        {
+          "text": "brain",
+          "start_time": 3.68,
+          "end_time": 3.985
+        },
+        {
+          "text": "thinks.",
+          "start_time": 3.985,
+          "end_time": 4.46
+        }
+      ]
+    },
+    {
+      "text": "In the United States, a standard broken lane marking is typically about 10 feet",
+      "start_time": 5.44,
+      "end_time": 10.279,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "In",
+          "start_time": 5.44,
+          "end_time": 5.609
+        },
+        {
+          "text": "the",
+          "start_time": 5.609,
+          "end_time": 5.827
+        },
+        {
+          "text": "United",
+          "start_time": 5.827,
+          "end_time": 6.191
+        },
+        {
+          "text": "States,",
+          "start_time": 6.191,
+          "end_time": 6.873
+        },
+        {
+          "text": "a",
+          "start_time": 6.873,
+          "end_time": 6.994
+        },
+        {
+          "text": "standard",
+          "start_time": 6.994,
+          "end_time": 7.456
+        },
+        {
+          "text": "broken",
+          "start_time": 7.456,
+          "end_time": 7.82
+        },
+        {
+          "text": "lane",
+          "start_time": 7.82,
+          "end_time": 8.086
+        },
+        {
+          "text": "marking",
+          "start_time": 8.086,
+          "end_time": 8.499
+        },
+        {
+          "text": "is",
+          "start_time": 8.499,
+          "end_time": 8.829
+        },
+        {
+          "text": "typically",
+          "start_time": 8.829,
+          "end_time": 9.339
+        },
+        {
+          "text": "about",
+          "start_time": 9.339,
+          "end_time": 9.655
+        },
+        {
+          "text": "10",
+          "start_time": 9.655,
+          "end_time": 10.012
+        },
+        {
+          "text": "feet",
+          "start_time": 10.012,
+          "end_time": 10.279
+        }
+      ]
+    },
+    {
+      "text": "long,",
+      "start_time": 10.279,
+      "end_time": 10.579,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "long,",
+          "start_time": 10.279,
+          "end_time": 10.579
+        }
+      ]
+    },
+    {
+      "text": "and the gap after it is around 30 feet.",
+      "start_time": 11.279,
+      "end_time": 13.559,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "and",
+          "start_time": 11.279,
+          "end_time": 11.475
+        },
+        {
+          "text": "the",
+          "start_time": 11.475,
+          "end_time": 11.671
+        },
+        {
+          "text": "gap",
+          "start_time": 11.671,
+          "end_time": 11.867
+        },
+        {
+          "text": "after",
+          "start_time": 11.867,
+          "end_time": 12.151
+        },
+        {
+          "text": "it",
+          "start_time": 12.151,
+          "end_time": 12.303
+        },
+        {
+          "text": "is",
+          "start_time": 12.303,
+          "end_time": 12.455
+        },
+        {
+          "text": "around",
+          "start_time": 12.455,
+          "end_time": 12.783
+        },
+        {
+          "text": "30",
+          "start_time": 12.783,
+          "end_time": 13.205
+        },
+        {
+          "text": "feet.",
+          "start_time": 13.205,
+          "end_time": 13.559
+        }
+      ]
+    },
+    {
+      "text": "But from inside a moving car, perspective makes them look like tiny little strips of",
+      "start_time": 14.38,
+      "end_time": 18.959,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "But",
+          "start_time": 14.38,
+          "end_time": 14.589
+        },
+        {
+          "text": "from",
+          "start_time": 14.589,
+          "end_time": 14.844
+        },
+        {
+          "text": "inside",
+          "start_time": 14.844,
+          "end_time": 15.193
+        },
+        {
+          "text": "a",
+          "start_time": 15.193,
+          "end_time": 15.309
+        },
+        {
+          "text": "moving",
+          "start_time": 15.309,
+          "end_time": 15.658
+        },
+        {
+          "text": "car,",
+          "start_time": 15.658,
+          "end_time": 15.941
+        },
+        {
+          "text": "perspective",
+          "start_time": 15.941,
+          "end_time": 16.774
+        },
+        {
+          "text": "makes",
+          "start_time": 16.774,
+          "end_time": 17.077
+        },
+        {
+          "text": "them",
+          "start_time": 17.077,
+          "end_time": 17.332
+        },
+        {
+          "text": "look",
+          "start_time": 17.332,
+          "end_time": 17.588
+        },
+        {
+          "text": "like",
+          "start_time": 17.588,
+          "end_time": 17.843
+        },
+        {
+          "text": "tiny",
+          "start_time": 17.843,
+          "end_time": 18.099
+        },
+        {
+          "text": "little",
+          "start_time": 18.099,
+          "end_time": 18.448
+        },
+        {
+          "text": "strips",
+          "start_time": 18.448,
+          "end_time": 18.797
+        },
+        {
+          "text": "of",
+          "start_time": 18.797,
+          "end_time": 18.959
+        }
+      ]
+    },
+    {
+      "text": "paint.",
+      "start_time": 18.959,
+      "end_time": 19.319,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "paint.",
+          "start_time": 18.959,
+          "end_time": 19.319
+        }
+      ]
+    },
+    {
+      "text": "10 feet is about 3 meters, so if Bill stood next to one of those little road",
+      "start_time": 20.479,
+      "end_time": 25.439,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "10",
+          "start_time": 20.479,
+          "end_time": 20.816
+        },
+        {
+          "text": "feet",
+          "start_time": 20.816,
+          "end_time": 21.068
+        },
+        {
+          "text": "is",
+          "start_time": 21.068,
+          "end_time": 21.227
+        },
+        {
+          "text": "about",
+          "start_time": 21.227,
+          "end_time": 21.524
+        },
+        {
+          "text": "3",
+          "start_time": 21.524,
+          "end_time": 21.727
+        },
+        {
+          "text": "meters,",
+          "start_time": 21.727,
+          "end_time": 22.654
+        },
+        {
+          "text": "so",
+          "start_time": 22.654,
+          "end_time": 22.813
+        },
+        {
+          "text": "if",
+          "start_time": 22.813,
+          "end_time": 22.973
+        },
+        {
+          "text": "Bill",
+          "start_time": 22.973,
+          "end_time": 23.224
+        },
+        {
+          "text": "stood",
+          "start_time": 23.224,
+          "end_time": 23.521
+        },
+        {
+          "text": "next",
+          "start_time": 23.521,
+          "end_time": 23.773
+        },
+        {
+          "text": "to",
+          "start_time": 23.773,
+          "end_time": 23.932
+        },
+        {
+          "text": "one",
+          "start_time": 23.932,
+          "end_time": 24.137
+        },
+        {
+          "text": "of",
+          "start_time": 24.137,
+          "end_time": 24.297
+        },
+        {
+          "text": "those",
+          "start_time": 24.297,
+          "end_time": 24.844
+        },
+        {
+          "text": "little",
+          "start_time": 24.844,
+          "end_time": 25.188
+        },
+        {
+          "text": "road",
+          "start_time": 25.188,
+          "end_time": 25.439
+        }
+      ]
+    },
+    {
+      "text": "lines,",
+      "start_time": 25.439,
+      "end_time": 25.799,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "lines,",
+          "start_time": 25.439,
+          "end_time": 25.799
+        }
+      ]
+    },
+    {
+      "text": "the line would absolutely destroy him in a height comparison.",
+      "start_time": 26.479,
+      "end_time": 29.5,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 26.479,
+          "end_time": 26.677
+        },
+        {
+          "text": "line",
+          "start_time": 26.677,
+          "end_time": 26.92
+        },
+        {
+          "text": "would",
+          "start_time": 26.92,
+          "end_time": 27.207
+        },
+        {
+          "text": "absolutely",
+          "start_time": 27.207,
+          "end_time": 27.716
+        },
+        {
+          "text": "destroy",
+          "start_time": 27.716,
+          "end_time": 28.092
+        },
+        {
+          "text": "him",
+          "start_time": 28.092,
+          "end_time": 28.29
+        },
+        {
+          "text": "in",
+          "start_time": 28.29,
+          "end_time": 28.444
+        },
+        {
+          "text": "a",
+          "start_time": 28.444,
+          "end_time": 28.553
+        },
+        {
+          "text": "height",
+          "start_time": 28.553,
+          "end_time": 28.885
+        },
+        {
+          "text": "comparison.",
+          "start_time": 28.885,
+          "end_time": 29.5
+        }
+      ]
+    },
+    {
+      "text": "Your brain has basically been shrinking the road underneath you this entire time.",
+      "start_time": 30.84,
+      "end_time": 34.799,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Your",
+          "start_time": 30.84,
+          "end_time": 31.082
+        },
+        {
+          "text": "brain",
+          "start_time": 31.082,
+          "end_time": 31.368
+        },
+        {
+          "text": "has",
+          "start_time": 31.368,
+          "end_time": 31.566
+        },
+        {
+          "text": "basically",
+          "start_time": 31.566,
+          "end_time": 32.029
+        },
+        {
+          "text": "been",
+          "start_time": 32.029,
+          "end_time": 32.271
+        },
+        {
+          "text": "shrinking",
+          "start_time": 32.271,
+          "end_time": 32.734
+        },
+        {
+          "text": "the",
+          "start_time": 32.734,
+          "end_time": 32.932
+        },
+        {
+          "text": "road",
+          "start_time": 32.932,
+          "end_time": 33.174
+        },
+        {
+          "text": "underneath",
+          "start_time": 33.174,
+          "end_time": 33.681
+        },
+        {
+          "text": "you",
+          "start_time": 33.681,
+          "end_time": 33.879
+        },
+        {
+          "text": "this",
+          "start_time": 33.879,
+          "end_time": 34.12
+        },
+        {
+          "text": "entire",
+          "start_time": 34.12,
+          "end_time": 34.451
+        },
+        {
+          "text": "time.",
+          "start_time": 34.451,
+          "end_time": 34.799
+        }
+      ]
+    }
+  ]
+}

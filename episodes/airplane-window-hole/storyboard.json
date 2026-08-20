@@ -1,0 +1,315 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "airplane-window-hole",
+  "title": "The Hole In Your Airplane Window Is Supposed To Be There",
+  "audio": "public/audio/airplane-window-hole.wav",
+  "fps": 30,
+  "narrationDuration": 26.708,
+  "beatCount": 27,
+  "longestGap": 1.867,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.041,
+      "end": 3.078,
+      "startFrame": 1,
+      "endFrame": 92,
+      "duration": 3.037,
+      "narration": "That tiny hole in your airplane window is supposed to be there.",
+      "background": "PlaneCabin",
+      "note": "Window and hole legible at frame 0. No establishing shot — Bill is already nose-to-glass.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.041,
+          "frame": 1,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill pressed against the window, face squashed toward the glass; the window and its tiny hole are on screen at frame 0"
+        },
+        {
+          "t": 0.474,
+          "frame": 14,
+          "tInScene": 0.433,
+          "frameInScene": 13,
+          "action": "hard camera punch onto the hole; it pops one size larger and a red circle snaps around it",
+          "sync": "keyword: hole"
+        },
+        {
+          "t": 1.853,
+          "frame": 56,
+          "tInScene": 1.812,
+          "frameInScene": 54,
+          "action": "Bill recoils into shockedBack, horrified; sweat drop",
+          "sync": "keyword: supposed — the reassurance lands as a threat"
+        },
+        {
+          "t": 2.928,
+          "frame": 88,
+          "tInScene": 2.887,
+          "frameInScene": 87,
+          "action": "Bill turns deadpan to camera while the hole stays circled behind him"
+        }
+      ]
+    },
+    {
+      "scene": "layers",
+      "start": 3.422,
+      "end": 8.655,
+      "startFrame": 103,
+      "endFrame": 260,
+      "duration": 5.233,
+      "narration": "Passenger windows use multiple layers, and that little breather hole sits in one of the inner panes.",
+      "background": "PlaneCabinCutaway",
+      "note": "The mechanism scene. Cutaway diagram, built one pane at a time.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 3.422,
+          "frame": 103,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "camera dollies to a side-on cutaway of the window; Bill shrinks to a small figure at the left"
+        },
+        {
+          "t": 4.383,
+          "frame": 131,
+          "tInScene": 0.961,
+          "frameInScene": 29,
+          "action": "three panes slide in from the right and stack with a click each — outer, middle, inner",
+          "sync": "keyword: multiple layers"
+        },
+        {
+          "t": 6.25,
+          "frame": 188,
+          "tInScene": 2.828,
+          "frameInScene": 85,
+          "action": "the breather hole pops into the INNER pane with a label arrow",
+          "sync": "keyword: breather hole"
+        },
+        {
+          "t": 8.015,
+          "frame": 240,
+          "tInScene": 4.593,
+          "frameInScene": 138,
+          "action": "the inner pane flashes; the other two dim so the reading is unambiguous",
+          "sync": "keyword: inner panes"
+        }
+      ]
+    },
+    {
+      "scene": "pressure",
+      "start": 8.962,
+      "end": 15.753,
+      "startFrame": 269,
+      "endFrame": 473,
+      "duration": 6.791,
+      "narration": "It helps manage the pressure between the layers, so the outer structural pane takes most of the pressure difference while you're flying at altitude.",
+      "background": "PlaneCabinCutaway",
+      "note": "Pressure is shown as arrows with weight, not as a word. The outer pane visibly takes the load.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 8.962,
+          "frame": 269,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "pressure arrows push inward on the outer pane; the gap between panes equalises through the hole"
+        },
+        {
+          "t": 13.011,
+          "frame": 390,
+          "tInScene": 4.049,
+          "frameInScene": 121,
+          "action": "the middle pane flexes a few units and settles; a small equalising puff travels through the breather hole",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 14.362,
+          "frame": 431,
+          "tInScene": 5.4,
+          "frameInScene": 162,
+          "action": "middle pane relaxes visibly — arrows on it shrink to nothing"
+        },
+        {
+          "t": 9.848,
+          "frame": 295,
+          "tInScene": 0.886,
+          "frameInScene": 27,
+          "action": "big arrows thump against the outer pane; it bows a few units and holds",
+          "sync": "keyword: pressure"
+        },
+        {
+          "t": 11.659,
+          "frame": 350,
+          "tInScene": 2.697,
+          "frameInScene": 81,
+          "action": "outer pane lights up coral and a STRUCTURAL label stamps onto it",
+          "sync": "keyword: outer structural pane"
+        },
+        {
+          "t": 15.33,
+          "frame": 460,
+          "tInScene": 6.368,
+          "frameInScene": 191,
+          "action": "camera pulls back to the plane in cross-section at altitude; tiny clouds slide past",
+          "sync": "keyword: altitude"
+        }
+      ]
+    },
+    {
+      "scene": "moisture",
+      "start": 16.052,
+      "end": 18.571,
+      "startFrame": 482,
+      "endFrame": 557,
+      "duration": 2.519,
+      "narration": "It also helps moisture escape from between the panes.",
+      "background": "PlaneCabinCutaway",
+      "note": "Second job of the same hole. Short scene, one clean visual.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 16.052,
+          "frame": 482,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "fog blooms between the panes and greys the view out"
+        },
+        {
+          "t": 16.675,
+          "frame": 500,
+          "tInScene": 0.623,
+          "frameInScene": 19,
+          "action": "the fog streams out through the breather hole in little curls; the view clears left to right",
+          "sync": "keyword: moisture"
+        },
+        {
+          "t": 17.702,
+          "frame": 531,
+          "tInScene": 1.65,
+          "frameInScene": 49,
+          "action": "the last of the fog curls away and the glass squeaks clear; the wing outside sharpens into focus",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "verdict",
+      "start": 18.924,
+      "end": 22.317,
+      "startFrame": 568,
+      "endFrame": 670,
+      "duration": 3.393,
+      "narration": "So no, your airplane window does not have a manufacturing defect.",
+      "background": "PlaneCabin",
+      "note": "Back to the seat. Gus arrives, delivers nothing, leaves. The restraint is the joke.",
+      "cast": [
+        "bill",
+        "gus"
+      ],
+      "beats": [
+        {
+          "t": 18.924,
+          "frame": 568,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "cut back to the cabin; Bill has the call button pressed and a panic face"
+        },
+        {
+          "t": 22.217,
+          "frame": 667,
+          "tInScene": 3.293,
+          "frameInScene": 99,
+          "action": "Gus walks off; Bill lowers his hand slowly"
+        },
+        {
+          "t": 18.974,
+          "frame": 569,
+          "tInScene": 0.05,
+          "frameInScene": 2,
+          "action": "the cleared view opens onto a wing and slow clouds; Bill leans in to look through it",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 20.36,
+          "frame": 611,
+          "tInScene": 1.436,
+          "frameInScene": 43,
+          "action": "Bill lowers the call button and looks at the window with new respect",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 21.796,
+          "frame": 654,
+          "tInScene": 2.872,
+          "frameInScene": 86,
+          "action": "a NOT A DEFECT stamp slams across the window",
+          "sync": "keyword: defect"
+        },
+        {
+          "t": 22.396,
+          "frame": 672,
+          "tInScene": 3.472,
+          "frameInScene": 104,
+          "action": "Gus arrives in the aisle, looks at the window, looks at Bill, says nothing"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 22.615,
+      "end": 26.67,
+      "startFrame": 678,
+      "endFrame": 800,
+      "duration": 4.055,
+      "narration": "That suspicious little hole is actually part of the reason the window works in the 1st place.",
+      "background": "PlaneCabin",
+      "note": "Reframe: the hole goes from suspect to hero. Hard cut on the last word.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 24.944,
+          "frame": 748,
+          "tInScene": 2.329,
+          "frameInScene": 70,
+          "action": "the outer pane gets a tiny gold STRUCTURAL badge that Bill does not notice",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 22.818,
+          "frame": 685,
+          "tInScene": 0.203,
+          "frameInScene": 6,
+          "action": "the red suspicion circle around the hole pops back on",
+          "sync": "keyword: suspicious"
+        },
+        {
+          "t": 23.718,
+          "frame": 712,
+          "tInScene": 1.103,
+          "frameInScene": 33,
+          "action": "the circle flips from coral to teal and sparkles; the hole is promoted"
+        },
+        {
+          "t": 26.17,
+          "frame": 785,
+          "tInScene": 3.555,
+          "frameInScene": 107,
+          "action": "Bill gives the window a tiny respectful thumbs up, still slightly afraid of it; hard cut",
+          "sync": "keyword: 1st place — final beat"
+        }
+      ]
+    }
+  ]
+}

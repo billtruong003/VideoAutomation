@@ -1,0 +1,283 @@
+{
+  "slug": "pen-cap-hole",
+  "title": "The Hole In A Pen Cap Is A Safety Feature",
+  "hook": "The most forgettable object on your desk was designed around an emergency.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "gus"
+    ],
+    "note": "Gus is the standards body — clipboard, stamp, no expression. He is the only authority the episode needs."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "That tiny hole",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "TONE: this episode touches a real choking hazard. It stays a DIAGRAM throughout. Nobody chokes on screen, nothing is played for laughs, and Bill is never in distress. The comedy is respect for an overlooked object, not the emergency.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill at a desk idly turning a pen cap over; the vent hole is visible at frame 0"
+        },
+        {
+          "at": 1.6,
+          "action": "Bill stops turning the cap and holds it still, looking at the hole properly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "hole",
+          "action": "camera punches onto the hole in the cap; it circles teal",
+          "sync": "keyword: hole"
+        },
+        {
+          "kw": "serious",
+          "action": "the light shifts cooler; Bill's expression settles from bored to attentive",
+          "sync": "keyword: serious purpose — the tonal turn"
+        }
+      ]
+    },
+    {
+      "id": "vented",
+      "from": "On vented caps",
+      "background": "PenCapCloseup",
+      "cast": [],
+      "note": "Generic vented cap — no brand marks, no logo, even though the narration names one.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the cap fills frame, drawn plainly and generically; no branding anywhere"
+        },
+        {
+          "at": 1.811,
+          "action": "the cross-section rotates slowly so the vent channel reads end to end",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "vented",
+          "action": "the vent hole outlines and a cross-section peels open beside it",
+          "sync": "keyword: vented caps"
+        },
+        {
+          "kw": "safety",
+          "action": "a SAFETY FEATURE label lands, plain and unfunny",
+          "sync": "keyword: safety"
+        }
+      ]
+    },
+    {
+      "id": "airway",
+      "from": "If someone accidentally",
+      "background": "AirwayDiagram",
+      "cast": [],
+      "note": "Pure schematic. A simple tube, the cap lodged in it, and air getting through the vent. No character, no face, no panic.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "clean schematic of an airway as a plain tube; no body drawn around it"
+        },
+        {
+          "at": 1.284,
+          "action": "the cap settles a fraction deeper; the tube outline pulses once",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "lodged",
+          "action": "the cap settles into the tube and blocks it; the tube outlines coral",
+          "sync": "keyword: lodged in the airway"
+        },
+        {
+          "kw": "vent",
+          "action": "the vent hole lights teal; a thin air path draws straight through the cap",
+          "sync": "keyword: the vent"
+        },
+        {
+          "kw": "pass-through",
+          "action": "steady air arrows move through the vent; the coral outline softens",
+          "sync": "keyword: allow some air to pass through"
+        },
+        {
+          "kw": "emergency-help",
+          "action": "a clock ticks beside the diagram — the vent buys time, it does not solve it",
+          "sync": "keyword: while emergency help is needed"
+        }
+      ]
+    },
+    {
+      "id": "standards",
+      "from": "International safety standards",
+      "background": "DeskSurface",
+      "cast": [
+        "gus"
+      ],
+      "note": "Gus stamps the document. One motion, no expression change. That restraint is the character.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a plain standards document slides in; Gus steps up with a clipboard"
+        },
+        {
+          "at": 2.411,
+          "action": "Gus squares the document edge with one finger before leaving",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "standards",
+          "action": "Gus stamps the page once, hard; the stamp reads VENTED CAPS",
+          "sync": "keyword: standards"
+        },
+        {
+          "kw": "this-reason",
+          "action": "the page files itself into a drawer; Gus walks out of frame without looking up",
+          "sync": "keyword: for this reason"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "So one of",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "The reframe: the cheapest object on the desk gets treated as important. Sincere, not sarcastic. Hard cut.",
+      "beats": [
+        {
+          "at": 4.368,
+          "action": "the pen cap turns a half rotation more, catching the light on the vent",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "cheapest",
+          "action": "the desk clutter greys out until only the pen cap is drawn in full ink",
+          "sync": "keyword: cheapest"
+        },
+        {
+          "kw": "plastic",
+          "action": "the cap lifts and turns slowly, lit like an artefact",
+          "sync": "keyword: plastic on your desk"
+        },
+        {
+          "kw": "breaths",
+          "action": "two small, calm air marks pass through the vent",
+          "sync": "keyword: a few extra breaths"
+        },
+        {
+          "kw": "matter",
+          "action": "Bill puts the cap back on his pen carefully, the way you handle something that matters; hard cut",
+          "sync": "keyword: could matter — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "hole",
+      [
+        "hole"
+      ],
+      0
+    ],
+    [
+      "serious",
+      [
+        "serious"
+      ],
+      0
+    ],
+    [
+      "vented",
+      [
+        "vented"
+      ],
+      0
+    ],
+    [
+      "safety",
+      [
+        "safety"
+      ],
+      0
+    ],
+    [
+      "lodged",
+      [
+        "lodged"
+      ],
+      0
+    ],
+    [
+      "vent",
+      [
+        "vent"
+      ],
+      0
+    ],
+    [
+      "pass-through",
+      [
+        "pass",
+        "through"
+      ],
+      0
+    ],
+    [
+      "emergency-help",
+      [
+        "emergency",
+        "help"
+      ],
+      0
+    ],
+    [
+      "standards",
+      [
+        "standards"
+      ],
+      0
+    ],
+    [
+      "this-reason",
+      [
+        "this",
+        "reason"
+      ],
+      0
+    ],
+    [
+      "cheapest",
+      [
+        "cheapest"
+      ],
+      0
+    ],
+    [
+      "plastic",
+      [
+        "plastic"
+      ],
+      0
+    ],
+    [
+      "breaths",
+      [
+        "breaths"
+      ],
+      0
+    ],
+    [
+      "matter",
+      [
+        "matter"
+      ],
+      0
+    ]
+  ]
+}

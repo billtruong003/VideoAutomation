@@ -1,0 +1,549 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_49_35_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_49_35_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "Your jeans have a pocket designed for a gadget from the 1800s. That",
+      "start_time": 0.119,
+      "end_time": 4.899,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Your",
+          "start_time": 0.119,
+          "end_time": 0.381
+        },
+        {
+          "text": "jeans",
+          "start_time": 0.381,
+          "end_time": 0.691
+        },
+        {
+          "text": "have",
+          "start_time": 0.691,
+          "end_time": 0.953
+        },
+        {
+          "text": "a",
+          "start_time": 0.953,
+          "end_time": 1.072
+        },
+        {
+          "text": "pocket",
+          "start_time": 1.072,
+          "end_time": 1.43
+        },
+        {
+          "text": "designed",
+          "start_time": 1.43,
+          "end_time": 1.884
+        },
+        {
+          "text": "for",
+          "start_time": 1.884,
+          "end_time": 2.098
+        },
+        {
+          "text": "a",
+          "start_time": 2.098,
+          "end_time": 2.216
+        },
+        {
+          "text": "gadget",
+          "start_time": 2.216,
+          "end_time": 2.574
+        },
+        {
+          "text": "from",
+          "start_time": 2.574,
+          "end_time": 2.837
+        },
+        {
+          "text": "the",
+          "start_time": 2.837,
+          "end_time": 3.051
+        },
+        {
+          "text": "1800s.",
+          "start_time": 3.051,
+          "end_time": 4.637
+        },
+        {
+          "text": "That",
+          "start_time": 4.637,
+          "end_time": 4.899
+        }
+      ]
+    },
+    {
+      "text": "tiny pocket inside the front pocket wasn't originally for coins, AirPods, or",
+      "start_time": 4.9,
+      "end_time": 9.899,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "tiny",
+          "start_time": 4.9,
+          "end_time": 5.169
+        },
+        {
+          "text": "pocket",
+          "start_time": 5.169,
+          "end_time": 5.536
+        },
+        {
+          "text": "inside",
+          "start_time": 5.536,
+          "end_time": 5.903
+        },
+        {
+          "text": "the",
+          "start_time": 5.903,
+          "end_time": 6.122
+        },
+        {
+          "text": "front",
+          "start_time": 6.122,
+          "end_time": 6.44
+        },
+        {
+          "text": "pocket",
+          "start_time": 6.44,
+          "end_time": 7.147
+        },
+        {
+          "text": "wasn't",
+          "start_time": 7.147,
+          "end_time": 7.514
+        },
+        {
+          "text": "originally",
+          "start_time": 7.514,
+          "end_time": 8.078
+        },
+        {
+          "text": "for",
+          "start_time": 8.078,
+          "end_time": 8.297
+        },
+        {
+          "text": "coins,",
+          "start_time": 8.297,
+          "end_time": 8.894
+        },
+        {
+          "text": "AirPods,",
+          "start_time": 8.894,
+          "end_time": 9.389
+        },
+        {
+          "text": "or",
+          "start_time": 9.389,
+          "end_time": 9.899
+        }
+      ]
+    },
+    {
+      "text": "whatever else you can barely fit inside it.",
+      "start_time": 9.899,
+      "end_time": 11.96,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "whatever",
+          "start_time": 9.899,
+          "end_time": 10.286
+        },
+        {
+          "text": "else",
+          "start_time": 10.286,
+          "end_time": 10.51
+        },
+        {
+          "text": "you",
+          "start_time": 10.51,
+          "end_time": 10.693
+        },
+        {
+          "text": "can",
+          "start_time": 10.693,
+          "end_time": 10.876
+        },
+        {
+          "text": "barely",
+          "start_time": 10.876,
+          "end_time": 11.181
+        },
+        {
+          "text": "fit",
+          "start_time": 11.181,
+          "end_time": 11.364
+        },
+        {
+          "text": "inside",
+          "start_time": 11.364,
+          "end_time": 11.67
+        },
+        {
+          "text": "it.",
+          "start_time": 11.67,
+          "end_time": 11.96
+        }
+      ]
+    },
+    {
+      "text": "Early Levi's jeans included it as a watch pocket.",
+      "start_time": 12.939,
+      "end_time": 15.84,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Early",
+          "start_time": 12.939,
+          "end_time": 13.273
+        },
+        {
+          "text": "Levi's",
+          "start_time": 13.273,
+          "end_time": 13.658
+        },
+        {
+          "text": "jeans",
+          "start_time": 13.658,
+          "end_time": 13.992
+        },
+        {
+          "text": "included",
+          "start_time": 13.992,
+          "end_time": 14.481
+        },
+        {
+          "text": "it",
+          "start_time": 14.481,
+          "end_time": 14.66
+        },
+        {
+          "text": "as",
+          "start_time": 14.66,
+          "end_time": 14.839
+        },
+        {
+          "text": "a",
+          "start_time": 14.839,
+          "end_time": 14.967
+        },
+        {
+          "text": "watch",
+          "start_time": 14.967,
+          "end_time": 15.301
+        },
+        {
+          "text": "pocket.",
+          "start_time": 15.301,
+          "end_time": 15.84
+        }
+      ]
+    },
+    {
+      "text": "Pocket watches were common, and workers needed a small, protected place to keep",
+      "start_time": 16.699,
+      "end_time": 20.84,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Pocket",
+          "start_time": 16.699,
+          "end_time": 17.017
+        },
+        {
+          "text": "watches",
+          "start_time": 17.017,
+          "end_time": 17.377
+        },
+        {
+          "text": "were",
+          "start_time": 17.377,
+          "end_time": 17.609
+        },
+        {
+          "text": "common,",
+          "start_time": 17.609,
+          "end_time": 18.335
+        },
+        {
+          "text": "and",
+          "start_time": 18.335,
+          "end_time": 18.525
+        },
+        {
+          "text": "workers",
+          "start_time": 18.525,
+          "end_time": 18.885
+        },
+        {
+          "text": "needed",
+          "start_time": 18.885,
+          "end_time": 19.202
+        },
+        {
+          "text": "a",
+          "start_time": 19.202,
+          "end_time": 19.307
+        },
+        {
+          "text": "small,",
+          "start_time": 19.307,
+          "end_time": 19.65
+        },
+        {
+          "text": "protected",
+          "start_time": 19.65,
+          "end_time": 20.095
+        },
+        {
+          "text": "place",
+          "start_time": 20.095,
+          "end_time": 20.37
+        },
+        {
+          "text": "to",
+          "start_time": 20.37,
+          "end_time": 20.518
+        },
+        {
+          "text": "keep",
+          "start_time": 20.518,
+          "end_time": 20.84
+        }
+      ]
+    },
+    {
+      "text": "them. Wristwatches eventually took over. The pocket watch mostly disappeared, but",
+      "start_time": 20.84,
+      "end_time": 27.139,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "them.",
+          "start_time": 20.84,
+          "end_time": 22.147
+        },
+        {
+          "text": "Wristwatches",
+          "start_time": 22.147,
+          "end_time": 22.74
+        },
+        {
+          "text": "eventually",
+          "start_time": 22.74,
+          "end_time": 23.245
+        },
+        {
+          "text": "took",
+          "start_time": 23.245,
+          "end_time": 23.486
+        },
+        {
+          "text": "over.",
+          "start_time": 23.486,
+          "end_time": 24.673
+        },
+        {
+          "text": "The",
+          "start_time": 24.673,
+          "end_time": 24.869
+        },
+        {
+          "text": "pocket",
+          "start_time": 24.869,
+          "end_time": 25.198
+        },
+        {
+          "text": "watch",
+          "start_time": 25.198,
+          "end_time": 25.483
+        },
+        {
+          "text": "mostly",
+          "start_time": 25.483,
+          "end_time": 25.812
+        },
+        {
+          "text": "disappeared,",
+          "start_time": 25.812,
+          "end_time": 26.432
+        },
+        {
+          "text": "but",
+          "start_time": 26.432,
+          "end_time": 27.139
+        }
+      ]
+    },
+    {
+      "text": "the pocket survived.",
+      "start_time": 27.139,
+      "end_time": 28.199,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 27.139,
+          "end_time": 27.334
+        },
+        {
+          "text": "pocket",
+          "start_time": 27.334,
+          "end_time": 27.661
+        },
+        {
+          "text": "survived.",
+          "start_time": 27.661,
+          "end_time": 28.199
+        }
+      ]
+    },
+    {
+      "text": "So that useless little compartment on your jeans is basically a tiny fossil from a",
+      "start_time": 29.099,
+      "end_time": 33.939,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "So",
+          "start_time": 29.099,
+          "end_time": 29.265
+        },
+        {
+          "text": "that",
+          "start_time": 29.265,
+          "end_time": 29.527
+        },
+        {
+          "text": "useless",
+          "start_time": 29.527,
+          "end_time": 29.932
+        },
+        {
+          "text": "little",
+          "start_time": 29.932,
+          "end_time": 30.29
+        },
+        {
+          "text": "compartment",
+          "start_time": 30.29,
+          "end_time": 30.887
+        },
+        {
+          "text": "on",
+          "start_time": 30.887,
+          "end_time": 31.053
+        },
+        {
+          "text": "your",
+          "start_time": 31.053,
+          "end_time": 31.315
+        },
+        {
+          "text": "jeans",
+          "start_time": 31.315,
+          "end_time": 31.954
+        },
+        {
+          "text": "is",
+          "start_time": 31.954,
+          "end_time": 32.12
+        },
+        {
+          "text": "basically",
+          "start_time": 32.12,
+          "end_time": 32.622
+        },
+        {
+          "text": "a",
+          "start_time": 32.622,
+          "end_time": 32.74
+        },
+        {
+          "text": "tiny",
+          "start_time": 32.74,
+          "end_time": 33.002
+        },
+        {
+          "text": "fossil",
+          "start_time": 33.002,
+          "end_time": 33.359
+        },
+        {
+          "text": "from",
+          "start_time": 33.359,
+          "end_time": 33.821
+        },
+        {
+          "text": "a",
+          "start_time": 33.821,
+          "end_time": 33.939
+        }
+      ]
+    },
+    {
+      "text": "technology nobody carries anymore.",
+      "start_time": 33.939,
+      "end_time": 35.919,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "technology",
+          "start_time": 33.939,
+          "end_time": 34.532
+        },
+        {
+          "text": "nobody",
+          "start_time": 34.532,
+          "end_time": 34.919
+        },
+        {
+          "text": "carries",
+          "start_time": 34.919,
+          "end_time": 35.357
+        },
+        {
+          "text": "anymore.",
+          "start_time": 35.357,
+          "end_time": 35.919
+        }
+      ]
+    }
+  ]
+}

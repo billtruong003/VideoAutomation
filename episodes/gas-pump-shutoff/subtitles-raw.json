@@ -1,0 +1,592 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_33_09_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_33_09_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "Your gas pump knows when your tank is full without talking to your car.",
+      "start_time": 0.179,
+      "end_time": 4.019,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Your",
+          "start_time": 0.179,
+          "end_time": 0.422
+        },
+        {
+          "text": "gas",
+          "start_time": 0.422,
+          "end_time": 0.621
+        },
+        {
+          "text": "pump",
+          "start_time": 0.621,
+          "end_time": 0.865
+        },
+        {
+          "text": "knows",
+          "start_time": 0.865,
+          "end_time": 1.293
+        },
+        {
+          "text": "when",
+          "start_time": 1.293,
+          "end_time": 1.536
+        },
+        {
+          "text": "your",
+          "start_time": 1.536,
+          "end_time": 1.78
+        },
+        {
+          "text": "tank",
+          "start_time": 1.78,
+          "end_time": 2.023
+        },
+        {
+          "text": "is",
+          "start_time": 2.023,
+          "end_time": 2.178
+        },
+        {
+          "text": "full",
+          "start_time": 2.178,
+          "end_time": 2.421
+        },
+        {
+          "text": "without",
+          "start_time": 2.421,
+          "end_time": 2.938
+        },
+        {
+          "text": "talking",
+          "start_time": 2.938,
+          "end_time": 3.315
+        },
+        {
+          "text": "to",
+          "start_time": 3.315,
+          "end_time": 3.47
+        },
+        {
+          "text": "your",
+          "start_time": 3.47,
+          "end_time": 3.713
+        },
+        {
+          "text": "car.",
+          "start_time": 3.713,
+          "end_time": 4.019
+        }
+      ]
+    },
+    {
+      "text": "Near the tip of the nozzle is a tiny sensing hole connected to an air passage.",
+      "start_time": 4.94,
+      "end_time": 9.359,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Near",
+          "start_time": 4.94,
+          "end_time": 5.188
+        },
+        {
+          "text": "the",
+          "start_time": 5.188,
+          "end_time": 5.391
+        },
+        {
+          "text": "tip",
+          "start_time": 5.391,
+          "end_time": 5.594
+        },
+        {
+          "text": "of",
+          "start_time": 5.594,
+          "end_time": 5.751
+        },
+        {
+          "text": "the",
+          "start_time": 5.751,
+          "end_time": 5.954
+        },
+        {
+          "text": "nozzle",
+          "start_time": 5.954,
+          "end_time": 6.523
+        },
+        {
+          "text": "is",
+          "start_time": 6.523,
+          "end_time": 6.681
+        },
+        {
+          "text": "a",
+          "start_time": 6.681,
+          "end_time": 6.793
+        },
+        {
+          "text": "tiny",
+          "start_time": 6.793,
+          "end_time": 7.041
+        },
+        {
+          "text": "sensing",
+          "start_time": 7.041,
+          "end_time": 7.425
+        },
+        {
+          "text": "hole",
+          "start_time": 7.425,
+          "end_time": 7.674
+        },
+        {
+          "text": "connected",
+          "start_time": 7.674,
+          "end_time": 8.329
+        },
+        {
+          "text": "to",
+          "start_time": 8.329,
+          "end_time": 8.486
+        },
+        {
+          "text": "an",
+          "start_time": 8.486,
+          "end_time": 8.644
+        },
+        {
+          "text": "air",
+          "start_time": 8.644,
+          "end_time": 8.847
+        },
+        {
+          "text": "passage.",
+          "start_time": 8.847,
+          "end_time": 9.359
+        }
+      ]
+    },
+    {
+      "text": "While you're pumping, air can move through it,",
+      "start_time": 10.219,
+      "end_time": 12.479,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "While",
+          "start_time": 10.219,
+          "end_time": 10.464
+        },
+        {
+          "text": "you're",
+          "start_time": 10.464,
+          "end_time": 10.748
+        },
+        {
+          "text": "pumping,",
+          "start_time": 10.748,
+          "end_time": 11.41
+        },
+        {
+          "text": "air",
+          "start_time": 11.41,
+          "end_time": 11.579
+        },
+        {
+          "text": "can",
+          "start_time": 11.579,
+          "end_time": 11.749
+        },
+        {
+          "text": "move",
+          "start_time": 11.749,
+          "end_time": 11.956
+        },
+        {
+          "text": "through",
+          "start_time": 11.956,
+          "end_time": 12.278
+        },
+        {
+          "text": "it,",
+          "start_time": 12.278,
+          "end_time": 12.479
+        }
+      ]
+    },
+    {
+      "text": "but once the gasoline rises high enough to cover that hole, the airflow suddenly",
+      "start_time": 13.179,
+      "end_time": 17.699,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "but",
+          "start_time": 13.179,
+          "end_time": 13.39
+        },
+        {
+          "text": "once",
+          "start_time": 13.39,
+          "end_time": 13.649
+        },
+        {
+          "text": "the",
+          "start_time": 13.649,
+          "end_time": 13.86
+        },
+        {
+          "text": "gasoline",
+          "start_time": 13.86,
+          "end_time": 14.308
+        },
+        {
+          "text": "rises",
+          "start_time": 14.308,
+          "end_time": 14.614
+        },
+        {
+          "text": "high",
+          "start_time": 14.614,
+          "end_time": 14.873
+        },
+        {
+          "text": "enough",
+          "start_time": 14.873,
+          "end_time": 15.226
+        },
+        {
+          "text": "to",
+          "start_time": 15.226,
+          "end_time": 15.39
+        },
+        {
+          "text": "cover",
+          "start_time": 15.39,
+          "end_time": 15.696
+        },
+        {
+          "text": "that",
+          "start_time": 15.696,
+          "end_time": 15.955
+        },
+        {
+          "text": "hole,",
+          "start_time": 15.955,
+          "end_time": 16.639
+        },
+        {
+          "text": "the",
+          "start_time": 16.639,
+          "end_time": 16.85
+        },
+        {
+          "text": "airflow",
+          "start_time": 16.85,
+          "end_time": 17.251
+        },
+        {
+          "text": "suddenly",
+          "start_time": 17.251,
+          "end_time": 17.699
+        }
+      ]
+    },
+    {
+      "text": "changes.",
+      "start_time": 17.699,
+      "end_time": 18.239,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "changes.",
+          "start_time": 17.699,
+          "end_time": 18.239
+        }
+      ]
+    },
+    {
+      "text": "That pressure change triggers a mechanical diaphragm inside the nozzle",
+      "start_time": 19.279,
+      "end_time": 23,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "That",
+          "start_time": 19.279,
+          "end_time": 19.65
+        },
+        {
+          "text": "pressure",
+          "start_time": 19.65,
+          "end_time": 20.102
+        },
+        {
+          "text": "change",
+          "start_time": 20.102,
+          "end_time": 20.458
+        },
+        {
+          "text": "triggers",
+          "start_time": 20.458,
+          "end_time": 20.91
+        },
+        {
+          "text": "a",
+          "start_time": 20.91,
+          "end_time": 21.027
+        },
+        {
+          "text": "mechanical",
+          "start_time": 21.027,
+          "end_time": 21.575
+        },
+        {
+          "text": "diaphragm",
+          "start_time": 21.575,
+          "end_time": 22.074
+        },
+        {
+          "text": "inside",
+          "start_time": 22.074,
+          "end_time": 22.431
+        },
+        {
+          "text": "the",
+          "start_time": 22.431,
+          "end_time": 22.644
+        },
+        {
+          "text": "nozzle",
+          "start_time": 22.644,
+          "end_time": 23
+        }
+      ]
+    },
+    {
+      "text": "and",
+      "start_time": 23.76,
+      "end_time": 23.979,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "and",
+          "start_time": 23.76,
+          "end_time": 23.979
+        }
+      ]
+    },
+    {
+      "text": "click.",
+      "start_time": 25.399,
+      "end_time": 25.719,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "click.",
+          "start_time": 25.399,
+          "end_time": 25.719
+        }
+      ]
+    },
+    {
+      "text": "The valve shuts.",
+      "start_time": 26.5,
+      "end_time": 27.379,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "The",
+          "start_time": 26.5,
+          "end_time": 26.696
+        },
+        {
+          "text": "valve",
+          "start_time": 26.696,
+          "end_time": 26.98
+        },
+        {
+          "text": "shuts.",
+          "start_time": 26.98,
+          "end_time": 27.379
+        }
+      ]
+    },
+    {
+      "text": "No Wi-Fi, no computer, no secret signal from your car.",
+      "start_time": 28.299,
+      "end_time": 32.279,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "No",
+          "start_time": 28.299,
+          "end_time": 28.489
+        },
+        {
+          "text": "Wi-Fi,",
+          "start_time": 28.489,
+          "end_time": 28.877
+        },
+        {
+          "text": "no",
+          "start_time": 28.877,
+          "end_time": 29.067
+        },
+        {
+          "text": "computer,",
+          "start_time": 29.067,
+          "end_time": 29.844
+        },
+        {
+          "text": "no",
+          "start_time": 29.844,
+          "end_time": 30.474
+        },
+        {
+          "text": "secret",
+          "start_time": 30.474,
+          "end_time": 30.884
+        },
+        {
+          "text": "signal",
+          "start_time": 30.884,
+          "end_time": 31.294
+        },
+        {
+          "text": "from",
+          "start_time": 31.294,
+          "end_time": 31.593
+        },
+        {
+          "text": "your",
+          "start_time": 31.593,
+          "end_time": 31.893
+        },
+        {
+          "text": "car.",
+          "start_time": 31.893,
+          "end_time": 32.279
+        }
+      ]
+    },
+    {
+      "text": "Just air pressure and a ridiculously clever little piece of mechanical",
+      "start_time": 32.979,
+      "end_time": 36.52,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Just",
+          "start_time": 32.979,
+          "end_time": 33.225
+        },
+        {
+          "text": "air",
+          "start_time": 33.225,
+          "end_time": 33.427
+        },
+        {
+          "text": "pressure",
+          "start_time": 33.427,
+          "end_time": 33.853
+        },
+        {
+          "text": "and",
+          "start_time": 33.853,
+          "end_time": 34.165
+        },
+        {
+          "text": "a",
+          "start_time": 34.165,
+          "end_time": 34.276
+        },
+        {
+          "text": "ridiculously",
+          "start_time": 34.276,
+          "end_time": 34.883
+        },
+        {
+          "text": "clever",
+          "start_time": 34.883,
+          "end_time": 35.219
+        },
+        {
+          "text": "little",
+          "start_time": 35.219,
+          "end_time": 35.556
+        },
+        {
+          "text": "piece",
+          "start_time": 35.556,
+          "end_time": 35.847
+        },
+        {
+          "text": "of",
+          "start_time": 35.847,
+          "end_time": 36.003
+        },
+        {
+          "text": "mechanical",
+          "start_time": 36.003,
+          "end_time": 36.52
+        }
+      ]
+    },
+    {
+      "text": "engineering.",
+      "start_time": 36.52,
+      "end_time": 37.159,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "engineering.",
+          "start_time": 36.52,
+          "end_time": 37.159
+        }
+      ]
+    }
+  ]
+}

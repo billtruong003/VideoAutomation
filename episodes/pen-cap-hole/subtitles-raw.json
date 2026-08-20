@@ -1,0 +1,599 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T21_50_41_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T21_50_41_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "That tiny hole in some pen caps can serve a much more serious purpose than you'd",
+      "start_time": 0.099,
+      "end_time": 4.539,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "That",
+          "start_time": 0.099,
+          "end_time": 0.36
+        },
+        {
+          "text": "tiny",
+          "start_time": 0.36,
+          "end_time": 0.622
+        },
+        {
+          "text": "hole",
+          "start_time": 0.622,
+          "end_time": 0.883
+        },
+        {
+          "text": "in",
+          "start_time": 0.883,
+          "end_time": 1.049
+        },
+        {
+          "text": "some",
+          "start_time": 1.049,
+          "end_time": 1.31
+        },
+        {
+          "text": "pen",
+          "start_time": 1.31,
+          "end_time": 1.524
+        },
+        {
+          "text": "caps",
+          "start_time": 1.524,
+          "end_time": 1.785
+        },
+        {
+          "text": "can",
+          "start_time": 1.785,
+          "end_time": 1.999
+        },
+        {
+          "text": "serve",
+          "start_time": 1.999,
+          "end_time": 2.518
+        },
+        {
+          "text": "a",
+          "start_time": 2.518,
+          "end_time": 2.636
+        },
+        {
+          "text": "much",
+          "start_time": 2.636,
+          "end_time": 2.897
+        },
+        {
+          "text": "more",
+          "start_time": 2.897,
+          "end_time": 3.159
+        },
+        {
+          "text": "serious",
+          "start_time": 3.159,
+          "end_time": 3.564
+        },
+        {
+          "text": "purpose",
+          "start_time": 3.564,
+          "end_time": 3.968
+        },
+        {
+          "text": "than",
+          "start_time": 3.968,
+          "end_time": 4.23
+        },
+        {
+          "text": "you'd",
+          "start_time": 4.23,
+          "end_time": 4.539
+        }
+      ]
+    },
+    {
+      "text": "expect.",
+      "start_time": 4.539,
+      "end_time": 5.059,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "expect.",
+          "start_time": 4.539,
+          "end_time": 5.059
+        }
+      ]
+    },
+    {
+      "text": "On vented caps, such as the Bic Cristal, the opening is there for safety.",
+      "start_time": 6,
+      "end_time": 10.519,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "On",
+          "start_time": 6,
+          "end_time": 6.169
+        },
+        {
+          "text": "vented",
+          "start_time": 6.169,
+          "end_time": 6.533
+        },
+        {
+          "text": "caps,",
+          "start_time": 6.533,
+          "end_time": 6.877
+        },
+        {
+          "text": "such",
+          "start_time": 6.877,
+          "end_time": 7.143
+        },
+        {
+          "text": "as",
+          "start_time": 7.143,
+          "end_time": 7.312
+        },
+        {
+          "text": "the",
+          "start_time": 7.312,
+          "end_time": 7.53
+        },
+        {
+          "text": "Bic",
+          "start_time": 7.53,
+          "end_time": 7.747
+        },
+        {
+          "text": "Cristal,",
+          "start_time": 7.747,
+          "end_time": 8.338
+        },
+        {
+          "text": "the",
+          "start_time": 8.338,
+          "end_time": 8.555
+        },
+        {
+          "text": "opening",
+          "start_time": 8.555,
+          "end_time": 9.328
+        },
+        {
+          "text": "is",
+          "start_time": 9.328,
+          "end_time": 9.497
+        },
+        {
+          "text": "there",
+          "start_time": 9.497,
+          "end_time": 9.812
+        },
+        {
+          "text": "for",
+          "start_time": 9.812,
+          "end_time": 10.029
+        },
+        {
+          "text": "safety.",
+          "start_time": 10.029,
+          "end_time": 10.519
+        }
+      ]
+    },
+    {
+      "text": "If someone accidentally inhales the cap and it gets lodged in the airway, the vent",
+      "start_time": 11.259,
+      "end_time": 16.179,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "If",
+          "start_time": 11.259,
+          "end_time": 11.423
+        },
+        {
+          "text": "someone",
+          "start_time": 11.423,
+          "end_time": 11.823
+        },
+        {
+          "text": "accidentally",
+          "start_time": 11.823,
+          "end_time": 12.459
+        },
+        {
+          "text": "inhales",
+          "start_time": 12.459,
+          "end_time": 12.859
+        },
+        {
+          "text": "the",
+          "start_time": 12.859,
+          "end_time": 13.07
+        },
+        {
+          "text": "cap",
+          "start_time": 13.07,
+          "end_time": 13.281
+        },
+        {
+          "text": "and",
+          "start_time": 13.281,
+          "end_time": 13.492
+        },
+        {
+          "text": "it",
+          "start_time": 13.492,
+          "end_time": 13.876
+        },
+        {
+          "text": "gets",
+          "start_time": 13.876,
+          "end_time": 14.135
+        },
+        {
+          "text": "lodged",
+          "start_time": 14.135,
+          "end_time": 14.487
+        },
+        {
+          "text": "in",
+          "start_time": 14.487,
+          "end_time": 14.651
+        },
+        {
+          "text": "the",
+          "start_time": 14.651,
+          "end_time": 14.862
+        },
+        {
+          "text": "airway,",
+          "start_time": 14.862,
+          "end_time": 15.291
+        },
+        {
+          "text": "the",
+          "start_time": 15.291,
+          "end_time": 15.912
+        },
+        {
+          "text": "vent",
+          "start_time": 15.912,
+          "end_time": 16.179
+        }
+      ]
+    },
+    {
+      "text": "may still allow some air to pass through while emergency help is needed.",
+      "start_time": 16.179,
+      "end_time": 20.379,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "may",
+          "start_time": 16.179,
+          "end_time": 16.401
+        },
+        {
+          "text": "still",
+          "start_time": 16.401,
+          "end_time": 16.708
+        },
+        {
+          "text": "allow",
+          "start_time": 16.708,
+          "end_time": 17.014
+        },
+        {
+          "text": "some",
+          "start_time": 17.014,
+          "end_time": 17.273
+        },
+        {
+          "text": "air",
+          "start_time": 17.273,
+          "end_time": 17.484
+        },
+        {
+          "text": "to",
+          "start_time": 17.484,
+          "end_time": 17.648
+        },
+        {
+          "text": "pass",
+          "start_time": 17.648,
+          "end_time": 17.907
+        },
+        {
+          "text": "through",
+          "start_time": 17.907,
+          "end_time": 18.308
+        },
+        {
+          "text": "while",
+          "start_time": 18.308,
+          "end_time": 18.954
+        },
+        {
+          "text": "emergency",
+          "start_time": 18.954,
+          "end_time": 19.45
+        },
+        {
+          "text": "help",
+          "start_time": 19.45,
+          "end_time": 19.709
+        },
+        {
+          "text": "is",
+          "start_time": 19.709,
+          "end_time": 19.873
+        },
+        {
+          "text": "needed.",
+          "start_time": 19.873,
+          "end_time": 20.379
+        }
+      ]
+    },
+    {
+      "text": "International safety standards specifically address vented pen caps for",
+      "start_time": 21.319,
+      "end_time": 25.559,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "International",
+          "start_time": 21.319,
+          "end_time": 22.084
+        },
+        {
+          "text": "safety",
+          "start_time": 22.084,
+          "end_time": 22.479
+        },
+        {
+          "text": "standards",
+          "start_time": 22.479,
+          "end_time": 23.243
+        },
+        {
+          "text": "specifically",
+          "start_time": 23.243,
+          "end_time": 23.955
+        },
+        {
+          "text": "address",
+          "start_time": 23.955,
+          "end_time": 24.403
+        },
+        {
+          "text": "vented",
+          "start_time": 24.403,
+          "end_time": 24.797
+        },
+        {
+          "text": "pen",
+          "start_time": 24.797,
+          "end_time": 25.034
+        },
+        {
+          "text": "caps",
+          "start_time": 25.034,
+          "end_time": 25.323
+        },
+        {
+          "text": "for",
+          "start_time": 25.323,
+          "end_time": 25.559
+        }
+      ]
+    },
+    {
+      "text": "this reason.",
+      "start_time": 25.559,
+      "end_time": 26.18,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "this",
+          "start_time": 25.559,
+          "end_time": 25.78
+        },
+        {
+          "text": "reason.",
+          "start_time": 25.78,
+          "end_time": 26.18
+        }
+      ]
+    },
+    {
+      "text": "So one of the cheapest, most forgettable pieces of plastic on your desk has a",
+      "start_time": 27.099,
+      "end_time": 31.399,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "So",
+          "start_time": 27.099,
+          "end_time": 27.252
+        },
+        {
+          "text": "one",
+          "start_time": 27.252,
+          "end_time": 27.45
+        },
+        {
+          "text": "of",
+          "start_time": 27.45,
+          "end_time": 27.604
+        },
+        {
+          "text": "the",
+          "start_time": 27.604,
+          "end_time": 27.802
+        },
+        {
+          "text": "cheapest,",
+          "start_time": 27.802,
+          "end_time": 28.451
+        },
+        {
+          "text": "most",
+          "start_time": 28.451,
+          "end_time": 28.694
+        },
+        {
+          "text": "forgettable",
+          "start_time": 28.694,
+          "end_time": 29.246
+        },
+        {
+          "text": "pieces",
+          "start_time": 29.246,
+          "end_time": 29.576
+        },
+        {
+          "text": "of",
+          "start_time": 29.576,
+          "end_time": 29.73
+        },
+        {
+          "text": "plastic",
+          "start_time": 29.73,
+          "end_time": 30.104
+        },
+        {
+          "text": "on",
+          "start_time": 30.104,
+          "end_time": 30.258
+        },
+        {
+          "text": "your",
+          "start_time": 30.258,
+          "end_time": 30.5
+        },
+        {
+          "text": "desk",
+          "start_time": 30.5,
+          "end_time": 30.742
+        },
+        {
+          "text": "has",
+          "start_time": 30.742,
+          "end_time": 31.29
+        },
+        {
+          "text": "a",
+          "start_time": 31.29,
+          "end_time": 31.399
+        }
+      ]
+    },
+    {
+      "text": "design feature meant for an emergency where a few extra breaths could matter.",
+      "start_time": 31.399,
+      "end_time": 35.619,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "design",
+          "start_time": 31.399,
+          "end_time": 31.738
+        },
+        {
+          "text": "feature",
+          "start_time": 31.738,
+          "end_time": 32.122
+        },
+        {
+          "text": "meant",
+          "start_time": 32.122,
+          "end_time": 32.416
+        },
+        {
+          "text": "for",
+          "start_time": 32.416,
+          "end_time": 32.619
+        },
+        {
+          "text": "an",
+          "start_time": 32.619,
+          "end_time": 32.776
+        },
+        {
+          "text": "emergency",
+          "start_time": 32.776,
+          "end_time": 33.251
+        },
+        {
+          "text": "where",
+          "start_time": 33.251,
+          "end_time": 33.885
+        },
+        {
+          "text": "a",
+          "start_time": 33.885,
+          "end_time": 33.997
+        },
+        {
+          "text": "few",
+          "start_time": 33.997,
+          "end_time": 34.2
+        },
+        {
+          "text": "extra",
+          "start_time": 34.2,
+          "end_time": 34.493
+        },
+        {
+          "text": "breaths",
+          "start_time": 34.493,
+          "end_time": 34.878
+        },
+        {
+          "text": "could",
+          "start_time": 34.878,
+          "end_time": 35.171
+        },
+        {
+          "text": "matter.",
+          "start_time": 35.171,
+          "end_time": 35.619
+        }
+      ]
+    }
+  ]
+}

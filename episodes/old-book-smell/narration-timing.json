@@ -1,0 +1,986 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/old-book-smell.wav.",
+  "episode": "old-book-smell",
+  "title": "Old Book Smell Is The Book Falling Apart",
+  "audio": "public/audio/old-book-smell.wav",
+  "staticAudio": "audio/old-book-smell.wav",
+  "duration": 33.189,
+  "fps": 30,
+  "rawDuration": 41.326,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11973,
+  "silenceRemoved": 4.163,
+  "wordCount": 94,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "That amazing old book smell is literally the smell of the book slowly breaking down.",
+      "start": 0.077,
+      "end": 4.47,
+      "wordRange": [
+        0,
+        14
+      ]
+    },
+    {
+      "id": "materials",
+      "text": "As paper, ink, glue, and bindings age, they release volatile chemicals into the air.",
+      "start": 4.81,
+      "end": 9.657,
+      "wordRange": [
+        15,
+        28
+      ]
+    },
+    {
+      "id": "compounds",
+      "text": "Different compounds can create grassy, musty, almond-like, and even vanilla-like smells.",
+      "start": 9.978,
+      "end": 15.118,
+      "wordRange": [
+        29,
+        39
+      ]
+    },
+    {
+      "id": "vanillin",
+      "text": "Vanillin is one of the compounds associated with that familiar sweet note.",
+      "start": 15.419,
+      "end": 18.814,
+      "wordRange": [
+        40,
+        51
+      ]
+    },
+    {
+      "id": "science",
+      "text": "Scientists and conservators can even study these emissions to learn about the condition of aging paper.",
+      "start": 19.191,
+      "end": 24.274,
+      "wordRange": [
+        52,
+        67
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So when Bill opens a 100-year-old book and thinks it smells weirdly delicious, he is basically enjoying the smell of chemistry happening in extremely slow motion.",
+      "start": 24.642,
+      "end": 33.111,
+      "wordRange": [
+        68,
+        93
+      ]
+    }
+  ],
+  "keywords": {
+    "smell": {
+      "start": 1.191,
+      "end": 1.471,
+      "wordIndex": 4
+    },
+    "breaking-down": {
+      "start": 3.72,
+      "end": 4.13,
+      "wordIndex": 13
+    },
+    "paper": {
+      "start": 4.968,
+      "end": 5.505,
+      "wordIndex": 16
+    },
+    "ink": {
+      "start": 5.505,
+      "end": 5.995,
+      "wordIndex": 17
+    },
+    "glue": {
+      "start": 5.995,
+      "end": 6.317,
+      "wordIndex": 18
+    },
+    "bindings": {
+      "start": 6.521,
+      "end": 6.951,
+      "wordIndex": 20
+    },
+    "chemicals": {
+      "start": 8.496,
+      "end": 8.972,
+      "wordIndex": 25
+    },
+    "grassy": {
+      "start": 11.514,
+      "end": 12.169,
+      "wordIndex": 33
+    },
+    "musty": {
+      "start": 12.169,
+      "end": 12.814,
+      "wordIndex": 34
+    },
+    "almond": {
+      "start": 12.814,
+      "end": 13.424,
+      "wordIndex": 35
+    },
+    "vanilla": {
+      "start": 14.107,
+      "end": 14.689,
+      "wordIndex": 38
+    },
+    "vanillin": {
+      "start": 15.419,
+      "end": 15.799,
+      "wordIndex": 40
+    },
+    "sweet": {
+      "start": 18.139,
+      "end": 18.399,
+      "wordIndex": 50
+    },
+    "emissions": {
+      "start": 21.565,
+      "end": 21.974,
+      "wordIndex": 59
+    },
+    "aging-paper": {
+      "start": 23.597,
+      "end": 24.274,
+      "wordIndex": 66
+    },
+    "bill-named": {
+      "start": 25.027,
+      "end": 25.263,
+      "wordIndex": 70
+    },
+    "hundred-year": {
+      "start": 25.649,
+      "end": 26.393,
+      "wordIndex": 73
+    },
+    "delicious": {
+      "start": 28.257,
+      "end": 28.786,
+      "wordIndex": 80
+    },
+    "slow-motion": {
+      "start": 32.503,
+      "end": 32.736,
+      "wordIndex": 92
+    }
+  },
+  "captions": [
+    {
+      "text": "That amazing old book",
+      "words": [
+        "That",
+        "amazing",
+        "old",
+        "book"
+      ],
+      "start": 0.077,
+      "end": 1.191
+    },
+    {
+      "text": "smell is literally the",
+      "words": [
+        "smell",
+        "is",
+        "literally",
+        "the"
+      ],
+      "start": 1.191,
+      "end": 2.536
+    },
+    {
+      "text": "smell of the book",
+      "words": [
+        "smell",
+        "of",
+        "the",
+        "book"
+      ],
+      "start": 2.536,
+      "end": 3.397
+    },
+    {
+      "text": "slowly breaking down.",
+      "words": [
+        "slowly",
+        "breaking",
+        "down."
+      ],
+      "start": 3.397,
+      "end": 4.69
+    },
+    {
+      "text": "As paper,",
+      "words": [
+        "As",
+        "paper,"
+      ],
+      "start": 4.81,
+      "end": 5.505
+    },
+    {
+      "text": "ink,",
+      "words": [
+        "ink,"
+      ],
+      "start": 5.505,
+      "end": 5.995
+    },
+    {
+      "text": "glue,",
+      "words": [
+        "glue,"
+      ],
+      "start": 5.995,
+      "end": 6.317
+    },
+    {
+      "text": "and bindings age,",
+      "words": [
+        "and",
+        "bindings",
+        "age,"
+      ],
+      "start": 6.317,
+      "end": 7.228
+    },
+    {
+      "text": "they release volatile",
+      "words": [
+        "they",
+        "release",
+        "volatile"
+      ],
+      "start": 7.228,
+      "end": 8.496
+    },
+    {
+      "text": "chemicals into the",
+      "words": [
+        "chemicals",
+        "into",
+        "the"
+      ],
+      "start": 8.496,
+      "end": 9.425
+    },
+    {
+      "text": "air.",
+      "words": [
+        "air."
+      ],
+      "start": 9.425,
+      "end": 9.877
+    },
+    {
+      "text": "Different compounds",
+      "words": [
+        "Different",
+        "compounds"
+      ],
+      "start": 9.978,
+      "end": 10.956
+    },
+    {
+      "text": "can create grassy,",
+      "words": [
+        "can",
+        "create",
+        "grassy,"
+      ],
+      "start": 10.956,
+      "end": 12.169
+    },
+    {
+      "text": "musty,",
+      "words": [
+        "musty,"
+      ],
+      "start": 12.169,
+      "end": 12.814
+    },
+    {
+      "text": "almond-like,",
+      "words": [
+        "almond-like,"
+      ],
+      "start": 12.814,
+      "end": 13.424
+    },
+    {
+      "text": "and even vanilla-like",
+      "words": [
+        "and",
+        "even",
+        "vanilla-like"
+      ],
+      "start": 13.424,
+      "end": 14.689
+    },
+    {
+      "text": "smells.",
+      "words": [
+        "smells."
+      ],
+      "start": 14.689,
+      "end": 15.338
+    },
+    {
+      "text": "Vanillin is one of",
+      "words": [
+        "Vanillin",
+        "is",
+        "one",
+        "of"
+      ],
+      "start": 15.419,
+      "end": 16.257
+    },
+    {
+      "text": "the compounds",
+      "words": [
+        "the",
+        "compounds"
+      ],
+      "start": 16.257,
+      "end": 16.858
+    },
+    {
+      "text": "associated with that",
+      "words": [
+        "associated",
+        "with",
+        "that"
+      ],
+      "start": 16.858,
+      "end": 17.759
+    },
+    {
+      "text": "familiar sweet note.",
+      "words": [
+        "familiar",
+        "sweet",
+        "note."
+      ],
+      "start": 17.759,
+      "end": 19.034
+    },
+    {
+      "text": "Scientists and",
+      "words": [
+        "Scientists",
+        "and"
+      ],
+      "start": 19.191,
+      "end": 19.903
+    },
+    {
+      "text": "conservators can even",
+      "words": [
+        "conservators",
+        "can",
+        "even"
+      ],
+      "start": 19.903,
+      "end": 21.06
+    },
+    {
+      "text": "study these emissions",
+      "words": [
+        "study",
+        "these",
+        "emissions"
+      ],
+      "start": 21.06,
+      "end": 21.974
+    },
+    {
+      "text": "to learn about the",
+      "words": [
+        "to",
+        "learn",
+        "about",
+        "the"
+      ],
+      "start": 21.974,
+      "end": 22.989
+    },
+    {
+      "text": "condition of aging",
+      "words": [
+        "condition",
+        "of",
+        "aging"
+      ],
+      "start": 22.989,
+      "end": 23.879
+    },
+    {
+      "text": "paper.",
+      "words": [
+        "paper."
+      ],
+      "start": 23.879,
+      "end": 24.494
+    },
+    {
+      "text": "So when Bill opens",
+      "words": [
+        "So",
+        "when",
+        "Bill",
+        "opens"
+      ],
+      "start": 24.642,
+      "end": 25.543
+    },
+    {
+      "text": "a 100-year-old book",
+      "words": [
+        "a",
+        "100-year-old",
+        "book"
+      ],
+      "start": 25.543,
+      "end": 26.629
+    },
+    {
+      "text": "and thinks it smells",
+      "words": [
+        "and",
+        "thinks",
+        "it",
+        "smells"
+      ],
+      "start": 26.629,
+      "end": 27.893
+    },
+    {
+      "text": "weirdly delicious,",
+      "words": [
+        "weirdly",
+        "delicious,"
+      ],
+      "start": 27.893,
+      "end": 29.006
+    },
+    {
+      "text": "he is basically",
+      "words": [
+        "he",
+        "is",
+        "basically"
+      ],
+      "start": 29.063,
+      "end": 29.806
+    },
+    {
+      "text": "enjoying the smell of",
+      "words": [
+        "enjoying",
+        "the",
+        "smell",
+        "of"
+      ],
+      "start": 29.806,
+      "end": 30.824
+    },
+    {
+      "text": "chemistry happening in",
+      "words": [
+        "chemistry",
+        "happening",
+        "in"
+      ],
+      "start": 30.824,
+      "end": 32.057
+    },
+    {
+      "text": "extremely slow motion.",
+      "words": [
+        "extremely",
+        "slow",
+        "motion."
+      ],
+      "start": 32.057,
+      "end": 33.189
+    }
+  ],
+  "words": [
+    {
+      "text": "That",
+      "start": 0.077,
+      "end": 0.313
+    },
+    {
+      "text": "amazing",
+      "start": 0.313,
+      "end": 0.761
+    },
+    {
+      "text": "old",
+      "start": 0.761,
+      "end": 0.955
+    },
+    {
+      "text": "book",
+      "start": 0.955,
+      "end": 1.191
+    },
+    {
+      "text": "smell",
+      "start": 1.191,
+      "end": 1.471
+    },
+    {
+      "text": "is",
+      "start": 1.471,
+      "end": 1.89
+    },
+    {
+      "text": "literally",
+      "start": 1.89,
+      "end": 2.342
+    },
+    {
+      "text": "the",
+      "start": 2.342,
+      "end": 2.536
+    },
+    {
+      "text": "smell",
+      "start": 2.536,
+      "end": 2.817
+    },
+    {
+      "text": "of",
+      "start": 2.817,
+      "end": 2.967
+    },
+    {
+      "text": "the",
+      "start": 2.967,
+      "end": 3.16
+    },
+    {
+      "text": "book",
+      "start": 3.16,
+      "end": 3.397
+    },
+    {
+      "text": "slowly",
+      "start": 3.397,
+      "end": 3.72
+    },
+    {
+      "text": "breaking",
+      "start": 3.72,
+      "end": 4.13
+    },
+    {
+      "text": "down.",
+      "start": 4.13,
+      "end": 4.47
+    },
+    {
+      "text": "As",
+      "start": 4.81,
+      "end": 4.968
+    },
+    {
+      "text": "paper,",
+      "start": 4.968,
+      "end": 5.505
+    },
+    {
+      "text": "ink,",
+      "start": 5.505,
+      "end": 5.995
+    },
+    {
+      "text": "glue,",
+      "start": 5.995,
+      "end": 6.317
+    },
+    {
+      "text": "and",
+      "start": 6.317,
+      "end": 6.521
+    },
+    {
+      "text": "bindings",
+      "start": 6.521,
+      "end": 6.951
+    },
+    {
+      "text": "age,",
+      "start": 6.951,
+      "end": 7.228
+    },
+    {
+      "text": "they",
+      "start": 7.228,
+      "end": 7.679
+    },
+    {
+      "text": "release",
+      "start": 7.679,
+      "end": 8.065
+    },
+    {
+      "text": "volatile",
+      "start": 8.065,
+      "end": 8.496
+    },
+    {
+      "text": "chemicals",
+      "start": 8.496,
+      "end": 8.972
+    },
+    {
+      "text": "into",
+      "start": 8.972,
+      "end": 9.222
+    },
+    {
+      "text": "the",
+      "start": 9.222,
+      "end": 9.425
+    },
+    {
+      "text": "air.",
+      "start": 9.425,
+      "end": 9.657
+    },
+    {
+      "text": "Different",
+      "start": 9.978,
+      "end": 10.467
+    },
+    {
+      "text": "compounds",
+      "start": 10.467,
+      "end": 10.956
+    },
+    {
+      "text": "can",
+      "start": 10.956,
+      "end": 11.164
+    },
+    {
+      "text": "create",
+      "start": 11.164,
+      "end": 11.514
+    },
+    {
+      "text": "grassy,",
+      "start": 11.514,
+      "end": 12.169
+    },
+    {
+      "text": "musty,",
+      "start": 12.169,
+      "end": 12.814
+    },
+    {
+      "text": "almond-like,",
+      "start": 12.814,
+      "end": 13.424
+    },
+    {
+      "text": "and",
+      "start": 13.424,
+      "end": 13.852
+    },
+    {
+      "text": "even",
+      "start": 13.852,
+      "end": 14.107
+    },
+    {
+      "text": "vanilla-like",
+      "start": 14.107,
+      "end": 14.689
+    },
+    {
+      "text": "smells.",
+      "start": 14.689,
+      "end": 15.118
+    },
+    {
+      "text": "Vanillin",
+      "start": 15.419,
+      "end": 15.799
+    },
+    {
+      "text": "is",
+      "start": 15.799,
+      "end": 15.939
+    },
+    {
+      "text": "one",
+      "start": 15.939,
+      "end": 16.118
+    },
+    {
+      "text": "of",
+      "start": 16.118,
+      "end": 16.257
+    },
+    {
+      "text": "the",
+      "start": 16.257,
+      "end": 16.437
+    },
+    {
+      "text": "compounds",
+      "start": 16.437,
+      "end": 16.858
+    },
+    {
+      "text": "associated",
+      "start": 16.858,
+      "end": 17.319
+    },
+    {
+      "text": "with",
+      "start": 17.319,
+      "end": 17.539
+    },
+    {
+      "text": "that",
+      "start": 17.539,
+      "end": 17.759
+    },
+    {
+      "text": "familiar",
+      "start": 17.759,
+      "end": 18.139
+    },
+    {
+      "text": "sweet",
+      "start": 18.139,
+      "end": 18.399
+    },
+    {
+      "text": "note.",
+      "start": 18.399,
+      "end": 18.814
+    },
+    {
+      "text": "Scientists",
+      "start": 19.191,
+      "end": 19.728
+    },
+    {
+      "text": "and",
+      "start": 19.728,
+      "end": 19.903
+    },
+    {
+      "text": "conservators",
+      "start": 19.903,
+      "end": 20.43
+    },
+    {
+      "text": "can",
+      "start": 20.43,
+      "end": 20.846
+    },
+    {
+      "text": "even",
+      "start": 20.846,
+      "end": 21.06
+    },
+    {
+      "text": "study",
+      "start": 21.06,
+      "end": 21.312
+    },
+    {
+      "text": "these",
+      "start": 21.312,
+      "end": 21.565
+    },
+    {
+      "text": "emissions",
+      "start": 21.565,
+      "end": 21.974
+    },
+    {
+      "text": "to",
+      "start": 21.974,
+      "end": 22.11
+    },
+    {
+      "text": "learn",
+      "start": 22.11,
+      "end": 22.561
+    },
+    {
+      "text": "about",
+      "start": 22.561,
+      "end": 22.814
+    },
+    {
+      "text": "the",
+      "start": 22.814,
+      "end": 22.989
+    },
+    {
+      "text": "condition",
+      "start": 22.989,
+      "end": 23.446
+    },
+    {
+      "text": "of",
+      "start": 23.446,
+      "end": 23.597
+    },
+    {
+      "text": "aging",
+      "start": 23.597,
+      "end": 23.879
+    },
+    {
+      "text": "paper.",
+      "start": 23.879,
+      "end": 24.274
+    },
+    {
+      "text": "So",
+      "start": 24.642,
+      "end": 24.792
+    },
+    {
+      "text": "when",
+      "start": 24.792,
+      "end": 25.027
+    },
+    {
+      "text": "Bill",
+      "start": 25.027,
+      "end": 25.263
+    },
+    {
+      "text": "opens",
+      "start": 25.263,
+      "end": 25.543
+    },
+    {
+      "text": "a",
+      "start": 25.543,
+      "end": 25.649
+    },
+    {
+      "text": "100-year-old",
+      "start": 25.649,
+      "end": 26.393
+    },
+    {
+      "text": "book",
+      "start": 26.393,
+      "end": 26.629
+    },
+    {
+      "text": "and",
+      "start": 26.629,
+      "end": 27.099
+    },
+    {
+      "text": "thinks",
+      "start": 27.099,
+      "end": 27.421
+    },
+    {
+      "text": "it",
+      "start": 27.421,
+      "end": 27.57
+    },
+    {
+      "text": "smells",
+      "start": 27.57,
+      "end": 27.893
+    },
+    {
+      "text": "weirdly",
+      "start": 27.893,
+      "end": 28.257
+    },
+    {
+      "text": "delicious,",
+      "start": 28.257,
+      "end": 28.786
+    },
+    {
+      "text": "he",
+      "start": 29.063,
+      "end": 29.212
+    },
+    {
+      "text": "is",
+      "start": 29.212,
+      "end": 29.359
+    },
+    {
+      "text": "basically",
+      "start": 29.359,
+      "end": 29.806
+    },
+    {
+      "text": "enjoying",
+      "start": 29.806,
+      "end": 30.21
+    },
+    {
+      "text": "the",
+      "start": 30.21,
+      "end": 30.4
+    },
+    {
+      "text": "smell",
+      "start": 30.4,
+      "end": 30.676
+    },
+    {
+      "text": "of",
+      "start": 30.676,
+      "end": 30.824
+    },
+    {
+      "text": "chemistry",
+      "start": 30.824,
+      "end": 31.462
+    },
+    {
+      "text": "happening",
+      "start": 31.462,
+      "end": 31.908
+    },
+    {
+      "text": "in",
+      "start": 31.908,
+      "end": 32.057
+    },
+    {
+      "text": "extremely",
+      "start": 32.057,
+      "end": 32.503
+    },
+    {
+      "text": "slow",
+      "start": 32.503,
+      "end": 32.736
+    },
+    {
+      "text": "motion.",
+      "start": 32.736,
+      "end": 33.111
+    }
+  ]
+}

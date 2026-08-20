@@ -1,0 +1,273 @@
+{
+  "slug": "highway-lane-lines",
+  "title": "Highway Lines Are Way Bigger Than You Think",
+  "hook": "Your sense of scale on a road is simply wrong, and by a lot.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "mina"
+    ],
+    "note": "The narration names Bill directly, so the scale gag IS the episode. Mina holds the measuring tape and enjoys it."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Those tiny dashed",
+      "background": "HighwayFromCar",
+      "cast": [],
+      "note": "Driver's-eye view at frame 0. The lines look small on purpose — that is the lie being set up.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "driver's-eye view down a highway; dashes streaming toward camera, looking tiny"
+        },
+        {
+          "kw": "dashed-lines",
+          "action": "one dash is circled as it passes",
+          "sync": "keyword: dashed lines"
+        },
+        {
+          "kw": "bigger",
+          "action": "the circled dash swells violently for six frames then snaps back; camera punch",
+          "sync": "keyword: much bigger — the promise"
+        }
+      ]
+    },
+    {
+      "id": "ten-feet",
+      "from": "In the United",
+      "background": "HighwayTopDown",
+      "cast": [],
+      "note": "Switch to top-down so a measurement is readable. The number gets drawn, not stated.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "hard cut to a top-down view of one lane; a single dash sits centre frame"
+        },
+        {
+          "kw": "lane-marking",
+          "action": "the dash outlines and a dimension line draws along it",
+          "sync": "keyword: lane marking"
+        },
+        {
+          "kw": "ten-feet",
+          "action": "10 FEET card stamps on the dimension line",
+          "sync": "keyword: 10 feet"
+        }
+      ]
+    },
+    {
+      "id": "the-gap",
+      "from": "and the gap",
+      "background": "HighwayTopDown",
+      "cast": [],
+      "note": "The gap is three times the dash. Draw it at true relative length so the eye does the maths.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "camera pulls back to reveal the gap after the dash"
+        },
+        {
+          "kw": "thirty-feet",
+          "action": "30 FEET card stamps on the gap; it is visibly three times the dash",
+          "sync": "keyword: 30 feet"
+        }
+      ]
+    },
+    {
+      "id": "perspective",
+      "from": "But from inside",
+      "background": "HighwayFromCar",
+      "cast": [
+        "bill"
+      ],
+      "note": "Return to the driver's eye with the truth now known. Same shot, different meaning.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "cut back inside the car; Bill at the wheel, lines streaming past looking tiny again"
+        },
+        {
+          "at": 2.742,
+          "action": "the perspective lines pulse; the dashes near the horizon squeeze to nothing",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "perspective",
+          "action": "perspective lines draw over the shot, converging at the horizon",
+          "sync": "keyword: perspective"
+        },
+        {
+          "kw": "paint",
+          "action": "the dashes shrink to little paint flecks; a LIE stamp flickers over them for four frames",
+          "sync": "keyword: strips of paint"
+        }
+      ]
+    },
+    {
+      "id": "bill-scale",
+      "from": "10 feet is",
+      "background": "HighwayRoadside",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "note": "The scale gag the script asks for by name. Bill must be visibly, comically shorter than the line.",
+      "beats": [
+        {
+          "at": 3.967,
+          "action": "Bill walks the full length of the upright line and does not reach the top",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "three-meters",
+          "action": "3 METRES card stamps; a human-height ruler draws itself",
+          "sync": "keyword: 3 meters"
+        },
+        {
+          "kw": "bill-named",
+          "action": "Bill walks on and stands beside a single road line stood on its end",
+          "sync": "keyword: Bill — he is named in the narration"
+        },
+        {
+          "kw": "destroy",
+          "action": "the line towers over him; Bill goes tiny and horrified; Mina holds the tape and looks delighted",
+          "sync": "keyword: destroy him"
+        },
+        {
+          "kw": "height",
+          "action": "a height-comparison bracket snaps between the two; Bill loses badly",
+          "sync": "keyword: height comparison"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Your brain has",
+      "background": "HighwayFromCar",
+      "cast": [
+        "bill"
+      ],
+      "note": "The reveal turns inward: the road was never the problem. Hard cut.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "back to the driving view; the road ahead"
+        },
+        {
+          "kw": "shrinking",
+          "action": "the whole road visibly compresses under the car like a squeezed accordion",
+          "sync": "keyword: shrinking the road"
+        },
+        {
+          "kw": "entire-time",
+          "action": "Bill's eye twitches; a tiny brain icon pops beside his head looking guilty; hard cut",
+          "sync": "keyword: this entire time — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "dashed-lines",
+      [
+        "dashed",
+        "lines"
+      ],
+      0
+    ],
+    [
+      "bigger",
+      [
+        "bigger"
+      ],
+      0
+    ],
+    [
+      "lane-marking",
+      [
+        "lane",
+        "marking"
+      ],
+      0
+    ],
+    [
+      "ten-feet",
+      [
+        "10",
+        "feet"
+      ],
+      0
+    ],
+    [
+      "thirty-feet",
+      [
+        "30",
+        "feet"
+      ],
+      0
+    ],
+    [
+      "perspective",
+      [
+        "perspective"
+      ],
+      0
+    ],
+    [
+      "paint",
+      [
+        "paint"
+      ],
+      0
+    ],
+    [
+      "three-meters",
+      [
+        "3",
+        "meters"
+      ],
+      0
+    ],
+    [
+      "bill-named",
+      [
+        "bill"
+      ],
+      0
+    ],
+    [
+      "destroy",
+      [
+        "destroy"
+      ],
+      0
+    ],
+    [
+      "height",
+      [
+        "height"
+      ],
+      0
+    ],
+    [
+      "shrinking",
+      [
+        "shrinking"
+      ],
+      0
+    ],
+    [
+      "entire-time",
+      [
+        "entire",
+        "time"
+      ],
+      0
+    ]
+  ]
+}

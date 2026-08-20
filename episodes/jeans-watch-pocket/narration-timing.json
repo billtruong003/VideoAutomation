@@ -1,0 +1,894 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/jeans-watch-pocket.wav.",
+  "episode": "jeans-watch-pocket",
+  "title": "Your Jeans Have A Pocket For A Gadget From The 1800s",
+  "audio": "public/audio/jeans-watch-pocket.wav",
+  "staticAudio": "audio/jeans-watch-pocket.wav",
+  "duration": 29.453,
+  "fps": 30,
+  "rawDuration": 37.251,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11952,
+  "silenceRemoved": 4.278,
+  "wordCount": 88,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Your jeans have a pocket designed for a gadget from the 1800s.",
+      "start": 0.058,
+      "end": 3.958,
+      "wordRange": [
+        0,
+        11
+      ]
+    },
+    {
+      "id": "not-for",
+      "text": "That tiny pocket inside the front pocket wasn't originally for coins, AirPods, or whatever else you can barely fit inside it.",
+      "start": 3.958,
+      "end": 10.296,
+      "wordRange": [
+        12,
+        32
+      ]
+    },
+    {
+      "id": "watch-pocket",
+      "text": "Early Levi's jeans included it as a watch pocket.",
+      "start": 10.626,
+      "end": 13.217,
+      "wordRange": [
+        33,
+        41
+      ]
+    },
+    {
+      "id": "history",
+      "text": "Pocket watches were common, and workers needed a small, protected place to keep them.",
+      "start": 13.525,
+      "end": 17.728,
+      "wordRange": [
+        42,
+        55
+      ]
+    },
+    {
+      "id": "extinction",
+      "text": "Wristwatches eventually took over. The pocket watch mostly disappeared, but the pocket survived.",
+      "start": 17.728,
+      "end": 22.435,
+      "wordRange": [
+        56,
+        68
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "So that useless little compartment on your jeans is basically a tiny fossil from a technology nobody carries anymore.",
+      "start": 22.76,
+      "end": 28.761,
+      "wordRange": [
+        69,
+        87
+      ]
+    }
+  ],
+  "keywords": {
+    "1800s": {
+      "start": 2.677,
+      "end": 3.958,
+      "wordIndex": 11
+    },
+    "coins": {
+      "start": 7.123,
+      "end": 7.657,
+      "wordIndex": 22
+    },
+    "airpods": {
+      "start": 7.657,
+      "end": 8.099,
+      "wordIndex": 23
+    },
+    "barely-fit": {
+      "start": 9.328,
+      "end": 9.764,
+      "wordIndex": 29
+    },
+    "watch-pocket": {
+      "start": 12.437,
+      "end": 13.217,
+      "wordIndex": 40
+    },
+    "workers": {
+      "start": 15.068,
+      "end": 15.389,
+      "wordIndex": 47
+    },
+    "protected": {
+      "start": 16.073,
+      "end": 16.47,
+      "wordIndex": 51
+    },
+    "wristwatches": {
+      "start": 17.728,
+      "end": 18.257,
+      "wordIndex": 56
+    },
+    "disappeared": {
+      "start": 20.534,
+      "end": 21.088,
+      "wordIndex": 64
+    },
+    "survived": {
+      "start": 21.955,
+      "end": 22.435,
+      "wordIndex": 68
+    },
+    "fossil": {
+      "start": 26.156,
+      "end": 26.475,
+      "wordIndex": 81
+    },
+    "nobody-carries": {
+      "start": 27.522,
+      "end": 28.259,
+      "wordIndex": 85
+    }
+  },
+  "captions": [
+    {
+      "text": "Your jeans have a",
+      "words": [
+        "Your",
+        "jeans",
+        "have",
+        "a"
+      ],
+      "start": 0.058,
+      "end": 0.909
+    },
+    {
+      "text": "pocket designed for a",
+      "words": [
+        "pocket",
+        "designed",
+        "for",
+        "a"
+      ],
+      "start": 0.909,
+      "end": 1.931
+    },
+    {
+      "text": "gadget from the 1800s.",
+      "words": [
+        "gadget",
+        "from",
+        "the",
+        "1800s."
+      ],
+      "start": 1.931,
+      "end": 3.958
+    },
+    {
+      "text": "That tiny pocket",
+      "words": [
+        "That",
+        "tiny",
+        "pocket"
+      ],
+      "start": 3.958,
+      "end": 4.761
+    },
+    {
+      "text": "inside the front",
+      "words": [
+        "inside",
+        "the",
+        "front"
+      ],
+      "start": 4.761,
+      "end": 5.568
+    },
+    {
+      "text": "pocket wasn't",
+      "words": [
+        "pocket",
+        "wasn't"
+      ],
+      "start": 5.568,
+      "end": 6.424
+    },
+    {
+      "text": "originally for coins,",
+      "words": [
+        "originally",
+        "for",
+        "coins,"
+      ],
+      "start": 6.424,
+      "end": 7.657
+    },
+    {
+      "text": "AirPods,",
+      "words": [
+        "AirPods,"
+      ],
+      "start": 7.657,
+      "end": 8.099
+    },
+    {
+      "text": "or whatever else you",
+      "words": [
+        "or",
+        "whatever",
+        "else",
+        "you"
+      ],
+      "start": 8.099,
+      "end": 9.165
+    },
+    {
+      "text": "can barely fit inside",
+      "words": [
+        "can",
+        "barely",
+        "fit",
+        "inside"
+      ],
+      "start": 9.165,
+      "end": 10.037
+    },
+    {
+      "text": "it.",
+      "words": [
+        "it."
+      ],
+      "start": 10.037,
+      "end": 10.516
+    },
+    {
+      "text": "Early Levi's jeans",
+      "words": [
+        "Early",
+        "Levi's",
+        "jeans"
+      ],
+      "start": 10.626,
+      "end": 11.566
+    },
+    {
+      "text": "included it as a",
+      "words": [
+        "included",
+        "it",
+        "as",
+        "a"
+      ],
+      "start": 11.566,
+      "end": 12.437
+    },
+    {
+      "text": "watch pocket.",
+      "words": [
+        "watch",
+        "pocket."
+      ],
+      "start": 12.437,
+      "end": 13.437
+    },
+    {
+      "text": "Pocket watches were",
+      "words": [
+        "Pocket",
+        "watches",
+        "were"
+      ],
+      "start": 13.525,
+      "end": 14.339
+    },
+    {
+      "text": "common,",
+      "words": [
+        "common,"
+      ],
+      "start": 14.339,
+      "end": 14.898
+    },
+    {
+      "text": "and workers needed a",
+      "words": [
+        "and",
+        "workers",
+        "needed",
+        "a"
+      ],
+      "start": 14.898,
+      "end": 15.766
+    },
+    {
+      "text": "small,",
+      "words": [
+        "small,"
+      ],
+      "start": 15.766,
+      "end": 16.073
+    },
+    {
+      "text": "protected place to",
+      "words": [
+        "protected",
+        "place",
+        "to"
+      ],
+      "start": 16.073,
+      "end": 16.848
+    },
+    {
+      "text": "keep them.",
+      "words": [
+        "keep",
+        "them."
+      ],
+      "start": 16.848,
+      "end": 17.728
+    },
+    {
+      "text": "Wristwatches",
+      "words": [
+        "Wristwatches"
+      ],
+      "start": 17.728,
+      "end": 18.257
+    },
+    {
+      "text": "eventually took over.",
+      "words": [
+        "eventually",
+        "took",
+        "over."
+      ],
+      "start": 18.257,
+      "end": 19.517
+    },
+    {
+      "text": "The pocket watch",
+      "words": [
+        "The",
+        "pocket",
+        "watch"
+      ],
+      "start": 19.517,
+      "end": 20.24
+    },
+    {
+      "text": "mostly disappeared,",
+      "words": [
+        "mostly",
+        "disappeared,"
+      ],
+      "start": 20.24,
+      "end": 21.088
+    },
+    {
+      "text": "but the pocket",
+      "words": [
+        "but",
+        "the",
+        "pocket"
+      ],
+      "start": 21.088,
+      "end": 21.955
+    },
+    {
+      "text": "survived.",
+      "words": [
+        "survived."
+      ],
+      "start": 21.955,
+      "end": 22.655
+    },
+    {
+      "text": "So that useless little",
+      "words": [
+        "So",
+        "that",
+        "useless",
+        "little"
+      ],
+      "start": 22.76,
+      "end": 23.824
+    },
+    {
+      "text": "compartment on your",
+      "words": [
+        "compartment",
+        "on",
+        "your"
+      ],
+      "start": 23.824,
+      "end": 24.74
+    },
+    {
+      "text": "jeans is basically a",
+      "words": [
+        "jeans",
+        "is",
+        "basically",
+        "a"
+      ],
+      "start": 24.74,
+      "end": 25.922
+    },
+    {
+      "text": "tiny fossil from a",
+      "words": [
+        "tiny",
+        "fossil",
+        "from",
+        "a"
+      ],
+      "start": 25.922,
+      "end": 26.993
+    },
+    {
+      "text": "technology nobody",
+      "words": [
+        "technology",
+        "nobody"
+      ],
+      "start": 26.993,
+      "end": 27.868
+    },
+    {
+      "text": "carries anymore.",
+      "words": [
+        "carries",
+        "anymore."
+      ],
+      "start": 27.868,
+      "end": 28.981
+    }
+  ],
+  "words": [
+    {
+      "text": "Your",
+      "start": 0.058,
+      "end": 0.292
+    },
+    {
+      "text": "jeans",
+      "start": 0.292,
+      "end": 0.569
+    },
+    {
+      "text": "have",
+      "start": 0.569,
+      "end": 0.803
+    },
+    {
+      "text": "a",
+      "start": 0.803,
+      "end": 0.909
+    },
+    {
+      "text": "pocket",
+      "start": 0.909,
+      "end": 1.229
+    },
+    {
+      "text": "designed",
+      "start": 1.229,
+      "end": 1.635
+    },
+    {
+      "text": "for",
+      "start": 1.635,
+      "end": 1.826
+    },
+    {
+      "text": "a",
+      "start": 1.826,
+      "end": 1.931
+    },
+    {
+      "text": "gadget",
+      "start": 1.931,
+      "end": 2.251
+    },
+    {
+      "text": "from",
+      "start": 2.251,
+      "end": 2.486
+    },
+    {
+      "text": "the",
+      "start": 2.486,
+      "end": 2.677
+    },
+    {
+      "text": "1800s.",
+      "start": 2.677,
+      "end": 3.958
+    },
+    {
+      "text": "That",
+      "start": 3.958,
+      "end": 4.192
+    },
+    {
+      "text": "tiny",
+      "start": 4.193,
+      "end": 4.433
+    },
+    {
+      "text": "pocket",
+      "start": 4.433,
+      "end": 4.761
+    },
+    {
+      "text": "inside",
+      "start": 4.761,
+      "end": 5.088
+    },
+    {
+      "text": "the",
+      "start": 5.088,
+      "end": 5.284
+    },
+    {
+      "text": "front",
+      "start": 5.284,
+      "end": 5.568
+    },
+    {
+      "text": "pocket",
+      "start": 5.568,
+      "end": 6.096
+    },
+    {
+      "text": "wasn't",
+      "start": 6.096,
+      "end": 6.424
+    },
+    {
+      "text": "originally",
+      "start": 6.424,
+      "end": 6.928
+    },
+    {
+      "text": "for",
+      "start": 6.928,
+      "end": 7.123
+    },
+    {
+      "text": "coins,",
+      "start": 7.123,
+      "end": 7.657
+    },
+    {
+      "text": "AirPods,",
+      "start": 7.657,
+      "end": 8.099
+    },
+    {
+      "text": "or",
+      "start": 8.099,
+      "end": 8.456
+    },
+    {
+      "text": "whatever",
+      "start": 8.456,
+      "end": 8.801
+    },
+    {
+      "text": "else",
+      "start": 8.801,
+      "end": 9.001
+    },
+    {
+      "text": "you",
+      "start": 9.001,
+      "end": 9.165
+    },
+    {
+      "text": "can",
+      "start": 9.165,
+      "end": 9.328
+    },
+    {
+      "text": "barely",
+      "start": 9.328,
+      "end": 9.601
+    },
+    {
+      "text": "fit",
+      "start": 9.601,
+      "end": 9.764
+    },
+    {
+      "text": "inside",
+      "start": 9.764,
+      "end": 10.037
+    },
+    {
+      "text": "it.",
+      "start": 10.037,
+      "end": 10.296
+    },
+    {
+      "text": "Early",
+      "start": 10.626,
+      "end": 10.924
+    },
+    {
+      "text": "Levi's",
+      "start": 10.924,
+      "end": 11.268
+    },
+    {
+      "text": "jeans",
+      "start": 11.268,
+      "end": 11.566
+    },
+    {
+      "text": "included",
+      "start": 11.566,
+      "end": 12.003
+    },
+    {
+      "text": "it",
+      "start": 12.003,
+      "end": 12.163
+    },
+    {
+      "text": "as",
+      "start": 12.163,
+      "end": 12.323
+    },
+    {
+      "text": "a",
+      "start": 12.323,
+      "end": 12.437
+    },
+    {
+      "text": "watch",
+      "start": 12.437,
+      "end": 12.736
+    },
+    {
+      "text": "pocket.",
+      "start": 12.736,
+      "end": 13.217
+    },
+    {
+      "text": "Pocket",
+      "start": 13.525,
+      "end": 13.809
+    },
+    {
+      "text": "watches",
+      "start": 13.809,
+      "end": 14.131
+    },
+    {
+      "text": "were",
+      "start": 14.131,
+      "end": 14.339
+    },
+    {
+      "text": "common,",
+      "start": 14.339,
+      "end": 14.898
+    },
+    {
+      "text": "and",
+      "start": 14.898,
+      "end": 15.068
+    },
+    {
+      "text": "workers",
+      "start": 15.068,
+      "end": 15.389
+    },
+    {
+      "text": "needed",
+      "start": 15.389,
+      "end": 15.672
+    },
+    {
+      "text": "a",
+      "start": 15.672,
+      "end": 15.766
+    },
+    {
+      "text": "small,",
+      "start": 15.766,
+      "end": 16.073
+    },
+    {
+      "text": "protected",
+      "start": 16.073,
+      "end": 16.47
+    },
+    {
+      "text": "place",
+      "start": 16.47,
+      "end": 16.716
+    },
+    {
+      "text": "to",
+      "start": 16.716,
+      "end": 16.848
+    },
+    {
+      "text": "keep",
+      "start": 16.848,
+      "end": 17.136
+    },
+    {
+      "text": "them.",
+      "start": 17.136,
+      "end": 17.728
+    },
+    {
+      "text": "Wristwatches",
+      "start": 17.728,
+      "end": 18.257
+    },
+    {
+      "text": "eventually",
+      "start": 18.257,
+      "end": 18.708
+    },
+    {
+      "text": "took",
+      "start": 18.708,
+      "end": 18.924
+    },
+    {
+      "text": "over.",
+      "start": 18.924,
+      "end": 19.517
+    },
+    {
+      "text": "The",
+      "start": 19.517,
+      "end": 19.692
+    },
+    {
+      "text": "pocket",
+      "start": 19.692,
+      "end": 19.986
+    },
+    {
+      "text": "watch",
+      "start": 19.986,
+      "end": 20.24
+    },
+    {
+      "text": "mostly",
+      "start": 20.24,
+      "end": 20.534
+    },
+    {
+      "text": "disappeared,",
+      "start": 20.534,
+      "end": 21.088
+    },
+    {
+      "text": "but",
+      "start": 21.088,
+      "end": 21.488
+    },
+    {
+      "text": "the",
+      "start": 21.488,
+      "end": 21.663
+    },
+    {
+      "text": "pocket",
+      "start": 21.663,
+      "end": 21.955
+    },
+    {
+      "text": "survived.",
+      "start": 21.955,
+      "end": 22.435
+    },
+    {
+      "text": "So",
+      "start": 22.76,
+      "end": 22.908
+    },
+    {
+      "text": "that",
+      "start": 22.908,
+      "end": 23.143
+    },
+    {
+      "text": "useless",
+      "start": 23.143,
+      "end": 23.504
+    },
+    {
+      "text": "little",
+      "start": 23.504,
+      "end": 23.824
+    },
+    {
+      "text": "compartment",
+      "start": 23.824,
+      "end": 24.357
+    },
+    {
+      "text": "on",
+      "start": 24.357,
+      "end": 24.506
+    },
+    {
+      "text": "your",
+      "start": 24.506,
+      "end": 24.74
+    },
+    {
+      "text": "jeans",
+      "start": 24.74,
+      "end": 25.219
+    },
+    {
+      "text": "is",
+      "start": 25.219,
+      "end": 25.368
+    },
+    {
+      "text": "basically",
+      "start": 25.368,
+      "end": 25.816
+    },
+    {
+      "text": "a",
+      "start": 25.816,
+      "end": 25.922
+    },
+    {
+      "text": "tiny",
+      "start": 25.922,
+      "end": 26.156
+    },
+    {
+      "text": "fossil",
+      "start": 26.156,
+      "end": 26.475
+    },
+    {
+      "text": "from",
+      "start": 26.475,
+      "end": 26.887
+    },
+    {
+      "text": "a",
+      "start": 26.887,
+      "end": 26.993
+    },
+    {
+      "text": "technology",
+      "start": 26.993,
+      "end": 27.522
+    },
+    {
+      "text": "nobody",
+      "start": 27.522,
+      "end": 27.868
+    },
+    {
+      "text": "carries",
+      "start": 27.868,
+      "end": 28.259
+    },
+    {
+      "text": "anymore.",
+      "start": 28.259,
+      "end": 28.761
+    }
+  ]
+}

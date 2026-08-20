@@ -1,0 +1,596 @@
+{
+  "note": "Timings correspond to public/audio/airplane-window-hole.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/airplane-window-hole/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/airplane-window-hole.timemap.json",
+  "audio": "public/audio/airplane-window-hole.wav",
+  "duration": 26.708,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "That tiny hole in your airplane window is supposed to be there.",
+      "start": 0.041,
+      "end": 3.078
+    },
+    {
+      "text": "Passenger windows use multiple layers, and that little breather hole sits in one of",
+      "start": 3.422,
+      "end": 7.833
+    },
+    {
+      "text": "the inner panes.",
+      "start": 7.834,
+      "end": 8.655
+    },
+    {
+      "text": "It helps manage the pressure between the layers, so the outer structural pane takes",
+      "start": 8.962,
+      "end": 13.056
+    },
+    {
+      "text": "most of the pressure difference while you're flying at altitude.",
+      "start": 13.056,
+      "end": 15.753
+    },
+    {
+      "text": "It also helps moisture escape from between the panes.",
+      "start": 16.052,
+      "end": 18.571
+    },
+    {
+      "text": "So no, your airplane window does not have a manufacturing defect.",
+      "start": 18.924,
+      "end": 22.317
+    },
+    {
+      "text": "That suspicious little hole is actually part of the reason the window works in the",
+      "start": 22.615,
+      "end": 26.17
+    },
+    {
+      "text": "1st place.",
+      "start": 26.17,
+      "end": 26.67
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "That",
+      "start": 0.041,
+      "end": 0.258
+    },
+    {
+      "i": 1,
+      "text": "tiny",
+      "start": 0.258,
+      "end": 0.474
+    },
+    {
+      "i": 2,
+      "text": "hole",
+      "start": 0.474,
+      "end": 0.691
+    },
+    {
+      "i": 3,
+      "text": "in",
+      "start": 0.691,
+      "end": 0.828
+    },
+    {
+      "i": 4,
+      "text": "your",
+      "start": 0.828,
+      "end": 1.045
+    },
+    {
+      "i": 5,
+      "text": "airplane",
+      "start": 1.045,
+      "end": 1.42
+    },
+    {
+      "i": 6,
+      "text": "window",
+      "start": 1.42,
+      "end": 1.716
+    },
+    {
+      "i": 7,
+      "text": "is",
+      "start": 1.716,
+      "end": 1.853
+    },
+    {
+      "i": 8,
+      "text": "supposed",
+      "start": 1.853,
+      "end": 2.451
+    },
+    {
+      "i": 9,
+      "text": "to",
+      "start": 2.451,
+      "end": 2.589
+    },
+    {
+      "i": 10,
+      "text": "be",
+      "start": 2.589,
+      "end": 2.727
+    },
+    {
+      "i": 11,
+      "text": "there.",
+      "start": 2.727,
+      "end": 3.078
+    },
+    {
+      "i": 12,
+      "text": "Passenger",
+      "start": 3.422,
+      "end": 3.852
+    },
+    {
+      "i": 13,
+      "text": "windows",
+      "start": 3.852,
+      "end": 4.199
+    },
+    {
+      "i": 14,
+      "text": "use",
+      "start": 4.199,
+      "end": 4.383
+    },
+    {
+      "i": 15,
+      "text": "multiple",
+      "start": 4.383,
+      "end": 4.771
+    },
+    {
+      "i": 16,
+      "text": "layers,",
+      "start": 4.771,
+      "end": 5.144
+    },
+    {
+      "i": 17,
+      "text": "and",
+      "start": 5.144,
+      "end": 5.522
+    },
+    {
+      "i": 18,
+      "text": "that",
+      "start": 5.522,
+      "end": 5.748
+    },
+    {
+      "i": 19,
+      "text": "little",
+      "start": 5.748,
+      "end": 6.25
+    },
+    {
+      "i": 20,
+      "text": "breather",
+      "start": 6.25,
+      "end": 6.639
+    },
+    {
+      "i": 21,
+      "text": "hole",
+      "start": 6.639,
+      "end": 6.864
+    },
+    {
+      "i": 22,
+      "text": "sits",
+      "start": 6.864,
+      "end": 7.365
+    },
+    {
+      "i": 23,
+      "text": "in",
+      "start": 7.365,
+      "end": 7.507
+    },
+    {
+      "i": 24,
+      "text": "one",
+      "start": 7.507,
+      "end": 7.691
+    },
+    {
+      "i": 25,
+      "text": "of",
+      "start": 7.691,
+      "end": 7.833
+    },
+    {
+      "i": 26,
+      "text": "the",
+      "start": 7.834,
+      "end": 8.015
+    },
+    {
+      "i": 27,
+      "text": "inner",
+      "start": 8.015,
+      "end": 8.278
+    },
+    {
+      "i": 28,
+      "text": "panes.",
+      "start": 8.278,
+      "end": 8.655
+    },
+    {
+      "i": 29,
+      "text": "It",
+      "start": 8.962,
+      "end": 9.103
+    },
+    {
+      "i": 30,
+      "text": "helps",
+      "start": 9.103,
+      "end": 9.364
+    },
+    {
+      "i": 31,
+      "text": "manage",
+      "start": 9.364,
+      "end": 9.667
+    },
+    {
+      "i": 32,
+      "text": "the",
+      "start": 9.667,
+      "end": 9.848
+    },
+    {
+      "i": 33,
+      "text": "pressure",
+      "start": 9.848,
+      "end": 10.231
+    },
+    {
+      "i": 34,
+      "text": "between",
+      "start": 10.231,
+      "end": 10.574
+    },
+    {
+      "i": 35,
+      "text": "the",
+      "start": 10.574,
+      "end": 10.754
+    },
+    {
+      "i": 36,
+      "text": "layers,",
+      "start": 10.754,
+      "end": 11.338
+    },
+    {
+      "i": 37,
+      "text": "so",
+      "start": 11.338,
+      "end": 11.479
+    },
+    {
+      "i": 38,
+      "text": "the",
+      "start": 11.479,
+      "end": 11.659
+    },
+    {
+      "i": 39,
+      "text": "outer",
+      "start": 11.659,
+      "end": 11.922
+    },
+    {
+      "i": 40,
+      "text": "structural",
+      "start": 11.922,
+      "end": 12.385
+    },
+    {
+      "i": 41,
+      "text": "pane",
+      "start": 12.385,
+      "end": 12.607
+    },
+    {
+      "i": 42,
+      "text": "takes",
+      "start": 12.607,
+      "end": 13.056
+    },
+    {
+      "i": 43,
+      "text": "most",
+      "start": 13.056,
+      "end": 13.243
+    },
+    {
+      "i": 44,
+      "text": "of",
+      "start": 13.243,
+      "end": 13.362
+    },
+    {
+      "i": 45,
+      "text": "the",
+      "start": 13.362,
+      "end": 13.514
+    },
+    {
+      "i": 46,
+      "text": "pressure",
+      "start": 13.514,
+      "end": 13.838
+    },
+    {
+      "i": 47,
+      "text": "difference",
+      "start": 13.838,
+      "end": 14.48
+    },
+    {
+      "i": 48,
+      "text": "while",
+      "start": 14.48,
+      "end": 14.701
+    },
+    {
+      "i": 49,
+      "text": "you're",
+      "start": 14.701,
+      "end": 14.956
+    },
+    {
+      "i": 50,
+      "text": "flying",
+      "start": 14.956,
+      "end": 15.211
+    },
+    {
+      "i": 51,
+      "text": "at",
+      "start": 15.211,
+      "end": 15.33
+    },
+    {
+      "i": 52,
+      "text": "altitude.",
+      "start": 15.33,
+      "end": 15.753
+    },
+    {
+      "i": 53,
+      "text": "It",
+      "start": 16.052,
+      "end": 16.192
+    },
+    {
+      "i": 54,
+      "text": "also",
+      "start": 16.192,
+      "end": 16.414
+    },
+    {
+      "i": 55,
+      "text": "helps",
+      "start": 16.414,
+      "end": 16.675
+    },
+    {
+      "i": 56,
+      "text": "moisture",
+      "start": 16.675,
+      "end": 17.059
+    },
+    {
+      "i": 57,
+      "text": "escape",
+      "start": 17.059,
+      "end": 17.36
+    },
+    {
+      "i": 58,
+      "text": "from",
+      "start": 17.36,
+      "end": 17.662
+    },
+    {
+      "i": 59,
+      "text": "between",
+      "start": 17.662,
+      "end": 18.005
+    },
+    {
+      "i": 60,
+      "text": "the",
+      "start": 18.005,
+      "end": 18.185
+    },
+    {
+      "i": 61,
+      "text": "panes.",
+      "start": 18.185,
+      "end": 18.571
+    },
+    {
+      "i": 62,
+      "text": "So",
+      "start": 18.924,
+      "end": 19.069
+    },
+    {
+      "i": 63,
+      "text": "no,",
+      "start": 19.069,
+      "end": 19.282
+    },
+    {
+      "i": 64,
+      "text": "your",
+      "start": 19.282,
+      "end": 19.727
+    },
+    {
+      "i": 65,
+      "text": "airplane",
+      "start": 19.727,
+      "end": 20.124
+    },
+    {
+      "i": 66,
+      "text": "window",
+      "start": 20.124,
+      "end": 20.438
+    },
+    {
+      "i": 67,
+      "text": "does",
+      "start": 20.438,
+      "end": 20.667
+    },
+    {
+      "i": 68,
+      "text": "not",
+      "start": 20.667,
+      "end": 20.855
+    },
+    {
+      "i": 69,
+      "text": "have",
+      "start": 20.855,
+      "end": 21.084
+    },
+    {
+      "i": 70,
+      "text": "a",
+      "start": 21.084,
+      "end": 21.188
+    },
+    {
+      "i": 71,
+      "text": "manufacturing",
+      "start": 21.188,
+      "end": 21.796
+    },
+    {
+      "i": 72,
+      "text": "defect.",
+      "start": 21.796,
+      "end": 22.317
+    },
+    {
+      "i": 73,
+      "text": "That",
+      "start": 22.615,
+      "end": 22.818
+    },
+    {
+      "i": 74,
+      "text": "suspicious",
+      "start": 22.818,
+      "end": 23.242
+    },
+    {
+      "i": 75,
+      "text": "little",
+      "start": 23.242,
+      "end": 23.519
+    },
+    {
+      "i": 76,
+      "text": "hole",
+      "start": 23.519,
+      "end": 23.721
+    },
+    {
+      "i": 77,
+      "text": "is",
+      "start": 23.721,
+      "end": 24.073
+    },
+    {
+      "i": 78,
+      "text": "actually",
+      "start": 24.073,
+      "end": 24.423
+    },
+    {
+      "i": 79,
+      "text": "part",
+      "start": 24.423,
+      "end": 24.626
+    },
+    {
+      "i": 80,
+      "text": "of",
+      "start": 24.626,
+      "end": 24.754
+    },
+    {
+      "i": 81,
+      "text": "the",
+      "start": 24.754,
+      "end": 24.919
+    },
+    {
+      "i": 82,
+      "text": "reason",
+      "start": 24.919,
+      "end": 25.195
+    },
+    {
+      "i": 83,
+      "text": "the",
+      "start": 25.195,
+      "end": 25.361
+    },
+    {
+      "i": 84,
+      "text": "window",
+      "start": 25.361,
+      "end": 25.637
+    },
+    {
+      "i": 85,
+      "text": "works",
+      "start": 25.637,
+      "end": 25.877
+    },
+    {
+      "i": 86,
+      "text": "in",
+      "start": 25.877,
+      "end": 26.005
+    },
+    {
+      "i": 87,
+      "text": "the",
+      "start": 26.005,
+      "end": 26.17
+    },
+    {
+      "i": 88,
+      "text": "1st",
+      "start": 26.17,
+      "end": 26.346
+    },
+    {
+      "i": 89,
+      "text": "place.",
+      "start": 26.346,
+      "end": 26.67
+    }
+  ]
+}

@@ -174,7 +174,7 @@ export const FILL = {
  * Presets for marks drawn as a single gesture: brows, mouths, limbs, swooshes, scribbles.
  *
  * These used to be perfect-freehand configs producing VARIABLE-WIDTH strokes. That was a
- * mistake, and `src/qa/PenProbe.tsx` is the evidence:
+ * mistake, and `qa/v2-pen-probe.png` is the evidence:
  *
  *   - A variable-width stroke is a different pen from a Rough.js outline. Side by side on
  *     the same head, the drawing visibly has two hands.

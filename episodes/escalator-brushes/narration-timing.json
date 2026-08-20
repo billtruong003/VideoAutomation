@@ -1,0 +1,891 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/escalator-brushes.wav.",
+  "episode": "escalator-brushes",
+  "title": "Escalator Brushes Are Not For Your Shoes",
+  "audio": "public/audio/escalator-brushes.wav",
+  "staticAudio": "audio/escalator-brushes.wav",
+  "duration": 25.952,
+  "fps": 30,
+  "rawDuration": 32.131,
+  "tempo": 1.12,
+  "effectiveTempo": 1.12006,
+  "silenceRemoved": 3.063,
+  "wordCount": 91,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Those brushes on the side of an escalator are not there to clean your shoes. They're warning you.",
+      "start": 0.065,
+      "end": 4.51,
+      "wordRange": [
+        0,
+        17
+      ]
+    },
+    {
+      "id": "gap",
+      "text": "The dangerous part is the tiny gap between the moving steps and the stationary side panel.",
+      "start": 4.784,
+      "end": 9.374,
+      "wordRange": [
+        18,
+        33
+      ]
+    },
+    {
+      "id": "danger",
+      "text": "Loose shoelaces, clothes, or bags can get caught there,",
+      "start": 9.76,
+      "end": 12.706,
+      "wordRange": [
+        34,
+        42
+      ]
+    },
+    {
+      "id": "mechanism",
+      "text": "so the brushes touch your shoes and naturally encourage you to move your feet away from the edge.",
+      "start": 13.059,
+      "end": 17.381,
+      "wordRange": [
+        43,
+        60
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "Basically, every time you rub your shoe against one because it feels nice, the escalator is politely asking you to stop standing next to the part that can eat it.",
+      "start": 17.685,
+      "end": 25.888,
+      "wordRange": [
+        61,
+        90
+      ]
+    }
+  ],
+  "keywords": {
+    "clean": {
+      "start": 2.652,
+      "end": 2.885,
+      "wordIndex": 12
+    },
+    "warning": {
+      "start": 3.939,
+      "end": 4.239,
+      "wordIndex": 16
+    },
+    "gap": {
+      "start": 6.44,
+      "end": 6.631,
+      "wordIndex": 24
+    },
+    "moving-steps": {
+      "start": 7.185,
+      "end": 7.783,
+      "wordIndex": 27
+    },
+    "side-panel": {
+      "start": 8.362,
+      "end": 9.088,
+      "wordIndex": 31
+    },
+    "shoelaces": {
+      "start": 10.027,
+      "end": 10.527,
+      "wordIndex": 35
+    },
+    "clothes": {
+      "start": 10.527,
+      "end": 11.138,
+      "wordIndex": 36
+    },
+    "bags": {
+      "start": 11.282,
+      "end": 11.508,
+      "wordIndex": 38
+    },
+    "caught": {
+      "start": 11.876,
+      "end": 12.284,
+      "wordIndex": 41
+    },
+    "touch": {
+      "start": 13.697,
+      "end": 13.948,
+      "wordIndex": 46
+    },
+    "move-feet": {
+      "start": 15.993,
+      "end": 16.631,
+      "wordIndex": 54
+    },
+    "feels-nice": {
+      "start": 20.854,
+      "end": 21.416,
+      "wordIndex": 72
+    },
+    "politely": {
+      "start": 22.511,
+      "end": 22.914,
+      "wordIndex": 77
+    },
+    "eat": {
+      "start": 25.566,
+      "end": 25.706,
+      "wordIndex": 89
+    }
+  },
+  "captions": [
+    {
+      "text": "Those brushes on the",
+      "words": [
+        "Those",
+        "brushes",
+        "on",
+        "the"
+      ],
+      "start": 0.065,
+      "end": 0.889
+    },
+    {
+      "text": "side of an escalator",
+      "words": [
+        "side",
+        "of",
+        "an",
+        "escalator"
+      ],
+      "start": 0.889,
+      "end": 1.713
+    },
+    {
+      "text": "are not there to",
+      "words": [
+        "are",
+        "not",
+        "there",
+        "to"
+      ],
+      "start": 1.713,
+      "end": 2.652
+    },
+    {
+      "text": "clean your shoes.",
+      "words": [
+        "clean",
+        "your",
+        "shoes."
+      ],
+      "start": 2.652,
+      "end": 3.401
+    },
+    {
+      "text": "They're warning you.",
+      "words": [
+        "They're",
+        "warning",
+        "you."
+      ],
+      "start": 3.401,
+      "end": 4.73
+    },
+    {
+      "text": "The dangerous part is",
+      "words": [
+        "The",
+        "dangerous",
+        "part",
+        "is"
+      ],
+      "start": 4.784,
+      "end": 6.014
+    },
+    {
+      "text": "the tiny gap between",
+      "words": [
+        "the",
+        "tiny",
+        "gap",
+        "between"
+      ],
+      "start": 6.014,
+      "end": 6.994
+    },
+    {
+      "text": "the moving steps and",
+      "words": [
+        "the",
+        "moving",
+        "steps",
+        "and"
+      ],
+      "start": 6.994,
+      "end": 8.171
+    },
+    {
+      "text": "the stationary side",
+      "words": [
+        "the",
+        "stationary",
+        "side"
+      ],
+      "start": 8.171,
+      "end": 9.088
+    },
+    {
+      "text": "panel.",
+      "words": [
+        "panel."
+      ],
+      "start": 9.088,
+      "end": 9.594
+    },
+    {
+      "text": "Loose shoelaces,",
+      "words": [
+        "Loose",
+        "shoelaces,"
+      ],
+      "start": 9.76,
+      "end": 10.527
+    },
+    {
+      "text": "clothes,",
+      "words": [
+        "clothes,"
+      ],
+      "start": 10.527,
+      "end": 11.138
+    },
+    {
+      "text": "or bags can get",
+      "words": [
+        "or",
+        "bags",
+        "can",
+        "get"
+      ],
+      "start": 11.138,
+      "end": 11.876
+    },
+    {
+      "text": "caught there,",
+      "words": [
+        "caught",
+        "there,"
+      ],
+      "start": 11.876,
+      "end": 12.926
+    },
+    {
+      "text": "so the brushes touch",
+      "words": [
+        "so",
+        "the",
+        "brushes",
+        "touch"
+      ],
+      "start": 13.059,
+      "end": 13.948
+    },
+    {
+      "text": "your shoes and",
+      "words": [
+        "your",
+        "shoes",
+        "and"
+      ],
+      "start": 13.948,
+      "end": 14.871
+    },
+    {
+      "text": "naturally encourage",
+      "words": [
+        "naturally",
+        "encourage"
+      ],
+      "start": 14.871,
+      "end": 15.685
+    },
+    {
+      "text": "you to move your",
+      "words": [
+        "you",
+        "to",
+        "move",
+        "your"
+      ],
+      "start": 15.685,
+      "end": 16.418
+    },
+    {
+      "text": "feet away from the",
+      "words": [
+        "feet",
+        "away",
+        "from",
+        "the"
+      ],
+      "start": 16.418,
+      "end": 17.116
+    },
+    {
+      "text": "edge.",
+      "words": [
+        "edge."
+      ],
+      "start": 17.116,
+      "end": 17.601
+    },
+    {
+      "text": "Basically,",
+      "words": [
+        "Basically,"
+      ],
+      "start": 17.685,
+      "end": 18.366
+    },
+    {
+      "text": "every time you rub",
+      "words": [
+        "every",
+        "time",
+        "you",
+        "rub"
+      ],
+      "start": 18.366,
+      "end": 19.22
+    },
+    {
+      "text": "your shoe against one",
+      "words": [
+        "your",
+        "shoe",
+        "against",
+        "one"
+      ],
+      "start": 19.22,
+      "end": 20.366
+    },
+    {
+      "text": "because it feels nice,",
+      "words": [
+        "because",
+        "it",
+        "feels",
+        "nice,"
+      ],
+      "start": 20.366,
+      "end": 21.636
+    },
+    {
+      "text": "the escalator is",
+      "words": [
+        "the",
+        "escalator",
+        "is"
+      ],
+      "start": 21.727,
+      "end": 22.511
+    },
+    {
+      "text": "politely asking you to",
+      "words": [
+        "politely",
+        "asking",
+        "you",
+        "to"
+      ],
+      "start": 22.511,
+      "end": 23.57
+    },
+    {
+      "text": "stop standing next to",
+      "words": [
+        "stop",
+        "standing",
+        "next",
+        "to"
+      ],
+      "start": 23.57,
+      "end": 24.586
+    },
+    {
+      "text": "the part that can",
+      "words": [
+        "the",
+        "part",
+        "that",
+        "can"
+      ],
+      "start": 24.586,
+      "end": 25.566
+    },
+    {
+      "text": "eat it.",
+      "words": [
+        "eat",
+        "it."
+      ],
+      "start": 25.566,
+      "end": 25.952
+    }
+  ],
+  "words": [
+    {
+      "text": "Those",
+      "start": 0.065,
+      "end": 0.298
+    },
+    {
+      "text": "brushes",
+      "start": 0.298,
+      "end": 0.603
+    },
+    {
+      "text": "on",
+      "start": 0.603,
+      "end": 0.728
+    },
+    {
+      "text": "the",
+      "start": 0.728,
+      "end": 0.889
+    },
+    {
+      "text": "side",
+      "start": 0.889,
+      "end": 1.086
+    },
+    {
+      "text": "of",
+      "start": 1.086,
+      "end": 1.211
+    },
+    {
+      "text": "an",
+      "start": 1.211,
+      "end": 1.336
+    },
+    {
+      "text": "escalator",
+      "start": 1.336,
+      "end": 1.713
+    },
+    {
+      "text": "are",
+      "start": 1.713,
+      "end": 1.874
+    },
+    {
+      "text": "not",
+      "start": 1.874,
+      "end": 2.205
+    },
+    {
+      "text": "there",
+      "start": 2.205,
+      "end": 2.527
+    },
+    {
+      "text": "to",
+      "start": 2.527,
+      "end": 2.652
+    },
+    {
+      "text": "clean",
+      "start": 2.652,
+      "end": 2.885
+    },
+    {
+      "text": "your",
+      "start": 2.885,
+      "end": 3.082
+    },
+    {
+      "text": "shoes.",
+      "start": 3.082,
+      "end": 3.401
+    },
+    {
+      "text": "They're",
+      "start": 3.401,
+      "end": 3.939
+    },
+    {
+      "text": "warning",
+      "start": 3.939,
+      "end": 4.239
+    },
+    {
+      "text": "you.",
+      "start": 4.239,
+      "end": 4.51
+    },
+    {
+      "text": "The",
+      "start": 4.784,
+      "end": 4.976
+    },
+    {
+      "text": "dangerous",
+      "start": 4.976,
+      "end": 5.425
+    },
+    {
+      "text": "part",
+      "start": 5.425,
+      "end": 5.865
+    },
+    {
+      "text": "is",
+      "start": 5.865,
+      "end": 6.014
+    },
+    {
+      "text": "the",
+      "start": 6.014,
+      "end": 6.205
+    },
+    {
+      "text": "tiny",
+      "start": 6.205,
+      "end": 6.44
+    },
+    {
+      "text": "gap",
+      "start": 6.44,
+      "end": 6.631
+    },
+    {
+      "text": "between",
+      "start": 6.631,
+      "end": 6.994
+    },
+    {
+      "text": "the",
+      "start": 6.994,
+      "end": 7.185
+    },
+    {
+      "text": "moving",
+      "start": 7.185,
+      "end": 7.506
+    },
+    {
+      "text": "steps",
+      "start": 7.506,
+      "end": 7.783
+    },
+    {
+      "text": "and",
+      "start": 7.783,
+      "end": 8.171
+    },
+    {
+      "text": "the",
+      "start": 8.171,
+      "end": 8.362
+    },
+    {
+      "text": "stationary",
+      "start": 8.362,
+      "end": 8.854
+    },
+    {
+      "text": "side",
+      "start": 8.854,
+      "end": 9.088
+    },
+    {
+      "text": "panel.",
+      "start": 9.088,
+      "end": 9.374
+    },
+    {
+      "text": "Loose",
+      "start": 9.76,
+      "end": 10.027
+    },
+    {
+      "text": "shoelaces,",
+      "start": 10.027,
+      "end": 10.527
+    },
+    {
+      "text": "clothes,",
+      "start": 10.527,
+      "end": 11.138
+    },
+    {
+      "text": "or",
+      "start": 11.138,
+      "end": 11.282
+    },
+    {
+      "text": "bags",
+      "start": 11.282,
+      "end": 11.508
+    },
+    {
+      "text": "can",
+      "start": 11.508,
+      "end": 11.693
+    },
+    {
+      "text": "get",
+      "start": 11.693,
+      "end": 11.876
+    },
+    {
+      "text": "caught",
+      "start": 11.876,
+      "end": 12.284
+    },
+    {
+      "text": "there,",
+      "start": 12.284,
+      "end": 12.706
+    },
+    {
+      "text": "so",
+      "start": 13.059,
+      "end": 13.194
+    },
+    {
+      "text": "the",
+      "start": 13.194,
+      "end": 13.367
+    },
+    {
+      "text": "brushes",
+      "start": 13.367,
+      "end": 13.697
+    },
+    {
+      "text": "touch",
+      "start": 13.697,
+      "end": 13.948
+    },
+    {
+      "text": "your",
+      "start": 13.948,
+      "end": 14.16
+    },
+    {
+      "text": "shoes",
+      "start": 14.16,
+      "end": 14.412
+    },
+    {
+      "text": "and",
+      "start": 14.412,
+      "end": 14.871
+    },
+    {
+      "text": "naturally",
+      "start": 14.871,
+      "end": 15.278
+    },
+    {
+      "text": "encourage",
+      "start": 15.278,
+      "end": 15.685
+    },
+    {
+      "text": "you",
+      "start": 15.685,
+      "end": 15.859
+    },
+    {
+      "text": "to",
+      "start": 15.859,
+      "end": 15.993
+    },
+    {
+      "text": "move",
+      "start": 15.993,
+      "end": 16.206
+    },
+    {
+      "text": "your",
+      "start": 16.206,
+      "end": 16.418
+    },
+    {
+      "text": "feet",
+      "start": 16.418,
+      "end": 16.631
+    },
+    {
+      "text": "away",
+      "start": 16.631,
+      "end": 16.803
+    },
+    {
+      "text": "from",
+      "start": 16.803,
+      "end": 16.976
+    },
+    {
+      "text": "the",
+      "start": 16.976,
+      "end": 17.116
+    },
+    {
+      "text": "edge.",
+      "start": 17.116,
+      "end": 17.381
+    },
+    {
+      "text": "Basically,",
+      "start": 17.685,
+      "end": 18.366
+    },
+    {
+      "text": "every",
+      "start": 18.366,
+      "end": 18.631
+    },
+    {
+      "text": "time",
+      "start": 18.631,
+      "end": 18.855
+    },
+    {
+      "text": "you",
+      "start": 18.855,
+      "end": 19.038
+    },
+    {
+      "text": "rub",
+      "start": 19.038,
+      "end": 19.22
+    },
+    {
+      "text": "your",
+      "start": 19.22,
+      "end": 19.444
+    },
+    {
+      "text": "shoe",
+      "start": 19.444,
+      "end": 19.667
+    },
+    {
+      "text": "against",
+      "start": 19.667,
+      "end": 20.013
+    },
+    {
+      "text": "one",
+      "start": 20.013,
+      "end": 20.366
+    },
+    {
+      "text": "because",
+      "start": 20.366,
+      "end": 20.712
+    },
+    {
+      "text": "it",
+      "start": 20.712,
+      "end": 20.854
+    },
+    {
+      "text": "feels",
+      "start": 20.854,
+      "end": 21.118
+    },
+    {
+      "text": "nice,",
+      "start": 21.118,
+      "end": 21.416
+    },
+    {
+      "text": "the",
+      "start": 21.727,
+      "end": 21.917
+    },
+    {
+      "text": "escalator",
+      "start": 21.917,
+      "end": 22.363
+    },
+    {
+      "text": "is",
+      "start": 22.363,
+      "end": 22.511
+    },
+    {
+      "text": "politely",
+      "start": 22.511,
+      "end": 22.914
+    },
+    {
+      "text": "asking",
+      "start": 22.914,
+      "end": 23.232
+    },
+    {
+      "text": "you",
+      "start": 23.232,
+      "end": 23.423
+    },
+    {
+      "text": "to",
+      "start": 23.423,
+      "end": 23.57
+    },
+    {
+      "text": "stop",
+      "start": 23.57,
+      "end": 23.803
+    },
+    {
+      "text": "standing",
+      "start": 23.803,
+      "end": 24.206
+    },
+    {
+      "text": "next",
+      "start": 24.206,
+      "end": 24.439
+    },
+    {
+      "text": "to",
+      "start": 24.439,
+      "end": 24.586
+    },
+    {
+      "text": "the",
+      "start": 24.586,
+      "end": 24.776
+    },
+    {
+      "text": "part",
+      "start": 24.776,
+      "end": 25.009
+    },
+    {
+      "text": "that",
+      "start": 25.009,
+      "end": 25.376
+    },
+    {
+      "text": "can",
+      "start": 25.376,
+      "end": 25.566
+    },
+    {
+      "text": "eat",
+      "start": 25.566,
+      "end": 25.706
+    },
+    {
+      "text": "it.",
+      "start": 25.706,
+      "end": 25.888
+    }
+  ]
+}

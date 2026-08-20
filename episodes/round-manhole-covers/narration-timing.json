@@ -1,0 +1,885 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/round-manhole-covers.wav.",
+  "episode": "round-manhole-covers",
+  "title": "Why Manhole Covers Are Round",
+  "audio": "public/audio/round-manhole-covers.wav",
+  "staticAudio": "audio/round-manhole-covers.wav",
+  "duration": 28.286,
+  "fps": 30,
+  "rawDuration": 35.971,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11964,
+  "silenceRemoved": 4.301,
+  "wordCount": 86,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "A round manhole cover can do something surprisingly important: stay above the manhole.",
+      "start": 0.071,
+      "end": 4.529,
+      "wordRange": [
+        0,
+        12
+      ]
+    },
+    {
+      "id": "cannot-fall",
+      "text": "A circular cover cannot fall straight through its own circular opening.",
+      "start": 4.881,
+      "end": 8.222,
+      "wordRange": [
+        13,
+        23
+      ]
+    },
+    {
+      "id": "other-shapes",
+      "text": "With some other shapes, orientation can become a problem.",
+      "start": 8.537,
+      "end": 11.18,
+      "wordRange": [
+        24,
+        32
+      ]
+    },
+    {
+      "id": "other-wins",
+      "text": "Round covers are also easy to roll, don't need to be rotated into one exact alignment, and fit naturally over circular shafts.",
+      "start": 11.561,
+      "end": 18.544,
+      "wordRange": [
+        33,
+        54
+      ]
+    },
+    {
+      "id": "engineers",
+      "text": "So engineers didn't choose the circle because it looks nice. They chose a shape that quietly solves several annoying problems at once,",
+      "start": 18.887,
+      "end": 25.4,
+      "wordRange": [
+        55,
+        76
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "which is basically engineering's favorite way of showing off.",
+      "start": 25.703,
+      "end": 28.204,
+      "wordRange": [
+        77,
+        85
+      ]
+    }
+  ],
+  "keywords": {
+    "important": {
+      "start": 2.552,
+      "end": 3.09,
+      "wordIndex": 8
+    },
+    "stay-above": {
+      "start": 3.475,
+      "end": 3.952,
+      "wordIndex": 9
+    },
+    "cannot-fall": {
+      "start": 5.626,
+      "end": 6.302,
+      "wordIndex": 16
+    },
+    "opening": {
+      "start": 7.773,
+      "end": 8.222,
+      "wordIndex": 23
+    },
+    "other-shapes": {
+      "start": 8.943,
+      "end": 9.778,
+      "wordIndex": 26
+    },
+    "orientation": {
+      "start": 9.778,
+      "end": 10.242,
+      "wordIndex": 28
+    },
+    "problem": {
+      "start": 10.776,
+      "end": 11.18,
+      "wordIndex": 32
+    },
+    "roll": {
+      "start": 13.163,
+      "end": 13.73,
+      "wordIndex": 39
+    },
+    "rotated": {
+      "start": 14.652,
+      "end": 15.064,
+      "wordIndex": 44
+    },
+    "shafts": {
+      "start": 18.004,
+      "end": 18.544,
+      "wordIndex": 54
+    },
+    "circle": {
+      "start": 20.15,
+      "end": 20.433,
+      "wordIndex": 60
+    },
+    "nice": {
+      "start": 21.13,
+      "end": 21.428,
+      "wordIndex": 64
+    },
+    "annoying": {
+      "start": 24.078,
+      "end": 24.501,
+      "wordIndex": 73
+    },
+    "showing-off": {
+      "start": 27.554,
+      "end": 27.854,
+      "wordIndex": 84
+    }
+  },
+  "captions": [
+    {
+      "text": "A round manhole cover",
+      "words": [
+        "A",
+        "round",
+        "manhole",
+        "cover"
+      ],
+      "start": 0.071,
+      "end": 1.133
+    },
+    {
+      "text": "can do something",
+      "words": [
+        "can",
+        "do",
+        "something"
+      ],
+      "start": 1.133,
+      "end": 1.953
+    },
+    {
+      "text": "surprisingly",
+      "words": [
+        "surprisingly"
+      ],
+      "start": 1.953,
+      "end": 2.552
+    },
+    {
+      "text": "important:",
+      "words": [
+        "important:"
+      ],
+      "start": 2.552,
+      "end": 3.31
+    },
+    {
+      "text": "stay above the",
+      "words": [
+        "stay",
+        "above",
+        "the"
+      ],
+      "start": 3.475,
+      "end": 4.12
+    },
+    {
+      "text": "manhole.",
+      "words": [
+        "manhole."
+      ],
+      "start": 4.12,
+      "end": 4.749
+    },
+    {
+      "text": "A circular cover",
+      "words": [
+        "A",
+        "circular",
+        "cover"
+      ],
+      "start": 4.881,
+      "end": 5.626
+    },
+    {
+      "text": "cannot fall straight",
+      "words": [
+        "cannot",
+        "fall",
+        "straight"
+      ],
+      "start": 5.626,
+      "end": 6.685
+    },
+    {
+      "text": "through its own",
+      "words": [
+        "through",
+        "its",
+        "own"
+      ],
+      "start": 6.685,
+      "end": 7.39
+    },
+    {
+      "text": "circular opening.",
+      "words": [
+        "circular",
+        "opening."
+      ],
+      "start": 7.39,
+      "end": 8.442
+    },
+    {
+      "text": "With some other",
+      "words": [
+        "With",
+        "some",
+        "other"
+      ],
+      "start": 8.537,
+      "end": 9.182
+    },
+    {
+      "text": "shapes,",
+      "words": [
+        "shapes,"
+      ],
+      "start": 9.182,
+      "end": 9.778
+    },
+    {
+      "text": "orientation can become",
+      "words": [
+        "orientation",
+        "can",
+        "become"
+      ],
+      "start": 9.778,
+      "end": 10.685
+    },
+    {
+      "text": "a problem.",
+      "words": [
+        "a",
+        "problem."
+      ],
+      "start": 10.685,
+      "end": 11.4
+    },
+    {
+      "text": "Round covers are also",
+      "words": [
+        "Round",
+        "covers",
+        "are",
+        "also"
+      ],
+      "start": 11.561,
+      "end": 12.727
+    },
+    {
+      "text": "easy to roll,",
+      "words": [
+        "easy",
+        "to",
+        "roll,"
+      ],
+      "start": 12.727,
+      "end": 13.73
+    },
+    {
+      "text": "don't need to be",
+      "words": [
+        "don't",
+        "need",
+        "to",
+        "be"
+      ],
+      "start": 13.73,
+      "end": 14.652
+    },
+    {
+      "text": "rotated into one exact",
+      "words": [
+        "rotated",
+        "into",
+        "one",
+        "exact"
+      ],
+      "start": 14.652,
+      "end": 15.865
+    },
+    {
+      "text": "alignment,",
+      "words": [
+        "alignment,"
+      ],
+      "start": 15.865,
+      "end": 16.592
+    },
+    {
+      "text": "and fit naturally over",
+      "words": [
+        "and",
+        "fit",
+        "naturally",
+        "over"
+      ],
+      "start": 16.592,
+      "end": 17.614
+    },
+    {
+      "text": "circular shafts.",
+      "words": [
+        "circular",
+        "shafts."
+      ],
+      "start": 17.614,
+      "end": 18.764
+    },
+    {
+      "text": "So engineers didn't",
+      "words": [
+        "So",
+        "engineers",
+        "didn't"
+      ],
+      "start": 18.887,
+      "end": 19.698
+    },
+    {
+      "text": "choose the circle",
+      "words": [
+        "choose",
+        "the",
+        "circle"
+      ],
+      "start": 19.698,
+      "end": 20.433
+    },
+    {
+      "text": "because it looks nice.",
+      "words": [
+        "because",
+        "it",
+        "looks",
+        "nice."
+      ],
+      "start": 20.433,
+      "end": 21.428
+    },
+    {
+      "text": "They chose a shape",
+      "words": [
+        "They",
+        "chose",
+        "a",
+        "shape"
+      ],
+      "start": 21.428,
+      "end": 22.56
+    },
+    {
+      "text": "that quietly solves",
+      "words": [
+        "that",
+        "quietly",
+        "solves"
+      ],
+      "start": 22.56,
+      "end": 23.702
+    },
+    {
+      "text": "several annoying",
+      "words": [
+        "several",
+        "annoying"
+      ],
+      "start": 23.702,
+      "end": 24.501
+    },
+    {
+      "text": "problems at once,",
+      "words": [
+        "problems",
+        "at",
+        "once,"
+      ],
+      "start": 24.501,
+      "end": 25.62
+    },
+    {
+      "text": "which is basically",
+      "words": [
+        "which",
+        "is",
+        "basically"
+      ],
+      "start": 25.703,
+      "end": 26.425
+    },
+    {
+      "text": "engineering's favorite",
+      "words": [
+        "engineering's",
+        "favorite"
+      ],
+      "start": 26.425,
+      "end": 27.273
+    },
+    {
+      "text": "way of showing off.",
+      "words": [
+        "way",
+        "of",
+        "showing",
+        "off."
+      ],
+      "start": 27.273,
+      "end": 28.286
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.071,
+      "end": 0.18
+    },
+    {
+      "text": "round",
+      "start": 0.18,
+      "end": 0.468
+    },
+    {
+      "text": "manhole",
+      "start": 0.468,
+      "end": 0.846
+    },
+    {
+      "text": "cover",
+      "start": 0.846,
+      "end": 1.133
+    },
+    {
+      "text": "can",
+      "start": 1.133,
+      "end": 1.332
+    },
+    {
+      "text": "do",
+      "start": 1.332,
+      "end": 1.487
+    },
+    {
+      "text": "something",
+      "start": 1.487,
+      "end": 1.953
+    },
+    {
+      "text": "surprisingly",
+      "start": 1.953,
+      "end": 2.552
+    },
+    {
+      "text": "important:",
+      "start": 2.552,
+      "end": 3.09
+    },
+    {
+      "text": "stay",
+      "start": 3.475,
+      "end": 3.708
+    },
+    {
+      "text": "above",
+      "start": 3.708,
+      "end": 3.952
+    },
+    {
+      "text": "the",
+      "start": 3.952,
+      "end": 4.12
+    },
+    {
+      "text": "manhole.",
+      "start": 4.12,
+      "end": 4.529
+    },
+    {
+      "text": "A",
+      "start": 4.881,
+      "end": 4.981
+    },
+    {
+      "text": "circular",
+      "start": 4.981,
+      "end": 5.364
+    },
+    {
+      "text": "cover",
+      "start": 5.364,
+      "end": 5.626
+    },
+    {
+      "text": "cannot",
+      "start": 5.626,
+      "end": 6.08
+    },
+    {
+      "text": "fall",
+      "start": 6.08,
+      "end": 6.302
+    },
+    {
+      "text": "straight",
+      "start": 6.302,
+      "end": 6.685
+    },
+    {
+      "text": "through",
+      "start": 6.685,
+      "end": 7.028
+    },
+    {
+      "text": "its",
+      "start": 7.028,
+      "end": 7.208
+    },
+    {
+      "text": "own",
+      "start": 7.208,
+      "end": 7.39
+    },
+    {
+      "text": "circular",
+      "start": 7.39,
+      "end": 7.773
+    },
+    {
+      "text": "opening.",
+      "start": 7.773,
+      "end": 8.222
+    },
+    {
+      "text": "With",
+      "start": 8.537,
+      "end": 8.739
+    },
+    {
+      "text": "some",
+      "start": 8.739,
+      "end": 8.943
+    },
+    {
+      "text": "other",
+      "start": 8.943,
+      "end": 9.182
+    },
+    {
+      "text": "shapes,",
+      "start": 9.182,
+      "end": 9.778
+    },
+    {
+      "text": "orientation",
+      "start": 9.778,
+      "end": 10.242
+    },
+    {
+      "text": "can",
+      "start": 10.242,
+      "end": 10.407
+    },
+    {
+      "text": "become",
+      "start": 10.407,
+      "end": 10.685
+    },
+    {
+      "text": "a",
+      "start": 10.685,
+      "end": 10.776
+    },
+    {
+      "text": "problem.",
+      "start": 10.776,
+      "end": 11.18
+    },
+    {
+      "text": "Round",
+      "start": 11.561,
+      "end": 11.877
+    },
+    {
+      "text": "covers",
+      "start": 11.877,
+      "end": 12.242
+    },
+    {
+      "text": "are",
+      "start": 12.242,
+      "end": 12.46
+    },
+    {
+      "text": "also",
+      "start": 12.46,
+      "end": 12.727
+    },
+    {
+      "text": "easy",
+      "start": 12.727,
+      "end": 12.994
+    },
+    {
+      "text": "to",
+      "start": 12.994,
+      "end": 13.163
+    },
+    {
+      "text": "roll,",
+      "start": 13.163,
+      "end": 13.73
+    },
+    {
+      "text": "don't",
+      "start": 13.73,
+      "end": 14.046
+    },
+    {
+      "text": "need",
+      "start": 14.046,
+      "end": 14.313
+    },
+    {
+      "text": "to",
+      "start": 14.313,
+      "end": 14.482
+    },
+    {
+      "text": "be",
+      "start": 14.482,
+      "end": 14.652
+    },
+    {
+      "text": "rotated",
+      "start": 14.652,
+      "end": 15.064
+    },
+    {
+      "text": "into",
+      "start": 15.064,
+      "end": 15.331
+    },
+    {
+      "text": "one",
+      "start": 15.331,
+      "end": 15.549
+    },
+    {
+      "text": "exact",
+      "start": 15.549,
+      "end": 15.865
+    },
+    {
+      "text": "alignment,",
+      "start": 15.865,
+      "end": 16.592
+    },
+    {
+      "text": "and",
+      "start": 16.592,
+      "end": 16.775
+    },
+    {
+      "text": "fit",
+      "start": 16.775,
+      "end": 16.959
+    },
+    {
+      "text": "naturally",
+      "start": 16.959,
+      "end": 17.389
+    },
+    {
+      "text": "over",
+      "start": 17.389,
+      "end": 17.614
+    },
+    {
+      "text": "circular",
+      "start": 17.614,
+      "end": 18.004
+    },
+    {
+      "text": "shafts.",
+      "start": 18.004,
+      "end": 18.544
+    },
+    {
+      "text": "So",
+      "start": 18.887,
+      "end": 19.019
+    },
+    {
+      "text": "engineers",
+      "start": 19.019,
+      "end": 19.415
+    },
+    {
+      "text": "didn't",
+      "start": 19.415,
+      "end": 19.698
+    },
+    {
+      "text": "choose",
+      "start": 19.698,
+      "end": 19.981
+    },
+    {
+      "text": "the",
+      "start": 19.981,
+      "end": 20.15
+    },
+    {
+      "text": "circle",
+      "start": 20.15,
+      "end": 20.433
+    },
+    {
+      "text": "because",
+      "start": 20.433,
+      "end": 20.754
+    },
+    {
+      "text": "it",
+      "start": 20.754,
+      "end": 20.885
+    },
+    {
+      "text": "looks",
+      "start": 20.885,
+      "end": 21.13
+    },
+    {
+      "text": "nice.",
+      "start": 21.13,
+      "end": 21.428
+    },
+    {
+      "text": "They",
+      "start": 21.428,
+      "end": 21.896
+    },
+    {
+      "text": "chose",
+      "start": 21.896,
+      "end": 22.141
+    },
+    {
+      "text": "a",
+      "start": 22.141,
+      "end": 22.235
+    },
+    {
+      "text": "shape",
+      "start": 22.235,
+      "end": 22.56
+    },
+    {
+      "text": "that",
+      "start": 22.56,
+      "end": 22.804
+    },
+    {
+      "text": "quietly",
+      "start": 22.804,
+      "end": 23.181
+    },
+    {
+      "text": "solves",
+      "start": 23.181,
+      "end": 23.702
+    },
+    {
+      "text": "several",
+      "start": 23.702,
+      "end": 24.078
+    },
+    {
+      "text": "annoying",
+      "start": 24.078,
+      "end": 24.501
+    },
+    {
+      "text": "problems",
+      "start": 24.501,
+      "end": 24.922
+    },
+    {
+      "text": "at",
+      "start": 24.922,
+      "end": 25.077
+    },
+    {
+      "text": "once,",
+      "start": 25.077,
+      "end": 25.4
+    },
+    {
+      "text": "which",
+      "start": 25.703,
+      "end": 25.932
+    },
+    {
+      "text": "is",
+      "start": 25.932,
+      "end": 26.055
+    },
+    {
+      "text": "basically",
+      "start": 26.055,
+      "end": 26.425
+    },
+    {
+      "text": "engineering's",
+      "start": 26.425,
+      "end": 26.938
+    },
+    {
+      "text": "favorite",
+      "start": 26.938,
+      "end": 27.273
+    },
+    {
+      "text": "way",
+      "start": 27.273,
+      "end": 27.431
+    },
+    {
+      "text": "of",
+      "start": 27.431,
+      "end": 27.554
+    },
+    {
+      "text": "showing",
+      "start": 27.554,
+      "end": 27.854
+    },
+    {
+      "text": "off.",
+      "start": 27.854,
+      "end": 28.204
+    }
+  ]
+}

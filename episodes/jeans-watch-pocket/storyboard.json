@@ -1,0 +1,284 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "jeans-watch-pocket",
+  "title": "Your Jeans Have A Pocket For A Gadget From The 1800s",
+  "audio": "public/audio/jeans-watch-pocket.wav",
+  "fps": 30,
+  "narrationDuration": 29.453,
+  "beatCount": 23,
+  "longestGap": 1.811,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.058,
+      "end": 3.958,
+      "startFrame": 2,
+      "endFrame": 119,
+      "duration": 3.9,
+      "narration": "Your jeans have a pocket designed for a gadget from the 1800s.",
+      "background": "BedroomFloor",
+      "note": "Bill is already looking down into the tiny pocket at frame 0. Jeans fill the lower frame.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.058,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill standing, one thumb hooked in the small pocket, staring down into it"
+        },
+        {
+          "t": 1.368,
+          "frame": 41,
+          "tInScene": 1.31,
+          "frameInScene": 39,
+          "action": "Bill tugs the small pocket open wider and peers in like it is a cave",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 2.677,
+          "frame": 80,
+          "tInScene": 2.619,
+          "frameInScene": 79,
+          "action": "camera punches to the tiny pocket; an 1800s date card stamps beside it",
+          "sync": "keyword: 1800s"
+        },
+        {
+          "t": 3.377,
+          "frame": 101,
+          "tInScene": 3.319,
+          "frameInScene": 100,
+          "action": "Bill looks up at camera, deeply confused by his own trousers"
+        }
+      ]
+    },
+    {
+      "scene": "not-for",
+      "start": 3.958,
+      "end": 10.296,
+      "startFrame": 119,
+      "endFrame": 309,
+      "duration": 6.338,
+      "narration": "That tiny pocket inside the front pocket wasn't originally for coins, AirPods, or whatever else you can barely fit inside it.",
+      "background": "JeansCloseup",
+      "note": "Three wrong answers pop in and are rejected. Rhythmic, fast, one per keyword.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 3.958,
+          "frame": 119,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "tight on the front pocket; the little pocket inside it outlines in coral"
+        },
+        {
+          "t": 5.54,
+          "frame": 166,
+          "tInScene": 1.582,
+          "frameInScene": 47,
+          "action": "he tries a folded receipt; it goes in and immediately will not come out",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 7.123,
+          "frame": 214,
+          "tInScene": 3.165,
+          "frameInScene": 95,
+          "action": "a coin tries to go in and is crossed out",
+          "sync": "keyword: coins"
+        },
+        {
+          "t": 7.657,
+          "frame": 230,
+          "tInScene": 3.699,
+          "frameInScene": 111,
+          "action": "an earbud case tries to go in, does not fit, is crossed out",
+          "sync": "keyword: AirPods"
+        },
+        {
+          "t": 9.328,
+          "frame": 280,
+          "tInScene": 5.37,
+          "frameInScene": 161,
+          "action": "Bill jams a finger in and it wedges; he cannot get it out for a beat",
+          "sync": "keyword: barely fit inside it"
+        }
+      ]
+    },
+    {
+      "scene": "watch-pocket",
+      "start": 10.626,
+      "end": 13.217,
+      "startFrame": 319,
+      "endFrame": 397,
+      "duration": 2.591,
+      "narration": "Early Levi's jeans included it as a watch pocket.",
+      "background": "JeansCloseup",
+      "note": "The reveal. A pocket watch slides in and fits perfectly — that fit is the whole episode.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 10.626,
+          "frame": 319,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the frame goes sepia for four frames — an old photograph feel, then back"
+        },
+        {
+          "t": 12.437,
+          "frame": 373,
+          "tInScene": 1.811,
+          "frameInScene": 54,
+          "action": "a pocket watch lowers into the little pocket and seats perfectly; a satisfying click",
+          "sync": "keyword: watch pocket"
+        },
+        {
+          "t": 13.237,
+          "frame": 397,
+          "tInScene": 2.611,
+          "frameInScene": 78,
+          "action": "a teal PERFECT FIT tick pops beside it"
+        }
+      ]
+    },
+    {
+      "scene": "history",
+      "start": 13.525,
+      "end": 17.728,
+      "startFrame": 406,
+      "endFrame": 532,
+      "duration": 4.203,
+      "narration": "Pocket watches were common, and workers needed a small, protected place to keep them.",
+      "background": "OldWorkshop",
+      "note": "Compressed history. Bill becomes the 1800s worker; Mochi steals the watch mid-scene.",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "beats": [
+        {
+          "t": 13.525,
+          "frame": 406,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill in a flat-cap silhouette as a period worker, pocket watch on a chain"
+        },
+        {
+          "t": 15.068,
+          "frame": 452,
+          "tInScene": 1.543,
+          "frameInScene": 46,
+          "action": "he tucks the watch into the small pocket and pats it; a protective glow"
+        },
+        {
+          "t": 16.073,
+          "frame": 482,
+          "tInScene": 2.548,
+          "frameInScene": 76,
+          "action": "Mochi pads in behind him, hooks the chain, and walks off with the watch",
+          "sync": "keyword: protected — the gag runs under the fact"
+        }
+      ]
+    },
+    {
+      "scene": "extinction",
+      "start": 17.728,
+      "end": 22.435,
+      "startFrame": 532,
+      "endFrame": 673,
+      "duration": 4.707,
+      "narration": "Wristwatches eventually took over. The pocket watch mostly disappeared, but the pocket survived.",
+      "background": "OldWorkshop",
+      "note": "The extinction event, in two props. Wristwatch in, pocket watch out, pocket stays.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 19.131,
+          "frame": 574,
+          "tInScene": 1.403,
+          "frameInScene": 42,
+          "action": "the wristwatch ticks smugly on his wrist while the old watch outline fades further",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 17.728,
+          "frame": 532,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a wristwatch straps itself onto Bill's wrist with a snap",
+          "sync": "keyword: wristwatches"
+        },
+        {
+          "t": 20.534,
+          "frame": 616,
+          "tInScene": 2.806,
+          "frameInScene": 84,
+          "action": "the pocket watch fades to a grey outline and blows away",
+          "sync": "keyword: disappeared"
+        },
+        {
+          "t": 21.955,
+          "frame": 659,
+          "tInScene": 4.227,
+          "frameInScene": 127,
+          "action": "everything else clears out of frame; the tiny pocket remains, alone, unbothered",
+          "sync": "keyword: the pocket survived"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 22.76,
+      "end": 28.761,
+      "startFrame": 683,
+      "endFrame": 863,
+      "duration": 6.001,
+      "narration": "So that useless little compartment on your jeans is basically a tiny fossil from a technology nobody carries anymore.",
+      "background": "BedroomFloor",
+      "note": "Museum framing for a seam. Mochi is visible in the background still wearing the watch.",
+      "cast": [
+        "bill",
+        "mochi"
+      ],
+      "beats": [
+        {
+          "t": 22.76,
+          "frame": 683,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "back to Bill; the little pocket gets a museum plinth and a velvet rope"
+        },
+        {
+          "t": 24.458,
+          "frame": 734,
+          "tInScene": 1.698,
+          "frameInScene": 51,
+          "action": "the plinth gets a tiny brass rail; the pocket sits there being historic",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 26.156,
+          "frame": 785,
+          "tInScene": 3.396,
+          "frameInScene": 102,
+          "action": "a FOSSIL placard stamps under it; Bill looks at it like an exhibit",
+          "sync": "keyword: fossil"
+        },
+        {
+          "t": 27.522,
+          "frame": 826,
+          "tInScene": 4.762,
+          "frameInScene": 143,
+          "action": "Mochi strolls past the background wearing the stolen pocket watch; Bill does not notice; hard cut",
+          "sync": "keyword: nobody carries anymore — final beat"
+        }
+      ]
+    }
+  ]
+}

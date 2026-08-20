@@ -16,15 +16,17 @@
 
 import { spawnSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
+import { FFMPEG, FFPROBE } from './ffbin.mjs';
 
 const FILE = process.argv[2] ?? 'preview/preview.mp4';
-const storyboard = JSON.parse(readFileSync('data/storyboard.json', 'utf8'));
+const STORY = process.argv[3] ?? 'data/storyboard.json';
+const storyboard = JSON.parse(readFileSync(STORY, 'utf8'));
 const FPS = storyboard.fps;
 
 // decode to a tiny greyscale stream — plenty for a difference metric, and fast
 const W = 64, H = 114;
 const res = spawnSync(
-  'ffmpeg',
+  FFMPEG,
   ['-hide_banner', '-nostdin', '-i', FILE, '-vf', `scale=${W}:${H}`, '-pix_fmt', 'gray', '-f', 'rawvideo', '-'],
   { maxBuffer: 1 << 29 },
 );

@@ -1,0 +1,228 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_33_09_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/gas-pump-shutoff.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11993,
+  "sampleRate": 48000,
+  "rawDuration": 37.251,
+  "cutDuration": 31.982,
+  "processedDuration": 28.557,
+  "silenceRemoved": 5.269,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.08,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "leading",
+      "raw": 0.127,
+      "kept": 0.04,
+      "removed": 0.087
+    },
+    {
+      "kind": "kept-intact",
+      "at": 2.463,
+      "raw": 0.131,
+      "kept": 0.131,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 4.048,
+      "raw": 0.808,
+      "kept": 0.3,
+      "removed": 0.508
+    },
+    {
+      "kind": "kept-intact",
+      "at": 6.102,
+      "raw": 0.209,
+      "kept": 0.209,
+      "removed": 0
+    },
+    {
+      "kind": "kept-intact",
+      "at": 7.724,
+      "raw": 0.146,
+      "kept": 0.146,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 9.361,
+      "raw": 0.806,
+      "kept": 0.3,
+      "removed": 0.506
+    },
+    {
+      "kind": "kept-intact",
+      "at": 11.062,
+      "raw": 0.266,
+      "kept": 0.266,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 12.497,
+      "raw": 0.664,
+      "kept": 0.273,
+      "removed": 0.391
+    },
+    {
+      "kind": "shortened",
+      "at": 16.234,
+      "raw": 0.327,
+      "kept": 0.205,
+      "removed": 0.122
+    },
+    {
+      "kind": "shortened",
+      "at": 18.237,
+      "raw": 0.99,
+      "kept": 0.3,
+      "removed": 0.69
+    },
+    {
+      "kind": "shortened",
+      "at": 23.024,
+      "raw": 0.618,
+      "kept": 0.264,
+      "removed": 0.355
+    },
+    {
+      "kind": "shortened",
+      "at": 23.986,
+      "raw": 1.358,
+      "kept": 0.3,
+      "removed": 1.058
+    },
+    {
+      "kind": "shortened",
+      "at": 25.701,
+      "raw": 0.774,
+      "kept": 0.295,
+      "removed": 0.479
+    },
+    {
+      "kind": "shortened",
+      "at": 27.383,
+      "raw": 0.815,
+      "kept": 0.3,
+      "removed": 0.515
+    },
+    {
+      "kind": "kept-intact",
+      "at": 29.084,
+      "raw": 0.143,
+      "kept": 0.143,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 30.028,
+      "raw": 0.425,
+      "kept": 0.225,
+      "removed": 0.2
+    },
+    {
+      "kind": "shortened",
+      "at": 32.288,
+      "raw": 0.621,
+      "kept": 0.264,
+      "removed": 0.357
+    },
+    {
+      "kind": "kept-intact",
+      "at": 33.917,
+      "raw": 0.085,
+      "kept": 0.085,
+      "removed": 0
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0.087,
+      "rawEnd": 4.198,
+      "outStart": 0,
+      "outEnd": 3.672
+    },
+    {
+      "rawStart": 4.707,
+      "rawEnd": 9.511,
+      "outStart": 3.672,
+      "outEnd": 7.961
+    },
+    {
+      "rawStart": 10.018,
+      "rawEnd": 12.633,
+      "outStart": 7.961,
+      "outEnd": 10.297
+    },
+    {
+      "rawStart": 13.024,
+      "rawEnd": 16.336,
+      "outStart": 10.297,
+      "outEnd": 13.255
+    },
+    {
+      "rawStart": 16.458,
+      "rawEnd": 18.387,
+      "outStart": 13.255,
+      "outEnd": 14.977
+    },
+    {
+      "rawStart": 19.077,
+      "rawEnd": 23.156,
+      "outStart": 14.977,
+      "outEnd": 18.619
+    },
+    {
+      "rawStart": 23.511,
+      "rawEnd": 24.136,
+      "outStart": 18.619,
+      "outEnd": 19.177
+    },
+    {
+      "rawStart": 25.194,
+      "rawEnd": 25.849,
+      "outStart": 19.177,
+      "outEnd": 19.762
+    },
+    {
+      "rawStart": 26.328,
+      "rawEnd": 27.533,
+      "outStart": 19.762,
+      "outEnd": 20.837
+    },
+    {
+      "rawStart": 28.047,
+      "rawEnd": 30.14,
+      "outStart": 20.837,
+      "outEnd": 22.706
+    },
+    {
+      "rawStart": 30.341,
+      "rawEnd": 32.42,
+      "outStart": 22.706,
+      "outEnd": 24.562
+    },
+    {
+      "rawStart": 32.777,
+      "rawEnd": 37.251,
+      "outStart": 24.562,
+      "outEnd": 28.557
+    }
+  ]
+}

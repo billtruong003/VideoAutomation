@@ -1,0 +1,213 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_49_35_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/jeans-watch-pocket.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11952,
+  "sampleRate": 48000,
+  "rawDuration": 37.251,
+  "cutDuration": 32.973,
+  "processedDuration": 29.453,
+  "silenceRemoved": 4.278,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.08,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "leading",
+      "raw": 0.094,
+      "kept": 0.04,
+      "removed": 0.054
+    },
+    {
+      "kind": "shortened",
+      "at": 3.548,
+      "raw": 0.365,
+      "kept": 0.213,
+      "removed": 0.152
+    },
+    {
+      "kind": "shortened",
+      "at": 6.748,
+      "raw": 0.32,
+      "kept": 0.204,
+      "removed": 0.116
+    },
+    {
+      "kind": "kept-intact",
+      "at": 8.654,
+      "raw": 0.192,
+      "kept": 0.192,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 9.46,
+      "raw": 0.313,
+      "kept": 0.203,
+      "removed": 0.111
+    },
+    {
+      "kind": "shortened",
+      "at": 11.953,
+      "raw": 0.91,
+      "kept": 0.3,
+      "removed": 0.61
+    },
+    {
+      "kind": "shortened",
+      "at": 15.85,
+      "raw": 0.814,
+      "kept": 0.3,
+      "removed": 0.514
+    },
+    {
+      "kind": "shortened",
+      "at": 17.843,
+      "raw": 0.301,
+      "kept": 0.2,
+      "removed": 0.101
+    },
+    {
+      "kind": "shortened",
+      "at": 21.043,
+      "raw": 0.944,
+      "kept": 0.3,
+      "removed": 0.644
+    },
+    {
+      "kind": "shortened",
+      "at": 23.82,
+      "raw": 0.823,
+      "kept": 0.3,
+      "removed": 0.523
+    },
+    {
+      "kind": "shortened",
+      "at": 26.492,
+      "raw": 0.499,
+      "kept": 0.24,
+      "removed": 0.259
+    },
+    {
+      "kind": "shortened",
+      "at": 28.199,
+      "raw": 0.836,
+      "kept": 0.3,
+      "removed": 0.536
+    },
+    {
+      "kind": "shortened",
+      "at": 31.503,
+      "raw": 0.302,
+      "kept": 0.2,
+      "removed": 0.101
+    },
+    {
+      "kind": "kept-intact",
+      "at": 33.482,
+      "raw": 0.152,
+      "kept": 0.152,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 35.96,
+      "raw": 0.858,
+      "kept": 0.3,
+      "removed": 0.558
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0.054,
+      "rawEnd": 3.654,
+      "outStart": 0,
+      "outEnd": 3.216
+    },
+    {
+      "rawStart": 3.806,
+      "rawEnd": 6.85,
+      "outStart": 3.216,
+      "outEnd": 5.934
+    },
+    {
+      "rawStart": 6.966,
+      "rawEnd": 9.561,
+      "outStart": 5.934,
+      "outEnd": 8.253
+    },
+    {
+      "rawStart": 9.672,
+      "rawEnd": 12.103,
+      "outStart": 8.253,
+      "outEnd": 10.424
+    },
+    {
+      "rawStart": 12.713,
+      "rawEnd": 16,
+      "outStart": 10.424,
+      "outEnd": 13.36
+    },
+    {
+      "rawStart": 16.514,
+      "rawEnd": 17.943,
+      "outStart": 13.36,
+      "outEnd": 14.637
+    },
+    {
+      "rawStart": 18.043,
+      "rawEnd": 21.193,
+      "outStart": 14.637,
+      "outEnd": 17.451
+    },
+    {
+      "rawStart": 21.837,
+      "rawEnd": 23.97,
+      "outStart": 17.451,
+      "outEnd": 19.356
+    },
+    {
+      "rawStart": 24.493,
+      "rawEnd": 26.612,
+      "outStart": 19.356,
+      "outEnd": 21.249
+    },
+    {
+      "rawStart": 26.871,
+      "rawEnd": 28.349,
+      "outStart": 21.249,
+      "outEnd": 22.569
+    },
+    {
+      "rawStart": 28.885,
+      "rawEnd": 31.603,
+      "outStart": 22.569,
+      "outEnd": 24.997
+    },
+    {
+      "rawStart": 31.705,
+      "rawEnd": 36.11,
+      "outStart": 24.997,
+      "outEnd": 28.932
+    },
+    {
+      "rawStart": 36.668,
+      "rawEnd": 37.251,
+      "outStart": 28.932,
+      "outEnd": 29.453
+    }
+  ]
+}

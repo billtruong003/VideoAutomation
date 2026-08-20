@@ -1,0 +1,283 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "gas-pump-shutoff",
+  "title": "How A Gas Pump Knows Your Tank Is Full",
+  "audio": "public/audio/gas-pump-shutoff.wav",
+  "fps": 30,
+  "narrationDuration": 28.557,
+  "beatCount": 21,
+  "longestGap": 2.153,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.082,
+      "end": 3.512,
+      "startFrame": 2,
+      "endFrame": 105,
+      "duration": 3.43,
+      "narration": "Your gas pump knows when your tank is full without talking to your car.",
+      "background": "GasStation",
+      "note": "Bill is mid-fill at frame 0. Pump, nozzle, car all legible immediately.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.082,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill holding the nozzle in the car's filler neck, bored, looking away"
+        },
+        {
+          "t": 1.868,
+          "frame": 56,
+          "tInScene": 1.786,
+          "frameInScene": 54,
+          "action": "the pump display flashes FULL and the nozzle clicks; Bill jumps",
+          "sync": "keyword: full"
+        },
+        {
+          "t": 2.547,
+          "frame": 76,
+          "tInScene": 2.465,
+          "frameInScene": 74,
+          "action": "a dashed 'signal' line tries to connect nozzle to car, then snaps and falls; a NO card lands on it",
+          "sync": "keyword: talking to your car"
+        }
+      ]
+    },
+    {
+      "scene": "nozzle",
+      "start": 3.88,
+      "end": 7.825,
+      "startFrame": 116,
+      "endFrame": 235,
+      "duration": 3.945,
+      "narration": "Near the tip of the nozzle is a tiny sensing hole connected to an air passage.",
+      "background": "NozzleCutaway",
+      "note": "The mechanism scene. Camera dives into the nozzle tip; this is the money diagram.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 3.88,
+          "frame": 116,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "camera dives from the pump down the hose into a side-on cutaway of the nozzle tip"
+        },
+        {
+          "t": 5.756,
+          "frame": 173,
+          "tInScene": 1.876,
+          "frameInScene": 56,
+          "action": "the tiny sensing hole pops on near the tip, circled coral",
+          "sync": "keyword: sensing hole"
+        },
+        {
+          "t": 7.187,
+          "frame": 216,
+          "tInScene": 3.307,
+          "frameInScene": 99,
+          "action": "the air passage draws itself from the hole back up the nozzle body as a teal channel",
+          "sync": "keyword: air passage"
+        }
+      ]
+    },
+    {
+      "scene": "pumping",
+      "start": 8.141,
+      "end": 10.159,
+      "startFrame": 244,
+      "endFrame": 305,
+      "duration": 2.018,
+      "narration": "While you're pumping, air can move through it,",
+      "background": "NozzleCutaway",
+      "note": "Normal operation. Air flows. Establish the baseline so the change reads.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 8.141,
+          "frame": 244,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "fuel streams down the nozzle; the tank level starts rising"
+        },
+        {
+          "t": 9.204,
+          "frame": 276,
+          "tInScene": 1.063,
+          "frameInScene": 32,
+          "action": "little air arrows run freely up the passage past the open hole",
+          "sync": "keyword: air can move through it"
+        }
+      ]
+    },
+    {
+      "scene": "covered",
+      "start": 10.435,
+      "end": 14.845,
+      "startFrame": 313,
+      "endFrame": 445,
+      "duration": 4.41,
+      "narration": "but once the gasoline rises high enough to cover that hole, the airflow suddenly changes.",
+      "background": "NozzleCutaway",
+      "note": "The turn. Fuel reaches the hole and the air arrows die. Do not rush this.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 11.044,
+          "frame": 331,
+          "tInScene": 0.609,
+          "frameInScene": 18,
+          "action": "the fuel level in the filler neck climbs toward the sensing hole",
+          "sync": "keyword: gasoline"
+        },
+        {
+          "t": 12.41,
+          "frame": 372,
+          "tInScene": 1.975,
+          "frameInScene": 59,
+          "action": "fuel seals the hole; it goes dark; the air arrows stall and turn coral",
+          "sync": "keyword: cover that hole"
+        },
+        {
+          "t": 13.605,
+          "frame": 408,
+          "tInScene": 3.17,
+          "frameInScene": 95,
+          "action": "the air passage flashes and empties; a vacuum symbol pops at its top",
+          "sync": "keyword: the airflow suddenly changes"
+        }
+      ]
+    },
+    {
+      "scene": "click",
+      "start": 15.157,
+      "end": 20.7,
+      "startFrame": 455,
+      "endFrame": 621,
+      "duration": 5.543,
+      "narration": "That pressure change triggers a mechanical diaphragm inside the nozzle and click. The valve shuts.",
+      "background": "NozzleCutaway",
+      "note": "The payoff of the mechanism. The diaphragm snaps, the valve drops, on the word 'click'.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 15.489,
+          "frame": 465,
+          "tInScene": 0.332,
+          "frameInScene": 10,
+          "action": "the diaphragm chamber pops into the cutaway and starts flexing",
+          "sync": "keyword: pressure change"
+        },
+        {
+          "t": 17.207,
+          "frame": 516,
+          "tInScene": 2.05,
+          "frameInScene": 62,
+          "action": "the diaphragm sucks inward hard; a linkage arm cocks",
+          "sync": "keyword: diaphragm"
+        },
+        {
+          "t": 19.36,
+          "frame": 581,
+          "tInScene": 4.203,
+          "frameInScene": 126,
+          "action": "CLICK card slams in; the whole frame jolts; impact lines",
+          "sync": "keyword: click — the word and the mechanism land together"
+        },
+        {
+          "t": 20.09,
+          "frame": 603,
+          "tInScene": 4.933,
+          "frameInScene": 148,
+          "action": "the valve plate drops shut; the fuel stream cuts to nothing mid-air",
+          "sync": "keyword: the valve shuts"
+        }
+      ]
+    },
+    {
+      "scene": "no-tech",
+      "start": 21.062,
+      "end": 24.436,
+      "startFrame": 632,
+      "endFrame": 733,
+      "duration": 3.374,
+      "narration": "No Wi-Fi, no computer, no secret signal from your car.",
+      "background": "GasStation",
+      "note": "Three denials, three props popping out of existence. Rhythmic.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 21.232,
+          "frame": 637,
+          "tInScene": 0.17,
+          "frameInScene": 5,
+          "action": "a wifi icon pops in over the pump and is immediately crossed out and gone",
+          "sync": "keyword: Wi-Fi"
+        },
+        {
+          "t": 21.748,
+          "frame": 652,
+          "tInScene": 0.686,
+          "frameInScene": 21,
+          "action": "a little computer pops in and is crossed out",
+          "sync": "keyword: computer"
+        },
+        {
+          "t": 22.825,
+          "frame": 685,
+          "tInScene": 1.763,
+          "frameInScene": 53,
+          "action": "a dashed secret-signal beam pops in between car and pump and is crossed out; Bill blinks",
+          "sync": "keyword: secret signal"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 24.742,
+      "end": 28.475,
+      "startFrame": 742,
+      "endFrame": 854,
+      "duration": 3.733,
+      "narration": "Just air pressure and a ridiculously clever little piece of mechanical engineering.",
+      "background": "GasStation",
+      "note": "Gus has been standing there the whole time. Smallest possible reaction closes the episode.",
+      "cast": [
+        "bill",
+        "gus"
+      ],
+      "beats": [
+        {
+          "t": 24.742,
+          "frame": 742,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the nozzle floats up beside Bill with a tiny halo; he looks at it with new respect"
+        },
+        {
+          "t": 26.443,
+          "frame": 793,
+          "tInScene": 1.701,
+          "frameInScene": 51,
+          "action": "sparkles burst around the nozzle; Bill is genuinely impressed",
+          "sync": "keyword: ridiculously clever"
+        },
+        {
+          "t": 27.904,
+          "frame": 837,
+          "tInScene": 3.162,
+          "frameInScene": 95,
+          "action": "Gus, who has been in frame the entire scene, gives one slow nod; hard cut",
+          "sync": "keyword: engineering — final beat"
+        }
+      ]
+    }
+  ]
+}

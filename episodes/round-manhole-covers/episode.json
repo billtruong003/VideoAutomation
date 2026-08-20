@@ -1,0 +1,294 @@
+{
+  "slug": "round-manhole-covers",
+  "title": "Why Manhole Covers Are Round",
+  "hook": "A shape chosen so it physically cannot kill anyone.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "dex",
+      "gus"
+    ],
+    "note": "Dex insists a square one would be fine and demonstrates why it is not. Gus is the city worker who has seen this before."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "A round manhole",
+      "background": "CityStreet",
+      "cast": [
+        "bill"
+      ],
+      "note": "Manhole and cover legible at frame 0. The 'surprisingly important' job is deliberately anticlimactic.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill standing on a round manhole cover in the street, looking down at it"
+        },
+        {
+          "at": 1.241,
+          "action": "Bill shifts his weight; the cover does not move at all, which is the point",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "important",
+          "action": "a drumroll build: the cover lifts slightly and glows, promising something huge",
+          "sync": "keyword: surprisingly important"
+        },
+        {
+          "kw": "stay-above",
+          "action": "the payoff card reads simply STAYS ON TOP; the glow dies; Bill goes deadpan",
+          "sync": "keyword: stay above the manhole — the anticlimax IS the joke"
+        }
+      ]
+    },
+    {
+      "id": "cannot-fall",
+      "from": "A circular cover",
+      "background": "ManholeCutaway",
+      "cast": [],
+      "note": "The geometric proof. Rotate the circle through every angle and show it never fits.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "side-on cutaway: circular cover above a circular opening, shaft dropping away below"
+        },
+        {
+          "kw": "cannot-fall",
+          "action": "the cover is tilted and rotated through a full turn, testing every angle",
+          "sync": "keyword: cannot fall straight through"
+        },
+        {
+          "kw": "opening",
+          "action": "it catches on the rim at every orientation; a teal SAFE tick lands",
+          "sync": "keyword: its own circular opening"
+        }
+      ]
+    },
+    {
+      "id": "other-shapes",
+      "from": "With some other",
+      "background": "ManholeCutaway",
+      "cast": [
+        "dex"
+      ],
+      "note": "Dex's bad idea. A square cover goes diagonal and drops. This is the scene people remember.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Dex slides in with a square cover, grinning, absolutely certain"
+        },
+        {
+          "kw": "other-shapes",
+          "action": "he swaps the round cover for the square one; it sits flat and looks fine",
+          "sync": "keyword: other shapes"
+        },
+        {
+          "kw": "orientation",
+          "action": "the square is turned 45 degrees; it lines up with the diagonal and drops straight down the shaft",
+          "sync": "keyword: orientation becomes a problem"
+        },
+        {
+          "kw": "problem",
+          "action": "a long descending whistle; Dex peers into the hole; Gus appears beside him, unimpressed",
+          "sync": "keyword: problem"
+        }
+      ]
+    },
+    {
+      "id": "other-wins",
+      "from": "Round covers are",
+      "background": "CityStreet",
+      "cast": [
+        "bill"
+      ],
+      "note": "Three secondary benefits, one per keyword. Keep them fast — the main point is already made.",
+      "beats": [
+        {
+          "at": 0.409,
+          "action": "Dex peers into the shaft and drops a pebble in; a long pause, then a distant plink",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.767,
+          "action": "the cover rolls a little further and leans against a kerb",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "roll",
+          "action": "Bill tips the round cover onto its edge and rolls it away easily",
+          "sync": "keyword: easy to roll"
+        },
+        {
+          "kw": "rotated",
+          "action": "the cover is dropped back on at a random angle and fits instantly; no alignment needed",
+          "sync": "keyword: rotated into one exact alignment"
+        },
+        {
+          "kw": "shafts",
+          "action": "cutaway again: the round cover seats cleanly over a round shaft",
+          "sync": "keyword: circular shafts"
+        }
+      ]
+    },
+    {
+      "id": "engineers",
+      "from": "So engineers didn't",
+      "background": "CityStreet",
+      "cast": [
+        "bill",
+        "gus"
+      ],
+      "note": "Reject the aesthetic explanation explicitly, then stack up the real reasons.",
+      "beats": [
+        {
+          "at": 3.717,
+          "action": "the four problem tickets shuffle into a neat stack",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "circle",
+          "action": "a decorative flourish frame draws around the circle, then is crossed out",
+          "sync": "keyword: the circle"
+        },
+        {
+          "kw": "nice",
+          "action": "a LOOKS NICE card pops in and is immediately binned",
+          "sync": "keyword: because it looks nice"
+        },
+        {
+          "kw": "annoying",
+          "action": "four problem tickets stack up and each gets a tick as the circle solves it",
+          "sync": "keyword: several annoying problems"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "which is basically",
+      "background": "CityStreet",
+      "cast": [
+        "bill",
+        "gus"
+      ],
+      "note": "Gus delivers the last beat with the smallest reaction on screen. Hard cut.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the cover settles back into the road with a solid clunk"
+        },
+        {
+          "kw": "showing-off",
+          "action": "the circle gets tiny sunglasses for four frames; Gus gives one slow nod and walks off; hard cut",
+          "sync": "keyword: showing off — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "important",
+      [
+        "important"
+      ],
+      0
+    ],
+    [
+      "stay-above",
+      [
+        "stay",
+        "above"
+      ],
+      0
+    ],
+    [
+      "cannot-fall",
+      [
+        "cannot",
+        "fall"
+      ],
+      0
+    ],
+    [
+      "opening",
+      [
+        "opening"
+      ],
+      0
+    ],
+    [
+      "other-shapes",
+      [
+        "other",
+        "shapes"
+      ],
+      0
+    ],
+    [
+      "orientation",
+      [
+        "orientation"
+      ],
+      0
+    ],
+    [
+      "problem",
+      [
+        "problem"
+      ],
+      0
+    ],
+    [
+      "roll",
+      [
+        "roll"
+      ],
+      0
+    ],
+    [
+      "rotated",
+      [
+        "rotated"
+      ],
+      0
+    ],
+    [
+      "shafts",
+      [
+        "shafts"
+      ],
+      0
+    ],
+    [
+      "circle",
+      [
+        "circle"
+      ],
+      0
+    ],
+    [
+      "nice",
+      [
+        "nice"
+      ],
+      0
+    ],
+    [
+      "annoying",
+      [
+        "annoying"
+      ],
+      0
+    ],
+    [
+      "showing-off",
+      [
+        "showing"
+      ],
+      0
+    ]
+  ]
+}

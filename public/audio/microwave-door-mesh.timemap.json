@@ -1,0 +1,162 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_33_57_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/microwave-door-mesh.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11977,
+  "sampleRate": 48000,
+  "rawDuration": 37.642,
+  "cutDuration": 33.028,
+  "processedDuration": 29.495,
+  "silenceRemoved": 4.615,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.08,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "kept-intact",
+      "at": 2.111,
+      "raw": 0.083,
+      "kept": 0.083,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 4.915,
+      "raw": 1.539,
+      "kept": 0.3,
+      "removed": 1.239
+    },
+    {
+      "kind": "shortened",
+      "at": 9.32,
+      "raw": 0.907,
+      "kept": 0.3,
+      "removed": 0.607
+    },
+    {
+      "kind": "shortened",
+      "at": 14.415,
+      "raw": 0.52,
+      "kept": 0.244,
+      "removed": 0.276
+    },
+    {
+      "kind": "shortened",
+      "at": 18.168,
+      "raw": 0.93,
+      "kept": 0.3,
+      "removed": 0.63
+    },
+    {
+      "kind": "kept-intact",
+      "at": 19.896,
+      "raw": 0.12,
+      "kept": 0.12,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 21.699,
+      "raw": 0.335,
+      "kept": 0.207,
+      "removed": 0.128
+    },
+    {
+      "kind": "kept-intact",
+      "at": 23.898,
+      "raw": 0.084,
+      "kept": 0.084,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 25.027,
+      "raw": 0.978,
+      "kept": 0.3,
+      "removed": 0.678
+    },
+    {
+      "kind": "shortened",
+      "at": 28.903,
+      "raw": 0.527,
+      "kept": 0.245,
+      "removed": 0.282
+    },
+    {
+      "kind": "shortened",
+      "at": 32.852,
+      "raw": 1.075,
+      "kept": 0.3,
+      "removed": 0.775
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 5.065,
+      "outStart": 0,
+      "outEnd": 4.523
+    },
+    {
+      "rawStart": 6.304,
+      "rawEnd": 9.47,
+      "outStart": 4.523,
+      "outEnd": 7.351
+    },
+    {
+      "rawStart": 10.078,
+      "rawEnd": 14.537,
+      "outStart": 7.351,
+      "outEnd": 11.333
+    },
+    {
+      "rawStart": 14.812,
+      "rawEnd": 18.318,
+      "outStart": 11.333,
+      "outEnd": 14.463
+    },
+    {
+      "rawStart": 18.948,
+      "rawEnd": 21.802,
+      "outStart": 14.463,
+      "outEnd": 17.013
+    },
+    {
+      "rawStart": 21.93,
+      "rawEnd": 25.177,
+      "outStart": 17.013,
+      "outEnd": 19.912
+    },
+    {
+      "rawStart": 25.855,
+      "rawEnd": 29.026,
+      "outStart": 19.912,
+      "outEnd": 22.744
+    },
+    {
+      "rawStart": 29.308,
+      "rawEnd": 33.002,
+      "outStart": 22.744,
+      "outEnd": 26.044
+    },
+    {
+      "rawStart": 33.777,
+      "rawEnd": 37.642,
+      "outStart": 26.044,
+      "outEnd": 29.495
+    }
+  ]
+}

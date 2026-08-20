@@ -1,0 +1,626 @@
+{
+  "language_code": "eng",
+  "note": "Word timings estimated from SRT cue bounds + the audio's voiced/unvoiced envelope. Cue bounds are exact; within-cue positions are weighted estimates laid out over voiced time only.",
+  "source": {
+    "audio": "C:/Users/ducnq/Downloads/VoiceOver/VoiceOver/ElevenLabs_2026-08-19T16_52_23_George - Warm, Captivating Storyteller_pre_sp100_s50_sb75_v3.mp3",
+    "subtitle": "C:/Users/ducnq/Downloads/VoiceOver/Sub/ElevenLabs_2026-08-19T16_52_23_George_-_Warm_Captivating_Storyteller_pre_sp100_s50_sb75_v3_eng.srt"
+  },
+  "segments": [
+    {
+      "text": "Your car may have been answering this question your entire life.",
+      "start_time": 0.119,
+      "end_time": 3.199,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Your",
+          "start_time": 0.119,
+          "end_time": 0.348
+        },
+        {
+          "text": "car",
+          "start_time": 0.348,
+          "end_time": 0.534
+        },
+        {
+          "text": "may",
+          "start_time": 0.534,
+          "end_time": 0.721
+        },
+        {
+          "text": "have",
+          "start_time": 0.721,
+          "end_time": 0.95
+        },
+        {
+          "text": "been",
+          "start_time": 0.95,
+          "end_time": 1.178
+        },
+        {
+          "text": "answering",
+          "start_time": 1.178,
+          "end_time": 1.616
+        },
+        {
+          "text": "this",
+          "start_time": 1.616,
+          "end_time": 1.844
+        },
+        {
+          "text": "question",
+          "start_time": 1.844,
+          "end_time": 2.24
+        },
+        {
+          "text": "your",
+          "start_time": 2.24,
+          "end_time": 2.469
+        },
+        {
+          "text": "entire",
+          "start_time": 2.469,
+          "end_time": 2.781
+        },
+        {
+          "text": "life.",
+          "start_time": 2.781,
+          "end_time": 3.199
+        }
+      ]
+    },
+    {
+      "text": "Look at the little fuel pump symbol on your dashboard.",
+      "start_time": 4.119,
+      "end_time": 6.639,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Look",
+          "start_time": 4.119,
+          "end_time": 4.342
+        },
+        {
+          "text": "at",
+          "start_time": 4.342,
+          "end_time": 4.483
+        },
+        {
+          "text": "the",
+          "start_time": 4.483,
+          "end_time": 4.666
+        },
+        {
+          "text": "little",
+          "start_time": 4.666,
+          "end_time": 4.97
+        },
+        {
+          "text": "fuel",
+          "start_time": 4.97,
+          "end_time": 5.193
+        },
+        {
+          "text": "pump",
+          "start_time": 5.193,
+          "end_time": 5.416
+        },
+        {
+          "text": "symbol",
+          "start_time": 5.416,
+          "end_time": 5.721
+        },
+        {
+          "text": "on",
+          "start_time": 5.721,
+          "end_time": 5.862
+        },
+        {
+          "text": "your",
+          "start_time": 5.862,
+          "end_time": 6.085
+        },
+        {
+          "text": "dashboard.",
+          "start_time": 6.085,
+          "end_time": 6.639
+        }
+      ]
+    },
+    {
+      "text": "On many cars, there's a tiny arrow or triangle beside it.",
+      "start_time": 7.5,
+      "end_time": 10.92,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "On",
+          "start_time": 7.5,
+          "end_time": 7.668
+        },
+        {
+          "text": "many",
+          "start_time": 7.668,
+          "end_time": 7.932
+        },
+        {
+          "text": "cars,",
+          "start_time": 7.932,
+          "end_time": 8.504
+        },
+        {
+          "text": "there's",
+          "start_time": 8.504,
+          "end_time": 8.913
+        },
+        {
+          "text": "a",
+          "start_time": 8.913,
+          "end_time": 9.033
+        },
+        {
+          "text": "tiny",
+          "start_time": 9.033,
+          "end_time": 9.297
+        },
+        {
+          "text": "arrow",
+          "start_time": 9.297,
+          "end_time": 9.61
+        },
+        {
+          "text": "or",
+          "start_time": 9.61,
+          "end_time": 9.777
+        },
+        {
+          "text": "triangle",
+          "start_time": 9.777,
+          "end_time": 10.235
+        },
+        {
+          "text": "beside",
+          "start_time": 10.235,
+          "end_time": 10.596
+        },
+        {
+          "text": "it.",
+          "start_time": 10.596,
+          "end_time": 10.92
+        }
+      ]
+    },
+    {
+      "text": "If it points left, your fuel door is on the left.",
+      "start_time": 11.859,
+      "end_time": 14.719,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "If",
+          "start_time": 11.859,
+          "end_time": 12.012
+        },
+        {
+          "text": "it",
+          "start_time": 12.012,
+          "end_time": 12.165
+        },
+        {
+          "text": "points",
+          "start_time": 12.165,
+          "end_time": 12.494
+        },
+        {
+          "text": "left,",
+          "start_time": 12.494,
+          "end_time": 13.136
+        },
+        {
+          "text": "your",
+          "start_time": 13.136,
+          "end_time": 13.377
+        },
+        {
+          "text": "fuel",
+          "start_time": 13.377,
+          "end_time": 13.619
+        },
+        {
+          "text": "door",
+          "start_time": 13.619,
+          "end_time": 13.86
+        },
+        {
+          "text": "is",
+          "start_time": 13.86,
+          "end_time": 14.013
+        },
+        {
+          "text": "on",
+          "start_time": 14.013,
+          "end_time": 14.166
+        },
+        {
+          "text": "the",
+          "start_time": 14.166,
+          "end_time": 14.363
+        },
+        {
+          "text": "left.",
+          "start_time": 14.363,
+          "end_time": 14.719
+        }
+      ]
+    },
+    {
+      "text": "If it points right, it's on the right.",
+      "start_time": 15.5,
+      "end_time": 17.379,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "If",
+          "start_time": 15.5,
+          "end_time": 15.626
+        },
+        {
+          "text": "it",
+          "start_time": 15.626,
+          "end_time": 15.753
+        },
+        {
+          "text": "points",
+          "start_time": 15.753,
+          "end_time": 16.025
+        },
+        {
+          "text": "right,",
+          "start_time": 16.025,
+          "end_time": 16.319
+        },
+        {
+          "text": "it's",
+          "start_time": 16.319,
+          "end_time": 16.748
+        },
+        {
+          "text": "on",
+          "start_time": 16.748,
+          "end_time": 16.874
+        },
+        {
+          "text": "the",
+          "start_time": 16.874,
+          "end_time": 17.037
+        },
+        {
+          "text": "right.",
+          "start_time": 17.037,
+          "end_time": 17.379
+        }
+      ]
+    },
+    {
+      "text": "Manufacturers don't all put fuel doors on the same side, so this tiny symbol saves",
+      "start_time": 18.319,
+      "end_time": 23.259,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Manufacturers",
+          "start_time": 18.319,
+          "end_time": 19.049
+        },
+        {
+          "text": "don't",
+          "start_time": 19.049,
+          "end_time": 19.375
+        },
+        {
+          "text": "all",
+          "start_time": 19.375,
+          "end_time": 19.6
+        },
+        {
+          "text": "put",
+          "start_time": 19.6,
+          "end_time": 19.916
+        },
+        {
+          "text": "fuel",
+          "start_time": 19.916,
+          "end_time": 20.191
+        },
+        {
+          "text": "doors",
+          "start_time": 20.191,
+          "end_time": 20.517
+        },
+        {
+          "text": "on",
+          "start_time": 20.517,
+          "end_time": 20.692
+        },
+        {
+          "text": "the",
+          "start_time": 20.692,
+          "end_time": 20.918
+        },
+        {
+          "text": "same",
+          "start_time": 20.918,
+          "end_time": 21.193
+        },
+        {
+          "text": "side,",
+          "start_time": 21.193,
+          "end_time": 21.83
+        },
+        {
+          "text": "so",
+          "start_time": 21.83,
+          "end_time": 22.005
+        },
+        {
+          "text": "this",
+          "start_time": 22.005,
+          "end_time": 22.28
+        },
+        {
+          "text": "tiny",
+          "start_time": 22.28,
+          "end_time": 22.556
+        },
+        {
+          "text": "symbol",
+          "start_time": 22.556,
+          "end_time": 22.933
+        },
+        {
+          "text": "saves",
+          "start_time": 22.933,
+          "end_time": 23.259
+        }
+      ]
+    },
+    {
+      "text": "you from guessing,",
+      "start_time": 23.26,
+      "end_time": 24.019,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "you",
+          "start_time": 23.26,
+          "end_time": 23.421
+        },
+        {
+          "text": "from",
+          "start_time": 23.421,
+          "end_time": 23.619
+        },
+        {
+          "text": "guessing,",
+          "start_time": 23.619,
+          "end_time": 24.019
+        }
+      ]
+    },
+    {
+      "text": "which means every time you pulled into a gas station,",
+      "start_time": 24.979,
+      "end_time": 27.459,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "which",
+          "start_time": 24.979,
+          "end_time": 25.25
+        },
+        {
+          "text": "means",
+          "start_time": 25.25,
+          "end_time": 25.52
+        },
+        {
+          "text": "every",
+          "start_time": 25.52,
+          "end_time": 25.791
+        },
+        {
+          "text": "time",
+          "start_time": 25.791,
+          "end_time": 26.02
+        },
+        {
+          "text": "you",
+          "start_time": 26.02,
+          "end_time": 26.206
+        },
+        {
+          "text": "pulled",
+          "start_time": 26.206,
+          "end_time": 26.519
+        },
+        {
+          "text": "into",
+          "start_time": 26.519,
+          "end_time": 26.748
+        },
+        {
+          "text": "a",
+          "start_time": 26.748,
+          "end_time": 26.851
+        },
+        {
+          "text": "gas",
+          "start_time": 26.851,
+          "end_time": 27.038
+        },
+        {
+          "text": "station,",
+          "start_time": 27.038,
+          "end_time": 27.459
+        }
+      ]
+    },
+    {
+      "text": "chose the wrong pump,",
+      "start_time": 28.159,
+      "end_time": 29.179,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "chose",
+          "start_time": 28.159,
+          "end_time": 28.421
+        },
+        {
+          "text": "the",
+          "start_time": 28.421,
+          "end_time": 28.602
+        },
+        {
+          "text": "wrong",
+          "start_time": 28.602,
+          "end_time": 28.864
+        },
+        {
+          "text": "pump,",
+          "start_time": 28.864,
+          "end_time": 29.179
+        }
+      ]
+    },
+    {
+      "text": "reversed, and tried again,",
+      "start_time": 29.84,
+      "end_time": 31.639,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "reversed,",
+          "start_time": 29.84,
+          "end_time": 30.34
+        },
+        {
+          "text": "and",
+          "start_time": 30.34,
+          "end_time": 30.982
+        },
+        {
+          "text": "tried",
+          "start_time": 30.982,
+          "end_time": 31.274
+        },
+        {
+          "text": "again,",
+          "start_time": 31.274,
+          "end_time": 31.639
+        }
+      ]
+    },
+    {
+      "text": "the answer may have been glowing directly in front of your face.",
+      "start_time": 32.279,
+      "end_time": 35.119,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 32.279,
+          "end_time": 32.455
+        },
+        {
+          "text": "answer",
+          "start_time": 32.455,
+          "end_time": 32.75
+        },
+        {
+          "text": "may",
+          "start_time": 32.75,
+          "end_time": 32.926
+        },
+        {
+          "text": "have",
+          "start_time": 32.926,
+          "end_time": 33.142
+        },
+        {
+          "text": "been",
+          "start_time": 33.142,
+          "end_time": 33.357
+        },
+        {
+          "text": "glowing",
+          "start_time": 33.357,
+          "end_time": 33.691
+        },
+        {
+          "text": "directly",
+          "start_time": 33.691,
+          "end_time": 34.065
+        },
+        {
+          "text": "in",
+          "start_time": 34.065,
+          "end_time": 34.201
+        },
+        {
+          "text": "front",
+          "start_time": 34.201,
+          "end_time": 34.456
+        },
+        {
+          "text": "of",
+          "start_time": 34.456,
+          "end_time": 34.593
+        },
+        {
+          "text": "your",
+          "start_time": 34.593,
+          "end_time": 34.809
+        },
+        {
+          "text": "face.",
+          "start_time": 34.809,
+          "end_time": 35.119
+        }
+      ]
+    }
+  ]
+}

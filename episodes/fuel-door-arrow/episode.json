@@ -1,0 +1,328 @@
+{
+  "slug": "fuel-door-arrow",
+  "title": "The Arrow That Tells You Which Side Your Fuel Door Is On",
+  "hook": "The answer has been six inches from your face for years.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "mina"
+    ],
+    "note": "Mina is in the passenger seat. She has known about the arrow the entire time and has been waiting."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Your car may",
+      "background": "CarInterior",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "note": "Dashboard legible at frame 0. Bill mid-argument with himself about which side the tank is on.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill at the wheel craning to look over both shoulders; Mina beside him, already unimpressed"
+        },
+        {
+          "kw": "question",
+          "action": "a giant question mark pops over Bill's head and wobbles",
+          "sync": "keyword: this question"
+        },
+        {
+          "kw": "entire-life",
+          "action": "the question mark multiplies into a small crowd of them; camera punch",
+          "sync": "keyword: your entire life"
+        }
+      ]
+    },
+    {
+      "id": "symbol",
+      "from": "Look at the",
+      "background": "DashboardCloseup",
+      "cast": [],
+      "note": "Dive to the gauge. The pump icon is found before the arrow — order matters.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "camera dives into the instrument cluster; the fuel gauge fills frame"
+        },
+        {
+          "kw": "fuel-pump-symbol",
+          "action": "the little pump icon lights up and pulses",
+          "sync": "keyword: fuel pump symbol"
+        },
+        {
+          "kw": "dashboard",
+          "action": "everything else on the cluster dims to grey so only the icon reads",
+          "sync": "keyword: dashboard"
+        }
+      ]
+    },
+    {
+      "id": "arrow",
+      "from": "On many cars",
+      "background": "DashboardCloseup",
+      "cast": [],
+      "note": "The reveal beat. The arrow has to pop, not fade — it is the whole video.",
+      "beats": [
+        {
+          "kw": "tiny-arrow",
+          "action": "the tiny arrow pops in beside the pump icon with a hard snap and a ring of sparkles",
+          "sync": "keyword: tiny arrow"
+        },
+        {
+          "kw": "triangle",
+          "action": "the arrow morphs to a triangle and back, showing both forms",
+          "sync": "keyword: triangle"
+        }
+      ]
+    },
+    {
+      "id": "left-right",
+      "from": "If it points",
+      "background": "CarTopDown",
+      "cast": [],
+      "note": "Top-down car so left and right are unambiguous. Two clean symmetrical demonstrations.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "hard cut to a top-down car; fuel doors drawn on both sides, both closed"
+        },
+        {
+          "at": 1.63,
+          "action": "the top-down car rotates a few degrees so both fuel doors stay readable",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "points-left",
+          "action": "the arrow swings left; the LEFT fuel door flips open and glows teal",
+          "sync": "keyword: points left"
+        },
+        {
+          "kw": "points-right",
+          "action": "the arrow swings right; the RIGHT door opens instead and the left snaps shut",
+          "sync": "keyword: points right"
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "from": "Manufacturers don't all",
+      "background": "CarTopDown",
+      "cast": [],
+      "note": "Why the arrow needs to exist: the industry never agreed. Show four cars disagreeing.",
+      "beats": [
+        {
+          "at": 1.161,
+          "action": "the four cars shuffle order; their fuel doors still disagree",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 3.528,
+          "action": "each car flashes its door side in turn, none of them matching",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "manufacturers",
+          "action": "four little cars pop in in a row, fuel doors on alternating sides",
+          "sync": "keyword: manufacturers"
+        },
+        {
+          "kw": "same-side",
+          "action": "a NO STANDARD stamp lands across the row",
+          "sync": "keyword: same side"
+        },
+        {
+          "kw": "guessing",
+          "action": "the arrow reappears over each car in turn, correct every time; teal ticks",
+          "sync": "keyword: saves you from guessing"
+        }
+      ]
+    },
+    {
+      "id": "regret",
+      "from": "which means every",
+      "background": "GasStationForecourt",
+      "cast": [
+        "bill"
+      ],
+      "note": "The montage of past failure. Three beats, escalating, comic timing on the reverse.",
+      "beats": [
+        {
+          "at": 0.5,
+          "action": "the arrow spins once and settles, still correct",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "gas-station",
+          "action": "Bill drives into a forecourt, confident",
+          "sync": "keyword: gas station"
+        },
+        {
+          "kw": "wrong-pump",
+          "action": "he stops at the wrong pump; the hose is comically far from the filler",
+          "sync": "keyword: wrong pump"
+        },
+        {
+          "kw": "reversed",
+          "action": "the car reverses in a fast stepped jerk and tries again, still wrong; motion lines",
+          "sync": "keyword: reversed and tried again"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "the answer may",
+      "background": "DashboardCloseup",
+      "cast": [
+        "bill",
+        "mina"
+      ],
+      "note": "Return to the arrow, now glowing. Mina's non-reaction is the punchline. Hard cut.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "snap back to the dashboard; the arrow is right there"
+        },
+        {
+          "kw": "glowing",
+          "action": "the arrow blazes gold; a spotlight cone drops onto it",
+          "sync": "keyword: glowing"
+        },
+        {
+          "kw": "face",
+          "action": "pull back: it is directly in front of Bill's face; he goes deadpan; Mina slowly turns to look at him; hard cut",
+          "sync": "keyword: in front of your face — final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "question",
+      [
+        "question"
+      ],
+      0
+    ],
+    [
+      "entire-life",
+      [
+        "entire",
+        "life"
+      ],
+      0
+    ],
+    [
+      "fuel-pump-symbol",
+      [
+        "fuel",
+        "pump",
+        "symbol"
+      ],
+      0
+    ],
+    [
+      "dashboard",
+      [
+        "dashboard"
+      ],
+      0
+    ],
+    [
+      "tiny-arrow",
+      [
+        "tiny",
+        "arrow"
+      ],
+      0
+    ],
+    [
+      "triangle",
+      [
+        "triangle"
+      ],
+      0
+    ],
+    [
+      "points-left",
+      [
+        "points",
+        "left"
+      ],
+      0
+    ],
+    [
+      "points-right",
+      [
+        "points",
+        "right"
+      ],
+      0
+    ],
+    [
+      "manufacturers",
+      [
+        "manufacturers"
+      ],
+      0
+    ],
+    [
+      "same-side",
+      [
+        "same",
+        "side"
+      ],
+      0
+    ],
+    [
+      "guessing",
+      [
+        "guessing"
+      ],
+      0
+    ],
+    [
+      "gas-station",
+      [
+        "gas",
+        "station"
+      ],
+      0
+    ],
+    [
+      "wrong-pump",
+      [
+        "wrong",
+        "pump"
+      ],
+      0
+    ],
+    [
+      "reversed",
+      [
+        "reversed"
+      ],
+      0
+    ],
+    [
+      "glowing",
+      [
+        "glowing"
+      ],
+      0
+    ],
+    [
+      "face",
+      [
+        "face"
+      ],
+      0
+    ]
+  ]
+}

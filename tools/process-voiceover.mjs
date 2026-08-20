@@ -29,6 +29,7 @@
 import { execFileSync, spawnSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
+import { FFMPEG, FFPROBE } from './ffbin.mjs';
 
 // ---------------------------------------------------------------------------
 // CLI
@@ -86,7 +87,7 @@ const run = (bin, args) =>
 // ffmpeg writes its logs to stderr and exits 0; capture both streams.
 function ffmpeg(args) {
   try {
-    return execFileSync('ffmpeg', ['-hide_banner', '-nostdin', ...args], {
+    return execFileSync(FFMPEG, ['-hide_banner', '-nostdin', ...args], {
       encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'], maxBuffer: 1 << 26,
     });
   } catch (e) {
@@ -99,7 +100,7 @@ function ffmpeg(args) {
  * execFileSync only hands back stdout — so these runs go through spawnSync.
  */
 function ffmpegStderr(args) {
-  const res = spawnSync('ffmpeg', ['-hide_banner', '-nostdin', ...args], {
+  const res = spawnSync(FFMPEG, ['-hide_banner', '-nostdin', ...args], {
     encoding: 'utf8', maxBuffer: 1 << 26,
   });
   if (res.error) throw res.error;
@@ -107,7 +108,7 @@ function ffmpegStderr(args) {
 }
 
 function probeDuration(path) {
-  const out = run('ffprobe', [
+  const out = run(FFPROBE, [
     '-v', 'error', '-show_entries', 'format=duration',
     '-of', 'default=nw=1:nk=1', path,
   ]);
@@ -229,7 +230,7 @@ console.log('[4/7] applying cut plan');
 // map out of step with the delivered file. Splicing samples directly is exact and
 // deterministic. Joins sit in dead air (< -50 dBFS) so a hard splice is inaudible.
 const RAW_PCM = (() => {
-  const res = spawnSync('ffmpeg', ['-hide_banner', '-nostdin', '-i', TMP,
+  const res = spawnSync(FFMPEG, ['-hide_banner', '-nostdin', '-i', TMP,
     '-ac', '1', '-ar', String(opts.sampleRate), '-f', 's16le', '-'], { maxBuffer: 1 << 29 });
   if (res.error) throw res.error;
   return res.stdout;
