@@ -104,6 +104,11 @@ export function buildManifest(content, overrides = {}) {
       bytes: content.video_bytes ?? null,
     },
     captions: { path: content.srt_path ?? null, language: 'en', burnedIn: true, upload: Boolean(content.srt_path) },
+    /*
+     * What the mix borrowed. Recorded here so that a decision about licensing is made
+     * against a list rather than against a memory of which episodes got music.
+     */
+    audio: { music: [], sfx: [] },
     thumbnail: { path: content.thumbnail_path ?? null, syncedVideoId: null },
     metadata: {
       selectedTitle: content.title_working ?? content.topic ?? content.content_id,
@@ -237,6 +242,22 @@ export function publishReadiness(manifest) {
     if (badTag) blockers.push(`Tag "${badTag}" contains < or >, which the API rejects.`);
   }
   if (manifest.captions.upload && !manifest.captions.path) warnings.push('Caption upload is on but no SRT is linked.');
+
+  /*
+   * Borrowed audio. Every bed in public/music came from a downloaded pack with no licence
+   * metadata, and nothing in the pipeline can establish a right to publish it. This is a
+   * warning rather than a blocker on purpose -- whether the licence is acceptable is the
+   * creator's call and cannot be settled by code -- but it must be said out loud on the way
+   * to an upload rather than discovered from a copyright claim afterwards.
+   */
+  if (manifest.audio?.music?.length) {
+    const unknown = manifest.audio.music.filter((m) => m.provenance !== 'CLEARED');
+    if (unknown.length) {
+      warnings.push(
+        `${unknown.length} music bed${unknown.length > 1 ? 's' : ''} with an unverified licence `
+        + `(${unknown.map((m) => m.id).join(', ')}). Confirm before publishing.`);
+    }
+  }
   if (manifest.youtube.privacy !== 'private') {
     blockers.push('Only private uploads are permitted while the compliance gate is closed.');
   }
