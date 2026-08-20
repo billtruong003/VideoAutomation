@@ -108,7 +108,7 @@ export function generateCandidatePool(brief) {
    * template that prepends "Tiny" produces "That Tiny Tiny Pocket". Only prepend when the
    * noun does not already carry it.
    */
-  const canPrependTiny = Boolean(n.small) && !/^(tiny|little|small)/i.test(F1);
+  const canPrependTiny = Boolean(n.small) && !/^(tiny|little|small)\b/i.test(F1);
 
   if (n.kind === 'PROPERTY') {
     /*

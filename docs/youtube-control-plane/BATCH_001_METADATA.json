@@ -1,0 +1,4369 @@
+{
+  "generatedAt": "2026-08-20T07:46:39.232Z",
+  "batch": "batch-001",
+  "playlistId": "PLGqOZxhW6Pak",
+  "publishDefaults": {
+    "privacyStatus": "private",
+    "categoryId": "27",
+    "categoryLabel": "Education",
+    "defaultLanguage": "en",
+    "defaultAudioLanguage": "en",
+    "captionLanguage": "en",
+    "license": "youtube",
+    "selfDeclaredMadeForKids": false,
+    "embeddable": true,
+    "containsSyntheticMedia": false,
+    "syntheticReasoning": "Non-realistic hand-drawn animation throughout. No photorealistic people, places or events; nothing a viewer could mistake for real footage. Narration is a synthetic voice, but not an imitation of a real identifiable person."
+  },
+  "syntheticContent": {
+    "containsSyntheticMedia": false,
+    "reviewed": true,
+    "reasoning": "Non-realistic hand-drawn animation throughout. No photorealistic people, places or events; nothing a viewer could mistake for real footage. Narration is a synthetic voice, but not an imitation of a real identifiable person.",
+    "appliesTo": "batch-001"
+  },
+  "batchHealth": {
+    "count": 10,
+    "averageScore": 84.5,
+    "minScore": 78.1,
+    "maxScore": 92,
+    "averageTitleLength": 41,
+    "familyDistribution": [
+      [
+        "QUESTION",
+        3
+      ],
+      [
+        "MECHANISM",
+        2
+      ],
+      [
+        "OBJECT_MYSTERY",
+        2
+      ],
+      [
+        "HIDDEN_REASON",
+        1
+      ],
+      [
+        "CONTRADICTION",
+        1
+      ],
+      [
+        "SHORT_DECLARATIVE",
+        1
+      ]
+    ],
+    "familyDiversity": 6,
+    "openingDistribution": [
+      [
+        "how",
+        3
+      ],
+      [
+        "that",
+        2
+      ],
+      [
+        "what",
+        2
+      ],
+      [
+        "why",
+        1
+      ],
+      [
+        "the",
+        1
+      ],
+      [
+        "your",
+        1
+      ]
+    ],
+    "repeatedKeywords": [
+      [
+        "hole",
+        2
+      ],
+      [
+        "those",
+        2
+      ],
+      [
+        "tiny",
+        2
+      ],
+      [
+        "real",
+        2
+      ]
+    ],
+    "tinyCount": 2,
+    "whyCount": 1,
+    "similarityMatrix": [
+      [
+        1,
+        0.05,
+        0.02,
+        0.08,
+        0.05,
+        0.09,
+        0.03,
+        0.03,
+        0.03,
+        0.02
+      ],
+      [
+        0.05,
+        1,
+        0.02,
+        0.08,
+        0,
+        0.11,
+        0,
+        0,
+        0.03,
+        0
+      ],
+      [
+        0.02,
+        0.02,
+        1,
+        0.04,
+        0.03,
+        0,
+        0.04,
+        0,
+        0.04,
+        0.02
+      ],
+      [
+        0.08,
+        0.08,
+        0.04,
+        1,
+        0.03,
+        0.04,
+        0.06,
+        0,
+        0.02,
+        0.02
+      ],
+      [
+        0.05,
+        0,
+        0.03,
+        0.03,
+        1,
+        0.03,
+        0.41,
+        0.05,
+        0.07,
+        0.05
+      ],
+      [
+        0.09,
+        0.11,
+        0,
+        0.04,
+        0.03,
+        1,
+        0.03,
+        0.03,
+        0,
+        0.05
+      ],
+      [
+        0.03,
+        0,
+        0.04,
+        0.06,
+        0.41,
+        0.03,
+        1,
+        0.05,
+        0.07,
+        0.05
+      ],
+      [
+        0.03,
+        0,
+        0,
+        0,
+        0.05,
+        0.03,
+        0.05,
+        1,
+        0.05,
+        0.01
+      ],
+      [
+        0.03,
+        0.03,
+        0.04,
+        0.02,
+        0.07,
+        0,
+        0.07,
+        0.05,
+        1,
+        0.03
+      ],
+      [
+        0.02,
+        0,
+        0.02,
+        0.02,
+        0.05,
+        0.05,
+        0.05,
+        0.01,
+        0.03,
+        1
+      ]
+    ],
+    "mostSimilarPairs": [
+      {
+        "a": "jeans-watch-pocket",
+        "b": "fuel-door-arrow",
+        "similarity": 0.41
+      },
+      {
+        "a": "escalator-brushes",
+        "b": "highway-lane-lines",
+        "similarity": 0.11
+      },
+      {
+        "a": "airplane-window-hole",
+        "b": "highway-lane-lines",
+        "similarity": 0.09
+      },
+      {
+        "a": "airplane-window-hole",
+        "b": "microwave-door-mesh",
+        "similarity": 0.08
+      },
+      {
+        "a": "escalator-brushes",
+        "b": "microwave-door-mesh",
+        "similarity": 0.08
+      }
+    ],
+    "spoilerWarnings": [],
+    "aiStyleWarnings": []
+  },
+  "batchObjective": {
+    "objective": 83.5,
+    "meanQuality": 84.51,
+    "repetition": {
+      "total": 0.02237291171692392,
+      "parts": {
+        "familyCost": 0,
+        "openingCost": 0,
+        "cadenceCost": 0,
+        "semanticCost": 0.11186455858461958,
+        "keywordCost": 0
+      }
+    }
+  },
+  "episodes": [
+    {
+      "contentId": "airplane-window-hole",
+      "episodeNumber": 1,
+      "title": "Why Do Airplane Windows Have That Hole?",
+      "titleScore": 83.4,
+      "grammarFamily": "QUESTION",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "airplane",
+          "windows",
+          "hole"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "That tiny hole in your airplane window is supposed to be there."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 15.5,
+            "max": 18,
+            "why": "39 chars, 7 words, 1 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 16,
+            "max": 16,
+            "why": "asks outright"
+          },
+          "promiseAlignment": {
+            "points": 4.1,
+            "max": 12,
+            "why": "0 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 6.8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 7,
+            "max": 7,
+            "why": "names an odd feature"
+          },
+          "channelFit": {
+            "points": 6,
+            "max": 6,
+            "why": "reads as a hidden-reason episode"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 6,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 1,
+            "max": 4,
+            "why": "impersonal"
+          },
+          "openLoop": {
+            "points": 4,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 83.4
+      },
+      "penalties": {
+        "applied": [],
+        "total": 0,
+        "family": "QUESTION"
+      },
+      "candidatePool": [
+        {
+          "title": "That Hole on Your Airplane Window Has a Real Job",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 85.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Hole on Your Airplane Window Has a Real Job",
+          "family": "OBJECT_MYSTERY",
+          "score": 84.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole on an Airplane Window Has a Job",
+          "family": "HIDDEN_FUNCTION",
+          "score": 84.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Airplane Windows Have That Hole?",
+          "family": "QUESTION",
+          "score": 83.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Airplane Windows Have That Hole",
+          "family": "OBSERVATION",
+          "score": 83.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Airplane Window Has a Hole You've Never Used",
+          "family": "CONTRADICTION",
+          "score": 83.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Isn't What You Think",
+          "family": "CONTRADICTION",
+          "score": 82.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Isn't a Mistake",
+          "family": "CONTRADICTION",
+          "score": 82.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Has a Real Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 82,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does an Airplane Window Use That Hole?",
+          "family": "QUESTION",
+          "score": 81.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Is That Hole on an Airplane Window For?",
+          "family": "QUESTION",
+          "score": 81.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Airplane Windows Use That Hole",
+          "family": "MECHANISM",
+          "score": 81.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How That Hole Actually Works",
+          "family": "MECHANISM",
+          "score": 81.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why That Hole Is There",
+          "family": "HIDDEN_FUNCTION",
+          "score": 81.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Hole on an Airplane Window",
+          "family": "OBJECT_MYSTERY",
+          "score": 79.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Is Doing More Than It Looks",
+          "family": "HIDDEN_FUNCTION",
+          "score": 79.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Hidden Reason Airplane Windows Have That Hole",
+          "family": "HIDDEN_REASON",
+          "score": 77.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Odd Little Hole Nobody Explains",
+          "family": "OBJECT_MYSTERY",
+          "score": 77,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason That Hole Is There",
+          "family": "HIDDEN_REASON",
+          "score": 75.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Is Deliberate",
+          "family": "SHORT_DECLARATIVE",
+          "score": 75,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Is Doing Something",
+          "family": "HIDDEN_FUNCTION",
+          "score": 74.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Airplane Window: That Hole Is on Purpose",
+          "family": "SHORT_DECLARATIVE",
+          "score": 71.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Airplane Windows Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 62.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Airplane Windows Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 60.3,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "That tiny hole in your airplane window is supposed to be there. It helps manage the pressure between the layers, so the outer structural pane takes most of the pressure difference while you're flying at altitude.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [],
+        "errors": 0,
+        "warnings": 0,
+        "bytes": 212,
+        "chars": 212,
+        "sentences": 2,
+        "hasCta": false
+      },
+      "descriptionChars": 212,
+      "tags": [
+        "airplane window hole",
+        "airplane windows",
+        "window hole",
+        "pressure",
+        "breather hole",
+        "why airplane windows have hole",
+        "hole on airplane windows",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 9,
+      "tagBudget": 174,
+      "tagLint": {
+        "issues": [],
+        "budget": 174,
+        "budgetLimit": 500,
+        "budgetPct": 35,
+        "count": 9,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "airplane window hole",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "airplane windows",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "window hole",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "pressure",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "breather hole",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "why airplane windows have hole",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "hole on airplane windows",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:e7e29db06f4edbc940ad7e7b8673ab5185ee98a31f49536eb1c7a0e8cc82a42d",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "escalator-brushes",
+      "episodeNumber": 2,
+      "title": "How Does an Escalator Use Those Brushes?",
+      "titleScore": 88.1,
+      "grammarFamily": "QUESTION",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "escalator",
+          "brushes"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "Those brushes on the side of an escalator are not there to clean your shoes."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "40 chars, 7 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 16,
+            "max": 16,
+            "why": "asks outright"
+          },
+          "promiseAlignment": {
+            "points": 8.6,
+            "max": 12,
+            "why": "2 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 7,
+            "max": 7,
+            "why": "names an odd feature"
+          },
+          "channelFit": {
+            "points": 4,
+            "max": 6,
+            "why": "generic framing"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 6,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 1,
+            "max": 4,
+            "why": "impersonal"
+          },
+          "openLoop": {
+            "points": 4,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 89.6
+      },
+      "penalties": {
+        "applied": [
+          {
+            "id": "OPENING_PHRASE_REPETITION",
+            "label": "Opening phrase repeated",
+            "points": 1.5,
+            "why": "2 recent titles start with \"how\""
+          }
+        ],
+        "total": 1.5,
+        "family": "QUESTION"
+      },
+      "candidatePool": [
+        {
+          "title": "How Does an Escalator Use Those Brushes?",
+          "family": "QUESTION",
+          "score": 89.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Are Those Brushes on an Escalator For?",
+          "family": "QUESTION",
+          "score": 87.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Brushes on an Escalator Have a Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 83.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Escalator: Those Brushes Are on Purpose",
+          "family": "SHORT_DECLARATIVE",
+          "score": 77.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Those Brushes Actually Works",
+          "family": "MECHANISM",
+          "score": 74.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Escalators Have Those Brushes?",
+          "family": "QUESTION",
+          "score": 71.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Escalators Use Those Brushes",
+          "family": "MECHANISM",
+          "score": 71.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Escalators Have Those Brushes",
+          "family": "OBSERVATION",
+          "score": 71.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Those Brushes Are There",
+          "family": "OBSERVATION",
+          "score": 71.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Brushes Aren't What You Think",
+          "family": "CONTRADICTION",
+          "score": 67.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Brushes Aren't a Mistake",
+          "family": "CONTRADICTION",
+          "score": 67.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Hidden Reason Escalators Have Those Brushes",
+          "family": "HIDDEN_REASON",
+          "score": 64.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Brushes Are Doing More Than It Looks",
+          "family": "UNEXPECTED_FACT",
+          "score": 64.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason Those Brushes Are There",
+          "family": "HIDDEN_REASON",
+          "score": 64.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Brushes Have a Real Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 64,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Odd Little Brushes Nobody Explains",
+          "family": "SHORT_DECLARATIVE",
+          "score": 62.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Nothing About Those Brushes Is Accidental",
+          "family": "SHORT_DECLARATIVE",
+          "score": 60.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Brushes Are Deliberate",
+          "family": "SHORT_DECLARATIVE",
+          "score": 60,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Brushes Are Doing Something",
+          "family": "SHORT_DECLARATIVE",
+          "score": 59.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Escalators Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 58.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Escalators Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 56.5,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "Those brushes on the side of an escalator are not there to clean your shoes. Basically, every time you rub your shoe against one because it feels nice, the escalator is politely asking you to stop standing next to the part that can eat it.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          }
+        ],
+        "errors": 0,
+        "warnings": 1,
+        "bytes": 239,
+        "chars": 239,
+        "sentences": 2,
+        "hasCta": false
+      },
+      "descriptionChars": 239,
+      "tags": [
+        "escalator brushes",
+        "escalators",
+        "why escalators have brushes",
+        "brushes on escalators",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 6,
+      "tagBudget": 118,
+      "tagLint": {
+        "issues": [],
+        "budget": 118,
+        "budgetLimit": 500,
+        "budgetPct": 24,
+        "count": 6,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "escalator brushes",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "escalators",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "why escalators have brushes",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "brushes on escalators",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:1746f33a80ebcc5a945b1808a16d419350154d70506d9f32e43537a0f0b4086c",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "gas-pump-shutoff",
+      "episodeNumber": 3,
+      "title": "How a Gas Pump Knows Your Tank Is Full",
+      "titleScore": 78.5,
+      "grammarFamily": "MECHANISM",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "gas",
+          "pump",
+          "tank",
+          "full"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "Your gas pump knows when your tank is full without talking to your car."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "38 chars, 9 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 14,
+            "max": 16,
+            "why": "asks outright"
+          },
+          "promiseAlignment": {
+            "points": 4,
+            "max": 12,
+            "why": "0 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 3,
+            "max": 7,
+            "why": "nothing unusual foregrounded"
+          },
+          "channelFit": {
+            "points": 4,
+            "max": 6,
+            "why": "generic framing"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 4,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 4,
+            "max": 4,
+            "why": "second person fits the object"
+          },
+          "openLoop": {
+            "points": 4,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 80
+      },
+      "penalties": {
+        "applied": [
+          {
+            "id": "OPENING_PHRASE_REPETITION",
+            "label": "Opening phrase repeated",
+            "points": 1.5,
+            "why": "2 recent titles start with \"how\""
+          }
+        ],
+        "total": 1.5,
+        "family": "MECHANISM"
+      },
+      "candidatePool": [
+        {
+          "title": "The Hidden Reason Gas Pumps Have That Nozzle",
+          "family": "HIDDEN_REASON",
+          "score": 80,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How a Gas Pump Knows Your Tank Is Full",
+          "family": "MECHANISM",
+          "score": 80,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Gas Pumps Have That Nozzle?",
+          "family": "QUESTION",
+          "score": 78,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Gas Pumps Have That Nozzle",
+          "family": "OBSERVATION",
+          "score": 78,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Nozzle on a Gas Pump Has a Job",
+          "family": "HIDDEN_FUNCTION",
+          "score": 77.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Odd Little Nozzle Nobody Explains",
+          "family": "OBJECT_MYSTERY",
+          "score": 76.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does a Gas Pump Use That Nozzle?",
+          "family": "QUESTION",
+          "score": 76,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Gas Pumps Use That Nozzle",
+          "family": "MECHANISM",
+          "score": 76,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Is That Nozzle on a Gas Pump For?",
+          "family": "QUESTION",
+          "score": 75.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Nozzle on Your Tank Has a Real Job",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 75.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How That Nozzle Actually Works",
+          "family": "MECHANISM",
+          "score": 75,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Tank Has a Nozzle You've Never Used",
+          "family": "CONTRADICTION",
+          "score": 73.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why That Nozzle Is There",
+          "family": "HIDDEN_FUNCTION",
+          "score": 73,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Nothing in a Gas Pump Is Talking to Your Car",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 73,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Nozzle Has a Real Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 72.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason That Nozzle Is There",
+          "family": "HIDDEN_REASON",
+          "score": 66,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does a Gas Pump Know When to Stop?",
+          "family": "QUESTION",
+          "score": 62.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Gas Pumps Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 60.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Gas Pump Knows When to Stop, Without Any Electronics",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 51.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Gas Pumps Know When to Stop",
+          "family": "MECHANISM",
+          "score": 50.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Nozzle Is Doing Something",
+          "family": "HIDDEN_FUNCTION",
+          "score": null,
+          "rejected": true,
+          "failedGates": [
+            "FACTUAL_SUPPORT"
+          ]
+        },
+        {
+          "title": "That Nozzle Isn't What You Think",
+          "family": "CONTRADICTION",
+          "score": null,
+          "rejected": true,
+          "failedGates": [
+            "FACTUAL_SUPPORT"
+          ]
+        },
+        {
+          "title": "That Nozzle Isn't a Mistake",
+          "family": "CONTRADICTION",
+          "score": null,
+          "rejected": true,
+          "failedGates": [
+            "FACTUAL_SUPPORT"
+          ]
+        },
+        {
+          "title": "That Nozzle Is Doing More Than It Looks",
+          "family": "HIDDEN_FUNCTION",
+          "score": null,
+          "rejected": true,
+          "failedGates": [
+            "FACTUAL_SUPPORT"
+          ]
+        }
+      ],
+      "description": "Your gas pump knows when your tank is full without talking to your car. That pressure change triggers a mechanical diaphragm inside the nozzle and click.\n\nMore hidden reasons behind everyday things on Bill Finds Out.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "UNIFORM_CADENCE",
+            "message": "Every sentence is nearly the same length",
+            "hint": "Vary the rhythm. Identical cadence reads as generated."
+          },
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          }
+        ],
+        "errors": 0,
+        "warnings": 2,
+        "bytes": 216,
+        "chars": 216,
+        "sentences": 3,
+        "hasCta": true
+      },
+      "descriptionChars": 216,
+      "tags": [
+        "gas pump shutoff",
+        "gas pumps",
+        "gas pump nozzle",
+        "pump shutoff",
+        "pressure",
+        "air pressure",
+        "diaphragm",
+        "valve",
+        "why gas pumps have nozzle",
+        "nozzle on gas pumps",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 12,
+      "tagBudget": 187,
+      "tagLint": {
+        "issues": [],
+        "budget": 187,
+        "budgetLimit": 500,
+        "budgetPct": 37,
+        "count": 12,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "gas pump shutoff",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "gas pumps",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "gas pump nozzle",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "pump shutoff",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "pressure",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "air pressure",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "diaphragm",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "valve",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "why gas pumps have nozzle",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "nozzle on gas pumps",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:2c20143dfeaa4aa35a8937c60e0c6851195656102bf79e49275868962cef03b1",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "microwave-door-mesh",
+      "episodeNumber": 4,
+      "title": "How Microwave Doors Use That Mesh",
+      "titleScore": 84.7,
+      "grammarFamily": "MECHANISM",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "microwave",
+          "doors",
+          "mesh"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "Why can you see through a microwave door if the microwaves are supposed to stay trapped inside?"
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 15.5,
+            "max": 18,
+            "why": "33 chars, 6 words, 1 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 16,
+            "max": 16,
+            "why": "asks outright"
+          },
+          "promiseAlignment": {
+            "points": 8.9,
+            "max": 12,
+            "why": "2 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 6.8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 7,
+            "max": 7,
+            "why": "names an odd feature"
+          },
+          "channelFit": {
+            "points": 4,
+            "max": 6,
+            "why": "generic framing"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 6,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 1,
+            "max": 4,
+            "why": "impersonal"
+          },
+          "openLoop": {
+            "points": 4,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 86.2
+      },
+      "penalties": {
+        "applied": [
+          {
+            "id": "OPENING_PHRASE_REPETITION",
+            "label": "Opening phrase repeated",
+            "points": 1.5,
+            "why": "2 recent titles start with \"how\""
+          }
+        ],
+        "total": 1.5,
+        "family": "MECHANISM"
+      },
+      "candidatePool": [
+        {
+          "title": "That Mesh on Your Microwave Door Has a Real Job",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 87.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Mesh on a Microwave Door Has a Job",
+          "family": "HIDDEN_FUNCTION",
+          "score": 86.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does a Microwave Door Use That Mesh?",
+          "family": "QUESTION",
+          "score": 86.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Microwave Doors Use That Mesh",
+          "family": "MECHANISM",
+          "score": 86.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Microwave Doors Have That Mesh?",
+          "family": "QUESTION",
+          "score": 85.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Microwave Doors Have That Mesh",
+          "family": "OBSERVATION",
+          "score": 85.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Microwave Door Has a Mesh You've Never Used",
+          "family": "CONTRADICTION",
+          "score": 85.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Mesh Isn't What You Think",
+          "family": "CONTRADICTION",
+          "score": 85.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Mesh Isn't a Mistake",
+          "family": "CONTRADICTION",
+          "score": 84.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Mesh Is Doing More Than It Looks",
+          "family": "HIDDEN_FUNCTION",
+          "score": 84.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Mesh Has a Real Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 84.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why That Mesh Is There",
+          "family": "HIDDEN_FUNCTION",
+          "score": 84.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Is That Mesh on a Microwave Door For?",
+          "family": "QUESTION",
+          "score": 83.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How That Mesh Actually Works",
+          "family": "MECHANISM",
+          "score": 83.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Mesh Is Doing Something",
+          "family": "HIDDEN_FUNCTION",
+          "score": 82,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Hidden Reason Microwave Doors Have That Mesh",
+          "family": "HIDDEN_REASON",
+          "score": 79.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Odd Little Mesh Nobody Explains",
+          "family": "OBJECT_MYSTERY",
+          "score": 79.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason That Mesh Is There",
+          "family": "HIDDEN_REASON",
+          "score": 78.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Mesh Is Deliberate",
+          "family": "SHORT_DECLARATIVE",
+          "score": 78.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Nothing About That Mesh Is Accidental",
+          "family": "SHORT_DECLARATIVE",
+          "score": 74.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Microwave Door: That Mesh Is on Purpose",
+          "family": "SHORT_DECLARATIVE",
+          "score": 73.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Microwave Doors Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 72.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Microwave Doors Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 72,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "Why can you see through a microwave door if the microwaves are supposed to stay trapped inside? Because that black metal mesh is doing something clever.\n\nBill Finds Out: the reasons behind ordinary things.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          },
+          {
+            "severity": "warn",
+            "code": "TRANSCRIPT_DUMP",
+            "message": "74% of this is one run lifted from the narration.",
+            "hint": "Quoting the reveal is fine; pasting the script adds nothing the video does not already say."
+          }
+        ],
+        "errors": 0,
+        "warnings": 2,
+        "bytes": 205,
+        "chars": 205,
+        "sentences": 3,
+        "hasCta": true
+      },
+      "descriptionChars": 205,
+      "tags": [
+        "microwave door mesh",
+        "microwave doors",
+        "door mesh",
+        "wavelength",
+        "conductive",
+        "mesh",
+        "microwave",
+        "why microwave doors have mesh",
+        "mesh on microwave doors",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 11,
+      "tagBudget": 180,
+      "tagLint": {
+        "issues": [],
+        "budget": 180,
+        "budgetLimit": 500,
+        "budgetPct": 36,
+        "count": 11,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "microwave door mesh",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "microwave doors",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "door mesh",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "wavelength",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "conductive",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "mesh",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "microwave",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "why microwave doors have mesh",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "mesh on microwave doors",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:6da7458682f5ffdec90d0ed2f41f6c33212faf5ac08d4857106c6632ace6b406",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "jeans-watch-pocket",
+      "episodeNumber": 5,
+      "title": "That Tiny Pocket on Your Jeans Has a Real Job",
+      "titleScore": 89,
+      "grammarFamily": "OBJECT_MYSTERY",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "pocket",
+          "jeans"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "Your jeans have a pocket designed for a gadget from the 1800s."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "45 chars, 10 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 14,
+            "max": 16,
+            "why": "names the thing, withholds the reason"
+          },
+          "promiseAlignment": {
+            "points": 9,
+            "max": 12,
+            "why": "2 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 7,
+            "max": 7,
+            "why": "names an odd feature"
+          },
+          "channelFit": {
+            "points": 6,
+            "max": 6,
+            "why": "reads as a hidden-reason episode"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 6,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 4,
+            "max": 4,
+            "why": "second person fits the object"
+          },
+          "openLoop": {
+            "points": 3,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 92
+      },
+      "penalties": {
+        "applied": [
+          {
+            "id": "OPENING_PHRASE_REPETITION",
+            "label": "Opening phrase repeated",
+            "points": 3,
+            "why": "1 recent title open \"that tiny…\""
+          }
+        ],
+        "total": 3,
+        "family": "OBJECT_MYSTERY"
+      },
+      "candidatePool": [
+        {
+          "title": "That Tiny Pocket on Your Jeans Has a Real Job",
+          "family": "OBJECT_MYSTERY",
+          "score": 92,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Jeans Has a Tiny Pocket You've Never Used",
+          "family": "CONTRADICTION",
+          "score": 89.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does a Pair Of Jeans Use That Tiny Pocket?",
+          "family": "QUESTION",
+          "score": 87.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Jeans Use That Tiny Pocket",
+          "family": "MECHANISM",
+          "score": 87.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Pocket on a Pair Of Jeans Has a Job",
+          "family": "HIDDEN_FUNCTION",
+          "score": 87.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Jeans Have That Tiny Pocket?",
+          "family": "QUESTION",
+          "score": 87.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Jeans Have That Tiny Pocket",
+          "family": "OBSERVATION",
+          "score": 87.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Pocket Has a Real Job",
+          "family": "OBJECT_MYSTERY",
+          "score": 86.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Pocket Isn't What You Think",
+          "family": "CONTRADICTION",
+          "score": 86.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Pocket Isn't a Mistake",
+          "family": "CONTRADICTION",
+          "score": 86.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Odd Little Tiny Pocket Nobody Explains",
+          "family": "OBJECT_MYSTERY",
+          "score": 85.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How That Tiny Pocket Actually Works",
+          "family": "MECHANISM",
+          "score": 85.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why That Tiny Pocket Is There",
+          "family": "HIDDEN_FUNCTION",
+          "score": 85.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Pocket Is Doing More Than It Looks",
+          "family": "HIDDEN_FUNCTION",
+          "score": 85.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Is That Tiny Pocket on a Pair Of Jeans For?",
+          "family": "QUESTION",
+          "score": 85.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Hidden Reason Jeans Have That Tiny Pocket",
+          "family": "HIDDEN_REASON",
+          "score": 81.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason That Tiny Pocket Is There",
+          "family": "HIDDEN_REASON",
+          "score": 79.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Pocket Is Deliberate",
+          "family": "OBJECT_MYSTERY",
+          "score": 79.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Pocket Is Doing Something",
+          "family": "HIDDEN_FUNCTION",
+          "score": 78.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Nothing About That Tiny Pocket Is Accidental",
+          "family": "SHORT_DECLARATIVE",
+          "score": 75.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Pair Of Jeans: That Tiny Pocket Is on Purpose",
+          "family": "SHORT_DECLARATIVE",
+          "score": 75.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Jeans Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 74.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Jeans Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 74.3,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "Your jeans have a pocket designed for a gadget from the 1800s. So that useless little compartment on your jeans is basically a tiny fossil from a technology nobody carries anymore.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          }
+        ],
+        "errors": 0,
+        "warnings": 1,
+        "bytes": 180,
+        "chars": 180,
+        "sentences": 2,
+        "hasCta": false
+      },
+      "descriptionChars": 180,
+      "tags": [
+        "jeans watch pocket",
+        "jeans",
+        "watch pocket",
+        "why jeans have tiny pocket",
+        "tiny pocket on jeans",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 7,
+      "tagBudget": 127,
+      "tagLint": {
+        "issues": [],
+        "budget": 127,
+        "budgetLimit": 500,
+        "budgetPct": 25,
+        "count": 7,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "jeans watch pocket",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "jeans",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "watch pocket",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "why jeans have tiny pocket",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "tiny pocket on jeans",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:44b05ca1ce7d63c6c25e7123a22bcc36964429c068505ad87d1ffbe9a9423649",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "highway-lane-lines",
+      "episodeNumber": 6,
+      "title": "What Are Those Lane Lines on a Highway For?",
+      "titleScore": 79.1,
+      "grammarFamily": "QUESTION",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "lane",
+          "lines",
+          "highway"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "Those tiny dashed lines on the highway are much bigger than your brain thinks."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "43 chars, 9 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 14,
+            "max": 16,
+            "why": "asks outright"
+          },
+          "promiseAlignment": {
+            "points": 6.1,
+            "max": 12,
+            "why": "1 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 3,
+            "max": 7,
+            "why": "nothing unusual foregrounded"
+          },
+          "channelFit": {
+            "points": 4,
+            "max": 6,
+            "why": "generic framing"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 4,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 1,
+            "max": 4,
+            "why": "impersonal"
+          },
+          "openLoop": {
+            "points": 4,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 79.1
+      },
+      "penalties": {
+        "applied": [],
+        "total": 0,
+        "family": "QUESTION"
+      },
+      "candidatePool": [
+        {
+          "title": "Those Tiny Lane Lines on a Highway",
+          "family": "SHORT_DECLARATIVE",
+          "score": 81.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does a Highway Use Those Lane Lines?",
+          "family": "QUESTION",
+          "score": 79.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Are Those Lane Lines on a Highway For?",
+          "family": "QUESTION",
+          "score": 79.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Highway Lane Lines Are Much Bigger Than Your Brain Thinks",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 78.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "You Have No Idea How Long a Lane Line Is",
+          "family": "SHORT_DECLARATIVE",
+          "score": 76.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Dashes on the Highway Are Way Bigger Than You Think",
+          "family": "UNEXPECTED_FACT",
+          "score": 74.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Highway Lane Lines Are Way Longer Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 74.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Lane Lines on a Highway Have a Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 74.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Sense of Scale on a Highway Is Completely Wrong",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 74.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Hidden Reason Highways Have Those Lane Lines",
+          "family": "HIDDEN_REASON",
+          "score": 70.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Those Lane Lines Actually Works",
+          "family": "MECHANISM",
+          "score": 69.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Odd Little Lane Lines Nobody Explains",
+          "family": "SHORT_DECLARATIVE",
+          "score": 68.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Those Lane Lines Are There",
+          "family": "OBSERVATION",
+          "score": 66.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Highways Have Those Lane Lines?",
+          "family": "QUESTION",
+          "score": 66.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Highways Have Those Lane Lines",
+          "family": "OBSERVATION",
+          "score": 66.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Lane Lines Are Doing More Than It Looks",
+          "family": "UNEXPECTED_FACT",
+          "score": 64.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Highways Use Those Lane Lines",
+          "family": "MECHANISM",
+          "score": 64.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Lane Lines Aren't a Mistake",
+          "family": "CONTRADICTION",
+          "score": 62.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Lane Lines Aren't What You Think",
+          "family": "CONTRADICTION",
+          "score": 62.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason Those Lane Lines Are There",
+          "family": "HIDDEN_REASON",
+          "score": 59.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Lane Lines Have a Real Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 59.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Highways Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 58.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Highways Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 56.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Those Lane Lines Are Doing Something",
+          "family": "SHORT_DECLARATIVE",
+          "score": 54.4,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "Those tiny dashed lines on the highway are much bigger than your brain thinks. In the United States, a standard broken lane marking is typically about 10 feet long, and the gap after it is around 30 feet.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          },
+          {
+            "severity": "warn",
+            "code": "TRANSCRIPT_DUMP",
+            "message": "100% of this is one run lifted from the narration.",
+            "hint": "Quoting the reveal is fine; pasting the script adds nothing the video does not already say."
+          }
+        ],
+        "errors": 0,
+        "warnings": 2,
+        "bytes": 204,
+        "chars": 204,
+        "sentences": 2,
+        "hasCta": false
+      },
+      "descriptionChars": 204,
+      "tags": [
+        "highway lane lines",
+        "highways",
+        "lane lines",
+        "perspective",
+        "lane marking",
+        "why highways have lane lines",
+        "lane lines on highways",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 9,
+      "tagBudget": 159,
+      "tagLint": {
+        "issues": [],
+        "budget": 159,
+        "budgetLimit": 500,
+        "budgetPct": 32,
+        "count": 9,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "highway lane lines",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "highways",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "lane lines",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "perspective",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "lane marking",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "why highways have lane lines",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "lane lines on highways",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:d768e7fb0bc3d5133240026bd31cd51d8f92fa9d9e303f3606f79e113001c194",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "fuel-door-arrow",
+      "episodeNumber": 7,
+      "title": "That Tiny Arrow on Your Car Has a Real Job",
+      "titleScore": 86.1,
+      "grammarFamily": "OBJECT_MYSTERY",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "arrow",
+          "car"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "On many cars, there's a tiny arrow or triangle beside it."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "42 chars, 10 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 14,
+            "max": 16,
+            "why": "names the thing, withholds the reason"
+          },
+          "promiseAlignment": {
+            "points": 6.1,
+            "max": 12,
+            "why": "1 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 7,
+            "max": 7,
+            "why": "names an odd feature"
+          },
+          "channelFit": {
+            "points": 6,
+            "max": 6,
+            "why": "reads as a hidden-reason episode"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 6,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 4,
+            "max": 4,
+            "why": "second person fits the object"
+          },
+          "openLoop": {
+            "points": 3,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 89.1
+      },
+      "penalties": {
+        "applied": [
+          {
+            "id": "OPENING_PHRASE_REPETITION",
+            "label": "Opening phrase repeated",
+            "points": 3,
+            "why": "1 recent title open \"that tiny…\""
+          }
+        ],
+        "total": 3,
+        "family": "OBJECT_MYSTERY"
+      },
+      "candidatePool": [
+        {
+          "title": "That Tiny Arrow on Your Car Has a Real Job",
+          "family": "OBJECT_MYSTERY",
+          "score": 89.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow on Your Car Has a Real Job",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 87.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow on a Fuel Gauge Has a Job",
+          "family": "HIDDEN_FUNCTION",
+          "score": 84.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Fuel Gauges Have That Arrow?",
+          "family": "QUESTION",
+          "score": 83.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Fuel Gauges Have That Arrow",
+          "family": "OBSERVATION",
+          "score": 83.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow Isn't What You Think",
+          "family": "CONTRADICTION",
+          "score": 82.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow Isn't a Mistake",
+          "family": "CONTRADICTION",
+          "score": 82.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow Has a Real Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 82,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does a Fuel Gauge Use That Arrow?",
+          "family": "QUESTION",
+          "score": 81.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Fuel Gauges Use That Arrow",
+          "family": "MECHANISM",
+          "score": 81.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Is That Arrow on a Fuel Gauge For?",
+          "family": "QUESTION",
+          "score": 81.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How That Arrow Actually Works",
+          "family": "MECHANISM",
+          "score": 81.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why That Arrow Is There",
+          "family": "HIDDEN_FUNCTION",
+          "score": 81.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Arrow on a Fuel Gauge",
+          "family": "OBJECT_MYSTERY",
+          "score": 81.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow Is Doing More Than It Looks",
+          "family": "HIDDEN_FUNCTION",
+          "score": 79.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Hidden Reason Fuel Gauges Have That Arrow",
+          "family": "HIDDEN_REASON",
+          "score": 77.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Odd Little Arrow Nobody Explains",
+          "family": "OBJECT_MYSTERY",
+          "score": 77,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason That Arrow Is There",
+          "family": "HIDDEN_REASON",
+          "score": 75.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow Is Deliberate",
+          "family": "SHORT_DECLARATIVE",
+          "score": 75,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Arrow Is Doing Something",
+          "family": "HIDDEN_FUNCTION",
+          "score": 74.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Fuel Gauge: That Arrow Is on Purpose",
+          "family": "SHORT_DECLARATIVE",
+          "score": 71.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Fuel Gauges Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 60.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Fuel Gauges Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 60.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Car Has a Arrow You've Never Used",
+          "family": "CONTRADICTION",
+          "score": null,
+          "rejected": true,
+          "failedGates": [
+            "GRAMMAR_VALID"
+          ]
+        }
+      ],
+      "description": "Your car may have been answering this question your entire life. Manufacturers don't all put fuel doors on the same side, so this tiny symbol saves you from guessing, which means every time you pulled into a gas station, chose the wrong pump, reversed, and tried again, the answer may have been glowing directly in front of your face.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "RULE_OF_THREE",
+            "message": "Three-item list rhythm",
+            "hint": "The \"simple, clever, and surprising\" cadence is a strong AI tell."
+          },
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          },
+          {
+            "severity": "warn",
+            "code": "TRANSCRIPT_DUMP",
+            "message": "79% of this is one run lifted from the narration.",
+            "hint": "Quoting the reveal is fine; pasting the script adds nothing the video does not already say."
+          },
+          {
+            "severity": "warn",
+            "code": "DESC_OVER_HOUSE_LENGTH",
+            "message": "334 characters (house style is under about 250)."
+          }
+        ],
+        "errors": 0,
+        "warnings": 4,
+        "bytes": 334,
+        "chars": 334,
+        "sentences": 2,
+        "hasCta": false
+      },
+      "descriptionChars": 334,
+      "tags": [
+        "fuel door arrow",
+        "fuel gauges",
+        "fuel gauge arrow",
+        "door arrow",
+        "why fuel gauges have arrow",
+        "arrow on fuel gauges",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 8,
+      "tagBudget": 149,
+      "tagLint": {
+        "issues": [],
+        "budget": 149,
+        "budgetLimit": 500,
+        "budgetPct": 30,
+        "count": 8,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "fuel door arrow",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "fuel gauges",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "fuel gauge arrow",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "door arrow",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "why fuel gauges have arrow",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "arrow on fuel gauges",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:6a5a8840116dbb4f568ccee7f29e182d8d3e1b39b06ffd503180a7e28fb0f0bd",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "round-manhole-covers",
+      "episodeNumber": 8,
+      "title": "The Hidden Reason Manhole Covers Are Round",
+      "titleScore": 78.2,
+      "grammarFamily": "HIDDEN_REASON",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "manhole",
+          "covers",
+          "round"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "A round manhole cover can do something surprisingly important: stay above the manhole."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "42 chars, 7 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 11,
+            "max": 16,
+            "why": "names the thing, withholds the reason"
+          },
+          "promiseAlignment": {
+            "points": 4.2,
+            "max": 12,
+            "why": "0 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 7,
+            "max": 7,
+            "why": "names an odd feature"
+          },
+          "channelFit": {
+            "points": 6,
+            "max": 6,
+            "why": "reads as a hidden-reason episode"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 3,
+            "max": 6,
+            "why": "no verifiable observation"
+          },
+          "personalRelevance": {
+            "points": 1,
+            "max": 4,
+            "why": "impersonal"
+          },
+          "openLoop": {
+            "points": 3,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 78.2
+      },
+      "penalties": {
+        "applied": [],
+        "total": 0,
+        "family": "HIDDEN_REASON"
+      },
+      "candidatePool": [
+        {
+          "title": "The Hidden Reason Manhole Covers Are Round",
+          "family": "HIDDEN_REASON",
+          "score": 78.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Are Manhole Covers Round?",
+          "family": "QUESTION",
+          "score": 76.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Manhole Covers Are Round",
+          "family": "OBSERVATION",
+          "score": 76.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Manhole Covers Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 74.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Manhole Covers Aren't Round for the Reason You Think",
+          "family": "CONTRADICTION",
+          "score": 74.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Being Round Changes What Manhole Covers Can Do",
+          "family": "MECHANISM",
+          "score": 74.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Manhole Covers Are More Deliberate Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 72.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Manhole Covers Aren't Round by Accident",
+          "family": "CONTRADICTION",
+          "score": 72.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Manhole Covers Is Round on Purpose",
+          "family": "SHORT_DECLARATIVE",
+          "score": 69.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason Manhole Covers Are Round",
+          "family": "HIDDEN_REASON",
+          "score": 69.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Point of Round Manhole Covers",
+          "family": "SHORT_DECLARATIVE",
+          "score": 67.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Manhole Covers Are Built Around One Shape",
+          "family": "SHORT_DECLARATIVE",
+          "score": 67.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Being Round Is What Makes Manhole Covers Work",
+          "family": "SHORT_DECLARATIVE",
+          "score": 67.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Nothing About Manhole Covers Being Round Is Accidental",
+          "family": "SHORT_DECLARATIVE",
+          "score": 65.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Manhole Cover: Being Round Is the Whole Point",
+          "family": "SHORT_DECLARATIVE",
+          "score": 60.9,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "A round manhole cover can do something surprisingly important: stay above the manhole. So engineers didn't choose the circle because it looks nice.\n\nMore everyday objects, explained properly.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          }
+        ],
+        "errors": 0,
+        "warnings": 1,
+        "bytes": 191,
+        "chars": 191,
+        "sentences": 3,
+        "hasCta": true
+      },
+      "descriptionChars": 191,
+      "tags": [
+        "round manhole covers",
+        "manhole covers",
+        "manhole",
+        "why manhole covers are round",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 6,
+      "tagBudget": 112,
+      "tagLint": {
+        "issues": [],
+        "budget": 112,
+        "budgetLimit": 500,
+        "budgetPct": 22,
+        "count": 6,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "round manhole covers",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "manhole covers",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "manhole",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "why manhole covers are round",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:963e8192ea3ac2b8e49d38cf385aa2ba48fcae30d67bb4f23f0c0d5fa4d5a8ca",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "pen-cap-hole",
+      "episodeNumber": 9,
+      "title": "Your Pen Cap Has a Hole You've Never Used",
+      "titleScore": 89.4,
+      "grammarFamily": "CONTRADICTION",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "pen",
+          "cap",
+          "hole"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "That tiny hole in some pen caps can serve a much more serious purpose than you'd expect."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "41 chars, 9 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 14,
+            "max": 16,
+            "why": "names the thing, withholds the reason"
+          },
+          "promiseAlignment": {
+            "points": 8.4,
+            "max": 12,
+            "why": "2 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 7,
+            "max": 7,
+            "why": "names an odd feature"
+          },
+          "channelFit": {
+            "points": 4,
+            "max": 6,
+            "why": "generic framing"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 6,
+            "max": 6,
+            "why": "points at something the viewer has seen"
+          },
+          "personalRelevance": {
+            "points": 4,
+            "max": 4,
+            "why": "second person fits the object"
+          },
+          "openLoop": {
+            "points": 3,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 1,
+            "max": 3,
+            "why": "flat statement"
+          }
+        },
+        "raw": 89.4
+      },
+      "penalties": {
+        "applied": [],
+        "total": 0,
+        "family": "CONTRADICTION"
+      },
+      "candidatePool": [
+        {
+          "title": "That Hole on Your Pen Cap Has a Real Job",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 91.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Hole on Your Pen Cap Has a Real Job",
+          "family": "OBJECT_MYSTERY",
+          "score": 90.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Your Pen Cap Has a Hole You've Never Used",
+          "family": "CONTRADICTION",
+          "score": 89.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole on a Pen Cap Has a Job",
+          "family": "HIDDEN_FUNCTION",
+          "score": 88.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Pen Caps Have That Hole?",
+          "family": "QUESTION",
+          "score": 87.8,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Pen Caps Have That Hole",
+          "family": "OBSERVATION",
+          "score": 87.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Is That Hole on a Pen Cap For?",
+          "family": "QUESTION",
+          "score": 85.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Pen Caps Use That Hole",
+          "family": "MECHANISM",
+          "score": 85.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How Does a Pen Cap Use That Hole?",
+          "family": "QUESTION",
+          "score": 85.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Tiny Hole on a Pen Cap",
+          "family": "OBJECT_MYSTERY",
+          "score": 83.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Isn't a Mistake",
+          "family": "CONTRADICTION",
+          "score": 82.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Has a Real Job",
+          "family": "SHORT_DECLARATIVE",
+          "score": 82.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Isn't What You Think",
+          "family": "CONTRADICTION",
+          "score": 82,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why That Hole Is There",
+          "family": "HIDDEN_FUNCTION",
+          "score": 81.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Hidden Reason Pen Caps Have That Hole",
+          "family": "HIDDEN_REASON",
+          "score": 81.7,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How That Hole Actually Works",
+          "family": "MECHANISM",
+          "score": 81.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Is Doing More Than It Looks",
+          "family": "HIDDEN_FUNCTION",
+          "score": 79.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Odd Little Hole Nobody Explains",
+          "family": "OBJECT_MYSTERY",
+          "score": 77,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Pen Caps Aren't Built the Way You'd Guess",
+          "family": "CONTRADICTION",
+          "score": 76.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Pen Caps Are Stranger Than They Look",
+          "family": "UNEXPECTED_FACT",
+          "score": 76.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason That Hole Is There",
+          "family": "HIDDEN_REASON",
+          "score": 75.9,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Pen Cap: That Hole Is on Purpose",
+          "family": "SHORT_DECLARATIVE",
+          "score": 75.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Is Deliberate",
+          "family": "SHORT_DECLARATIVE",
+          "score": 75,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Hole Is Doing Something",
+          "family": "HIDDEN_FUNCTION",
+          "score": 74.1,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "That tiny hole in some pen caps can serve a much more serious purpose than you'd expect. On vented caps, such as the Bic Cristal, the opening is there for safety.\n\nMore hidden reasons behind everyday things on Bill Finds Out.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "UNIFORM_CADENCE",
+            "message": "Every sentence is nearly the same length",
+            "hint": "Vary the rhythm. Identical cadence reads as generated."
+          },
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          },
+          {
+            "severity": "warn",
+            "code": "TRANSCRIPT_DUMP",
+            "message": "72% of this is one run lifted from the narration.",
+            "hint": "Quoting the reveal is fine; pasting the script adds nothing the video does not already say."
+          }
+        ],
+        "errors": 0,
+        "warnings": 3,
+        "bytes": 225,
+        "chars": 225,
+        "sentences": 3,
+        "hasCta": true
+      },
+      "descriptionChars": 225,
+      "tags": [
+        "pen cap hole",
+        "pen caps",
+        "cap hole",
+        "vent",
+        "safety",
+        "airway",
+        "why pen caps have hole",
+        "hole on pen caps",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 10,
+      "tagBudget": 133,
+      "tagLint": {
+        "issues": [],
+        "budget": 133,
+        "budgetLimit": 500,
+        "budgetPct": 27,
+        "count": 10,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "pen cap hole",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "pen caps",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "cap hole",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "vent",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "safety",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "airway",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "why pen caps have hole",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "hole on pen caps",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:1d8c4e692bef134d95523875001f80834f1958dbbeda68cab4c6d71699e29560",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    },
+    {
+      "contentId": "old-book-smell",
+      "episodeNumber": 10,
+      "title": "What You're Actually Smelling in an Old Book",
+      "titleScore": 78.1,
+      "grammarFamily": "SHORT_DECLARATIVE",
+      "hardGates": [
+        {
+          "id": "NO_EMPTY_TITLE",
+          "label": "Not empty",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "YOUTUBE_TITLE_VALID",
+          "label": "Valid for the API",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "GRAMMAR_VALID",
+          "label": "Grammatical",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_NUMBER",
+          "label": "No invented number",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_FABRICATED_PROPER_NOUN",
+          "label": "No invented name",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "FACTUAL_SUPPORT",
+          "label": "Factually supported",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_SOURCE_CONTRADICTION",
+          "label": "Does not contradict the source",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MISLEADING_PROMISE",
+          "label": "Promise matches the video",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_MATERIAL_PAYOFF_CONTRADICTION",
+          "label": "Agrees with the payoff",
+          "pass": true,
+          "detail": null
+        },
+        {
+          "id": "NO_NEAR_DUPLICATE_OF_EXISTING_EXACT_TITLE",
+          "label": "Not already used",
+          "pass": true,
+          "detail": null
+        }
+      ],
+      "evidence": {
+        "supportedTerms": [
+          "book"
+        ],
+        "numericClaims": [],
+        "matchedSentence": "That amazing old book smell is literally the smell of the book slowly breaking down."
+      },
+      "editorial": {
+        "parts": {
+          "clarity": {
+            "points": 18,
+            "max": 18,
+            "why": "44 chars, 8 words, 0 subordinate breaks"
+          },
+          "curiosity": {
+            "points": 16,
+            "max": 16,
+            "why": "asks outright"
+          },
+          "promiseAlignment": {
+            "points": 4.1,
+            "max": 12,
+            "why": "0 shared terms with the reveal"
+          },
+          "specificity": {
+            "points": 10,
+            "max": 10,
+            "why": "names a concrete object"
+          },
+          "scrollReadability": {
+            "points": 8,
+            "max": 8,
+            "why": "0 long words"
+          },
+          "oddity": {
+            "points": 3,
+            "max": 7,
+            "why": "nothing unusual foregrounded"
+          },
+          "channelFit": {
+            "points": 4,
+            "max": 6,
+            "why": "generic framing"
+          },
+          "familiarity": {
+            "points": 6,
+            "max": 6,
+            "why": "universally recognisable object"
+          },
+          "cognitiveFriction": {
+            "points": 1,
+            "max": 6,
+            "why": "no verifiable observation"
+          },
+          "personalRelevance": {
+            "points": 1,
+            "max": 4,
+            "why": "impersonal"
+          },
+          "openLoop": {
+            "points": 4,
+            "max": 4,
+            "why": "leaves the answer to the video"
+          },
+          "microTension": {
+            "points": 3,
+            "max": 3,
+            "why": "sets up a small contradiction"
+          }
+        },
+        "raw": 78.1
+      },
+      "penalties": {
+        "applied": [],
+        "total": 0,
+        "family": "SHORT_DECLARATIVE"
+      },
+      "candidatePool": [
+        {
+          "title": "What You're Actually Smelling in an Old Book",
+          "family": "SHORT_DECLARATIVE",
+          "score": 78.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What Old Book Smell Actually Is",
+          "family": "SHORT_DECLARATIVE",
+          "score": 78,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "What That Old Book Smell Actually Is",
+          "family": "SHORT_DECLARATIVE",
+          "score": 77.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Old Book Smell Isn't What You Think",
+          "family": "CONTRADICTION",
+          "score": 75.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Old Book Smell Is the Book Falling Apart",
+          "family": "SHORT_DECLARATIVE",
+          "score": 70.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Old Book Smell Is Telling You Something",
+          "family": "SHORT_DECLARATIVE",
+          "score": 67.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Smell of an Old Book Is the Book Breaking Down",
+          "family": "SHORT_DECLARATIVE",
+          "score": 66.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Where That Old Book Smell Comes From",
+          "family": "SHORT_DECLARATIVE",
+          "score": 66.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Your Old Books Smell Like That",
+          "family": "PERSONAL_RELEVANCE",
+          "score": 61.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Old Books Smell the Way They Do",
+          "family": "OBSERVATION",
+          "score": 60.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Why Do Old Books Smell Like That?",
+          "family": "QUESTION",
+          "score": 60.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Old Book: That Smell Explained",
+          "family": "SHORT_DECLARATIVE",
+          "score": 60.1,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "How That Smell Actually Happens",
+          "family": "MECHANISM",
+          "score": 59.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Old Books Are Stranger Than They Smell",
+          "family": "SHORT_DECLARATIVE",
+          "score": 58.2,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "The Real Reason Old Books Smell Like That",
+          "family": "HIDDEN_REASON",
+          "score": 53.3,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Old Books Smell Like That for a Reason",
+          "family": "SHORT_DECLARATIVE",
+          "score": 49.5,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Smell Is the Sound of Something Ending",
+          "family": "SHORT_DECLARATIVE",
+          "score": 48.4,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "Nothing About That Smell Is Random",
+          "family": "SHORT_DECLARATIVE",
+          "score": 47.6,
+          "rejected": false,
+          "failedGates": []
+        },
+        {
+          "title": "That Smell Has an Explanation",
+          "family": "SHORT_DECLARATIVE",
+          "score": 47.3,
+          "rejected": false,
+          "failedGates": []
+        }
+      ],
+      "description": "That amazing old book smell is literally the smell of the book slowly breaking down. As paper, ink, glue, and bindings age, they release volatile chemicals into the air.",
+      "descriptionVariant": "question-first",
+      "descriptionLint": {
+        "issues": [
+          {
+            "severity": "warn",
+            "code": "RULE_OF_THREE",
+            "message": "Three-item list rhythm",
+            "hint": "The \"simple, clever, and surprising\" cadence is a strong AI tell."
+          },
+          {
+            "severity": "warn",
+            "code": "FAMILY_OVERUSE",
+            "message": "\"CLAIM\" would be 100% of recent titles (max 40%)",
+            "hint": "Rotate the grammar. Repeated structure is the loudest template signal."
+          },
+          {
+            "severity": "warn",
+            "code": "TRANSCRIPT_DUMP",
+            "message": "100% of this is one run lifted from the narration.",
+            "hint": "Quoting the reveal is fine; pasting the script adds nothing the video does not already say."
+          }
+        ],
+        "errors": 0,
+        "warnings": 3,
+        "bytes": 169,
+        "chars": 169,
+        "sentences": 2,
+        "hasCta": false
+      },
+      "descriptionChars": 169,
+      "tags": [
+        "old book smell",
+        "old books",
+        "book smell",
+        "volatile",
+        "vanillin",
+        "why old books smell",
+        "what causes old book smell",
+        "how things work",
+        "hidden design"
+      ],
+      "tagCount": 9,
+      "tagBudget": 144,
+      "tagLint": {
+        "issues": [],
+        "budget": 144,
+        "budgetLimit": 500,
+        "budgetPct": 29,
+        "count": 9,
+        "errors": 0,
+        "warnings": 0
+      },
+      "types": [
+        {
+          "text": "old book smell",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "old books",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "book smell",
+          "type": "EXACT_SUBJECT"
+        },
+        {
+          "text": "volatile",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "vanillin",
+          "type": "MECHANISM"
+        },
+        {
+          "text": "why old books smell",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "what causes old book smell",
+          "type": "NATURAL_QUERY"
+        },
+        {
+          "text": "how things work",
+          "type": "CHANNEL_CLUSTER"
+        },
+        {
+          "text": "hidden design",
+          "type": "CHANNEL_CLUSTER"
+        }
+      ],
+      "metadataHash": "sha256:492560ebdc3261e27b25bfdfe35ed69e9d09c0b345b934623a33436f20574842",
+      "lockState": "METADATA_LOCKED",
+      "lockedAt": "2026-08-20T07:46:39.229Z"
+    }
+  ],
+  "releasePlan": {
+    "timeZone": "America/New_York",
+    "slots": [
+      "19:00",
+      "22:00"
+    ],
+    "startDate": "2026-08-27",
+    "entries": [
+      {
+        "order": 1,
+        "contentId": "jeans-watch-pocket",
+        "title": "That Tiny Pocket on Your Jeans Has a Real Job",
+        "score": 89,
+        "strength": 9.24,
+        "reason": "The viewer is probably wearing the object.",
+        "dayName": "Thursday",
+        "localDate": "2026-08-27",
+        "localTime": "19:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-27T23:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 2,
+        "contentId": "round-manhole-covers",
+        "title": "The Hidden Reason Manhole Covers Are Round",
+        "score": 78.2,
+        "strength": 9.22,
+        "reason": "Everyone has seen one; the question is instantly graspable.",
+        "dayName": "Thursday",
+        "localDate": "2026-08-27",
+        "localTime": "22:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-28T02:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 3,
+        "contentId": "gas-pump-shutoff",
+        "title": "How a Gas Pump Knows Your Tank Is Full",
+        "score": 78.5,
+        "strength": 8.53,
+        "reason": "Universal experience, genuinely surprising mechanism.",
+        "dayName": "Friday",
+        "localDate": "2026-08-28",
+        "localTime": "19:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-28T23:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 4,
+        "contentId": "microwave-door-mesh",
+        "title": "How Microwave Doors Use That Mesh",
+        "score": 84.7,
+        "strength": 8.47,
+        "reason": "In every kitchen; the question sounds like a paradox.",
+        "dayName": "Friday",
+        "localDate": "2026-08-28",
+        "localTime": "22:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-29T02:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 5,
+        "contentId": "airplane-window-hole",
+        "title": "Why Do Airplane Windows Have That Hole?",
+        "score": 83.4,
+        "strength": 8.35,
+        "reason": "Widely noticed, mildly alarming, strong hook.",
+        "dayName": "Saturday",
+        "localDate": "2026-08-29",
+        "localTime": "19:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-29T23:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 6,
+        "contentId": "pen-cap-hole",
+        "title": "Your Pen Cap Has a Hole You've Never Used",
+        "score": 89.4,
+        "strength": 8.24,
+        "reason": "Ubiquitous object, small visual premise.",
+        "dayName": "Saturday",
+        "localDate": "2026-08-29",
+        "localTime": "22:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-30T02:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 7,
+        "contentId": "highway-lane-lines",
+        "title": "What Are Those Lane Lines on a Highway For?",
+        "score": 79.1,
+        "strength": 7.84,
+        "reason": "Strong scale reveal, needs the payoff to land.",
+        "dayName": "Sunday",
+        "localDate": "2026-08-30",
+        "localTime": "19:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-30T23:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 8,
+        "contentId": "escalator-brushes",
+        "title": "How Does an Escalator Use Those Brushes?",
+        "score": 88.1,
+        "strength": 7.62,
+        "reason": "Least-noticed object, but the contradiction is the best in the batch.",
+        "dayName": "Sunday",
+        "localDate": "2026-08-30",
+        "localTime": "22:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-31T02:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 9,
+        "contentId": "fuel-door-arrow",
+        "title": "That Tiny Arrow on Your Car Has a Real Job",
+        "score": 86.1,
+        "strength": 7.39,
+        "reason": "Not everyone drives; huge payoff for those who do.",
+        "dayName": "Monday",
+        "localDate": "2026-08-31",
+        "localTime": "19:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-08-31T23:00:00.000Z",
+        "utcOffsetHours": -4
+      },
+      {
+        "order": 10,
+        "contentId": "old-book-smell",
+        "title": "What You're Actually Smelling in an Old Book",
+        "score": 78.1,
+        "strength": 7.22,
+        "reason": "Sensory rather than visual — hardest to animate.",
+        "dayName": "Monday",
+        "localDate": "2026-08-31",
+        "localTime": "22:00",
+        "timeZone": "America/New_York",
+        "publishAtUtc": "2026-09-01T02:00:00.000Z",
+        "utcOffsetHours": -4
+      }
+    ],
+    "scheduled": false,
+    "note": "PREPARED ONLY. No schedule has been written to YouTube."
+  },
+  "dryRun": false
+}

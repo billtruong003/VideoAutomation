@@ -20,7 +20,7 @@ import { lintCandidate } from '../metadata/lint.mjs';
  */
 export const CTA_VARIANTS = [
   'More hidden reasons behind everyday things on Bill Finds Out.',
-  'Bill Finds Out — the reasons behind ordinary things.',
+  'Bill Finds Out: the reasons behind ordinary things.',
   'More everyday objects, explained properly.',
   null, // no CTA at all, which should be a normal outcome
 ];
@@ -53,7 +53,12 @@ export function generateDescriptions(brief, { ctaHistory = [] } = {}) {
   if (!hook && !reveal) return [];
 
   const cta = pickCta(ctaHistory);
-  const withCta = (body) => (cta ? `${body}\n\n${cta}` : body);
+  /*
+   * A CTA is attached only when the body can afford it. House style is under about 250
+   * characters and every variant costs 40-60, so appending one to an already-full description
+   * pushes it past the limit to add a line that says nothing about the video.
+   */
+  const withCta = (body) => (cta && body.length <= 180 ? `${body}\n\n${cta}` : body);
 
   const variants = [
     {
@@ -113,6 +118,36 @@ export function lintDescription(description, { facts = '', transcript = '', hist
   const text = description ?? '';
   const lower = text.toLowerCase();
 
+  /*
+   * A description must be able to stand alone.
+   *
+   * Variants are assembled from the episode's own sentences, and the reveal is by definition
+   * a MID-SCRIPT sentence -- so it frequently opens with a connective or a pronoun whose
+   * antecedent was the sentence before it. Lifted into a description those read as fragments:
+   * "Because that black metal mesh is doing something clever." / "So engineers didn't choose
+   * the circle." / "It helps manage the pressure between the layers." Each is true, grounded
+   * and completely incoherent on its own, and every one of them was selected as the preferred
+   * description before this check existed.
+   */
+  const opener = text.trim().split(/\s+/)[0]?.toLowerCase().replace(/[^a-z']/g, '') ?? '';
+  const DANGLING = new Set([
+    'because', 'so', 'and', 'but', 'or', 'then', 'basically', 'also', 'however',
+    'it', 'they', 'this', 'that', 'these', 'those', 'he', 'she', 'its', 'their',
+    'which', 'plus', 'anyway', 'still', 'yet',
+  ]);
+  // "That tiny hole in your airplane window" is a fine opener -- "that" followed by a noun
+  // phrase is deictic, not anaphoric. It is bare "That ..." as a pronoun that fails.
+  const secondWord = text.trim().split(/\s+/)[1]?.toLowerCase() ?? '';
+  const deictic = ['that', 'this', 'these', 'those'].includes(opener)
+    && secondWord && !/^(is|was|are|were|means|helps|makes|does|did|pressure|change)\b/.test(secondWord);
+  if (DANGLING.has(opener) && !deictic) {
+    issues.push({
+      severity: 'error', code: 'DANGLING_OPENER',
+      message: `Opens with "${opener}", which refers back to a sentence that is not here.`,
+      hint: 'Start with the setup line. A description has to make sense on its own.',
+    });
+  }
+
   const bytes = Buffer.byteLength(text, 'utf8');
   if (bytes > 5000) {
     issues.push({
@@ -153,6 +188,13 @@ export function lintDescription(description, { facts = '', transcript = '', hist
         hint: 'Quoting the reveal is fine; pasting the script adds nothing the video does not already say.',
       });
     }
+  }
+
+  if (text.length > 250) {
+    issues.push({
+      severity: 'warn', code: 'DESC_OVER_HOUSE_LENGTH',
+      message: `${text.length} characters (house style is under about 250).`,
+    });
   }
 
   const sentences = text.split(/[.!?]+(?:\s|$)/).filter((s) => s.trim().length > 2);

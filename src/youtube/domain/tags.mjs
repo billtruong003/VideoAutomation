@@ -16,6 +16,8 @@
  * and the UI shows the number it produces.
  */
 
+import { nounsFor } from '../metadata/episode-nouns.mjs';
+
 /** Where a tag came from, and how confident we are that it belongs. */
 export const TAG_TYPE = {
   EXACT_SUBJECT: { label: 'Exact subject', relevance: 'HIGH' },
@@ -106,10 +108,30 @@ export function generateTags(brief, { transcript = '' } = {}) {
   const out = [];
   const add = (text, type) => { if (text && text.trim()) out.push({ text: text.trim(), type }); };
 
+  /*
+   * The authored noun spec, where the episode has one.
+   *
+   * Splitting the slug on its last word produces the same wreckage here as it did for titles:
+   * "jeans watch" as a subject, "why fuels have door arrow", "why round manhole covers
+   * happens". The spec knows that the object is a fuel gauge with an arrow and that manhole
+   * covers are round, so the queries it builds are ones a person might actually type.
+   */
+  const nouns = brief.contentId ? nounsFor(brief.contentId) : null;
+
   // A. EXACT SUBJECT — the thing itself, and its head noun pair.
   add(object, 'EXACT_SUBJECT');
+  if (nouns) {
+    add(norm(nouns.subject.many), 'EXACT_SUBJECT');
+    /*
+     * Skipped for a partitive subject ("pair of jeans tiny pocket") and for PROPERTY
+     * episodes, where the "feature" is a quality of the whole object rather than a part of
+     * it -- combining them gives "manhole cover round shape", which nobody searches for.
+     */
+    if (!/\bof\b/.test(nouns.subject.one) && nouns.kind === 'PART') {
+      add(`${norm(nouns.subject.one)} ${norm(nouns.feature.plural ? nouns.feature.many : nouns.feature.one)}`, 'EXACT_SUBJECT');
+    }
+  }
   if (words.length > 2) add(words.slice(-2).join(' '), 'EXACT_SUBJECT');
-  if (words.length > 1) add(words.slice(0, 2).join(' '), 'EXACT_SUBJECT');
 
   /*
    * B. MECHANISM — real technical terms, taken only if the transcript actually says them.
@@ -131,19 +153,47 @@ export function generateTags(brief, { transcript = '' } = {}) {
    * smell". When the object leads with a modifier, what a person actually searches is the
    * cause, so that is what gets emitted instead.
    */
-  if (words.length >= 2) {
+  if (nouns) {
+    const subj = norm(nouns.subject.many);
+    const feat = norm(nouns.feature.plural ? nouns.feature.many : nouns.feature.one);
+    /*
+     * Two queries per episode, both chosen because they stay grammatical whatever the noun
+     * spec contains. The earlier "what is the X on Y for" template broke on plural features
+     * ("what is the brushes on escalator for") and on partitive subjects; "X on Ys" never
+     * does, and reads like something a person would actually type into search.
+     */
+    if (nouns.kind === 'PROPERTY') {
+      add(`why ${subj} are ${norm(nouns.property ?? feat)}`, 'NATURAL_QUERY');
+      add(`${norm(nouns.property ?? '')} ${subj}`.trim(), 'NATURAL_QUERY');
+    } else if (nouns.kind === 'PHENOMENON') {
+      add(`why ${subj} ${feat}`, 'NATURAL_QUERY');
+      add(`what causes ${object}`, 'NATURAL_QUERY');
+    } else {
+      add(`why ${subj} have ${feat}`, 'NATURAL_QUERY');
+      add(`${feat} on ${subj}`, 'NATURAL_QUERY');
+    }
+  } else if (words.length >= 2) {
+    // No authored spec: fall back to the slug, cautiously.
     if (ADJECTIVES.has(words[0])) {
       add(`what causes ${object}`, 'NATURAL_QUERY');
-      add(`why ${object} happens`, 'NATURAL_QUERY');
     } else {
       add(`why ${plural(words[0])} have ${words.slice(1).join(' ')}`, 'NATURAL_QUERY');
-      add(`what is the ${words.slice(-2).join(' ')} for`, 'NATURAL_QUERY');
     }
   }
 
   // D. SYNONYM — only from a curated map, never invented.
+  /*
+   * Whole-phrase replacement only. `object.includes(from)` turned "round manhole covers" into
+   * "round sewer cover covers", because "manhole" was swapped inside a phrase that already
+   * carried its own head noun.
+   */
   for (const [from, to] of Object.entries(SYNONYMS)) {
-    if (object.includes(from)) add(object.replace(from, to), 'SYNONYM');
+    const re = new RegExp(`\b${from}\b`, 'g');
+    if (!re.test(object)) continue;
+    const swapped = object.replace(new RegExp(`\b${from}\b`, 'g'), to);
+    // Reject a swap that leaves the same head noun twice over.
+    const w = swapped.split(' ');
+    if (new Set(w).size === w.length) add(swapped, 'SYNONYM');
   }
 
   // E. CHANNEL CLUSTER — the anchors that recur across the channel by design.
