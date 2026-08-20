@@ -14,9 +14,17 @@
  *     WAV alone. Adding a bed 15 LU down should move it by a fraction of a decibel; if the
  *     mix is meaningfully louder than the voice by itself, something is competing with the
  *     speech and the whole point has been lost.
- *  4. Bed presence. The mix's own noise floor inside real narration pauses. This is the only
- *     check that can tell "mixed correctly quiet" apart from "never rendered at all" -- both
- *     look identical in every other measurement.
+ *  4. Bed state. The mix's own noise floor inside real narration pauses, checked against what
+ *     the episode's audio plan SAYS it should contain.
+ *
+ *     When a bed is planned, this is the only check that can tell "mixed correctly quiet"
+ *     apart from "never rendered at all" -- both look identical in every other measurement.
+ *
+ *     When NO bed is planned, the assertion inverts: the pauses must be quiet. Batch 001
+ *     publishes without music because the beds' rights could not be substantiated, and a
+ *     gate that only ever looks for presence would not notice an unlicensed track surviving
+ *     into a render it was supposed to have been removed from. The direction of this check
+ *     follows the plan rather than being hardcoded either way.
  *
  * Sample-exact cancellation would be a cleaner way to isolate the bed, but the render is AAC
  * and lossy encoding destroys the null. Measuring known-silent windows works regardless.
@@ -45,6 +53,11 @@ const LIMITS = {
    * -68 dB in the same windows. -42 sits cleanly between "bed playing" and "bed missing".
    */
   bedFloorDb: -42,
+  /*
+   * When no bed is planned, the mix's pause floor must stay close to the narration's own.
+   * Some headroom is allowed because effects legitimately ring into a pause.
+   */
+  noBedMarginDb: 8,
 };
 
 const ff = (args) => (spawnSync(FFMPEG, ['-hide_banner', '-nostdin', ...args], { encoding: 'utf8' }).stderr ?? '');
@@ -80,7 +93,7 @@ const files = readdirSync(DIR).filter((f) => f.endsWith('.mp4')).sort();
 if (!files.length) { console.error(`No MP4s in ${DIR}`); process.exit(1); }
 
 console.log(`\n  audio QA — ${DIR}\n`);
-console.log('  episode                 LUFS   peak   vs voice  bed floor   verdict');
+console.log('  episode                 LUFS   peak   vs voice  bed floor  plan   verdict');
 
 let failures = 0;
 const rows = [];
@@ -91,8 +104,18 @@ for (const f of files) {
   const voicePath = `public/audio/${slug}.wav`;
   const timingPath = `episodes/${slug}/narration-timing.json`;
 
+  /*
+   * What this episode is SUPPOSED to contain, from the exported audio plan. Checking the
+   * render against the plan rather than against a fixed expectation is what lets one gate
+   * serve both "music on" and "music off" batches.
+   */
+  const planPath = `episodes/${slug}/audio-plan.json`;
+  const plan = existsSync(planPath) ? JSON.parse(readFileSync(planPath, 'utf8')) : null;
+  const bedPlanned = (plan?.music?.length ?? 0) > 0;
+
   const mix = loudness(mixPath);
   const problems = [];
+  if (!plan) problems.push('no audio plan exported for this episode');
 
   if (!(mix.truePeak < LIMITS.truePeakDb)) problems.push(`true peak ${mix.truePeak} dBFS`);
   if (mix.lufs < LIMITS.lufsMin || mix.lufs > LIMITS.lufsMax) problems.push(`loudness ${mix.lufs} LUFS`);
@@ -130,8 +153,17 @@ for (const f of files) {
       };
       const windows = pauses.map((p) => [p.start + 0.05, Math.max(0.1, p.dur - 0.1)]);
       bedFloor = median(windows.map(([st, d]) => windowRms(mixPath, st, d)));
-      if (!(bedFloor > LIMITS.bedFloorDb)) {
-        problems.push(`no bed detected under the pauses (floor ${bedFloor.toFixed(1)} dB)`);
+      const voiceFloor = median(windows.map(([st, d]) => windowRms(voicePath, st, d)));
+
+      if (bedPlanned) {
+        if (!(bedFloor > LIMITS.bedFloorDb)) {
+          problems.push(`no bed detected under the pauses (floor ${bedFloor.toFixed(1)} dB)`);
+        }
+      } else if (bedFloor > voiceFloor + LIMITS.noBedMarginDb) {
+        // Something is playing under the silence that the plan does not account for.
+        problems.push(
+          `unplanned audio under the pauses (mix ${bedFloor.toFixed(1)} dB vs narration `
+          + `${voiceFloor.toFixed(1)} dB)`);
       }
     }
   } else {
@@ -143,7 +175,8 @@ for (const f of files) {
   console.log(
     `  ${slug.padEnd(22)} ${mix.lufs.toFixed(1).padStart(6)} ${mix.truePeak.toFixed(1).padStart(6)} `
     + `${(Number.isFinite(dominance) ? `${dominance >= 0 ? '+' : ''}${dominance.toFixed(2)} LU` : '—').padStart(10)} `
-    + `${(Number.isFinite(bedFloor) ? `${bedFloor.toFixed(0)} dB` : '—').padStart(8)}   `
+    + `${(Number.isFinite(bedFloor) ? `${bedFloor.toFixed(0)} dB` : '—').padStart(8)} `
+    + `${(bedPlanned ? 'bed' : 'none').padStart(5)}   `
     + (problems.length ? 'FAIL' : 'ok'));
 }
 
@@ -158,4 +191,4 @@ if (failures) {
 }
 
 console.log(`\n  all ${files.length} pass`);
-console.log('  narration dominant, no clipping, bed present and quiet in every episode\n');
+console.log('  narration dominant, no clipping, and every mix matches its audio plan\n');

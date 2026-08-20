@@ -150,6 +150,25 @@ export const SCOPES = {
    * `yt-analytics.readonly` is retained so the existing Analytics and Retention screens keep
    * working across the re-consent rather than silently losing access.
    */
+  /*
+   * The publish batch: upload, update, thumbnails, playlist items AND captions.
+   *
+   * `youtube.upload` is deliberately absent. It is the scope everyone reaches for, but
+   * videos.insert accepts any of youtube.upload / youtube / youtubepartner /
+   * youtube.force-ssl, and this grant already carries two of those -- verified live by
+   * initiating a resumable session, which Google issued. Adding upload would broaden the
+   * grant to buy a capability it already has.
+   *
+   * `youtube.force-ssl` IS required, and only for captions.insert; nothing else in this phase
+   * needs it. It is requested incrementally on top of the existing grant rather than
+   * replacing it, so analytics access survives the re-consent.
+   */
+  release: [
+    'https://www.googleapis.com/auth/youtube',
+    'https://www.googleapis.com/auth/youtube.force-ssl',
+    'https://www.googleapis.com/auth/yt-analytics.readonly',
+  ],
+
   configure: [
     'https://www.googleapis.com/auth/youtube',
     'https://www.googleapis.com/auth/yt-analytics.readonly',

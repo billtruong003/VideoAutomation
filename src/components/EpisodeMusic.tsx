@@ -1,23 +1,26 @@
 /**
- * EpisodeMusic.tsx — the bed under one episode.
+ * EpisodeMusic.tsx — the bed under one episode. Currently: none.
  *
- * There are four beds and ten episodes, so beds repeat. That is deliberate and it is how a
- * channel builds a sound: a viewer who watches three of these in a row should feel that they
- * came from the same place. What the assignment below avoids is a bed appearing twice in a
- * row, which reads as running out of material rather than as having a house sound.
+ * MUSIC IS DISABLED FOR BATCH 001, and the reason is licensing rather than taste.
  *
- * Every episode gets a bed. A bed that came and went between Shorts would be more noticeable
- * than either having one or not — consistency is the whole value of texture this quiet.
+ * The four beds came from a downloaded folder containing four bare WAV files and nothing
+ * else -- no README, no licence, no terms, no source URL, no creator notice. The rights
+ * pre-flight before publishing searched every pack directory and the imported asset registry
+ * and found no evidence of any kind. The three meme packs at least carry a README, and what
+ * it says is that they were scraped from a public soundboard site, which is not a licence
+ * either; none of those are used here.
  *
- * LEVEL AND PROVENANCE ARE THE TWO THINGS TO KNOW HERE:
+ * Provenance is not permission. An asset whose right to publish cannot be substantiated does
+ * not go into a public video, however good it sounds, so every MUSIC_PLAN entry is null and
+ * the batch publishes with narration and original generated effects only.
  *
- *  - Level is measured, not chosen. Beds are normalised to −30 LUFS at import against a
- *    −14.5 LUFS narration, so gain 1.0 is about 15.5 LU down. See `duck.ts` for why the bed
- *    holds a constant level and lifts at pauses rather than ducking under speech.
+ * This is not a deletion. The plan table, the mixing model in ../lib/duck.ts and the QA gate
+ * all remain, so the day a licensed library exists this is one table of ten entries away from
+ * working again.
  *
- *  - Provenance is USER_PROVIDED_UNKNOWN_LICENSE. These came from a downloaded pack with no
- *    licence metadata. They are fine for local renders and review; NOTHING HERE ESTABLISHES
- *    A RIGHT TO PUBLISH THEM. The publish manifest carries the same warning.
+ * If beds return, the level is already settled: normalise to -30 LUFS at import against a
+ * -14.5 LUFS narration, hold that constant under speech and lift 4 dB in genuine pauses.
+ * See ../lib/duck.ts for why it is inverted from conventional sidechain ducking.
  */
 
 import React from 'react';
@@ -43,18 +46,25 @@ export type BedId = keyof typeof BEDS;
  * run that episode dry.
  */
 export const MUSIC_PLAN: Record<EpisodeId, BedId | null> = {
-  'airplane-window-hole': 'tiptoe',
-  'escalator-brushes': 'paperweight',
-  'fuel-door-arrow': 'bananaLong',
-  'gas-pump-shutoff': 'banana',
-  'highway-lane-lines': 'tiptoe',
-  'jeans-watch-pocket': 'paperweight',
-  'microwave-door-mesh': 'bananaLong',
-  'old-book-smell': 'tiptoe',
-  'pen-cap-hole': 'banana',
-  'round-manhole-covers': 'paperweight',
+  /*
+   * All null: see the file header. Every bed had unverifiable rights, and the publish
+   * pre-flight rule is that an asset without substantiated permission does not ship.
+   *
+   * Setting these back to a bed id is all that is needed once a licensed library exists --
+   * and note that EpisodeSfx keys its TEXTURE cues off whether an episode has a bed, so
+   * turning music back on will automatically thin the effects again.
+   */
+  'airplane-window-hole': null,
+  'escalator-brushes': null,
+  'fuel-door-arrow': null,
+  'gas-pump-shutoff': null,
+  'highway-lane-lines': null,
+  'jeans-watch-pocket': null,
+  'microwave-door-mesh': null,
+  'old-book-smell': null,
+  'pen-cap-hole': null,
+  'round-manhole-covers': null,
 };
-
 export const EpisodeMusic: React.FC<{
   id: EpisodeId;
   words: Word[];
