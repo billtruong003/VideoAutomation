@@ -193,7 +193,11 @@ h3 { font-size: 13px; margin: 0 0 8px; color: var(--ink-soft); }
 .notice.bad  { background: #FCEAE6; border: 1px solid #F1C6BC; color: #8E2A1B; }
 .notice.info { background: #EAF2F8; border: 1px solid #CDE1EF; color: #1E5679; }
 .notice.good { background: #E7F5F1; border: 1px solid #C6E7DE; color: #1C6B5F; }
-.notice strong { display: block; margin-bottom: 2px; }
+/* Only the TITLE is a block. Scoping this to a class matters: as a bare `.notice strong`
+   it also caught any bold word a caller put in the body, which broke sentences apart --
+   "These changed after approval: <strong>publish time</strong>." rendered across three
+   lines with a stranded full stop. */
+.notice-title { display: block; margin-bottom: 2px; }
 
 .spinner {
   width: 15px; height: 15px; border: 2px solid var(--grey);

@@ -109,7 +109,7 @@ export function Notice({ tone = 'info', title, children }: { tone?: string; titl
   return (
     <div className={`notice ${tone}`}>
       <div>
-        {title && <strong>{title}</strong>}
+        {title && <strong className="notice-title">{title}</strong>}
         {children}
       </div>
     </div>
