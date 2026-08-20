@@ -52,9 +52,20 @@ async function tick() {
               WHERE state = ? AND next_retry_at IS NOT NULL AND next_retry_at <= ?`)
     .run(JOB_STATE.PENDING, now(), JOB_STATE.RETRY_WAIT, now());
 
-  // Claim exactly one job in a transaction — a double-click cannot take it twice.
+  /*
+   * Claim exactly one job in a transaction — a double-click cannot take it twice.
+   *
+   * `next_retry_at` is honoured as a NOT-BEFORE time on PENDING jobs, not only when promoting
+   * a retry. Without that clause a job scheduled for the future was claimed the moment it was
+   * queued: the fifty analytics checkpoints for the release, each due an hour or more after
+   * its video publishes NEXT WEEK, were all claimed immediately, failed against unpublished
+   * videos, and had their carefully computed due times overwritten with a retry a minute
+   * later. A queue that cannot hold work for later is not a scheduler.
+   */
   const claim = db.transaction(() => {
-    const j = db.prepare('SELECT * FROM job WHERE state = ? ORDER BY id ASC LIMIT 1').get(JOB_STATE.PENDING);
+    const j = db.prepare(`SELECT * FROM job WHERE state = ?
+                          AND (next_retry_at IS NULL OR next_retry_at <= ?)
+                          ORDER BY id ASC LIMIT 1`).get(JOB_STATE.PENDING, now());
     if (!j) return null;
     db.prepare('UPDATE job SET state = ?, attempt = attempt + 1, updated_at = ? WHERE id = ?')
       .run(JOB_STATE.RUNNING, now(), j.id);
