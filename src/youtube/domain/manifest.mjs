@@ -12,6 +12,7 @@
  */
 
 import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
 import { z } from 'zod';
 
 export const MANIFEST_SCHEMA_VERSION = 1;
@@ -106,9 +107,11 @@ export function buildManifest(content, overrides = {}) {
     captions: { path: content.srt_path ?? null, language: 'en', burnedIn: true, upload: Boolean(content.srt_path) },
     /*
      * What the mix borrowed. Recorded here so that a decision about licensing is made
-     * against a list rather than against a memory of which episodes got music.
+     * against a list rather than against a memory of which episodes got music. Written by
+     * tools/audio-plan.mts from the same modules the renderer uses, so it cannot describe a
+     * mix that was not actually rendered.
      */
-    audio: { music: [], sfx: [] },
+    audio: readAudioPlan(content.content_id),
     thumbnail: { path: content.thumbnail_path ?? null, syncedVideoId: null },
     metadata: {
       selectedTitle: content.title_working ?? content.topic ?? content.content_id,
@@ -203,6 +206,22 @@ export function approvalSnapshot(manifest) {
  * Separate from validation: a manifest can be schema-valid and still not something a person
  * should be allowed to approve (no render, unhashed asset, undeclared synthetic media).
  */
+/**
+ * The rendered mix's borrowed material, if the plan has been exported.
+ *
+ * Absent rather than empty when there is no plan: an empty list would read as "nothing was
+ * borrowed", which is a different and much more dangerous claim than "not recorded yet".
+ */
+function readAudioPlan(contentId) {
+  try {
+    const raw = readFileSync(`episodes/${contentId}/audio-plan.json`, 'utf8');
+    const plan = JSON.parse(raw);
+    return { music: plan.music ?? [], sfx: plan.sfx ?? [], recorded: true };
+  } catch {
+    return { music: [], sfx: [], recorded: false };
+  }
+}
+
 export function publishReadiness(manifest) {
   const blockers = [];
   const warnings = [];
@@ -250,7 +269,9 @@ export function publishReadiness(manifest) {
    * creator's call and cannot be settled by code -- but it must be said out loud on the way
    * to an upload rather than discovered from a copyright claim afterwards.
    */
-  if (manifest.audio?.music?.length) {
+  if (!manifest.audio?.recorded) {
+    warnings.push('No audio plan recorded — run `npx tsx tools/audio-plan.mts` so borrowed audio can be checked.');
+  } else if (manifest.audio.music.length) {
     const unknown = manifest.audio.music.filter((m) => m.provenance !== 'CLEARED');
     if (unknown.length) {
       warnings.push(

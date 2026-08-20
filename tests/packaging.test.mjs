@@ -301,3 +301,45 @@ describe('tag generation traps', () => {
     expect(candidates.map((c) => c.text)).toContain('why jeans have watch pocket');
   });
 });
+
+describe('borrowed audio at publish time', () => {
+  const base = () => {
+    const m = buildManifest({ content_id: 'airplane-window-hole', topic: 'x' });
+    m.asset.videoPath = 'out/x.mp4';
+    m.asset.sha256 = 'sha256:abc';
+    m.metadata.selectedTitle = 'A perfectly ordinary title';
+    m.youtube.containsSyntheticMedia = false;
+    m.youtube.privacy = 'private';
+    return m;
+  };
+
+  it('reads the exported plan rather than assuming nothing was borrowed', () => {
+    const m = base();
+    expect(m.audio.recorded).toBe(true);
+    expect(m.audio.music.length).toBeGreaterThan(0);
+  });
+
+  it('warns that the bed licence is unverified, naming it', () => {
+    const r = publishReadiness(base());
+    const w = r.warnings.find((x) => /unverified licence/.test(x));
+    expect(w).toBeDefined();
+    expect(w).toContain('tiptoe');
+  });
+
+  it('does not block on it — the licence call is the creator\'s', () => {
+    expect(publishReadiness(base()).blockers.some((b) => /licence/i.test(b))).toBe(false);
+  });
+
+  it('says so when no plan has been exported, rather than reporting nothing borrowed', () => {
+    // An empty list would read as "nothing was borrowed", which is a very different and
+    // much more dangerous claim than "not recorded yet".
+    const m = buildManifest({ content_id: 'no-such-episode', topic: 'x' });
+    expect(m.audio.recorded).toBe(false);
+    m.asset.videoPath = 'out/x.mp4';
+    m.asset.sha256 = 'sha256:abc';
+    m.metadata.selectedTitle = 'Title';
+    m.youtube.containsSyntheticMedia = false;
+    m.youtube.privacy = 'private';
+    expect(publishReadiness(m).warnings.some((w) => /No audio plan recorded/.test(w))).toBe(true);
+  });
+});
