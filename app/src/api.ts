@@ -122,6 +122,41 @@ export type LintResult = {
   score: { clarity: number; curiosity: number; specificity: number; truthfulness: number; channelFit: number; novelty: number; overall: number };
 };
 
+/* Description and tags are linted on their own terms, so they have their own results. */
+export type DescriptionLint = {
+  issues: LintIssue[]; errors: number; warnings: number;
+  bytes: number; chars: number; sentences: number; hasCta: boolean;
+};
+export type DescriptionVariant = {
+  id: string; label: string; note: string; text: string; lint: DescriptionLint;
+};
+export type DescriptionGen = {
+  provider: { id: string; label: string; configured: boolean; note: string };
+  evidence: {
+    coreObject: string; coreQuestion: string; actualReveal: string;
+    payoff: string; scriptSummary: string;
+  };
+  variants: DescriptionVariant[];
+};
+
+export type TagRelevance = 'HIGH' | 'MEDIUM' | 'LOW';
+export type TagCandidate = {
+  text: string; type: string; relevance: TagRelevance; cost: number; locked: boolean;
+};
+export type TagLint = {
+  issues: LintIssue[]; budget: number; budgetLimit: number; budgetPct: number;
+  count: number; errors: number; warnings: number;
+};
+export type TagGen = {
+  candidates: TagCandidate[];
+  dropped: { text: string; reason: string }[];
+  budget: number;
+  lint: TagLint;
+};
+
+/** The three verdicts returned by /metadata/lint — one per field, never blended. */
+export type MetadataLint = { title: LintResult; description: DescriptionLint; tags: TagLint };
+
 export type Manifest = {
   schemaVersion: number; contentId: string;
   asset: { videoPath: string; sha256: string; durationSeconds: number | null; bytes: number | null };

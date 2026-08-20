@@ -209,7 +209,33 @@ export function publishReadiness(manifest) {
   if (manifest.youtube.containsSyntheticMedia === null) {
     blockers.push('Synthetic/altered content declaration has not been made.');
   }
-  if (!manifest.metadata.description?.trim()) warnings.push('Description is empty.');
+  /*
+   * Description and tags are checked against the API's own hard limits here, because
+   * being rejected at upload time -- after the quota unit has been spent -- is a much
+   * worse failure than being told now. Everything softer stays a warning: the editorial
+   * linter in the studio is advisory, and readiness must not quietly become a second,
+   * stricter linter that blocks a creator who has already made their decision.
+   */
+  const description = manifest.metadata.description ?? '';
+  if (!description.trim()) {
+    warnings.push('Description is empty.');
+  } else {
+    const bytes = Buffer.byteLength(description, 'utf8');
+    if (bytes > 5000) blockers.push(`Description is ${bytes} bytes; YouTube's limit is 5000.`);
+    if (/[<>]/.test(description)) blockers.push('Description contains < or >, which the API rejects.');
+  }
+
+  const tags = manifest.metadata.tags ?? [];
+  if (!tags.length) {
+    warnings.push('No tags set.');
+  } else {
+    // The real cost: a tag with a space is implicitly quoted and those quotes count,
+    // and so do the separating commas.
+    const budget = tags.reduce((sum, t) => sum + t.length + (/\s/.test(t) ? 2 : 0), 0) + (tags.length - 1);
+    if (budget > 500) blockers.push(`Tags use ${budget} of 500 characters; YouTube will reject the upload.`);
+    const badTag = tags.find((t) => /[<>]/.test(t));
+    if (badTag) blockers.push(`Tag "${badTag}" contains < or >, which the API rejects.`);
+  }
   if (manifest.captions.upload && !manifest.captions.path) warnings.push('Caption upload is on but no SRT is linked.');
   if (manifest.youtube.privacy !== 'private') {
     blockers.push('Only private uploads are permitted while the compliance gate is closed.');

@@ -130,6 +130,26 @@ export function createServer() {
     res.json(svc.lintMetadata(req.params.id, LintBody.parse(req.body ?? {})));
   }));
 
+  /*
+   * Description and tags generate INDEPENDENTLY of titles.
+   *
+   * Previously a description only appeared as a by-product of generating titles, so
+   * re-rolling the copy meant losing a title you had already settled on. These are the
+   * two things a creator actually iterates on, and each now has its own endpoint.
+   */
+  app.post('/api/content/:id/description/generate', wrap(async (req, res) =>
+    res.json(svc.generateDescription(req.params.id))));
+
+  app.post('/api/content/:id/tags/generate', wrap(async (req, res) =>
+    res.json(svc.generateTagsFor(req.params.id))));
+
+  const TagsBody = z.object({ tags: z.array(z.string()).default([]) });
+
+  // Normalisation is a server concern: the tag budget rules are subtle enough that the
+  // UI must not own a second implementation of them.
+  app.post('/api/tags/normalise', wrap(async (req, res) =>
+    res.json(svc.normaliseTags(TagsBody.parse(req.body ?? {}).tags))));
+
   // -------------------------------------------------------------- manifest
   app.get('/api/content/:id/manifest', wrap(async (req, res) => res.json(svc.getManifest(req.params.id))));
 

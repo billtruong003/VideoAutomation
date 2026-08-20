@@ -24,6 +24,8 @@ import {
   generateTitleCandidatesDeterministic, resolveProvider,
 } from '../domain/generate.mjs';
 import { lintCandidate, rankCandidates } from '../metadata/lint.mjs';
+import { generateDescriptions, lintDescription, CTA_VARIANTS } from '../domain/description.mjs';
+import { budgetOf, dedupeTags, generateTags, lintTags } from '../domain/tags.mjs';
 import { DomainError, ERROR } from '../server/errors.mjs';
 import { log } from '../server/logger.mjs';
 
@@ -365,7 +367,92 @@ export function lintMetadata(id, { title, description, tags }) {
   const content = db.prepare('SELECT * FROM content_item WHERE content_id = ?').get(id);
   if (!content) throw new DomainError(ERROR.NOT_FOUND, 'No such content item.');
   const history = recentTitles(id);
-  return lintCandidate({ title, description, tags }, { history, facts: content.facts_text ?? '' });
+  const facts = content.facts_text ?? '';
+
+  // Three separate verdicts rather than one blended score. A description failing does not
+  // make a title bad, and the UI needs to say which of the three needs attention.
+  return {
+    title: lintCandidate({ title, description: '', tags: [] }, { history, facts }),
+    description: lintDescription(description ?? '', {
+      facts, transcript: content.script_text ?? '', history: recentMetadata(id),
+    }),
+    tags: lintTags(tags ?? [], { history: recentTagSets(id) }),
+  };
+}
+
+/** Recent chosen descriptions, for CTA-repetition and boilerplate checks. */
+function recentMetadata(excludeId) {
+  return getDb().prepare(`
+    SELECT m.text AS description FROM metadata_candidate m
+    WHERE m.kind = 'description' AND m.selected = 1 AND m.content_id != ?
+    ORDER BY m.id DESC LIMIT 20`).all(excludeId);
+}
+
+/** Recent tag sets, so an identical 15-tag block across the channel is visible. */
+function recentTagSets(excludeId) {
+  return getDb().prepare(`
+    SELECT manifest_json FROM publish_manifest WHERE content_id != ? ORDER BY updated_at DESC LIMIT 10`)
+    .all(excludeId)
+    .map((r) => { try { return (JSON.parse(r.manifest_json).metadata?.tags ?? []).map((t) => t.toLowerCase()); } catch { return []; } });
+}
+
+/** CTA strings used recently, most recent first — drives CTA rotation. */
+function ctaHistory(excludeId) {
+  return recentMetadata(excludeId).map((r) =>
+    CTA_VARIANTS.filter(Boolean).find((c) => (r.description ?? '').includes(c)) ?? null);
+}
+
+/**
+ * Generate descriptions on their own, without regenerating titles.
+ *
+ * The old flow only produced a description as a by-product of generating titles, so there
+ * was no way to re-roll the copy while keeping a chosen title — which is exactly what a
+ * creator wants to do most often.
+ */
+export function generateDescription(id) {
+  const db = getDb();
+  const content = db.prepare('SELECT * FROM content_item WHERE content_id = ?').get(id);
+  if (!content) throw new DomainError(ERROR.NOT_FOUND, 'No such content item.');
+
+  const brief = buildBrief(content);
+  const variants = generateDescriptions(brief, { ctaHistory: ctaHistory(id) });
+  const facts = content.facts_text ?? '';
+  const transcript = content.script_text ?? '';
+  const history = recentMetadata(id);
+
+  return {
+    provider: resolveProvider(),
+    evidence: {
+      coreObject: brief.coreObject,
+      coreQuestion: brief.coreQuestion,
+      actualReveal: brief.actualReveal,
+      payoff: brief.payoff,
+      scriptSummary: transcript.slice(0, 320),
+    },
+    variants: variants.map((v) => ({ ...v, lint: lintDescription(v.text, { facts, transcript, history }) })),
+  };
+}
+
+/** Generate tags on their own, classified and budgeted. */
+export function generateTagsFor(id) {
+  const db = getDb();
+  const content = db.prepare('SELECT * FROM content_item WHERE content_id = ?').get(id);
+  if (!content) throw new DomainError(ERROR.NOT_FOUND, 'No such content item.');
+
+  const brief = buildBrief(content);
+  const { candidates, dropped } = generateTags(brief, { transcript: content.script_text ?? '' });
+  return {
+    candidates,
+    dropped,
+    budget: budgetOf(candidates.map((c) => c.text)),
+    lint: lintTags(candidates.map((c) => c.text), { history: recentTagSets(id) }),
+  };
+}
+
+/** Normalise and dedupe a user-edited tag list without discarding their intent silently. */
+export function normaliseTags(tags) {
+  const { kept, dropped } = dedupeTags(tags);
+  return { tags: kept.map((k) => k.text), dropped, budget: budgetOf(kept.map((k) => k.text)) };
 }
 
 // ---------------------------------------------------------------------------
