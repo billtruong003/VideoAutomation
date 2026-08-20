@@ -134,4 +134,24 @@ export const SCOPES = {
     'https://www.googleapis.com/auth/youtube.upload',
     'https://www.googleapis.com/auth/youtube.force-ssl',
   ],
+
+  /*
+   * The narrowest grant that can configure the channel WITHOUT being able to upload.
+   *
+   * `youtube` covers channels.update (brandingSettings), playlists.insert and
+   * channelSections.insert -- everything the finalisation phase writes. Two scopes are
+   * deliberately absent:
+   *
+   *   youtube.upload    nothing in this phase uploads a video, so the grant should not
+   *                     permit it. Publishing asks for its own consent later.
+   *   youtube.force-ssl broader than `youtube`: it also carries comment moderation and
+   *                     caption write, none of which is needed here.
+   *
+   * `yt-analytics.readonly` is retained so the existing Analytics and Retention screens keep
+   * working across the re-consent rather than silently losing access.
+   */
+  configure: [
+    'https://www.googleapis.com/auth/youtube',
+    'https://www.googleapis.com/auth/yt-analytics.readonly',
+  ],
 };
