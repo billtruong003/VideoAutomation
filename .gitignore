@@ -59,3 +59,7 @@ qa/characters.zip
 Thumbs.db
 desktop.ini
 .google-client-path
+
+# Creator OS local build output
+app/dist/
+
