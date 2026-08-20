@@ -16,6 +16,7 @@ import React from 'react';
 import { AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 
 import { EpisodeCaption, type CaptionHighlights } from '../components/EpisodeCaption';
+import { EpisodeMusic } from '../components/EpisodeMusic';
 import { EpisodeSfx } from '../components/EpisodeSfx';
 import { clockFor, STORYBOARDS, type EpisodeId } from '../episodes/registry';
 import { SCENE_MODULES } from '../episodes/scenes';
@@ -33,6 +34,12 @@ export const Episode: React.FC<{ id: EpisodeId }> = ({ id }) => {
     <AbsoluteFill>
       {/* the master clock — every timestamp in this episode is measured against it */}
       <Audio src={staticFile(clock.audio)} />
+      <EpisodeMusic
+        id={id}
+        words={clock.TIMING.words}
+        duration={clock.TOTAL_FRAMES / fps}
+        fps={fps}
+      />
       <EpisodeSfx storyboard={storyboard} fps={fps} />
 
       {clock.SCENE_SPANS.map((span) => {
