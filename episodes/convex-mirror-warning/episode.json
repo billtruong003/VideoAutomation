@@ -1,0 +1,189 @@
+{
+  "slug": "convex-mirror-warning",
+  "title": "Why One Of Your Car Mirrors Comes With A Warning",
+  "hook": "A legally required admission that a mirror is lying to you.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill driving. The mirror asymmetry is something he has looked at daily and never questioned."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "On an American car",
+      "background": "CarInterior",
+      "cast": [
+        "bill"
+      ],
+      "note": "The asymmetry is the hook: two mirrors on one car, only one carrying text. US-specific and the script says so.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "both wing mirrors draw in side by side, seen from the driver seat"
+        },
+        {
+          "kw": "curved",
+          "action": "the passenger mirror bulges visibly; the driver mirror stays flat"
+        },
+        {
+          "kw": "warning",
+          "action": "the warning text appears along the bottom of the curved one and circles teal"
+        },
+        {
+          "at": 3.78,
+          "action": "the curved mirror bulges a little further against the flat one",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "curving",
+      "from": "Curving a mirror squeezes",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "The optics, from above. A wider cone entering the same glass — and the blind spot it covers.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "top-down: a flat mirror reflects a narrow cone of road"
+        },
+        {
+          "kw": "squeezes",
+          "action": "the mirror curves; the cone widens dramatically into the same glass"
+        },
+        {
+          "kw": "blind-spot",
+          "action": "a shaded blind spot beside the car is swallowed by the wider cone"
+        },
+        {
+          "at": 2.68,
+          "action": "the widened cone sweeps back along the road",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 5.72,
+          "action": "the swallowed blind spot shades out entirely",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "from": "The price is that everything",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The trade-off. Same car, two mirrors, visibly different size — that comparison is the payoff setup.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "one car appears in both mirrors at once, at true relative size"
+        },
+        {
+          "kw": "smaller",
+          "action": "the image in the curved mirror shrinks noticeably"
+        },
+        {
+          "kw": "further",
+          "action": "a thought bubble reads the small image as distant; the real car is much closer"
+        },
+        {
+          "at": 0.1,
+          "action": "both mirror images hold side by side for comparison",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "The warning exists because",
+      "background": "CarInterior",
+      "cast": [
+        "bill"
+      ],
+      "note": "The reframe: the text is an admission, required in writing. End on the etched line.",
+      "beats": [
+        {
+          "kw": "misleading",
+          "action": "the real gap and the perceived gap draw together; the difference shades coral"
+        },
+        {
+          "kw": "writing",
+          "action": "the warning text etches permanently into the glass; hard cut"
+        },
+        {
+          "at": 0.52,
+          "action": "the coral gap between real and perceived distance pulses once",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 3.21,
+          "action": "the etched letters finish forming along the glass edge",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "curved",
+      [
+        "curved"
+      ],
+      0
+    ],
+    [
+      "warning",
+      [
+        "warning"
+      ],
+      0
+    ],
+    [
+      "squeezes",
+      [
+        "squeezes"
+      ],
+      0
+    ],
+    [
+      "blind-spot",
+      [
+        "blind",
+        "spot"
+      ],
+      0
+    ],
+    [
+      "smaller",
+      [
+        "smaller"
+      ],
+      0
+    ],
+    [
+      "further",
+      [
+        "further"
+      ],
+      0
+    ],
+    [
+      "misleading",
+      [
+        "misleading"
+      ],
+      0
+    ],
+    [
+      "writing",
+      [
+        "writing"
+      ],
+      0
+    ]
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "coin-reeded-edges",
+  "title": "Your Quarter Is Still Protecting Silver It Doesn't Have",
+  "audio": "public/audio/coin-reeded-edges.wav",
+  "fps": 30,
+  "narrationDuration": 23.903,
+  "beatCount": 19,
+  "longestGap": 2.144,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 5.33,
+      "startFrame": 2,
+      "endFrame": 160,
+      "duration": 5.259,
+      "narration": "Run your thumb around the edge of a quarter and you'll feel ridges, which is a strange thing to put on a coin containing nothing worth stealing.",
+      "background": "DeskSurface",
+      "note": "Tactile opening. The ridges should be felt before they are explained.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill's thumb runs the edge of an oversized quarter; ridges tick past"
+        },
+        {
+          "t": 1.983,
+          "frame": 59,
+          "tInScene": 1.912,
+          "frameInScene": 57,
+          "action": "camera punches to the edge; each ridge draws in teal"
+        },
+        {
+          "t": 4.991,
+          "frame": 150,
+          "tInScene": 4.92,
+          "frameInScene": 148,
+          "action": "a NOTHING WORTH STEALING label lands over the coin face"
+        },
+        {
+          "t": 3.491,
+          "frame": 105,
+          "tInScene": 3.42,
+          "frameInScene": 103,
+          "action": "the coin rotates slowly so the ridged edge runs past the camera",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "clipping",
+      "start": 5.673,
+      "end": 13.3,
+      "startFrame": 170,
+      "endFrame": 399,
+      "duration": 7.627,
+      "narration": "Back when coins were actually silver, people shaved slivers off the rims, spent the coin anyway, and kept the shavings. A shaved coin looked almost normal.",
+      "background": "OldWorkshop",
+      "note": "The fraud, shown plainly. Gus shaves a rim. Slivers accumulate. No moralising.",
+      "cast": [
+        "gus"
+      ],
+      "beats": [
+        {
+          "t": 5.673,
+          "frame": 170,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a silver coin on a workbench; Gus enters with shears"
+        },
+        {
+          "t": 7.739,
+          "frame": 232,
+          "tInScene": 2.066,
+          "frameInScene": 62,
+          "action": "a thin sliver peels off the rim and drops into a growing pile"
+        },
+        {
+          "t": 12.708,
+          "frame": 381,
+          "tInScene": 7.035,
+          "frameInScene": 211,
+          "action": "the shaved coin sits beside an intact one; they look identical"
+        },
+        {
+          "t": 9.073,
+          "frame": 272,
+          "tInScene": 3.4,
+          "frameInScene": 102,
+          "action": "the pile of slivers rises another notch",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 10.893,
+          "frame": 327,
+          "tInScene": 5.22,
+          "frameInScene": 157,
+          "action": "Gus squares the coin on the bench and repositions the shears",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "grooves",
+      "start": 13.372,
+      "end": 18.738,
+      "startFrame": 401,
+      "endFrame": 562,
+      "duration": 5.366,
+      "narration": "So mints cut grooves into the edge, and a shaved coin stopped looking normal immediately, because the pattern just ended.",
+      "background": "SchematicVoid",
+      "note": "The countermeasure. The reveal is that a shaved reeded coin has an OBVIOUS smooth gap.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 13.372,
+          "frame": 401,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a blank coin edge rotates into view"
+        },
+        {
+          "t": 13.998,
+          "frame": 420,
+          "tInScene": 0.626,
+          "frameInScene": 19,
+          "action": "reeding cuts into the edge all the way around, tick by tick"
+        },
+        {
+          "t": 18.282,
+          "frame": 548,
+          "tInScene": 4.91,
+          "frameInScene": 147,
+          "action": "a sliver is shaved off; the ridge pattern stops dead at a smooth flat, circled coral"
+        },
+        {
+          "t": 16.142,
+          "frame": 484,
+          "tInScene": 2.77,
+          "frameInScene": 83,
+          "action": "the reeded edge turns a full rotation, ridges ticking past",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "newton",
+      "start": 18.846,
+      "end": 21.471,
+      "startFrame": 565,
+      "endFrame": 644,
+      "duration": 2.625,
+      "narration": "Isaac Newton used it against clippers as warden of the Royal Mint.",
+      "background": "OldWorkshop",
+      "note": "One authority beat. Gus becomes the Mint, stamping. No wig, no caricature.",
+      "cast": [
+        "gus"
+      ],
+      "beats": [
+        {
+          "t": 18.846,
+          "frame": 565,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a mint press descends on a coin blank"
+        },
+        {
+          "t": 19.113,
+          "frame": 573,
+          "tInScene": 0.267,
+          "frameInScene": 8,
+          "action": "the press stamps; a ROYAL MINT mark lands on the page beside it"
+        },
+        {
+          "t": 20.476,
+          "frame": 614,
+          "tInScene": 1.63,
+          "frameInScene": 49,
+          "action": "the press lifts and the struck coin is swept aside",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 21.738,
+      "end": 23.684,
+      "startFrame": 652,
+      "endFrame": 711,
+      "duration": 1.946,
+      "narration": "The silver is long gone. The ridges stayed.",
+      "background": "DeskSurface",
+      "note": "The reframe: a defence outliving the thing it defended. Ends on the object, not the joke.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 22.523,
+          "frame": 676,
+          "tInScene": 0.785,
+          "frameInScene": 24,
+          "action": "the silver drains out of the coin, leaving plain modern metal"
+        },
+        {
+          "t": 23.398,
+          "frame": 702,
+          "tInScene": 1.66,
+          "frameInScene": 50,
+          "action": "the ridges remain, drawn in full ink while everything else greys; hard cut"
+        },
+        {
+          "t": 21.838,
+          "frame": 655,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the coin face dulls from bright silver toward plain modern metal",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

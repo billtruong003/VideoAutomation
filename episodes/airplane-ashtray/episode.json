@@ -1,0 +1,231 @@
+{
+  "slug": "airplane-ashtray",
+  "title": "Planes Still Have Ashtrays And It's Not An Oversight",
+  "hook": "A fixture for a banned activity, kept because somebody will break the rule anyway.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "gus"
+    ],
+    "note": "Gus is the regulator. Dry, unbothered, correct. The episode is not anti-rule; the rule is the smart one."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Smoking has been banned",
+      "background": "PlaneCabin",
+      "cast": [
+        "bill"
+      ],
+      "note": "The contradiction up front: a NO SMOKING sign and an ashtray in the same frame.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a lavatory door; a lit NO SMOKING sign above it"
+        },
+        {
+          "kw": "banned",
+          "action": "the sign pulses; a BANNED FOR DECADES label lands"
+        },
+        {
+          "kw": "ashtray",
+          "action": "camera tilts down to a small metal ashtray set into the door; it circles teal"
+        },
+        {
+          "at": 1.95,
+          "action": "the NO SMOKING sign holds lit above the door",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "notleftover",
+      "from": "It is not a leftover",
+      "background": "PlaneCabin",
+      "cast": [
+        "gus"
+      ],
+      "note": "Gus arrives with a clipboard. The ashtray is required equipment — stamp it, do not joke about it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a LEFTOVER? label appears over the ashtray and is crossed out"
+        },
+        {
+          "kw": "require",
+          "action": "Gus stamps REQUIRED onto a checklist page"
+        },
+        {
+          "kw": "ground",
+          "action": "a grounded aircraft icon appears beside the checklist"
+        },
+        {
+          "at": 1.24,
+          "action": "Gus turns the checklist page and runs a finger down it",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "from": "The reasoning is bleak",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "A held beat. The tone shifts here from oddity to seriousness.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the frame clears to a plain field; the ashtray sits alone, small"
+        },
+        {
+          "kw": "bleak",
+          "action": "the light cools; the ashtray holds still"
+        }
+      ]
+    },
+    {
+      "id": "cigarette",
+      "from": "Somebody is eventually",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The unavoidable human. Shown as a hand and a cigarette only — no character breaking the rule on screen.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a lit cigarette appears in the lavatory cross-section"
+        },
+        {
+          "kw": "smoke",
+          "action": "a thin smoke curl rises"
+        },
+        {
+          "kw": "ends-up",
+          "action": "a question mark hovers over two possible destinations"
+        },
+        {
+          "at": 2.24,
+          "action": "the smoke curl thickens and drifts against the ceiling",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "bin",
+      "from": "Without an ashtray",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The bad outcome, stated as a diagram. Restrained — a glow, not a fire.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the cigarette drops toward a paper waste bin"
+        },
+        {
+          "kw": "bin",
+          "action": "the bin outlines coral; the paper inside begins to glow"
+        },
+        {
+          "kw": "towels",
+          "action": "the alternative draws beside it: the cigarette lands in the metal ashtray and goes out"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "It is not there for smokers",
+      "background": "PlaneCabin",
+      "cast": [
+        "bill"
+      ],
+      "note": "The reframe. Designing for the person who ignores you is the whole idea. Hard cut.",
+      "beats": [
+        {
+          "kw": "smokers",
+          "action": "the ashtray lights alone as the rest of the door greys out"
+        },
+        {
+          "fromEnd": 0.15,
+          "action": "Bill glances at it once and moves on down the aisle; hard cut",
+          "sync": "final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "banned",
+      [
+        "banned"
+      ],
+      0
+    ],
+    [
+      "ashtray",
+      [
+        "ashtray"
+      ],
+      0
+    ],
+    [
+      "require",
+      [
+        "require"
+      ],
+      0
+    ],
+    [
+      "ground",
+      [
+        "ground"
+      ],
+      0
+    ],
+    [
+      "bleak",
+      [
+        "bleak"
+      ],
+      0
+    ],
+    [
+      "smoke",
+      [
+        "smoke"
+      ],
+      0
+    ],
+    [
+      "ends-up",
+      [
+        "ends",
+        "up"
+      ],
+      0
+    ],
+    [
+      "bin",
+      [
+        "bin"
+      ],
+      0
+    ],
+    [
+      "towels",
+      [
+        "towels"
+      ],
+      0
+    ],
+    [
+      "smokers",
+      [
+        "smokers"
+      ],
+      0
+    ]
+  ]
+}

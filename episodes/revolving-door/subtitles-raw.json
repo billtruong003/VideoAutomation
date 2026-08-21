@@ -1,581 +1,455 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "A revolving door is slower than a normal door,",
-      "start_time": 0.059,
-      "end_time": 2.2,
+      "start_time": 0.079,
+      "end_time": 2.48,
       "speaker": "narrator",
       "words": [
         {
           "text": "A",
-          "start_time": 0.059,
-          "end_time": 0.119
+          "start_time": 0.079,
+          "end_time": 0.14
         },
         {
           "text": " ",
-          "start_time": 0.119,
-          "end_time": 0.179
+          "start_time": 0.14,
+          "end_time": 0.199
         },
         {
           "text": "revolving",
-          "start_time": 0.179,
-          "end_time": 0.639
+          "start_time": 0.199,
+          "end_time": 0.719
         },
         {
           "text": " ",
-          "start_time": 0.639,
-          "end_time": 0.74
+          "start_time": 0.719,
+          "end_time": 0.819
         },
         {
           "text": "door",
-          "start_time": 0.74,
-          "end_time": 0.979
-        },
-        {
-          "text": " ",
-          "start_time": 0.979,
+          "start_time": 0.819,
           "end_time": 1.019
         },
         {
-          "text": "is",
+          "text": " ",
           "start_time": 1.019,
-          "end_time": 1.179
+          "end_time": 1.139
+        },
+        {
+          "text": "is",
+          "start_time": 1.139,
+          "end_time": 1.299
         },
         {
           "text": " ",
-          "start_time": 1.179,
-          "end_time": 1.199
+          "start_time": 1.299,
+          "end_time": 1.339
         },
         {
           "text": "slower",
-          "start_time": 1.199,
-          "end_time": 1.459
-        },
-        {
-          "text": " ",
-          "start_time": 1.459,
-          "end_time": 1.519
-        },
-        {
-          "text": "than",
-          "start_time": 1.519,
-          "end_time": 1.599
-        },
-        {
-          "text": " ",
-          "start_time": 1.599,
+          "start_time": 1.339,
           "end_time": 1.639
         },
         {
-          "text": "a",
+          "text": " ",
           "start_time": 1.639,
           "end_time": 1.699
         },
         {
-          "text": " ",
+          "text": "than",
           "start_time": 1.699,
-          "end_time": 1.739
+          "end_time": 1.779
+        },
+        {
+          "text": " ",
+          "start_time": 1.779,
+          "end_time": 1.839
+        },
+        {
+          "text": "a",
+          "start_time": 1.839,
+          "end_time": 1.859
+        },
+        {
+          "text": " ",
+          "start_time": 1.859,
+          "end_time": 1.939
         },
         {
           "text": "normal",
-          "start_time": 1.74,
-          "end_time": 1.959
+          "start_time": 1.939,
+          "end_time": 2.2
         },
         {
           "text": " ",
-          "start_time": 1.959,
-          "end_time": 2.059
+          "start_time": 2.2,
+          "end_time": 2.279
         },
         {
           "text": "door,",
-          "start_time": 2.059,
-          "end_time": 2.2
+          "start_time": 2.279,
+          "end_time": 2.48
         }
       ]
     },
     {
-      "text": "more expensive to build, and much harder to",
-      "start_time": 2.5,
-      "end_time": 4.36,
+      "text": "more expensive to build,",
+      "start_time": 3.079,
+      "end_time": 4.139,
       "speaker": "narrator",
       "words": [
         {
           "text": "more",
-          "start_time": 2.5,
-          "end_time": 2.599
-        },
-        {
-          "text": " ",
-          "start_time": 2.599,
-          "end_time": 2.679
-        },
-        {
-          "text": "expensive",
-          "start_time": 2.679,
-          "end_time": 3.059
-        },
-        {
-          "text": " ",
-          "start_time": 3.059,
-          "end_time": 3.099
-        },
-        {
-          "text": "to",
-          "start_time": 3.099,
+          "start_time": 3.079,
           "end_time": 3.159
         },
         {
           "text": " ",
           "start_time": 3.159,
-          "end_time": 3.219
+          "end_time": 3.239
         },
         {
-          "text": "build,",
-          "start_time": 3.22,
-          "end_time": 3.46
+          "text": "expensive",
+          "start_time": 3.24,
+          "end_time": 3.679
         },
         {
           "text": " ",
-          "start_time": 3.46,
+          "start_time": 3.679,
           "end_time": 3.719
         },
         {
-          "text": "and",
+          "text": "to",
           "start_time": 3.72,
-          "end_time": 3.799
+          "end_time": 3.779
         },
         {
           "text": " ",
-          "start_time": 3.799,
+          "start_time": 3.779,
           "end_time": 3.859
         },
         {
-          "text": "much",
+          "text": "build,",
           "start_time": 3.859,
-          "end_time": 3.98
+          "end_time": 4.139
+        }
+      ]
+    },
+    {
+      "text": "and much harder to carry anything through,",
+      "start_time": 4.719,
+      "end_time": 6.46,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 4.719,
+          "end_time": 4.799
         },
         {
           "text": " ",
-          "start_time": 3.98,
-          "end_time": 4.079
+          "start_time": 4.799,
+          "end_time": 4.879
+        },
+        {
+          "text": "much",
+          "start_time": 4.88,
+          "end_time": 5
+        },
+        {
+          "text": " ",
+          "start_time": 5,
+          "end_time": 5.099
         },
         {
           "text": "harder",
-          "start_time": 4.079,
-          "end_time": 4.259
+          "start_time": 5.099,
+          "end_time": 5.319
         },
         {
           "text": " ",
-          "start_time": 4.259,
-          "end_time": 4.279
+          "start_time": 5.319,
+          "end_time": 5.359
         },
         {
           "text": "to",
-          "start_time": 4.279,
-          "end_time": 4.36
-        }
-      ]
-    },
-    {
-      "text": "carry anything through, and tall buildings",
-      "start_time": 4.42,
-      "end_time": 6.159,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "carry",
-          "start_time": 4.42,
-          "end_time": 4.639
+          "start_time": 5.359,
+          "end_time": 5.44
         },
         {
           "text": " ",
-          "start_time": 4.639,
-          "end_time": 4.699
+          "start_time": 5.44,
+          "end_time": 5.5
+        },
+        {
+          "text": "carry",
+          "start_time": 5.5,
+          "end_time": 5.739
+        },
+        {
+          "text": " ",
+          "start_time": 5.739,
+          "end_time": 5.799
         },
         {
           "text": "anything",
-          "start_time": 4.699,
-          "end_time": 4.96
+          "start_time": 5.799,
+          "end_time": 6.119
         },
         {
           "text": " ",
-          "start_time": 4.96,
-          "end_time": 5.039
+          "start_time": 6.119,
+          "end_time": 6.199
         },
         {
           "text": "through,",
-          "start_time": 5.039,
-          "end_time": 5.279
-        },
-        {
-          "text": " ",
-          "start_time": 5.279,
-          "end_time": 5.48
-        },
-        {
-          "text": "and",
-          "start_time": 5.48,
-          "end_time": 5.559
-        },
-        {
-          "text": " ",
-          "start_time": 5.559,
-          "end_time": 5.619
-        },
-        {
-          "text": "tall",
-          "start_time": 5.619,
-          "end_time": 5.759
-        },
-        {
-          "text": " ",
-          "start_time": 5.759,
-          "end_time": 5.859
-        },
-        {
-          "text": "buildings",
-          "start_time": 5.859,
-          "end_time": 6.159
+          "start_time": 6.199,
+          "end_time": 6.46
         }
       ]
     },
     {
-      "text": "keep installing them anyway.",
-      "start_time": 6.219,
-      "end_time": 7.239,
+      "text": "and tall buildings keep installing them anyway.",
+      "start_time": 6.859,
+      "end_time": 8.859,
       "speaker": "narrator",
       "words": [
         {
-          "text": "keep",
-          "start_time": 6.219,
-          "end_time": 6.319
+          "text": "and",
+          "start_time": 6.859,
+          "end_time": 6.96
         },
         {
           "text": " ",
-          "start_time": 6.319,
-          "end_time": 6.359
+          "start_time": 6.96,
+          "end_time": 7.039
+        },
+        {
+          "text": "tall",
+          "start_time": 7.039,
+          "end_time": 7.199
+        },
+        {
+          "text": " ",
+          "start_time": 7.199,
+          "end_time": 7.299
+        },
+        {
+          "text": "buildings",
+          "start_time": 7.299,
+          "end_time": 7.619
+        },
+        {
+          "text": " ",
+          "start_time": 7.619,
+          "end_time": 7.699
+        },
+        {
+          "text": "keep",
+          "start_time": 7.699,
+          "end_time": 7.819
+        },
+        {
+          "text": " ",
+          "start_time": 7.819,
+          "end_time": 7.859
         },
         {
           "text": "installing",
-          "start_time": 6.359,
-          "end_time": 6.719
+          "start_time": 7.859,
+          "end_time": 8.26
         },
         {
           "text": " ",
-          "start_time": 6.719,
-          "end_time": 6.739
+          "start_time": 8.26,
+          "end_time": 8.3
         },
         {
           "text": "them",
-          "start_time": 6.739,
-          "end_time": 6.839
+          "start_time": 8.3,
+          "end_time": 8.399
         },
         {
           "text": " ",
-          "start_time": 6.839,
-          "end_time": 6.899
+          "start_time": 8.399,
+          "end_time": 8.46
         },
         {
           "text": "anyway.",
-          "start_time": 6.899,
-          "end_time": 7.239
+          "start_time": 8.46,
+          "end_time": 8.859
         }
       ]
     },
     {
       "text": "Warm air inside a tall building rises and escapes",
-      "start_time": 7.579,
-      "end_time": 9.939,
+      "start_time": 10.039,
+      "end_time": 12.679,
       "speaker": "narrator",
       "words": [
         {
           "text": "Warm",
-          "start_time": 7.579,
-          "end_time": 7.779
+          "start_time": 10.039,
+          "end_time": 10.26
         },
         {
           "text": " ",
-          "start_time": 7.779,
-          "end_time": 7.899
+          "start_time": 10.26,
+          "end_time": 10.38
         },
         {
           "text": "air",
-          "start_time": 7.899,
-          "end_time": 8.019
-        },
-        {
-          "text": " ",
-          "start_time": 8.019,
-          "end_time": 8.079
-        },
-        {
-          "text": "inside",
-          "start_time": 8.079,
-          "end_time": 8.359
-        },
-        {
-          "text": " ",
-          "start_time": 8.359,
-          "end_time": 8.399
-        },
-        {
-          "text": "a",
-          "start_time": 8.399,
-          "end_time": 8.46
-        },
-        {
-          "text": " ",
-          "start_time": 8.46,
-          "end_time": 8.519
-        },
-        {
-          "text": "tall",
-          "start_time": 8.519,
-          "end_time": 8.659
-        },
-        {
-          "text": " ",
-          "start_time": 8.659,
-          "end_time": 8.739
-        },
-        {
-          "text": "building",
-          "start_time": 8.739,
-          "end_time": 9
-        },
-        {
-          "text": " ",
-          "start_time": 9,
-          "end_time": 9.059
-        },
-        {
-          "text": "rises",
-          "start_time": 9.059,
-          "end_time": 9.399
-        },
-        {
-          "text": " ",
-          "start_time": 9.399,
-          "end_time": 9.439
-        },
-        {
-          "text": "and",
-          "start_time": 9.439,
-          "end_time": 9.5
-        },
-        {
-          "text": " ",
-          "start_time": 9.5,
-          "end_time": 9.539
-        },
-        {
-          "text": "escapes",
-          "start_time": 9.539,
-          "end_time": 9.939
-        }
-      ]
-    },
-    {
-      "text": "out of the top, and that pulls cold air",
-      "start_time": 9.979,
-      "end_time": 11.759,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "out",
-          "start_time": 9.979,
-          "end_time": 10.059
-        },
-        {
-          "text": " ",
-          "start_time": 10.059,
-          "end_time": 10.079
-        },
-        {
-          "text": "of",
-          "start_time": 10.079,
-          "end_time": 10.139
-        },
-        {
-          "text": " ",
-          "start_time": 10.139,
-          "end_time": 10.159
-        },
-        {
-          "text": "the",
-          "start_time": 10.159,
-          "end_time": 10.239
-        },
-        {
-          "text": " ",
-          "start_time": 10.239,
-          "end_time": 10.279
-        },
-        {
-          "text": "top,",
-          "start_time": 10.279,
+          "start_time": 10.38,
           "end_time": 10.539
         },
         {
           "text": " ",
           "start_time": 10.539,
-          "end_time": 10.759
+          "end_time": 10.599
         },
         {
-          "text": "and",
-          "start_time": 10.76,
-          "end_time": 10.84
-        },
-        {
-          "text": " ",
-          "start_time": 10.84,
-          "end_time": 10.88
-        },
-        {
-          "text": "that",
-          "start_time": 10.88,
-          "end_time": 11
+          "text": "inside",
+          "start_time": 10.599,
+          "end_time": 10.899
         },
         {
           "text": " ",
-          "start_time": 11,
+          "start_time": 10.899,
+          "end_time": 10.939
+        },
+        {
+          "text": "a",
+          "start_time": 10.939,
+          "end_time": 11.019
+        },
+        {
+          "text": " ",
+          "start_time": 11.019,
           "end_time": 11.079
         },
         {
-          "text": "pulls",
+          "text": "tall",
           "start_time": 11.079,
-          "end_time": 11.319
+          "end_time": 11.239
         },
         {
           "text": " ",
-          "start_time": 11.319,
-          "end_time": 11.399
+          "start_time": 11.239,
+          "end_time": 11.34
         },
         {
-          "text": "cold",
-          "start_time": 11.399,
-          "end_time": 11.599
-        },
-        {
-          "text": " ",
-          "start_time": 11.599,
-          "end_time": 11.659
-        },
-        {
-          "text": "air",
-          "start_time": 11.659,
-          "end_time": 11.759
-        }
-      ]
-    },
-    {
-      "text": "in hard at street level.",
-      "start_time": 11.779,
-      "end_time": 12.739,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "in",
-          "start_time": 11.779,
-          "end_time": 11.84
+          "text": "building",
+          "start_time": 11.34,
+          "end_time": 11.619
         },
         {
           "text": " ",
-          "start_time": 11.84,
-          "end_time": 11.92
+          "start_time": 11.619,
+          "end_time": 11.699
         },
         {
-          "text": "hard",
-          "start_time": 11.92,
-          "end_time": 12.079
-        },
-        {
-          "text": " ",
-          "start_time": 12.079,
-          "end_time": 12.119
-        },
-        {
-          "text": "at",
-          "start_time": 12.119,
-          "end_time": 12.199
+          "text": "rises",
+          "start_time": 11.699,
+          "end_time": 12.059
         },
         {
           "text": " ",
-          "start_time": 12.199,
+          "start_time": 12.059,
+          "end_time": 12.099
+        },
+        {
+          "text": "and",
+          "start_time": 12.099,
+          "end_time": 12.179
+        },
+        {
+          "text": " ",
+          "start_time": 12.179,
           "end_time": 12.239
         },
         {
-          "text": "street",
+          "text": "escapes",
           "start_time": 12.239,
-          "end_time": 12.439
-        },
-        {
-          "text": " ",
-          "start_time": 12.439,
-          "end_time": 12.5
-        },
-        {
-          "text": "level.",
-          "start_time": 12.5,
-          "end_time": 12.739
+          "end_time": 12.679
         }
       ]
     },
     {
-      "text": "On an ordinary door,",
-      "start_time": 12.979,
-      "end_time": 13.979,
+      "text": "out of the top,",
+      "start_time": 12.719,
+      "end_time": 13.359,
       "speaker": "narrator",
       "words": [
         {
-          "text": "On",
-          "start_time": 12.979,
+          "text": "out",
+          "start_time": 12.719,
+          "end_time": 12.819
+        },
+        {
+          "text": " ",
+          "start_time": 12.819,
+          "end_time": 12.84
+        },
+        {
+          "text": "of",
+          "start_time": 12.84,
+          "end_time": 12.899
+        },
+        {
+          "text": " ",
+          "start_time": 12.899,
+          "end_time": 12.939
+        },
+        {
+          "text": "the",
+          "start_time": 12.939,
+          "end_time": 13
+        },
+        {
+          "text": " ",
+          "start_time": 13,
           "end_time": 13.059
         },
         {
-          "text": " ",
+          "text": "top,",
           "start_time": 13.059,
-          "end_time": 13.079
-        },
-        {
-          "text": "an",
-          "start_time": 13.079,
-          "end_time": 13.199
-        },
-        {
-          "text": " ",
-          "start_time": 13.199,
-          "end_time": 13.279
-        },
-        {
-          "text": "ordinary",
-          "start_time": 13.279,
-          "end_time": 13.639
-        },
-        {
-          "text": " ",
-          "start_time": 13.639,
-          "end_time": 13.739
-        },
-        {
-          "text": "door,",
-          "start_time": 13.739,
-          "end_time": 13.979
+          "end_time": 13.359
         }
       ]
     },
     {
-      "text": "that pressure difference turns the entrance",
-      "start_time": 14.299,
-      "end_time": 15.939,
+      "text": "and that pulls cold air in hard at street",
+      "start_time": 13.819,
+      "end_time": 15.699,
       "speaker": "narrator",
       "words": [
         {
+          "text": "and",
+          "start_time": 13.819,
+          "end_time": 13.899
+        },
+        {
+          "text": " ",
+          "start_time": 13.899,
+          "end_time": 13.939
+        },
+        {
           "text": "that",
-          "start_time": 14.299,
+          "start_time": 13.939,
+          "end_time": 14.079
+        },
+        {
+          "text": " ",
+          "start_time": 14.079,
+          "end_time": 14.199
+        },
+        {
+          "text": "pulls",
+          "start_time": 14.199,
           "end_time": 14.46
         },
         {
@@ -584,354 +458,483 @@
           "end_time": 14.539
         },
         {
-          "text": "pressure",
+          "text": "cold",
           "start_time": 14.539,
+          "end_time": 14.759
+        },
+        {
+          "text": " ",
+          "start_time": 14.759,
           "end_time": 14.819
         },
         {
-          "text": " ",
+          "text": "air",
           "start_time": 14.819,
-          "end_time": 14.859
+          "end_time": 14.939
+        },
+        {
+          "text": " ",
+          "start_time": 14.939,
+          "end_time": 14.96
+        },
+        {
+          "text": "in",
+          "start_time": 14.96,
+          "end_time": 15.039
+        },
+        {
+          "text": " ",
+          "start_time": 15.039,
+          "end_time": 15.119
+        },
+        {
+          "text": "hard",
+          "start_time": 15.119,
+          "end_time": 15.299
+        },
+        {
+          "text": " ",
+          "start_time": 15.299,
+          "end_time": 15.339
+        },
+        {
+          "text": "at",
+          "start_time": 15.339,
+          "end_time": 15.42
+        },
+        {
+          "text": " ",
+          "start_time": 15.42,
+          "end_time": 15.479
+        },
+        {
+          "text": "street",
+          "start_time": 15.479,
+          "end_time": 15.699
+        }
+      ]
+    },
+    {
+      "text": "level.",
+      "start_time": 15.759,
+      "end_time": 16.359,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "level.",
+          "start_time": 15.759,
+          "end_time": 16.02
+        }
+      ]
+    },
+    {
+      "text": "On an ordinary door,",
+      "start_time": 16.92,
+      "end_time": 18.039,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "On",
+          "start_time": 16.92,
+          "end_time": 17
+        },
+        {
+          "text": " ",
+          "start_time": 17,
+          "end_time": 17.039
+        },
+        {
+          "text": "an",
+          "start_time": 17.039,
+          "end_time": 17.159
+        },
+        {
+          "text": " ",
+          "start_time": 17.159,
+          "end_time": 17.239
+        },
+        {
+          "text": "ordinary",
+          "start_time": 17.239,
+          "end_time": 17.659
+        },
+        {
+          "text": " ",
+          "start_time": 17.659,
+          "end_time": 17.76
+        },
+        {
+          "text": "door,",
+          "start_time": 17.76,
+          "end_time": 18.039
+        }
+      ]
+    },
+    {
+      "text": "that pressure difference turns the entrance",
+      "start_time": 18.399,
+      "end_time": 20.239,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "that",
+          "start_time": 18.399,
+          "end_time": 18.6
+        },
+        {
+          "text": " ",
+          "start_time": 18.6,
+          "end_time": 18.68
+        },
+        {
+          "text": "pressure",
+          "start_time": 18.68,
+          "end_time": 18.959
+        },
+        {
+          "text": " ",
+          "start_time": 18.959,
+          "end_time": 19.019
         },
         {
           "text": "difference",
-          "start_time": 14.859,
-          "end_time": 15.199
+          "start_time": 19.02,
+          "end_time": 19.379
         },
         {
           "text": " ",
-          "start_time": 15.199,
-          "end_time": 15.259
+          "start_time": 19.379,
+          "end_time": 19.459
         },
         {
           "text": "turns",
-          "start_time": 15.259,
-          "end_time": 15.46
+          "start_time": 19.459,
+          "end_time": 19.699
         },
         {
           "text": " ",
-          "start_time": 15.46,
-          "end_time": 15.5
+          "start_time": 19.699,
+          "end_time": 19.739
         },
         {
           "text": "the",
-          "start_time": 15.5,
-          "end_time": 15.579
+          "start_time": 19.739,
+          "end_time": 19.839
         },
         {
           "text": " ",
-          "start_time": 15.579,
-          "end_time": 15.639
+          "start_time": 19.839,
+          "end_time": 19.92
         },
         {
           "text": "entrance",
-          "start_time": 15.639,
-          "end_time": 15.939
+          "start_time": 19.92,
+          "end_time": 20.239
         }
       ]
     },
     {
       "text": "into a wind tunnel and throws the heating out",
-      "start_time": 15.979,
-      "end_time": 17.879,
+      "start_time": 20.279,
+      "end_time": 22.539,
       "speaker": "narrator",
       "words": [
         {
           "text": "into",
-          "start_time": 15.979,
-          "end_time": 16.119
+          "start_time": 20.279,
+          "end_time": 20.439
         },
         {
           "text": " ",
-          "start_time": 16.119,
-          "end_time": 16.179
+          "start_time": 20.439,
+          "end_time": 20.499
         },
         {
           "text": "a",
-          "start_time": 16.18,
-          "end_time": 16.199
+          "start_time": 20.5,
+          "end_time": 20.52
         },
         {
           "text": " ",
-          "start_time": 16.199,
-          "end_time": 16.319
+          "start_time": 20.52,
+          "end_time": 20.659
         },
         {
           "text": "wind",
-          "start_time": 16.319,
-          "end_time": 16.5
+          "start_time": 20.659,
+          "end_time": 20.859
         },
         {
           "text": " ",
-          "start_time": 16.5,
-          "end_time": 16.559
+          "start_time": 20.859,
+          "end_time": 20.919
         },
         {
           "text": "tunnel",
-          "start_time": 16.559,
-          "end_time": 16.959
+          "start_time": 20.92,
+          "end_time": 21.499
         },
         {
           "text": " ",
-          "start_time": 16.959,
-          "end_time": 17
+          "start_time": 21.499,
+          "end_time": 21.559
         },
         {
           "text": "and",
-          "start_time": 17,
-          "end_time": 17.1
+          "start_time": 21.559,
+          "end_time": 21.659
         },
         {
           "text": " ",
-          "start_time": 17.1,
-          "end_time": 17.139
+          "start_time": 21.659,
+          "end_time": 21.699
         },
         {
           "text": "throws",
-          "start_time": 17.139,
-          "end_time": 17.359
+          "start_time": 21.699,
+          "end_time": 21.939
         },
         {
           "text": " ",
-          "start_time": 17.359,
-          "end_time": 17.399
+          "start_time": 21.939,
+          "end_time": 21.979
         },
         {
           "text": "the",
-          "start_time": 17.399,
-          "end_time": 17.459
+          "start_time": 21.979,
+          "end_time": 22.059
         },
         {
           "text": " ",
-          "start_time": 17.459,
-          "end_time": 17.5
+          "start_time": 22.059,
+          "end_time": 22.1
         },
         {
           "text": "heating",
-          "start_time": 17.5,
-          "end_time": 17.699
+          "start_time": 22.1,
+          "end_time": 22.34
         },
         {
           "text": " ",
-          "start_time": 17.699,
-          "end_time": 17.759
+          "start_time": 22.34,
+          "end_time": 22.399
         },
         {
           "text": "out",
-          "start_time": 17.76,
-          "end_time": 17.879
+          "start_time": 22.399,
+          "end_time": 22.539
         }
       ]
     },
     {
       "text": "into the street.",
-      "start_time": 17.92,
-      "end_time": 18.520000000000003,
+      "start_time": 22.559,
+      "end_time": 23.26,
       "speaker": "narrator",
       "words": [
         {
           "text": "into",
-          "start_time": 17.92,
-          "end_time": 18.059
+          "start_time": 22.559,
+          "end_time": 22.719
         },
         {
           "text": " ",
-          "start_time": 18.059,
-          "end_time": 18.1
+          "start_time": 22.719,
+          "end_time": 22.76
         },
         {
           "text": "the",
-          "start_time": 18.1,
-          "end_time": 18.179
+          "start_time": 22.76,
+          "end_time": 22.84
         },
         {
           "text": " ",
-          "start_time": 18.179,
-          "end_time": 18.219
+          "start_time": 22.84,
+          "end_time": 22.899
         },
         {
           "text": "street.",
-          "start_time": 18.219,
-          "end_time": 18.519
+          "start_time": 22.899,
+          "end_time": 23.26
         }
       ]
     },
     {
       "text": "A revolving door never actually opens.",
-      "start_time": 18.799,
-      "end_time": 20.699,
+      "start_time": 24.239,
+      "end_time": 26.359,
       "speaker": "narrator",
       "words": [
         {
           "text": "A",
-          "start_time": 18.799,
-          "end_time": 18.819
+          "start_time": 24.239,
+          "end_time": 24.279
         },
         {
           "text": " ",
-          "start_time": 18.819,
-          "end_time": 18.879
+          "start_time": 24.279,
+          "end_time": 24.339
         },
         {
           "text": "revolving",
-          "start_time": 18.879,
-          "end_time": 19.279
+          "start_time": 24.34,
+          "end_time": 24.799
         },
         {
           "text": " ",
-          "start_time": 19.279,
-          "end_time": 19.379
+          "start_time": 24.799,
+          "end_time": 24.899
         },
         {
           "text": "door",
-          "start_time": 19.379,
-          "end_time": 19.6
+          "start_time": 24.899,
+          "end_time": 25.159
         },
         {
           "text": " ",
-          "start_time": 19.6,
-          "end_time": 19.659
+          "start_time": 25.159,
+          "end_time": 25.219
         },
         {
           "text": "never",
-          "start_time": 19.659,
-          "end_time": 19.859
+          "start_time": 25.219,
+          "end_time": 25.439
         },
         {
           "text": " ",
-          "start_time": 19.859,
-          "end_time": 19.939
+          "start_time": 25.439,
+          "end_time": 25.519
         },
         {
           "text": "actually",
-          "start_time": 19.939,
-          "end_time": 20.259
+          "start_time": 25.519,
+          "end_time": 25.879
         },
         {
           "text": " ",
-          "start_time": 20.259,
-          "end_time": 20.34
+          "start_time": 25.879,
+          "end_time": 25.959
         },
         {
           "text": "opens.",
-          "start_time": 20.34,
-          "end_time": 20.699
+          "start_time": 25.959,
+          "end_time": 26.359
         }
       ]
     },
     {
       "text": "Only the wedge of air in your compartment travels",
-      "start_time": 20.979,
-      "end_time": 22.979,
+      "start_time": 27.379,
+      "end_time": 29.639,
       "speaker": "narrator",
       "words": [
         {
           "text": "Only",
-          "start_time": 20.979,
-          "end_time": 21.159
+          "start_time": 27.379,
+          "end_time": 27.579
         },
         {
           "text": " ",
-          "start_time": 21.159,
-          "end_time": 21.199
+          "start_time": 27.579,
+          "end_time": 27.619
         },
         {
           "text": "the",
-          "start_time": 21.199,
-          "end_time": 21.26
+          "start_time": 27.619,
+          "end_time": 27.699
         },
         {
           "text": " ",
-          "start_time": 21.26,
-          "end_time": 21.379
+          "start_time": 27.699,
+          "end_time": 27.819
         },
         {
           "text": "wedge",
-          "start_time": 21.379,
-          "end_time": 21.539
+          "start_time": 27.819,
+          "end_time": 28
         },
         {
           "text": " ",
-          "start_time": 21.539,
-          "end_time": 21.579
+          "start_time": 28,
+          "end_time": 28.039
         },
         {
           "text": "of",
-          "start_time": 21.579,
-          "end_time": 21.679
+          "start_time": 28.039,
+          "end_time": 28.18
         },
         {
           "text": " ",
-          "start_time": 21.679,
-          "end_time": 21.76
+          "start_time": 28.18,
+          "end_time": 28.26
         },
         {
           "text": "air",
-          "start_time": 21.76,
-          "end_time": 21.879
+          "start_time": 28.26,
+          "end_time": 28.379
         },
         {
           "text": " ",
-          "start_time": 21.879,
-          "end_time": 21.899
+          "start_time": 28.379,
+          "end_time": 28.42
         },
         {
           "text": "in",
-          "start_time": 21.899,
-          "end_time": 21.959
+          "start_time": 28.42,
+          "end_time": 28.479
         },
         {
           "text": " ",
-          "start_time": 21.959,
-          "end_time": 22
+          "start_time": 28.479,
+          "end_time": 28.519
         },
         {
           "text": "your",
-          "start_time": 22,
-          "end_time": 22.1
+          "start_time": 28.519,
+          "end_time": 28.639
         },
         {
           "text": " ",
-          "start_time": 22.1,
-          "end_time": 22.139
+          "start_time": 28.639,
+          "end_time": 28.68
         },
         {
           "text": "compartment",
-          "start_time": 22.139,
-          "end_time": 22.639
+          "start_time": 28.68,
+          "end_time": 29.219
         },
         {
           "text": " ",
-          "start_time": 22.639,
-          "end_time": 22.699
+          "start_time": 29.219,
+          "end_time": 29.299
         },
         {
           "text": "travels",
-          "start_time": 22.699,
-          "end_time": 22.979
+          "start_time": 29.299,
+          "end_time": 29.639
         }
       ]
     },
     {
       "text": "with you.",
-      "start_time": 23.019,
-      "end_time": 23.619,
+      "start_time": 29.679,
+      "end_time": 30.279,
       "speaker": "narrator",
       "words": [
         {
           "text": "with",
-          "start_time": 23.019,
-          "end_time": 23.159
+          "start_time": 29.679,
+          "end_time": 29.84
         },
         {
           "text": " ",
-          "start_time": 23.159,
-          "end_time": 23.219
+          "start_time": 29.84,
+          "end_time": 29.879
         },
         {
           "text": "you.",
-          "start_time": 23.219,
-          "end_time": 23.339
+          "start_time": 29.879,
+          "end_time": 30.019
         }
       ]
     }

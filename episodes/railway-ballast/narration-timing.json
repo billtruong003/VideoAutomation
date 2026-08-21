@@ -1,0 +1,889 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/railway-ballast.wav.",
+  "episode": "railway-ballast",
+  "title": "That Gravel Under Train Tracks Isn't Landscaping",
+  "audio": "public/audio/railway-ballast.wav",
+  "staticAudio": "audio/railway-ballast.wav",
+  "duration": 23.195,
+  "fps": 30,
+  "rawDuration": 29.211,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11954,
+  "silenceRemoved": 3.243,
+  "wordCount": 92,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Train tracks sit on a bed of sharp, angular gravel, and it is there on purpose.",
+      "start": 0.106,
+      "end": 3.924,
+      "wordRange": [
+        0,
+        15
+      ]
+    },
+    {
+      "id": "load",
+      "text": "A loaded train puts enormous weight onto a thin steel rail, and the stones spread that load sideways so the ground underneath does not sink.",
+      "start": 4.226,
+      "end": 10.724,
+      "wordRange": [
+        16,
+        40
+      ]
+    },
+    {
+      "id": "interlock",
+      "text": "Because they are angular rather than rounded, they lock against each other and stop the track creeping out of line.",
+      "start": 10.976,
+      "end": 15.683,
+      "wordRange": [
+        41,
+        60
+      ]
+    },
+    {
+      "id": "drainage",
+      "text": "Rain drains through the gaps instead of turning the bed to mud.",
+      "start": 16.04,
+      "end": 18.47,
+      "wordRange": [
+        61,
+        72
+      ]
+    },
+    {
+      "id": "vibration",
+      "text": "And the layer soaks up vibration, which is why a passing train shakes the ground less than it should.",
+      "start": 18.755,
+      "end": 22.952,
+      "wordRange": [
+        73,
+        91
+      ]
+    }
+  ],
+  "keywords": {
+    "gravel": {
+      "start": 2.321,
+      "end": 2.607,
+      "wordIndex": 9
+    },
+    "purpose": {
+      "start": 3.549,
+      "end": 3.924,
+      "wordIndex": 15
+    },
+    "weight": {
+      "start": 5.655,
+      "end": 5.798,
+      "wordIndex": 21
+    },
+    "spread": {
+      "start": 7.795,
+      "end": 8.027,
+      "wordIndex": 30
+    },
+    "sink": {
+      "start": 10.511,
+      "end": 10.724,
+      "wordIndex": 40
+    },
+    "lock": {
+      "start": 13.237,
+      "end": 13.397,
+      "wordIndex": 49
+    },
+    "creeping": {
+      "start": 14.896,
+      "end": 15.146,
+      "wordIndex": 57
+    },
+    "drains": {
+      "start": 16.236,
+      "end": 16.504,
+      "wordIndex": 62
+    },
+    "mud": {
+      "start": 18.257,
+      "end": 18.47,
+      "wordIndex": 72
+    },
+    "vibration": {
+      "start": 19.72,
+      "end": 20.255,
+      "wordIndex": 78
+    },
+    "shakes": {
+      "start": 21.666,
+      "end": 21.862,
+      "wordIndex": 85
+    }
+  },
+  "captions": [
+    {
+      "text": "Train tracks sit on",
+      "words": [
+        "Train",
+        "tracks",
+        "sit",
+        "on"
+      ],
+      "start": 0.106,
+      "end": 0.982
+    },
+    {
+      "text": "a bed of sharp,",
+      "words": [
+        "a",
+        "bed",
+        "of",
+        "sharp,"
+      ],
+      "start": 0.982,
+      "end": 1.844
+    },
+    {
+      "text": "angular gravel,",
+      "words": [
+        "angular",
+        "gravel,"
+      ],
+      "start": 1.928,
+      "end": 2.827
+    },
+    {
+      "text": "and it is there",
+      "words": [
+        "and",
+        "it",
+        "is",
+        "there"
+      ],
+      "start": 2.852,
+      "end": 3.406
+    },
+    {
+      "text": "on purpose.",
+      "words": [
+        "on",
+        "purpose."
+      ],
+      "start": 3.406,
+      "end": 4.144
+    },
+    {
+      "text": "A loaded train puts",
+      "words": [
+        "A",
+        "loaded",
+        "train",
+        "puts"
+      ],
+      "start": 4.226,
+      "end": 5.137
+    },
+    {
+      "text": "enormous weight onto a",
+      "words": [
+        "enormous",
+        "weight",
+        "onto",
+        "a"
+      ],
+      "start": 5.137,
+      "end": 6.227
+    },
+    {
+      "text": "thin steel rail,",
+      "words": [
+        "thin",
+        "steel",
+        "rail,"
+      ],
+      "start": 6.227,
+      "end": 7.215
+    },
+    {
+      "text": "and the stones spread",
+      "words": [
+        "and",
+        "the",
+        "stones",
+        "spread"
+      ],
+      "start": 7.223,
+      "end": 8.045
+    },
+    {
+      "text": "that load sideways",
+      "words": [
+        "that",
+        "load",
+        "sideways"
+      ],
+      "start": 8.045,
+      "end": 9.158
+    },
+    {
+      "text": "so the ground",
+      "words": [
+        "so",
+        "the",
+        "ground"
+      ],
+      "start": 9.207,
+      "end": 9.725
+    },
+    {
+      "text": "underneath does not",
+      "words": [
+        "underneath",
+        "does",
+        "not"
+      ],
+      "start": 9.725,
+      "end": 10.511
+    },
+    {
+      "text": "sink.",
+      "words": [
+        "sink."
+      ],
+      "start": 10.511,
+      "end": 10.944
+    },
+    {
+      "text": "Because they are",
+      "words": [
+        "Because",
+        "they",
+        "are"
+      ],
+      "start": 10.976,
+      "end": 11.726
+    },
+    {
+      "text": "angular rather than",
+      "words": [
+        "angular",
+        "rather",
+        "than"
+      ],
+      "start": 11.726,
+      "end": 12.495
+    },
+    {
+      "text": "rounded,",
+      "words": [
+        "rounded,"
+      ],
+      "start": 12.495,
+      "end": 13.001
+    },
+    {
+      "text": "they lock against each",
+      "words": [
+        "they",
+        "lock",
+        "against",
+        "each"
+      ],
+      "start": 13.039,
+      "end": 13.95
+    },
+    {
+      "text": "other and stop the",
+      "words": [
+        "other",
+        "and",
+        "stop",
+        "the"
+      ],
+      "start": 13.95,
+      "end": 14.647
+    },
+    {
+      "text": "track creeping out of",
+      "words": [
+        "track",
+        "creeping",
+        "out",
+        "of"
+      ],
+      "start": 14.647,
+      "end": 15.414
+    },
+    {
+      "text": "line.",
+      "words": [
+        "line."
+      ],
+      "start": 15.414,
+      "end": 15.903
+    },
+    {
+      "text": "Rain drains through",
+      "words": [
+        "Rain",
+        "drains",
+        "through"
+      ],
+      "start": 16.04,
+      "end": 16.665
+    },
+    {
+      "text": "the gaps instead of",
+      "words": [
+        "the",
+        "gaps",
+        "instead",
+        "of"
+      ],
+      "start": 16.665,
+      "end": 17.524
+    },
+    {
+      "text": "turning the bed to",
+      "words": [
+        "turning",
+        "the",
+        "bed",
+        "to"
+      ],
+      "start": 17.524,
+      "end": 18.257
+    },
+    {
+      "text": "mud.",
+      "words": [
+        "mud."
+      ],
+      "start": 18.257,
+      "end": 18.69
+    },
+    {
+      "text": "And the layer soaks",
+      "words": [
+        "And",
+        "the",
+        "layer",
+        "soaks"
+      ],
+      "start": 18.755,
+      "end": 19.577
+    },
+    {
+      "text": "up vibration,",
+      "words": [
+        "up",
+        "vibration,"
+      ],
+      "start": 19.577,
+      "end": 20.475
+    },
+    {
+      "text": "which is why a",
+      "words": [
+        "which",
+        "is",
+        "why",
+        "a"
+      ],
+      "start": 20.505,
+      "end": 21.005
+    },
+    {
+      "text": "passing train shakes",
+      "words": [
+        "passing",
+        "train",
+        "shakes"
+      ],
+      "start": 21.005,
+      "end": 21.898
+    },
+    {
+      "text": "the ground less than",
+      "words": [
+        "the",
+        "ground",
+        "less",
+        "than"
+      ],
+      "start": 21.898,
+      "end": 22.577
+    },
+    {
+      "text": "it should.",
+      "words": [
+        "it",
+        "should."
+      ],
+      "start": 22.577,
+      "end": 23.172
+    }
+  ],
+  "words": [
+    {
+      "text": "Train",
+      "start": 0.106,
+      "end": 0.285
+    },
+    {
+      "text": "tracks",
+      "start": 0.356,
+      "end": 0.696
+    },
+    {
+      "text": "sit",
+      "start": 0.767,
+      "end": 0.856
+    },
+    {
+      "text": "on",
+      "start": 0.893,
+      "end": 0.946
+    },
+    {
+      "text": "a",
+      "start": 0.982,
+      "end": 1.053
+    },
+    {
+      "text": "bed",
+      "start": 1.107,
+      "end": 1.196
+    },
+    {
+      "text": "of",
+      "start": 1.231,
+      "end": 1.357
+    },
+    {
+      "text": "sharp,",
+      "start": 1.41,
+      "end": 1.624
+    },
+    {
+      "text": "angular",
+      "start": 1.928,
+      "end": 2.215
+    },
+    {
+      "text": "gravel,",
+      "start": 2.321,
+      "end": 2.607
+    },
+    {
+      "text": "and",
+      "start": 2.852,
+      "end": 2.924
+    },
+    {
+      "text": "it",
+      "start": 2.96,
+      "end": 3.013
+    },
+    {
+      "text": "is",
+      "start": 3.049,
+      "end": 3.138
+    },
+    {
+      "text": "there",
+      "start": 3.211,
+      "end": 3.353
+    },
+    {
+      "text": "on",
+      "start": 3.406,
+      "end": 3.496
+    },
+    {
+      "text": "purpose.",
+      "start": 3.549,
+      "end": 3.924
+    },
+    {
+      "text": "A",
+      "start": 4.226,
+      "end": 4.279
+    },
+    {
+      "text": "loaded",
+      "start": 4.333,
+      "end": 4.529
+    },
+    {
+      "text": "train",
+      "start": 4.62,
+      "end": 4.887
+    },
+    {
+      "text": "puts",
+      "start": 4.94,
+      "end": 5.083
+    },
+    {
+      "text": "enormous",
+      "start": 5.137,
+      "end": 5.566
+    },
+    {
+      "text": "weight",
+      "start": 5.655,
+      "end": 5.798
+    },
+    {
+      "text": "onto",
+      "start": 5.834,
+      "end": 6.03
+    },
+    {
+      "text": "a",
+      "start": 6.066,
+      "end": 6.137
+    },
+    {
+      "text": "thin",
+      "start": 6.227,
+      "end": 6.371
+    },
+    {
+      "text": "steel",
+      "start": 6.495,
+      "end": 6.691
+    },
+    {
+      "text": "rail,",
+      "start": 6.781,
+      "end": 6.995
+    },
+    {
+      "text": "and",
+      "start": 7.223,
+      "end": 7.295
+    },
+    {
+      "text": "the",
+      "start": 7.33,
+      "end": 7.366
+    },
+    {
+      "text": "stones",
+      "start": 7.437,
+      "end": 7.741
+    },
+    {
+      "text": "spread",
+      "start": 7.795,
+      "end": 8.027
+    },
+    {
+      "text": "that",
+      "start": 8.045,
+      "end": 8.152
+    },
+    {
+      "text": "load",
+      "start": 8.223,
+      "end": 8.438
+    },
+    {
+      "text": "sideways",
+      "start": 8.509,
+      "end": 8.938
+    },
+    {
+      "text": "so",
+      "start": 9.207,
+      "end": 9.259
+    },
+    {
+      "text": "the",
+      "start": 9.295,
+      "end": 9.367
+    },
+    {
+      "text": "ground",
+      "start": 9.42,
+      "end": 9.67
+    },
+    {
+      "text": "underneath",
+      "start": 9.725,
+      "end": 10.081
+    },
+    {
+      "text": "does",
+      "start": 10.117,
+      "end": 10.242
+    },
+    {
+      "text": "not",
+      "start": 10.278,
+      "end": 10.456
+    },
+    {
+      "text": "sink.",
+      "start": 10.511,
+      "end": 10.724
+    },
+    {
+      "text": "Because",
+      "start": 10.976,
+      "end": 11.262
+    },
+    {
+      "text": "they",
+      "start": 11.299,
+      "end": 11.406
+    },
+    {
+      "text": "are",
+      "start": 11.459,
+      "end": 11.601
+    },
+    {
+      "text": "angular",
+      "start": 11.726,
+      "end": 12.048
+    },
+    {
+      "text": "rather",
+      "start": 12.137,
+      "end": 12.299
+    },
+    {
+      "text": "than",
+      "start": 12.335,
+      "end": 12.424
+    },
+    {
+      "text": "rounded,",
+      "start": 12.495,
+      "end": 12.781
+    },
+    {
+      "text": "they",
+      "start": 13.039,
+      "end": 13.2
+    },
+    {
+      "text": "lock",
+      "start": 13.237,
+      "end": 13.397
+    },
+    {
+      "text": "against",
+      "start": 13.469,
+      "end": 13.718
+    },
+    {
+      "text": "each",
+      "start": 13.755,
+      "end": 13.897
+    },
+    {
+      "text": "other",
+      "start": 13.95,
+      "end": 14.093
+    },
+    {
+      "text": "and",
+      "start": 14.13,
+      "end": 14.236
+    },
+    {
+      "text": "stop",
+      "start": 14.29,
+      "end": 14.468
+    },
+    {
+      "text": "the",
+      "start": 14.505,
+      "end": 14.593
+    },
+    {
+      "text": "track",
+      "start": 14.647,
+      "end": 14.825
+    },
+    {
+      "text": "creeping",
+      "start": 14.896,
+      "end": 15.146
+    },
+    {
+      "text": "out",
+      "start": 15.182,
+      "end": 15.237
+    },
+    {
+      "text": "of",
+      "start": 15.271,
+      "end": 15.344
+    },
+    {
+      "text": "line.",
+      "start": 15.414,
+      "end": 15.683
+    },
+    {
+      "text": "Rain",
+      "start": 16.04,
+      "end": 16.183
+    },
+    {
+      "text": "drains",
+      "start": 16.236,
+      "end": 16.504
+    },
+    {
+      "text": "through",
+      "start": 16.54,
+      "end": 16.648
+    },
+    {
+      "text": "the",
+      "start": 16.665,
+      "end": 16.773
+    },
+    {
+      "text": "gaps",
+      "start": 16.826,
+      "end": 17.094
+    },
+    {
+      "text": "instead",
+      "start": 17.13,
+      "end": 17.363
+    },
+    {
+      "text": "of",
+      "start": 17.381,
+      "end": 17.469
+    },
+    {
+      "text": "turning",
+      "start": 17.524,
+      "end": 17.719
+    },
+    {
+      "text": "the",
+      "start": 17.773,
+      "end": 17.81
+    },
+    {
+      "text": "bed",
+      "start": 17.899,
+      "end": 18.042
+    },
+    {
+      "text": "to",
+      "start": 18.077,
+      "end": 18.202
+    },
+    {
+      "text": "mud.",
+      "start": 18.257,
+      "end": 18.47
+    },
+    {
+      "text": "And",
+      "start": 18.755,
+      "end": 18.844
+    },
+    {
+      "text": "the",
+      "start": 18.879,
+      "end": 18.916
+    },
+    {
+      "text": "layer",
+      "start": 19.004,
+      "end": 19.273
+    },
+    {
+      "text": "soaks",
+      "start": 19.345,
+      "end": 19.54
+    },
+    {
+      "text": "up",
+      "start": 19.577,
+      "end": 19.648
+    },
+    {
+      "text": "vibration,",
+      "start": 19.72,
+      "end": 20.255
+    },
+    {
+      "text": "which",
+      "start": 20.505,
+      "end": 20.613
+    },
+    {
+      "text": "is",
+      "start": 20.63,
+      "end": 20.737
+    },
+    {
+      "text": "why",
+      "start": 20.773,
+      "end": 20.844
+    },
+    {
+      "text": "a",
+      "start": 20.898,
+      "end": 20.951
+    },
+    {
+      "text": "passing",
+      "start": 21.005,
+      "end": 21.309
+    },
+    {
+      "text": "train",
+      "start": 21.362,
+      "end": 21.63
+    },
+    {
+      "text": "shakes",
+      "start": 21.666,
+      "end": 21.862
+    },
+    {
+      "text": "the",
+      "start": 21.898,
+      "end": 21.97
+    },
+    {
+      "text": "ground",
+      "start": 22.005,
+      "end": 22.184
+    },
+    {
+      "text": "less",
+      "start": 22.273,
+      "end": 22.434
+    },
+    {
+      "text": "than",
+      "start": 22.471,
+      "end": 22.542
+    },
+    {
+      "text": "it",
+      "start": 22.577,
+      "end": 22.702
+    },
+    {
+      "text": "should.",
+      "start": 22.738,
+      "end": 22.952
+    }
+  ]
+}

@@ -1,0 +1,873 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/cabin-lights-dim.wav.",
+  "episode": "cabin-lights-dim",
+  "title": "Why The Cabin Lights Go Down Before Landing",
+  "audio": "public/audio/cabin-lights-dim.wav",
+  "staticAudio": "audio/cabin-lights-dim.wav",
+  "duration": 24.328,
+  "fps": 30,
+  "rawDuration": 30.557,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11973,
+  "silenceRemoved": 3.316,
+  "wordCount": 91,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "The cabin lights go down before a night landing, and it reads as mood lighting or saving power.",
+      "start": 0.071,
+      "end": 4.233,
+      "wordRange": [
+        0,
+        17
+      ]
+    },
+    {
+      "id": "neither",
+      "text": "It is neither.",
+      "start": 4.522,
+      "end": 5.093,
+      "wordRange": [
+        18,
+        20
+      ]
+    },
+    {
+      "id": "adapt",
+      "text": "Eyes take several minutes to adapt to darkness, and takeoff and landing are when an evacuation is most likely to be needed.",
+      "start": 5.416,
+      "end": 10.915,
+      "wordRange": [
+        21,
+        42
+      ]
+    },
+    {
+      "id": "blind",
+      "text": "If the cabin were brightly lit and the power went, everyone aboard would be effectively blind at the worst possible moment.",
+      "start": 11.243,
+      "end": 16.681,
+      "wordRange": [
+        43,
+        63
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "Dimming early means your eyes are already adjusted, and the floor path lighting reads clearly instead of washing out. The lights go down so you can see.",
+      "start": 17.025,
+      "end": 24.124,
+      "wordRange": [
+        64,
+        90
+      ]
+    }
+  ],
+  "keywords": {
+    "dim-down": {
+      "start": 0.874,
+      "end": 1.035,
+      "wordIndex": 4
+    },
+    "saving": {
+      "start": 3.661,
+      "end": 3.912,
+      "wordIndex": 16
+    },
+    "neither": {
+      "start": 4.789,
+      "end": 5.093,
+      "wordIndex": 20
+    },
+    "adapt": {
+      "start": 6.629,
+      "end": 6.861,
+      "wordIndex": 26
+    },
+    "evacuation": {
+      "start": 9.147,
+      "end": 9.772,
+      "wordIndex": 36
+    },
+    "power": {
+      "start": 12.959,
+      "end": 13.192,
+      "wordIndex": 51
+    },
+    "blind": {
+      "start": 15.074,
+      "end": 15.343,
+      "wordIndex": 58
+    },
+    "adjusted": {
+      "start": 18.722,
+      "end": 19.152,
+      "wordIndex": 71
+    },
+    "see": {
+      "start": 23.946,
+      "end": 24.124,
+      "wordIndex": 90
+    }
+  },
+  "captions": [
+    {
+      "text": "The cabin lights go",
+      "words": [
+        "The",
+        "cabin",
+        "lights",
+        "go"
+      ],
+      "start": 0.071,
+      "end": 0.874
+    },
+    {
+      "text": "down before a night",
+      "words": [
+        "down",
+        "before",
+        "a",
+        "night"
+      ],
+      "start": 0.874,
+      "end": 1.643
+    },
+    {
+      "text": "landing,",
+      "words": [
+        "landing,"
+      ],
+      "start": 1.643,
+      "end": 2.148
+    },
+    {
+      "text": "and it reads as",
+      "words": [
+        "and",
+        "it",
+        "reads",
+        "as"
+      ],
+      "start": 2.233,
+      "end": 2.929
+    },
+    {
+      "text": "mood lighting or",
+      "words": [
+        "mood",
+        "lighting",
+        "or"
+      ],
+      "start": 2.929,
+      "end": 3.661
+    },
+    {
+      "text": "saving power.",
+      "words": [
+        "saving",
+        "power."
+      ],
+      "start": 3.661,
+      "end": 4.453
+    },
+    {
+      "text": "It is neither.",
+      "words": [
+        "It",
+        "is",
+        "neither."
+      ],
+      "start": 4.522,
+      "end": 5.313
+    },
+    {
+      "text": "Eyes take several",
+      "words": [
+        "Eyes",
+        "take",
+        "several"
+      ],
+      "start": 5.416,
+      "end": 6.272
+    },
+    {
+      "text": "minutes to adapt to",
+      "words": [
+        "minutes",
+        "to",
+        "adapt",
+        "to"
+      ],
+      "start": 6.272,
+      "end": 7.023
+    },
+    {
+      "text": "darkness,",
+      "words": [
+        "darkness,"
+      ],
+      "start": 7.023,
+      "end": 7.635
+    },
+    {
+      "text": "and takeoff and",
+      "words": [
+        "and",
+        "takeoff",
+        "and"
+      ],
+      "start": 7.719,
+      "end": 8.433
+    },
+    {
+      "text": "landing are when an",
+      "words": [
+        "landing",
+        "are",
+        "when",
+        "an"
+      ],
+      "start": 8.433,
+      "end": 9.147
+    },
+    {
+      "text": "evacuation is most",
+      "words": [
+        "evacuation",
+        "is",
+        "most"
+      ],
+      "start": 9.147,
+      "end": 10.218
+    },
+    {
+      "text": "likely to be needed.",
+      "words": [
+        "likely",
+        "to",
+        "be",
+        "needed."
+      ],
+      "start": 10.218,
+      "end": 11.135
+    },
+    {
+      "text": "If the cabin were",
+      "words": [
+        "If",
+        "the",
+        "cabin",
+        "were"
+      ],
+      "start": 11.243,
+      "end": 11.976
+    },
+    {
+      "text": "brightly lit and the",
+      "words": [
+        "brightly",
+        "lit",
+        "and",
+        "the"
+      ],
+      "start": 11.976,
+      "end": 12.959
+    },
+    {
+      "text": "power went,",
+      "words": [
+        "power",
+        "went,"
+      ],
+      "start": 12.959,
+      "end": 13.679
+    },
+    {
+      "text": "everyone aboard would",
+      "words": [
+        "everyone",
+        "aboard",
+        "would"
+      ],
+      "start": 13.717,
+      "end": 14.413
+    },
+    {
+      "text": "be effectively blind",
+      "words": [
+        "be",
+        "effectively",
+        "blind"
+      ],
+      "start": 14.413,
+      "end": 15.378
+    },
+    {
+      "text": "at the worst possible",
+      "words": [
+        "at",
+        "the",
+        "worst",
+        "possible"
+      ],
+      "start": 15.378,
+      "end": 16.379
+    },
+    {
+      "text": "moment.",
+      "words": [
+        "moment."
+      ],
+      "start": 16.379,
+      "end": 16.901
+    },
+    {
+      "text": "Dimming early means",
+      "words": [
+        "Dimming",
+        "early",
+        "means"
+      ],
+      "start": 17.025,
+      "end": 17.847
+    },
+    {
+      "text": "your eyes are already",
+      "words": [
+        "your",
+        "eyes",
+        "are",
+        "already"
+      ],
+      "start": 17.847,
+      "end": 18.722
+    },
+    {
+      "text": "adjusted,",
+      "words": [
+        "adjusted,"
+      ],
+      "start": 18.722,
+      "end": 19.372
+    },
+    {
+      "text": "and the floor path",
+      "words": [
+        "and",
+        "the",
+        "floor",
+        "path"
+      ],
+      "start": 19.527,
+      "end": 20.258
+    },
+    {
+      "text": "lighting reads",
+      "words": [
+        "lighting",
+        "reads"
+      ],
+      "start": 20.258,
+      "end": 20.925
+    },
+    {
+      "text": "clearly instead of",
+      "words": [
+        "clearly",
+        "instead",
+        "of"
+      ],
+      "start": 20.988,
+      "end": 22.007
+    },
+    {
+      "text": "washing out.",
+      "words": [
+        "washing",
+        "out."
+      ],
+      "start": 22.007,
+      "end": 22.708
+    },
+    {
+      "text": "The lights go down",
+      "words": [
+        "The",
+        "lights",
+        "go",
+        "down"
+      ],
+      "start": 22.75,
+      "end": 23.517
+    },
+    {
+      "text": "so you can see.",
+      "words": [
+        "so",
+        "you",
+        "can",
+        "see."
+      ],
+      "start": 23.517,
+      "end": 24.328
+    }
+  ],
+  "words": [
+    {
+      "text": "The",
+      "start": 0.071,
+      "end": 0.16
+    },
+    {
+      "text": "cabin",
+      "start": 0.196,
+      "end": 0.41
+    },
+    {
+      "text": "lights",
+      "start": 0.481,
+      "end": 0.678
+    },
+    {
+      "text": "go",
+      "start": 0.714,
+      "end": 0.839
+    },
+    {
+      "text": "down",
+      "start": 0.874,
+      "end": 1.035
+    },
+    {
+      "text": "before",
+      "start": 1.09,
+      "end": 1.285
+    },
+    {
+      "text": "a",
+      "start": 1.322,
+      "end": 1.41
+    },
+    {
+      "text": "night",
+      "start": 1.447,
+      "end": 1.589
+    },
+    {
+      "text": "landing,",
+      "start": 1.643,
+      "end": 1.928
+    },
+    {
+      "text": "and",
+      "start": 2.233,
+      "end": 2.321
+    },
+    {
+      "text": "it",
+      "start": 2.339,
+      "end": 2.429
+    },
+    {
+      "text": "reads",
+      "start": 2.5,
+      "end": 2.697
+    },
+    {
+      "text": "as",
+      "start": 2.732,
+      "end": 2.839
+    },
+    {
+      "text": "mood",
+      "start": 2.929,
+      "end": 3.09
+    },
+    {
+      "text": "lighting",
+      "start": 3.126,
+      "end": 3.393
+    },
+    {
+      "text": "or",
+      "start": 3.465,
+      "end": 3.518
+    },
+    {
+      "text": "saving",
+      "start": 3.661,
+      "end": 3.912
+    },
+    {
+      "text": "power.",
+      "start": 3.966,
+      "end": 4.233
+    },
+    {
+      "text": "It",
+      "start": 4.522,
+      "end": 4.576
+    },
+    {
+      "text": "is",
+      "start": 4.629,
+      "end": 4.718
+    },
+    {
+      "text": "neither.",
+      "start": 4.789,
+      "end": 5.093
+    },
+    {
+      "text": "Eyes",
+      "start": 5.416,
+      "end": 5.683
+    },
+    {
+      "text": "take",
+      "start": 5.754,
+      "end": 5.933
+    },
+    {
+      "text": "several",
+      "start": 5.986,
+      "end": 6.183
+    },
+    {
+      "text": "minutes",
+      "start": 6.272,
+      "end": 6.486
+    },
+    {
+      "text": "to",
+      "start": 6.522,
+      "end": 6.577
+    },
+    {
+      "text": "adapt",
+      "start": 6.629,
+      "end": 6.861
+    },
+    {
+      "text": "to",
+      "start": 6.897,
+      "end": 6.952
+    },
+    {
+      "text": "darkness,",
+      "start": 7.023,
+      "end": 7.415
+    },
+    {
+      "text": "and",
+      "start": 7.719,
+      "end": 7.827
+    },
+    {
+      "text": "takeoff",
+      "start": 7.879,
+      "end": 8.236
+    },
+    {
+      "text": "and",
+      "start": 8.273,
+      "end": 8.38
+    },
+    {
+      "text": "landing",
+      "start": 8.433,
+      "end": 8.719
+    },
+    {
+      "text": "are",
+      "start": 8.808,
+      "end": 8.879
+    },
+    {
+      "text": "when",
+      "start": 8.915,
+      "end": 9.004
+    },
+    {
+      "text": "an",
+      "start": 9.04,
+      "end": 9.076
+    },
+    {
+      "text": "evacuation",
+      "start": 9.147,
+      "end": 9.772
+    },
+    {
+      "text": "is",
+      "start": 9.808,
+      "end": 9.879
+    },
+    {
+      "text": "most",
+      "start": 9.968,
+      "end": 10.166
+    },
+    {
+      "text": "likely",
+      "start": 10.218,
+      "end": 10.45
+    },
+    {
+      "text": "to",
+      "start": 10.486,
+      "end": 10.54
+    },
+    {
+      "text": "be",
+      "start": 10.576,
+      "end": 10.648
+    },
+    {
+      "text": "needed.",
+      "start": 10.683,
+      "end": 10.915
+    },
+    {
+      "text": "If",
+      "start": 11.243,
+      "end": 11.315
+    },
+    {
+      "text": "the",
+      "start": 11.35,
+      "end": 11.405
+    },
+    {
+      "text": "cabin",
+      "start": 11.493,
+      "end": 11.726
+    },
+    {
+      "text": "were",
+      "start": 11.779,
+      "end": 11.887
+    },
+    {
+      "text": "brightly",
+      "start": 11.976,
+      "end": 12.244
+    },
+    {
+      "text": "lit",
+      "start": 12.334,
+      "end": 12.655
+    },
+    {
+      "text": "and",
+      "start": 12.708,
+      "end": 12.762
+    },
+    {
+      "text": "the",
+      "start": 12.798,
+      "end": 12.852
+    },
+    {
+      "text": "power",
+      "start": 12.959,
+      "end": 13.192
+    },
+    {
+      "text": "went,",
+      "start": 13.244,
+      "end": 13.459
+    },
+    {
+      "text": "everyone",
+      "start": 13.717,
+      "end": 13.967
+    },
+    {
+      "text": "aboard",
+      "start": 14.02,
+      "end": 14.271
+    },
+    {
+      "text": "would",
+      "start": 14.306,
+      "end": 14.396
+    },
+    {
+      "text": "be",
+      "start": 14.413,
+      "end": 14.485
+    },
+    {
+      "text": "effectively",
+      "start": 14.646,
+      "end": 15.038
+    },
+    {
+      "text": "blind",
+      "start": 15.074,
+      "end": 15.343
+    },
+    {
+      "text": "at",
+      "start": 15.378,
+      "end": 15.449
+    },
+    {
+      "text": "the",
+      "start": 15.467,
+      "end": 15.592
+    },
+    {
+      "text": "worst",
+      "start": 15.663,
+      "end": 15.932
+    },
+    {
+      "text": "possible",
+      "start": 16.004,
+      "end": 16.342
+    },
+    {
+      "text": "moment.",
+      "start": 16.379,
+      "end": 16.681
+    },
+    {
+      "text": "Dimming",
+      "start": 17.025,
+      "end": 17.275
+    },
+    {
+      "text": "early",
+      "start": 17.329,
+      "end": 17.579
+    },
+    {
+      "text": "means",
+      "start": 17.633,
+      "end": 17.793
+    },
+    {
+      "text": "your",
+      "start": 17.847,
+      "end": 17.936
+    },
+    {
+      "text": "eyes",
+      "start": 17.99,
+      "end": 18.151
+    },
+    {
+      "text": "are",
+      "start": 18.204,
+      "end": 18.311
+    },
+    {
+      "text": "already",
+      "start": 18.383,
+      "end": 18.669
+    },
+    {
+      "text": "adjusted,",
+      "start": 18.722,
+      "end": 19.152
+    },
+    {
+      "text": "and",
+      "start": 19.527,
+      "end": 19.598
+    },
+    {
+      "text": "the",
+      "start": 19.633,
+      "end": 19.705
+    },
+    {
+      "text": "floor",
+      "start": 19.776,
+      "end": 19.919
+    },
+    {
+      "text": "path",
+      "start": 20.008,
+      "end": 20.188
+    },
+    {
+      "text": "lighting",
+      "start": 20.258,
+      "end": 20.455
+    },
+    {
+      "text": "reads",
+      "start": 20.492,
+      "end": 20.705
+    },
+    {
+      "text": "clearly",
+      "start": 20.988,
+      "end": 21.56
+    },
+    {
+      "text": "instead",
+      "start": 21.613,
+      "end": 21.845
+    },
+    {
+      "text": "of",
+      "start": 21.863,
+      "end": 21.952
+    },
+    {
+      "text": "washing",
+      "start": 22.007,
+      "end": 22.274
+    },
+    {
+      "text": "out.",
+      "start": 22.327,
+      "end": 22.488
+    },
+    {
+      "text": "The",
+      "start": 22.75,
+      "end": 22.803
+    },
+    {
+      "text": "lights",
+      "start": 22.875,
+      "end": 23.053
+    },
+    {
+      "text": "go",
+      "start": 23.107,
+      "end": 23.214
+    },
+    {
+      "text": "down",
+      "start": 23.267,
+      "end": 23.482
+    },
+    {
+      "text": "so",
+      "start": 23.517,
+      "end": 23.607
+    },
+    {
+      "text": "you",
+      "start": 23.642,
+      "end": 23.714
+    },
+    {
+      "text": "can",
+      "start": 23.75,
+      "end": 23.893
+    },
+    {
+      "text": "see.",
+      "start": 23.946,
+      "end": 24.124
+    }
+  ]
+}

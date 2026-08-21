@@ -1,0 +1,220 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "revolving-door",
+  "title": "A Revolving Door Is Solving A Problem You Can't See",
+  "audio": "public/audio/revolving-door.wav",
+  "fps": 30,
+  "narrationDuration": 23.608,
+  "beatCount": 18,
+  "longestGap": 1.816,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 7.249,
+      "startFrame": 2,
+      "endFrame": 217,
+      "duration": 7.178,
+      "narration": "A revolving door is slower than a normal door, more expensive to build, and much harder to carry anything through, and tall buildings keep installing them anyway.",
+      "background": "MallInterior",
+      "note": "Stack the objections honestly — the episode is stronger if the door genuinely looks worse first.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill shuffles through a revolving door carrying an awkward box"
+        },
+        {
+          "t": 1.196,
+          "frame": 36,
+          "tInScene": 1.125,
+          "frameInScene": 34,
+          "action": "three complaint labels stack up: SLOWER, EXPENSIVE, AWKWARD"
+        },
+        {
+          "t": 6.356,
+          "frame": 191,
+          "tInScene": 6.285,
+          "frameInScene": 189,
+          "action": "the labels hold while tall buildings rise behind him"
+        },
+        {
+          "t": 2.491,
+          "frame": 75,
+          "tInScene": 2.42,
+          "frameInScene": 73,
+          "action": "the door carries Bill round another slow quarter turn",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 3.781,
+          "frame": 113,
+          "tInScene": 3.71,
+          "frameInScene": 111,
+          "action": "Bill shuffles another quarter turn, the box catching on the glass",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 5.071,
+          "frame": 152,
+          "tInScene": 5,
+          "frameInScene": 150,
+          "action": "a tall building draws up behind him, revolving door at its base",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "stack",
+      "start": 7.576,
+      "end": 12.719,
+      "startFrame": 227,
+      "endFrame": 382,
+      "duration": 5.143,
+      "narration": "Warm air inside a tall building rises and escapes out of the top, and that pulls cold air in hard at street level.",
+      "background": "CutawayVoid",
+      "note": "THE invisible problem. A whole-building section — the scale of the airflow is the reveal.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 7.576,
+          "frame": 227,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a tall building sections open from lobby to roof"
+        },
+        {
+          "t": 9.06,
+          "frame": 272,
+          "tInScene": 1.484,
+          "frameInScene": 45,
+          "action": "warm air columns upward through the building and vents at the top"
+        },
+        {
+          "t": 11.396,
+          "frame": 342,
+          "tInScene": 3.82,
+          "frameInScene": 115,
+          "action": "cold air rushes in hard at street level to replace it"
+        },
+        {
+          "t": 10.226,
+          "frame": 307,
+          "tInScene": 2.65,
+          "frameInScene": 79,
+          "action": "the warm air column keeps rising through the building section",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "windtunnel",
+      "start": 12.978,
+      "end": 18.531,
+      "startFrame": 389,
+      "endFrame": 556,
+      "duration": 5.553,
+      "narration": "On an ordinary door, that pressure difference turns the entrance into a wind tunnel and throws the heating out into the street.",
+      "background": "CutawayVoid",
+      "note": "The consequence, played for one small laugh — a hinged door as a wind tunnel.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 12.978,
+          "frame": 389,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "an ordinary hinged door opens at the lobby"
+        },
+        {
+          "t": 16.318,
+          "frame": 490,
+          "tInScene": 3.34,
+          "frameInScene": 100,
+          "action": "air blasts through the opening; papers and hair fly"
+        },
+        {
+          "t": 17.496,
+          "frame": 525,
+          "tInScene": 4.518,
+          "frameInScene": 136,
+          "action": "warm coral air pours out into the street and dissipates"
+        },
+        {
+          "t": 14.648,
+          "frame": 439,
+          "tInScene": 1.67,
+          "frameInScene": 50,
+          "action": "the papers keep tumbling across the lobby floor",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "neveropens",
+      "start": 18.788,
+      "end": 20.682,
+      "startFrame": 564,
+      "endFrame": 620,
+      "duration": 1.894,
+      "narration": "A revolving door never actually opens.",
+      "background": "SchematicVoid",
+      "note": "The mechanism, from directly overhead. The seal is always closed — that is the whole trick.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 18.788,
+          "frame": 564,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "top-down view of the revolving door; four compartments rotate"
+        },
+        {
+          "t": 19.663,
+          "frame": 590,
+          "tInScene": 0.875,
+          "frameInScene": 26,
+          "action": "the seal between inside and outside holds continuously as it turns"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 20.983,
+      "end": 23.342,
+      "startFrame": 629,
+      "endFrame": 700,
+      "duration": 2.359,
+      "narration": "Only the wedge of air in your compartment travels with you.",
+      "background": "MallInterior",
+      "note": "The small wedge versus the earlier blast. Contrast carries it. Hard cut.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 21.376,
+          "frame": 641,
+          "tInScene": 0.393,
+          "frameInScene": 12,
+          "action": "one small wedge of air shades in and rotates through with Bill"
+        },
+        {
+          "t": 23.192,
+          "frame": 696,
+          "tInScene": 2.209,
+          "frameInScene": 66,
+          "action": "the lobby air stays completely still around him; hard cut",
+          "sync": "final beat"
+        }
+      ]
+    }
+  ]
+}

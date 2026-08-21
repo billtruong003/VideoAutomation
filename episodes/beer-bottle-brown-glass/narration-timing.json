@@ -1,0 +1,909 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/beer-bottle-brown-glass.wav.",
+  "episode": "beer-bottle-brown-glass",
+  "title": "Light Turns Beer Into Something Close To Skunk Spray",
+  "audio": "public/audio/beer-bottle-brown-glass.wav",
+  "staticAudio": "audio/beer-bottle-brown-glass.wav",
+  "duration": 26.96,
+  "fps": 30,
+  "rawDuration": 34.505,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11947,
+  "silenceRemoved": 4.324,
+  "wordCount": 93,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Beer almost always comes in brown glass, because light physically breaks beer.",
+      "start": 0.071,
+      "end": 3.657,
+      "wordRange": [
+        0,
+        11
+      ]
+    },
+    {
+      "id": "hops",
+      "text": "Hops leave compounds in the liquid that are stable in the dark.",
+      "start": 3.949,
+      "end": 6.754,
+      "wordRange": [
+        12,
+        23
+      ]
+    },
+    {
+      "id": "riboflavin",
+      "text": "Hit them with blue and ultraviolet light, and riboflavin, a vitamin already in the beer, acts as a middleman.",
+      "start": 7.038,
+      "end": 12.468,
+      "wordRange": [
+        24,
+        42
+      ]
+    },
+    {
+      "id": "shatter",
+      "text": "It absorbs the light and hands the energy along until those hop compounds shatter into something chemically close to skunk spray. That is not a figure of speech.",
+      "start": 12.748,
+      "end": 20.284,
+      "wordRange": [
+        43,
+        70
+      ]
+    },
+    {
+      "id": "glass",
+      "text": "Brown glass blocks nearly all of those wavelengths. Green blocks a fraction, which is why some imports taste faintly like a warning.",
+      "start": 20.593,
+      "end": 26.708,
+      "wordRange": [
+        71,
+        92
+      ]
+    }
+  ],
+  "keywords": {
+    "brown": {
+      "start": 1.428,
+      "end": 1.625,
+      "wordIndex": 5
+    },
+    "breaks": {
+      "start": 3.156,
+      "end": 3.371,
+      "wordIndex": 10
+    },
+    "stable": {
+      "start": 6.004,
+      "end": 6.272,
+      "wordIndex": 20
+    },
+    "riboflavin": {
+      "start": 9.257,
+      "end": 9.918,
+      "wordIndex": 32
+    },
+    "middleman": {
+      "start": 12.074,
+      "end": 12.468,
+      "wordIndex": 42
+    },
+    "shatter": {
+      "start": 16.357,
+      "end": 16.59,
+      "wordIndex": 56
+    },
+    "skunk": {
+      "start": 18.036,
+      "end": 18.232,
+      "wordIndex": 62
+    },
+    "speech": {
+      "start": 19.927,
+      "end": 20.284,
+      "wordIndex": 70
+    },
+    "blocks": {
+      "start": 21.254,
+      "end": 21.504,
+      "wordIndex": 73
+    },
+    "green": {
+      "start": 23.236,
+      "end": 23.47,
+      "wordIndex": 79
+    },
+    "imports": {
+      "start": 25.208,
+      "end": 25.548,
+      "wordIndex": 87
+    }
+  },
+  "captions": [
+    {
+      "text": "Beer almost always",
+      "words": [
+        "Beer",
+        "almost",
+        "always"
+      ],
+      "start": 0.071,
+      "end": 1.071
+    },
+    {
+      "text": "comes in brown glass,",
+      "words": [
+        "comes",
+        "in",
+        "brown",
+        "glass,"
+      ],
+      "start": 1.071,
+      "end": 2.21
+    },
+    {
+      "text": "because light",
+      "words": [
+        "because",
+        "light"
+      ],
+      "start": 2.21,
+      "end": 2.746
+    },
+    {
+      "text": "physically breaks",
+      "words": [
+        "physically",
+        "breaks"
+      ],
+      "start": 2.746,
+      "end": 3.46
+    },
+    {
+      "text": "beer.",
+      "words": [
+        "beer."
+      ],
+      "start": 3.46,
+      "end": 3.877
+    },
+    {
+      "text": "Hops leave compounds",
+      "words": [
+        "Hops",
+        "leave",
+        "compounds"
+      ],
+      "start": 3.949,
+      "end": 4.968
+    },
+    {
+      "text": "in the liquid",
+      "words": [
+        "in",
+        "the",
+        "liquid"
+      ],
+      "start": 4.968,
+      "end": 5.671
+    },
+    {
+      "text": "that are stable in",
+      "words": [
+        "that",
+        "are",
+        "stable",
+        "in"
+      ],
+      "start": 5.754,
+      "end": 6.397
+    },
+    {
+      "text": "the dark.",
+      "words": [
+        "the",
+        "dark."
+      ],
+      "start": 6.397,
+      "end": 6.974
+    },
+    {
+      "text": "Hit them with blue",
+      "words": [
+        "Hit",
+        "them",
+        "with",
+        "blue"
+      ],
+      "start": 7.038,
+      "end": 7.843
+    },
+    {
+      "text": "and ultraviolet light,",
+      "words": [
+        "and",
+        "ultraviolet",
+        "light,"
+      ],
+      "start": 7.843,
+      "end": 9.043
+    },
+    {
+      "text": "and riboflavin,",
+      "words": [
+        "and",
+        "riboflavin,"
+      ],
+      "start": 9.043,
+      "end": 10.138
+    },
+    {
+      "text": "a vitamin already in",
+      "words": [
+        "a",
+        "vitamin",
+        "already",
+        "in"
+      ],
+      "start": 10.205,
+      "end": 11.098
+    },
+    {
+      "text": "the beer,",
+      "words": [
+        "the",
+        "beer,"
+      ],
+      "start": 11.098,
+      "end": 11.656
+    },
+    {
+      "text": "acts as a middleman.",
+      "words": [
+        "acts",
+        "as",
+        "a",
+        "middleman."
+      ],
+      "start": 11.717,
+      "end": 12.688
+    },
+    {
+      "text": "It absorbs the light",
+      "words": [
+        "It",
+        "absorbs",
+        "the",
+        "light"
+      ],
+      "start": 12.748,
+      "end": 13.695
+    },
+    {
+      "text": "and hands the energy",
+      "words": [
+        "and",
+        "hands",
+        "the",
+        "energy"
+      ],
+      "start": 13.695,
+      "end": 14.606
+    },
+    {
+      "text": "along until those hop",
+      "words": [
+        "along",
+        "until",
+        "those",
+        "hop"
+      ],
+      "start": 14.606,
+      "end": 15.57
+    },
+    {
+      "text": "compounds",
+      "words": [
+        "compounds"
+      ],
+      "start": 15.57,
+      "end": 16.202
+    },
+    {
+      "text": "shatter into something",
+      "words": [
+        "shatter",
+        "into",
+        "something"
+      ],
+      "start": 16.357,
+      "end": 17.232
+    },
+    {
+      "text": "chemically close to",
+      "words": [
+        "chemically",
+        "close",
+        "to"
+      ],
+      "start": 17.232,
+      "end": 18.036
+    },
+    {
+      "text": "skunk spray.",
+      "words": [
+        "skunk",
+        "spray."
+      ],
+      "start": 18.036,
+      "end": 18.81
+    },
+    {
+      "text": "That is not a",
+      "words": [
+        "That",
+        "is",
+        "not",
+        "a"
+      ],
+      "start": 18.873,
+      "end": 19.534
+    },
+    {
+      "text": "figure of speech.",
+      "words": [
+        "figure",
+        "of",
+        "speech."
+      ],
+      "start": 19.534,
+      "end": 20.504
+    },
+    {
+      "text": "Brown glass blocks",
+      "words": [
+        "Brown",
+        "glass",
+        "blocks"
+      ],
+      "start": 20.593,
+      "end": 21.575
+    },
+    {
+      "text": "nearly all of those",
+      "words": [
+        "nearly",
+        "all",
+        "of",
+        "those"
+      ],
+      "start": 21.575,
+      "end": 22.433
+    },
+    {
+      "text": "wavelengths.",
+      "words": [
+        "wavelengths."
+      ],
+      "start": 22.433,
+      "end": 23.135
+    },
+    {
+      "text": "Green blocks a",
+      "words": [
+        "Green",
+        "blocks",
+        "a"
+      ],
+      "start": 23.236,
+      "end": 23.917
+    },
+    {
+      "text": "fraction,",
+      "words": [
+        "fraction,"
+      ],
+      "start": 23.917,
+      "end": 24.511
+    },
+    {
+      "text": "which is why some",
+      "words": [
+        "which",
+        "is",
+        "why",
+        "some"
+      ],
+      "start": 24.511,
+      "end": 25.208
+    },
+    {
+      "text": "imports taste faintly",
+      "words": [
+        "imports",
+        "taste",
+        "faintly"
+      ],
+      "start": 25.208,
+      "end": 26.208
+    },
+    {
+      "text": "like a warning.",
+      "words": [
+        "like",
+        "a",
+        "warning."
+      ],
+      "start": 26.208,
+      "end": 26.928
+    }
+  ],
+  "words": [
+    {
+      "text": "Beer",
+      "start": 0.071,
+      "end": 0.321
+    },
+    {
+      "text": "almost",
+      "start": 0.374,
+      "end": 0.696
+    },
+    {
+      "text": "always",
+      "start": 0.767,
+      "end": 1.035
+    },
+    {
+      "text": "comes",
+      "start": 1.071,
+      "end": 1.249
+    },
+    {
+      "text": "in",
+      "start": 1.267,
+      "end": 1.34
+    },
+    {
+      "text": "brown",
+      "start": 1.428,
+      "end": 1.625
+    },
+    {
+      "text": "glass,",
+      "start": 1.696,
+      "end": 2.018
+    },
+    {
+      "text": "because",
+      "start": 2.21,
+      "end": 2.424
+    },
+    {
+      "text": "light",
+      "start": 2.514,
+      "end": 2.656
+    },
+    {
+      "text": "physically",
+      "start": 2.746,
+      "end": 3.085
+    },
+    {
+      "text": "breaks",
+      "start": 3.156,
+      "end": 3.371
+    },
+    {
+      "text": "beer.",
+      "start": 3.46,
+      "end": 3.657
+    },
+    {
+      "text": "Hops",
+      "start": 3.949,
+      "end": 4.199
+    },
+    {
+      "text": "leave",
+      "start": 4.235,
+      "end": 4.396
+    },
+    {
+      "text": "compounds",
+      "start": 4.467,
+      "end": 4.932
+    },
+    {
+      "text": "in",
+      "start": 4.968,
+      "end": 5.022
+    },
+    {
+      "text": "the",
+      "start": 5.057,
+      "end": 5.11
+    },
+    {
+      "text": "liquid",
+      "start": 5.182,
+      "end": 5.451
+    },
+    {
+      "text": "that",
+      "start": 5.754,
+      "end": 5.807
+    },
+    {
+      "text": "are",
+      "start": 5.843,
+      "end": 5.897
+    },
+    {
+      "text": "stable",
+      "start": 6.004,
+      "end": 6.272
+    },
+    {
+      "text": "in",
+      "start": 6.308,
+      "end": 6.362
+    },
+    {
+      "text": "the",
+      "start": 6.397,
+      "end": 6.45
+    },
+    {
+      "text": "dark.",
+      "start": 6.522,
+      "end": 6.754
+    },
+    {
+      "text": "Hit",
+      "start": 7.038,
+      "end": 7.145
+    },
+    {
+      "text": "them",
+      "start": 7.199,
+      "end": 7.306
+    },
+    {
+      "text": "with",
+      "start": 7.361,
+      "end": 7.486
+    },
+    {
+      "text": "blue",
+      "start": 7.61,
+      "end": 7.808
+    },
+    {
+      "text": "and",
+      "start": 7.843,
+      "end": 7.932
+    },
+    {
+      "text": "ultraviolet",
+      "start": 8.076,
+      "end": 8.557
+    },
+    {
+      "text": "light,",
+      "start": 8.629,
+      "end": 8.825
+    },
+    {
+      "text": "and",
+      "start": 9.043,
+      "end": 9.15
+    },
+    {
+      "text": "riboflavin,",
+      "start": 9.257,
+      "end": 9.918
+    },
+    {
+      "text": "a",
+      "start": 10.205,
+      "end": 10.241
+    },
+    {
+      "text": "vitamin",
+      "start": 10.293,
+      "end": 10.651
+    },
+    {
+      "text": "already",
+      "start": 10.723,
+      "end": 10.99
+    },
+    {
+      "text": "in",
+      "start": 11.008,
+      "end": 11.08
+    },
+    {
+      "text": "the",
+      "start": 11.098,
+      "end": 11.151
+    },
+    {
+      "text": "beer,",
+      "start": 11.222,
+      "end": 11.436
+    },
+    {
+      "text": "acts",
+      "start": 11.717,
+      "end": 11.861
+    },
+    {
+      "text": "as",
+      "start": 11.896,
+      "end": 11.949
+    },
+    {
+      "text": "a",
+      "start": 12.003,
+      "end": 12.038
+    },
+    {
+      "text": "middleman.",
+      "start": 12.074,
+      "end": 12.468
+    },
+    {
+      "text": "It",
+      "start": 12.748,
+      "end": 12.802
+    },
+    {
+      "text": "absorbs",
+      "start": 12.874,
+      "end": 13.266
+    },
+    {
+      "text": "the",
+      "start": 13.32,
+      "end": 13.373
+    },
+    {
+      "text": "light",
+      "start": 13.48,
+      "end": 13.659
+    },
+    {
+      "text": "and",
+      "start": 13.695,
+      "end": 13.785
+    },
+    {
+      "text": "hands",
+      "start": 13.873,
+      "end": 14.124
+    },
+    {
+      "text": "the",
+      "start": 14.159,
+      "end": 14.231
+    },
+    {
+      "text": "energy",
+      "start": 14.285,
+      "end": 14.516
+    },
+    {
+      "text": "along",
+      "start": 14.606,
+      "end": 14.803
+    },
+    {
+      "text": "until",
+      "start": 14.856,
+      "end": 15.052
+    },
+    {
+      "text": "those",
+      "start": 15.107,
+      "end": 15.267
+    },
+    {
+      "text": "hop",
+      "start": 15.338,
+      "end": 15.517
+    },
+    {
+      "text": "compounds",
+      "start": 15.57,
+      "end": 15.982
+    },
+    {
+      "text": "shatter",
+      "start": 16.357,
+      "end": 16.59
+    },
+    {
+      "text": "into",
+      "start": 16.624,
+      "end": 16.839
+    },
+    {
+      "text": "something",
+      "start": 16.875,
+      "end": 17.179
+    },
+    {
+      "text": "chemically",
+      "start": 17.232,
+      "end": 17.607
+    },
+    {
+      "text": "close",
+      "start": 17.661,
+      "end": 17.839
+    },
+    {
+      "text": "to",
+      "start": 17.875,
+      "end": 17.947
+    },
+    {
+      "text": "skunk",
+      "start": 18.036,
+      "end": 18.232
+    },
+    {
+      "text": "spray.",
+      "start": 18.286,
+      "end": 18.59
+    },
+    {
+      "text": "That",
+      "start": 18.873,
+      "end": 18.944
+    },
+    {
+      "text": "is",
+      "start": 18.998,
+      "end": 19.124
+    },
+    {
+      "text": "not",
+      "start": 19.176,
+      "end": 19.355
+    },
+    {
+      "text": "a",
+      "start": 19.409,
+      "end": 19.481
+    },
+    {
+      "text": "figure",
+      "start": 19.534,
+      "end": 19.748
+    },
+    {
+      "text": "of",
+      "start": 19.784,
+      "end": 19.891
+    },
+    {
+      "text": "speech.",
+      "start": 19.927,
+      "end": 20.284
+    },
+    {
+      "text": "Brown",
+      "start": 20.593,
+      "end": 20.807
+    },
+    {
+      "text": "glass",
+      "start": 20.896,
+      "end": 21.165
+    },
+    {
+      "text": "blocks",
+      "start": 21.254,
+      "end": 21.504
+    },
+    {
+      "text": "nearly",
+      "start": 21.575,
+      "end": 21.861
+    },
+    {
+      "text": "all",
+      "start": 21.95,
+      "end": 22.057
+    },
+    {
+      "text": "of",
+      "start": 22.093,
+      "end": 22.147
+    },
+    {
+      "text": "those",
+      "start": 22.201,
+      "end": 22.343
+    },
+    {
+      "text": "wavelengths.",
+      "start": 22.433,
+      "end": 22.915
+    },
+    {
+      "text": "Green",
+      "start": 23.236,
+      "end": 23.47
+    },
+    {
+      "text": "blocks",
+      "start": 23.541,
+      "end": 23.773
+    },
+    {
+      "text": "a",
+      "start": 23.826,
+      "end": 23.862
+    },
+    {
+      "text": "fraction,",
+      "start": 23.917,
+      "end": 24.291
+    },
+    {
+      "text": "which",
+      "start": 24.511,
+      "end": 24.618
+    },
+    {
+      "text": "is",
+      "start": 24.637,
+      "end": 24.708
+    },
+    {
+      "text": "why",
+      "start": 24.78,
+      "end": 24.886
+    },
+    {
+      "text": "some",
+      "start": 25.029,
+      "end": 25.154
+    },
+    {
+      "text": "imports",
+      "start": 25.208,
+      "end": 25.548
+    },
+    {
+      "text": "taste",
+      "start": 25.583,
+      "end": 25.851
+    },
+    {
+      "text": "faintly",
+      "start": 25.904,
+      "end": 26.172
+    },
+    {
+      "text": "like",
+      "start": 26.208,
+      "end": 26.298
+    },
+    {
+      "text": "a",
+      "start": 26.351,
+      "end": 26.387
+    },
+    {
+      "text": "warning.",
+      "start": 26.441,
+      "end": 26.708
+    }
+  ]
+}

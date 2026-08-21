@@ -1,0 +1,223 @@
+{
+  "slug": "beer-bottle-brown-glass",
+  "title": "Light Turns Beer Into Something Close To Skunk Spray",
+  "hook": "Light does not spoil beer by warming it. It breaks it chemically.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill is a curious drinker, not a connoisseur. The chemistry is the star."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Beer almost always comes",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "State the claim boldly — light BREAKS beer — then earn it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "brown bottles line up on a counter; Bill picks one up"
+        },
+        {
+          "kw": "brown",
+          "action": "the brown glass highlights; a clear bottle appears beside it"
+        },
+        {
+          "kw": "breaks",
+          "action": "a beam of light strikes the clear bottle and the liquid visibly shifts"
+        }
+      ]
+    },
+    {
+      "id": "hops",
+      "from": "Hops leave compounds",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Establish the stable state so the reaction has something to disrupt.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the liquid magnifies into molecules drifting calmly in darkness"
+        },
+        {
+          "kw": "stable",
+          "action": "the hop compounds sit still and label themselves; nothing moves"
+        }
+      ]
+    },
+    {
+      "id": "riboflavin",
+      "from": "Hit them with blue",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "THE mechanism. Riboflavin is a MIDDLEMAN — it must visibly receive light and pass energy on.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "blue and ultraviolet light enters the molecular field"
+        },
+        {
+          "kw": "riboflavin",
+          "action": "a riboflavin molecule absorbs the light and brightens"
+        },
+        {
+          "kw": "middleman",
+          "action": "it hands the energy across to a hop compound in a visible transfer arc"
+        },
+        {
+          "at": 1.11,
+          "action": "more light enters the field and finds the riboflavin",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 3.63,
+          "action": "the transfer arc brightens as the energy passes across",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "shatter",
+      "from": "It absorbs the light",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "The break, then the reveal. The skunk comparison is chemical, not a joke — keep the drawing factual.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the energy arrives at the hop compound and strains it"
+        },
+        {
+          "kw": "shatter",
+          "action": "the compound splits apart into fragments"
+        },
+        {
+          "kw": "skunk",
+          "action": "the fragment redraws beside a matching molecule labelled from skunk spray; the two are identical"
+        },
+        {
+          "kw": "speech",
+          "action": "a NOT A METAPHOR stamp lands beside the pair"
+        },
+        {
+          "at": 1.8,
+          "action": "the fragments drift apart and settle into their new arrangement",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "glass",
+      "from": "Brown glass blocks",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Three bottles, three outcomes. Brown blocks, green partly, clear not at all. Hard cut.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "brown, green and clear bottles line up under the same light"
+        },
+        {
+          "kw": "blocks",
+          "action": "light stops at the brown glass; the beer behind stays intact"
+        },
+        {
+          "kw": "green",
+          "action": "some light passes the green glass; a little reaction starts inside"
+        },
+        {
+          "kw": "imports",
+          "action": "Bill sniffs the green bottle and pulls a face; hard cut"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "brown",
+      [
+        "brown"
+      ],
+      0
+    ],
+    [
+      "breaks",
+      [
+        "breaks"
+      ],
+      0
+    ],
+    [
+      "stable",
+      [
+        "stable"
+      ],
+      0
+    ],
+    [
+      "riboflavin",
+      [
+        "riboflavin"
+      ],
+      0
+    ],
+    [
+      "middleman",
+      [
+        "middleman"
+      ],
+      0
+    ],
+    [
+      "shatter",
+      [
+        "shatter"
+      ],
+      0
+    ],
+    [
+      "skunk",
+      [
+        "skunk"
+      ],
+      0
+    ],
+    [
+      "speech",
+      [
+        "speech"
+      ],
+      0
+    ],
+    [
+      "blocks",
+      [
+        "blocks"
+      ],
+      0
+    ],
+    [
+      "green",
+      [
+        "green"
+      ],
+      0
+    ],
+    [
+      "imports",
+      [
+        "imports"
+      ],
+      0
+    ]
+  ]
+}

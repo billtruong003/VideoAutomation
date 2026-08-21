@@ -1,0 +1,222 @@
+{
+  "slug": "toilet-seat-gap",
+  "title": "Public Toilet Seats Have That Gap Because Of A Rulebook",
+  "hook": "An inconsistency between home and public fixtures, explained by a rulebook.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "gus"
+    ],
+    "note": "Keep it clean and matter-of-fact. Gus is the code official. Nothing here is a toilet joke."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Public toilet seats have a gap",
+      "background": "MallInterior",
+      "cast": [
+        "bill"
+      ],
+      "note": "TONE: plainly, without smirking. The comparison is the hook, not the subject.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a public restroom stall; the open-front seat draws in clean outline"
+        },
+        {
+          "kw": "gap",
+          "action": "the gap at the front circles teal"
+        },
+        {
+          "kw": "house",
+          "action": "a closed home seat draws beside it; the two shapes compare directly"
+        }
+      ]
+    },
+    {
+      "id": "written",
+      "from": "It is written down",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "One beat. A book lands. That is the whole scene.",
+      "beats": [
+        {
+          "kw": "written",
+          "action": "a plain code book drops onto frame and opens"
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "from": "The plumbing codes",
+      "background": "SchematicVoid",
+      "cast": [
+        "gus"
+      ],
+      "note": "Gus stamps the clause. Note: codes are ADOPTED by jurisdictions, not federal law — the stamp says CODE, not LAW.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a clause highlights on the open page: open-front seats, public use"
+        },
+        {
+          "kw": "open-front",
+          "action": "Gus stamps the clause once, hard"
+        },
+        {
+          "kw": "fifty",
+          "action": "a date line runs back across five decades behind the page"
+        },
+        {
+          "at": 1.17,
+          "action": "the page turns to the clause and settles",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 3.68,
+          "action": "Gus squares the page edge with one finger",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "from": "The gap keeps the seat clear",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "The functional reason, drawn as a plain contact-zone diagram. No bodies.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the seat outline shows a shaded contact zone"
+        },
+        {
+          "kw": "clear",
+          "action": "the gap removes the seat from that zone; the shading pulls back"
+        },
+        {
+          "kw": "strangers",
+          "action": "a long queue of figures files past the same seat, one after another"
+        },
+        {
+          "at": 3.16,
+          "action": "the shaded contact zone pulses once on the seat outline",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "pool",
+      "from": "It also leaves urine",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Second function, fast and clinical.",
+      "beats": [
+        {
+          "kw": "pool",
+          "action": "the closed seat shows a low front trough; the open seat has nowhere for it to gather"
+        },
+        {
+          "at": 0.1,
+          "action": "the closed seat outline tilts to show its front trough",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "What reads as cost-cutting",
+      "background": "MallInterior",
+      "cast": [
+        "bill"
+      ],
+      "note": "The reframe: not cheapness, a requirement. Hard cut.",
+      "beats": [
+        {
+          "kw": "cost-cutting",
+          "action": "a CHEAP label appears over the seat and crosses out"
+        },
+        {
+          "kw": "rule",
+          "action": "the code stamp lands over it instead; hard cut"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "gap",
+      [
+        "gap"
+      ],
+      0
+    ],
+    [
+      "house",
+      [
+        "house"
+      ],
+      0
+    ],
+    [
+      "written",
+      [
+        "written"
+      ],
+      0
+    ],
+    [
+      "open-front",
+      [
+        "open-front"
+      ],
+      0
+    ],
+    [
+      "fifty",
+      [
+        "fifty"
+      ],
+      0
+    ],
+    [
+      "clear",
+      [
+        "clear"
+      ],
+      0
+    ],
+    [
+      "strangers",
+      [
+        "strangers"
+      ],
+      0
+    ],
+    [
+      "pool",
+      [
+        "pool"
+      ],
+      0
+    ],
+    [
+      "cost-cutting",
+      [
+        "cost-cutting"
+      ],
+      0
+    ],
+    [
+      "rule",
+      [
+        "rule"
+      ],
+      0
+    ]
+  ]
+}

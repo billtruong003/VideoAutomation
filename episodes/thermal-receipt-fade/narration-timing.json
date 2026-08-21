@@ -1,0 +1,883 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/thermal-receipt-fade.wav.",
+  "episode": "thermal-receipt-fade",
+  "title": "Your Receipt Was Never Printed With Ink",
+  "audio": "public/audio/thermal-receipt-fade.wav",
+  "staticAudio": "audio/thermal-receipt-fade.wav",
+  "duration": 24.52,
+  "fps": 30,
+  "rawDuration": 31.579,
+  "tempo": 1.12,
+  "effectiveTempo": 1.1196,
+  "silenceRemoved": 4.126,
+  "wordCount": 91,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "A receipt left in a wallet slowly goes blank, because there was never any ink on it.",
+      "start": 0.053,
+      "end": 3.518,
+      "wordRange": [
+        0,
+        16
+      ]
+    },
+    {
+      "id": "coating",
+      "text": "Receipt paper is coated with a colorless dye and a chemical developer sitting right next to each other, doing nothing.",
+      "start": 3.803,
+      "end": 8.941,
+      "wordRange": [
+        17,
+        36
+      ]
+    },
+    {
+      "id": "heaters",
+      "text": "The printer has no ink and no ribbon. It has a row of tiny heaters.",
+      "start": 9.182,
+      "end": 12.425,
+      "wordRange": [
+        37,
+        51
+      ]
+    },
+    {
+      "id": "reaction",
+      "text": "Wherever it touches, the coating melts, the two chemicals meet, and that spot turns black.",
+      "start": 12.719,
+      "end": 17.063,
+      "wordRange": [
+        52,
+        66
+      ]
+    },
+    {
+      "id": "fade",
+      "text": "The catch is the reaction never locks. Heat off a dashboard or friction in a back pocket keeps driving it until the text vanishes.",
+      "start": 17.323,
+      "end": 24.283,
+      "wordRange": [
+        67,
+        90
+      ]
+    }
+  ],
+  "keywords": {
+    "blank": {
+      "start": 1.768,
+      "end": 1.983,
+      "wordIndex": 8
+    },
+    "ink": {
+      "start": 3.125,
+      "end": 3.25,
+      "wordIndex": 14
+    },
+    "dye": {
+      "start": 5.517,
+      "end": 5.803,
+      "wordIndex": 24
+    },
+    "developer": {
+      "start": 6.6,
+      "end": 7.011,
+      "wordIndex": 28
+    },
+    "ribbon": {
+      "start": 10.61,
+      "end": 10.86,
+      "wordIndex": 44
+    },
+    "heaters": {
+      "start": 12.104,
+      "end": 12.425,
+      "wordIndex": 51
+    },
+    "melts": {
+      "start": 14.256,
+      "end": 14.576,
+      "wordIndex": 57
+    },
+    "black": {
+      "start": 16.778,
+      "end": 17.063,
+      "wordIndex": 66
+    },
+    "locks": {
+      "start": 18.985,
+      "end": 19.325,
+      "wordIndex": 73
+    },
+    "dashboard": {
+      "start": 20.169,
+      "end": 20.848,
+      "wordIndex": 77
+    },
+    "vanishes": {
+      "start": 23.836,
+      "end": 24.283,
+      "wordIndex": 90
+    }
+  },
+  "captions": [
+    {
+      "text": "A receipt left in",
+      "words": [
+        "A",
+        "receipt",
+        "left",
+        "in"
+      ],
+      "start": 0.053,
+      "end": 0.857
+    },
+    {
+      "text": "a wallet slowly goes",
+      "words": [
+        "a",
+        "wallet",
+        "slowly",
+        "goes"
+      ],
+      "start": 0.857,
+      "end": 1.768
+    },
+    {
+      "text": "blank,",
+      "words": [
+        "blank,"
+      ],
+      "start": 1.768,
+      "end": 2.196
+    },
+    {
+      "text": "because there was",
+      "words": [
+        "because",
+        "there",
+        "was"
+      ],
+      "start": 2.196,
+      "end": 2.732
+    },
+    {
+      "text": "never any ink on",
+      "words": [
+        "never",
+        "any",
+        "ink",
+        "on"
+      ],
+      "start": 2.732,
+      "end": 3.411
+    },
+    {
+      "text": "it.",
+      "words": [
+        "it."
+      ],
+      "start": 3.411,
+      "end": 3.738
+    },
+    {
+      "text": "Receipt paper is",
+      "words": [
+        "Receipt",
+        "paper",
+        "is"
+      ],
+      "start": 3.803,
+      "end": 4.607
+    },
+    {
+      "text": "coated with a",
+      "words": [
+        "coated",
+        "with",
+        "a"
+      ],
+      "start": 4.607,
+      "end": 5.089
+    },
+    {
+      "text": "colorless dye and a",
+      "words": [
+        "colorless",
+        "dye",
+        "and",
+        "a"
+      ],
+      "start": 5.089,
+      "end": 6.243
+    },
+    {
+      "text": "chemical developer",
+      "words": [
+        "chemical",
+        "developer"
+      ],
+      "start": 6.243,
+      "end": 7.064
+    },
+    {
+      "text": "sitting right next to",
+      "words": [
+        "sitting",
+        "right",
+        "next",
+        "to"
+      ],
+      "start": 7.064,
+      "end": 7.779
+    },
+    {
+      "text": "each other,",
+      "words": [
+        "each",
+        "other,"
+      ],
+      "start": 7.779,
+      "end": 8.374
+    },
+    {
+      "text": "doing nothing.",
+      "words": [
+        "doing",
+        "nothing."
+      ],
+      "start": 8.404,
+      "end": 9.161
+    },
+    {
+      "text": "The printer has no",
+      "words": [
+        "The",
+        "printer",
+        "has",
+        "no"
+      ],
+      "start": 9.182,
+      "end": 10.075
+    },
+    {
+      "text": "ink and no ribbon.",
+      "words": [
+        "ink",
+        "and",
+        "no",
+        "ribbon."
+      ],
+      "start": 10.075,
+      "end": 11.08
+    },
+    {
+      "text": "It has a row",
+      "words": [
+        "It",
+        "has",
+        "a",
+        "row"
+      ],
+      "start": 11.12,
+      "end": 11.657
+    },
+    {
+      "text": "of tiny heaters.",
+      "words": [
+        "of",
+        "tiny",
+        "heaters."
+      ],
+      "start": 11.657,
+      "end": 12.645
+    },
+    {
+      "text": "Wherever it touches,",
+      "words": [
+        "Wherever",
+        "it",
+        "touches,"
+      ],
+      "start": 12.719,
+      "end": 13.796
+    },
+    {
+      "text": "the coating melts,",
+      "words": [
+        "the",
+        "coating",
+        "melts,"
+      ],
+      "start": 13.844,
+      "end": 14.776
+    },
+    {
+      "text": "the two chemicals",
+      "words": [
+        "the",
+        "two",
+        "chemicals"
+      ],
+      "start": 14.776,
+      "end": 15.526
+    },
+    {
+      "text": "meet,",
+      "words": [
+        "meet,"
+      ],
+      "start": 15.526,
+      "end": 15.92
+    },
+    {
+      "text": "and that spot turns",
+      "words": [
+        "and",
+        "that",
+        "spot",
+        "turns"
+      ],
+      "start": 15.92,
+      "end": 16.778
+    },
+    {
+      "text": "black.",
+      "words": [
+        "black."
+      ],
+      "start": 16.778,
+      "end": 17.283
+    },
+    {
+      "text": "The catch is the",
+      "words": [
+        "The",
+        "catch",
+        "is",
+        "the"
+      ],
+      "start": 17.323,
+      "end": 18.056
+    },
+    {
+      "text": "reaction never locks.",
+      "words": [
+        "reaction",
+        "never",
+        "locks."
+      ],
+      "start": 18.056,
+      "end": 19.545
+    },
+    {
+      "text": "Heat off a dashboard",
+      "words": [
+        "Heat",
+        "off",
+        "a",
+        "dashboard"
+      ],
+      "start": 19.598,
+      "end": 20.901
+    },
+    {
+      "text": "or friction in a",
+      "words": [
+        "or",
+        "friction",
+        "in",
+        "a"
+      ],
+      "start": 20.901,
+      "end": 21.741
+    },
+    {
+      "text": "back pocket keeps",
+      "words": [
+        "back",
+        "pocket",
+        "keeps"
+      ],
+      "start": 21.741,
+      "end": 22.729
+    },
+    {
+      "text": "driving it until the",
+      "words": [
+        "driving",
+        "it",
+        "until",
+        "the"
+      ],
+      "start": 22.729,
+      "end": 23.533
+    },
+    {
+      "text": "text vanishes.",
+      "words": [
+        "text",
+        "vanishes."
+      ],
+      "start": 23.533,
+      "end": 24.503
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.053,
+      "end": 0.125
+    },
+    {
+      "text": "receipt",
+      "start": 0.16,
+      "end": 0.5
+    },
+    {
+      "text": "left",
+      "start": 0.571,
+      "end": 0.732
+    },
+    {
+      "text": "in",
+      "start": 0.767,
+      "end": 0.821
+    },
+    {
+      "text": "a",
+      "start": 0.857,
+      "end": 0.928
+    },
+    {
+      "text": "wallet",
+      "start": 0.964,
+      "end": 1.25
+    },
+    {
+      "text": "slowly",
+      "start": 1.303,
+      "end": 1.535
+    },
+    {
+      "text": "goes",
+      "start": 1.571,
+      "end": 1.696
+    },
+    {
+      "text": "blank,",
+      "start": 1.768,
+      "end": 1.983
+    },
+    {
+      "text": "because",
+      "start": 2.196,
+      "end": 2.429
+    },
+    {
+      "text": "there",
+      "start": 2.464,
+      "end": 2.553
+    },
+    {
+      "text": "was",
+      "start": 2.589,
+      "end": 2.678
+    },
+    {
+      "text": "never",
+      "start": 2.732,
+      "end": 2.875
+    },
+    {
+      "text": "any",
+      "start": 2.928,
+      "end": 3.071
+    },
+    {
+      "text": "ink",
+      "start": 3.125,
+      "end": 3.25
+    },
+    {
+      "text": "on",
+      "start": 3.303,
+      "end": 3.375
+    },
+    {
+      "text": "it.",
+      "start": 3.411,
+      "end": 3.518
+    },
+    {
+      "text": "Receipt",
+      "start": 3.803,
+      "end": 4.072
+    },
+    {
+      "text": "paper",
+      "start": 4.143,
+      "end": 4.392
+    },
+    {
+      "text": "is",
+      "start": 4.428,
+      "end": 4.554
+    },
+    {
+      "text": "coated",
+      "start": 4.607,
+      "end": 4.803
+    },
+    {
+      "text": "with",
+      "start": 4.839,
+      "end": 4.91
+    },
+    {
+      "text": "a",
+      "start": 4.964,
+      "end": 5.036
+    },
+    {
+      "text": "colorless",
+      "start": 5.089,
+      "end": 5.429
+    },
+    {
+      "text": "dye",
+      "start": 5.517,
+      "end": 5.803
+    },
+    {
+      "text": "and",
+      "start": 6.028,
+      "end": 6.099
+    },
+    {
+      "text": "a",
+      "start": 6.135,
+      "end": 6.207
+    },
+    {
+      "text": "chemical",
+      "start": 6.243,
+      "end": 6.529
+    },
+    {
+      "text": "developer",
+      "start": 6.6,
+      "end": 7.011
+    },
+    {
+      "text": "sitting",
+      "start": 7.064,
+      "end": 7.244
+    },
+    {
+      "text": "right",
+      "start": 7.314,
+      "end": 7.439
+    },
+    {
+      "text": "next",
+      "start": 7.494,
+      "end": 7.654
+    },
+    {
+      "text": "to",
+      "start": 7.689,
+      "end": 7.743
+    },
+    {
+      "text": "each",
+      "start": 7.779,
+      "end": 7.905
+    },
+    {
+      "text": "other,",
+      "start": 7.94,
+      "end": 8.154
+    },
+    {
+      "text": "doing",
+      "start": 8.404,
+      "end": 8.565
+    },
+    {
+      "text": "nothing.",
+      "start": 8.618,
+      "end": 8.941
+    },
+    {
+      "text": "The",
+      "start": 9.182,
+      "end": 9.27
+    },
+    {
+      "text": "printer",
+      "start": 9.324,
+      "end": 9.574
+    },
+    {
+      "text": "has",
+      "start": 9.645,
+      "end": 9.752
+    },
+    {
+      "text": "no",
+      "start": 9.842,
+      "end": 9.931
+    },
+    {
+      "text": "ink",
+      "start": 10.075,
+      "end": 10.253
+    },
+    {
+      "text": "and",
+      "start": 10.288,
+      "end": 10.378
+    },
+    {
+      "text": "no",
+      "start": 10.431,
+      "end": 10.52
+    },
+    {
+      "text": "ribbon.",
+      "start": 10.61,
+      "end": 10.86
+    },
+    {
+      "text": "It",
+      "start": 11.12,
+      "end": 11.174
+    },
+    {
+      "text": "has",
+      "start": 11.227,
+      "end": 11.335
+    },
+    {
+      "text": "a",
+      "start": 11.388,
+      "end": 11.424
+    },
+    {
+      "text": "row",
+      "start": 11.495,
+      "end": 11.621
+    },
+    {
+      "text": "of",
+      "start": 11.657,
+      "end": 11.728
+    },
+    {
+      "text": "tiny",
+      "start": 11.817,
+      "end": 12.032
+    },
+    {
+      "text": "heaters.",
+      "start": 12.104,
+      "end": 12.425
+    },
+    {
+      "text": "Wherever",
+      "start": 12.719,
+      "end": 12.988
+    },
+    {
+      "text": "it",
+      "start": 13.04,
+      "end": 13.13
+    },
+    {
+      "text": "touches,",
+      "start": 13.183,
+      "end": 13.576
+    },
+    {
+      "text": "the",
+      "start": 13.844,
+      "end": 13.915
+    },
+    {
+      "text": "coating",
+      "start": 13.969,
+      "end": 14.201
+    },
+    {
+      "text": "melts,",
+      "start": 14.256,
+      "end": 14.576
+    },
+    {
+      "text": "the",
+      "start": 14.776,
+      "end": 14.829
+    },
+    {
+      "text": "two",
+      "start": 14.901,
+      "end": 15.026
+    },
+    {
+      "text": "chemicals",
+      "start": 15.08,
+      "end": 15.456
+    },
+    {
+      "text": "meet,",
+      "start": 15.526,
+      "end": 15.705
+    },
+    {
+      "text": "and",
+      "start": 15.92,
+      "end": 15.974
+    },
+    {
+      "text": "that",
+      "start": 16.028,
+      "end": 16.117
+    },
+    {
+      "text": "spot",
+      "start": 16.188,
+      "end": 16.438
+    },
+    {
+      "text": "turns",
+      "start": 16.492,
+      "end": 16.689
+    },
+    {
+      "text": "black.",
+      "start": 16.778,
+      "end": 17.063
+    },
+    {
+      "text": "The",
+      "start": 17.323,
+      "end": 17.395
+    },
+    {
+      "text": "catch",
+      "start": 17.448,
+      "end": 17.752
+    },
+    {
+      "text": "is",
+      "start": 17.824,
+      "end": 17.895
+    },
+    {
+      "text": "the",
+      "start": 17.931,
+      "end": 17.984
+    },
+    {
+      "text": "reaction",
+      "start": 18.056,
+      "end": 18.538
+    },
+    {
+      "text": "never",
+      "start": 18.717,
+      "end": 18.932
+    },
+    {
+      "text": "locks.",
+      "start": 18.985,
+      "end": 19.325
+    },
+    {
+      "text": "Heat",
+      "start": 19.598,
+      "end": 19.812
+    },
+    {
+      "text": "off",
+      "start": 19.883,
+      "end": 19.99
+    },
+    {
+      "text": "a",
+      "start": 20.045,
+      "end": 20.062
+    },
+    {
+      "text": "dashboard",
+      "start": 20.169,
+      "end": 20.848
+    },
+    {
+      "text": "or",
+      "start": 20.901,
+      "end": 20.973
+    },
+    {
+      "text": "friction",
+      "start": 21.116,
+      "end": 21.473
+    },
+    {
+      "text": "in",
+      "start": 21.509,
+      "end": 21.58
+    },
+    {
+      "text": "a",
+      "start": 21.617,
+      "end": 21.705
+    },
+    {
+      "text": "back",
+      "start": 21.741,
+      "end": 21.956
+    },
+    {
+      "text": "pocket",
+      "start": 22.009,
+      "end": 22.39
+    },
+    {
+      "text": "keeps",
+      "start": 22.461,
+      "end": 22.658
+    },
+    {
+      "text": "driving",
+      "start": 22.729,
+      "end": 23.015
+    },
+    {
+      "text": "it",
+      "start": 23.05,
+      "end": 23.122
+    },
+    {
+      "text": "until",
+      "start": 23.158,
+      "end": 23.354
+    },
+    {
+      "text": "the",
+      "start": 23.39,
+      "end": 23.479
+    },
+    {
+      "text": "text",
+      "start": 23.533,
+      "end": 23.747
+    },
+    {
+      "text": "vanishes.",
+      "start": 23.836,
+      "end": 24.283
+    }
+  ]
+}

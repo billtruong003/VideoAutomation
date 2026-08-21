@@ -1,0 +1,246 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "tactile-paving",
+  "title": "The Bumpy Tiles On The Sidewalk Are A Two-Word Language",
+  "audio": "public/audio/tactile-paving.wav",
+  "fps": 30,
+  "narrationDuration": 25.848,
+  "beatCount": 20,
+  "longestGap": 2.183,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.088,
+      "end": 4.114,
+      "startFrame": 3,
+      "endFrame": 123,
+      "duration": 4.026,
+      "narration": "Those bumpy tiles at the edge of a train platform are a language, and it only has two words.",
+      "background": "CityStreet",
+      "note": "TONE: this is an accessibility feature, treated seriously. The comedy budget for this episode is zero.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.088,
+          "frame": 3,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a yellow tactile strip runs along a platform edge; Bill stands beside it"
+        },
+        {
+          "t": 2.43,
+          "frame": 73,
+          "tInScene": 2.342,
+          "frameInScene": 70,
+          "action": "the strip lights teal and the word LANGUAGE stamps beside it"
+        },
+        {
+          "t": 3.632,
+          "frame": 109,
+          "tInScene": 3.544,
+          "frameInScene": 106,
+          "action": "two blank symbol cards slide in, waiting to be filled"
+        },
+        {
+          "t": 1.258,
+          "frame": 38,
+          "tInScene": 1.17,
+          "frameInScene": 35,
+          "action": "the yellow strip runs on ahead down the length of the platform",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "domes",
+      "start": 4.43,
+      "end": 8.82,
+      "startFrame": 133,
+      "endFrame": 265,
+      "duration": 4.39,
+      "narration": "Round domes mean stop, because there is an edge, a road, or a drop ahead.",
+      "background": "SchematicVoid",
+      "note": "Symbol one. Domes fill the first card. The hazards are drawn as plain icons, not scenes of danger.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 4.43,
+          "frame": 133,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a dome-pattern tile fills frame, drawn large"
+        },
+        {
+          "t": 5.555,
+          "frame": 167,
+          "tInScene": 1.125,
+          "frameInScene": 34,
+          "action": "the first card fills with domes and stamps STOP"
+        },
+        {
+          "t": 8.266,
+          "frame": 248,
+          "tInScene": 3.836,
+          "frameInScene": 115,
+          "action": "three small icons appear beside it — platform edge, kerb, stair"
+        },
+        {
+          "t": 6.91,
+          "frame": 207,
+          "tInScene": 2.48,
+          "frameInScene": 74,
+          "action": "the dome pattern tilts slightly so the rows read in depth",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "bars",
+      "start": 9.186,
+      "end": 12.063,
+      "startFrame": 276,
+      "endFrame": 362,
+      "duration": 2.877,
+      "narration": "Long parallel bars mean keep going, this way is safe.",
+      "background": "SchematicVoid",
+      "note": "Symbol two, deliberately mirroring the previous scene so the pair reads as a set.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 9.186,
+          "frame": 276,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a bar-pattern tile fills frame in the same framing as the domes"
+        },
+        {
+          "t": 9.883,
+          "frame": 296,
+          "tInScene": 0.697,
+          "frameInScene": 21,
+          "action": "the second card fills with bars and stamps GO"
+        },
+        {
+          "t": 11.813,
+          "frame": 354,
+          "tInScene": 2.627,
+          "frameInScene": 79,
+          "action": "a guiding path of bars draws forward across the floor"
+        }
+      ]
+    },
+    {
+      "scene": "readable",
+      "start": 12.391,
+      "end": 16.858,
+      "startFrame": 372,
+      "endFrame": 506,
+      "duration": 4.467,
+      "narration": "Both are readable through a shoe or the tip of a cane, and the yellow helps if you still have some sight.",
+      "background": "CityStreet",
+      "note": "How it is actually read: through a sole, through a cane tip. Show contact, not a person struggling.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 12.391,
+          "frame": 372,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a shoe sole meets the domes; the pattern registers up through it"
+        },
+        {
+          "t": 14.574,
+          "frame": 437,
+          "tInScene": 2.183,
+          "frameInScene": 65,
+          "action": "a cane tip taps across the bars, each tap ringing a small mark"
+        },
+        {
+          "t": 15.286,
+          "frame": 459,
+          "tInScene": 2.895,
+          "frameInScene": 87,
+          "action": "the tile colour saturates to high-contrast yellow against grey paving"
+        }
+      ]
+    },
+    {
+      "scene": "miyake",
+      "start": 17.112,
+      "end": 23.74,
+      "startFrame": 513,
+      "endFrame": 712,
+      "duration": 6.628,
+      "narration": "An engineer in Japan named Seiichi Miyake paid for the first ones himself in 1965, because a friend was going blind.",
+      "background": "OldWorkshop",
+      "note": "The origin. One man, his own money, one friend. Play it straight and let it land.",
+      "cast": [
+        "gus"
+      ],
+      "beats": [
+        {
+          "t": 17.112,
+          "frame": 513,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a drafting desk; Gus sketches a dome tile by hand"
+        },
+        {
+          "t": 19.148,
+          "frame": 574,
+          "tInScene": 2.036,
+          "frameInScene": 61,
+          "action": "the name and 1965 letter onto the drawing"
+        },
+        {
+          "t": 23.436,
+          "frame": 703,
+          "tInScene": 6.324,
+          "frameInScene": 190,
+          "action": "a second figure is sketched beside the first at the drafting table; the two drawings sit together"
+        },
+        {
+          "t": 21.292,
+          "frame": 639,
+          "tInScene": 4.18,
+          "frameInScene": 125,
+          "action": "the drawing is set down; a second sheet is squared beside it",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 24.051,
+      "end": 25.586,
+      "startFrame": 722,
+      "endFrame": 768,
+      "duration": 1.535,
+      "narration": "They are under most of the world's feet now.",
+      "background": "CityStreet",
+      "note": "Pull back and multiply. The scale IS the payoff. End on the tile, not on a face.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 24.925,
+          "frame": 748,
+          "tInScene": 0.874,
+          "frameInScene": 26,
+          "action": "the camera pulls back; tactile strips light up across street after street"
+        },
+        {
+          "t": 25.436,
+          "frame": 763,
+          "tInScene": 1.385,
+          "frameInScene": 42,
+          "action": "the strips continue lighting to the horizon; hard cut",
+          "sync": "final beat"
+        }
+      ]
+    }
+  ]
+}

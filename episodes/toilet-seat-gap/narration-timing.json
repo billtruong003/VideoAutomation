@@ -1,0 +1,850 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/toilet-seat-gap.wav.",
+  "episode": "toilet-seat-gap",
+  "title": "Public Toilet Seats Have That Gap Because Of A Rulebook",
+  "audio": "public/audio/toilet-seat-gap.wav",
+  "staticAudio": "audio/toilet-seat-gap.wav",
+  "duration": 21.803,
+  "fps": 30,
+  "rawDuration": 27.818,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11947,
+  "silenceRemoved": 3.41,
+  "wordCount": 87,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Public toilet seats have a gap at the front, and the one in your house almost certainly does not.",
+      "start": 0.071,
+      "end": 3.962,
+      "wordRange": [
+        0,
+        18
+      ]
+    },
+    {
+      "id": "written",
+      "text": "It is written down.",
+      "start": 4.224,
+      "end": 4.938,
+      "wordRange": [
+        19,
+        22
+      ]
+    },
+    {
+      "id": "code",
+      "text": "The plumbing codes most of the country builds to call for open-front seats in public restrooms, and have for over fifty years.",
+      "start": 5.234,
+      "end": 10.825,
+      "wordRange": [
+        23,
+        44
+      ]
+    },
+    {
+      "id": "hygiene",
+      "text": "The gap keeps the seat clear of the area you are most likely to touch while wiping, which matters far more when hundreds of strangers share one seat.",
+      "start": 11.131,
+      "end": 17.918,
+      "wordRange": [
+        45,
+        72
+      ]
+    },
+    {
+      "id": "pool",
+      "text": "It also leaves urine nowhere to pool.",
+      "start": 17.971,
+      "end": 19.543,
+      "wordRange": [
+        73,
+        79
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "What reads as cost-cutting is a rule.",
+      "start": 19.83,
+      "end": 21.546,
+      "wordRange": [
+        80,
+        86
+      ]
+    }
+  ],
+  "keywords": {
+    "gap": {
+      "start": 1.215,
+      "end": 1.393,
+      "wordIndex": 5
+    },
+    "house": {
+      "start": 2.728,
+      "end": 2.943,
+      "wordIndex": 14
+    },
+    "written": {
+      "start": 4.456,
+      "end": 4.653,
+      "wordIndex": 21
+    },
+    "open-front": {
+      "start": 7.574,
+      "end": 8.039,
+      "wordIndex": 34
+    },
+    "fifty": {
+      "start": 10.253,
+      "end": 10.469,
+      "wordIndex": 43
+    },
+    "clear": {
+      "start": 12.15,
+      "end": 12.346,
+      "wordIndex": 50
+    },
+    "strangers": {
+      "start": 16.441,
+      "end": 16.887,
+      "wordIndex": 69
+    },
+    "pool": {
+      "start": 19.275,
+      "end": 19.543,
+      "wordIndex": 79
+    },
+    "cost-cutting": {
+      "start": 20.473,
+      "end": 21.045,
+      "wordIndex": 83
+    },
+    "rule": {
+      "start": 21.331,
+      "end": 21.546,
+      "wordIndex": 86
+    }
+  },
+  "captions": [
+    {
+      "text": "Public toilet seats",
+      "words": [
+        "Public",
+        "toilet",
+        "seats"
+      ],
+      "start": 0.071,
+      "end": 0.964
+    },
+    {
+      "text": "have a gap at",
+      "words": [
+        "have",
+        "a",
+        "gap",
+        "at"
+      ],
+      "start": 0.964,
+      "end": 1.518
+    },
+    {
+      "text": "the front,",
+      "words": [
+        "the",
+        "front,"
+      ],
+      "start": 1.518,
+      "end": 2.113
+    },
+    {
+      "text": "and the one in",
+      "words": [
+        "and",
+        "the",
+        "one",
+        "in"
+      ],
+      "start": 2.157,
+      "end": 2.622
+    },
+    {
+      "text": "your house almost",
+      "words": [
+        "your",
+        "house",
+        "almost"
+      ],
+      "start": 2.622,
+      "end": 3.283
+    },
+    {
+      "text": "certainly does not.",
+      "words": [
+        "certainly",
+        "does",
+        "not."
+      ],
+      "start": 3.283,
+      "end": 4.182
+    },
+    {
+      "text": "It is written down.",
+      "words": [
+        "It",
+        "is",
+        "written",
+        "down."
+      ],
+      "start": 4.224,
+      "end": 5.158
+    },
+    {
+      "text": "The plumbing codes",
+      "words": [
+        "The",
+        "plumbing",
+        "codes"
+      ],
+      "start": 5.234,
+      "end": 6.002
+    },
+    {
+      "text": "most of the country",
+      "words": [
+        "most",
+        "of",
+        "the",
+        "country"
+      ],
+      "start": 6.002,
+      "end": 6.717
+    },
+    {
+      "text": "builds to call for",
+      "words": [
+        "builds",
+        "to",
+        "call",
+        "for"
+      ],
+      "start": 6.717,
+      "end": 7.574
+    },
+    {
+      "text": "open-front seats in",
+      "words": [
+        "open-front",
+        "seats",
+        "in"
+      ],
+      "start": 7.574,
+      "end": 8.45
+    },
+    {
+      "text": "public restrooms,",
+      "words": [
+        "public",
+        "restrooms,"
+      ],
+      "start": 8.45,
+      "end": 9.385
+    },
+    {
+      "text": "and have for over",
+      "words": [
+        "and",
+        "have",
+        "for",
+        "over"
+      ],
+      "start": 9.45,
+      "end": 10.253
+    },
+    {
+      "text": "fifty years.",
+      "words": [
+        "fifty",
+        "years."
+      ],
+      "start": 10.253,
+      "end": 11.045
+    },
+    {
+      "text": "The gap keeps the",
+      "words": [
+        "The",
+        "gap",
+        "keeps",
+        "the"
+      ],
+      "start": 11.131,
+      "end": 11.882
+    },
+    {
+      "text": "seat clear of the",
+      "words": [
+        "seat",
+        "clear",
+        "of",
+        "the"
+      ],
+      "start": 11.882,
+      "end": 12.668
+    },
+    {
+      "text": "area you are most",
+      "words": [
+        "area",
+        "you",
+        "are",
+        "most"
+      ],
+      "start": 12.668,
+      "end": 13.473
+    },
+    {
+      "text": "likely to touch while",
+      "words": [
+        "likely",
+        "to",
+        "touch",
+        "while"
+      ],
+      "start": 13.473,
+      "end": 14.277
+    },
+    {
+      "text": "wiping,",
+      "words": [
+        "wiping,"
+      ],
+      "start": 14.277,
+      "end": 14.815
+    },
+    {
+      "text": "which matters far more",
+      "words": [
+        "which",
+        "matters",
+        "far",
+        "more"
+      ],
+      "start": 14.815,
+      "end": 15.797
+    },
+    {
+      "text": "when hundreds of",
+      "words": [
+        "when",
+        "hundreds",
+        "of"
+      ],
+      "start": 15.797,
+      "end": 16.441
+    },
+    {
+      "text": "strangers share one",
+      "words": [
+        "strangers",
+        "share",
+        "one"
+      ],
+      "start": 16.441,
+      "end": 17.512
+    },
+    {
+      "text": "seat.",
+      "words": [
+        "seat."
+      ],
+      "start": 17.512,
+      "end": 17.971
+    },
+    {
+      "text": "It also leaves urine",
+      "words": [
+        "It",
+        "also",
+        "leaves",
+        "urine"
+      ],
+      "start": 17.971,
+      "end": 18.883
+    },
+    {
+      "text": "nowhere to pool.",
+      "words": [
+        "nowhere",
+        "to",
+        "pool."
+      ],
+      "start": 18.883,
+      "end": 19.763
+    },
+    {
+      "text": "What reads as",
+      "words": [
+        "What",
+        "reads",
+        "as"
+      ],
+      "start": 19.83,
+      "end": 20.473
+    },
+    {
+      "text": "cost-cutting is a",
+      "words": [
+        "cost-cutting",
+        "is",
+        "a"
+      ],
+      "start": 20.473,
+      "end": 21.331
+    },
+    {
+      "text": "rule.",
+      "words": [
+        "rule."
+      ],
+      "start": 21.331,
+      "end": 21.766
+    }
+  ],
+  "words": [
+    {
+      "text": "Public",
+      "start": 0.071,
+      "end": 0.321
+    },
+    {
+      "text": "toilet",
+      "start": 0.41,
+      "end": 0.642
+    },
+    {
+      "text": "seats",
+      "start": 0.732,
+      "end": 0.91
+    },
+    {
+      "text": "have",
+      "start": 0.964,
+      "end": 1.035
+    },
+    {
+      "text": "a",
+      "start": 1.09,
+      "end": 1.16
+    },
+    {
+      "text": "gap",
+      "start": 1.215,
+      "end": 1.393
+    },
+    {
+      "text": "at",
+      "start": 1.428,
+      "end": 1.5
+    },
+    {
+      "text": "the",
+      "start": 1.518,
+      "end": 1.571
+    },
+    {
+      "text": "front,",
+      "start": 1.662,
+      "end": 1.893
+    },
+    {
+      "text": "and",
+      "start": 2.157,
+      "end": 2.228
+    },
+    {
+      "text": "the",
+      "start": 2.246,
+      "end": 2.282
+    },
+    {
+      "text": "one",
+      "start": 2.39,
+      "end": 2.46
+    },
+    {
+      "text": "in",
+      "start": 2.496,
+      "end": 2.568
+    },
+    {
+      "text": "your",
+      "start": 2.622,
+      "end": 2.693
+    },
+    {
+      "text": "house",
+      "start": 2.728,
+      "end": 2.943
+    },
+    {
+      "text": "almost",
+      "start": 3.014,
+      "end": 3.247
+    },
+    {
+      "text": "certainly",
+      "start": 3.283,
+      "end": 3.533
+    },
+    {
+      "text": "does",
+      "start": 3.568,
+      "end": 3.712
+    },
+    {
+      "text": "not.",
+      "start": 3.748,
+      "end": 3.962
+    },
+    {
+      "text": "It",
+      "start": 4.224,
+      "end": 4.26
+    },
+    {
+      "text": "is",
+      "start": 4.295,
+      "end": 4.402
+    },
+    {
+      "text": "written",
+      "start": 4.456,
+      "end": 4.653
+    },
+    {
+      "text": "down.",
+      "start": 4.707,
+      "end": 4.938
+    },
+    {
+      "text": "The",
+      "start": 5.234,
+      "end": 5.288
+    },
+    {
+      "text": "plumbing",
+      "start": 5.341,
+      "end": 5.591
+    },
+    {
+      "text": "codes",
+      "start": 5.645,
+      "end": 5.895
+    },
+    {
+      "text": "most",
+      "start": 6.002,
+      "end": 6.164
+    },
+    {
+      "text": "of",
+      "start": 6.182,
+      "end": 6.253
+    },
+    {
+      "text": "the",
+      "start": 6.27,
+      "end": 6.341
+    },
+    {
+      "text": "country",
+      "start": 6.377,
+      "end": 6.664
+    },
+    {
+      "text": "builds",
+      "start": 6.717,
+      "end": 6.967
+    },
+    {
+      "text": "to",
+      "start": 7.003,
+      "end": 7.093
+    },
+    {
+      "text": "call",
+      "start": 7.127,
+      "end": 7.252
+    },
+    {
+      "text": "for",
+      "start": 7.36,
+      "end": 7.413
+    },
+    {
+      "text": "open-front",
+      "start": 7.574,
+      "end": 8.039
+    },
+    {
+      "text": "seats",
+      "start": 8.092,
+      "end": 8.288
+    },
+    {
+      "text": "in",
+      "start": 8.324,
+      "end": 8.432
+    },
+    {
+      "text": "public",
+      "start": 8.45,
+      "end": 8.681
+    },
+    {
+      "text": "restrooms,",
+      "start": 8.735,
+      "end": 9.165
+    },
+    {
+      "text": "and",
+      "start": 9.45,
+      "end": 9.557
+    },
+    {
+      "text": "have",
+      "start": 9.628,
+      "end": 9.79
+    },
+    {
+      "text": "for",
+      "start": 9.825,
+      "end": 9.932
+    },
+    {
+      "text": "over",
+      "start": 10.003,
+      "end": 10.146
+    },
+    {
+      "text": "fifty",
+      "start": 10.253,
+      "end": 10.469
+    },
+    {
+      "text": "years.",
+      "start": 10.539,
+      "end": 10.825
+    },
+    {
+      "text": "The",
+      "start": 11.131,
+      "end": 11.185
+    },
+    {
+      "text": "gap",
+      "start": 11.221,
+      "end": 11.417
+    },
+    {
+      "text": "keeps",
+      "start": 11.525,
+      "end": 11.703
+    },
+    {
+      "text": "the",
+      "start": 11.739,
+      "end": 11.775
+    },
+    {
+      "text": "seat",
+      "start": 11.882,
+      "end": 12.078
+    },
+    {
+      "text": "clear",
+      "start": 12.15,
+      "end": 12.346
+    },
+    {
+      "text": "of",
+      "start": 12.364,
+      "end": 12.454
+    },
+    {
+      "text": "the",
+      "start": 12.471,
+      "end": 12.508
+    },
+    {
+      "text": "area",
+      "start": 12.668,
+      "end": 12.865
+    },
+    {
+      "text": "you",
+      "start": 12.955,
+      "end": 13.008
+    },
+    {
+      "text": "are",
+      "start": 13.043,
+      "end": 13.204
+    },
+    {
+      "text": "most",
+      "start": 13.241,
+      "end": 13.419
+    },
+    {
+      "text": "likely",
+      "start": 13.473,
+      "end": 13.687
+    },
+    {
+      "text": "to",
+      "start": 13.704,
+      "end": 13.812
+    },
+    {
+      "text": "touch",
+      "start": 13.848,
+      "end": 14.026
+    },
+    {
+      "text": "while",
+      "start": 14.08,
+      "end": 14.241
+    },
+    {
+      "text": "wiping,",
+      "start": 14.277,
+      "end": 14.616
+    },
+    {
+      "text": "which",
+      "start": 14.815,
+      "end": 14.941
+    },
+    {
+      "text": "matters",
+      "start": 14.994,
+      "end": 15.245
+    },
+    {
+      "text": "far",
+      "start": 15.351,
+      "end": 15.565
+    },
+    {
+      "text": "more",
+      "start": 15.602,
+      "end": 15.745
+    },
+    {
+      "text": "when",
+      "start": 15.797,
+      "end": 15.958
+    },
+    {
+      "text": "hundreds",
+      "start": 15.994,
+      "end": 16.281
+    },
+    {
+      "text": "of",
+      "start": 16.298,
+      "end": 16.405
+    },
+    {
+      "text": "strangers",
+      "start": 16.441,
+      "end": 16.887
+    },
+    {
+      "text": "share",
+      "start": 16.994,
+      "end": 17.191
+    },
+    {
+      "text": "one",
+      "start": 17.262,
+      "end": 17.46
+    },
+    {
+      "text": "seat.",
+      "start": 17.512,
+      "end": 17.918
+    },
+    {
+      "text": "It",
+      "start": 17.971,
+      "end": 18.061
+    },
+    {
+      "text": "also",
+      "start": 18.114,
+      "end": 18.346
+    },
+    {
+      "text": "leaves",
+      "start": 18.382,
+      "end": 18.579
+    },
+    {
+      "text": "urine",
+      "start": 18.614,
+      "end": 18.846
+    },
+    {
+      "text": "nowhere",
+      "start": 18.883,
+      "end": 19.115
+    },
+    {
+      "text": "to",
+      "start": 19.116,
+      "end": 19.221
+    },
+    {
+      "text": "pool.",
+      "start": 19.275,
+      "end": 19.543
+    },
+    {
+      "text": "What",
+      "start": 19.83,
+      "end": 19.937
+    },
+    {
+      "text": "reads",
+      "start": 20.009,
+      "end": 20.205
+    },
+    {
+      "text": "as",
+      "start": 20.26,
+      "end": 20.349
+    },
+    {
+      "text": "cost-cutting",
+      "start": 20.473,
+      "end": 21.045
+    },
+    {
+      "text": "is",
+      "start": 21.099,
+      "end": 21.171
+    },
+    {
+      "text": "a",
+      "start": 21.206,
+      "end": 21.278
+    },
+    {
+      "text": "rule.",
+      "start": 21.331,
+      "end": 21.546
+    }
+  ]
+}

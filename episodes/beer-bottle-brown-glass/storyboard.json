@@ -1,0 +1,222 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "beer-bottle-brown-glass",
+  "title": "Light Turns Beer Into Something Close To Skunk Spray",
+  "audio": "public/audio/beer-bottle-brown-glass.wav",
+  "fps": 30,
+  "narrationDuration": 26.96,
+  "beatCount": 19,
+  "longestGap": 2.055,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 3.657,
+      "startFrame": 2,
+      "endFrame": 110,
+      "duration": 3.586,
+      "narration": "Beer almost always comes in brown glass, because light physically breaks beer.",
+      "background": "KitchenCounter",
+      "note": "State the claim boldly — light BREAKS beer — then earn it.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "brown bottles line up on a counter; Bill picks one up"
+        },
+        {
+          "t": 1.428,
+          "frame": 43,
+          "tInScene": 1.357,
+          "frameInScene": 41,
+          "action": "the brown glass highlights; a clear bottle appears beside it"
+        },
+        {
+          "t": 3.156,
+          "frame": 95,
+          "tInScene": 3.085,
+          "frameInScene": 93,
+          "action": "a beam of light strikes the clear bottle and the liquid visibly shifts"
+        }
+      ]
+    },
+    {
+      "scene": "hops",
+      "start": 3.949,
+      "end": 6.754,
+      "startFrame": 118,
+      "endFrame": 203,
+      "duration": 2.805,
+      "narration": "Hops leave compounds in the liquid that are stable in the dark.",
+      "background": "SchematicVoid",
+      "note": "Establish the stable state so the reaction has something to disrupt.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 3.949,
+          "frame": 118,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the liquid magnifies into molecules drifting calmly in darkness"
+        },
+        {
+          "t": 6.004,
+          "frame": 180,
+          "tInScene": 2.055,
+          "frameInScene": 62,
+          "action": "the hop compounds sit still and label themselves; nothing moves"
+        }
+      ]
+    },
+    {
+      "scene": "riboflavin",
+      "start": 7.038,
+      "end": 12.468,
+      "startFrame": 211,
+      "endFrame": 374,
+      "duration": 5.43,
+      "narration": "Hit them with blue and ultraviolet light, and riboflavin, a vitamin already in the beer, acts as a middleman.",
+      "background": "SchematicVoid",
+      "note": "THE mechanism. Riboflavin is a MIDDLEMAN — it must visibly receive light and pass energy on.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 7.038,
+          "frame": 211,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "blue and ultraviolet light enters the molecular field"
+        },
+        {
+          "t": 9.257,
+          "frame": 278,
+          "tInScene": 2.219,
+          "frameInScene": 67,
+          "action": "a riboflavin molecule absorbs the light and brightens"
+        },
+        {
+          "t": 12.074,
+          "frame": 362,
+          "tInScene": 5.036,
+          "frameInScene": 151,
+          "action": "it hands the energy across to a hop compound in a visible transfer arc"
+        },
+        {
+          "t": 8.148,
+          "frame": 244,
+          "tInScene": 1.11,
+          "frameInScene": 33,
+          "action": "more light enters the field and finds the riboflavin",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 10.668,
+          "frame": 320,
+          "tInScene": 3.63,
+          "frameInScene": 109,
+          "action": "the transfer arc brightens as the energy passes across",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "shatter",
+      "start": 12.748,
+      "end": 20.284,
+      "startFrame": 382,
+      "endFrame": 609,
+      "duration": 7.536,
+      "narration": "It absorbs the light and hands the energy along until those hop compounds shatter into something chemically close to skunk spray. That is not a figure of speech.",
+      "background": "SchematicVoid",
+      "note": "The break, then the reveal. The skunk comparison is chemical, not a joke — keep the drawing factual.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 12.748,
+          "frame": 382,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the energy arrives at the hop compound and strains it"
+        },
+        {
+          "t": 16.357,
+          "frame": 491,
+          "tInScene": 3.609,
+          "frameInScene": 108,
+          "action": "the compound splits apart into fragments"
+        },
+        {
+          "t": 18.036,
+          "frame": 541,
+          "tInScene": 5.288,
+          "frameInScene": 159,
+          "action": "the fragment redraws beside a matching molecule labelled from skunk spray; the two are identical"
+        },
+        {
+          "t": 19.927,
+          "frame": 598,
+          "tInScene": 7.179,
+          "frameInScene": 215,
+          "action": "a NOT A METAPHOR stamp lands beside the pair"
+        },
+        {
+          "t": 14.548,
+          "frame": 436,
+          "tInScene": 1.8,
+          "frameInScene": 54,
+          "action": "the fragments drift apart and settle into their new arrangement",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "glass",
+      "start": 20.593,
+      "end": 26.708,
+      "startFrame": 618,
+      "endFrame": 801,
+      "duration": 6.115,
+      "narration": "Brown glass blocks nearly all of those wavelengths. Green blocks a fraction, which is why some imports taste faintly like a warning.",
+      "background": "KitchenCounter",
+      "note": "Three bottles, three outcomes. Brown blocks, green partly, clear not at all. Hard cut.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 20.593,
+          "frame": 618,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "brown, green and clear bottles line up under the same light"
+        },
+        {
+          "t": 21.254,
+          "frame": 638,
+          "tInScene": 0.661,
+          "frameInScene": 20,
+          "action": "light stops at the brown glass; the beer behind stays intact"
+        },
+        {
+          "t": 23.236,
+          "frame": 697,
+          "tInScene": 2.643,
+          "frameInScene": 79,
+          "action": "some light passes the green glass; a little reaction starts inside"
+        },
+        {
+          "t": 25.208,
+          "frame": 756,
+          "tInScene": 4.615,
+          "frameInScene": 138,
+          "action": "Bill sniffs the green bottle and pulls a face; hard cut"
+        }
+      ]
+    }
+  ]
+}

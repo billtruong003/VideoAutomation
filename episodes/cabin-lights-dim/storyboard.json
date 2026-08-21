@@ -1,0 +1,219 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "cabin-lights-dim",
+  "title": "Why The Cabin Lights Go Down Before Landing",
+  "audio": "public/audio/cabin-lights-dim.wav",
+  "fps": 30,
+  "narrationDuration": 24.328,
+  "beatCount": 18,
+  "longestGap": 2.115,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 4.233,
+      "startFrame": 2,
+      "endFrame": 127,
+      "duration": 4.162,
+      "narration": "The cabin lights go down before a night landing, and it reads as mood lighting or saving power.",
+      "background": "PlaneCabin",
+      "note": "Two wrong explanations offered up front, both of which the viewer probably holds.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the cabin dims for landing; window shades up, night outside"
+        },
+        {
+          "t": 0.874,
+          "frame": 26,
+          "tInScene": 0.803,
+          "frameInScene": 24,
+          "action": "the lights fade; a MOOD LIGHTING label appears"
+        },
+        {
+          "t": 3.661,
+          "frame": 110,
+          "tInScene": 3.59,
+          "frameInScene": 108,
+          "action": "a SAVING POWER label appears beside it"
+        },
+        {
+          "t": 2.271,
+          "frame": 68,
+          "tInScene": 2.2,
+          "frameInScene": 66,
+          "action": "the cabin dims another step; the window darkens",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "neither",
+      "start": 4.522,
+      "end": 5.093,
+      "startFrame": 136,
+      "endFrame": 153,
+      "duration": 0.571,
+      "narration": "It is neither.",
+      "background": "PlaneCabin",
+      "note": "One beat. Both labels die together.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 4.789,
+          "frame": 144,
+          "tInScene": 0.267,
+          "frameInScene": 8,
+          "action": "both labels cross out at once"
+        }
+      ]
+    },
+    {
+      "scene": "adapt",
+      "start": 5.416,
+      "end": 10.915,
+      "startFrame": 162,
+      "endFrame": 327,
+      "duration": 5.499,
+      "narration": "Eyes take several minutes to adapt to darkness, and takeoff and landing are when an evacuation is most likely to be needed.",
+      "background": "SchematicVoid",
+      "note": "Dark adaptation as a timed process. The clock matters — minutes, not instants.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 5.416,
+          "frame": 162,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "an eye diagram in bright light, pupil small"
+        },
+        {
+          "t": 6.629,
+          "frame": 199,
+          "tInScene": 1.213,
+          "frameInScene": 36,
+          "action": "the light drops; the pupil widens slowly against a running clock"
+        },
+        {
+          "t": 9.147,
+          "frame": 274,
+          "tInScene": 3.731,
+          "frameInScene": 112,
+          "action": "takeoff and landing highlight on a flight profile as the risk windows"
+        },
+        {
+          "t": 7.886,
+          "frame": 237,
+          "tInScene": 2.47,
+          "frameInScene": 74,
+          "action": "the pupil widens further as the clock runs on",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "blind",
+      "start": 11.243,
+      "end": 16.681,
+      "startFrame": 337,
+      "endFrame": 500,
+      "duration": 5.438,
+      "narration": "If the cabin were brightly lit and the power went, everyone aboard would be effectively blind at the worst possible moment.",
+      "background": "CutawayVoid",
+      "note": "The counterfactual, stated calmly. Bright then dark, and nobody can see. No screaming, no fire.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 11.243,
+          "frame": 337,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a brightly lit cabin in cross-section, everything clearly visible"
+        },
+        {
+          "t": 12.959,
+          "frame": 389,
+          "tInScene": 1.716,
+          "frameInScene": 51,
+          "action": "the lights cut; the frame goes near-black"
+        },
+        {
+          "t": 15.074,
+          "frame": 452,
+          "tInScene": 3.831,
+          "frameInScene": 115,
+          "action": "the exits are unreadable in the dark; a clock ticks off the adaptation delay"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 17.025,
+      "end": 24.124,
+      "startFrame": 511,
+      "endFrame": 724,
+      "duration": 7.099,
+      "narration": "Dimming early means your eyes are already adjusted, and the floor path lighting reads clearly instead of washing out. The lights go down so you can see.",
+      "background": "PlaneCabin",
+      "note": "The resolution: pre-adapted eyes read the cabin instantly. End on the floor lighting.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 17.025,
+          "frame": 511,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the pre-dimmed cabin loses power; the scene stays readable"
+        },
+        {
+          "t": 18.722,
+          "frame": 562,
+          "tInScene": 1.697,
+          "frameInScene": 51,
+          "action": "the floor path lighting and exit signs read clearly and brightly"
+        },
+        {
+          "t": 23.946,
+          "frame": 718,
+          "tInScene": 6.921,
+          "frameInScene": 208,
+          "action": "the exit path glows the full length of the aisle; hard cut"
+        },
+        {
+          "t": 20.025,
+          "frame": 601,
+          "tInScene": 3,
+          "frameInScene": 90,
+          "action": "the exit signs brighten against the dim cabin",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 21.335,
+          "frame": 640,
+          "tInScene": 4.31,
+          "frameInScene": 129,
+          "action": "the exit path lighting runs further down the aisle",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 22.645,
+          "frame": 679,
+          "tInScene": 5.62,
+          "frameInScene": 169,
+          "action": "the aisle path glows steadily toward the door",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

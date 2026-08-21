@@ -1,0 +1,224 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "ferrite-choke",
+  "title": "Charger Cables Have A Lump That Stops Them Broadcasting",
+  "audio": "public/audio/ferrite-choke.wav",
+  "fps": 30,
+  "narrationDuration": 25.415,
+  "beatCount": 19,
+  "longestGap": 1.998,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.088,
+      "end": 4.894,
+      "startFrame": 3,
+      "endFrame": 147,
+      "duration": 4.806,
+      "narration": "There is a hard lump molded around your laptop charger cable, and it is surprisingly heavy for its size.",
+      "background": "DeskSurface",
+      "note": "Weight sells it. Bill should feel the mass, not just see the shape.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.088,
+          "frame": 3,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a charger cable snakes across a desk; Bill picks up the moulded lump"
+        },
+        {
+          "t": 0.857,
+          "frame": 26,
+          "tInScene": 0.769,
+          "frameInScene": 23,
+          "action": "the lump circles teal; camera punches in"
+        },
+        {
+          "t": 4.09,
+          "frame": 123,
+          "tInScene": 4.002,
+          "frameInScene": 120,
+          "action": "the cable dips under the lump; a small weight mark drops beside it"
+        },
+        {
+          "t": 2.478,
+          "frame": 74,
+          "tInScene": 2.39,
+          "frameInScene": 72,
+          "action": "Bill turns the lump over, weighing it in his palm",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "inside",
+      "start": 5.217,
+      "end": 8.173,
+      "startFrame": 157,
+      "endFrame": 245,
+      "duration": 2.956,
+      "narration": "Inside it is a ring of ferrite, an iron-based ceramic.",
+      "background": "CutawayVoid",
+      "note": "Open it up. A ring around the wire, nothing more complicated than that.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 5.217,
+          "frame": 157,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the plastic shell peels away in cross-section"
+        },
+        {
+          "t": 6.467,
+          "frame": 194,
+          "tInScene": 1.25,
+          "frameInScene": 38,
+          "action": "a dark ceramic ring is revealed encircling the cable, labelled"
+        }
+      ]
+    },
+    {
+      "scene": "antenna",
+      "start": 8.465,
+      "end": 15.985,
+      "startFrame": 254,
+      "endFrame": 480,
+      "duration": 7.52,
+      "narration": "A power cable is a long piece of wire, and a long piece of wire is an antenna, so it picks up and radiates high-frequency noise it was never meant to carry.",
+      "background": "SchematicVoid",
+      "note": "THE idea of the episode: wire equals antenna. Broadcast waves need to look like a nuisance.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 8.465,
+          "frame": 254,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the cable straightens into a plain horizontal wire on a schematic field"
+        },
+        {
+          "t": 11.942,
+          "frame": 358,
+          "tInScene": 3.477,
+          "frameInScene": 104,
+          "action": "the wire redraws as an aerial; broadcast arcs radiate off it"
+        },
+        {
+          "t": 14.682,
+          "frame": 440,
+          "tInScene": 6.217,
+          "frameInScene": 187,
+          "action": "jagged high-frequency squiggles run along the wire in coral"
+        },
+        {
+          "t": 15.735,
+          "frame": 472,
+          "tInScene": 7.27,
+          "frameInScene": 218,
+          "action": "the arcs reach a nearby radio icon, which fuzzes"
+        },
+        {
+          "t": 10.205,
+          "frame": 306,
+          "tInScene": 1.74,
+          "frameInScene": 52,
+          "action": "the broadcast arcs pulse outward again, wider",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 13.315,
+          "frame": 399,
+          "tInScene": 4.85,
+          "frameInScene": 146,
+          "action": "the radio icon fuzzes harder as the arcs strengthen",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "filter",
+      "start": 16.217,
+      "end": 21.38,
+      "startFrame": 487,
+      "endFrame": 641,
+      "duration": 5.163,
+      "narration": "The ferrite ring lets your actual power pass straight through, and turns that noise into a tiny amount of heat.",
+      "background": "SchematicVoid",
+      "note": "Selectivity is the mechanism: power passes, noise does not. Show BOTH signals meeting the ring.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 16.217,
+          "frame": 487,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the ferrite ring drops onto the wire"
+        },
+        {
+          "t": 17.681,
+          "frame": 530,
+          "tInScene": 1.464,
+          "frameInScene": 44,
+          "action": "a smooth low-frequency wave passes straight through the ring untouched"
+        },
+        {
+          "t": 21.183,
+          "frame": 635,
+          "tInScene": 4.966,
+          "frameInScene": 149,
+          "action": "the jagged noise hits the ring, is absorbed, and radiates off as small heat marks"
+        },
+        {
+          "t": 19.437,
+          "frame": 583,
+          "tInScene": 3.22,
+          "frameInScene": 97,
+          "action": "more noise arrives at the ring and is absorbed",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 21.643,
+      "end": 25.164,
+      "startFrame": 649,
+      "endFrame": 755,
+      "duration": 3.521,
+      "narration": "It is a filter wrapped around a cable, stopping your charger from transmitting.",
+      "background": "DeskSurface",
+      "note": "Return to the desk. The radio clears. End on the object.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 22.036,
+          "frame": 661,
+          "tInScene": 0.393,
+          "frameInScene": 12,
+          "action": "the ring settles back inside its plastic shell on the real cable"
+        },
+        {
+          "t": 24.646,
+          "frame": 739,
+          "tInScene": 3.003,
+          "frameInScene": 90,
+          "action": "the broadcast arcs cut out; the radio icon clears; hard cut"
+        },
+        {
+          "t": 23.343,
+          "frame": 700,
+          "tInScene": 1.7,
+          "frameInScene": 51,
+          "action": "the plastic shell closes back over the ring",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "thermal-receipt-fade",
+  "title": "Your Receipt Was Never Printed With Ink",
+  "audio": "public/audio/thermal-receipt-fade.wav",
+  "fps": 30,
+  "narrationDuration": 24.52,
+  "beatCount": 20,
+  "longestGap": 1.834,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.053,
+      "end": 3.518,
+      "startFrame": 2,
+      "endFrame": 106,
+      "duration": 3.465,
+      "narration": "A receipt left in a wallet slowly goes blank, because there was never any ink on it.",
+      "background": "DeskSurface",
+      "note": "The blank receipt is the hook. Everyone has been here.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.053,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill pulls a receipt from a wallet; the print is almost gone"
+        },
+        {
+          "t": 1.768,
+          "frame": 53,
+          "tInScene": 1.715,
+          "frameInScene": 51,
+          "action": "the remaining text fades out entirely as he holds it"
+        },
+        {
+          "t": 3.125,
+          "frame": 94,
+          "tInScene": 3.072,
+          "frameInScene": 92,
+          "action": "a NO INK label lands and holds"
+        }
+      ]
+    },
+    {
+      "scene": "coating",
+      "start": 3.803,
+      "end": 8.941,
+      "startFrame": 114,
+      "endFrame": 268,
+      "duration": 5.138,
+      "narration": "Receipt paper is coated with a colorless dye and a chemical developer sitting right next to each other, doing nothing.",
+      "background": "CutawayVoid",
+      "note": "Two chemicals, side by side, inert. They must look harmless before they react.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 3.803,
+          "frame": 114,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the paper sections; a thin surface coating draws on top"
+        },
+        {
+          "t": 5.517,
+          "frame": 166,
+          "tInScene": 1.714,
+          "frameInScene": 51,
+          "action": "colourless dye particles label themselves within the coating"
+        },
+        {
+          "t": 6.6,
+          "frame": 198,
+          "tInScene": 2.797,
+          "frameInScene": 84,
+          "action": "developer particles sit beside them, separate and unreacted"
+        },
+        {
+          "t": 7.893,
+          "frame": 237,
+          "tInScene": 4.09,
+          "frameInScene": 123,
+          "action": "the dye and developer particles drift, still separate",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "heaters",
+      "start": 9.182,
+      "end": 12.425,
+      "startFrame": 275,
+      "endFrame": 373,
+      "duration": 3.243,
+      "narration": "The printer has no ink and no ribbon. It has a row of tiny heaters.",
+      "background": "CutawayVoid",
+      "note": "The printer reveal: no cartridge, no ribbon, just heat. Show the absence first.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 9.182,
+          "frame": 275,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a receipt printer opens; an empty cartridge slot is circled and crossed out"
+        },
+        {
+          "t": 10.61,
+          "frame": 318,
+          "tInScene": 1.428,
+          "frameInScene": 43,
+          "action": "a RIBBON label crosses out too"
+        },
+        {
+          "t": 12.104,
+          "frame": 363,
+          "tInScene": 2.922,
+          "frameInScene": 88,
+          "action": "a row of tiny heating elements draws across the print head, glowing"
+        },
+        {
+          "t": 9.282,
+          "frame": 278,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the printer housing opens further, showing the empty carriage",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "reaction",
+      "start": 12.719,
+      "end": 17.063,
+      "startFrame": 382,
+      "endFrame": 512,
+      "duration": 4.344,
+      "narration": "Wherever it touches, the coating melts, the two chemicals meet, and that spot turns black.",
+      "background": "CutawayVoid",
+      "note": "The reaction, magnified. Melt, meet, blacken.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 12.719,
+          "frame": 382,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a heating element presses onto the coating"
+        },
+        {
+          "t": 14.256,
+          "frame": 428,
+          "tInScene": 1.537,
+          "frameInScene": 46,
+          "action": "the coating softens under the heat"
+        },
+        {
+          "t": 16.778,
+          "frame": 503,
+          "tInScene": 4.059,
+          "frameInScene": 122,
+          "action": "dye and developer meet and the spot turns black; letters form across the paper"
+        },
+        {
+          "t": 15.519,
+          "frame": 466,
+          "tInScene": 2.8,
+          "frameInScene": 84,
+          "action": "more letters form as the head travels along the paper",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "fade",
+      "start": 17.323,
+      "end": 24.283,
+      "startFrame": 520,
+      "endFrame": 728,
+      "duration": 6.96,
+      "narration": "The catch is the reaction never locks. Heat off a dashboard or friction in a back pocket keeps driving it until the text vanishes.",
+      "background": "DeskSurface",
+      "note": "The flaw: the reaction never locks. Show the same chemistry continuing where it should not.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 17.323,
+          "frame": 520,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the printed spot holds, but the two chemicals stay live beneath it"
+        },
+        {
+          "t": 18.985,
+          "frame": 570,
+          "tInScene": 1.662,
+          "frameInScene": 50,
+          "action": "a LOCKED? label appears over the print and crosses out"
+        },
+        {
+          "t": 20.169,
+          "frame": 605,
+          "tInScene": 2.846,
+          "frameInScene": 85,
+          "action": "sunlight through a windscreen and friction in a pocket drive the reaction onward"
+        },
+        {
+          "t": 23.836,
+          "frame": 715,
+          "tInScene": 6.513,
+          "frameInScene": 195,
+          "action": "the whole receipt darkens over, then empties to blank; hard cut"
+        },
+        {
+          "t": 22.003,
+          "frame": 660,
+          "tInScene": 4.68,
+          "frameInScene": 140,
+          "action": "the remaining text thins toward nothing",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

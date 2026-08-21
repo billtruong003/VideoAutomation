@@ -1,0 +1,220 @@
+{
+  "slug": "padlock-drain-hole",
+  "title": "The Hole In A Padlock Lets Water Out, Not In",
+  "hook": "A hole in a lock, which sounds like a flaw and is a defence.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill inspects the lock like a suspicious customer, then concedes."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Flip a padlock over",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "The objection is the hook. Let the viewer think it is a design flaw for a beat.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill turns a padlock over in his hand"
+        },
+        {
+          "kw": "hole",
+          "action": "the small hole in the base circles teal"
+        },
+        {
+          "kw": "water",
+          "action": "a WATER GETS IN? label lands with an arrow pointing inward"
+        },
+        {
+          "at": 3.32,
+          "action": "Bill tilts the padlock toward the light to see into the hole",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "opposite",
+      "from": "It does the opposite",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "Flip the arrow. One beat, one reversal.",
+      "beats": [
+        {
+          "kw": "opposite",
+          "action": "the inward arrow spins around to point outward; the label crosses out"
+        }
+      ]
+    },
+    {
+      "id": "moisture",
+      "from": "A padlock left outdoors",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Water arrives from several directions — the point is that you cannot prevent it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the padlock hangs on a gate in cross-section"
+        },
+        {
+          "kw": "moisture",
+          "action": "droplets arrive from rain, from a hose, from damp air"
+        },
+        {
+          "kw": "air",
+          "action": "the droplets collect in the lock body and pool at the bottom"
+        },
+        {
+          "at": 3.39,
+          "action": "more droplets gather and run down the inside of the body",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "from": "Sealed shut",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The failure this prevents. Springs and pins seizing — mechanical, not dramatic.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a sealed lock body fills with standing water"
+        },
+        {
+          "kw": "springs",
+          "action": "the pin stack and springs draw inside, submerged"
+        },
+        {
+          "kw": "rust",
+          "action": "the pins corrode and fuse into one solid mass; the key will not turn"
+        },
+        {
+          "kw": "freeze",
+          "action": "the water crystallises to ice; the shackle locks solid"
+        }
+      ]
+    },
+    {
+      "id": "drains",
+      "from": "The hole lets it fall",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The fix, and it should feel like relief after the previous scene.",
+      "beats": [
+        {
+          "kw": "fall",
+          "action": "the hole opens; the pooled water drains straight out and the pins stay clean"
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "from": "It also gives you",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "Second use, quick. End on Bill hanging the lock back up.",
+      "beats": [
+        {
+          "kw": "oil",
+          "action": "a drop of lubricant enters through the same hole and spreads through the mechanism"
+        },
+        {
+          "fromEnd": 0.15,
+          "action": "Bill snaps the padlock shut and hangs it back on the gate; hard cut",
+          "sync": "final beat"
+        },
+        {
+          "at": 0.24,
+          "action": "the oil spreads along the pin stack and the shackle frees",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "hole",
+      [
+        "hole"
+      ],
+      0
+    ],
+    [
+      "water",
+      [
+        "water"
+      ],
+      0
+    ],
+    [
+      "opposite",
+      [
+        "opposite"
+      ],
+      0
+    ],
+    [
+      "moisture",
+      [
+        "moisture"
+      ],
+      0
+    ],
+    [
+      "air",
+      [
+        "air"
+      ],
+      0
+    ],
+    [
+      "springs",
+      [
+        "springs"
+      ],
+      0
+    ],
+    [
+      "rust",
+      [
+        "rust"
+      ],
+      0
+    ],
+    [
+      "freeze",
+      [
+        "freeze"
+      ],
+      0
+    ],
+    [
+      "fall",
+      [
+        "fall"
+      ],
+      0
+    ],
+    [
+      "oil",
+      [
+        "oil"
+      ],
+      0
+    ]
+  ]
+}

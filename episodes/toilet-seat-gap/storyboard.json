@@ -1,0 +1,225 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "toilet-seat-gap",
+  "title": "Public Toilet Seats Have That Gap Because Of A Rulebook",
+  "audio": "public/audio/toilet-seat-gap.wav",
+  "fps": 30,
+  "narrationDuration": 21.803,
+  "beatCount": 17,
+  "longestGap": 2.15,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 3.962,
+      "startFrame": 2,
+      "endFrame": 119,
+      "duration": 3.891,
+      "narration": "Public toilet seats have a gap at the front, and the one in your house almost certainly does not.",
+      "background": "MallInterior",
+      "note": "TONE: plainly, without smirking. The comparison is the hook, not the subject.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a public restroom stall; the open-front seat draws in clean outline"
+        },
+        {
+          "t": 1.215,
+          "frame": 36,
+          "tInScene": 1.144,
+          "frameInScene": 34,
+          "action": "the gap at the front circles teal"
+        },
+        {
+          "t": 2.728,
+          "frame": 82,
+          "tInScene": 2.657,
+          "frameInScene": 80,
+          "action": "a closed home seat draws beside it; the two shapes compare directly"
+        }
+      ]
+    },
+    {
+      "scene": "written",
+      "start": 4.224,
+      "end": 4.938,
+      "startFrame": 127,
+      "endFrame": 148,
+      "duration": 0.714,
+      "narration": "It is written down.",
+      "background": "SchematicVoid",
+      "note": "One beat. A book lands. That is the whole scene.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 4.456,
+          "frame": 134,
+          "tInScene": 0.232,
+          "frameInScene": 7,
+          "action": "a plain code book drops onto frame and opens"
+        }
+      ]
+    },
+    {
+      "scene": "code",
+      "start": 5.234,
+      "end": 10.825,
+      "startFrame": 157,
+      "endFrame": 325,
+      "duration": 5.591,
+      "narration": "The plumbing codes most of the country builds to call for open-front seats in public restrooms, and have for over fifty years.",
+      "background": "SchematicVoid",
+      "note": "Gus stamps the clause. Note: codes are ADOPTED by jurisdictions, not federal law — the stamp says CODE, not LAW.",
+      "cast": [
+        "gus"
+      ],
+      "beats": [
+        {
+          "t": 5.234,
+          "frame": 157,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a clause highlights on the open page: open-front seats, public use"
+        },
+        {
+          "t": 7.574,
+          "frame": 227,
+          "tInScene": 2.34,
+          "frameInScene": 70,
+          "action": "Gus stamps the clause once, hard"
+        },
+        {
+          "t": 10.253,
+          "frame": 308,
+          "tInScene": 5.019,
+          "frameInScene": 151,
+          "action": "a date line runs back across five decades behind the page"
+        },
+        {
+          "t": 6.404,
+          "frame": 192,
+          "tInScene": 1.17,
+          "frameInScene": 35,
+          "action": "the page turns to the clause and settles",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 8.914,
+          "frame": 267,
+          "tInScene": 3.68,
+          "frameInScene": 110,
+          "action": "Gus squares the page edge with one finger",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "hygiene",
+      "start": 11.131,
+      "end": 17.918,
+      "startFrame": 334,
+      "endFrame": 538,
+      "duration": 6.787,
+      "narration": "The gap keeps the seat clear of the area you are most likely to touch while wiping, which matters far more when hundreds of strangers share one seat.",
+      "background": "SchematicVoid",
+      "note": "The functional reason, drawn as a plain contact-zone diagram. No bodies.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 11.131,
+          "frame": 334,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the seat outline shows a shaded contact zone"
+        },
+        {
+          "t": 12.15,
+          "frame": 365,
+          "tInScene": 1.019,
+          "frameInScene": 31,
+          "action": "the gap removes the seat from that zone; the shading pulls back"
+        },
+        {
+          "t": 16.441,
+          "frame": 493,
+          "tInScene": 5.31,
+          "frameInScene": 159,
+          "action": "a long queue of figures files past the same seat, one after another"
+        },
+        {
+          "t": 14.291,
+          "frame": 429,
+          "tInScene": 3.16,
+          "frameInScene": 95,
+          "action": "the shaded contact zone pulses once on the seat outline",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "pool",
+      "start": 17.971,
+      "end": 19.543,
+      "startFrame": 539,
+      "endFrame": 586,
+      "duration": 1.572,
+      "narration": "It also leaves urine nowhere to pool.",
+      "background": "SchematicVoid",
+      "note": "Second function, fast and clinical.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 19.275,
+          "frame": 578,
+          "tInScene": 1.304,
+          "frameInScene": 39,
+          "action": "the closed seat shows a low front trough; the open seat has nowhere for it to gather"
+        },
+        {
+          "t": 18.071,
+          "frame": 542,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the closed seat outline tilts to show its front trough",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 19.83,
+      "end": 21.546,
+      "startFrame": 595,
+      "endFrame": 646,
+      "duration": 1.716,
+      "narration": "What reads as cost-cutting is a rule.",
+      "background": "MallInterior",
+      "note": "The reframe: not cheapness, a requirement. Hard cut.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 20.473,
+          "frame": 614,
+          "tInScene": 0.643,
+          "frameInScene": 19,
+          "action": "a CHEAP label appears over the seat and crosses out"
+        },
+        {
+          "t": 21.331,
+          "frame": 640,
+          "tInScene": 1.501,
+          "frameInScene": 45,
+          "action": "the code stamp lands over it instead; hard cut"
+        }
+      ]
+    }
+  ]
+}

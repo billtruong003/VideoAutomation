@@ -1,0 +1,240 @@
+{
+  "slug": "third-brake-light",
+  "title": "Why Cars Got A Third Brake Light",
+  "hook": "A third light exists because two lights are genuinely ambiguous.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill is a driver behind the car. The episode is about what he can and cannot read."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Somewhere in the back window",
+      "background": "HighwayRoad",
+      "cast": [
+        "bill"
+      ],
+      "note": "Establish the triangle: two low and wide, one high and centred.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the rear of a car ahead; three brake lights visible"
+        },
+        {
+          "kw": "third",
+          "action": "the high centre light circles teal"
+        },
+        {
+          "kw": "centered",
+          "action": "a triangle draws between the three lamps, showing the geometry"
+        }
+      ]
+    },
+    {
+      "id": "misread",
+      "from": "It exists because",
+      "background": "HighwayRoad",
+      "cast": [
+        "bill"
+      ],
+      "note": "State the problem before the solution: the original pair are hard to read.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the high light dims out, leaving only the original pair"
+        },
+        {
+          "kw": "misread",
+          "action": "the two low lamps flicker ambiguously; a question mark rises"
+        }
+      ]
+    },
+    {
+      "id": "lowwide",
+      "from": "They sit low",
+      "background": "HighwayRoad",
+      "cast": [],
+      "note": "Three reasons, three marks. The tail lights already being on is the important one.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a LOW dimension line drops from the lamps to the road"
+        },
+        {
+          "kw": "apart",
+          "action": "a WIDE dimension line stretches between them"
+        },
+        {
+          "kw": "glowing",
+          "action": "the tail lights light in the same coral, blurring into the brake lamps"
+        },
+        {
+          "at": 2.64,
+          "action": "the two low lamps and the tail lights pulse together, indistinguishable",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "single",
+      "from": "A single light up high",
+      "background": "HighwayRoad",
+      "cast": [
+        "bill"
+      ],
+      "note": "The solution scene. The high lamp is DARK until braking — that is why it is unambiguous.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the high light returns, dark and alone above the confusion"
+        },
+        {
+          "kw": "brakes",
+          "action": "it snaps on hard; the low pair are ignored entirely"
+        },
+        {
+          "kw": "confused",
+          "action": "Bill's eye-line snaps straight to the single high lamp"
+        },
+        {
+          "at": 1.19,
+          "action": "the high lamp sits dark and steady above the pair",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "trials",
+      "from": "Early taxi-fleet trials",
+      "background": "CityStreet",
+      "cast": [],
+      "note": "The optimistic number. Draw it as a bar so the next scene can shrink it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a row of taxi icons fills the street"
+        },
+        {
+          "kw": "trials",
+          "action": "a bar chart rises to a third; a big optimistic figure stamps beside it"
+        },
+        {
+          "at": 2.37,
+          "action": "more taxis join the row, each with a high lamp lit",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "reality",
+      "from": "Once every car",
+      "background": "CityStreet",
+      "cast": [
+        "bill"
+      ],
+      "note": "HONESTY BEAT. The bar SHRINKS on screen. This is the point of the episode and it must be shown, not hidden.",
+      "beats": [
+        {
+          "kw": "settled",
+          "action": "the bar shrinks down to a small fraction; the optimistic figure is crossed out"
+        },
+        {
+          "kw": "thousands",
+          "action": "the small bar multiplies across a grid of cars until the total is large again"
+        },
+        {
+          "fromEnd": 0.15,
+          "action": "the grid holds, still counting; hard cut",
+          "sync": "final beat"
+        },
+        {
+          "at": 0.1,
+          "action": "the tall optimistic bar holds on screen a moment longer",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 2.93,
+          "action": "the grid of cars keeps extending past the frame edge",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "third",
+      [
+        "third"
+      ],
+      0
+    ],
+    [
+      "centered",
+      [
+        "centered"
+      ],
+      0
+    ],
+    [
+      "misread",
+      [
+        "misread"
+      ],
+      0
+    ],
+    [
+      "apart",
+      [
+        "apart"
+      ],
+      0
+    ],
+    [
+      "glowing",
+      [
+        "glowing"
+      ],
+      0
+    ],
+    [
+      "brakes",
+      [
+        "brakes"
+      ],
+      0
+    ],
+    [
+      "confused",
+      [
+        "confused"
+      ],
+      0
+    ],
+    [
+      "trials",
+      [
+        "trials"
+      ],
+      0
+    ],
+    [
+      "settled",
+      [
+        "settled"
+      ],
+      0
+    ],
+    [
+      "thousands",
+      [
+        "thousands"
+      ],
+      0
+    ]
+  ]
+}

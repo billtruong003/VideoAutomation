@@ -1,0 +1,257 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "third-brake-light",
+  "title": "Why Cars Got A Third Brake Light",
+  "audio": "public/audio/third-brake-light.wav",
+  "fps": 30,
+  "narrationDuration": 26.135,
+  "beatCount": 21,
+  "longestGap": 2.197,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.106,
+      "end": 4.855,
+      "startFrame": 3,
+      "endFrame": 146,
+      "duration": 4.749,
+      "narration": "Somewhere in the back window of every car sits a third brake light, higher and more centered than the other two.",
+      "background": "HighwayRoad",
+      "note": "Establish the triangle: two low and wide, one high and centred.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.106,
+          "frame": 3,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the rear of a car ahead; three brake lights visible"
+        },
+        {
+          "t": 2.303,
+          "frame": 69,
+          "tInScene": 2.197,
+          "frameInScene": 66,
+          "action": "the high centre light circles teal"
+        },
+        {
+          "t": 3.961,
+          "frame": 119,
+          "tInScene": 3.855,
+          "frameInScene": 116,
+          "action": "a triangle draws between the three lamps, showing the geometry"
+        }
+      ]
+    },
+    {
+      "scene": "misread",
+      "start": 5.133,
+      "end": 7.687,
+      "startFrame": 154,
+      "endFrame": 231,
+      "duration": 2.554,
+      "narration": "It exists because the original pair are easy to misread.",
+      "background": "HighwayRoad",
+      "note": "State the problem before the solution: the original pair are hard to read.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 5.133,
+          "frame": 154,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the high light dims out, leaving only the original pair"
+        },
+        {
+          "t": 7.312,
+          "frame": 219,
+          "tInScene": 2.179,
+          "frameInScene": 65,
+          "action": "the two low lamps flicker ambiguously; a question mark rises"
+        }
+      ]
+    },
+    {
+      "scene": "lowwide",
+      "start": 7.977,
+      "end": 12.139,
+      "startFrame": 239,
+      "endFrame": 364,
+      "duration": 4.162,
+      "narration": "They sit low, they sit far apart, and they are right beside tail lights that are already glowing.",
+      "background": "HighwayRoad",
+      "note": "Three reasons, three marks. The tail lights already being on is the important one.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 7.977,
+          "frame": 239,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a LOW dimension line drops from the lamps to the road"
+        },
+        {
+          "t": 9.407,
+          "frame": 282,
+          "tInScene": 1.43,
+          "frameInScene": 43,
+          "action": "a WIDE dimension line stretches between them"
+        },
+        {
+          "t": 11.835,
+          "frame": 355,
+          "tInScene": 3.858,
+          "frameInScene": 116,
+          "action": "the tail lights light in the same coral, blurring into the brake lamps"
+        },
+        {
+          "t": 10.617,
+          "frame": 319,
+          "tInScene": 2.64,
+          "frameInScene": 79,
+          "action": "the two low lamps and the tail lights pulse together, indistinguishable",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "single",
+      "start": 12.422,
+      "end": 16.68,
+      "startFrame": 373,
+      "endFrame": 500,
+      "duration": 4.258,
+      "narration": "A single light up high, dark until the driver brakes, cannot be confused with anything.",
+      "background": "HighwayRoad",
+      "note": "The solution scene. The high lamp is DARK until braking — that is why it is unambiguous.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 12.422,
+          "frame": 373,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the high light returns, dark and alone above the confusion"
+        },
+        {
+          "t": 14.797,
+          "frame": 444,
+          "tInScene": 2.375,
+          "frameInScene": 71,
+          "action": "it snaps on hard; the low pair are ignored entirely"
+        },
+        {
+          "t": 15.751,
+          "frame": 473,
+          "tInScene": 3.329,
+          "frameInScene": 100,
+          "action": "Bill's eye-line snaps straight to the single high lamp"
+        },
+        {
+          "t": 13.612,
+          "frame": 408,
+          "tInScene": 1.19,
+          "frameInScene": 36,
+          "action": "the high lamp sits dark and steady above the pair",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "trials",
+      "start": 16.952,
+      "end": 20.328,
+      "startFrame": 509,
+      "endFrame": 610,
+      "duration": 3.376,
+      "narration": "Early taxi-fleet trials suggested a third fewer rear-end collisions.",
+      "background": "CityStreet",
+      "note": "The optimistic number. Draw it as a bar so the next scene can shrink it.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 16.952,
+          "frame": 509,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a row of taxi icons fills the street"
+        },
+        {
+          "t": 17.88,
+          "frame": 536,
+          "tInScene": 0.928,
+          "frameInScene": 28,
+          "action": "a bar chart rises to a third; a big optimistic figure stamps beside it"
+        },
+        {
+          "t": 19.322,
+          "frame": 580,
+          "tInScene": 2.37,
+          "frameInScene": 71,
+          "action": "more taxis join the row, each with a high lamp lit",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "reality",
+      "start": 20.67,
+      "end": 25.903,
+      "startFrame": 620,
+      "endFrame": 777,
+      "duration": 5.233,
+      "narration": "Once every car had one the real figure settled nearer four percent, which is still tens of thousands of crashes a year.",
+      "background": "CityStreet",
+      "note": "HONESTY BEAT. The bar SHRINKS on screen. This is the point of the episode and it must be shown, not hidden.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 22.438,
+          "frame": 673,
+          "tInScene": 1.768,
+          "frameInScene": 53,
+          "action": "the bar shrinks down to a small fraction; the optimistic figure is crossed out"
+        },
+        {
+          "t": 24.76,
+          "frame": 743,
+          "tInScene": 4.09,
+          "frameInScene": 123,
+          "action": "the small bar multiplies across a grid of cars until the total is large again"
+        },
+        {
+          "t": 25.753,
+          "frame": 773,
+          "tInScene": 5.083,
+          "frameInScene": 152,
+          "action": "the grid holds, still counting; hard cut",
+          "sync": "final beat"
+        },
+        {
+          "t": 20.77,
+          "frame": 623,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the tall optimistic bar holds on screen a moment longer",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 23.6,
+          "frame": 708,
+          "tInScene": 2.93,
+          "frameInScene": 88,
+          "action": "the grid of cars keeps extending past the frame edge",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

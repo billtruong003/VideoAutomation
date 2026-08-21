@@ -1,0 +1,632 @@
+{
+  "note": "Timings correspond to public/audio/soda-can-neck.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/soda-can-neck/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/soda-can-neck.timemap.json",
+  "audio": "public/audio/soda-can-neck.wav",
+  "duration": 22.595,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "The top of a soda can is visibly narrower",
+      "start": 0.071,
+      "end": 2.089
+    },
+    {
+      "text": "than the rest of it,",
+      "start": 2.143,
+      "end": 2.839
+    },
+    {
+      "text": "tapering inward just before the lid.",
+      "start": 3.066,
+      "end": 4.673
+    },
+    {
+      "text": "That taper is not shaped for your mouth.",
+      "start": 4.973,
+      "end": 6.509
+    },
+    {
+      "text": "The lid has to be much thicker than the",
+      "start": 6.786,
+      "end": 8.197
+    },
+    {
+      "text": "walls,",
+      "start": 8.269,
+      "end": 8.693
+    },
+    {
+      "text": "because it holds the pressure and carries a",
+      "start": 8.805,
+      "end": 10.429
+    },
+    {
+      "text": "tab you can tear open with one finger.",
+      "start": 10.501,
+      "end": 12.215
+    },
+    {
+      "text": "Thick metal is expensive metal,",
+      "start": 12.534,
+      "end": 13.963
+    },
+    {
+      "text": "so shrinking the lid saves far more aluminum",
+      "start": 14.247,
+      "end": 16.177
+    },
+    {
+      "text": "than shaving the sides ever could.",
+      "start": 16.211,
+      "end": 17.533
+    },
+    {
+      "text": "Six millimeters have come off it since the",
+      "start": 17.921,
+      "end": 19.634
+    },
+    {
+      "text": "sixties,",
+      "start": 19.707,
+      "end": 20.169
+    },
+    {
+      "text": "saving close to two hundred million pounds",
+      "start": 20.342,
+      "end": 22.003
+    },
+    {
+      "text": "a year.",
+      "start": 22.056,
+      "end": 22.592
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "The",
+      "start": 0.071,
+      "end": 0.178
+    },
+    {
+      "i": 1,
+      "text": "top",
+      "start": 0.213,
+      "end": 0.356
+    },
+    {
+      "i": 2,
+      "text": "of",
+      "start": 0.392,
+      "end": 0.447
+    },
+    {
+      "i": 3,
+      "text": "a",
+      "start": 0.481,
+      "end": 0.517
+    },
+    {
+      "i": 4,
+      "text": "soda",
+      "start": 0.624,
+      "end": 0.803
+    },
+    {
+      "i": 5,
+      "text": "can",
+      "start": 0.874,
+      "end": 1.108
+    },
+    {
+      "i": 6,
+      "text": "is",
+      "start": 1.16,
+      "end": 1.25
+    },
+    {
+      "i": 7,
+      "text": "visibly",
+      "start": 1.357,
+      "end": 1.732
+    },
+    {
+      "i": 8,
+      "text": "narrower",
+      "start": 1.768,
+      "end": 2.089
+    },
+    {
+      "i": 9,
+      "text": "than",
+      "start": 2.143,
+      "end": 2.215
+    },
+    {
+      "i": 10,
+      "text": "the",
+      "start": 2.268,
+      "end": 2.303
+    },
+    {
+      "i": 11,
+      "text": "rest",
+      "start": 2.393,
+      "end": 2.589
+    },
+    {
+      "i": 12,
+      "text": "of",
+      "start": 2.625,
+      "end": 2.696
+    },
+    {
+      "i": 13,
+      "text": "it,",
+      "start": 2.732,
+      "end": 2.839
+    },
+    {
+      "i": 14,
+      "text": "tapering",
+      "start": 3.066,
+      "end": 3.405
+    },
+    {
+      "i": 15,
+      "text": "inward",
+      "start": 3.441,
+      "end": 3.745
+    },
+    {
+      "i": 16,
+      "text": "just",
+      "start": 3.87,
+      "end": 4.013
+    },
+    {
+      "i": 17,
+      "text": "before",
+      "start": 4.048,
+      "end": 4.298
+    },
+    {
+      "i": 18,
+      "text": "the",
+      "start": 4.316,
+      "end": 4.37
+    },
+    {
+      "i": 19,
+      "text": "lid.",
+      "start": 4.459,
+      "end": 4.673
+    },
+    {
+      "i": 20,
+      "text": "That",
+      "start": 4.973,
+      "end": 5.098
+    },
+    {
+      "i": 21,
+      "text": "taper",
+      "start": 5.152,
+      "end": 5.366
+    },
+    {
+      "i": 22,
+      "text": "is",
+      "start": 5.42,
+      "end": 5.528
+    },
+    {
+      "i": 23,
+      "text": "not",
+      "start": 5.563,
+      "end": 5.741
+    },
+    {
+      "i": 24,
+      "text": "shaped",
+      "start": 5.777,
+      "end": 5.974
+    },
+    {
+      "i": 25,
+      "text": "for",
+      "start": 6.009,
+      "end": 6.063
+    },
+    {
+      "i": 26,
+      "text": "your",
+      "start": 6.116,
+      "end": 6.206
+    },
+    {
+      "i": 27,
+      "text": "mouth.",
+      "start": 6.241,
+      "end": 6.509
+    },
+    {
+      "i": 28,
+      "text": "The",
+      "start": 6.786,
+      "end": 6.839
+    },
+    {
+      "i": 29,
+      "text": "lid",
+      "start": 6.893,
+      "end": 7
+    },
+    {
+      "i": 30,
+      "text": "has",
+      "start": 7.071,
+      "end": 7.178
+    },
+    {
+      "i": 31,
+      "text": "to",
+      "start": 7.214,
+      "end": 7.269
+    },
+    {
+      "i": 32,
+      "text": "be",
+      "start": 7.321,
+      "end": 7.429
+    },
+    {
+      "i": 33,
+      "text": "much",
+      "start": 7.482,
+      "end": 7.644
+    },
+    {
+      "i": 34,
+      "text": "thicker",
+      "start": 7.75,
+      "end": 7.965
+    },
+    {
+      "i": 35,
+      "text": "than",
+      "start": 8.019,
+      "end": 8.091
+    },
+    {
+      "i": 36,
+      "text": "the",
+      "start": 8.143,
+      "end": 8.197
+    },
+    {
+      "i": 37,
+      "text": "walls,",
+      "start": 8.269,
+      "end": 8.59
+    },
+    {
+      "i": 38,
+      "text": "because",
+      "start": 8.805,
+      "end": 9.018
+    },
+    {
+      "i": 39,
+      "text": "it",
+      "start": 9.054,
+      "end": 9.144
+    },
+    {
+      "i": 40,
+      "text": "holds",
+      "start": 9.197,
+      "end": 9.412
+    },
+    {
+      "i": 41,
+      "text": "the",
+      "start": 9.429,
+      "end": 9.518
+    },
+    {
+      "i": 42,
+      "text": "pressure",
+      "start": 9.572,
+      "end": 9.875
+    },
+    {
+      "i": 43,
+      "text": "and",
+      "start": 9.929,
+      "end": 10.037
+    },
+    {
+      "i": 44,
+      "text": "carries",
+      "start": 10.09,
+      "end": 10.341
+    },
+    {
+      "i": 45,
+      "text": "a",
+      "start": 10.376,
+      "end": 10.429
+    },
+    {
+      "i": 46,
+      "text": "tab",
+      "start": 10.501,
+      "end": 10.733
+    },
+    {
+      "i": 47,
+      "text": "you",
+      "start": 10.786,
+      "end": 10.84
+    },
+    {
+      "i": 48,
+      "text": "can",
+      "start": 10.876,
+      "end": 10.983
+    },
+    {
+      "i": 49,
+      "text": "tear",
+      "start": 11.037,
+      "end": 11.215
+    },
+    {
+      "i": 50,
+      "text": "open",
+      "start": 11.287,
+      "end": 11.448
+    },
+    {
+      "i": 51,
+      "text": "with",
+      "start": 11.501,
+      "end": 11.626
+    },
+    {
+      "i": 52,
+      "text": "one",
+      "start": 11.697,
+      "end": 11.805
+    },
+    {
+      "i": 53,
+      "text": "finger.",
+      "start": 11.93,
+      "end": 12.215
+    },
+    {
+      "i": 54,
+      "text": "Thick",
+      "start": 12.534,
+      "end": 12.694
+    },
+    {
+      "i": 55,
+      "text": "metal",
+      "start": 12.802,
+      "end": 12.998
+    },
+    {
+      "i": 56,
+      "text": "is",
+      "start": 13.053,
+      "end": 13.124
+    },
+    {
+      "i": 57,
+      "text": "expensive",
+      "start": 13.214,
+      "end": 13.695
+    },
+    {
+      "i": 58,
+      "text": "metal,",
+      "start": 13.732,
+      "end": 13.963
+    },
+    {
+      "i": 59,
+      "text": "so",
+      "start": 14.247,
+      "end": 14.336
+    },
+    {
+      "i": 60,
+      "text": "shrinking",
+      "start": 14.425,
+      "end": 14.711
+    },
+    {
+      "i": 61,
+      "text": "the",
+      "start": 14.765,
+      "end": 14.818
+    },
+    {
+      "i": 62,
+      "text": "lid",
+      "start": 14.89,
+      "end": 15.069
+    },
+    {
+      "i": 63,
+      "text": "saves",
+      "start": 15.122,
+      "end": 15.336
+    },
+    {
+      "i": 64,
+      "text": "far",
+      "start": 15.444,
+      "end": 15.587
+    },
+    {
+      "i": 65,
+      "text": "more",
+      "start": 15.64,
+      "end": 15.73
+    },
+    {
+      "i": 66,
+      "text": "aluminum",
+      "start": 15.836,
+      "end": 16.177
+    },
+    {
+      "i": 67,
+      "text": "than",
+      "start": 16.211,
+      "end": 16.372
+    },
+    {
+      "i": 68,
+      "text": "shaving",
+      "start": 16.426,
+      "end": 16.658
+    },
+    {
+      "i": 69,
+      "text": "the",
+      "start": 16.695,
+      "end": 16.801
+    },
+    {
+      "i": 70,
+      "text": "sides",
+      "start": 16.855,
+      "end": 17.051
+    },
+    {
+      "i": 71,
+      "text": "ever",
+      "start": 17.105,
+      "end": 17.265
+    },
+    {
+      "i": 72,
+      "text": "could.",
+      "start": 17.302,
+      "end": 17.533
+    },
+    {
+      "i": 73,
+      "text": "Six",
+      "start": 17.921,
+      "end": 18.064
+    },
+    {
+      "i": 74,
+      "text": "millimeters",
+      "start": 18.17,
+      "end": 18.581
+    },
+    {
+      "i": 75,
+      "text": "have",
+      "start": 18.634,
+      "end": 18.742
+    },
+    {
+      "i": 76,
+      "text": "come",
+      "start": 18.777,
+      "end": 18.902
+    },
+    {
+      "i": 77,
+      "text": "off",
+      "start": 18.991,
+      "end": 19.117
+    },
+    {
+      "i": 78,
+      "text": "it",
+      "start": 19.17,
+      "end": 19.277
+    },
+    {
+      "i": 79,
+      "text": "since",
+      "start": 19.366,
+      "end": 19.509
+    },
+    {
+      "i": 80,
+      "text": "the",
+      "start": 19.564,
+      "end": 19.634
+    },
+    {
+      "i": 81,
+      "text": "sixties,",
+      "start": 19.707,
+      "end": 20.082
+    },
+    {
+      "i": 82,
+      "text": "saving",
+      "start": 20.342,
+      "end": 20.591
+    },
+    {
+      "i": 83,
+      "text": "close",
+      "start": 20.645,
+      "end": 20.806
+    },
+    {
+      "i": 84,
+      "text": "to",
+      "start": 20.842,
+      "end": 20.985
+    },
+    {
+      "i": 85,
+      "text": "two",
+      "start": 21.056,
+      "end": 21.217
+    },
+    {
+      "i": 86,
+      "text": "hundred",
+      "start": 21.252,
+      "end": 21.413
+    },
+    {
+      "i": 87,
+      "text": "million",
+      "start": 21.521,
+      "end": 21.754
+    },
+    {
+      "i": 88,
+      "text": "pounds",
+      "start": 21.806,
+      "end": 22.003
+    },
+    {
+      "i": 89,
+      "text": "a",
+      "start": 22.056,
+      "end": 22.11
+    },
+    {
+      "i": 90,
+      "text": "year.",
+      "start": 22.146,
+      "end": 22.36
+    }
+  ]
+}

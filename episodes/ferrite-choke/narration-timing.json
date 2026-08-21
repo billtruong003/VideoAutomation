@@ -1,0 +1,910 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/ferrite-choke.wav.",
+  "episode": "ferrite-choke",
+  "title": "Charger Cables Have A Lump That Stops Them Broadcasting",
+  "audio": "public/audio/ferrite-choke.wav",
+  "staticAudio": "audio/ferrite-choke.wav",
+  "duration": 25.415,
+  "fps": 30,
+  "rawDuration": 31.486,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11939,
+  "silenceRemoved": 3.037,
+  "wordCount": 94,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "There is a hard lump molded around your laptop charger cable, and it is surprisingly heavy for its size.",
+      "start": 0.088,
+      "end": 4.894,
+      "wordRange": [
+        0,
+        18
+      ]
+    },
+    {
+      "id": "inside",
+      "text": "Inside it is a ring of ferrite, an iron-based ceramic.",
+      "start": 5.217,
+      "end": 8.173,
+      "wordRange": [
+        19,
+        28
+      ]
+    },
+    {
+      "id": "antenna",
+      "text": "A power cable is a long piece of wire, and a long piece of wire is an antenna, so it picks up and radiates high-frequency noise it was never meant to carry.",
+      "start": 8.465,
+      "end": 15.985,
+      "wordRange": [
+        29,
+        60
+      ]
+    },
+    {
+      "id": "filter",
+      "text": "The ferrite ring lets your actual power pass straight through, and turns that noise into a tiny amount of heat.",
+      "start": 16.217,
+      "end": 21.38,
+      "wordRange": [
+        61,
+        80
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "It is a filter wrapped around a cable, stopping your charger from transmitting.",
+      "start": 21.643,
+      "end": 25.164,
+      "wordRange": [
+        81,
+        93
+      ]
+    }
+  ],
+  "keywords": {
+    "lump": {
+      "start": 0.857,
+      "end": 1,
+      "wordIndex": 4
+    },
+    "heavy": {
+      "start": 4.09,
+      "end": 4.251,
+      "wordIndex": 15
+    },
+    "ferrite": {
+      "start": 6.467,
+      "end": 6.771,
+      "wordIndex": 25
+    },
+    "antenna": {
+      "start": 11.942,
+      "end": 12.318,
+      "wordIndex": 46
+    },
+    "noise": {
+      "start": 14.682,
+      "end": 14.896,
+      "wordIndex": 54
+    },
+    "carry": {
+      "start": 15.735,
+      "end": 15.985,
+      "wordIndex": 60
+    },
+    "power": {
+      "start": 17.681,
+      "end": 17.967,
+      "wordIndex": 67
+    },
+    "heat": {
+      "start": 21.183,
+      "end": 21.38,
+      "wordIndex": 80
+    },
+    "filter": {
+      "start": 22.036,
+      "end": 22.375,
+      "wordIndex": 84
+    },
+    "transmitting": {
+      "start": 24.646,
+      "end": 25.164,
+      "wordIndex": 93
+    }
+  },
+  "captions": [
+    {
+      "text": "There is a hard",
+      "words": [
+        "There",
+        "is",
+        "a",
+        "hard"
+      ],
+      "start": 0.088,
+      "end": 0.857
+    },
+    {
+      "text": "lump molded around",
+      "words": [
+        "lump",
+        "molded",
+        "around"
+      ],
+      "start": 0.857,
+      "end": 1.607
+    },
+    {
+      "text": "your laptop charger",
+      "words": [
+        "your",
+        "laptop",
+        "charger"
+      ],
+      "start": 1.607,
+      "end": 2.536
+    },
+    {
+      "text": "cable,",
+      "words": [
+        "cable,"
+      ],
+      "start": 2.536,
+      "end": 2.876
+    },
+    {
+      "text": "and",
+      "words": [
+        "and"
+      ],
+      "start": 2.876,
+      "end": 3.185
+    },
+    {
+      "text": "it is surprisingly",
+      "words": [
+        "it",
+        "is",
+        "surprisingly"
+      ],
+      "start": 3.304,
+      "end": 4.09
+    },
+    {
+      "text": "heavy for its size.",
+      "words": [
+        "heavy",
+        "for",
+        "its",
+        "size."
+      ],
+      "start": 4.09,
+      "end": 5.114
+    },
+    {
+      "text": "Inside it is a",
+      "words": [
+        "Inside",
+        "it",
+        "is",
+        "a"
+      ],
+      "start": 5.217,
+      "end": 6.074
+    },
+    {
+      "text": "ring of ferrite,",
+      "words": [
+        "ring",
+        "of",
+        "ferrite,"
+      ],
+      "start": 6.074,
+      "end": 6.991
+    },
+    {
+      "text": "an iron-based ceramic.",
+      "words": [
+        "an",
+        "iron-based",
+        "ceramic."
+      ],
+      "start": 6.993,
+      "end": 8.393
+    },
+    {
+      "text": "A power cable is",
+      "words": [
+        "A",
+        "power",
+        "cable",
+        "is"
+      ],
+      "start": 8.465,
+      "end": 9.322
+    },
+    {
+      "text": "a long piece of",
+      "words": [
+        "a",
+        "long",
+        "piece",
+        "of"
+      ],
+      "start": 9.322,
+      "end": 10.18
+    },
+    {
+      "text": "wire,",
+      "words": [
+        "wire,"
+      ],
+      "start": 10.18,
+      "end": 10.704
+    },
+    {
+      "text": "and a long piece",
+      "words": [
+        "and",
+        "a",
+        "long",
+        "piece"
+      ],
+      "start": 10.728,
+      "end": 11.354
+    },
+    {
+      "text": "of wire is an",
+      "words": [
+        "of",
+        "wire",
+        "is",
+        "an"
+      ],
+      "start": 11.354,
+      "end": 11.942
+    },
+    {
+      "text": "antenna,",
+      "words": [
+        "antenna,"
+      ],
+      "start": 11.942,
+      "end": 12.538
+    },
+    {
+      "text": "so it picks up",
+      "words": [
+        "so",
+        "it",
+        "picks",
+        "up"
+      ],
+      "start": 12.609,
+      "end": 13.305
+    },
+    {
+      "text": "and radiates",
+      "words": [
+        "and",
+        "radiates"
+      ],
+      "start": 13.305,
+      "end": 13.967
+    },
+    {
+      "text": "high-frequency noise",
+      "words": [
+        "high-frequency",
+        "noise"
+      ],
+      "start": 13.967,
+      "end": 14.949
+    },
+    {
+      "text": "it was never meant",
+      "words": [
+        "it",
+        "was",
+        "never",
+        "meant"
+      ],
+      "start": 14.949,
+      "end": 15.629
+    },
+    {
+      "text": "to carry.",
+      "words": [
+        "to",
+        "carry."
+      ],
+      "start": 15.629,
+      "end": 16.205
+    },
+    {
+      "text": "The ferrite ring lets",
+      "words": [
+        "The",
+        "ferrite",
+        "ring",
+        "lets"
+      ],
+      "start": 16.217,
+      "end": 17.091
+    },
+    {
+      "text": "your actual power pass",
+      "words": [
+        "your",
+        "actual",
+        "power",
+        "pass"
+      ],
+      "start": 17.091,
+      "end": 18.36
+    },
+    {
+      "text": "straight through,",
+      "words": [
+        "straight",
+        "through,"
+      ],
+      "start": 18.36,
+      "end": 19.152
+    },
+    {
+      "text": "and turns that noise",
+      "words": [
+        "and",
+        "turns",
+        "that",
+        "noise"
+      ],
+      "start": 19.272,
+      "end": 20.147
+    },
+    {
+      "text": "into a tiny amount",
+      "words": [
+        "into",
+        "a",
+        "tiny",
+        "amount"
+      ],
+      "start": 20.147,
+      "end": 21.023
+    },
+    {
+      "text": "of heat.",
+      "words": [
+        "of",
+        "heat."
+      ],
+      "start": 21.023,
+      "end": 21.6
+    },
+    {
+      "text": "It is a filter",
+      "words": [
+        "It",
+        "is",
+        "a",
+        "filter"
+      ],
+      "start": 21.643,
+      "end": 22.411
+    },
+    {
+      "text": "wrapped around a",
+      "words": [
+        "wrapped",
+        "around",
+        "a"
+      ],
+      "start": 22.411,
+      "end": 23.018
+    },
+    {
+      "text": "cable,",
+      "words": [
+        "cable,"
+      ],
+      "start": 23.018,
+      "end": 23.61
+    },
+    {
+      "text": "stopping your charger",
+      "words": [
+        "stopping",
+        "your",
+        "charger"
+      ],
+      "start": 23.61,
+      "end": 24.468
+    },
+    {
+      "text": "from transmitting.",
+      "words": [
+        "from",
+        "transmitting."
+      ],
+      "start": 24.468,
+      "end": 25.384
+    }
+  ],
+  "words": [
+    {
+      "text": "There",
+      "start": 0.088,
+      "end": 0.213
+    },
+    {
+      "text": "is",
+      "start": 0.267,
+      "end": 0.339
+    },
+    {
+      "text": "a",
+      "start": 0.41,
+      "end": 0.535
+    },
+    {
+      "text": "hard",
+      "start": 0.571,
+      "end": 0.767
+    },
+    {
+      "text": "lump",
+      "start": 0.857,
+      "end": 1
+    },
+    {
+      "text": "molded",
+      "start": 1.09,
+      "end": 1.303
+    },
+    {
+      "text": "around",
+      "start": 1.34,
+      "end": 1.554
+    },
+    {
+      "text": "your",
+      "start": 1.607,
+      "end": 1.714
+    },
+    {
+      "text": "laptop",
+      "start": 1.768,
+      "end": 2.089
+    },
+    {
+      "text": "charger",
+      "start": 2.198,
+      "end": 2.465
+    },
+    {
+      "text": "cable,",
+      "start": 2.536,
+      "end": 2.786
+    },
+    {
+      "text": "and",
+      "start": 2.876,
+      "end": 2.965
+    },
+    {
+      "text": "it",
+      "start": 3.304,
+      "end": 3.341
+    },
+    {
+      "text": "is",
+      "start": 3.376,
+      "end": 3.483
+    },
+    {
+      "text": "surprisingly",
+      "start": 3.484,
+      "end": 4.02
+    },
+    {
+      "text": "heavy",
+      "start": 4.09,
+      "end": 4.251
+    },
+    {
+      "text": "for",
+      "start": 4.323,
+      "end": 4.377
+    },
+    {
+      "text": "its",
+      "start": 4.413,
+      "end": 4.537
+    },
+    {
+      "text": "size.",
+      "start": 4.573,
+      "end": 4.894
+    },
+    {
+      "text": "Inside",
+      "start": 5.217,
+      "end": 5.645
+    },
+    {
+      "text": "it",
+      "start": 5.664,
+      "end": 5.717
+    },
+    {
+      "text": "is",
+      "start": 5.77,
+      "end": 5.859
+    },
+    {
+      "text": "a",
+      "start": 5.931,
+      "end": 5.949
+    },
+    {
+      "text": "ring",
+      "start": 6.074,
+      "end": 6.217
+    },
+    {
+      "text": "of",
+      "start": 6.253,
+      "end": 6.378
+    },
+    {
+      "text": "ferrite,",
+      "start": 6.467,
+      "end": 6.771
+    },
+    {
+      "text": "an",
+      "start": 6.993,
+      "end": 7.084
+    },
+    {
+      "text": "iron-based",
+      "start": 7.191,
+      "end": 7.654
+    },
+    {
+      "text": "ceramic.",
+      "start": 7.745,
+      "end": 8.173
+    },
+    {
+      "text": "A",
+      "start": 8.465,
+      "end": 8.519
+    },
+    {
+      "text": "power",
+      "start": 8.59,
+      "end": 8.804
+    },
+    {
+      "text": "cable",
+      "start": 8.911,
+      "end": 9.162
+    },
+    {
+      "text": "is",
+      "start": 9.197,
+      "end": 9.288
+    },
+    {
+      "text": "a",
+      "start": 9.322,
+      "end": 9.413
+    },
+    {
+      "text": "long",
+      "start": 9.465,
+      "end": 9.733
+    },
+    {
+      "text": "piece",
+      "start": 9.788,
+      "end": 9.949
+    },
+    {
+      "text": "of",
+      "start": 9.984,
+      "end": 10.073
+    },
+    {
+      "text": "wire,",
+      "start": 10.18,
+      "end": 10.484
+    },
+    {
+      "text": "and",
+      "start": 10.728,
+      "end": 10.8
+    },
+    {
+      "text": "a",
+      "start": 10.836,
+      "end": 10.854
+    },
+    {
+      "text": "long",
+      "start": 10.924,
+      "end": 11.121
+    },
+    {
+      "text": "piece",
+      "start": 11.156,
+      "end": 11.336
+    },
+    {
+      "text": "of",
+      "start": 11.354,
+      "end": 11.424
+    },
+    {
+      "text": "wire",
+      "start": 11.496,
+      "end": 11.71
+    },
+    {
+      "text": "is",
+      "start": 11.746,
+      "end": 11.818
+    },
+    {
+      "text": "an",
+      "start": 11.836,
+      "end": 11.889
+    },
+    {
+      "text": "antenna,",
+      "start": 11.942,
+      "end": 12.318
+    },
+    {
+      "text": "so",
+      "start": 12.609,
+      "end": 12.663
+    },
+    {
+      "text": "it",
+      "start": 12.716,
+      "end": 12.824
+    },
+    {
+      "text": "picks",
+      "start": 12.859,
+      "end": 13.073
+    },
+    {
+      "text": "up",
+      "start": 13.127,
+      "end": 13.27
+    },
+    {
+      "text": "and",
+      "start": 13.305,
+      "end": 13.431
+    },
+    {
+      "text": "radiates",
+      "start": 13.485,
+      "end": 13.895
+    },
+    {
+      "text": "high-frequency",
+      "start": 13.967,
+      "end": 14.593
+    },
+    {
+      "text": "noise",
+      "start": 14.682,
+      "end": 14.896
+    },
+    {
+      "text": "it",
+      "start": 14.949,
+      "end": 15.003
+    },
+    {
+      "text": "was",
+      "start": 15.039,
+      "end": 15.235
+    },
+    {
+      "text": "never",
+      "start": 15.272,
+      "end": 15.449
+    },
+    {
+      "text": "meant",
+      "start": 15.486,
+      "end": 15.61
+    },
+    {
+      "text": "to",
+      "start": 15.629,
+      "end": 15.7
+    },
+    {
+      "text": "carry.",
+      "start": 15.735,
+      "end": 15.985
+    },
+    {
+      "text": "The",
+      "start": 16.217,
+      "end": 16.269
+    },
+    {
+      "text": "ferrite",
+      "start": 16.341,
+      "end": 16.573
+    },
+    {
+      "text": "ring",
+      "start": 16.627,
+      "end": 16.823
+    },
+    {
+      "text": "lets",
+      "start": 16.877,
+      "end": 17.057
+    },
+    {
+      "text": "your",
+      "start": 17.091,
+      "end": 17.234
+    },
+    {
+      "text": "actual",
+      "start": 17.324,
+      "end": 17.61
+    },
+    {
+      "text": "power",
+      "start": 17.681,
+      "end": 17.967
+    },
+    {
+      "text": "pass",
+      "start": 18.021,
+      "end": 18.324
+    },
+    {
+      "text": "straight",
+      "start": 18.36,
+      "end": 18.646
+    },
+    {
+      "text": "through,",
+      "start": 18.7,
+      "end": 18.932
+    },
+    {
+      "text": "and",
+      "start": 19.272,
+      "end": 19.397
+    },
+    {
+      "text": "turns",
+      "start": 19.45,
+      "end": 19.648
+    },
+    {
+      "text": "that",
+      "start": 19.7,
+      "end": 19.825
+    },
+    {
+      "text": "noise",
+      "start": 19.862,
+      "end": 20.076
+    },
+    {
+      "text": "into",
+      "start": 20.147,
+      "end": 20.344
+    },
+    {
+      "text": "a",
+      "start": 20.379,
+      "end": 20.47
+    },
+    {
+      "text": "tiny",
+      "start": 20.504,
+      "end": 20.773
+    },
+    {
+      "text": "amount",
+      "start": 20.826,
+      "end": 21.006
+    },
+    {
+      "text": "of",
+      "start": 21.023,
+      "end": 21.131
+    },
+    {
+      "text": "heat.",
+      "start": 21.183,
+      "end": 21.38
+    },
+    {
+      "text": "It",
+      "start": 21.643,
+      "end": 21.714
+    },
+    {
+      "text": "is",
+      "start": 21.732,
+      "end": 21.822
+    },
+    {
+      "text": "a",
+      "start": 21.857,
+      "end": 21.875
+    },
+    {
+      "text": "filter",
+      "start": 22.036,
+      "end": 22.375
+    },
+    {
+      "text": "wrapped",
+      "start": 22.411,
+      "end": 22.625
+    },
+    {
+      "text": "around",
+      "start": 22.644,
+      "end": 22.839
+    },
+    {
+      "text": "a",
+      "start": 22.875,
+      "end": 22.946
+    },
+    {
+      "text": "cable,",
+      "start": 23.018,
+      "end": 23.521
+    },
+    {
+      "text": "stopping",
+      "start": 23.61,
+      "end": 23.914
+    },
+    {
+      "text": "your",
+      "start": 23.95,
+      "end": 24.022
+    },
+    {
+      "text": "charger",
+      "start": 24.128,
+      "end": 24.45
+    },
+    {
+      "text": "from",
+      "start": 24.468,
+      "end": 24.611
+    },
+    {
+      "text": "transmitting.",
+      "start": 24.646,
+      "end": 25.164
+    }
+  ]
+}

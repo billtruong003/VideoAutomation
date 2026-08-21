@@ -1,0 +1,227 @@
+{
+  "slug": "foil-shiny-dull",
+  "title": "The Shiny Side Of Foil Is A Manufacturing Accident",
+  "hook": "Two sides, one difference, and it happened before the foil was ever a roll.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Kitchen Bill. Mildly annoyed at a box that will not explain itself."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "One side of aluminum",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Both sides in one shot, catching light differently. The question is visual before it is spoken.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill pulls a sheet of foil off a roll; it flashes on one face, matte on the other"
+        },
+        {
+          "kw": "shiny",
+          "action": "the shiny face catches a highlight and labels itself"
+        },
+        {
+          "kw": "dull",
+          "action": "the sheet flips; the matte face labels itself"
+        },
+        {
+          "kw": "explains",
+          "action": "Bill turns the box over looking for an answer and finds nothing"
+        }
+      ]
+    },
+    {
+      "id": "notcoating",
+      "from": "It is not a coating",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Kill the two wrong answers fast so the real one has room. Crossed out, not argued with.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a COATING label appears over the sheet and is crossed out"
+        },
+        {
+          "kw": "nonstick",
+          "action": "a NONSTICK label appears and is crossed out too"
+        }
+      ]
+    },
+    {
+      "id": "mill",
+      "from": "Foil gets rolled",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "THE mechanism scene. The two-sheet pass is the whole episode — give it room and show it clearly.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a rolling mill draws in; a thick aluminum ribbon feeds between two polished rollers"
+        },
+        {
+          "kw": "thinner",
+          "action": "the ribbon passes through repeatedly, thinning at each pass"
+        },
+        {
+          "kw": "tear",
+          "action": "a single ultra-thin sheet enters alone and rips apart; the frame flinches"
+        },
+        {
+          "kw": "stacked",
+          "action": "two sheets stack and enter together; they survive the pass"
+        },
+        {
+          "at": 2.17,
+          "action": "the ribbon emerges thinner and feeds back toward the rollers",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 3.5,
+          "action": "the ribbon makes another pass; the rollers squeeze it thinner again",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.83,
+          "action": "the torn single sheet curls away out of frame",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 7.42,
+          "action": "the paired sheets travel on together through the nip",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "outer",
+      "from": "The outer faces",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Cross-section at the roller nip. Outer faces touch steel.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the nip enlarges into cross-section: roller, sheet, sheet, roller"
+        },
+        {
+          "kw": "mirror",
+          "action": "the two outer faces glow against the polished steel and come out gleaming"
+        },
+        {
+          "at": 2.49,
+          "action": "the polished roller turns, holding its mirror finish against the sheet",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "inner",
+      "from": "The two inner faces",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The other half of the same frame. Then peel them apart — that is the payoff image.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the two inner faces press together, matte where they meet"
+        },
+        {
+          "kw": "inner",
+          "action": "the sheets peel apart, each showing one shiny and one dull face"
+        },
+        {
+          "kw": "dull-out",
+          "action": "the pair separates fully and the episode hard cuts on the matched pair"
+        },
+        {
+          "at": 0.1,
+          "action": "the two sheets slide apart a few units, still face to face",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "shiny",
+      [
+        "shiny"
+      ],
+      0
+    ],
+    [
+      "dull",
+      [
+        "dull"
+      ],
+      0
+    ],
+    [
+      "explains",
+      [
+        "explains"
+      ],
+      0
+    ],
+    [
+      "nonstick",
+      [
+        "nonstick"
+      ],
+      0
+    ],
+    [
+      "thinner",
+      [
+        "thinner"
+      ],
+      0
+    ],
+    [
+      "tear",
+      [
+        "tear"
+      ],
+      0
+    ],
+    [
+      "stacked",
+      [
+        "stacked"
+      ],
+      0
+    ],
+    [
+      "mirror",
+      [
+        "mirror-bright"
+      ],
+      0
+    ],
+    [
+      "inner",
+      [
+        "inner"
+      ],
+      0
+    ],
+    [
+      "dull-out",
+      [
+        "dull"
+      ],
+      1
+    ]
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "soda-can-neck",
+  "title": "Why Soda Cans Get Narrower At The Top",
+  "audio": "public/audio/soda-can-neck.wav",
+  "fps": 30,
+  "narrationDuration": 22.595,
+  "beatCount": 16,
+  "longestGap": 2.033,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 4.673,
+      "startFrame": 2,
+      "endFrame": 140,
+      "duration": 4.602,
+      "narration": "The top of a soda can is visibly narrower than the rest of it, tapering inward just before the lid.",
+      "background": "KitchenCounter",
+      "note": "Make the taper visible — most people have never consciously seen it.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a can stands in profile; the shoulder tapers in toward the lid"
+        },
+        {
+          "t": 1.768,
+          "frame": 53,
+          "tInScene": 1.697,
+          "frameInScene": 51,
+          "action": "dimension lines measure body width against lid width"
+        },
+        {
+          "t": 3.066,
+          "frame": 92,
+          "tInScene": 2.995,
+          "frameInScene": 90,
+          "action": "the taper highlights teal along the shoulder"
+        }
+      ]
+    },
+    {
+      "scene": "notmouth",
+      "start": 4.973,
+      "end": 6.509,
+      "startFrame": 149,
+      "endFrame": 195,
+      "duration": 1.536,
+      "narration": "That taper is not shaped for your mouth.",
+      "background": "KitchenCounter",
+      "note": "Kill the intuitive wrong answer in one beat.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 6.241,
+          "frame": 187,
+          "tInScene": 1.268,
+          "frameInScene": 38,
+          "action": "a FOR YOUR MOUTH label appears and crosses out"
+        },
+        {
+          "t": 5.073,
+          "frame": 152,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the can rotates so the taper reads against the lid rim",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "lid",
+      "start": 6.786,
+      "end": 12.215,
+      "startFrame": 204,
+      "endFrame": 366,
+      "duration": 5.429,
+      "narration": "The lid has to be much thicker than the walls, because it holds the pressure and carries a tab you can tear open with one finger.",
+      "background": "CutawayVoid",
+      "note": "The asymmetry is the mechanism: lid metal is much thicker than wall metal. Show the gauge difference plainly.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 6.786,
+          "frame": 204,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the can sections; wall and lid thickness draw at true relative scale"
+        },
+        {
+          "t": 7.75,
+          "frame": 233,
+          "tInScene": 0.964,
+          "frameInScene": 29,
+          "action": "the lid gauge highlights, several times the wall gauge"
+        },
+        {
+          "t": 9.572,
+          "frame": 287,
+          "tInScene": 2.786,
+          "frameInScene": 84,
+          "action": "internal pressure arrows push outward against the lid"
+        },
+        {
+          "t": 10.501,
+          "frame": 315,
+          "tInScene": 3.715,
+          "frameInScene": 111,
+          "action": "a finger levers the tab; the lid flexes but holds"
+        }
+      ]
+    },
+    {
+      "scene": "saving",
+      "start": 12.534,
+      "end": 17.533,
+      "startFrame": 376,
+      "endFrame": 526,
+      "duration": 4.999,
+      "narration": "Thick metal is expensive metal, so shrinking the lid saves far more aluminum than shaving the sides ever could.",
+      "background": "SchematicVoid",
+      "note": "The comparison that justifies the design: shrink the lid, not the walls.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 12.534,
+          "frame": 376,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "two strategies draw side by side — thinner walls, or a smaller lid"
+        },
+        {
+          "t": 14.425,
+          "frame": 433,
+          "tInScene": 1.891,
+          "frameInScene": 57,
+          "action": "the lid shrinks; a large metal saving bar fills"
+        },
+        {
+          "t": 16.426,
+          "frame": 493,
+          "tInScene": 3.892,
+          "frameInScene": 117,
+          "action": "the wall-shaving option barely moves its bar and is crossed out"
+        }
+      ]
+    },
+    {
+      "scene": "scale",
+      "start": 17.921,
+      "end": 22.36,
+      "startFrame": 538,
+      "endFrame": 671,
+      "duration": 4.439,
+      "narration": "Six millimeters have come off it since the sixties, saving close to two hundred million pounds a year.",
+      "background": "SchematicVoid",
+      "note": "SCALE IS THE PAYOFF. Six millimetres, then multiply until the number is absurd. Hard cut.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 17.921,
+          "frame": 538,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a 6 mm dimension line draws across the lid rim — almost nothing"
+        },
+        {
+          "t": 18.17,
+          "frame": 545,
+          "tInScene": 0.249,
+          "frameInScene": 7,
+          "action": "the tiny measurement holds alone on screen"
+        },
+        {
+          "t": 21.806,
+          "frame": 654,
+          "tInScene": 3.885,
+          "frameInScene": 117,
+          "action": "cans multiply across the frame until they fill it; a vast annual figure stamps; hard cut"
+        },
+        {
+          "t": 19.991,
+          "frame": 600,
+          "tInScene": 2.07,
+          "frameInScene": 62,
+          "action": "the cans keep multiplying outward past the frame",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

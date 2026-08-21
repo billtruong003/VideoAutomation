@@ -1,581 +1,438 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "Beer almost always comes in brown glass,",
       "start_time": 0.079,
-      "end_time": 2.019,
+      "end_time": 2.259,
       "speaker": "narrator",
       "words": [
         {
           "text": "Beer",
           "start_time": 0.079,
-          "end_time": 0.28
-        },
-        {
-          "text": " ",
-          "start_time": 0.28,
           "end_time": 0.359
         },
         {
-          "text": "almost",
+          "text": " ",
           "start_time": 0.359,
-          "end_time": 0.639
+          "end_time": 0.419
+        },
+        {
+          "text": "almost",
+          "start_time": 0.419,
+          "end_time": 0.779
         },
         {
           "text": " ",
-          "start_time": 0.639,
-          "end_time": 0.759
+          "start_time": 0.779,
+          "end_time": 0.859
         },
         {
           "text": "always",
-          "start_time": 0.759,
-          "end_time": 1.039
+          "start_time": 0.859,
+          "end_time": 1.159
         },
         {
           "text": " ",
-          "start_time": 1.039,
-          "end_time": 1.079
+          "start_time": 1.159,
+          "end_time": 1.199
         },
         {
           "text": "comes",
-          "start_time": 1.079,
-          "end_time": 1.259
+          "start_time": 1.199,
+          "end_time": 1.399
         },
         {
           "text": " ",
-          "start_time": 1.259,
-          "end_time": 1.279
-        },
-        {
-          "text": "in",
-          "start_time": 1.279,
-          "end_time": 1.339
-        },
-        {
-          "text": " ",
-          "start_time": 1.339,
+          "start_time": 1.399,
           "end_time": 1.419
         },
         {
-          "text": "brown",
+          "text": "in",
           "start_time": 1.419,
-          "end_time": 1.62
+          "end_time": 1.5
         },
         {
           "text": " ",
-          "start_time": 1.62,
-          "end_time": 1.719
+          "start_time": 1.5,
+          "end_time": 1.599
+        },
+        {
+          "text": "brown",
+          "start_time": 1.599,
+          "end_time": 1.819
+        },
+        {
+          "text": " ",
+          "start_time": 1.819,
+          "end_time": 1.899
         },
         {
           "text": "glass,",
-          "start_time": 1.719,
-          "end_time": 2.019
+          "start_time": 1.899,
+          "end_time": 2.259
         }
       ]
     },
     {
       "text": "because light physically breaks beer.",
-      "start_time": 2.22,
-      "end_time": 3.679,
+      "start_time": 2.639,
+      "end_time": 4.259,
       "speaker": "narrator",
       "words": [
         {
           "text": "because",
-          "start_time": 2.22,
-          "end_time": 2.419
+          "start_time": 2.639,
+          "end_time": 2.879
         },
         {
           "text": " ",
-          "start_time": 2.419,
-          "end_time": 2.499
+          "start_time": 2.879,
+          "end_time": 2.979
         },
         {
           "text": "light",
-          "start_time": 2.5,
-          "end_time": 2.659
+          "start_time": 2.98,
+          "end_time": 3.139
         },
         {
           "text": " ",
-          "start_time": 2.659,
-          "end_time": 2.759
+          "start_time": 3.139,
+          "end_time": 3.239
         },
         {
           "text": "physically",
-          "start_time": 2.759,
-          "end_time": 3.079
+          "start_time": 3.24,
+          "end_time": 3.619
         },
         {
           "text": " ",
-          "start_time": 3.079,
-          "end_time": 3.179
+          "start_time": 3.619,
+          "end_time": 3.699
         },
         {
           "text": "breaks",
-          "start_time": 3.179,
-          "end_time": 3.379
+          "start_time": 3.699,
+          "end_time": 3.939
         },
         {
           "text": " ",
-          "start_time": 3.379,
-          "end_time": 3.459
+          "start_time": 3.939,
+          "end_time": 4.039
         },
         {
           "text": "beer.",
-          "start_time": 3.46,
-          "end_time": 3.679
+          "start_time": 4.039,
+          "end_time": 4.259
         }
       ]
     },
     {
-      "text": "Hops leave compounds in the liquid that are",
-      "start_time": 3.939,
-      "end_time": 5.96,
+      "text": "Hops leave compounds in the liquid",
+      "start_time": 5.299,
+      "end_time": 6.98,
       "speaker": "narrator",
       "words": [
         {
           "text": "Hops",
-          "start_time": 3.939,
-          "end_time": 4.199
+          "start_time": 5.299,
+          "end_time": 5.579
         },
         {
           "text": " ",
-          "start_time": 4.199,
-          "end_time": 4.239
+          "start_time": 5.579,
+          "end_time": 5.619
         },
         {
           "text": "leave",
-          "start_time": 4.239,
-          "end_time": 4.4
+          "start_time": 5.619,
+          "end_time": 5.799
         },
         {
           "text": " ",
-          "start_time": 4.4,
-          "end_time": 4.48
+          "start_time": 5.799,
+          "end_time": 5.879
         },
         {
           "text": "compounds",
-          "start_time": 4.48,
-          "end_time": 4.94
-        },
-        {
-          "text": " ",
-          "start_time": 4.94,
-          "end_time": 4.98
-        },
-        {
-          "text": "in",
-          "start_time": 4.98,
-          "end_time": 5.019
-        },
-        {
-          "text": " ",
-          "start_time": 5.019,
-          "end_time": 5.059
-        },
-        {
-          "text": "the",
-          "start_time": 5.059,
-          "end_time": 5.099
-        },
-        {
-          "text": " ",
-          "start_time": 5.099,
-          "end_time": 5.179
-        },
-        {
-          "text": "liquid",
-          "start_time": 5.179,
-          "end_time": 5.46
-        },
-        {
-          "text": " ",
-          "start_time": 5.46,
-          "end_time": 5.739
-        },
-        {
-          "text": "that",
-          "start_time": 5.739,
-          "end_time": 5.819
-        },
-        {
-          "text": " ",
-          "start_time": 5.819,
-          "end_time": 5.839
-        },
-        {
-          "text": "are",
-          "start_time": 5.839,
-          "end_time": 5.96
-        }
-      ]
-    },
-    {
-      "text": "stable in the dark.",
-      "start_time": 5.98,
-      "end_time": 6.759,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "stable",
-          "start_time": 5.98,
-          "end_time": 6.279
-        },
-        {
-          "text": " ",
-          "start_time": 6.279,
-          "end_time": 6.319
-        },
-        {
-          "text": "in",
-          "start_time": 6.319,
-          "end_time": 6.379
-        },
-        {
-          "text": " ",
-          "start_time": 6.379,
+          "start_time": 5.879,
           "end_time": 6.399
         },
         {
-          "text": "the",
+          "text": " ",
           "start_time": 6.399,
-          "end_time": 6.46
+          "end_time": 6.439
+        },
+        {
+          "text": "in",
+          "start_time": 6.44,
+          "end_time": 6.5
         },
         {
           "text": " ",
-          "start_time": 6.46,
-          "end_time": 6.519
+          "start_time": 6.5,
+          "end_time": 6.539
         },
         {
-          "text": "dark.",
-          "start_time": 6.519,
-          "end_time": 6.759
+          "text": "the",
+          "start_time": 6.539,
+          "end_time": 6.599
+        },
+        {
+          "text": " ",
+          "start_time": 6.599,
+          "end_time": 6.679
+        },
+        {
+          "text": "liquid",
+          "start_time": 6.679,
+          "end_time": 6.98
         }
       ]
     },
     {
-      "text": "Hit them with blue and ultraviolet light,",
-      "start_time": 7.019,
-      "end_time": 8.8,
+      "text": "that are stable in the dark.",
+      "start_time": 7.319,
+      "end_time": 8.439,
       "speaker": "narrator",
       "words": [
         {
-          "text": "Hit",
-          "start_time": 7.019,
-          "end_time": 7.139
-        },
-        {
-          "text": " ",
-          "start_time": 7.139,
-          "end_time": 7.199
-        },
-        {
-          "text": "them",
-          "start_time": 7.199,
-          "end_time": 7.319
-        },
-        {
-          "text": " ",
+          "text": "that",
           "start_time": 7.319,
-          "end_time": 7.359
+          "end_time": 7.379
         },
         {
-          "text": "with",
-          "start_time": 7.359,
+          "text": " ",
+          "start_time": 7.379,
+          "end_time": 7.419
+        },
+        {
+          "text": "are",
+          "start_time": 7.419,
           "end_time": 7.48
         },
         {
           "text": " ",
           "start_time": 7.48,
-          "end_time": 7.579
+          "end_time": 7.599
         },
         {
-          "text": "blue",
-          "start_time": 7.579,
-          "end_time": 7.799
-        },
-        {
-          "text": " ",
-          "start_time": 7.799,
-          "end_time": 7.859
-        },
-        {
-          "text": "and",
-          "start_time": 7.859,
-          "end_time": 7.919
+          "text": "stable",
+          "start_time": 7.599,
+          "end_time": 7.899
         },
         {
           "text": " ",
-          "start_time": 7.919,
-          "end_time": 8.079
+          "start_time": 7.899,
+          "end_time": 7.939
         },
         {
-          "text": "ultraviolet",
-          "start_time": 8.079,
-          "end_time": 8.559
+          "text": "in",
+          "start_time": 7.94,
+          "end_time": 8
         },
         {
           "text": " ",
-          "start_time": 8.559,
-          "end_time": 8.639
+          "start_time": 8,
+          "end_time": 8.039
         },
         {
-          "text": "light,",
-          "start_time": 8.639,
-          "end_time": 8.8
+          "text": "the",
+          "start_time": 8.039,
+          "end_time": 8.099
+        },
+        {
+          "text": " ",
+          "start_time": 8.099,
+          "end_time": 8.179
+        },
+        {
+          "text": "dark.",
+          "start_time": 8.179,
+          "end_time": 8.439
         }
       ]
     },
     {
-      "text": "and riboflavin, a vitamin already in the beer,",
-      "start_time": 9.039,
-      "end_time": 11.439,
+      "text": "Hit them with blue and ultraviolet light,",
+      "start_time": 9.599,
+      "end_time": 11.599,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Hit",
+          "start_time": 9.599,
+          "end_time": 9.719
+        },
+        {
+          "text": " ",
+          "start_time": 9.719,
+          "end_time": 9.779
+        },
+        {
+          "text": "them",
+          "start_time": 9.779,
+          "end_time": 9.899
+        },
+        {
+          "text": " ",
+          "start_time": 9.899,
+          "end_time": 9.96
+        },
+        {
+          "text": "with",
+          "start_time": 9.96,
+          "end_time": 10.1
+        },
+        {
+          "text": " ",
+          "start_time": 10.1,
+          "end_time": 10.239
+        },
+        {
+          "text": "blue",
+          "start_time": 10.239,
+          "end_time": 10.46
+        },
+        {
+          "text": " ",
+          "start_time": 10.46,
+          "end_time": 10.5
+        },
+        {
+          "text": "and",
+          "start_time": 10.5,
+          "end_time": 10.599
+        },
+        {
+          "text": " ",
+          "start_time": 10.599,
+          "end_time": 10.759
+        },
+        {
+          "text": "ultraviolet",
+          "start_time": 10.76,
+          "end_time": 11.299
+        },
+        {
+          "text": " ",
+          "start_time": 11.299,
+          "end_time": 11.38
+        },
+        {
+          "text": "light,",
+          "start_time": 11.38,
+          "end_time": 11.599
+        }
+      ]
+    },
+    {
+      "text": "and riboflavin,",
+      "start_time": 12.079,
+      "end_time": 13.059,
       "speaker": "narrator",
       "words": [
         {
           "text": "and",
-          "start_time": 9.039,
-          "end_time": 9.139
+          "start_time": 12.079,
+          "end_time": 12.199
         },
         {
           "text": " ",
-          "start_time": 9.139,
-          "end_time": 9.259
+          "start_time": 12.199,
+          "end_time": 12.319
         },
         {
           "text": "riboflavin,",
-          "start_time": 9.26,
-          "end_time": 9.92
-        },
-        {
-          "text": " ",
-          "start_time": 9.92,
-          "end_time": 10.199
-        },
+          "start_time": 12.319,
+          "end_time": 13.059
+        }
+      ]
+    },
+    {
+      "text": "a vitamin already in the beer,",
+      "start_time": 13.38,
+      "end_time": 14.759,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "a",
-          "start_time": 10.199,
-          "end_time": 10.239
+          "start_time": 13.38,
+          "end_time": 13.42
         },
         {
           "text": " ",
-          "start_time": 10.239,
-          "end_time": 10.319
+          "start_time": 13.42,
+          "end_time": 13.479
         },
         {
           "text": "vitamin",
-          "start_time": 10.319,
-          "end_time": 10.639
+          "start_time": 13.479,
+          "end_time": 13.88
         },
         {
           "text": " ",
-          "start_time": 10.639,
-          "end_time": 10.719
+          "start_time": 13.88,
+          "end_time": 13.96
         },
         {
           "text": "already",
-          "start_time": 10.719,
-          "end_time": 11
+          "start_time": 13.96,
+          "end_time": 14.259
         },
         {
           "text": " ",
-          "start_time": 11,
-          "end_time": 11.019
+          "start_time": 14.259,
+          "end_time": 14.279
         },
         {
           "text": "in",
-          "start_time": 11.019,
-          "end_time": 11.079
+          "start_time": 14.279,
+          "end_time": 14.36
         },
         {
           "text": " ",
-          "start_time": 11.079,
-          "end_time": 11.099
+          "start_time": 14.36,
+          "end_time": 14.38
         },
         {
           "text": "the",
-          "start_time": 11.099,
-          "end_time": 11.159
+          "start_time": 14.38,
+          "end_time": 14.44
         },
         {
           "text": " ",
-          "start_time": 11.159,
-          "end_time": 11.239
+          "start_time": 14.44,
+          "end_time": 14.519
         },
         {
           "text": "beer,",
-          "start_time": 11.239,
-          "end_time": 11.439
+          "start_time": 14.519,
+          "end_time": 14.759
         }
       ]
     },
     {
       "text": "acts as a middleman.",
-      "start_time": 11.719,
-      "end_time": 12.479,
+      "start_time": 15.259,
+      "end_time": 16.1,
       "speaker": "narrator",
       "words": [
         {
           "text": "acts",
-          "start_time": 11.719,
-          "end_time": 11.859
+          "start_time": 15.259,
+          "end_time": 15.42
         },
         {
           "text": " ",
-          "start_time": 11.859,
-          "end_time": 11.92
+          "start_time": 15.42,
+          "end_time": 15.46
         },
         {
           "text": "as",
-          "start_time": 11.92,
-          "end_time": 11.96
-        },
-        {
-          "text": " ",
-          "start_time": 11.96,
-          "end_time": 12
-        },
-        {
-          "text": "a",
-          "start_time": 12,
-          "end_time": 12.039
-        },
-        {
-          "text": " ",
-          "start_time": 12.039,
-          "end_time": 12.079
-        },
-        {
-          "text": "middleman.",
-          "start_time": 12.079,
-          "end_time": 12.479
-        }
-      ]
-    },
-    {
-      "text": "It absorbs the light and hands the energy along",
-      "start_time": 12.739,
-      "end_time": 14.819,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "It",
-          "start_time": 12.739,
-          "end_time": 12.799
-        },
-        {
-          "text": " ",
-          "start_time": 12.799,
-          "end_time": 12.879
-        },
-        {
-          "text": "absorbs",
-          "start_time": 12.88,
-          "end_time": 13.279
-        },
-        {
-          "text": " ",
-          "start_time": 13.279,
-          "end_time": 13.319
-        },
-        {
-          "text": "the",
-          "start_time": 13.319,
-          "end_time": 13.38
-        },
-        {
-          "text": " ",
-          "start_time": 13.38,
-          "end_time": 13.479
-        },
-        {
-          "text": "light",
-          "start_time": 13.479,
-          "end_time": 13.659
-        },
-        {
-          "text": " ",
-          "start_time": 13.659,
-          "end_time": 13.699
-        },
-        {
-          "text": "and",
-          "start_time": 13.699,
-          "end_time": 13.819
-        },
-        {
-          "text": " ",
-          "start_time": 13.819,
-          "end_time": 13.88
-        },
-        {
-          "text": "hands",
-          "start_time": 13.88,
-          "end_time": 14.119
-        },
-        {
-          "text": " ",
-          "start_time": 14.119,
-          "end_time": 14.159
-        },
-        {
-          "text": "the",
-          "start_time": 14.159,
-          "end_time": 14.219
-        },
-        {
-          "text": " ",
-          "start_time": 14.219,
-          "end_time": 14.279
-        },
-        {
-          "text": "energy",
-          "start_time": 14.279,
-          "end_time": 14.519
-        },
-        {
-          "text": " ",
-          "start_time": 14.519,
-          "end_time": 14.619
-        },
-        {
-          "text": "along",
-          "start_time": 14.619,
-          "end_time": 14.819
-        }
-      ]
-    },
-    {
-      "text": "until those hop compounds",
-      "start_time": 14.859,
-      "end_time": 15.979,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "until",
-          "start_time": 14.859,
-          "end_time": 15.059
-        },
-        {
-          "text": " ",
-          "start_time": 15.059,
-          "end_time": 15.099
-        },
-        {
-          "text": "those",
-          "start_time": 15.099,
-          "end_time": 15.279
-        },
-        {
-          "text": " ",
-          "start_time": 15.279,
-          "end_time": 15.339
-        },
-        {
-          "text": "hop",
-          "start_time": 15.339,
+          "start_time": 15.46,
           "end_time": 15.519
         },
         {
@@ -584,397 +441,546 @@
           "end_time": 15.579
         },
         {
-          "text": "compounds",
+          "text": "a",
           "start_time": 15.579,
-          "end_time": 15.979
+          "end_time": 15.619
+        },
+        {
+          "text": " ",
+          "start_time": 15.619,
+          "end_time": 15.659
+        },
+        {
+          "text": "middleman.",
+          "start_time": 15.659,
+          "end_time": 16.1
+        }
+      ]
+    },
+    {
+      "text": "It absorbs the light and hands the energy along",
+      "start_time": 16.879,
+      "end_time": 19.18,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "It",
+          "start_time": 16.879,
+          "end_time": 16.94
+        },
+        {
+          "text": " ",
+          "start_time": 16.94,
+          "end_time": 17.02
+        },
+        {
+          "text": "absorbs",
+          "start_time": 17.02,
+          "end_time": 17.459
+        },
+        {
+          "text": " ",
+          "start_time": 17.459,
+          "end_time": 17.519
+        },
+        {
+          "text": "the",
+          "start_time": 17.52,
+          "end_time": 17.579
+        },
+        {
+          "text": " ",
+          "start_time": 17.579,
+          "end_time": 17.699
+        },
+        {
+          "text": "light",
+          "start_time": 17.699,
+          "end_time": 17.899
+        },
+        {
+          "text": " ",
+          "start_time": 17.899,
+          "end_time": 17.94
+        },
+        {
+          "text": "and",
+          "start_time": 17.94,
+          "end_time": 18.04
+        },
+        {
+          "text": " ",
+          "start_time": 18.04,
+          "end_time": 18.139
+        },
+        {
+          "text": "hands",
+          "start_time": 18.139,
+          "end_time": 18.42
+        },
+        {
+          "text": " ",
+          "start_time": 18.42,
+          "end_time": 18.459
+        },
+        {
+          "text": "the",
+          "start_time": 18.459,
+          "end_time": 18.539
+        },
+        {
+          "text": " ",
+          "start_time": 18.539,
+          "end_time": 18.599
+        },
+        {
+          "text": "energy",
+          "start_time": 18.6,
+          "end_time": 18.859
+        },
+        {
+          "text": " ",
+          "start_time": 18.859,
+          "end_time": 18.959
+        },
+        {
+          "text": "along",
+          "start_time": 18.959,
+          "end_time": 19.18
+        }
+      ]
+    },
+    {
+      "text": "until those hop compounds",
+      "start_time": 19.239,
+      "end_time": 20.5,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "until",
+          "start_time": 19.239,
+          "end_time": 19.459
+        },
+        {
+          "text": " ",
+          "start_time": 19.459,
+          "end_time": 19.519
+        },
+        {
+          "text": "those",
+          "start_time": 19.52,
+          "end_time": 19.699
+        },
+        {
+          "text": " ",
+          "start_time": 19.699,
+          "end_time": 19.779
+        },
+        {
+          "text": "hop",
+          "start_time": 19.779,
+          "end_time": 19.979
+        },
+        {
+          "text": " ",
+          "start_time": 19.979,
+          "end_time": 20.039
+        },
+        {
+          "text": "compounds",
+          "start_time": 20.039,
+          "end_time": 20.5
         }
       ]
     },
     {
       "text": "shatter into something chemically close to",
-      "start_time": 16.359,
-      "end_time": 17.94,
+      "start_time": 20.92,
+      "end_time": 22.7,
       "speaker": "narrator",
       "words": [
         {
           "text": "shatter",
-          "start_time": 16.359,
-          "end_time": 16.579
+          "start_time": 20.92,
+          "end_time": 21.18
         },
         {
           "text": " ",
-          "start_time": 16.579,
-          "end_time": 16.619
+          "start_time": 21.18,
+          "end_time": 21.219
         },
         {
           "text": "into",
-          "start_time": 16.619,
-          "end_time": 16.839
+          "start_time": 21.219,
+          "end_time": 21.459
         },
         {
           "text": " ",
-          "start_time": 16.839,
-          "end_time": 16.899
+          "start_time": 21.459,
+          "end_time": 21.5
         },
         {
           "text": "something",
-          "start_time": 16.899,
-          "end_time": 17.18
+          "start_time": 21.5,
+          "end_time": 21.84
         },
         {
           "text": " ",
-          "start_time": 17.18,
-          "end_time": 17.219
+          "start_time": 21.84,
+          "end_time": 21.899
         },
         {
           "text": "chemically",
-          "start_time": 17.219,
-          "end_time": 17.599
+          "start_time": 21.899,
+          "end_time": 22.319
         },
         {
           "text": " ",
-          "start_time": 17.599,
-          "end_time": 17.659
+          "start_time": 22.319,
+          "end_time": 22.379
         },
         {
           "text": "close",
-          "start_time": 17.659,
-          "end_time": 17.859
+          "start_time": 22.379,
+          "end_time": 22.579
         },
         {
           "text": " ",
-          "start_time": 17.859,
-          "end_time": 17.879
+          "start_time": 22.579,
+          "end_time": 22.619
         },
         {
           "text": "to",
-          "start_time": 17.879,
-          "end_time": 17.94
+          "start_time": 22.619,
+          "end_time": 22.7
         }
       ]
     },
     {
       "text": "skunk spray.",
-      "start_time": 18.039,
-      "end_time": 18.639000000000003,
+      "start_time": 22.799,
+      "end_time": 23.42,
       "speaker": "narrator",
       "words": [
         {
           "text": "skunk",
-          "start_time": 18.039,
-          "end_time": 18.239
+          "start_time": 22.799,
+          "end_time": 23.019
         },
         {
           "text": " ",
-          "start_time": 18.239,
-          "end_time": 18.299
+          "start_time": 23.019,
+          "end_time": 23.079
         },
         {
           "text": "spray.",
-          "start_time": 18.299,
-          "end_time": 18.579
+          "start_time": 23.079,
+          "end_time": 23.42
         }
       ]
     },
     {
       "text": "That is not a figure of speech.",
-      "start_time": 18.859,
-      "end_time": 20.299,
+      "start_time": 24.319,
+      "end_time": 25.899,
       "speaker": "narrator",
       "words": [
         {
           "text": "That",
-          "start_time": 18.859,
-          "end_time": 18.939
+          "start_time": 24.319,
+          "end_time": 24.399
         },
         {
           "text": " ",
-          "start_time": 18.939,
-          "end_time": 18.999
+          "start_time": 24.399,
+          "end_time": 24.459
         },
         {
           "text": "is",
-          "start_time": 19,
-          "end_time": 19.119
+          "start_time": 24.459,
+          "end_time": 24.6
         },
         {
           "text": " ",
-          "start_time": 19.119,
-          "end_time": 19.179
+          "start_time": 24.6,
+          "end_time": 24.659
         },
         {
           "text": "not",
-          "start_time": 19.18,
-          "end_time": 19.34
+          "start_time": 24.659,
+          "end_time": 24.859
         },
         {
           "text": " ",
-          "start_time": 19.34,
-          "end_time": 19.399
+          "start_time": 24.859,
+          "end_time": 24.919
         },
         {
           "text": "a",
-          "start_time": 19.399,
-          "end_time": 19.479
+          "start_time": 24.92,
+          "end_time": 25
         },
         {
           "text": " ",
-          "start_time": 19.479,
-          "end_time": 19.539
+          "start_time": 25,
+          "end_time": 25.059
         },
         {
           "text": "figure",
-          "start_time": 19.539,
-          "end_time": 19.739
+          "start_time": 25.059,
+          "end_time": 25.299
         },
         {
           "text": " ",
-          "start_time": 19.739,
-          "end_time": 19.779
+          "start_time": 25.299,
+          "end_time": 25.34
         },
         {
           "text": "of",
-          "start_time": 19.779,
-          "end_time": 19.899
+          "start_time": 25.34,
+          "end_time": 25.459
         },
         {
           "text": " ",
-          "start_time": 19.899,
-          "end_time": 19.939
+          "start_time": 25.459,
+          "end_time": 25.5
         },
         {
           "text": "speech.",
-          "start_time": 19.939,
-          "end_time": 20.299
+          "start_time": 25.5,
+          "end_time": 25.899
         }
       ]
     },
     {
       "text": "Brown glass blocks nearly all of those wavelengths.",
-      "start_time": 20.6,
-      "end_time": 22.899,
+      "start_time": 26.699,
+      "end_time": 29.299,
       "speaker": "narrator",
       "words": [
         {
           "text": "Brown",
-          "start_time": 20.6,
-          "end_time": 20.799
+          "start_time": 26.699,
+          "end_time": 26.939
         },
         {
           "text": " ",
-          "start_time": 20.799,
-          "end_time": 20.899
+          "start_time": 26.939,
+          "end_time": 27.039
         },
         {
           "text": "glass",
-          "start_time": 20.899,
-          "end_time": 21.199
+          "start_time": 27.039,
+          "end_time": 27.34
         },
         {
           "text": " ",
-          "start_time": 21.199,
-          "end_time": 21.239
+          "start_time": 27.34,
+          "end_time": 27.439
         },
         {
           "text": "blocks",
-          "start_time": 21.239,
-          "end_time": 21.5
+          "start_time": 27.439,
+          "end_time": 27.719
         },
         {
           "text": " ",
-          "start_time": 21.5,
-          "end_time": 21.559
+          "start_time": 27.719,
+          "end_time": 27.799
         },
         {
           "text": "nearly",
-          "start_time": 21.559,
-          "end_time": 21.859
+          "start_time": 27.799,
+          "end_time": 28.119
         },
         {
           "text": " ",
-          "start_time": 21.859,
-          "end_time": 21.939
+          "start_time": 28.119,
+          "end_time": 28.219
         },
         {
           "text": "all",
-          "start_time": 21.939,
-          "end_time": 22.059
+          "start_time": 28.219,
+          "end_time": 28.339
         },
         {
           "text": " ",
-          "start_time": 22.059,
-          "end_time": 22.1
+          "start_time": 28.339,
+          "end_time": 28.379
         },
         {
           "text": "of",
-          "start_time": 22.1,
-          "end_time": 22.159
+          "start_time": 28.379,
+          "end_time": 28.439
         },
         {
           "text": " ",
-          "start_time": 22.159,
-          "end_time": 22.199
+          "start_time": 28.439,
+          "end_time": 28.499
         },
         {
           "text": "those",
-          "start_time": 22.199,
-          "end_time": 22.359
+          "start_time": 28.5,
+          "end_time": 28.659
         },
         {
           "text": " ",
-          "start_time": 22.359,
-          "end_time": 22.419
+          "start_time": 28.659,
+          "end_time": 28.76
         },
         {
           "text": "wavelengths.",
-          "start_time": 22.42,
-          "end_time": 22.899
+          "start_time": 28.76,
+          "end_time": 29.299
         }
       ]
     },
     {
-      "text": "Green blocks a fraction, which is why some",
-      "start_time": 23.239,
-      "end_time": 25.139,
+      "text": "Green blocks a fraction,",
+      "start_time": 30.079,
+      "end_time": 31.259,
       "speaker": "narrator",
       "words": [
         {
           "text": "Green",
-          "start_time": 23.239,
-          "end_time": 23.459
+          "start_time": 30.079,
+          "end_time": 30.34
         },
         {
           "text": " ",
-          "start_time": 23.459,
-          "end_time": 23.519
+          "start_time": 30.34,
+          "end_time": 30.42
         },
         {
           "text": "blocks",
-          "start_time": 23.519,
-          "end_time": 23.76
+          "start_time": 30.42,
+          "end_time": 30.679
         },
         {
           "text": " ",
-          "start_time": 23.76,
-          "end_time": 23.819
+          "start_time": 30.679,
+          "end_time": 30.739
         },
         {
           "text": "a",
-          "start_time": 23.819,
-          "end_time": 23.859
+          "start_time": 30.739,
+          "end_time": 30.779
         },
         {
           "text": " ",
-          "start_time": 23.859,
-          "end_time": 23.919
+          "start_time": 30.779,
+          "end_time": 30.839
         },
         {
           "text": "fraction,",
-          "start_time": 23.92,
-          "end_time": 24.279
-        },
-        {
-          "text": " ",
-          "start_time": 24.279,
-          "end_time": 24.5
-        },
-        {
-          "text": "which",
-          "start_time": 24.5,
-          "end_time": 24.62
-        },
-        {
-          "text": " ",
-          "start_time": 24.62,
-          "end_time": 24.639
-        },
-        {
-          "text": "is",
-          "start_time": 24.639,
-          "end_time": 24.719
-        },
-        {
-          "text": " ",
-          "start_time": 24.719,
-          "end_time": 24.779
-        },
-        {
-          "text": "why",
-          "start_time": 24.779,
-          "end_time": 24.959
-        },
-        {
-          "text": " ",
-          "start_time": 24.959,
-          "end_time": 25.039
-        },
-        {
-          "text": "some",
-          "start_time": 25.039,
-          "end_time": 25.139
+          "start_time": 30.84,
+          "end_time": 31.259
         }
       ]
     },
     {
-      "text": "imports taste faintly like a warning.",
-      "start_time": 25.199,
-      "end_time": 26.719,
+      "text": "which is why some imports taste faintly like",
+      "start_time": 31.699,
+      "end_time": 33.7,
       "speaker": "narrator",
       "words": [
         {
-          "text": "imports",
-          "start_time": 25.199,
-          "end_time": 25.539
+          "text": "which",
+          "start_time": 31.699,
+          "end_time": 31.819
         },
         {
           "text": " ",
-          "start_time": 25.539,
-          "end_time": 25.579
+          "start_time": 31.819,
+          "end_time": 31.84
+        },
+        {
+          "text": "is",
+          "start_time": 31.84,
+          "end_time": 31.92
+        },
+        {
+          "text": " ",
+          "start_time": 31.92,
+          "end_time": 32
+        },
+        {
+          "text": "why",
+          "start_time": 32,
+          "end_time": 32.119
+        },
+        {
+          "text": " ",
+          "start_time": 32.119,
+          "end_time": 32.279
+        },
+        {
+          "text": "some",
+          "start_time": 32.279,
+          "end_time": 32.419
+        },
+        {
+          "text": " ",
+          "start_time": 32.419,
+          "end_time": 32.479
+        },
+        {
+          "text": "imports",
+          "start_time": 32.479,
+          "end_time": 32.86
+        },
+        {
+          "text": " ",
+          "start_time": 32.86,
+          "end_time": 32.899
         },
         {
           "text": "taste",
-          "start_time": 25.579,
-          "end_time": 25.84
+          "start_time": 32.899,
+          "end_time": 33.199
         },
         {
           "text": " ",
-          "start_time": 25.84,
-          "end_time": 25.899
+          "start_time": 33.199,
+          "end_time": 33.259
         },
         {
           "text": "faintly",
-          "start_time": 25.899,
-          "end_time": 26.159
+          "start_time": 33.259,
+          "end_time": 33.559
         },
         {
           "text": " ",
-          "start_time": 26.159,
-          "end_time": 26.199
+          "start_time": 33.559,
+          "end_time": 33.599
         },
         {
           "text": "like",
-          "start_time": 26.199,
-          "end_time": 26.299
-        },
-        {
-          "text": " ",
-          "start_time": 26.299,
-          "end_time": 26.34
-        },
+          "start_time": 33.599,
+          "end_time": 33.7
+        }
+      ]
+    },
+    {
+      "text": "a warning.",
+      "start_time": 33.759,
+      "end_time": 34.359,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "a",
-          "start_time": 26.34,
-          "end_time": 26.359
+          "start_time": 33.759,
+          "end_time": 33.799
         },
         {
           "text": " ",
-          "start_time": 26.359,
-          "end_time": 26.439
+          "start_time": 33.799,
+          "end_time": 33.86
         },
         {
           "text": "warning.",
-          "start_time": 26.439,
-          "end_time": 26.719
+          "start_time": 33.86,
+          "end_time": 34.159
         }
       ]
     }

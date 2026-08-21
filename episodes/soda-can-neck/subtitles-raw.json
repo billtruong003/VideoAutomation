@@ -1,807 +1,654 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "The top of a soda can is visibly narrower",
       "start_time": 0.079,
-      "end_time": 2.099,
+      "end_time": 2.339,
       "speaker": "narrator",
       "words": [
         {
           "text": "The",
           "start_time": 0.079,
-          "end_time": 0.179
+          "end_time": 0.199
         },
         {
           "text": " ",
-          "start_time": 0.179,
-          "end_time": 0.219
+          "start_time": 0.199,
+          "end_time": 0.239
         },
         {
           "text": "top",
-          "start_time": 0.219,
-          "end_time": 0.359
-        },
-        {
-          "text": " ",
-          "start_time": 0.359,
+          "start_time": 0.239,
           "end_time": 0.399
         },
         {
-          "text": "of",
+          "text": " ",
           "start_time": 0.399,
-          "end_time": 0.459
+          "end_time": 0.439
+        },
+        {
+          "text": "of",
+          "start_time": 0.439,
+          "end_time": 0.5
         },
         {
           "text": " ",
-          "start_time": 0.459,
-          "end_time": 0.499
+          "start_time": 0.5,
+          "end_time": 0.539
         },
         {
           "text": "a",
-          "start_time": 0.5,
-          "end_time": 0.519
+          "start_time": 0.539,
+          "end_time": 0.579
         },
         {
           "text": " ",
-          "start_time": 0.519,
-          "end_time": 0.62
+          "start_time": 0.579,
+          "end_time": 0.699
         },
         {
           "text": "soda",
-          "start_time": 0.62,
-          "end_time": 0.839
-        },
-        {
-          "text": " ",
-          "start_time": 0.839,
+          "start_time": 0.699,
           "end_time": 0.899
         },
         {
-          "text": "can",
+          "text": " ",
           "start_time": 0.899,
-          "end_time": 1.12
+          "end_time": 0.979
+        },
+        {
+          "text": "can",
+          "start_time": 0.979,
+          "end_time": 1.24
         },
         {
           "text": " ",
-          "start_time": 1.12,
-          "end_time": 1.159
+          "start_time": 1.24,
+          "end_time": 1.299
         },
         {
           "text": "is",
-          "start_time": 1.159,
-          "end_time": 1.279
+          "start_time": 1.299,
+          "end_time": 1.399
         },
         {
           "text": " ",
-          "start_time": 1.279,
-          "end_time": 1.36
+          "start_time": 1.399,
+          "end_time": 1.519
         },
         {
           "text": "visibly",
-          "start_time": 1.36,
-          "end_time": 1.74
+          "start_time": 1.519,
+          "end_time": 1.939
         },
         {
           "text": " ",
-          "start_time": 1.74,
-          "end_time": 1.779
+          "start_time": 1.939,
+          "end_time": 1.979
         },
         {
           "text": "narrower",
-          "start_time": 1.779,
-          "end_time": 2.099
+          "start_time": 1.979,
+          "end_time": 2.339
         }
       ]
     },
     {
-      "text": "than the rest of it, tapering inward just before",
-      "start_time": 2.139,
-      "end_time": 4.299,
+      "text": "than the rest of it,",
+      "start_time": 2.399,
+      "end_time": 3.179,
       "speaker": "narrator",
       "words": [
         {
           "text": "than",
-          "start_time": 2.139,
-          "end_time": 2.24
+          "start_time": 2.399,
+          "end_time": 2.48
         },
         {
           "text": " ",
-          "start_time": 2.24,
-          "end_time": 2.279
+          "start_time": 2.48,
+          "end_time": 2.539
         },
         {
           "text": "the",
-          "start_time": 2.279,
-          "end_time": 2.319
+          "start_time": 2.539,
+          "end_time": 2.579
         },
         {
           "text": " ",
-          "start_time": 2.319,
-          "end_time": 2.399
+          "start_time": 2.579,
+          "end_time": 2.679
         },
         {
           "text": "rest",
-          "start_time": 2.399,
-          "end_time": 2.599
+          "start_time": 2.679,
+          "end_time": 2.899
         },
         {
           "text": " ",
-          "start_time": 2.599,
-          "end_time": 2.639
+          "start_time": 2.899,
+          "end_time": 2.939
         },
         {
           "text": "of",
-          "start_time": 2.639,
-          "end_time": 2.72
+          "start_time": 2.939,
+          "end_time": 3.019
         },
         {
           "text": " ",
-          "start_time": 2.72,
-          "end_time": 2.759
+          "start_time": 3.019,
+          "end_time": 3.059
         },
         {
           "text": "it,",
-          "start_time": 2.759,
-          "end_time": 2.819
-        },
-        {
-          "text": " ",
-          "start_time": 2.819,
-          "end_time": 3.079
-        },
-        {
-          "text": "tapering",
-          "start_time": 3.079,
-          "end_time": 3.419
-        },
-        {
-          "text": " ",
-          "start_time": 3.419,
-          "end_time": 3.459
-        },
-        {
-          "text": "inward",
-          "start_time": 3.46,
-          "end_time": 3.759
-        },
-        {
-          "text": " ",
-          "start_time": 3.759,
-          "end_time": 3.879
-        },
-        {
-          "text": "just",
-          "start_time": 3.879,
-          "end_time": 4.019
-        },
-        {
-          "text": " ",
-          "start_time": 4.019,
-          "end_time": 4.059
-        },
-        {
-          "text": "before",
-          "start_time": 4.059,
-          "end_time": 4.299
+          "start_time": 3.059,
+          "end_time": 3.179
         }
       ]
     },
     {
-      "text": "the lid.",
-      "start_time": 4.339,
-      "end_time": 4.939,
+      "text": "tapering inward just before the lid.",
+      "start_time": 3.759,
+      "end_time": 5.559,
       "speaker": "narrator",
       "words": [
         {
-          "text": "the",
-          "start_time": 4.339,
-          "end_time": 4.42
+          "text": "tapering",
+          "start_time": 3.759,
+          "end_time": 4.139
         },
         {
           "text": " ",
-          "start_time": 4.42,
-          "end_time": 4.48
+          "start_time": 4.139,
+          "end_time": 4.179
+        },
+        {
+          "text": "inward",
+          "start_time": 4.179,
+          "end_time": 4.519
+        },
+        {
+          "text": " ",
+          "start_time": 4.519,
+          "end_time": 4.659
+        },
+        {
+          "text": "just",
+          "start_time": 4.659,
+          "end_time": 4.819
+        },
+        {
+          "text": " ",
+          "start_time": 4.819,
+          "end_time": 4.859
+        },
+        {
+          "text": "before",
+          "start_time": 4.859,
+          "end_time": 5.139
+        },
+        {
+          "text": " ",
+          "start_time": 5.139,
+          "end_time": 5.159
+        },
+        {
+          "text": "the",
+          "start_time": 5.159,
+          "end_time": 5.219
+        },
+        {
+          "text": " ",
+          "start_time": 5.219,
+          "end_time": 5.319
         },
         {
           "text": "lid.",
-          "start_time": 4.48,
-          "end_time": 4.679
+          "start_time": 5.319,
+          "end_time": 5.559
         }
       ]
     },
     {
       "text": "That taper is not shaped for your mouth.",
-      "start_time": 4.98,
-      "end_time": 6.519,
+      "start_time": 6.379,
+      "end_time": 8.099,
       "speaker": "narrator",
       "words": [
         {
           "text": "That",
-          "start_time": 4.98,
-          "end_time": 5.119
+          "start_time": 6.379,
+          "end_time": 6.519
         },
         {
           "text": " ",
-          "start_time": 5.119,
-          "end_time": 5.159
+          "start_time": 6.519,
+          "end_time": 6.579
         },
         {
           "text": "taper",
-          "start_time": 5.159,
-          "end_time": 5.379
+          "start_time": 6.579,
+          "end_time": 6.819
         },
         {
           "text": " ",
-          "start_time": 5.379,
-          "end_time": 5.419
-        },
-        {
-          "text": "is",
-          "start_time": 5.42,
-          "end_time": 5.519
-        },
-        {
-          "text": " ",
-          "start_time": 5.519,
-          "end_time": 5.579
-        },
-        {
-          "text": "not",
-          "start_time": 5.579,
-          "end_time": 5.759
-        },
-        {
-          "text": " ",
-          "start_time": 5.759,
-          "end_time": 5.779
-        },
-        {
-          "text": "shaped",
-          "start_time": 5.779,
-          "end_time": 5.96
-        },
-        {
-          "text": " ",
-          "start_time": 5.96,
-          "end_time": 6.019
-        },
-        {
-          "text": "for",
-          "start_time": 6.019,
-          "end_time": 6.079
-        },
-        {
-          "text": " ",
-          "start_time": 6.079,
-          "end_time": 6.119
-        },
-        {
-          "text": "your",
-          "start_time": 6.119,
-          "end_time": 6.199
-        },
-        {
-          "text": " ",
-          "start_time": 6.199,
-          "end_time": 6.239
-        },
-        {
-          "text": "mouth.",
-          "start_time": 6.239,
-          "end_time": 6.519
-        }
-      ]
-    },
-    {
-      "text": "The lid has to be much thicker than the",
-      "start_time": 6.779,
-      "end_time": 8.22,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "The",
-          "start_time": 6.779,
-          "end_time": 6.839
-        },
-        {
-          "text": " ",
-          "start_time": 6.839,
+          "start_time": 6.819,
           "end_time": 6.879
         },
         {
-          "text": "lid",
+          "text": "is",
           "start_time": 6.879,
           "end_time": 7
         },
         {
           "text": " ",
           "start_time": 7,
-          "end_time": 7.079
+          "end_time": 7.039
         },
         {
-          "text": "has",
-          "start_time": 7.079,
-          "end_time": 7.219
-        },
-        {
-          "text": " ",
-          "start_time": 7.219,
-          "end_time": 7.220000000000001
-        },
-        {
-          "text": "to",
-          "start_time": 7.220000000000001,
-          "end_time": 7.299
+          "text": "not",
+          "start_time": 7.039,
+          "end_time": 7.239
         },
         {
           "text": " ",
-          "start_time": 7.299,
-          "end_time": 7.319
+          "start_time": 7.239,
+          "end_time": 7.279
         },
         {
-          "text": "be",
-          "start_time": 7.319,
-          "end_time": 7.439
-        },
-        {
-          "text": " ",
-          "start_time": 7.439,
+          "text": "shaped",
+          "start_time": 7.279,
           "end_time": 7.5
         },
         {
-          "text": "much",
+          "text": " ",
           "start_time": 7.5,
-          "end_time": 7.659
+          "end_time": 7.539
+        },
+        {
+          "text": "for",
+          "start_time": 7.539,
+          "end_time": 7.599
         },
         {
           "text": " ",
+          "start_time": 7.599,
+          "end_time": 7.659
+        },
+        {
+          "text": "your",
           "start_time": 7.659,
           "end_time": 7.759
         },
         {
-          "text": "thicker",
+          "text": " ",
           "start_time": 7.759,
-          "end_time": 7.96
+          "end_time": 7.799
         },
         {
-          "text": " ",
-          "start_time": 7.96,
-          "end_time": 8.019
-        },
-        {
-          "text": "than",
-          "start_time": 8.019,
-          "end_time": 8.119
-        },
-        {
-          "text": " ",
-          "start_time": 8.119,
-          "end_time": 8.139
-        },
-        {
-          "text": "the",
-          "start_time": 8.139,
-          "end_time": 8.22
+          "text": "mouth.",
+          "start_time": 7.799,
+          "end_time": 8.099
         }
       ]
     },
     {
-      "text": "walls, because it holds the pressure and carries",
-      "start_time": 8.279,
-      "end_time": 10.34,
+      "text": "The lid has to be much thicker than the",
+      "start_time": 8.96,
+      "end_time": 10.539,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 8.96,
+          "end_time": 9.019
+        },
+        {
+          "text": " ",
+          "start_time": 9.019,
+          "end_time": 9.079
+        },
+        {
+          "text": "lid",
+          "start_time": 9.079,
+          "end_time": 9.199
+        },
+        {
+          "text": " ",
+          "start_time": 9.199,
+          "end_time": 9.279
+        },
+        {
+          "text": "has",
+          "start_time": 9.279,
+          "end_time": 9.399
+        },
+        {
+          "text": " ",
+          "start_time": 9.399,
+          "end_time": 9.439
+        },
+        {
+          "text": "to",
+          "start_time": 9.439,
+          "end_time": 9.5
+        },
+        {
+          "text": " ",
+          "start_time": 9.5,
+          "end_time": 9.559
+        },
+        {
+          "text": "be",
+          "start_time": 9.559,
+          "end_time": 9.679
+        },
+        {
+          "text": " ",
+          "start_time": 9.679,
+          "end_time": 9.739
+        },
+        {
+          "text": "much",
+          "start_time": 9.739,
+          "end_time": 9.92
+        },
+        {
+          "text": " ",
+          "start_time": 9.92,
+          "end_time": 10.039
+        },
+        {
+          "text": "thicker",
+          "start_time": 10.039,
+          "end_time": 10.279
+        },
+        {
+          "text": " ",
+          "start_time": 10.279,
+          "end_time": 10.34
+        },
+        {
+          "text": "than",
+          "start_time": 10.34,
+          "end_time": 10.42
+        },
+        {
+          "text": " ",
+          "start_time": 10.42,
+          "end_time": 10.479
+        },
+        {
+          "text": "the",
+          "start_time": 10.479,
+          "end_time": 10.539
+        }
+      ]
+    },
+    {
+      "text": "walls,",
+      "start_time": 10.619,
+      "end_time": 11.219,
       "speaker": "narrator",
       "words": [
         {
           "text": "walls,",
-          "start_time": 8.279,
-          "end_time": 8.599
-        },
-        {
-          "text": " ",
-          "start_time": 8.599,
-          "end_time": 8.819
-        },
-        {
-          "text": "because",
-          "start_time": 8.819,
-          "end_time": 9.039
-        },
-        {
-          "text": " ",
-          "start_time": 9.039,
-          "end_time": 9.059
-        },
-        {
-          "text": "it",
-          "start_time": 9.059,
-          "end_time": 9.159
-        },
-        {
-          "text": " ",
-          "start_time": 9.159,
-          "end_time": 9.199
-        },
-        {
-          "text": "holds",
-          "start_time": 9.199,
-          "end_time": 9.42
-        },
-        {
-          "text": " ",
-          "start_time": 9.42,
-          "end_time": 9.439
-        },
-        {
-          "text": "the",
-          "start_time": 9.439,
-          "end_time": 9.519
-        },
-        {
-          "text": " ",
-          "start_time": 9.519,
-          "end_time": 9.579
-        },
-        {
-          "text": "pressure",
-          "start_time": 9.579,
-          "end_time": 9.88
-        },
-        {
-          "text": " ",
-          "start_time": 9.88,
-          "end_time": 9.939
-        },
-        {
-          "text": "and",
-          "start_time": 9.939,
-          "end_time": 10.039
-        },
-        {
-          "text": " ",
-          "start_time": 10.039,
-          "end_time": 10.099
-        },
-        {
-          "text": "carries",
-          "start_time": 10.099,
-          "end_time": 10.34
+          "start_time": 10.619,
+          "end_time": 10.979
         }
       ]
     },
     {
-      "text": "a tab you can tear open with one finger.",
-      "start_time": 10.38,
-      "end_time": 12.219,
+      "text": "because it holds the pressure and carries a",
+      "start_time": 11.46,
+      "end_time": 13.279,
       "speaker": "narrator",
       "words": [
         {
-          "text": "a",
-          "start_time": 10.38,
-          "end_time": 10.439
-        },
-        {
-          "text": " ",
-          "start_time": 10.439,
-          "end_time": 10.5
-        },
-        {
-          "text": "tab",
-          "start_time": 10.5,
-          "end_time": 10.739
-        },
-        {
-          "text": " ",
-          "start_time": 10.739,
-          "end_time": 10.8
-        },
-        {
-          "text": "you",
-          "start_time": 10.8,
-          "end_time": 10.859
-        },
-        {
-          "text": " ",
-          "start_time": 10.859,
-          "end_time": 10.88
-        },
-        {
-          "text": "can",
-          "start_time": 10.88,
-          "end_time": 11.02
-        },
-        {
-          "text": " ",
-          "start_time": 11.02,
-          "end_time": 11.039
-        },
-        {
-          "text": "tear",
-          "start_time": 11.039,
-          "end_time": 11.219
-        },
-        {
-          "text": " ",
-          "start_time": 11.219,
-          "end_time": 11.299
-        },
-        {
-          "text": "open",
-          "start_time": 11.3,
-          "end_time": 11.46
-        },
-        {
-          "text": " ",
+          "text": "because",
           "start_time": 11.46,
-          "end_time": 11.5
-        },
-        {
-          "text": "with",
-          "start_time": 11.5,
-          "end_time": 11.639
-        },
-        {
-          "text": " ",
-          "start_time": 11.639,
           "end_time": 11.699
         },
         {
-          "text": "one",
+          "text": " ",
           "start_time": 11.699,
-          "end_time": 11.8
+          "end_time": 11.739
+        },
+        {
+          "text": "it",
+          "start_time": 11.739,
+          "end_time": 11.84
         },
         {
           "text": " ",
-          "start_time": 11.8,
-          "end_time": 11.92
+          "start_time": 11.84,
+          "end_time": 11.899
+        },
+        {
+          "text": "holds",
+          "start_time": 11.899,
+          "end_time": 12.14
+        },
+        {
+          "text": " ",
+          "start_time": 12.14,
+          "end_time": 12.159
+        },
+        {
+          "text": "the",
+          "start_time": 12.159,
+          "end_time": 12.259
+        },
+        {
+          "text": " ",
+          "start_time": 12.259,
+          "end_time": 12.319
+        },
+        {
+          "text": "pressure",
+          "start_time": 12.319,
+          "end_time": 12.659
+        },
+        {
+          "text": " ",
+          "start_time": 12.659,
+          "end_time": 12.719
+        },
+        {
+          "text": "and",
+          "start_time": 12.719,
+          "end_time": 12.84
+        },
+        {
+          "text": " ",
+          "start_time": 12.84,
+          "end_time": 12.899
+        },
+        {
+          "text": "carries",
+          "start_time": 12.899,
+          "end_time": 13.18
+        },
+        {
+          "text": " ",
+          "start_time": 13.18,
+          "end_time": 13.219
+        },
+        {
+          "text": "a",
+          "start_time": 13.219,
+          "end_time": 13.279
+        }
+      ]
+    },
+    {
+      "text": "tab you can tear open with one finger.",
+      "start_time": 13.359,
+      "end_time": 15.279,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "tab",
+          "start_time": 13.359,
+          "end_time": 13.619
+        },
+        {
+          "text": " ",
+          "start_time": 13.619,
+          "end_time": 13.679
+        },
+        {
+          "text": "you",
+          "start_time": 13.679,
+          "end_time": 13.739
+        },
+        {
+          "text": " ",
+          "start_time": 13.739,
+          "end_time": 13.779
+        },
+        {
+          "text": "can",
+          "start_time": 13.779,
+          "end_time": 13.899
+        },
+        {
+          "text": " ",
+          "start_time": 13.899,
+          "end_time": 13.96
+        },
+        {
+          "text": "tear",
+          "start_time": 13.96,
+          "end_time": 14.159
+        },
+        {
+          "text": " ",
+          "start_time": 14.159,
+          "end_time": 14.239
+        },
+        {
+          "text": "open",
+          "start_time": 14.239,
+          "end_time": 14.42
+        },
+        {
+          "text": " ",
+          "start_time": 14.42,
+          "end_time": 14.479
+        },
+        {
+          "text": "with",
+          "start_time": 14.479,
+          "end_time": 14.619
+        },
+        {
+          "text": " ",
+          "start_time": 14.619,
+          "end_time": 14.699
+        },
+        {
+          "text": "one",
+          "start_time": 14.699,
+          "end_time": 14.819
+        },
+        {
+          "text": " ",
+          "start_time": 14.819,
+          "end_time": 14.96
         },
         {
           "text": "finger.",
-          "start_time": 11.92,
-          "end_time": 12.219
+          "start_time": 14.96,
+          "end_time": 15.279
         }
       ]
     },
     {
       "text": "Thick metal is expensive metal,",
-      "start_time": 12.539,
-      "end_time": 13.96,
+      "start_time": 16.18,
+      "end_time": 17.779,
       "speaker": "narrator",
       "words": [
         {
           "text": "Thick",
-          "start_time": 12.539,
-          "end_time": 12.719
+          "start_time": 16.18,
+          "end_time": 16.359
         },
         {
           "text": " ",
-          "start_time": 12.719,
-          "end_time": 12.799
+          "start_time": 16.359,
+          "end_time": 16.479
         },
         {
           "text": "metal",
-          "start_time": 12.799,
-          "end_time": 13.019
+          "start_time": 16.479,
+          "end_time": 16.699
         },
         {
           "text": " ",
-          "start_time": 13.019,
-          "end_time": 13.059
+          "start_time": 16.699,
+          "end_time": 16.759
         },
         {
           "text": "is",
-          "start_time": 13.059,
-          "end_time": 13.14
+          "start_time": 16.76,
+          "end_time": 16.84
         },
         {
           "text": " ",
-          "start_time": 13.14,
-          "end_time": 13.219
+          "start_time": 16.84,
+          "end_time": 16.94
         },
         {
           "text": "expensive",
-          "start_time": 13.219,
-          "end_time": 13.679
+          "start_time": 16.94,
+          "end_time": 17.479
         },
         {
           "text": " ",
-          "start_time": 13.679,
-          "end_time": 13.739
+          "start_time": 17.479,
+          "end_time": 17.52
         },
         {
           "text": "metal,",
-          "start_time": 13.739,
-          "end_time": 13.96
+          "start_time": 17.52,
+          "end_time": 17.779
         }
       ]
     },
     {
       "text": "so shrinking the lid saves far more aluminum",
-      "start_time": 14.239,
-      "end_time": 16.18,
+      "start_time": 18.26,
+      "end_time": 20.42,
       "speaker": "narrator",
       "words": [
         {
           "text": "so",
-          "start_time": 14.239,
-          "end_time": 14.319
+          "start_time": 18.26,
+          "end_time": 18.359
         },
         {
           "text": " ",
-          "start_time": 14.319,
-          "end_time": 14.439
+          "start_time": 18.359,
+          "end_time": 18.459
         },
         {
           "text": "shrinking",
-          "start_time": 14.439,
-          "end_time": 14.719
-        },
-        {
-          "text": " ",
-          "start_time": 14.719,
-          "end_time": 14.759
-        },
-        {
-          "text": "the",
-          "start_time": 14.759,
-          "end_time": 14.839
-        },
-        {
-          "text": " ",
-          "start_time": 14.839,
-          "end_time": 14.879
-        },
-        {
-          "text": "lid",
-          "start_time": 14.88,
-          "end_time": 15.079
-        },
-        {
-          "text": " ",
-          "start_time": 15.079,
-          "end_time": 15.139
-        },
-        {
-          "text": "saves",
-          "start_time": 15.139,
-          "end_time": 15.339
-        },
-        {
-          "text": " ",
-          "start_time": 15.339,
-          "end_time": 15.459
-        },
-        {
-          "text": "far",
-          "start_time": 15.46,
-          "end_time": 15.559
-        },
-        {
-          "text": " ",
-          "start_time": 15.559,
-          "end_time": 15.639
-        },
-        {
-          "text": "more",
-          "start_time": 15.639,
-          "end_time": 15.739
-        },
-        {
-          "text": " ",
-          "start_time": 15.739,
-          "end_time": 15.839
-        },
-        {
-          "text": "aluminum",
-          "start_time": 15.839,
-          "end_time": 16.18
-        }
-      ]
-    },
-    {
-      "text": "than shaving the sides ever could.",
-      "start_time": 16.199,
-      "end_time": 17.539,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "than",
-          "start_time": 16.199,
-          "end_time": 16.379
-        },
-        {
-          "text": " ",
-          "start_time": 16.379,
-          "end_time": 16.42
-        },
-        {
-          "text": "shaving",
-          "start_time": 16.42,
-          "end_time": 16.68
-        },
-        {
-          "text": " ",
-          "start_time": 16.68,
-          "end_time": 16.699
-        },
-        {
-          "text": "the",
-          "start_time": 16.699,
-          "end_time": 16.799
-        },
-        {
-          "text": " ",
-          "start_time": 16.799,
-          "end_time": 16.859
-        },
-        {
-          "text": "sides",
-          "start_time": 16.859,
-          "end_time": 17.059
-        },
-        {
-          "text": " ",
-          "start_time": 17.059,
-          "end_time": 17.1
-        },
-        {
-          "text": "ever",
-          "start_time": 17.1,
-          "end_time": 17.259
-        },
-        {
-          "text": " ",
-          "start_time": 17.259,
-          "end_time": 17.299
-        },
-        {
-          "text": "could.",
-          "start_time": 17.299,
-          "end_time": 17.539
-        }
-      ]
-    },
-    {
-      "text": "Six millimeters have come off it since the",
-      "start_time": 17.94,
-      "end_time": 19.639,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "Six",
-          "start_time": 17.94,
-          "end_time": 18.04
-        },
-        {
-          "text": " ",
-          "start_time": 18.04,
-          "end_time": 18.18
-        },
-        {
-          "text": "millimeters",
-          "start_time": 18.18,
-          "end_time": 18.6
-        },
-        {
-          "text": " ",
-          "start_time": 18.6,
-          "end_time": 18.639
-        },
-        {
-          "text": "have",
-          "start_time": 18.639,
-          "end_time": 18.739
-        },
-        {
-          "text": " ",
-          "start_time": 18.739,
+          "start_time": 18.459,
           "end_time": 18.779
         },
         {
-          "text": "come",
+          "text": " ",
           "start_time": 18.779,
+          "end_time": 18.839
+        },
+        {
+          "text": "the",
+          "start_time": 18.84,
           "end_time": 18.899
         },
         {
@@ -810,145 +657,304 @@
           "end_time": 18.979
         },
         {
-          "text": "off",
+          "text": "lid",
           "start_time": 18.979,
-          "end_time": 19.119
+          "end_time": 19.18
         },
         {
           "text": " ",
-          "start_time": 19.119,
-          "end_time": 19.179
-        },
-        {
-          "text": "it",
           "start_time": 19.18,
-          "end_time": 19.279
+          "end_time": 19.239
+        },
+        {
+          "text": "saves",
+          "start_time": 19.239,
+          "end_time": 19.479
         },
         {
           "text": " ",
-          "start_time": 19.279,
-          "end_time": 19.379
+          "start_time": 19.479,
+          "end_time": 19.6
         },
         {
-          "text": "since",
-          "start_time": 19.379,
-          "end_time": 19.52
+          "text": "far",
+          "start_time": 19.6,
+          "end_time": 19.76
         },
         {
           "text": " ",
-          "start_time": 19.52,
-          "end_time": 19.559
+          "start_time": 19.76,
+          "end_time": 19.819
         },
         {
-          "text": "the",
-          "start_time": 19.559,
-          "end_time": 19.639
+          "text": "more",
+          "start_time": 19.819,
+          "end_time": 19.92
+        },
+        {
+          "text": " ",
+          "start_time": 19.92,
+          "end_time": 20.039
+        },
+        {
+          "text": "aluminum",
+          "start_time": 20.039,
+          "end_time": 20.42
         }
       ]
     },
     {
-      "text": "sixties, saving close to two hundred million",
-      "start_time": 19.699,
-      "end_time": 21.739,
+      "text": "than shaving the sides ever could.",
+      "start_time": 20.459,
+      "end_time": 21.939,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "than",
+          "start_time": 20.459,
+          "end_time": 20.639
+        },
+        {
+          "text": " ",
+          "start_time": 20.639,
+          "end_time": 20.699
+        },
+        {
+          "text": "shaving",
+          "start_time": 20.699,
+          "end_time": 20.959
+        },
+        {
+          "text": " ",
+          "start_time": 20.959,
+          "end_time": 21
+        },
+        {
+          "text": "the",
+          "start_time": 21,
+          "end_time": 21.119
+        },
+        {
+          "text": " ",
+          "start_time": 21.119,
+          "end_time": 21.179
+        },
+        {
+          "text": "sides",
+          "start_time": 21.18,
+          "end_time": 21.399
+        },
+        {
+          "text": " ",
+          "start_time": 21.399,
+          "end_time": 21.459
+        },
+        {
+          "text": "ever",
+          "start_time": 21.459,
+          "end_time": 21.639
+        },
+        {
+          "text": " ",
+          "start_time": 21.639,
+          "end_time": 21.68
+        },
+        {
+          "text": "could.",
+          "start_time": 21.68,
+          "end_time": 21.939
+        }
+      ]
+    },
+    {
+      "text": "Six millimeters have come off it since the",
+      "start_time": 22.84,
+      "end_time": 24.759,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Six",
+          "start_time": 22.84,
+          "end_time": 23
+        },
+        {
+          "text": " ",
+          "start_time": 23,
+          "end_time": 23.119
+        },
+        {
+          "text": "millimeters",
+          "start_time": 23.119,
+          "end_time": 23.579
+        },
+        {
+          "text": " ",
+          "start_time": 23.579,
+          "end_time": 23.639
+        },
+        {
+          "text": "have",
+          "start_time": 23.639,
+          "end_time": 23.76
+        },
+        {
+          "text": " ",
+          "start_time": 23.76,
+          "end_time": 23.799
+        },
+        {
+          "text": "come",
+          "start_time": 23.799,
+          "end_time": 23.939
+        },
+        {
+          "text": " ",
+          "start_time": 23.939,
+          "end_time": 24.039
+        },
+        {
+          "text": "off",
+          "start_time": 24.039,
+          "end_time": 24.18
+        },
+        {
+          "text": " ",
+          "start_time": 24.18,
+          "end_time": 24.239
+        },
+        {
+          "text": "it",
+          "start_time": 24.239,
+          "end_time": 24.359
+        },
+        {
+          "text": " ",
+          "start_time": 24.359,
+          "end_time": 24.459
+        },
+        {
+          "text": "since",
+          "start_time": 24.459,
+          "end_time": 24.619
+        },
+        {
+          "text": " ",
+          "start_time": 24.619,
+          "end_time": 24.679
+        },
+        {
+          "text": "the",
+          "start_time": 24.68,
+          "end_time": 24.759
+        }
+      ]
+    },
+    {
+      "text": "sixties,",
+      "start_time": 24.84,
+      "end_time": 25.44,
       "speaker": "narrator",
       "words": [
         {
           "text": "sixties,",
-          "start_time": 19.699,
-          "end_time": 20.1
-        },
-        {
-          "text": " ",
-          "start_time": 20.1,
-          "end_time": 20.339
-        },
-        {
-          "text": "saving",
-          "start_time": 20.34,
-          "end_time": 20.579
-        },
-        {
-          "text": " ",
-          "start_time": 20.579,
-          "end_time": 20.639
-        },
-        {
-          "text": "close",
-          "start_time": 20.639,
-          "end_time": 20.819
-        },
-        {
-          "text": " ",
-          "start_time": 20.819,
-          "end_time": 20.84
-        },
-        {
-          "text": "to",
-          "start_time": 20.84,
-          "end_time": 20.979
-        },
-        {
-          "text": " ",
-          "start_time": 20.979,
-          "end_time": 21.039
-        },
-        {
-          "text": "two",
-          "start_time": 21.039,
-          "end_time": 21.219
-        },
-        {
-          "text": " ",
-          "start_time": 21.219,
-          "end_time": 21.26
-        },
-        {
-          "text": "hundred",
-          "start_time": 21.26,
-          "end_time": 21.42
-        },
-        {
-          "text": " ",
-          "start_time": 21.42,
-          "end_time": 21.52
-        },
-        {
-          "text": "million",
-          "start_time": 21.52,
-          "end_time": 21.739
+          "start_time": 24.84,
+          "end_time": 25.26
         }
       ]
     },
     {
-      "text": "pounds a year.",
-      "start_time": 21.799,
-      "end_time": 22.399,
+      "text": "saving close to two hundred million pounds",
+      "start_time": 25.68,
+      "end_time": 27.539,
       "speaker": "narrator",
       "words": [
         {
-          "text": "pounds",
-          "start_time": 21.799,
-          "end_time": 22
+          "text": "saving",
+          "start_time": 25.68,
+          "end_time": 25.959
         },
         {
           "text": " ",
-          "start_time": 22,
-          "end_time": 22.059
+          "start_time": 25.959,
+          "end_time": 26.019
         },
+        {
+          "text": "close",
+          "start_time": 26.019,
+          "end_time": 26.199
+        },
+        {
+          "text": " ",
+          "start_time": 26.199,
+          "end_time": 26.239
+        },
+        {
+          "text": "to",
+          "start_time": 26.239,
+          "end_time": 26.399
+        },
+        {
+          "text": " ",
+          "start_time": 26.399,
+          "end_time": 26.479
+        },
+        {
+          "text": "two",
+          "start_time": 26.479,
+          "end_time": 26.659
+        },
+        {
+          "text": " ",
+          "start_time": 26.659,
+          "end_time": 26.699
+        },
+        {
+          "text": "hundred",
+          "start_time": 26.699,
+          "end_time": 26.879
+        },
+        {
+          "text": " ",
+          "start_time": 26.879,
+          "end_time": 27
+        },
+        {
+          "text": "million",
+          "start_time": 27,
+          "end_time": 27.26
+        },
+        {
+          "text": " ",
+          "start_time": 27.26,
+          "end_time": 27.319
+        },
+        {
+          "text": "pounds",
+          "start_time": 27.319,
+          "end_time": 27.539
+        }
+      ]
+    },
+    {
+      "text": "a year.",
+      "start_time": 27.599,
+      "end_time": 28.199,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "a",
-          "start_time": 22.059,
-          "end_time": 22.119
+          "start_time": 27.599,
+          "end_time": 27.659
         },
         {
           "text": " ",
-          "start_time": 22.119,
-          "end_time": 22.159
+          "start_time": 27.659,
+          "end_time": 27.699
         },
         {
           "text": "year.",
-          "start_time": 22.159,
-          "end_time": 22.359
+          "start_time": 27.699,
+          "end_time": 27.939
         }
       ]
     }

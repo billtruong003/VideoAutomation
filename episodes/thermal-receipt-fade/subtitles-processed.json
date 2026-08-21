@@ -1,0 +1,622 @@
+{
+  "note": "Timings correspond to public/audio/thermal-receipt-fade.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/thermal-receipt-fade/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/thermal-receipt-fade.timemap.json",
+  "audio": "public/audio/thermal-receipt-fade.wav",
+  "duration": 24.52,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "A receipt left in a wallet slowly goes blank,",
+      "start": 0.053,
+      "end": 1.983
+    },
+    {
+      "text": "because there was never any ink on it.",
+      "start": 2.196,
+      "end": 3.518
+    },
+    {
+      "text": "Receipt paper is coated with a colorless dye",
+      "start": 3.803,
+      "end": 5.803
+    },
+    {
+      "text": "and a chemical developer sitting right next",
+      "start": 6.028,
+      "end": 7.654
+    },
+    {
+      "text": "to each other, doing nothing.",
+      "start": 7.689,
+      "end": 8.941
+    },
+    {
+      "text": "The printer has no ink and no ribbon.",
+      "start": 9.182,
+      "end": 10.86
+    },
+    {
+      "text": "It has a row of tiny heaters.",
+      "start": 11.12,
+      "end": 12.425
+    },
+    {
+      "text": "Wherever it touches, the coating melts,",
+      "start": 12.719,
+      "end": 14.576
+    },
+    {
+      "text": "the two chemicals meet,",
+      "start": 14.776,
+      "end": 15.705
+    },
+    {
+      "text": "and that spot turns black.",
+      "start": 15.92,
+      "end": 17.063
+    },
+    {
+      "text": "The catch is the reaction never locks.",
+      "start": 17.323,
+      "end": 19.325
+    },
+    {
+      "text": "Heat off a dashboard or friction in a back",
+      "start": 19.598,
+      "end": 21.956
+    },
+    {
+      "text": "pocket keeps driving it until the text vanishes.",
+      "start": 22.009,
+      "end": 24.283
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "A",
+      "start": 0.053,
+      "end": 0.125
+    },
+    {
+      "i": 1,
+      "text": "receipt",
+      "start": 0.16,
+      "end": 0.5
+    },
+    {
+      "i": 2,
+      "text": "left",
+      "start": 0.571,
+      "end": 0.732
+    },
+    {
+      "i": 3,
+      "text": "in",
+      "start": 0.767,
+      "end": 0.821
+    },
+    {
+      "i": 4,
+      "text": "a",
+      "start": 0.857,
+      "end": 0.928
+    },
+    {
+      "i": 5,
+      "text": "wallet",
+      "start": 0.964,
+      "end": 1.25
+    },
+    {
+      "i": 6,
+      "text": "slowly",
+      "start": 1.303,
+      "end": 1.535
+    },
+    {
+      "i": 7,
+      "text": "goes",
+      "start": 1.571,
+      "end": 1.696
+    },
+    {
+      "i": 8,
+      "text": "blank,",
+      "start": 1.768,
+      "end": 1.983
+    },
+    {
+      "i": 9,
+      "text": "because",
+      "start": 2.196,
+      "end": 2.429
+    },
+    {
+      "i": 10,
+      "text": "there",
+      "start": 2.464,
+      "end": 2.553
+    },
+    {
+      "i": 11,
+      "text": "was",
+      "start": 2.589,
+      "end": 2.678
+    },
+    {
+      "i": 12,
+      "text": "never",
+      "start": 2.732,
+      "end": 2.875
+    },
+    {
+      "i": 13,
+      "text": "any",
+      "start": 2.928,
+      "end": 3.071
+    },
+    {
+      "i": 14,
+      "text": "ink",
+      "start": 3.125,
+      "end": 3.25
+    },
+    {
+      "i": 15,
+      "text": "on",
+      "start": 3.303,
+      "end": 3.375
+    },
+    {
+      "i": 16,
+      "text": "it.",
+      "start": 3.411,
+      "end": 3.518
+    },
+    {
+      "i": 17,
+      "text": "Receipt",
+      "start": 3.803,
+      "end": 4.072
+    },
+    {
+      "i": 18,
+      "text": "paper",
+      "start": 4.143,
+      "end": 4.392
+    },
+    {
+      "i": 19,
+      "text": "is",
+      "start": 4.428,
+      "end": 4.554
+    },
+    {
+      "i": 20,
+      "text": "coated",
+      "start": 4.607,
+      "end": 4.803
+    },
+    {
+      "i": 21,
+      "text": "with",
+      "start": 4.839,
+      "end": 4.91
+    },
+    {
+      "i": 22,
+      "text": "a",
+      "start": 4.964,
+      "end": 5.036
+    },
+    {
+      "i": 23,
+      "text": "colorless",
+      "start": 5.089,
+      "end": 5.429
+    },
+    {
+      "i": 24,
+      "text": "dye",
+      "start": 5.517,
+      "end": 5.803
+    },
+    {
+      "i": 25,
+      "text": "and",
+      "start": 6.028,
+      "end": 6.099
+    },
+    {
+      "i": 26,
+      "text": "a",
+      "start": 6.135,
+      "end": 6.207
+    },
+    {
+      "i": 27,
+      "text": "chemical",
+      "start": 6.243,
+      "end": 6.529
+    },
+    {
+      "i": 28,
+      "text": "developer",
+      "start": 6.6,
+      "end": 7.011
+    },
+    {
+      "i": 29,
+      "text": "sitting",
+      "start": 7.064,
+      "end": 7.244
+    },
+    {
+      "i": 30,
+      "text": "right",
+      "start": 7.314,
+      "end": 7.439
+    },
+    {
+      "i": 31,
+      "text": "next",
+      "start": 7.494,
+      "end": 7.654
+    },
+    {
+      "i": 32,
+      "text": "to",
+      "start": 7.689,
+      "end": 7.743
+    },
+    {
+      "i": 33,
+      "text": "each",
+      "start": 7.779,
+      "end": 7.905
+    },
+    {
+      "i": 34,
+      "text": "other,",
+      "start": 7.94,
+      "end": 8.154
+    },
+    {
+      "i": 35,
+      "text": "doing",
+      "start": 8.404,
+      "end": 8.565
+    },
+    {
+      "i": 36,
+      "text": "nothing.",
+      "start": 8.618,
+      "end": 8.941
+    },
+    {
+      "i": 37,
+      "text": "The",
+      "start": 9.182,
+      "end": 9.27
+    },
+    {
+      "i": 38,
+      "text": "printer",
+      "start": 9.324,
+      "end": 9.574
+    },
+    {
+      "i": 39,
+      "text": "has",
+      "start": 9.645,
+      "end": 9.752
+    },
+    {
+      "i": 40,
+      "text": "no",
+      "start": 9.842,
+      "end": 9.931
+    },
+    {
+      "i": 41,
+      "text": "ink",
+      "start": 10.075,
+      "end": 10.253
+    },
+    {
+      "i": 42,
+      "text": "and",
+      "start": 10.288,
+      "end": 10.378
+    },
+    {
+      "i": 43,
+      "text": "no",
+      "start": 10.431,
+      "end": 10.52
+    },
+    {
+      "i": 44,
+      "text": "ribbon.",
+      "start": 10.61,
+      "end": 10.86
+    },
+    {
+      "i": 45,
+      "text": "It",
+      "start": 11.12,
+      "end": 11.174
+    },
+    {
+      "i": 46,
+      "text": "has",
+      "start": 11.227,
+      "end": 11.335
+    },
+    {
+      "i": 47,
+      "text": "a",
+      "start": 11.388,
+      "end": 11.424
+    },
+    {
+      "i": 48,
+      "text": "row",
+      "start": 11.495,
+      "end": 11.621
+    },
+    {
+      "i": 49,
+      "text": "of",
+      "start": 11.657,
+      "end": 11.728
+    },
+    {
+      "i": 50,
+      "text": "tiny",
+      "start": 11.817,
+      "end": 12.032
+    },
+    {
+      "i": 51,
+      "text": "heaters.",
+      "start": 12.104,
+      "end": 12.425
+    },
+    {
+      "i": 52,
+      "text": "Wherever",
+      "start": 12.719,
+      "end": 12.988
+    },
+    {
+      "i": 53,
+      "text": "it",
+      "start": 13.04,
+      "end": 13.13
+    },
+    {
+      "i": 54,
+      "text": "touches,",
+      "start": 13.183,
+      "end": 13.576
+    },
+    {
+      "i": 55,
+      "text": "the",
+      "start": 13.844,
+      "end": 13.915
+    },
+    {
+      "i": 56,
+      "text": "coating",
+      "start": 13.969,
+      "end": 14.201
+    },
+    {
+      "i": 57,
+      "text": "melts,",
+      "start": 14.256,
+      "end": 14.576
+    },
+    {
+      "i": 58,
+      "text": "the",
+      "start": 14.776,
+      "end": 14.829
+    },
+    {
+      "i": 59,
+      "text": "two",
+      "start": 14.901,
+      "end": 15.026
+    },
+    {
+      "i": 60,
+      "text": "chemicals",
+      "start": 15.08,
+      "end": 15.456
+    },
+    {
+      "i": 61,
+      "text": "meet,",
+      "start": 15.526,
+      "end": 15.705
+    },
+    {
+      "i": 62,
+      "text": "and",
+      "start": 15.92,
+      "end": 15.974
+    },
+    {
+      "i": 63,
+      "text": "that",
+      "start": 16.028,
+      "end": 16.117
+    },
+    {
+      "i": 64,
+      "text": "spot",
+      "start": 16.188,
+      "end": 16.438
+    },
+    {
+      "i": 65,
+      "text": "turns",
+      "start": 16.492,
+      "end": 16.689
+    },
+    {
+      "i": 66,
+      "text": "black.",
+      "start": 16.778,
+      "end": 17.063
+    },
+    {
+      "i": 67,
+      "text": "The",
+      "start": 17.323,
+      "end": 17.395
+    },
+    {
+      "i": 68,
+      "text": "catch",
+      "start": 17.448,
+      "end": 17.752
+    },
+    {
+      "i": 69,
+      "text": "is",
+      "start": 17.824,
+      "end": 17.895
+    },
+    {
+      "i": 70,
+      "text": "the",
+      "start": 17.931,
+      "end": 17.984
+    },
+    {
+      "i": 71,
+      "text": "reaction",
+      "start": 18.056,
+      "end": 18.538
+    },
+    {
+      "i": 72,
+      "text": "never",
+      "start": 18.717,
+      "end": 18.932
+    },
+    {
+      "i": 73,
+      "text": "locks.",
+      "start": 18.985,
+      "end": 19.325
+    },
+    {
+      "i": 74,
+      "text": "Heat",
+      "start": 19.598,
+      "end": 19.812
+    },
+    {
+      "i": 75,
+      "text": "off",
+      "start": 19.883,
+      "end": 19.99
+    },
+    {
+      "i": 76,
+      "text": "a",
+      "start": 20.045,
+      "end": 20.062
+    },
+    {
+      "i": 77,
+      "text": "dashboard",
+      "start": 20.169,
+      "end": 20.848
+    },
+    {
+      "i": 78,
+      "text": "or",
+      "start": 20.901,
+      "end": 20.973
+    },
+    {
+      "i": 79,
+      "text": "friction",
+      "start": 21.116,
+      "end": 21.473
+    },
+    {
+      "i": 80,
+      "text": "in",
+      "start": 21.509,
+      "end": 21.58
+    },
+    {
+      "i": 81,
+      "text": "a",
+      "start": 21.617,
+      "end": 21.705
+    },
+    {
+      "i": 82,
+      "text": "back",
+      "start": 21.741,
+      "end": 21.956
+    },
+    {
+      "i": 83,
+      "text": "pocket",
+      "start": 22.009,
+      "end": 22.39
+    },
+    {
+      "i": 84,
+      "text": "keeps",
+      "start": 22.461,
+      "end": 22.658
+    },
+    {
+      "i": 85,
+      "text": "driving",
+      "start": 22.729,
+      "end": 23.015
+    },
+    {
+      "i": 86,
+      "text": "it",
+      "start": 23.05,
+      "end": 23.122
+    },
+    {
+      "i": 87,
+      "text": "until",
+      "start": 23.158,
+      "end": 23.354
+    },
+    {
+      "i": 88,
+      "text": "the",
+      "start": 23.39,
+      "end": 23.479
+    },
+    {
+      "i": 89,
+      "text": "text",
+      "start": 23.533,
+      "end": 23.747
+    },
+    {
+      "i": 90,
+      "text": "vanishes.",
+      "start": 23.836,
+      "end": 24.283
+    }
+  ]
+}

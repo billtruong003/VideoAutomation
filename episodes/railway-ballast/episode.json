@@ -1,0 +1,223 @@
+{
+  "slug": "railway-ballast",
+  "title": "That Gravel Under Train Tracks Isn't Landscaping",
+  "hook": "Loose stones doing four structural jobs at once.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill trackside. Four jobs, four marks — this episode is a list done visually."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Train tracks sit on a bed",
+      "background": "HighwayRoadside",
+      "cast": [
+        "bill"
+      ],
+      "note": "Establish the stones as deliberate, not mess. The angularity matters later — show it now.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a track bed in profile; sharp stones packed under the sleepers"
+        },
+        {
+          "kw": "gravel",
+          "action": "camera punches into the stones; their sharp edges draw clearly"
+        },
+        {
+          "kw": "purpose",
+          "action": "an ON PURPOSE label lands; four empty tally marks appear"
+        },
+        {
+          "at": 1.11,
+          "action": "the camera tracks along the sleepers, stones packed between them",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "load",
+      "from": "A loaded train puts",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Job one. A narrow load spreading into a wide cone is the clearest possible drawing of it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a loaded train presses down on a single rail in cross-section"
+        },
+        {
+          "kw": "weight",
+          "action": "a heavy arrow drives down through rail and sleeper"
+        },
+        {
+          "kw": "spread",
+          "action": "the force fans out through the stones into a wide cone"
+        },
+        {
+          "kw": "sink",
+          "action": "a no-ballast version beside it punches straight into the ground; first tally fills"
+        },
+        {
+          "at": 4.93,
+          "action": "the force cone widens further down into the bed",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "interlock",
+      "from": "Because they are angular",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Job two. Angular versus rounded, side by side. The rounded bed should visibly flow apart.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "angular stones and round pebbles fill two panels"
+        },
+        {
+          "kw": "lock",
+          "action": "the angular stones wedge against each other and hold"
+        },
+        {
+          "kw": "creeping",
+          "action": "the rounded panel rolls apart under a sideways push; second tally fills"
+        },
+        {
+          "at": 1.13,
+          "action": "the angular stones settle another notch against each other",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "drainage",
+      "from": "Rain drains through",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Job three. Water falling straight through, versus a mud bed. Quick.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "rain falls onto the ballast bed"
+        },
+        {
+          "kw": "drains",
+          "action": "water runs through the gaps and away beneath"
+        },
+        {
+          "kw": "mud",
+          "action": "a sealed bed beside it turns to mud and sags; third tally fills"
+        }
+      ]
+    },
+    {
+      "id": "vibration",
+      "from": "And the layer soaks",
+      "background": "HighwayRoadside",
+      "cast": [
+        "bill"
+      ],
+      "note": "Job four. Vibration damped between stones. Fourth tally completes the set — that is the button.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a train passes; vibration rings radiate down into the bed"
+        },
+        {
+          "kw": "vibration",
+          "action": "the rings scatter and fade between the stones"
+        },
+        {
+          "kw": "shakes",
+          "action": "Bill barely rocks trackside; the fourth tally fills and all four glow; hard cut"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "gravel",
+      [
+        "gravel"
+      ],
+      0
+    ],
+    [
+      "purpose",
+      [
+        "purpose"
+      ],
+      0
+    ],
+    [
+      "weight",
+      [
+        "weight"
+      ],
+      0
+    ],
+    [
+      "spread",
+      [
+        "spread"
+      ],
+      0
+    ],
+    [
+      "sink",
+      [
+        "sink"
+      ],
+      0
+    ],
+    [
+      "lock",
+      [
+        "lock"
+      ],
+      0
+    ],
+    [
+      "creeping",
+      [
+        "creeping"
+      ],
+      0
+    ],
+    [
+      "drains",
+      [
+        "drains"
+      ],
+      0
+    ],
+    [
+      "mud",
+      [
+        "mud"
+      ],
+      0
+    ],
+    [
+      "vibration",
+      [
+        "vibration"
+      ],
+      0
+    ],
+    [
+      "shakes",
+      [
+        "shakes"
+      ],
+      0
+    ]
+  ]
+}

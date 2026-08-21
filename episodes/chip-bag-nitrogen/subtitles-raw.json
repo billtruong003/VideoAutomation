@@ -1,17 +1,17 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "A bag of chips is mostly not chips,",
-      "start_time": 0.059,
-      "end_time": 1.839,
+      "start_time": 0.099,
+      "end_time": 2.059,
       "speaker": "narrator",
       "words": [
         {
           "text": "A",
-          "start_time": 0.059,
+          "start_time": 0.099,
           "end_time": 0.14
         },
         {
@@ -22,953 +22,959 @@
         {
           "text": "bag",
           "start_time": 0.179,
-          "end_time": 0.299
+          "end_time": 0.34
         },
         {
           "text": " ",
-          "start_time": 0.299,
-          "end_time": 0.359
+          "start_time": 0.34,
+          "end_time": 0.379
         },
         {
           "text": "of",
-          "start_time": 0.359,
-          "end_time": 0.399
+          "start_time": 0.379,
+          "end_time": 0.419
         },
         {
           "text": " ",
-          "start_time": 0.399,
-          "end_time": 0.5
+          "start_time": 0.419,
+          "end_time": 0.56
         },
         {
           "text": "chips",
-          "start_time": 0.5,
-          "end_time": 0.699
+          "start_time": 0.56,
+          "end_time": 0.779
         },
         {
           "text": " ",
-          "start_time": 0.699,
-          "end_time": 0.759
+          "start_time": 0.779,
+          "end_time": 0.839
         },
         {
           "text": "is",
-          "start_time": 0.759,
-          "end_time": 0.879
-        },
-        {
-          "text": " ",
-          "start_time": 0.879,
+          "start_time": 0.839,
           "end_time": 0.919
         },
         {
-          "text": "mostly",
+          "text": " ",
           "start_time": 0.919,
-          "end_time": 1.259
+          "end_time": 0.999
+        },
+        {
+          "text": "mostly",
+          "start_time": 1,
+          "end_time": 1.299
         },
         {
           "text": " ",
-          "start_time": 1.259,
-          "end_time": 1.279
+          "start_time": 1.299,
+          "end_time": 1.459
         },
         {
           "text": "not",
-          "start_time": 1.279,
-          "end_time": 1.439
+          "start_time": 1.459,
+          "end_time": 1.599
         },
         {
           "text": " ",
-          "start_time": 1.439,
-          "end_time": 1.539
+          "start_time": 1.599,
+          "end_time": 1.719
         },
         {
           "text": "chips,",
-          "start_time": 1.539,
-          "end_time": 1.839
+          "start_time": 1.719,
+          "end_time": 2.059
         }
       ]
     },
     {
       "text": "and the empty part is not air.",
-      "start_time": 2.039,
-      "end_time": 3.359,
+      "start_time": 2.48,
+      "end_time": 3.939,
       "speaker": "narrator",
       "words": [
         {
           "text": "and",
-          "start_time": 2.039,
-          "end_time": 2.099
+          "start_time": 2.48,
+          "end_time": 2.559
         },
         {
           "text": " ",
-          "start_time": 2.099,
-          "end_time": 2.139
+          "start_time": 2.559,
+          "end_time": 2.579
         },
         {
           "text": "the",
-          "start_time": 2.139,
-          "end_time": 2.18
+          "start_time": 2.579,
+          "end_time": 2.639
         },
         {
           "text": " ",
-          "start_time": 2.18,
-          "end_time": 2.259
+          "start_time": 2.639,
+          "end_time": 2.719
         },
         {
           "text": "empty",
-          "start_time": 2.259,
-          "end_time": 2.48
+          "start_time": 2.72,
+          "end_time": 2.899
         },
         {
           "text": " ",
-          "start_time": 2.48,
-          "end_time": 2.519
+          "start_time": 2.899,
+          "end_time": 3.019
         },
         {
           "text": "part",
-          "start_time": 2.519,
-          "end_time": 2.679
+          "start_time": 3.019,
+          "end_time": 3.179
         },
         {
           "text": " ",
-          "start_time": 2.679,
-          "end_time": 2.699
+          "start_time": 3.179,
+          "end_time": 3.219
         },
         {
           "text": "is",
-          "start_time": 2.7,
-          "end_time": 2.779
+          "start_time": 3.22,
+          "end_time": 3.299
         },
         {
           "text": " ",
-          "start_time": 2.779,
-          "end_time": 2.859
+          "start_time": 3.299,
+          "end_time": 3.399
         },
         {
           "text": "not",
-          "start_time": 2.859,
-          "end_time": 3.059
+          "start_time": 3.399,
+          "end_time": 3.559
         },
         {
           "text": " ",
-          "start_time": 3.059,
-          "end_time": 3.119
+          "start_time": 3.559,
+          "end_time": 3.679
         },
         {
           "text": "air.",
-          "start_time": 3.119,
-          "end_time": 3.359
+          "start_time": 3.679,
+          "end_time": 3.939
         }
       ]
     },
     {
-      "text": "Air is a fifth oxygen, and oxygen turns the",
-      "start_time": 3.659,
-      "end_time": 6.039,
+      "text": "Air is a fifth oxygen,",
+      "start_time": 5.119,
+      "end_time": 6.399,
       "speaker": "narrator",
       "words": [
         {
           "text": "Air",
-          "start_time": 3.659,
-          "end_time": 3.819
+          "start_time": 5.119,
+          "end_time": 5.299
         },
         {
           "text": " ",
-          "start_time": 3.819,
-          "end_time": 3.859
+          "start_time": 5.299,
+          "end_time": 5.339
         },
         {
           "text": "is",
-          "start_time": 3.859,
-          "end_time": 3.939
+          "start_time": 5.339,
+          "end_time": 5.42
         },
         {
           "text": " ",
-          "start_time": 3.939,
-          "end_time": 3.979
+          "start_time": 5.42,
+          "end_time": 5.48
         },
         {
           "text": "a",
-          "start_time": 3.98,
-          "end_time": 4.059
+          "start_time": 5.48,
+          "end_time": 5.579
         },
         {
           "text": " ",
-          "start_time": 4.059,
-          "end_time": 4.119
+          "start_time": 5.579,
+          "end_time": 5.639
         },
         {
           "text": "fifth",
-          "start_time": 4.119,
-          "end_time": 4.299
+          "start_time": 5.639,
+          "end_time": 5.819
         },
         {
           "text": " ",
-          "start_time": 4.299,
-          "end_time": 4.399
+          "start_time": 5.819,
+          "end_time": 5.959
         },
         {
           "text": "oxygen,",
-          "start_time": 4.4,
-          "end_time": 4.799
-        },
-        {
-          "text": " ",
-          "start_time": 4.799,
-          "end_time": 5.019
-        },
+          "start_time": 5.96,
+          "end_time": 6.399
+        }
+      ]
+    },
+    {
+      "text": "and oxygen turns the oil in a chip rancid",
+      "start_time": 7,
+      "end_time": 9.46,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "and",
-          "start_time": 5.019,
-          "end_time": 5.159
+          "start_time": 7,
+          "end_time": 7.159
         },
         {
           "text": " ",
-          "start_time": 5.159,
-          "end_time": 5.279
+          "start_time": 7.159,
+          "end_time": 7.279
         },
         {
           "text": "oxygen",
-          "start_time": 5.279,
-          "end_time": 5.659
+          "start_time": 7.279,
+          "end_time": 7.699
         },
         {
           "text": " ",
-          "start_time": 5.659,
-          "end_time": 5.679
+          "start_time": 7.699,
+          "end_time": 7.739
         },
         {
           "text": "turns",
-          "start_time": 5.679,
-          "end_time": 5.92
+          "start_time": 7.739,
+          "end_time": 8
         },
         {
           "text": " ",
-          "start_time": 5.92,
-          "end_time": 5.94
+          "start_time": 8,
+          "end_time": 8.039
         },
         {
           "text": "the",
-          "start_time": 5.94,
-          "end_time": 6.039
-        }
-      ]
-    },
-    {
-      "text": "oil in a chip rancid within days.",
-      "start_time": 6.139,
-      "end_time": 7.879,
-      "speaker": "narrator",
-      "words": [
+          "start_time": 8.039,
+          "end_time": 8.159
+        },
+        {
+          "text": " ",
+          "start_time": 8.159,
+          "end_time": 8.26
+        },
         {
           "text": "oil",
-          "start_time": 6.139,
-          "end_time": 6.279
-        },
-        {
-          "text": " ",
-          "start_time": 6.279,
-          "end_time": 6.319
-        },
-        {
-          "text": "in",
-          "start_time": 6.319,
-          "end_time": 6.379
-        },
-        {
-          "text": " ",
-          "start_time": 6.379,
-          "end_time": 6.399
-        },
-        {
-          "text": "a",
-          "start_time": 6.399,
-          "end_time": 6.5
-        },
-        {
-          "text": " ",
-          "start_time": 6.5,
-          "end_time": 6.539
-        },
-        {
-          "text": "chip",
-          "start_time": 6.539,
-          "end_time": 6.699
-        },
-        {
-          "text": " ",
-          "start_time": 6.699,
-          "end_time": 6.899
-        },
-        {
-          "text": "rancid",
-          "start_time": 6.899,
-          "end_time": 7.219
-        },
-        {
-          "text": " ",
-          "start_time": 7.219,
-          "end_time": 7.259
-        },
-        {
-          "text": "within",
-          "start_time": 7.259,
-          "end_time": 7.48
-        },
-        {
-          "text": " ",
-          "start_time": 7.48,
-          "end_time": 7.559
-        },
-        {
-          "text": "days.",
-          "start_time": 7.559,
-          "end_time": 7.879
-        }
-      ]
-    },
-    {
-      "text": "So the bag gets flushed with nitrogen,",
-      "start_time": 8.22,
-      "end_time": 9.8,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "So",
-          "start_time": 8.22,
-          "end_time": 8.279
-        },
-        {
-          "text": " ",
-          "start_time": 8.279,
-          "end_time": 8.319
-        },
-        {
-          "text": "the",
-          "start_time": 8.319,
+          "start_time": 8.26,
           "end_time": 8.399
         },
         {
           "text": " ",
           "start_time": 8.399,
-          "end_time": 8.46
+          "end_time": 8.439
+        },
+        {
+          "text": "in",
+          "start_time": 8.439,
+          "end_time": 8.5
+        },
+        {
+          "text": " ",
+          "start_time": 8.5,
+          "end_time": 8.539
+        },
+        {
+          "text": "a",
+          "start_time": 8.539,
+          "end_time": 8.659
+        },
+        {
+          "text": " ",
+          "start_time": 8.659,
+          "end_time": 8.699
+        },
+        {
+          "text": "chip",
+          "start_time": 8.699,
+          "end_time": 8.939
+        },
+        {
+          "text": " ",
+          "start_time": 8.939,
+          "end_time": 9.099
+        },
+        {
+          "text": "rancid",
+          "start_time": 9.099,
+          "end_time": 9.46
+        }
+      ]
+    },
+    {
+      "text": "within days.",
+      "start_time": 9.5,
+      "end_time": 10.199,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "within",
+          "start_time": 9.5,
+          "end_time": 9.739
+        },
+        {
+          "text": " ",
+          "start_time": 9.739,
+          "end_time": 9.84
+        },
+        {
+          "text": "days.",
+          "start_time": 9.84,
+          "end_time": 10.199
+        }
+      ]
+    },
+    {
+      "text": "So the bag gets flushed with nitrogen,",
+      "start_time": 11.139,
+      "end_time": 12.92,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "So",
+          "start_time": 11.139,
+          "end_time": 11.219
+        },
+        {
+          "text": " ",
+          "start_time": 11.219,
+          "end_time": 11.259
+        },
+        {
+          "text": "the",
+          "start_time": 11.259,
+          "end_time": 11.34
+        },
+        {
+          "text": " ",
+          "start_time": 11.34,
+          "end_time": 11.399
         },
         {
           "text": "bag",
-          "start_time": 8.46,
-          "end_time": 8.639
+          "start_time": 11.399,
+          "end_time": 11.599
         },
         {
           "text": " ",
-          "start_time": 8.639,
-          "end_time": 8.679
+          "start_time": 11.599,
+          "end_time": 11.659
         },
         {
           "text": "gets",
-          "start_time": 8.679,
-          "end_time": 8.84
+          "start_time": 11.659,
+          "end_time": 11.819
         },
         {
           "text": " ",
-          "start_time": 8.84,
-          "end_time": 8.92
+          "start_time": 11.819,
+          "end_time": 11.92
         },
         {
           "text": "flushed",
-          "start_time": 8.92,
-          "end_time": 9.159
+          "start_time": 11.92,
+          "end_time": 12.199
         },
         {
           "text": " ",
-          "start_time": 9.159,
-          "end_time": 9.199
+          "start_time": 12.199,
+          "end_time": 12.239
         },
         {
           "text": "with",
-          "start_time": 9.199,
-          "end_time": 9.3
+          "start_time": 12.239,
+          "end_time": 12.34
         },
         {
           "text": " ",
-          "start_time": 9.3,
-          "end_time": 9.38
+          "start_time": 12.34,
+          "end_time": 12.439
         },
         {
           "text": "nitrogen,",
-          "start_time": 9.38,
-          "end_time": 9.8
+          "start_time": 12.439,
+          "end_time": 12.92
         }
       ]
     },
     {
       "text": "which is inert and does nothing to food,",
-      "start_time": 10.039,
-      "end_time": 11.559,
+      "start_time": 13.179,
+      "end_time": 14.88,
       "speaker": "narrator",
       "words": [
         {
           "text": "which",
-          "start_time": 10.039,
-          "end_time": 10.139
+          "start_time": 13.179,
+          "end_time": 13.279
         },
         {
           "text": " ",
-          "start_time": 10.139,
-          "end_time": 10.179
+          "start_time": 13.279,
+          "end_time": 13.34
         },
         {
           "text": "is",
-          "start_time": 10.179,
-          "end_time": 10.26
+          "start_time": 13.34,
+          "end_time": 13.42
         },
         {
           "text": " ",
-          "start_time": 10.26,
-          "end_time": 10.3
+          "start_time": 13.42,
+          "end_time": 13.46
         },
         {
           "text": "inert",
-          "start_time": 10.3,
-          "end_time": 10.539
+          "start_time": 13.46,
+          "end_time": 13.739
         },
         {
           "text": " ",
-          "start_time": 10.539,
-          "end_time": 10.579
+          "start_time": 13.739,
+          "end_time": 13.779
         },
         {
           "text": "and",
-          "start_time": 10.579,
-          "end_time": 10.679
+          "start_time": 13.779,
+          "end_time": 13.88
         },
         {
           "text": " ",
-          "start_time": 10.679,
-          "end_time": 10.719
+          "start_time": 13.88,
+          "end_time": 13.939
         },
         {
           "text": "does",
-          "start_time": 10.719,
-          "end_time": 10.899
+          "start_time": 13.939,
+          "end_time": 14.079
         },
         {
           "text": " ",
-          "start_time": 10.899,
-          "end_time": 10.939
+          "start_time": 14.079,
+          "end_time": 14.199
         },
         {
           "text": "nothing",
-          "start_time": 10.939,
-          "end_time": 11.18
+          "start_time": 14.199,
+          "end_time": 14.46
         },
         {
           "text": " ",
-          "start_time": 11.18,
-          "end_time": 11.219
+          "start_time": 14.46,
+          "end_time": 14.5
         },
         {
           "text": "to",
-          "start_time": 11.219,
-          "end_time": 11.319
+          "start_time": 14.5,
+          "end_time": 14.599
         },
         {
           "text": " ",
-          "start_time": 11.319,
-          "end_time": 11.38
+          "start_time": 14.599,
+          "end_time": 14.679
         },
         {
           "text": "food,",
-          "start_time": 11.38,
-          "end_time": 11.559
+          "start_time": 14.679,
+          "end_time": 14.88
         }
       ]
     },
     {
       "text": "and the oxygen inside drops to almost nothing.",
-      "start_time": 11.8,
-      "end_time": 13.979,
+      "start_time": 15.479,
+      "end_time": 17.899,
       "speaker": "narrator",
       "words": [
         {
           "text": "and",
-          "start_time": 11.8,
-          "end_time": 11.88
+          "start_time": 15.479,
+          "end_time": 15.539
         },
         {
           "text": " ",
-          "start_time": 11.88,
-          "end_time": 11.899
+          "start_time": 15.539,
+          "end_time": 15.579
         },
         {
           "text": "the",
-          "start_time": 11.899,
-          "end_time": 11.96
+          "start_time": 15.579,
+          "end_time": 15.639
         },
         {
           "text": " ",
-          "start_time": 11.96,
-          "end_time": 12.079
+          "start_time": 15.639,
+          "end_time": 15.779
         },
         {
           "text": "oxygen",
-          "start_time": 12.079,
-          "end_time": 12.42
+          "start_time": 15.779,
+          "end_time": 16.159
         },
         {
           "text": " ",
-          "start_time": 12.42,
-          "end_time": 12.479
+          "start_time": 16.159,
+          "end_time": 16.219
         },
         {
           "text": "inside",
-          "start_time": 12.479,
-          "end_time": 12.859
+          "start_time": 16.219,
+          "end_time": 16.639
         },
         {
           "text": " ",
-          "start_time": 12.859,
-          "end_time": 12.92
+          "start_time": 16.639,
+          "end_time": 16.719
         },
         {
           "text": "drops",
-          "start_time": 12.92,
-          "end_time": 13.119
+          "start_time": 16.719,
+          "end_time": 16.94
         },
         {
           "text": " ",
-          "start_time": 13.119,
-          "end_time": 13.159
+          "start_time": 16.94,
+          "end_time": 16.979
         },
         {
           "text": "to",
-          "start_time": 13.159,
-          "end_time": 13.239
+          "start_time": 16.979,
+          "end_time": 17.059
         },
         {
           "text": " ",
-          "start_time": 13.239,
-          "end_time": 13.299
+          "start_time": 17.059,
+          "end_time": 17.139
         },
         {
           "text": "almost",
-          "start_time": 13.299,
-          "end_time": 13.539
+          "start_time": 17.139,
+          "end_time": 17.42
         },
         {
           "text": " ",
-          "start_time": 13.539,
-          "end_time": 13.639
+          "start_time": 17.42,
+          "end_time": 17.539
         },
         {
           "text": "nothing.",
-          "start_time": 13.639,
-          "end_time": 13.979
+          "start_time": 17.539,
+          "end_time": 17.899
         }
       ]
     },
     {
       "text": "That is the freshness half.",
-      "start_time": 14.239,
-      "end_time": 15.299,
+      "start_time": 18.779,
+      "end_time": 19.979,
       "speaker": "narrator",
       "words": [
         {
           "text": "That",
-          "start_time": 14.239,
-          "end_time": 14.319
+          "start_time": 18.779,
+          "end_time": 18.879
         },
         {
           "text": " ",
-          "start_time": 14.319,
-          "end_time": 14.359
+          "start_time": 18.879,
+          "end_time": 18.92
         },
         {
           "text": "is",
-          "start_time": 14.359,
-          "end_time": 14.42
+          "start_time": 18.92,
+          "end_time": 18.979
         },
         {
           "text": " ",
-          "start_time": 14.42,
-          "end_time": 14.46
+          "start_time": 18.979,
+          "end_time": 19.02
         },
         {
           "text": "the",
-          "start_time": 14.46,
-          "end_time": 14.519
-        },
-        {
-          "text": " ",
-          "start_time": 14.519,
-          "end_time": 14.599
-        },
-        {
-          "text": "freshness",
-          "start_time": 14.599,
-          "end_time": 14.979
-        },
-        {
-          "text": " ",
-          "start_time": 14.979,
-          "end_time": 15.039
-        },
-        {
-          "text": "half.",
-          "start_time": 15.039,
-          "end_time": 15.299
-        }
-      ]
-    },
-    {
-      "text": "The other half is that chips are fragile and",
-      "start_time": 15.539,
-      "end_time": 17.18,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "The",
-          "start_time": 15.539,
-          "end_time": 15.599
-        },
-        {
-          "text": " ",
-          "start_time": 15.599,
-          "end_time": 15.659
-        },
-        {
-          "text": "other",
-          "start_time": 15.659,
-          "end_time": 15.799
-        },
-        {
-          "text": " ",
-          "start_time": 15.799,
-          "end_time": 15.839
-        },
-        {
-          "text": "half",
-          "start_time": 15.839,
-          "end_time": 16.039
-        },
-        {
-          "text": " ",
-          "start_time": 16.039,
-          "end_time": 16.099
-        },
-        {
-          "text": "is",
-          "start_time": 16.1,
-          "end_time": 16.18
-        },
-        {
-          "text": " ",
-          "start_time": 16.18,
-          "end_time": 16.199
-        },
-        {
-          "text": "that",
-          "start_time": 16.199,
-          "end_time": 16.279
-        },
-        {
-          "text": " ",
-          "start_time": 16.279,
-          "end_time": 16.399
-        },
-        {
-          "text": "chips",
-          "start_time": 16.399,
-          "end_time": 16.579
-        },
-        {
-          "text": " ",
-          "start_time": 16.579,
-          "end_time": 16.619
-        },
-        {
-          "text": "are",
-          "start_time": 16.619,
-          "end_time": 16.719
-        },
-        {
-          "text": " ",
-          "start_time": 16.719,
-          "end_time": 16.779
-        },
-        {
-          "text": "fragile",
-          "start_time": 16.779,
-          "end_time": 17.079
-        },
-        {
-          "text": " ",
-          "start_time": 17.079,
-          "end_time": 17.119
-        },
-        {
-          "text": "and",
-          "start_time": 17.119,
-          "end_time": 17.18
-        }
-      ]
-    },
-    {
-      "text": "get stacked, dropped and driven across a country,",
-      "start_time": 17.219,
-      "end_time": 19.399,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "get",
-          "start_time": 17.219,
-          "end_time": 17.379
-        },
-        {
-          "text": " ",
-          "start_time": 17.379,
-          "end_time": 17.459
-        },
-        {
-          "text": "stacked,",
-          "start_time": 17.459,
-          "end_time": 17.779
-        },
-        {
-          "text": " ",
-          "start_time": 17.779,
-          "end_time": 18.039
-        },
-        {
-          "text": "dropped",
-          "start_time": 18.039,
-          "end_time": 18.299
-        },
-        {
-          "text": " ",
-          "start_time": 18.299,
-          "end_time": 18.34
-        },
-        {
-          "text": "and",
-          "start_time": 18.34,
-          "end_time": 18.42
-        },
-        {
-          "text": " ",
-          "start_time": 18.42,
-          "end_time": 18.479
-        },
-        {
-          "text": "driven",
-          "start_time": 18.479,
-          "end_time": 18.68
-        },
-        {
-          "text": " ",
-          "start_time": 18.68,
-          "end_time": 18.76
-        },
-        {
-          "text": "across",
-          "start_time": 18.76,
-          "end_time": 19
-        },
-        {
-          "text": " ",
-          "start_time": 19,
-          "end_time": 19.039
-        },
-        {
-          "text": "a",
-          "start_time": 19.039,
+          "start_time": 19.02,
           "end_time": 19.079
         },
         {
           "text": " ",
           "start_time": 19.079,
-          "end_time": 19.139
+          "end_time": 19.18
+        },
+        {
+          "text": "freshness",
+          "start_time": 19.18,
+          "end_time": 19.6
+        },
+        {
+          "text": " ",
+          "start_time": 19.6,
+          "end_time": 19.659
+        },
+        {
+          "text": "half.",
+          "start_time": 19.659,
+          "end_time": 19.979
+        }
+      ]
+    },
+    {
+      "text": "The other half is that chips are fragile and",
+      "start_time": 20.859,
+      "end_time": 22.68,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 20.859,
+          "end_time": 20.92
+        },
+        {
+          "text": " ",
+          "start_time": 20.92,
+          "end_time": 20.979
+        },
+        {
+          "text": "other",
+          "start_time": 20.979,
+          "end_time": 21.139
+        },
+        {
+          "text": " ",
+          "start_time": 21.139,
+          "end_time": 21.18
+        },
+        {
+          "text": "half",
+          "start_time": 21.18,
+          "end_time": 21.399
+        },
+        {
+          "text": " ",
+          "start_time": 21.399,
+          "end_time": 21.459
+        },
+        {
+          "text": "is",
+          "start_time": 21.459,
+          "end_time": 21.539
+        },
+        {
+          "text": " ",
+          "start_time": 21.539,
+          "end_time": 21.579
+        },
+        {
+          "text": "that",
+          "start_time": 21.579,
+          "end_time": 21.739
+        },
+        {
+          "text": " ",
+          "start_time": 21.739,
+          "end_time": 21.799
+        },
+        {
+          "text": "chips",
+          "start_time": 21.799,
+          "end_time": 22
+        },
+        {
+          "text": " ",
+          "start_time": 22,
+          "end_time": 22.039
+        },
+        {
+          "text": "are",
+          "start_time": 22.039,
+          "end_time": 22.159
+        },
+        {
+          "text": " ",
+          "start_time": 22.159,
+          "end_time": 22.219
+        },
+        {
+          "text": "fragile",
+          "start_time": 22.219,
+          "end_time": 22.559
+        },
+        {
+          "text": " ",
+          "start_time": 22.559,
+          "end_time": 22.6
+        },
+        {
+          "text": "and",
+          "start_time": 22.6,
+          "end_time": 22.68
+        }
+      ]
+    },
+    {
+      "text": "get stacked,",
+      "start_time": 22.719,
+      "end_time": 23.359,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "get",
+          "start_time": 22.719,
+          "end_time": 22.899
+        },
+        {
+          "text": " ",
+          "start_time": 22.899,
+          "end_time": 22.959
+        },
+        {
+          "text": "stacked,",
+          "start_time": 22.959,
+          "end_time": 23.359
+        }
+      ]
+    },
+    {
+      "text": "dropped and driven across a country,",
+      "start_time": 23.76,
+      "end_time": 25.299,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "dropped",
+          "start_time": 23.76,
+          "end_time": 24.079
+        },
+        {
+          "text": " ",
+          "start_time": 24.079,
+          "end_time": 24.119
+        },
+        {
+          "text": "and",
+          "start_time": 24.119,
+          "end_time": 24.219
+        },
+        {
+          "text": " ",
+          "start_time": 24.219,
+          "end_time": 24.279
+        },
+        {
+          "text": "driven",
+          "start_time": 24.279,
+          "end_time": 24.479
+        },
+        {
+          "text": " ",
+          "start_time": 24.479,
+          "end_time": 24.579
+        },
+        {
+          "text": "across",
+          "start_time": 24.579,
+          "end_time": 24.84
+        },
+        {
+          "text": " ",
+          "start_time": 24.84,
+          "end_time": 24.899
+        },
+        {
+          "text": "a",
+          "start_time": 24.899,
+          "end_time": 24.939
+        },
+        {
+          "text": " ",
+          "start_time": 24.939,
+          "end_time": 24.999
         },
         {
           "text": "country,",
-          "start_time": 19.139,
-          "end_time": 19.399
+          "start_time": 25,
+          "end_time": 25.299
         }
       ]
     },
     {
       "text": "so the gas is also a pillow.",
-      "start_time": 19.5,
-      "end_time": 20.799,
+      "start_time": 25.399,
+      "end_time": 26.879,
       "speaker": "narrator",
       "words": [
         {
           "text": "so",
-          "start_time": 19.5,
-          "end_time": 19.559
+          "start_time": 25.399,
+          "end_time": 25.479
         },
         {
           "text": " ",
-          "start_time": 19.559,
-          "end_time": 19.6
+          "start_time": 25.479,
+          "end_time": 25.519
         },
         {
           "text": "the",
-          "start_time": 19.6,
-          "end_time": 19.68
+          "start_time": 25.519,
+          "end_time": 25.599
         },
         {
           "text": " ",
-          "start_time": 19.68,
-          "end_time": 19.739
+          "start_time": 25.599,
+          "end_time": 25.679
         },
         {
           "text": "gas",
-          "start_time": 19.739,
-          "end_time": 19.939
+          "start_time": 25.68,
+          "end_time": 25.899
         },
         {
           "text": " ",
-          "start_time": 19.939,
-          "end_time": 19.979
+          "start_time": 25.899,
+          "end_time": 25.939
         },
         {
           "text": "is",
-          "start_time": 19.979,
-          "end_time": 20.079
+          "start_time": 25.939,
+          "end_time": 26.079
         },
         {
           "text": " ",
-          "start_time": 20.079,
-          "end_time": 20.159
+          "start_time": 26.079,
+          "end_time": 26.159
         },
         {
           "text": "also",
-          "start_time": 20.159,
-          "end_time": 20.359
+          "start_time": 26.159,
+          "end_time": 26.379
         },
         {
           "text": " ",
-          "start_time": 20.359,
-          "end_time": 20.419
+          "start_time": 26.379,
+          "end_time": 26.439
         },
         {
           "text": "a",
-          "start_time": 20.42,
-          "end_time": 20.439
+          "start_time": 26.439,
+          "end_time": 26.479
         },
         {
           "text": " ",
-          "start_time": 20.439,
-          "end_time": 20.519
+          "start_time": 26.479,
+          "end_time": 26.539
         },
         {
           "text": "pillow.",
-          "start_time": 20.52,
-          "end_time": 20.799
+          "start_time": 26.539,
+          "end_time": 26.879
         }
       ]
     },
     {
       "text": "You are buying a cushion that doubles as a",
-      "start_time": 21.059,
-      "end_time": 22.559,
+      "start_time": 27.92,
+      "end_time": 29.599,
       "speaker": "narrator",
       "words": [
         {
           "text": "You",
-          "start_time": 21.059,
-          "end_time": 21.119
+          "start_time": 27.92,
+          "end_time": 27.979
         },
         {
           "text": " ",
-          "start_time": 21.119,
-          "end_time": 21.139
+          "start_time": 27.979,
+          "end_time": 28.019
         },
         {
           "text": "are",
-          "start_time": 21.139,
-          "end_time": 21.239
+          "start_time": 28.019,
+          "end_time": 28.119
         },
         {
           "text": " ",
-          "start_time": 21.239,
-          "end_time": 21.299
+          "start_time": 28.119,
+          "end_time": 28.179
         },
         {
           "text": "buying",
-          "start_time": 21.299,
-          "end_time": 21.5
+          "start_time": 28.18,
+          "end_time": 28.399
         },
         {
           "text": " ",
-          "start_time": 21.5,
-          "end_time": 21.539
+          "start_time": 28.399,
+          "end_time": 28.439
         },
         {
           "text": "a",
-          "start_time": 21.539,
-          "end_time": 21.599
+          "start_time": 28.439,
+          "end_time": 28.459
         },
         {
           "text": " ",
-          "start_time": 21.599,
-          "end_time": 21.659
+          "start_time": 28.459,
+          "end_time": 28.579
         },
         {
           "text": "cushion",
-          "start_time": 21.659,
-          "end_time": 21.899
+          "start_time": 28.579,
+          "end_time": 28.859
         },
         {
           "text": " ",
-          "start_time": 21.899,
-          "end_time": 21.939
+          "start_time": 28.859,
+          "end_time": 28.899
         },
         {
           "text": "that",
-          "start_time": 21.939,
-          "end_time": 22.02
+          "start_time": 28.899,
+          "end_time": 29
         },
         {
           "text": " ",
-          "start_time": 22.02,
-          "end_time": 22.139
+          "start_time": 29,
+          "end_time": 29.119
         },
         {
           "text": "doubles",
-          "start_time": 22.139,
-          "end_time": 22.379
+          "start_time": 29.119,
+          "end_time": 29.399
         },
         {
           "text": " ",
-          "start_time": 22.379,
-          "end_time": 22.439
+          "start_time": 29.399,
+          "end_time": 29.439
         },
         {
           "text": "as",
-          "start_time": 22.439,
-          "end_time": 22.5
+          "start_time": 29.439,
+          "end_time": 29.519
         },
         {
           "text": " ",
-          "start_time": 22.5,
-          "end_time": 22.539
+          "start_time": 29.519,
+          "end_time": 29.559
         },
         {
           "text": "a",
-          "start_time": 22.539,
-          "end_time": 22.559
+          "start_time": 29.559,
+          "end_time": 29.599
         }
       ]
     },
     {
       "text": "preservative.",
-      "start_time": 22.6,
-      "end_time": 23.200000000000003,
+      "start_time": 29.659,
+      "end_time": 30.259,
       "speaker": "narrator",
       "words": [
         {
           "text": "preservative.",
-          "start_time": 22.6,
-          "end_time": 23.159
+          "start_time": 29.659,
+          "end_time": 30.219
         }
       ]
     }

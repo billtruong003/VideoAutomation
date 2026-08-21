@@ -82,6 +82,17 @@ function check(slug) {
 
   /** Frame times where speech starts after >= 60 ms of quiet. */
   const onsets = [];
+  /*
+   * If the file is voiced from its very first frame, speech starts AT zero.
+   *
+   * The loop below only records a transition from unvoiced to voiced, so a file that opens
+   * directly on a word has no transition to find and no onset near the start — and the first
+   * phrase, which legitimately begins at ~0, is then measured against the NEXT onset several
+   * seconds later and reported as drift. The audio is not wrong; a zero-length lead is close
+   * to ideal. Nothing in Batch 001 opened this tightly, so the gap only appeared once a faster
+   * narrator produced a file with no measurable lead-in at all.
+   */
+  if (voiced[0]) onsets.push(0);
   for (let f = 1; f < nFrames; f++) {
     if (voiced[f] && !voiced[f - 1]) {
       let quiet = 0;

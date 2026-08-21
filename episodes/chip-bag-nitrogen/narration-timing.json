@@ -1,0 +1,891 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/chip-bag-nitrogen.wav.",
+  "episode": "chip-bag-nitrogen",
+  "title": "Chip Bags Are Not Filled With Air",
+  "audio": "public/audio/chip-bag-nitrogen.wav",
+  "staticAudio": "audio/chip-bag-nitrogen.wav",
+  "duration": 23.374,
+  "fps": 30,
+  "rawDuration": 30.511,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11929,
+  "silenceRemoved": 4.349,
+  "wordCount": 93,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "A bag of chips is mostly not chips, and the empty part is not air.",
+      "start": 0.088,
+      "end": 3.348,
+      "wordRange": [
+        0,
+        14
+      ]
+    },
+    {
+      "id": "oxygen",
+      "text": "Air is a fifth oxygen, and oxygen turns the oil in a chip rancid within days.",
+      "start": 3.649,
+      "end": 7.876,
+      "wordRange": [
+        15,
+        30
+      ]
+    },
+    {
+      "id": "nitrogen",
+      "text": "So the bag gets flushed with nitrogen, which is inert and does nothing to food, and the oxygen inside drops to almost nothing.",
+      "start": 8.215,
+      "end": 13.975,
+      "wordRange": [
+        31,
+        53
+      ]
+    },
+    {
+      "id": "freshness",
+      "text": "That is the freshness half.",
+      "start": 14.239,
+      "end": 15.311,
+      "wordRange": [
+        54,
+        58
+      ]
+    },
+    {
+      "id": "cushion",
+      "text": "The other half is that chips are fragile and get stacked, dropped and driven across a country, so the gas is also a pillow.",
+      "start": 15.559,
+      "end": 20.815,
+      "wordRange": [
+        59,
+        82
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "You are buying a cushion that doubles as a preservative.",
+      "start": 21.075,
+      "end": 23.129,
+      "wordRange": [
+        83,
+        92
+      ]
+    }
+  ],
+  "keywords": {
+    "mostly": {
+      "start": 0.893,
+      "end": 1.16,
+      "wordIndex": 5
+    },
+    "not-air": {
+      "start": 3.116,
+      "end": 3.348,
+      "wordIndex": 14
+    },
+    "oxygen": {
+      "start": 4.402,
+      "end": 4.794,
+      "wordIndex": 19
+    },
+    "rancid": {
+      "start": 6.893,
+      "end": 7.216,
+      "wordIndex": 28
+    },
+    "nitrogen": {
+      "start": 9.376,
+      "end": 9.806,
+      "wordIndex": 37
+    },
+    "inert": {
+      "start": 10.288,
+      "end": 10.537,
+      "wordIndex": 40
+    },
+    "freshness": {
+      "start": 14.597,
+      "end": 14.972,
+      "wordIndex": 57
+    },
+    "stacked": {
+      "start": 17.435,
+      "end": 17.792,
+      "wordIndex": 69
+    },
+    "pillow": {
+      "start": 20.512,
+      "end": 20.815,
+      "wordIndex": 82
+    },
+    "cushion": {
+      "start": 21.664,
+      "end": 21.914,
+      "wordIndex": 87
+    },
+    "preservative": {
+      "start": 22.629,
+      "end": 23.129,
+      "wordIndex": 92
+    }
+  },
+  "captions": [
+    {
+      "text": "A bag of chips",
+      "words": [
+        "A",
+        "bag",
+        "of",
+        "chips"
+      ],
+      "start": 0.088,
+      "end": 0.749
+    },
+    {
+      "text": "is mostly not chips,",
+      "words": [
+        "is",
+        "mostly",
+        "not",
+        "chips,"
+      ],
+      "start": 0.749,
+      "end": 2.046
+    },
+    {
+      "text": "and the empty part",
+      "words": [
+        "and",
+        "the",
+        "empty",
+        "part"
+      ],
+      "start": 2.046,
+      "end": 2.706
+    },
+    {
+      "text": "is not air.",
+      "words": [
+        "is",
+        "not",
+        "air."
+      ],
+      "start": 2.706,
+      "end": 3.568
+    },
+    {
+      "text": "Air is a fifth",
+      "words": [
+        "Air",
+        "is",
+        "a",
+        "fifth"
+      ],
+      "start": 3.649,
+      "end": 4.402
+    },
+    {
+      "text": "oxygen,",
+      "words": [
+        "oxygen,"
+      ],
+      "start": 4.402,
+      "end": 5.014
+    },
+    {
+      "text": "and oxygen turns the",
+      "words": [
+        "and",
+        "oxygen",
+        "turns",
+        "the"
+      ],
+      "start": 5.019,
+      "end": 6.144
+    },
+    {
+      "text": "oil in a chip",
+      "words": [
+        "oil",
+        "in",
+        "a",
+        "chip"
+      ],
+      "start": 6.144,
+      "end": 6.893
+    },
+    {
+      "text": "rancid within days.",
+      "words": [
+        "rancid",
+        "within",
+        "days."
+      ],
+      "start": 6.893,
+      "end": 8.096
+    },
+    {
+      "text": "So the bag gets",
+      "words": [
+        "So",
+        "the",
+        "bag",
+        "gets"
+      ],
+      "start": 8.215,
+      "end": 8.912
+    },
+    {
+      "text": "flushed with nitrogen,",
+      "words": [
+        "flushed",
+        "with",
+        "nitrogen,"
+      ],
+      "start": 8.912,
+      "end": 10.026
+    },
+    {
+      "text": "which is inert and",
+      "words": [
+        "which",
+        "is",
+        "inert",
+        "and"
+      ],
+      "start": 10.037,
+      "end": 10.716
+    },
+    {
+      "text": "does nothing to food,",
+      "words": [
+        "does",
+        "nothing",
+        "to",
+        "food,"
+      ],
+      "start": 10.716,
+      "end": 11.777
+    },
+    {
+      "text": "and the oxygen inside",
+      "words": [
+        "and",
+        "the",
+        "oxygen",
+        "inside"
+      ],
+      "start": 11.813,
+      "end": 12.921
+    },
+    {
+      "text": "drops to almost",
+      "words": [
+        "drops",
+        "to",
+        "almost"
+      ],
+      "start": 12.921,
+      "end": 13.653
+    },
+    {
+      "text": "nothing.",
+      "words": [
+        "nothing."
+      ],
+      "start": 13.653,
+      "end": 14.195
+    },
+    {
+      "text": "That is the freshness",
+      "words": [
+        "That",
+        "is",
+        "the",
+        "freshness"
+      ],
+      "start": 14.239,
+      "end": 15.025
+    },
+    {
+      "text": "half.",
+      "words": [
+        "half."
+      ],
+      "start": 15.025,
+      "end": 15.531
+    },
+    {
+      "text": "The other half is",
+      "words": [
+        "The",
+        "other",
+        "half",
+        "is"
+      ],
+      "start": 15.559,
+      "end": 16.202
+    },
+    {
+      "text": "that chips are fragile",
+      "words": [
+        "that",
+        "chips",
+        "are",
+        "fragile"
+      ],
+      "start": 16.202,
+      "end": 17.114
+    },
+    {
+      "text": "and get stacked,",
+      "words": [
+        "and",
+        "get",
+        "stacked,"
+      ],
+      "start": 17.114,
+      "end": 18.012
+    },
+    {
+      "text": "dropped and driven",
+      "words": [
+        "dropped",
+        "and",
+        "driven"
+      ],
+      "start": 18.029,
+      "end": 18.761
+    },
+    {
+      "text": "across a country,",
+      "words": [
+        "across",
+        "a",
+        "country,"
+      ],
+      "start": 18.761,
+      "end": 19.493
+    },
+    {
+      "text": "so the gas is",
+      "words": [
+        "so",
+        "the",
+        "gas",
+        "is"
+      ],
+      "start": 19.493,
+      "end": 20.172
+    },
+    {
+      "text": "also a pillow.",
+      "words": [
+        "also",
+        "a",
+        "pillow."
+      ],
+      "start": 20.172,
+      "end": 21.035
+    },
+    {
+      "text": "You are buying a",
+      "words": [
+        "You",
+        "are",
+        "buying",
+        "a"
+      ],
+      "start": 21.075,
+      "end": 21.664
+    },
+    {
+      "text": "cushion that doubles",
+      "words": [
+        "cushion",
+        "that",
+        "doubles"
+      ],
+      "start": 21.664,
+      "end": 22.432
+    },
+    {
+      "text": "as a preservative.",
+      "words": [
+        "as",
+        "a",
+        "preservative."
+      ],
+      "start": 22.432,
+      "end": 23.349
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.088,
+      "end": 0.125
+    },
+    {
+      "text": "bag",
+      "start": 0.16,
+      "end": 0.304
+    },
+    {
+      "text": "of",
+      "start": 0.339,
+      "end": 0.374
+    },
+    {
+      "text": "chips",
+      "start": 0.5,
+      "end": 0.696
+    },
+    {
+      "text": "is",
+      "start": 0.749,
+      "end": 0.821
+    },
+    {
+      "text": "mostly",
+      "start": 0.893,
+      "end": 1.16
+    },
+    {
+      "text": "not",
+      "start": 1.303,
+      "end": 1.428
+    },
+    {
+      "text": "chips,",
+      "start": 1.536,
+      "end": 1.839
+    },
+    {
+      "text": "and",
+      "start": 2.046,
+      "end": 2.116
+    },
+    {
+      "text": "the",
+      "start": 2.134,
+      "end": 2.188
+    },
+    {
+      "text": "empty",
+      "start": 2.26,
+      "end": 2.42
+    },
+    {
+      "text": "part",
+      "start": 2.527,
+      "end": 2.67
+    },
+    {
+      "text": "is",
+      "start": 2.706,
+      "end": 2.777
+    },
+    {
+      "text": "not",
+      "start": 2.866,
+      "end": 3.009
+    },
+    {
+      "text": "air.",
+      "start": 3.116,
+      "end": 3.348
+    },
+    {
+      "text": "Air",
+      "start": 3.649,
+      "end": 3.81
+    },
+    {
+      "text": "is",
+      "start": 3.846,
+      "end": 3.919
+    },
+    {
+      "text": "a",
+      "start": 3.972,
+      "end": 4.061
+    },
+    {
+      "text": "fifth",
+      "start": 4.114,
+      "end": 4.275
+    },
+    {
+      "text": "oxygen,",
+      "start": 4.402,
+      "end": 4.794
+    },
+    {
+      "text": "and",
+      "start": 5.019,
+      "end": 5.161
+    },
+    {
+      "text": "oxygen",
+      "start": 5.268,
+      "end": 5.643
+    },
+    {
+      "text": "turns",
+      "start": 5.679,
+      "end": 5.912
+    },
+    {
+      "text": "the",
+      "start": 5.947,
+      "end": 6.054
+    },
+    {
+      "text": "oil",
+      "start": 6.144,
+      "end": 6.268
+    },
+    {
+      "text": "in",
+      "start": 6.304,
+      "end": 6.358
+    },
+    {
+      "text": "a",
+      "start": 6.393,
+      "end": 6.5
+    },
+    {
+      "text": "chip",
+      "start": 6.536,
+      "end": 6.751
+    },
+    {
+      "text": "rancid",
+      "start": 6.893,
+      "end": 7.216
+    },
+    {
+      "text": "within",
+      "start": 7.252,
+      "end": 7.465
+    },
+    {
+      "text": "days.",
+      "start": 7.555,
+      "end": 7.876
+    },
+    {
+      "text": "So",
+      "start": 8.215,
+      "end": 8.286
+    },
+    {
+      "text": "the",
+      "start": 8.322,
+      "end": 8.394
+    },
+    {
+      "text": "bag",
+      "start": 8.447,
+      "end": 8.626
+    },
+    {
+      "text": "gets",
+      "start": 8.679,
+      "end": 8.822
+    },
+    {
+      "text": "flushed",
+      "start": 8.912,
+      "end": 9.162
+    },
+    {
+      "text": "with",
+      "start": 9.197,
+      "end": 9.288
+    },
+    {
+      "text": "nitrogen,",
+      "start": 9.376,
+      "end": 9.806
+    },
+    {
+      "text": "which",
+      "start": 10.037,
+      "end": 10.127
+    },
+    {
+      "text": "is",
+      "start": 10.181,
+      "end": 10.252
+    },
+    {
+      "text": "inert",
+      "start": 10.288,
+      "end": 10.537
+    },
+    {
+      "text": "and",
+      "start": 10.573,
+      "end": 10.663
+    },
+    {
+      "text": "does",
+      "start": 10.716,
+      "end": 10.841
+    },
+    {
+      "text": "nothing",
+      "start": 10.948,
+      "end": 11.182
+    },
+    {
+      "text": "to",
+      "start": 11.217,
+      "end": 11.306
+    },
+    {
+      "text": "food,",
+      "start": 11.377,
+      "end": 11.557
+    },
+    {
+      "text": "and",
+      "start": 11.813,
+      "end": 11.867
+    },
+    {
+      "text": "the",
+      "start": 11.903,
+      "end": 11.956
+    },
+    {
+      "text": "oxygen",
+      "start": 12.081,
+      "end": 12.421
+    },
+    {
+      "text": "inside",
+      "start": 12.474,
+      "end": 12.849
+    },
+    {
+      "text": "drops",
+      "start": 12.921,
+      "end": 13.118
+    },
+    {
+      "text": "to",
+      "start": 13.153,
+      "end": 13.225
+    },
+    {
+      "text": "almost",
+      "start": 13.296,
+      "end": 13.547
+    },
+    {
+      "text": "nothing.",
+      "start": 13.653,
+      "end": 13.975
+    },
+    {
+      "text": "That",
+      "start": 14.239,
+      "end": 14.328
+    },
+    {
+      "text": "is",
+      "start": 14.365,
+      "end": 14.418
+    },
+    {
+      "text": "the",
+      "start": 14.454,
+      "end": 14.507
+    },
+    {
+      "text": "freshness",
+      "start": 14.597,
+      "end": 14.972
+    },
+    {
+      "text": "half.",
+      "start": 15.025,
+      "end": 15.311
+    },
+    {
+      "text": "The",
+      "start": 15.559,
+      "end": 15.613
+    },
+    {
+      "text": "other",
+      "start": 15.666,
+      "end": 15.809
+    },
+    {
+      "text": "half",
+      "start": 15.846,
+      "end": 16.041
+    },
+    {
+      "text": "is",
+      "start": 16.095,
+      "end": 16.166
+    },
+    {
+      "text": "that",
+      "start": 16.202,
+      "end": 16.345
+    },
+    {
+      "text": "chips",
+      "start": 16.399,
+      "end": 16.578
+    },
+    {
+      "text": "are",
+      "start": 16.613,
+      "end": 16.72
+    },
+    {
+      "text": "fragile",
+      "start": 16.774,
+      "end": 17.078
+    },
+    {
+      "text": "and",
+      "start": 17.114,
+      "end": 17.186
+    },
+    {
+      "text": "get",
+      "start": 17.221,
+      "end": 17.381
+    },
+    {
+      "text": "stacked,",
+      "start": 17.435,
+      "end": 17.792
+    },
+    {
+      "text": "dropped",
+      "start": 18.029,
+      "end": 18.314
+    },
+    {
+      "text": "and",
+      "start": 18.35,
+      "end": 18.439
+    },
+    {
+      "text": "driven",
+      "start": 18.493,
+      "end": 18.671
+    },
+    {
+      "text": "across",
+      "start": 18.761,
+      "end": 18.994
+    },
+    {
+      "text": "a",
+      "start": 19.047,
+      "end": 19.082
+    },
+    {
+      "text": "country,",
+      "start": 19.137,
+      "end": 19.404
+    },
+    {
+      "text": "so",
+      "start": 19.493,
+      "end": 19.565
+    },
+    {
+      "text": "the",
+      "start": 19.601,
+      "end": 19.672
+    },
+    {
+      "text": "gas",
+      "start": 19.744,
+      "end": 19.94
+    },
+    {
+      "text": "is",
+      "start": 19.976,
+      "end": 20.101
+    },
+    {
+      "text": "also",
+      "start": 20.172,
+      "end": 20.369
+    },
+    {
+      "text": "a",
+      "start": 20.422,
+      "end": 20.458
+    },
+    {
+      "text": "pillow.",
+      "start": 20.512,
+      "end": 20.815
+    },
+    {
+      "text": "You",
+      "start": 21.075,
+      "end": 21.127
+    },
+    {
+      "text": "are",
+      "start": 21.163,
+      "end": 21.252
+    },
+    {
+      "text": "buying",
+      "start": 21.307,
+      "end": 21.503
+    },
+    {
+      "text": "a",
+      "start": 21.538,
+      "end": 21.556
+    },
+    {
+      "text": "cushion",
+      "start": 21.664,
+      "end": 21.914
+    },
+    {
+      "text": "that",
+      "start": 21.949,
+      "end": 22.04
+    },
+    {
+      "text": "doubles",
+      "start": 22.146,
+      "end": 22.396
+    },
+    {
+      "text": "as",
+      "start": 22.432,
+      "end": 22.504
+    },
+    {
+      "text": "a",
+      "start": 22.539,
+      "end": 22.575
+    },
+    {
+      "text": "preservative.",
+      "start": 22.629,
+      "end": 23.129
+    }
+  ]
+}

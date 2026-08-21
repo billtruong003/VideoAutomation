@@ -1,0 +1,610 @@
+{
+  "note": "Timings correspond to public/audio/sneaker-lace-lock.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/sneaker-lace-lock/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/sneaker-lace-lock.timemap.json",
+  "audio": "public/audio/sneaker-lace-lock.wav",
+  "duration": 20.87,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "Almost every sneaker has one extra lace hole",
+      "start": 0.071,
+      "end": 2.233
+    },
+    {
+      "text": "at the top that nobody uses,",
+      "start": 2.25,
+      "end": 3.555
+    },
+    {
+      "text": "set slightly back from the rest.",
+      "start": 3.836,
+      "end": 5.156
+    },
+    {
+      "text": "Thread the lace through it on each side",
+      "start": 5.463,
+      "end": 7.071
+    },
+    {
+      "text": "and you get a small loop above the ankle.",
+      "start": 7.275,
+      "end": 8.83
+    },
+    {
+      "text": "Cross the laces into the opposite loop,",
+      "start": 9.066,
+      "end": 10.712
+    },
+    {
+      "text": "pull,",
+      "start": 10.979,
+      "end": 11.371
+    },
+    {
+      "text": "and the collar clamps down around your ankle",
+      "start": 11.388,
+      "end": 13.104
+    },
+    {
+      "text": "instead of squeezing the middle of your foot.",
+      "start": 13.157,
+      "end": 14.819
+    },
+    {
+      "text": "Your heel stops lifting out of the shoe with",
+      "start": 15.094,
+      "end": 16.755
+    },
+    {
+      "text": "every step.",
+      "start": 16.827,
+      "end": 17.363
+    },
+    {
+      "text": "Heel lift is what rubs a blister into the",
+      "start": 17.626,
+      "end": 19.235
+    },
+    {
+      "text": "back of your foot on a long walk.",
+      "start": 19.324,
+      "end": 20.664
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "Almost",
+      "start": 0.071,
+      "end": 0.304
+    },
+    {
+      "i": 1,
+      "text": "every",
+      "start": 0.41,
+      "end": 0.589
+    },
+    {
+      "i": 2,
+      "text": "sneaker",
+      "start": 0.678,
+      "end": 0.946
+    },
+    {
+      "i": 3,
+      "text": "has",
+      "start": 1.053,
+      "end": 1.25
+    },
+    {
+      "i": 4,
+      "text": "one",
+      "start": 1.303,
+      "end": 1.428
+    },
+    {
+      "i": 5,
+      "text": "extra",
+      "start": 1.554,
+      "end": 1.787
+    },
+    {
+      "i": 6,
+      "text": "lace",
+      "start": 1.893,
+      "end": 2.054
+    },
+    {
+      "i": 7,
+      "text": "hole",
+      "start": 2.107,
+      "end": 2.233
+    },
+    {
+      "i": 8,
+      "text": "at",
+      "start": 2.25,
+      "end": 2.304
+    },
+    {
+      "i": 9,
+      "text": "the",
+      "start": 2.339,
+      "end": 2.412
+    },
+    {
+      "i": 10,
+      "text": "top",
+      "start": 2.448,
+      "end": 2.644
+    },
+    {
+      "i": 11,
+      "text": "that",
+      "start": 2.68,
+      "end": 2.768
+    },
+    {
+      "i": 12,
+      "text": "nobody",
+      "start": 2.894,
+      "end": 3.197
+    },
+    {
+      "i": 13,
+      "text": "uses,",
+      "start": 3.251,
+      "end": 3.555
+    },
+    {
+      "i": 14,
+      "text": "set",
+      "start": 3.836,
+      "end": 4.013
+    },
+    {
+      "i": 15,
+      "text": "slightly",
+      "start": 4.085,
+      "end": 4.406
+    },
+    {
+      "i": 16,
+      "text": "back",
+      "start": 4.46,
+      "end": 4.585
+    },
+    {
+      "i": 17,
+      "text": "from",
+      "start": 4.638,
+      "end": 4.728
+    },
+    {
+      "i": 18,
+      "text": "the",
+      "start": 4.764,
+      "end": 4.818
+    },
+    {
+      "i": 19,
+      "text": "rest.",
+      "start": 4.888,
+      "end": 5.156
+    },
+    {
+      "i": 20,
+      "text": "Thread",
+      "start": 5.463,
+      "end": 5.677
+    },
+    {
+      "i": 21,
+      "text": "the",
+      "start": 5.713,
+      "end": 5.767
+    },
+    {
+      "i": 22,
+      "text": "lace",
+      "start": 5.839,
+      "end": 6.017
+    },
+    {
+      "i": 23,
+      "text": "through",
+      "start": 6.071,
+      "end": 6.231
+    },
+    {
+      "i": 24,
+      "text": "it",
+      "start": 6.267,
+      "end": 6.356
+    },
+    {
+      "i": 25,
+      "text": "on",
+      "start": 6.41,
+      "end": 6.535
+    },
+    {
+      "i": 26,
+      "text": "each",
+      "start": 6.589,
+      "end": 6.715
+    },
+    {
+      "i": 27,
+      "text": "side",
+      "start": 6.821,
+      "end": 7.071
+    },
+    {
+      "i": 28,
+      "text": "and",
+      "start": 7.275,
+      "end": 7.347
+    },
+    {
+      "i": 29,
+      "text": "you",
+      "start": 7.383,
+      "end": 7.454
+    },
+    {
+      "i": 30,
+      "text": "get",
+      "start": 7.507,
+      "end": 7.578
+    },
+    {
+      "i": 31,
+      "text": "a",
+      "start": 7.632,
+      "end": 7.703
+    },
+    {
+      "i": 32,
+      "text": "small",
+      "start": 7.739,
+      "end": 7.936
+    },
+    {
+      "i": 33,
+      "text": "loop",
+      "start": 8.043,
+      "end": 8.168
+    },
+    {
+      "i": 34,
+      "text": "above",
+      "start": 8.24,
+      "end": 8.4
+    },
+    {
+      "i": 35,
+      "text": "the",
+      "start": 8.436,
+      "end": 8.489
+    },
+    {
+      "i": 36,
+      "text": "ankle.",
+      "start": 8.579,
+      "end": 8.83
+    },
+    {
+      "i": 37,
+      "text": "Cross",
+      "start": 9.066,
+      "end": 9.263
+    },
+    {
+      "i": 38,
+      "text": "the",
+      "start": 9.3,
+      "end": 9.352
+    },
+    {
+      "i": 39,
+      "text": "laces",
+      "start": 9.424,
+      "end": 9.746
+    },
+    {
+      "i": 40,
+      "text": "into",
+      "start": 9.799,
+      "end": 9.942
+    },
+    {
+      "i": 41,
+      "text": "the",
+      "start": 9.978,
+      "end": 10.032
+    },
+    {
+      "i": 42,
+      "text": "opposite",
+      "start": 10.175,
+      "end": 10.479
+    },
+    {
+      "i": 43,
+      "text": "loop,",
+      "start": 10.55,
+      "end": 10.712
+    },
+    {
+      "i": 44,
+      "text": "pull,",
+      "start": 10.979,
+      "end": 11.195
+    },
+    {
+      "i": 45,
+      "text": "and",
+      "start": 11.388,
+      "end": 11.461
+    },
+    {
+      "i": 46,
+      "text": "the",
+      "start": 11.496,
+      "end": 11.549
+    },
+    {
+      "i": 47,
+      "text": "collar",
+      "start": 11.639,
+      "end": 11.871
+    },
+    {
+      "i": 48,
+      "text": "clamps",
+      "start": 11.96,
+      "end": 12.228
+    },
+    {
+      "i": 49,
+      "text": "down",
+      "start": 12.3,
+      "end": 12.461
+    },
+    {
+      "i": 50,
+      "text": "around",
+      "start": 12.532,
+      "end": 12.693
+    },
+    {
+      "i": 51,
+      "text": "your",
+      "start": 12.746,
+      "end": 12.818
+    },
+    {
+      "i": 52,
+      "text": "ankle",
+      "start": 12.889,
+      "end": 13.104
+    },
+    {
+      "i": 53,
+      "text": "instead",
+      "start": 13.157,
+      "end": 13.39
+    },
+    {
+      "i": 54,
+      "text": "of",
+      "start": 13.425,
+      "end": 13.514
+    },
+    {
+      "i": 55,
+      "text": "squeezing",
+      "start": 13.568,
+      "end": 13.943
+    },
+    {
+      "i": 56,
+      "text": "the",
+      "start": 13.979,
+      "end": 14.086
+    },
+    {
+      "i": 57,
+      "text": "middle",
+      "start": 14.141,
+      "end": 14.284
+    },
+    {
+      "i": 58,
+      "text": "of",
+      "start": 14.336,
+      "end": 14.39
+    },
+    {
+      "i": 59,
+      "text": "your",
+      "start": 14.444,
+      "end": 14.569
+    },
+    {
+      "i": 60,
+      "text": "foot.",
+      "start": 14.622,
+      "end": 14.819
+    },
+    {
+      "i": 61,
+      "text": "Your",
+      "start": 15.094,
+      "end": 15.183
+    },
+    {
+      "i": 62,
+      "text": "heel",
+      "start": 15.237,
+      "end": 15.434
+    },
+    {
+      "i": 63,
+      "text": "stops",
+      "start": 15.487,
+      "end": 15.755
+    },
+    {
+      "i": 64,
+      "text": "lifting",
+      "start": 15.844,
+      "end": 16.076
+    },
+    {
+      "i": 65,
+      "text": "out",
+      "start": 16.13,
+      "end": 16.184
+    },
+    {
+      "i": 66,
+      "text": "of",
+      "start": 16.219,
+      "end": 16.256
+    },
+    {
+      "i": 67,
+      "text": "the",
+      "start": 16.291,
+      "end": 16.344
+    },
+    {
+      "i": 68,
+      "text": "shoe",
+      "start": 16.451,
+      "end": 16.594
+    },
+    {
+      "i": 69,
+      "text": "with",
+      "start": 16.631,
+      "end": 16.755
+    },
+    {
+      "i": 70,
+      "text": "every",
+      "start": 16.827,
+      "end": 17.059
+    },
+    {
+      "i": 71,
+      "text": "step.",
+      "start": 17.112,
+      "end": 17.345
+    },
+    {
+      "i": 72,
+      "text": "Heel",
+      "start": 17.626,
+      "end": 17.787
+    },
+    {
+      "i": 73,
+      "text": "lift",
+      "start": 17.858,
+      "end": 18.02
+    },
+    {
+      "i": 74,
+      "text": "is",
+      "start": 18.055,
+      "end": 18.126
+    },
+    {
+      "i": 75,
+      "text": "what",
+      "start": 18.162,
+      "end": 18.269
+    },
+    {
+      "i": 76,
+      "text": "rubs",
+      "start": 18.359,
+      "end": 18.519
+    },
+    {
+      "i": 77,
+      "text": "a",
+      "start": 18.573,
+      "end": 18.591
+    },
+    {
+      "i": 78,
+      "text": "blister",
+      "start": 18.68,
+      "end": 18.984
+    },
+    {
+      "i": 79,
+      "text": "into",
+      "start": 19.02,
+      "end": 19.146
+    },
+    {
+      "i": 80,
+      "text": "the",
+      "start": 19.181,
+      "end": 19.235
+    },
+    {
+      "i": 81,
+      "text": "back",
+      "start": 19.324,
+      "end": 19.484
+    },
+    {
+      "i": 82,
+      "text": "of",
+      "start": 19.521,
+      "end": 19.574
+    },
+    {
+      "i": 83,
+      "text": "your",
+      "start": 19.609,
+      "end": 19.682
+    },
+    {
+      "i": 84,
+      "text": "foot",
+      "start": 19.77,
+      "end": 19.895
+    },
+    {
+      "i": 85,
+      "text": "on",
+      "start": 19.949,
+      "end": 20.003
+    },
+    {
+      "i": 86,
+      "text": "a",
+      "start": 20.039,
+      "end": 20.111
+    },
+    {
+      "i": 87,
+      "text": "long",
+      "start": 20.163,
+      "end": 20.378
+    },
+    {
+      "i": 88,
+      "text": "walk.",
+      "start": 20.431,
+      "end": 20.664
+    }
+  ]
+}

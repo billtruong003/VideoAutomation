@@ -627,6 +627,38 @@ export async function runAlignmentStage(batchId, { concurrency = 2, slugOf = (e)
       alignmentError = { code: err.code ?? 'ELEVENLABS_ALIGNMENT_FAILED', message: err.message };
     }
 
+    /*
+     * A SECOND alignment, against the RAW take, for the pipeline handoff.
+     *
+     * These two files answer different questions and are on different clocks.
+     *
+     *   subtitles.srt        — what the viewer reads, timed against the PROCESSED audio,
+     *                          because that is the audio the video actually plays.
+     *   subtitles-raw.json   — the handoff artefact, timed against the RAW take, because
+     *                          `remap-timing.mjs` projects it THROUGH the time map to reach
+     *                          processed time.
+     *
+     * Writing the processed alignment into the raw file makes remap-timing transform
+     * already-transformed timestamps. Nothing errors: every word still lands inside the file,
+     * so the subtitles look plausible and the scene boundaries quietly drift by up to two
+     * seconds. It surfaces at QA GATE 2 as "phrase drifts from the nearest onset" on every
+     * episode, which reads like an audio problem and is not one. The canary never caught it
+     * because it stopped at AUDIO_READY and never ran the timing stage.
+     */
+    const rawTake = e.takes.find((t) => t.label === e.winning_take);
+    let rawAlignment = null;
+    if (rawTake?.audio_path && existsSync(rawTake.audio_path)) {
+      try {
+        rawAlignment = await forcedAlignment({
+          audio: readFileSync(rawTake.audio_path),
+          filename: `${slug}-raw.mp3`,
+          text: e.content,
+        });
+      } catch (err) {
+        alignmentError ??= { code: err.code ?? 'RAW_ALIGNMENT_FAILED', message: err.message };
+      }
+    }
+
     const transcript = e.stt_path && existsSync(e.stt_path) ? JSON.parse(readFileSync(e.stt_path, 'utf8')) : null;
     const durationS = probeDuration(e.processed_audio);
     const built = buildSubtitles({
@@ -637,24 +669,34 @@ export async function runAlignmentStage(batchId, { concurrency = 2, slugOf = (e)
     mkdirSync(dir, { recursive: true });
 
     /*
-     * Written in ElevenLabs' own alignment shape at exactly the path the existing pipeline
-     * reads. `remap-timing.mjs` cannot tell this from a hand-exported file, which is the whole
-     * handoff.
+     * The handoff file, in ElevenLabs' own alignment shape, on the RAW clock — which is what
+     * `remap-timing.mjs` expects to project through the time map.
      */
-    if (built.cues.length) {
-      const words = alignment?.words ?? [];
+    const rawBuilt = rawAlignment?.words?.length
+      ? buildSubtitles({
+        canonicalText: e.content,
+        alignment: rawAlignment,
+        transcript: null,
+        audioDurationS: rawTake?.duration_s ?? null,
+      })
+      : null;
+
+    if (rawBuilt?.cues.length) {
+      const words = rawAlignment.words;
       writeFileSync(join(dir, 'subtitles-raw.json'), `${JSON.stringify({
         language_code: 'en',
-        note: 'Word alignment produced by the audio factory against the PROCESSED narration.',
-        source: built.method,
-        segments: built.cues.map((c) => ({
+        note: 'Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.',
+        source: rawBuilt.method,
+        segments: rawBuilt.cues.map((c) => ({
           text: c.text, start_time: c.start, end_time: c.end, speaker: 'narrator',
-          words: (words.length ? words : []).filter((w) => w.start >= c.start - 1e-6 && w.end <= c.end + 1e-6)
+          words: words.filter((w) => w.start >= c.start - 1e-6 && w.end <= c.end + 1e-6)
             .map((w) => ({ text: w.text, start_time: w.start, end_time: w.end })),
         })),
       }, null, 2)}\n`);
-      writeFileSync(join(dir, 'subtitles.srt'), built.srt);
     }
+
+    // The subtitle a viewer reads is timed against the audio the video plays.
+    if (built.cues.length) writeFileSync(join(dir, 'subtitles.srt'), built.srt);
 
     const alignPath = join(takeDir(batchId, e.episode_id), 'alignment.json');
     writeFileSync(alignPath, `${JSON.stringify({ alignment, alignmentError, method: built.method, validation: built.validation }, null, 2)}\n`);
@@ -735,14 +777,28 @@ export function writeHandoffManifest(batchId, { slugOf = (e) => e.episode_id } =
     episodes: episodes.map((e, i) => {
       const slug = slugOf(e);
       const srt = join(ROOT, 'episodes', slug, 'subtitles.srt');
+      const winner = e.takes.find((t) => t.label === e.winning_take);
       return {
         n: i + 1,
         slug,
         title: e.title,
         stamp: e.selected_at,
-        audio: posix(e.processed_audio),
+        /*
+         * The RAW winning take, not the processed WAV.
+         *
+         * `audio` in this manifest means "the file process-voiceover consumed", because that is
+         * what downstream QA needs: remap-timing decodes it and measures the waveform inside
+         * every region the silence pass removed, to prove the cuts landed in dead air rather
+         * than through a word. Those timestamps are on the RAW clock. Point this at the
+         * processed WAV and the gate samples the wrong file at the right numbers, finds speech
+         * in every "cut", and fails all twenty episodes for a defect that does not exist.
+         *
+         * The processed WAV is found by convention at public/audio/<slug>.wav and does not
+         * need to be named here. `rawDuration` below describes this same raw file.
+         */
+        audio: posix(winner?.audio_path ?? e.processed_audio),
         subtitle: posix(srt),
-        rawDuration: e.takes.find((t) => t.label === e.winning_take)?.duration_s ?? null,
+        rawDuration: winner?.duration_s ?? null,
         /*
          * The last cue's end time. build-batch.mjs carried this so downstream pair validation
          * can prove the subtitle belongs to the audio; omitting it silently disabled that check

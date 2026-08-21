@@ -1,0 +1,216 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "tape-measure-hook",
+  "title": "That Wobbly Tape Measure Hook Is Not Broken",
+  "audio": "public/audio/tape-measure-hook.wav",
+  "fps": 30,
+  "narrationDuration": 22.121,
+  "beatCount": 18,
+  "longestGap": 2.046,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 5.989,
+      "startFrame": 2,
+      "endFrame": 180,
+      "duration": 5.918,
+      "narration": "The metal hook on the end of a tape measure wobbles, and every time you notice it you assume the thing is worn out. The hook is supposed to move.",
+      "background": "OldWorkshop",
+      "note": "The wobble is the hook of the episode. Show it moving before anyone explains it.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill holds a tape measure; the end hook visibly rattles as he shakes it"
+        },
+        {
+          "t": 1.715,
+          "frame": 51,
+          "tInScene": 1.644,
+          "frameInScene": 49,
+          "action": "camera punches onto the hook; it slides back and forth on its rivets"
+        },
+        {
+          "t": 3.271,
+          "frame": 98,
+          "tInScene": 3.2,
+          "frameInScene": 96,
+          "action": "Bill turns the tape over, frowning at it",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 4.217,
+          "frame": 127,
+          "tInScene": 4.146,
+          "frameInScene": 124,
+          "action": "a WORN OUT? label lands beside the hook, then gets crossed out"
+        }
+      ]
+    },
+    {
+      "scene": "slides",
+      "start": 6.263,
+      "end": 9.712,
+      "startFrame": 188,
+      "endFrame": 291,
+      "duration": 3.449,
+      "narration": "It slides exactly as far as the hook is thick, about a sixteenth of an inch.",
+      "background": "SchematicVoid",
+      "note": "Clean measurement diagram. The travel distance and the hook thickness are drawn as the SAME dimension.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 6.263,
+          "frame": 188,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the hook isolates on a schematic field, drawn in section"
+        },
+        {
+          "t": 6.423,
+          "frame": 193,
+          "tInScene": 0.16,
+          "frameInScene": 5,
+          "action": "the hook travels its full play; a dimension line measures the travel"
+        },
+        {
+          "t": 8.229,
+          "frame": 247,
+          "tInScene": 1.966,
+          "frameInScene": 59,
+          "action": "a second dimension line measures the metal thickness — the two are identical and snap together"
+        }
+      ]
+    },
+    {
+      "scene": "outside",
+      "start": 9.987,
+      "end": 13.134,
+      "startFrame": 300,
+      "endFrame": 394,
+      "duration": 3.147,
+      "narration": "Hook it over the edge of a board and it pulls out, adding that thickness back.",
+      "background": "SchematicVoid",
+      "note": "Outside measurement. The hook pulls OUT and the gap it leaves is exactly its own thickness.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 9.987,
+          "frame": 300,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a board edge appears; the tape hooks over it"
+        },
+        {
+          "t": 11.363,
+          "frame": 341,
+          "tInScene": 1.376,
+          "frameInScene": 41,
+          "action": "the hook slides outward against the board; the tape body moves back by the hook thickness"
+        },
+        {
+          "t": 12.133,
+          "frame": 364,
+          "tInScene": 2.146,
+          "frameInScene": 64,
+          "action": "the added thickness highlights teal against the ruler scale"
+        }
+      ]
+    },
+    {
+      "scene": "inside",
+      "start": 13.392,
+      "end": 16.576,
+      "startFrame": 402,
+      "endFrame": 497,
+      "duration": 3.184,
+      "narration": "Push it into a corner and it slides in, taking that thickness away.",
+      "background": "SchematicVoid",
+      "note": "Inside measurement — the mirror of the previous scene. Same hook, opposite direction.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 13.392,
+          "frame": 402,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the board becomes an inside corner; the tape pushes against it"
+        },
+        {
+          "t": 13.964,
+          "frame": 419,
+          "tInScene": 0.572,
+          "frameInScene": 17,
+          "action": "the hook compresses flat against the wall, sliding inward"
+        },
+        {
+          "t": 16.272,
+          "frame": 488,
+          "tInScene": 2.88,
+          "frameInScene": 86,
+          "action": "the same thickness highlights coral and is subtracted from the scale"
+        },
+        {
+          "t": 15.122,
+          "frame": 454,
+          "tInScene": 1.73,
+          "frameInScene": 52,
+          "action": "the hook face presses flat against the corner and holds there",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 16.878,
+      "end": 21.877,
+      "startFrame": 506,
+      "endFrame": 656,
+      "duration": 4.999,
+      "narration": "Either way the tape starts reading from true zero. The loosest part of the tool is the part keeping it honest.",
+      "background": "OldWorkshop",
+      "note": "Both diagrams collapse into one reading. Sincere, not smug. Hard cut on the last word.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 18.95,
+          "frame": 569,
+          "tInScene": 2.072,
+          "frameInScene": 62,
+          "action": "both measurements resolve to the same TRUE ZERO mark; the two diagrams overlay perfectly"
+        },
+        {
+          "t": 20.677,
+          "frame": 620,
+          "tInScene": 3.799,
+          "frameInScene": 114,
+          "action": "Bill wiggles the hook once more, now approvingly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 21.555,
+          "frame": 647,
+          "tInScene": 4.677,
+          "frameInScene": 140,
+          "action": "Bill clips the tape back on his belt; hard cut"
+        },
+        {
+          "t": 17.608,
+          "frame": 528,
+          "tInScene": 0.73,
+          "frameInScene": 22,
+          "action": "the dimension lines from both diagrams slide together and align",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

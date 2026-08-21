@@ -1,0 +1,239 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "foil-shiny-dull",
+  "title": "The Shiny Side Of Foil Is A Manufacturing Accident",
+  "audio": "public/audio/foil-shiny-dull.wav",
+  "fps": 30,
+  "narrationDuration": 23.78,
+  "beatCount": 21,
+  "longestGap": 2.197,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 4.336,
+      "startFrame": 2,
+      "endFrame": 130,
+      "duration": 4.265,
+      "narration": "One side of aluminum foil is shiny and the other side is dull, and the box never explains why.",
+      "background": "KitchenCounter",
+      "note": "Both sides in one shot, catching light differently. The question is visual before it is spoken.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill pulls a sheet of foil off a roll; it flashes on one face, matte on the other"
+        },
+        {
+          "t": 1.285,
+          "frame": 39,
+          "tInScene": 1.214,
+          "frameInScene": 36,
+          "action": "the shiny face catches a highlight and labels itself"
+        },
+        {
+          "t": 2.447,
+          "frame": 73,
+          "tInScene": 2.376,
+          "frameInScene": 71,
+          "action": "the sheet flips; the matte face labels itself"
+        },
+        {
+          "t": 3.676,
+          "frame": 110,
+          "tInScene": 3.605,
+          "frameInScene": 108,
+          "action": "Bill turns the box over looking for an answer and finds nothing"
+        }
+      ]
+    },
+    {
+      "scene": "notcoating",
+      "start": 4.62,
+      "end": 7.115,
+      "startFrame": 139,
+      "endFrame": 213,
+      "duration": 2.495,
+      "narration": "It is not a coating, and it is not a nonstick side.",
+      "background": "KitchenCounter",
+      "note": "Kill the two wrong answers fast so the real one has room. Crossed out, not argued with.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 4.62,
+          "frame": 139,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a COATING label appears over the sheet and is crossed out"
+        },
+        {
+          "t": 6.347,
+          "frame": 190,
+          "tInScene": 1.727,
+          "frameInScene": 52,
+          "action": "a NONSTICK label appears and is crossed out too"
+        }
+      ]
+    },
+    {
+      "scene": "mill",
+      "start": 7.492,
+      "end": 16.851,
+      "startFrame": 225,
+      "endFrame": 506,
+      "duration": 9.359,
+      "narration": "Foil gets rolled thinner and thinner between polished steel rollers, and by the last pass it is so thin a single sheet would tear itself apart, so the mill runs two sheets through stacked together.",
+      "background": "CutawayVoid",
+      "note": "THE mechanism scene. The two-sheet pass is the whole episode — give it room and show it clearly.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 7.492,
+          "frame": 225,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a rolling mill draws in; a thick aluminum ribbon feeds between two polished rollers"
+        },
+        {
+          "t": 8.331,
+          "frame": 250,
+          "tInScene": 0.839,
+          "frameInScene": 25,
+          "action": "the ribbon passes through repeatedly, thinning at each pass"
+        },
+        {
+          "t": 13.654,
+          "frame": 410,
+          "tInScene": 6.162,
+          "frameInScene": 185,
+          "action": "a single ultra-thin sheet enters alone and rips apart; the frame flinches"
+        },
+        {
+          "t": 16.173,
+          "frame": 485,
+          "tInScene": 8.681,
+          "frameInScene": 260,
+          "action": "two sheets stack and enter together; they survive the pass"
+        },
+        {
+          "t": 9.662,
+          "frame": 290,
+          "tInScene": 2.17,
+          "frameInScene": 65,
+          "action": "the ribbon emerges thinner and feeds back toward the rollers",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 10.992,
+          "frame": 330,
+          "tInScene": 3.5,
+          "frameInScene": 105,
+          "action": "the ribbon makes another pass; the rollers squeeze it thinner again",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 12.322,
+          "frame": 370,
+          "tInScene": 4.83,
+          "frameInScene": 145,
+          "action": "the torn single sheet curls away out of frame",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 14.912,
+          "frame": 447,
+          "tInScene": 7.42,
+          "frameInScene": 223,
+          "action": "the paired sheets travel on together through the nip",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "outer",
+      "start": 17.12,
+      "end": 20.428,
+      "startFrame": 514,
+      "endFrame": 613,
+      "duration": 3.308,
+      "narration": "The outer faces press against mirror-bright steel and come out shiny.",
+      "background": "CutawayVoid",
+      "note": "Cross-section at the roller nip. Outer faces touch steel.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 17.12,
+          "frame": 514,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the nip enlarges into cross-section: roller, sheet, sheet, roller"
+        },
+        {
+          "t": 18.496,
+          "frame": 555,
+          "tInScene": 1.376,
+          "frameInScene": 41,
+          "action": "the two outer faces glow against the polished steel and come out gleaming"
+        },
+        {
+          "t": 19.61,
+          "frame": 588,
+          "tInScene": 2.49,
+          "frameInScene": 75,
+          "action": "the polished roller turns, holding its mirror finish against the sheet",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "inner",
+      "start": 20.722,
+      "end": 23.526,
+      "startFrame": 622,
+      "endFrame": 706,
+      "duration": 2.804,
+      "narration": "The two inner faces press against each other and come out dull.",
+      "background": "CutawayVoid",
+      "note": "The other half of the same frame. Then peel them apart — that is the payoff image.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 20.722,
+          "frame": 622,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the two inner faces press together, matte where they meet"
+        },
+        {
+          "t": 21.079,
+          "frame": 632,
+          "tInScene": 0.357,
+          "frameInScene": 11,
+          "action": "the sheets peel apart, each showing one shiny and one dull face"
+        },
+        {
+          "t": 23.276,
+          "frame": 698,
+          "tInScene": 2.554,
+          "frameInScene": 77,
+          "action": "the pair separates fully and the episode hard cuts on the matched pair"
+        },
+        {
+          "t": 20.822,
+          "frame": 625,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the two sheets slide apart a few units, still face to face",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "railway-ballast",
+  "title": "That Gravel Under Train Tracks Isn't Landscaping",
+  "audio": "public/audio/railway-ballast.wav",
+  "fps": 30,
+  "narrationDuration": 23.195,
+  "beatCount": 19,
+  "longestGap": 2.14,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.106,
+      "end": 3.924,
+      "startFrame": 3,
+      "endFrame": 118,
+      "duration": 3.818,
+      "narration": "Train tracks sit on a bed of sharp, angular gravel, and it is there on purpose.",
+      "background": "HighwayRoadside",
+      "note": "Establish the stones as deliberate, not mess. The angularity matters later — show it now.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.106,
+          "frame": 3,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a track bed in profile; sharp stones packed under the sleepers"
+        },
+        {
+          "t": 2.321,
+          "frame": 70,
+          "tInScene": 2.215,
+          "frameInScene": 66,
+          "action": "camera punches into the stones; their sharp edges draw clearly"
+        },
+        {
+          "t": 3.549,
+          "frame": 106,
+          "tInScene": 3.443,
+          "frameInScene": 103,
+          "action": "an ON PURPOSE label lands; four empty tally marks appear"
+        },
+        {
+          "t": 1.216,
+          "frame": 36,
+          "tInScene": 1.11,
+          "frameInScene": 33,
+          "action": "the camera tracks along the sleepers, stones packed between them",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "load",
+      "start": 4.226,
+      "end": 10.724,
+      "startFrame": 127,
+      "endFrame": 322,
+      "duration": 6.498,
+      "narration": "A loaded train puts enormous weight onto a thin steel rail, and the stones spread that load sideways so the ground underneath does not sink.",
+      "background": "CutawayVoid",
+      "note": "Job one. A narrow load spreading into a wide cone is the clearest possible drawing of it.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 4.226,
+          "frame": 127,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a loaded train presses down on a single rail in cross-section"
+        },
+        {
+          "t": 5.655,
+          "frame": 170,
+          "tInScene": 1.429,
+          "frameInScene": 43,
+          "action": "a heavy arrow drives down through rail and sleeper"
+        },
+        {
+          "t": 7.795,
+          "frame": 234,
+          "tInScene": 3.569,
+          "frameInScene": 107,
+          "action": "the force fans out through the stones into a wide cone"
+        },
+        {
+          "t": 10.511,
+          "frame": 315,
+          "tInScene": 6.285,
+          "frameInScene": 189,
+          "action": "a no-ballast version beside it punches straight into the ground; first tally fills"
+        },
+        {
+          "t": 9.156,
+          "frame": 275,
+          "tInScene": 4.93,
+          "frameInScene": 148,
+          "action": "the force cone widens further down into the bed",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "interlock",
+      "start": 10.976,
+      "end": 15.683,
+      "startFrame": 329,
+      "endFrame": 470,
+      "duration": 4.707,
+      "narration": "Because they are angular rather than rounded, they lock against each other and stop the track creeping out of line.",
+      "background": "SchematicVoid",
+      "note": "Job two. Angular versus rounded, side by side. The rounded bed should visibly flow apart.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 10.976,
+          "frame": 329,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "angular stones and round pebbles fill two panels"
+        },
+        {
+          "t": 13.237,
+          "frame": 397,
+          "tInScene": 2.261,
+          "frameInScene": 68,
+          "action": "the angular stones wedge against each other and hold"
+        },
+        {
+          "t": 14.896,
+          "frame": 447,
+          "tInScene": 3.92,
+          "frameInScene": 118,
+          "action": "the rounded panel rolls apart under a sideways push; second tally fills"
+        },
+        {
+          "t": 12.106,
+          "frame": 363,
+          "tInScene": 1.13,
+          "frameInScene": 34,
+          "action": "the angular stones settle another notch against each other",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "drainage",
+      "start": 16.04,
+      "end": 18.47,
+      "startFrame": 481,
+      "endFrame": 554,
+      "duration": 2.43,
+      "narration": "Rain drains through the gaps instead of turning the bed to mud.",
+      "background": "CutawayVoid",
+      "note": "Job three. Water falling straight through, versus a mud bed. Quick.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 16.04,
+          "frame": 481,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "rain falls onto the ballast bed"
+        },
+        {
+          "t": 16.236,
+          "frame": 487,
+          "tInScene": 0.196,
+          "frameInScene": 6,
+          "action": "water runs through the gaps and away beneath"
+        },
+        {
+          "t": 18.257,
+          "frame": 548,
+          "tInScene": 2.217,
+          "frameInScene": 67,
+          "action": "a sealed bed beside it turns to mud and sags; third tally fills"
+        }
+      ]
+    },
+    {
+      "scene": "vibration",
+      "start": 18.755,
+      "end": 22.952,
+      "startFrame": 563,
+      "endFrame": 689,
+      "duration": 4.197,
+      "narration": "And the layer soaks up vibration, which is why a passing train shakes the ground less than it should.",
+      "background": "HighwayRoadside",
+      "note": "Job four. Vibration damped between stones. Fourth tally completes the set — that is the button.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 18.755,
+          "frame": 563,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a train passes; vibration rings radiate down into the bed"
+        },
+        {
+          "t": 19.72,
+          "frame": 592,
+          "tInScene": 0.965,
+          "frameInScene": 29,
+          "action": "the rings scatter and fade between the stones"
+        },
+        {
+          "t": 21.666,
+          "frame": 650,
+          "tInScene": 2.911,
+          "frameInScene": 87,
+          "action": "Bill barely rocks trackside; the fourth tally fills and all four glow; hard cut"
+        }
+      ]
+    }
+  ]
+}

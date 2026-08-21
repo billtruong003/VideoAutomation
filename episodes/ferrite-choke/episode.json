@@ -1,0 +1,218 @@
+{
+  "slug": "ferrite-choke",
+  "title": "Charger Cables Have A Lump That Stops Them Broadcasting",
+  "hook": "A cable is an antenna, and the lump is what shuts it up.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Desk Bill. The lump has annoyed him for years."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "There is a hard lump",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "Weight sells it. Bill should feel the mass, not just see the shape.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a charger cable snakes across a desk; Bill picks up the moulded lump"
+        },
+        {
+          "kw": "lump",
+          "action": "the lump circles teal; camera punches in"
+        },
+        {
+          "kw": "heavy",
+          "action": "the cable dips under the lump; a small weight mark drops beside it"
+        },
+        {
+          "at": 2.39,
+          "action": "Bill turns the lump over, weighing it in his palm",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "from": "Inside it is a ring",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Open it up. A ring around the wire, nothing more complicated than that.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the plastic shell peels away in cross-section"
+        },
+        {
+          "kw": "ferrite",
+          "action": "a dark ceramic ring is revealed encircling the cable, labelled"
+        }
+      ]
+    },
+    {
+      "id": "antenna",
+      "from": "A power cable is a long",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "THE idea of the episode: wire equals antenna. Broadcast waves need to look like a nuisance.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the cable straightens into a plain horizontal wire on a schematic field"
+        },
+        {
+          "kw": "antenna",
+          "action": "the wire redraws as an aerial; broadcast arcs radiate off it"
+        },
+        {
+          "kw": "noise",
+          "action": "jagged high-frequency squiggles run along the wire in coral"
+        },
+        {
+          "kw": "carry",
+          "action": "the arcs reach a nearby radio icon, which fuzzes"
+        },
+        {
+          "at": 1.74,
+          "action": "the broadcast arcs pulse outward again, wider",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.85,
+          "action": "the radio icon fuzzes harder as the arcs strengthen",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "filter",
+      "from": "The ferrite ring lets",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Selectivity is the mechanism: power passes, noise does not. Show BOTH signals meeting the ring.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the ferrite ring drops onto the wire"
+        },
+        {
+          "kw": "power",
+          "action": "a smooth low-frequency wave passes straight through the ring untouched"
+        },
+        {
+          "kw": "heat",
+          "action": "the jagged noise hits the ring, is absorbed, and radiates off as small heat marks"
+        },
+        {
+          "at": 3.22,
+          "action": "more noise arrives at the ring and is absorbed",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "It is a filter wrapped",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "Return to the desk. The radio clears. End on the object.",
+      "beats": [
+        {
+          "kw": "filter",
+          "action": "the ring settles back inside its plastic shell on the real cable"
+        },
+        {
+          "kw": "transmitting",
+          "action": "the broadcast arcs cut out; the radio icon clears; hard cut"
+        },
+        {
+          "at": 1.7,
+          "action": "the plastic shell closes back over the ring",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "lump",
+      [
+        "lump"
+      ],
+      0
+    ],
+    [
+      "heavy",
+      [
+        "heavy"
+      ],
+      0
+    ],
+    [
+      "ferrite",
+      [
+        "ferrite"
+      ],
+      0
+    ],
+    [
+      "antenna",
+      [
+        "antenna"
+      ],
+      0
+    ],
+    [
+      "noise",
+      [
+        "noise"
+      ],
+      0
+    ],
+    [
+      "carry",
+      [
+        "carry"
+      ],
+      0
+    ],
+    [
+      "power",
+      [
+        "power"
+      ],
+      1
+    ],
+    [
+      "heat",
+      [
+        "heat"
+      ],
+      0
+    ],
+    [
+      "filter",
+      [
+        "filter"
+      ],
+      0
+    ],
+    [
+      "transmitting",
+      [
+        "transmitting"
+      ],
+      0
+    ]
+  ]
+}

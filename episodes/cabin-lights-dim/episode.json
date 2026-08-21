@@ -1,0 +1,209 @@
+{
+  "slug": "cabin-lights-dim",
+  "title": "Why The Cabin Lights Go Down Before Landing",
+  "hook": "A comfort gesture that is actually evacuation preparation.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "TONE: this concerns emergency evacuation. Nobody panics, nothing burns. The diagram stays calm."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "The cabin lights go down",
+      "background": "PlaneCabin",
+      "cast": [
+        "bill"
+      ],
+      "note": "Two wrong explanations offered up front, both of which the viewer probably holds.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the cabin dims for landing; window shades up, night outside"
+        },
+        {
+          "kw": "dim-down",
+          "action": "the lights fade; a MOOD LIGHTING label appears"
+        },
+        {
+          "kw": "saving",
+          "action": "a SAVING POWER label appears beside it"
+        },
+        {
+          "at": 2.2,
+          "action": "the cabin dims another step; the window darkens",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "neither",
+      "from": "It is neither",
+      "background": "PlaneCabin",
+      "cast": [
+        "bill"
+      ],
+      "note": "One beat. Both labels die together.",
+      "beats": [
+        {
+          "kw": "neither",
+          "action": "both labels cross out at once"
+        }
+      ]
+    },
+    {
+      "id": "adapt",
+      "from": "Eyes take several minutes",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Dark adaptation as a timed process. The clock matters — minutes, not instants.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "an eye diagram in bright light, pupil small"
+        },
+        {
+          "kw": "adapt",
+          "action": "the light drops; the pupil widens slowly against a running clock"
+        },
+        {
+          "kw": "evacuation",
+          "action": "takeoff and landing highlight on a flight profile as the risk windows"
+        },
+        {
+          "at": 2.47,
+          "action": "the pupil widens further as the clock runs on",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "blind",
+      "from": "If the cabin were brightly lit",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The counterfactual, stated calmly. Bright then dark, and nobody can see. No screaming, no fire.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a brightly lit cabin in cross-section, everything clearly visible"
+        },
+        {
+          "kw": "power",
+          "action": "the lights cut; the frame goes near-black"
+        },
+        {
+          "kw": "blind",
+          "action": "the exits are unreadable in the dark; a clock ticks off the adaptation delay"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Dimming early means",
+      "background": "PlaneCabin",
+      "cast": [
+        "bill"
+      ],
+      "note": "The resolution: pre-adapted eyes read the cabin instantly. End on the floor lighting.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the pre-dimmed cabin loses power; the scene stays readable"
+        },
+        {
+          "kw": "adjusted",
+          "action": "the floor path lighting and exit signs read clearly and brightly"
+        },
+        {
+          "kw": "see",
+          "action": "the exit path glows the full length of the aisle; hard cut"
+        },
+        {
+          "at": 3,
+          "action": "the exit signs brighten against the dim cabin",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.31,
+          "action": "the exit path lighting runs further down the aisle",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 5.62,
+          "action": "the aisle path glows steadily toward the door",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "dim-down",
+      [
+        "down"
+      ],
+      0
+    ],
+    [
+      "saving",
+      [
+        "saving"
+      ],
+      0
+    ],
+    [
+      "neither",
+      [
+        "neither"
+      ],
+      0
+    ],
+    [
+      "adapt",
+      [
+        "adapt"
+      ],
+      0
+    ],
+    [
+      "evacuation",
+      [
+        "evacuation"
+      ],
+      0
+    ],
+    [
+      "power",
+      [
+        "power"
+      ],
+      1
+    ],
+    [
+      "blind",
+      [
+        "blind"
+      ],
+      0
+    ],
+    [
+      "adjusted",
+      [
+        "adjusted"
+      ],
+      0
+    ],
+    [
+      "see",
+      [
+        "see"
+      ],
+      0
+    ]
+  ]
+}

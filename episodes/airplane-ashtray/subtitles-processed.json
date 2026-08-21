@@ -1,0 +1,625 @@
+{
+  "note": "Timings correspond to public/audio/airplane-ashtray.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/airplane-ashtray/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/airplane-ashtray.timemap.json",
+  "audio": "public/audio/airplane-ashtray.wav",
+  "duration": 21.743,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "Smoking has been banned on flights for decades,",
+      "start": 0.071,
+      "end": 2.16
+    },
+    {
+      "text": "and there is still an ashtray built into the",
+      "start": 2.44,
+      "end": 3.977
+    },
+    {
+      "text": "airplane bathroom door.",
+      "start": 4.03,
+      "end": 5.031
+    },
+    {
+      "text": "It is not a leftover nobody removed.",
+      "start": 5.288,
+      "end": 6.967
+    },
+    {
+      "text": "Regulators require it,",
+      "start": 7.269,
+      "end": 8.25
+    },
+    {
+      "text": "and a plane can be held on the ground",
+      "start": 8.432,
+      "end": 9.825
+    },
+    {
+      "text": "over a broken one.",
+      "start": 9.878,
+      "end": 10.61
+    },
+    {
+      "text": "The reasoning is bleak and completely correct.",
+      "start": 10.825,
+      "end": 12.718
+    },
+    {
+      "text": "Somebody is eventually going to smoke in there",
+      "start": 13.05,
+      "end": 14.513
+    },
+    {
+      "text": "anyway,",
+      "start": 14.549,
+      "end": 14.959
+    },
+    {
+      "text": "and the only question is where the cigarette",
+      "start": 15.086,
+      "end": 16.426
+    },
+    {
+      "text": "ends up.",
+      "start": 16.479,
+      "end": 16.951
+    },
+    {
+      "text": "Without an ashtray,",
+      "start": 17.097,
+      "end": 17.901
+    },
+    {
+      "text": "it goes in the bin, on top of the",
+      "start": 18.079,
+      "end": 19.419
+    },
+    {
+      "text": "paper towels.",
+      "start": 19.473,
+      "end": 20.062
+    },
+    {
+      "text": "It is not there for smokers.",
+      "start": 20.316,
+      "end": 21.514
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "Smoking",
+      "start": 0.071,
+      "end": 0.481
+    },
+    {
+      "i": 1,
+      "text": "has",
+      "start": 0.499,
+      "end": 0.624
+    },
+    {
+      "i": 2,
+      "text": "been",
+      "start": 0.678,
+      "end": 0.785
+    },
+    {
+      "i": 3,
+      "text": "banned",
+      "start": 0.893,
+      "end": 1.124
+    },
+    {
+      "i": 4,
+      "text": "on",
+      "start": 1.178,
+      "end": 1.231
+    },
+    {
+      "i": 5,
+      "text": "flights",
+      "start": 1.339,
+      "end": 1.554
+    },
+    {
+      "i": 6,
+      "text": "for",
+      "start": 1.606,
+      "end": 1.696
+    },
+    {
+      "i": 7,
+      "text": "decades,",
+      "start": 1.749,
+      "end": 2.16
+    },
+    {
+      "i": 8,
+      "text": "and",
+      "start": 2.44,
+      "end": 2.531
+    },
+    {
+      "i": 9,
+      "text": "there",
+      "start": 2.548,
+      "end": 2.637
+    },
+    {
+      "i": 10,
+      "text": "is",
+      "start": 2.673,
+      "end": 2.78
+    },
+    {
+      "i": 11,
+      "text": "still",
+      "start": 2.798,
+      "end": 2.977
+    },
+    {
+      "i": 12,
+      "text": "an",
+      "start": 3.012,
+      "end": 3.083
+    },
+    {
+      "i": 13,
+      "text": "ashtray",
+      "start": 3.155,
+      "end": 3.53
+    },
+    {
+      "i": 14,
+      "text": "built",
+      "start": 3.566,
+      "end": 3.691
+    },
+    {
+      "i": 15,
+      "text": "into",
+      "start": 3.727,
+      "end": 3.852
+    },
+    {
+      "i": 16,
+      "text": "the",
+      "start": 3.888,
+      "end": 3.977
+    },
+    {
+      "i": 17,
+      "text": "airplane",
+      "start": 4.03,
+      "end": 4.352
+    },
+    {
+      "i": 18,
+      "text": "bathroom",
+      "start": 4.441,
+      "end": 4.746
+    },
+    {
+      "i": 19,
+      "text": "door.",
+      "start": 4.816,
+      "end": 5.031
+    },
+    {
+      "i": 20,
+      "text": "It",
+      "start": 5.288,
+      "end": 5.323
+    },
+    {
+      "i": 21,
+      "text": "is",
+      "start": 5.377,
+      "end": 5.503
+    },
+    {
+      "i": 22,
+      "text": "not",
+      "start": 5.539,
+      "end": 5.663
+    },
+    {
+      "i": 23,
+      "text": "a",
+      "start": 5.699,
+      "end": 5.77
+    },
+    {
+      "i": 24,
+      "text": "leftover",
+      "start": 5.824,
+      "end": 6.145
+    },
+    {
+      "i": 25,
+      "text": "nobody",
+      "start": 6.252,
+      "end": 6.538
+    },
+    {
+      "i": 26,
+      "text": "removed.",
+      "start": 6.592,
+      "end": 6.967
+    },
+    {
+      "i": 27,
+      "text": "Regulators",
+      "start": 7.269,
+      "end": 7.714
+    },
+    {
+      "i": 28,
+      "text": "require",
+      "start": 7.768,
+      "end": 8.107
+    },
+    {
+      "i": 29,
+      "text": "it,",
+      "start": 8.161,
+      "end": 8.25
+    },
+    {
+      "i": 30,
+      "text": "and",
+      "start": 8.432,
+      "end": 8.504
+    },
+    {
+      "i": 31,
+      "text": "a",
+      "start": 8.539,
+      "end": 8.594
+    },
+    {
+      "i": 32,
+      "text": "plane",
+      "start": 8.682,
+      "end": 8.914
+    },
+    {
+      "i": 33,
+      "text": "can",
+      "start": 8.95,
+      "end": 9.04
+    },
+    {
+      "i": 34,
+      "text": "be",
+      "start": 9.076,
+      "end": 9.164
+    },
+    {
+      "i": 35,
+      "text": "held",
+      "start": 9.2,
+      "end": 9.344
+    },
+    {
+      "i": 36,
+      "text": "on",
+      "start": 9.361,
+      "end": 9.433
+    },
+    {
+      "i": 37,
+      "text": "the",
+      "start": 9.451,
+      "end": 9.522
+    },
+    {
+      "i": 38,
+      "text": "ground",
+      "start": 9.575,
+      "end": 9.825
+    },
+    {
+      "i": 39,
+      "text": "over",
+      "start": 9.878,
+      "end": 10.004
+    },
+    {
+      "i": 40,
+      "text": "a",
+      "start": 10.057,
+      "end": 10.075
+    },
+    {
+      "i": 41,
+      "text": "broken",
+      "start": 10.128,
+      "end": 10.415
+    },
+    {
+      "i": 42,
+      "text": "one.",
+      "start": 10.486,
+      "end": 10.61
+    },
+    {
+      "i": 43,
+      "text": "The",
+      "start": 10.825,
+      "end": 10.878
+    },
+    {
+      "i": 44,
+      "text": "reasoning",
+      "start": 10.95,
+      "end": 11.253
+    },
+    {
+      "i": 45,
+      "text": "is",
+      "start": 11.289,
+      "end": 11.396
+    },
+    {
+      "i": 46,
+      "text": "bleak",
+      "start": 11.469,
+      "end": 11.772
+    },
+    {
+      "i": 47,
+      "text": "and",
+      "start": 11.825,
+      "end": 11.915
+    },
+    {
+      "i": 48,
+      "text": "completely",
+      "start": 11.951,
+      "end": 12.343
+    },
+    {
+      "i": 49,
+      "text": "correct.",
+      "start": 12.398,
+      "end": 12.718
+    },
+    {
+      "i": 50,
+      "text": "Somebody",
+      "start": 13.05,
+      "end": 13.317
+    },
+    {
+      "i": 51,
+      "text": "is",
+      "start": 13.336,
+      "end": 13.425
+    },
+    {
+      "i": 52,
+      "text": "eventually",
+      "start": 13.478,
+      "end": 13.8
+    },
+    {
+      "i": 53,
+      "text": "going",
+      "start": 13.835,
+      "end": 13.978
+    },
+    {
+      "i": 54,
+      "text": "to",
+      "start": 13.978,
+      "end": 14.067
+    },
+    {
+      "i": 55,
+      "text": "smoke",
+      "start": 14.103,
+      "end": 14.281
+    },
+    {
+      "i": 56,
+      "text": "in",
+      "start": 14.318,
+      "end": 14.371
+    },
+    {
+      "i": 57,
+      "text": "there",
+      "start": 14.389,
+      "end": 14.513
+    },
+    {
+      "i": 58,
+      "text": "anyway,",
+      "start": 14.549,
+      "end": 14.853
+    },
+    {
+      "i": 59,
+      "text": "and",
+      "start": 15.086,
+      "end": 15.157
+    },
+    {
+      "i": 60,
+      "text": "the",
+      "start": 15.176,
+      "end": 15.212
+    },
+    {
+      "i": 61,
+      "text": "only",
+      "start": 15.248,
+      "end": 15.408
+    },
+    {
+      "i": 62,
+      "text": "question",
+      "start": 15.461,
+      "end": 15.747
+    },
+    {
+      "i": 63,
+      "text": "is",
+      "start": 15.783,
+      "end": 15.855
+    },
+    {
+      "i": 64,
+      "text": "where",
+      "start": 15.89,
+      "end": 15.979
+    },
+    {
+      "i": 65,
+      "text": "the",
+      "start": 16.015,
+      "end": 16.104
+    },
+    {
+      "i": 66,
+      "text": "cigarette",
+      "start": 16.158,
+      "end": 16.426
+    },
+    {
+      "i": 67,
+      "text": "ends",
+      "start": 16.479,
+      "end": 16.622
+    },
+    {
+      "i": 68,
+      "text": "up.",
+      "start": 16.694,
+      "end": 16.801
+    },
+    {
+      "i": 69,
+      "text": "Without",
+      "start": 17.097,
+      "end": 17.329
+    },
+    {
+      "i": 70,
+      "text": "an",
+      "start": 17.365,
+      "end": 17.419
+    },
+    {
+      "i": 71,
+      "text": "ashtray,",
+      "start": 17.491,
+      "end": 17.901
+    },
+    {
+      "i": 72,
+      "text": "it",
+      "start": 18.079,
+      "end": 18.151
+    },
+    {
+      "i": 73,
+      "text": "goes",
+      "start": 18.222,
+      "end": 18.383
+    },
+    {
+      "i": 74,
+      "text": "in",
+      "start": 18.401,
+      "end": 18.472
+    },
+    {
+      "i": 75,
+      "text": "the",
+      "start": 18.491,
+      "end": 18.562
+    },
+    {
+      "i": 76,
+      "text": "bin,",
+      "start": 18.615,
+      "end": 18.955
+    },
+    {
+      "i": 77,
+      "text": "on",
+      "start": 19.009,
+      "end": 19.115
+    },
+    {
+      "i": 78,
+      "text": "top",
+      "start": 19.133,
+      "end": 19.276
+    },
+    {
+      "i": 79,
+      "text": "of",
+      "start": 19.294,
+      "end": 19.366
+    },
+    {
+      "i": 80,
+      "text": "the",
+      "start": 19.384,
+      "end": 19.419
+    },
+    {
+      "i": 81,
+      "text": "paper",
+      "start": 19.473,
+      "end": 19.669
+    },
+    {
+      "i": 82,
+      "text": "towels.",
+      "start": 19.723,
+      "end": 20.062
+    },
+    {
+      "i": 83,
+      "text": "It",
+      "start": 20.316,
+      "end": 20.371
+    },
+    {
+      "i": 84,
+      "text": "is",
+      "start": 20.405,
+      "end": 20.495
+    },
+    {
+      "i": 85,
+      "text": "not",
+      "start": 20.531,
+      "end": 20.709
+    },
+    {
+      "i": 86,
+      "text": "there",
+      "start": 20.727,
+      "end": 20.852
+    },
+    {
+      "i": 87,
+      "text": "for",
+      "start": 20.906,
+      "end": 20.978
+    },
+    {
+      "i": 88,
+      "text": "smokers.",
+      "start": 21.067,
+      "end": 21.514
+    }
+  ]
+}

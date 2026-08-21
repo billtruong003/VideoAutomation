@@ -1,47 +1,37 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "Train tracks sit on a bed of sharp,",
-      "start_time": 0.099,
-      "end_time": 1.62,
+      "start_time": 0.119,
+      "end_time": 1.819,
       "speaker": "narrator",
       "words": [
         {
           "text": "Train",
-          "start_time": 0.099,
-          "end_time": 0.299
+          "start_time": 0.119,
+          "end_time": 0.319
         },
         {
           "text": " ",
-          "start_time": 0.299,
-          "end_time": 0.379
+          "start_time": 0.319,
+          "end_time": 0.399
         },
         {
           "text": "tracks",
-          "start_time": 0.379,
-          "end_time": 0.719
-        },
-        {
-          "text": " ",
-          "start_time": 0.719,
+          "start_time": 0.399,
           "end_time": 0.779
         },
         {
-          "text": "sit",
-          "start_time": 0.779,
-          "end_time": 0.879
-        },
-        {
           "text": " ",
-          "start_time": 0.879,
-          "end_time": 0.899
+          "start_time": 0.779,
+          "end_time": 0.859
         },
         {
-          "text": "on",
-          "start_time": 0.899,
+          "text": "sit",
+          "start_time": 0.859,
           "end_time": 0.959
         },
         {
@@ -50,7 +40,7 @@
           "end_time": 1
         },
         {
-          "text": "a",
+          "text": "on",
           "start_time": 1,
           "end_time": 1.059
         },
@@ -60,908 +50,921 @@
           "end_time": 1.099
         },
         {
-          "text": "bed",
+          "text": "a",
           "start_time": 1.1,
-          "end_time": 1.199
+          "end_time": 1.179
         },
         {
           "text": " ",
-          "start_time": 1.199,
+          "start_time": 1.179,
           "end_time": 1.239
         },
         {
-          "text": "of",
+          "text": "bed",
           "start_time": 1.24,
-          "end_time": 1.36
+          "end_time": 1.339
         },
         {
           "text": " ",
-          "start_time": 1.36,
-          "end_time": 1.419
+          "start_time": 1.339,
+          "end_time": 1.379
+        },
+        {
+          "text": "of",
+          "start_time": 1.379,
+          "end_time": 1.519
+        },
+        {
+          "text": " ",
+          "start_time": 1.519,
+          "end_time": 1.579
         },
         {
           "text": "sharp,",
-          "start_time": 1.419,
-          "end_time": 1.62
+          "start_time": 1.579,
+          "end_time": 1.819
         }
       ]
     },
     {
-      "text": "angular gravel, and it is there on purpose.",
-      "start_time": 1.879,
-      "end_time": 3.939,
+      "text": "angular gravel,",
+      "start_time": 2.159,
+      "end_time": 2.919,
       "speaker": "narrator",
       "words": [
         {
           "text": "angular",
-          "start_time": 1.879,
-          "end_time": 2.22
+          "start_time": 2.159,
+          "end_time": 2.48
         },
         {
           "text": " ",
-          "start_time": 2.22,
-          "end_time": 2.319
+          "start_time": 2.48,
+          "end_time": 2.599
         },
         {
           "text": "gravel,",
-          "start_time": 2.319,
-          "end_time": 2.619
-        },
-        {
-          "text": " ",
-          "start_time": 2.619,
-          "end_time": 2.839
-        },
+          "start_time": 2.599,
+          "end_time": 2.919
+        }
+      ]
+    },
+    {
+      "text": "and it is there on purpose.",
+      "start_time": 3.339,
+      "end_time": 4.539,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "and",
-          "start_time": 2.839,
-          "end_time": 2.939
-        },
-        {
-          "text": " ",
-          "start_time": 2.939,
-          "end_time": 2.959
-        },
-        {
-          "text": "it",
-          "start_time": 2.96,
-          "end_time": 3.019
-        },
-        {
-          "text": " ",
-          "start_time": 3.019,
-          "end_time": 3.059
-        },
-        {
-          "text": "is",
-          "start_time": 3.059,
-          "end_time": 3.159
-        },
-        {
-          "text": " ",
-          "start_time": 3.159,
-          "end_time": 3.219
-        },
-        {
-          "text": "there",
-          "start_time": 3.22,
-          "end_time": 3.359
-        },
-        {
-          "text": " ",
-          "start_time": 3.359,
+          "start_time": 3.339,
           "end_time": 3.419
         },
         {
-          "text": "on",
+          "text": " ",
           "start_time": 3.419,
-          "end_time": 3.48
+          "end_time": 3.459
+        },
+        {
+          "text": "it",
+          "start_time": 3.46,
+          "end_time": 3.519
         },
         {
           "text": " ",
-          "start_time": 3.48,
+          "start_time": 3.519,
           "end_time": 3.559
         },
         {
-          "text": "purpose.",
+          "text": "is",
           "start_time": 3.559,
-          "end_time": 3.939
+          "end_time": 3.659
+        },
+        {
+          "text": " ",
+          "start_time": 3.659,
+          "end_time": 3.739
+        },
+        {
+          "text": "there",
+          "start_time": 3.74,
+          "end_time": 3.899
+        },
+        {
+          "text": " ",
+          "start_time": 3.899,
+          "end_time": 3.959
+        },
+        {
+          "text": "on",
+          "start_time": 3.959,
+          "end_time": 4.059
+        },
+        {
+          "text": " ",
+          "start_time": 4.059,
+          "end_time": 4.119
+        },
+        {
+          "text": "purpose.",
+          "start_time": 4.119,
+          "end_time": 4.539
         }
       ]
     },
     {
       "text": "A loaded train puts enormous weight onto a",
-      "start_time": 4.219,
-      "end_time": 6.159,
+      "start_time": 5.559,
+      "end_time": 7.699,
       "speaker": "narrator",
       "words": [
         {
           "text": "A",
-          "start_time": 4.219,
-          "end_time": 4.259
+          "start_time": 5.559,
+          "end_time": 5.619
         },
         {
           "text": " ",
-          "start_time": 4.259,
-          "end_time": 4.319
+          "start_time": 5.619,
+          "end_time": 5.679
         },
         {
           "text": "loaded",
-          "start_time": 4.319,
-          "end_time": 4.579
+          "start_time": 5.679,
+          "end_time": 5.899
         },
         {
           "text": " ",
-          "start_time": 4.579,
-          "end_time": 4.639
+          "start_time": 5.899,
+          "end_time": 5.999
         },
         {
           "text": "train",
-          "start_time": 4.639,
-          "end_time": 4.839
+          "start_time": 6,
+          "end_time": 6.299
         },
         {
           "text": " ",
-          "start_time": 4.839,
-          "end_time": 4.939
+          "start_time": 6.299,
+          "end_time": 6.359
         },
         {
           "text": "puts",
-          "start_time": 4.94,
-          "end_time": 5.099
+          "start_time": 6.359,
+          "end_time": 6.519
         },
         {
           "text": " ",
-          "start_time": 5.099,
-          "end_time": 5.139
+          "start_time": 6.519,
+          "end_time": 6.579
         },
         {
           "text": "enormous",
-          "start_time": 5.139,
-          "end_time": 5.579
+          "start_time": 6.579,
+          "end_time": 7.059
         },
         {
           "text": " ",
-          "start_time": 5.579,
-          "end_time": 5.659
+          "start_time": 7.059,
+          "end_time": 7.159
         },
         {
           "text": "weight",
-          "start_time": 5.659,
-          "end_time": 5.779
+          "start_time": 7.159,
+          "end_time": 7.319
         },
         {
           "text": " ",
-          "start_time": 5.779,
-          "end_time": 5.839
+          "start_time": 7.319,
+          "end_time": 7.359
         },
         {
           "text": "onto",
-          "start_time": 5.839,
-          "end_time": 6.019
+          "start_time": 7.359,
+          "end_time": 7.579
         },
         {
           "text": " ",
-          "start_time": 6.019,
-          "end_time": 6.059
+          "start_time": 7.579,
+          "end_time": 7.619
         },
         {
           "text": "a",
-          "start_time": 6.059,
-          "end_time": 6.159
+          "start_time": 7.619,
+          "end_time": 7.699
         }
       ]
     },
     {
-      "text": "thin steel rail, and the stones spread that",
-      "start_time": 6.219,
-      "end_time": 8.179,
+      "text": "thin steel rail,",
+      "start_time": 7.799,
+      "end_time": 8.659,
       "speaker": "narrator",
       "words": [
         {
           "text": "thin",
-          "start_time": 6.219,
-          "end_time": 6.379
+          "start_time": 7.799,
+          "end_time": 7.96
         },
         {
           "text": " ",
-          "start_time": 6.379,
-          "end_time": 6.499
+          "start_time": 7.96,
+          "end_time": 8.099
         },
         {
           "text": "steel",
-          "start_time": 6.5,
-          "end_time": 6.699
+          "start_time": 8.099,
+          "end_time": 8.319
         },
         {
           "text": " ",
-          "start_time": 6.699,
-          "end_time": 6.799
+          "start_time": 8.319,
+          "end_time": 8.42
         },
         {
           "text": "rail,",
-          "start_time": 6.799,
-          "end_time": 6.98
-        },
-        {
-          "text": " ",
-          "start_time": 6.98,
-          "end_time": 7.219
-        },
-        {
-          "text": "and",
-          "start_time": 7.219,
-          "end_time": 7.299
-        },
-        {
-          "text": " ",
-          "start_time": 7.299,
-          "end_time": 7.319
-        },
-        {
-          "text": "the",
-          "start_time": 7.319,
-          "end_time": 7.399
-        },
-        {
-          "text": " ",
-          "start_time": 7.399,
-          "end_time": 7.459
-        },
-        {
-          "text": "stones",
-          "start_time": 7.46,
-          "end_time": 7.759
-        },
-        {
-          "text": " ",
-          "start_time": 7.759,
-          "end_time": 7.799
-        },
-        {
-          "text": "spread",
-          "start_time": 7.799,
-          "end_time": 8.019
-        },
-        {
-          "text": " ",
-          "start_time": 8.019,
-          "end_time": 8.039
-        },
-        {
-          "text": "that",
-          "start_time": 8.039,
-          "end_time": 8.179
+          "start_time": 8.42,
+          "end_time": 8.659
         }
       ]
     },
     {
-      "text": "load sideways so the ground underneath does",
-      "start_time": 8.22,
-      "end_time": 10.239,
+      "text": "and the stones spread that load sideways so",
+      "start_time": 9.199,
+      "end_time": 11.479,
       "speaker": "narrator",
       "words": [
         {
-          "text": "load",
-          "start_time": 8.22,
-          "end_time": 8.46
-        },
-        {
-          "text": " ",
-          "start_time": 8.46,
-          "end_time": 8.519
-        },
-        {
-          "text": "sideways",
-          "start_time": 8.519,
-          "end_time": 8.979
-        },
-        {
-          "text": " ",
-          "start_time": 8.979,
-          "end_time": 9.199
-        },
-        {
-          "text": "so",
+          "text": "and",
           "start_time": 9.199,
-          "end_time": 9.26
+          "end_time": 9.28
         },
         {
           "text": " ",
-          "start_time": 9.26,
-          "end_time": 9.3
+          "start_time": 9.28,
+          "end_time": 9.319
         },
         {
           "text": "the",
-          "start_time": 9.3,
+          "start_time": 9.319,
           "end_time": 9.359
         },
         {
           "text": " ",
           "start_time": 9.359,
-          "end_time": 9.42
+          "end_time": 9.439
         },
         {
-          "text": "ground",
-          "start_time": 9.42,
-          "end_time": 9.679
-        },
-        {
-          "text": " ",
-          "start_time": 9.679,
-          "end_time": 9.719
-        },
-        {
-          "text": "underneath",
-          "start_time": 9.719,
-          "end_time": 10.079
+          "text": "stones",
+          "start_time": 9.439,
+          "end_time": 9.779
         },
         {
           "text": " ",
-          "start_time": 10.079,
+          "start_time": 9.779,
+          "end_time": 9.84
+        },
+        {
+          "text": "spread",
+          "start_time": 9.84,
+          "end_time": 10.099
+        },
+        {
+          "text": " ",
+          "start_time": 10.099,
           "end_time": 10.119
         },
         {
-          "text": "does",
+          "text": "that",
           "start_time": 10.119,
           "end_time": 10.239
+        },
+        {
+          "text": " ",
+          "start_time": 10.239,
+          "end_time": 10.319
+        },
+        {
+          "text": "load",
+          "start_time": 10.319,
+          "end_time": 10.559
+        },
+        {
+          "text": " ",
+          "start_time": 10.559,
+          "end_time": 10.639
+        },
+        {
+          "text": "sideways",
+          "start_time": 10.639,
+          "end_time": 11.119
+        },
+        {
+          "text": " ",
+          "start_time": 11.119,
+          "end_time": 11.42
+        },
+        {
+          "text": "so",
+          "start_time": 11.42,
+          "end_time": 11.479
         }
       ]
     },
     {
-      "text": "not sink.",
-      "start_time": 10.279,
-      "end_time": 10.879,
+      "text": "the ground underneath does not sink.",
+      "start_time": 11.519,
+      "end_time": 13.119,
       "speaker": "narrator",
       "words": [
         {
-          "text": "not",
-          "start_time": 10.279,
-          "end_time": 10.399
+          "text": "the",
+          "start_time": 11.519,
+          "end_time": 11.599
         },
         {
           "text": " ",
-          "start_time": 10.399,
-          "end_time": 10.519
+          "start_time": 11.599,
+          "end_time": 11.659
+        },
+        {
+          "text": "ground",
+          "start_time": 11.659,
+          "end_time": 11.939
+        },
+        {
+          "text": " ",
+          "start_time": 11.939,
+          "end_time": 12
+        },
+        {
+          "text": "underneath",
+          "start_time": 12,
+          "end_time": 12.399
+        },
+        {
+          "text": " ",
+          "start_time": 12.399,
+          "end_time": 12.439
+        },
+        {
+          "text": "does",
+          "start_time": 12.439,
+          "end_time": 12.579
+        },
+        {
+          "text": " ",
+          "start_time": 12.579,
+          "end_time": 12.619
+        },
+        {
+          "text": "not",
+          "start_time": 12.619,
+          "end_time": 12.819
+        },
+        {
+          "text": " ",
+          "start_time": 12.819,
+          "end_time": 12.88
         },
         {
           "text": "sink.",
-          "start_time": 10.519,
-          "end_time": 10.739
+          "start_time": 12.88,
+          "end_time": 13.119
         }
       ]
     },
     {
       "text": "Because they are angular rather than rounded,",
-      "start_time": 10.979,
-      "end_time": 12.799,
+      "start_time": 13.979,
+      "end_time": 16,
       "speaker": "narrator",
       "words": [
         {
           "text": "Because",
-          "start_time": 10.979,
-          "end_time": 11.259
-        },
-        {
-          "text": " ",
-          "start_time": 11.259,
-          "end_time": 11.299
-        },
-        {
-          "text": "they",
-          "start_time": 11.3,
-          "end_time": 11.399
-        },
-        {
-          "text": " ",
-          "start_time": 11.399,
-          "end_time": 11.46
-        },
-        {
-          "text": "are",
-          "start_time": 11.46,
-          "end_time": 11.619
-        },
-        {
-          "text": " ",
-          "start_time": 11.619,
-          "end_time": 11.719
-        },
-        {
-          "text": "angular",
-          "start_time": 11.719,
-          "end_time": 12.039
-        },
-        {
-          "text": " ",
-          "start_time": 12.039,
-          "end_time": 12.139
-        },
-        {
-          "text": "rather",
-          "start_time": 12.139,
-          "end_time": 12.3
-        },
-        {
-          "text": " ",
-          "start_time": 12.3,
-          "end_time": 12.34
-        },
-        {
-          "text": "than",
-          "start_time": 12.34,
-          "end_time": 12.42
-        },
-        {
-          "text": " ",
-          "start_time": 12.42,
-          "end_time": 12.5
-        },
-        {
-          "text": "rounded,",
-          "start_time": 12.5,
-          "end_time": 12.799
-        }
-      ]
-    },
-    {
-      "text": "they lock against each other and stop the track",
-      "start_time": 13.039,
-      "end_time": 14.839,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "they",
-          "start_time": 13.039,
-          "end_time": 13.14
-        },
-        {
-          "text": " ",
-          "start_time": 13.14,
-          "end_time": 13.239
-        },
-        {
-          "text": "lock",
-          "start_time": 13.239,
-          "end_time": 13.399
-        },
-        {
-          "text": " ",
-          "start_time": 13.399,
-          "end_time": 13.479
-        },
-        {
-          "text": "against",
-          "start_time": 13.479,
-          "end_time": 13.719
-        },
-        {
-          "text": " ",
-          "start_time": 13.719,
-          "end_time": 13.759
-        },
-        {
-          "text": "each",
-          "start_time": 13.759,
-          "end_time": 13.9
-        },
-        {
-          "text": " ",
-          "start_time": 13.9,
-          "end_time": 13.96
-        },
-        {
-          "text": "other",
-          "start_time": 13.96,
-          "end_time": 14.079
-        },
-        {
-          "text": " ",
-          "start_time": 14.079,
-          "end_time": 14.119
-        },
-        {
-          "text": "and",
-          "start_time": 14.119,
-          "end_time": 14.219
-        },
-        {
-          "text": " ",
-          "start_time": 14.219,
+          "start_time": 13.979,
           "end_time": 14.299
         },
         {
-          "text": "stop",
+          "text": " ",
           "start_time": 14.299,
+          "end_time": 14.339
+        },
+        {
+          "text": "they",
+          "start_time": 14.34,
           "end_time": 14.46
         },
         {
           "text": " ",
           "start_time": 14.46,
-          "end_time": 14.5
+          "end_time": 14.519
         },
         {
-          "text": "the",
-          "start_time": 14.5,
-          "end_time": 14.579
+          "text": "are",
+          "start_time": 14.519,
+          "end_time": 14.679
         },
         {
           "text": " ",
-          "start_time": 14.579,
-          "end_time": 14.639
+          "start_time": 14.679,
+          "end_time": 14.819
+        },
+        {
+          "text": "angular",
+          "start_time": 14.819,
+          "end_time": 15.179
+        },
+        {
+          "text": " ",
+          "start_time": 15.179,
+          "end_time": 15.279
+        },
+        {
+          "text": "rather",
+          "start_time": 15.279,
+          "end_time": 15.46
+        },
+        {
+          "text": " ",
+          "start_time": 15.46,
+          "end_time": 15.5
+        },
+        {
+          "text": "than",
+          "start_time": 15.5,
+          "end_time": 15.6
+        },
+        {
+          "text": " ",
+          "start_time": 15.6,
+          "end_time": 15.679
+        },
+        {
+          "text": "rounded,",
+          "start_time": 15.679,
+          "end_time": 16
+        }
+      ]
+    },
+    {
+      "text": "they lock against each other and stop the track",
+      "start_time": 16.539,
+      "end_time": 18.539,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "they",
+          "start_time": 16.539,
+          "end_time": 16.719
+        },
+        {
+          "text": " ",
+          "start_time": 16.719,
+          "end_time": 16.76
+        },
+        {
+          "text": "lock",
+          "start_time": 16.76,
+          "end_time": 16.94
+        },
+        {
+          "text": " ",
+          "start_time": 16.94,
+          "end_time": 17.02
+        },
+        {
+          "text": "against",
+          "start_time": 17.02,
+          "end_time": 17.299
+        },
+        {
+          "text": " ",
+          "start_time": 17.299,
+          "end_time": 17.34
+        },
+        {
+          "text": "each",
+          "start_time": 17.34,
+          "end_time": 17.5
+        },
+        {
+          "text": " ",
+          "start_time": 17.5,
+          "end_time": 17.559
+        },
+        {
+          "text": "other",
+          "start_time": 17.559,
+          "end_time": 17.719
+        },
+        {
+          "text": " ",
+          "start_time": 17.719,
+          "end_time": 17.759
+        },
+        {
+          "text": "and",
+          "start_time": 17.76,
+          "end_time": 17.879
+        },
+        {
+          "text": " ",
+          "start_time": 17.879,
+          "end_time": 17.939
+        },
+        {
+          "text": "stop",
+          "start_time": 17.94,
+          "end_time": 18.139
+        },
+        {
+          "text": " ",
+          "start_time": 18.139,
+          "end_time": 18.18
+        },
+        {
+          "text": "the",
+          "start_time": 18.18,
+          "end_time": 18.279
+        },
+        {
+          "text": " ",
+          "start_time": 18.279,
+          "end_time": 18.339
         },
         {
           "text": "track",
-          "start_time": 14.639,
-          "end_time": 14.839
+          "start_time": 18.34,
+          "end_time": 18.539
         }
       ]
     },
     {
       "text": "creeping out of line.",
-      "start_time": 14.88,
-      "end_time": 15.679,
+      "start_time": 18.619,
+      "end_time": 19.5,
       "speaker": "narrator",
       "words": [
         {
           "text": "creeping",
-          "start_time": 14.88,
-          "end_time": 15.139
+          "start_time": 18.619,
+          "end_time": 18.899
         },
         {
           "text": " ",
-          "start_time": 15.139,
-          "end_time": 15.179
+          "start_time": 18.899,
+          "end_time": 18.939
         },
         {
           "text": "out",
-          "start_time": 15.179,
-          "end_time": 15.26
+          "start_time": 18.939,
+          "end_time": 19
         },
         {
           "text": " ",
-          "start_time": 15.26,
-          "end_time": 15.279
+          "start_time": 19,
+          "end_time": 19.039
         },
         {
           "text": "of",
-          "start_time": 15.279,
-          "end_time": 15.38
+          "start_time": 19.039,
+          "end_time": 19.12
         },
         {
           "text": " ",
-          "start_time": 15.38,
-          "end_time": 15.42
+          "start_time": 19.12,
+          "end_time": 19.199
         },
         {
           "text": "line.",
-          "start_time": 15.42,
-          "end_time": 15.679
+          "start_time": 19.199,
+          "end_time": 19.5
         }
       ]
     },
     {
       "text": "Rain drains through the gaps instead of turning",
-      "start_time": 16.039,
-      "end_time": 17.739,
+      "start_time": 20.52,
+      "end_time": 22.399,
       "speaker": "narrator",
       "words": [
         {
           "text": "Rain",
-          "start_time": 16.039,
-          "end_time": 16.18
+          "start_time": 20.52,
+          "end_time": 20.68
         },
         {
           "text": " ",
-          "start_time": 16.18,
-          "end_time": 16.239
+          "start_time": 20.68,
+          "end_time": 20.739
         },
         {
           "text": "drains",
-          "start_time": 16.239,
-          "end_time": 16.5
+          "start_time": 20.739,
+          "end_time": 21.039
         },
         {
           "text": " ",
-          "start_time": 16.5,
-          "end_time": 16.52
+          "start_time": 21.039,
+          "end_time": 21.079
         },
         {
           "text": "through",
-          "start_time": 16.52,
-          "end_time": 16.639
+          "start_time": 21.079,
+          "end_time": 21.2
         },
         {
           "text": " ",
-          "start_time": 16.639,
-          "end_time": 16.659
+          "start_time": 21.2,
+          "end_time": 21.219
         },
         {
           "text": "the",
-          "start_time": 16.659,
-          "end_time": 16.779
+          "start_time": 21.219,
+          "end_time": 21.34
         },
         {
           "text": " ",
-          "start_time": 16.779,
-          "end_time": 16.839
+          "start_time": 21.34,
+          "end_time": 21.399
         },
         {
           "text": "gaps",
-          "start_time": 16.84,
-          "end_time": 17.079
+          "start_time": 21.399,
+          "end_time": 21.699
         },
         {
           "text": " ",
-          "start_time": 17.079,
-          "end_time": 17.119
+          "start_time": 21.699,
+          "end_time": 21.739
         },
         {
           "text": "instead",
-          "start_time": 17.119,
-          "end_time": 17.359
+          "start_time": 21.739,
+          "end_time": 22
         },
         {
           "text": " ",
-          "start_time": 17.359,
-          "end_time": 17.379
+          "start_time": 22,
+          "end_time": 22.02
         },
         {
           "text": "of",
-          "start_time": 17.379,
-          "end_time": 17.479
+          "start_time": 22.02,
+          "end_time": 22.119
         },
         {
           "text": " ",
-          "start_time": 17.479,
-          "end_time": 17.519
+          "start_time": 22.119,
+          "end_time": 22.179
         },
         {
           "text": "turning",
-          "start_time": 17.52,
-          "end_time": 17.739
+          "start_time": 22.18,
+          "end_time": 22.399
         }
       ]
     },
     {
       "text": "the bed to mud.",
-      "start_time": 17.779,
-      "end_time": 18.479,
+      "start_time": 22.459,
+      "end_time": 23.239,
       "speaker": "narrator",
       "words": [
         {
           "text": "the",
-          "start_time": 17.779,
-          "end_time": 17.859
+          "start_time": 22.459,
+          "end_time": 22.5
         },
         {
           "text": " ",
-          "start_time": 17.859,
-          "end_time": 17.899
+          "start_time": 22.5,
+          "end_time": 22.6
         },
         {
           "text": "bed",
-          "start_time": 17.899,
-          "end_time": 18.039
+          "start_time": 22.6,
+          "end_time": 22.76
         },
         {
           "text": " ",
-          "start_time": 18.039,
-          "end_time": 18.079
+          "start_time": 22.76,
+          "end_time": 22.799
         },
         {
           "text": "to",
-          "start_time": 18.079,
-          "end_time": 18.199
+          "start_time": 22.799,
+          "end_time": 22.939
         },
         {
           "text": " ",
-          "start_time": 18.199,
-          "end_time": 18.259
+          "start_time": 22.939,
+          "end_time": 22.999
         },
         {
           "text": "mud.",
-          "start_time": 18.26,
-          "end_time": 18.479
+          "start_time": 23,
+          "end_time": 23.239
         }
       ]
     },
     {
       "text": "And the layer soaks up vibration,",
-      "start_time": 18.739,
-      "end_time": 20.239,
+      "start_time": 24.18,
+      "end_time": 25.859,
       "speaker": "narrator",
       "words": [
         {
           "text": "And",
-          "start_time": 18.739,
-          "end_time": 18.84
+          "start_time": 24.18,
+          "end_time": 24.28
         },
         {
           "text": " ",
-          "start_time": 18.84,
-          "end_time": 18.879
+          "start_time": 24.28,
+          "end_time": 24.319
         },
         {
           "text": "the",
-          "start_time": 18.879,
-          "end_time": 18.959
+          "start_time": 24.319,
+          "end_time": 24.36
         },
         {
           "text": " ",
-          "start_time": 18.959,
-          "end_time": 19.019
+          "start_time": 24.36,
+          "end_time": 24.459
         },
         {
           "text": "layer",
-          "start_time": 19.02,
-          "end_time": 19.279
+          "start_time": 24.459,
+          "end_time": 24.76
         },
         {
           "text": " ",
-          "start_time": 19.279,
-          "end_time": 19.339
+          "start_time": 24.76,
+          "end_time": 24.84
         },
         {
           "text": "soaks",
-          "start_time": 19.34,
-          "end_time": 19.539
+          "start_time": 24.84,
+          "end_time": 25.059
         },
         {
           "text": " ",
-          "start_time": 19.539,
-          "end_time": 19.579
+          "start_time": 25.059,
+          "end_time": 25.099
         },
         {
           "text": "up",
-          "start_time": 19.579,
-          "end_time": 19.659
+          "start_time": 25.1,
+          "end_time": 25.18
         },
         {
           "text": " ",
-          "start_time": 19.659,
-          "end_time": 19.719
+          "start_time": 25.18,
+          "end_time": 25.26
         },
         {
           "text": "vibration,",
-          "start_time": 19.719,
-          "end_time": 20.239
+          "start_time": 25.26,
+          "end_time": 25.859
         }
       ]
     },
     {
       "text": "which is why a passing train shakes the ground",
-      "start_time": 20.5,
-      "end_time": 22.18,
+      "start_time": 26.139,
+      "end_time": 28.019,
       "speaker": "narrator",
       "words": [
         {
           "text": "which",
-          "start_time": 20.5,
-          "end_time": 20.62
+          "start_time": 26.139,
+          "end_time": 26.26
         },
         {
           "text": " ",
-          "start_time": 20.62,
-          "end_time": 20.639
+          "start_time": 26.26,
+          "end_time": 26.279
         },
         {
           "text": "is",
-          "start_time": 20.639,
-          "end_time": 20.719
+          "start_time": 26.279,
+          "end_time": 26.399
         },
         {
           "text": " ",
-          "start_time": 20.719,
-          "end_time": 20.76
+          "start_time": 26.399,
+          "end_time": 26.439
         },
         {
           "text": "why",
-          "start_time": 20.76,
-          "end_time": 20.859
+          "start_time": 26.439,
+          "end_time": 26.519
         },
         {
           "text": " ",
-          "start_time": 20.859,
-          "end_time": 20.919
+          "start_time": 26.519,
+          "end_time": 26.579
         },
         {
           "text": "a",
-          "start_time": 20.92,
-          "end_time": 20.959
+          "start_time": 26.579,
+          "end_time": 26.639
         },
         {
           "text": " ",
-          "start_time": 20.959,
-          "end_time": 21.019
+          "start_time": 26.639,
+          "end_time": 26.699
         },
         {
           "text": "passing",
-          "start_time": 21.02,
-          "end_time": 21.319
+          "start_time": 26.699,
+          "end_time": 27.039
         },
         {
           "text": " ",
-          "start_time": 21.319,
-          "end_time": 21.359
+          "start_time": 27.039,
+          "end_time": 27.099
         },
         {
           "text": "train",
-          "start_time": 21.359,
-          "end_time": 21.619
+          "start_time": 27.099,
+          "end_time": 27.399
         },
         {
           "text": " ",
-          "start_time": 21.619,
-          "end_time": 21.679
+          "start_time": 27.399,
+          "end_time": 27.439
         },
         {
           "text": "shakes",
-          "start_time": 21.68,
-          "end_time": 21.859
+          "start_time": 27.439,
+          "end_time": 27.659
         },
         {
           "text": " ",
-          "start_time": 21.859,
-          "end_time": 21.899
+          "start_time": 27.659,
+          "end_time": 27.699
         },
         {
           "text": "the",
-          "start_time": 21.899,
-          "end_time": 21.959
+          "start_time": 27.699,
+          "end_time": 27.779
         },
         {
           "text": " ",
-          "start_time": 21.959,
-          "end_time": 22.019
+          "start_time": 27.779,
+          "end_time": 27.819
         },
         {
           "text": "ground",
-          "start_time": 22.02,
-          "end_time": 22.18
+          "start_time": 27.819,
+          "end_time": 28.019
         }
       ]
     },
     {
       "text": "less than it should.",
-      "start_time": 22.279,
-      "end_time": 22.939,
+      "start_time": 28.119,
+      "end_time": 28.879,
       "speaker": "narrator",
       "words": [
         {
           "text": "less",
-          "start_time": 22.279,
-          "end_time": 22.42
+          "start_time": 28.119,
+          "end_time": 28.299
         },
         {
           "text": " ",
-          "start_time": 22.42,
-          "end_time": 22.459
+          "start_time": 28.299,
+          "end_time": 28.34
         },
         {
           "text": "than",
-          "start_time": 22.459,
-          "end_time": 22.539
+          "start_time": 28.34,
+          "end_time": 28.42
         },
         {
           "text": " ",
-          "start_time": 22.539,
-          "end_time": 22.579
+          "start_time": 28.42,
+          "end_time": 28.459
         },
         {
           "text": "it",
-          "start_time": 22.579,
-          "end_time": 22.699
+          "start_time": 28.459,
+          "end_time": 28.599
         },
         {
           "text": " ",
-          "start_time": 22.699,
-          "end_time": 22.739
+          "start_time": 28.599,
+          "end_time": 28.639
         },
         {
           "text": "should.",
-          "start_time": 22.739,
-          "end_time": 22.939
+          "start_time": 28.639,
+          "end_time": 28.879
         }
       ]
     }

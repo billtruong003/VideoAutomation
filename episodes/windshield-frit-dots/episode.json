@@ -1,0 +1,230 @@
+{
+  "slug": "windshield-frit-dots",
+  "title": "What The Black Dots Around Your Windshield Are Doing",
+  "hook": "A black border you have looked past ten thousand times is holding the glass on.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill is a passenger noticing the edge of the glass for the first time."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Look along the top",
+      "background": "CarInterior",
+      "cast": [
+        "bill"
+      ],
+      "note": "Start INSIDE the car looking up at the glass edge, which is where a viewer has actually seen this.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "view up at a windshield top edge from inside; the black band runs across frame"
+        },
+        {
+          "kw": "border",
+          "action": "the solid band highlights; camera tracks along it"
+        },
+        {
+          "kw": "dots",
+          "action": "the band breaks into its dot gradient; each dot pops in along the fade"
+        },
+        {
+          "at": 1.3,
+          "action": "the camera drifts along the black band toward where the dots begin",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.6,
+          "action": "Bill leans in from the passenger seat, nose near the glass",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "ceramic",
+      "from": "That border is ceramic",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Cross-section through the glass edge. Glass, ceramic layer, adhesive, car body — four labelled bands.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the glass edge rotates into cross-section"
+        },
+        {
+          "kw": "ceramic",
+          "action": "the ceramic layer fills in black and labels itself"
+        },
+        {
+          "kw": "adhesive",
+          "action": "the urethane bead draws in beneath it, gripping the body"
+        },
+        {
+          "at": 2.1,
+          "action": "the cross-section rotates slightly so each layer separates clearly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.78,
+          "action": "the adhesive bead squeezes slightly as the glass seats down onto it",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "glue",
+      "from": "Sunlight would slowly",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The UV threat, shown as light that stops at the black layer. Restrained — no drama.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "sun rays angle down toward the cross-section"
+        },
+        {
+          "kw": "cook",
+          "action": "rays reaching bare adhesive turn it brittle and grey"
+        },
+        {
+          "kw": "shields",
+          "action": "the ceramic band blocks the rays; the adhesive under it stays intact"
+        },
+        {
+          "at": 0.1,
+          "action": "the sun climbs a little higher over the cross-section",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "dots",
+      "from": "The dots are the clever",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Beat of anticipation. Hold on the dot pattern alone before the reason arrives.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the dot gradient isolates on a plain field, large"
+        },
+        {
+          "kw": "clever",
+          "action": "the dots pulse once in sequence, from dense to sparse"
+        }
+      ]
+    },
+    {
+      "id": "thermal",
+      "from": "Black glass heats",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Heat map. A HARD edge cracks; the dotted edge does not. Show both, side by side.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "two glass panels appear side by side, one hard-edged, one dotted"
+        },
+        {
+          "kw": "heats",
+          "action": "heat blooms coral from the black side of both panels"
+        },
+        {
+          "kw": "crack",
+          "action": "the hard-edged panel cracks along the boundary line"
+        },
+        {
+          "kw": "gradually",
+          "action": "the dotted panel grades smoothly from hot to cool and survives; hard cut"
+        },
+        {
+          "at": 2.57,
+          "action": "the heat bloom spreads further across both panels",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 5.77,
+          "action": "the crack on the hard-edged panel creeps a little further",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "border",
+      [
+        "border"
+      ],
+      0
+    ],
+    [
+      "dots",
+      [
+        "dots"
+      ],
+      0
+    ],
+    [
+      "ceramic",
+      [
+        "ceramic"
+      ],
+      0
+    ],
+    [
+      "adhesive",
+      [
+        "adhesive"
+      ],
+      0
+    ],
+    [
+      "cook",
+      [
+        "cook"
+      ],
+      0
+    ],
+    [
+      "shields",
+      [
+        "shields"
+      ],
+      0
+    ],
+    [
+      "clever",
+      [
+        "clever"
+      ],
+      0
+    ],
+    [
+      "heats",
+      [
+        "heats"
+      ],
+      0
+    ],
+    [
+      "crack",
+      [
+        "crack"
+      ],
+      0
+    ],
+    [
+      "gradually",
+      [
+        "gradually"
+      ],
+      0
+    ]
+  ]
+}

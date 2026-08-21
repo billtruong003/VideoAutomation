@@ -1,0 +1,238 @@
+{
+  "slug": "chip-bag-nitrogen",
+  "title": "Chip Bags Are Not Filled With Air",
+  "hook": "The air you resent is neither air nor a con.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill starts as the aggrieved customer and is talked round. That arc IS the episode."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "A bag of chips is mostly",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Lead with the grievance so the payoff can answer it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill opens a large bag; the chips inside fill a third of it"
+        },
+        {
+          "kw": "mostly",
+          "action": "the empty volume shades in and labels itself"
+        },
+        {
+          "kw": "not-air",
+          "action": "an AIR label appears over the empty space and crosses out"
+        },
+        {
+          "at": 1.92,
+          "action": "Bill tilts the bag; the chips slide to one end and the empty space grows",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "oxygen",
+      "from": "Air is a fifth oxygen",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Oxygen as the villain. Molecules attacking oil is the mechanism — keep it simple and legible.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "air separates into labelled molecule groups; the oxygen fifth highlights coral"
+        },
+        {
+          "kw": "oxygen",
+          "action": "oxygen molecules drift onto a chip"
+        },
+        {
+          "kw": "rancid",
+          "action": "the oil on the chip darkens and dulls; a RANCID mark stamps"
+        },
+        {
+          "at": 2,
+          "action": "more oxygen molecules drift down onto the chip",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "nitrogen",
+      "from": "So the bag gets flushed",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The swap, shown as a flush: nitrogen in, oxygen out. Teal displaces coral.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a filling nozzle enters the bag"
+        },
+        {
+          "kw": "nitrogen",
+          "action": "teal nitrogen floods in; coral oxygen is pushed out of the neck"
+        },
+        {
+          "kw": "inert",
+          "action": "nitrogen molecules bounce off the chips without reacting"
+        },
+        {
+          "at": 4.1,
+          "action": "the last of the coral oxygen is pushed out of the bag neck",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "freshness",
+      "from": "That is the freshness half",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Split the frame. Half one is done; half two is coming.",
+      "beats": [
+        {
+          "kw": "freshness",
+          "action": "the frame splits; the first half fills with a FRESHNESS tick"
+        },
+        {
+          "at": 0.1,
+          "action": "the first half of the frame holds, ticked",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "cushion",
+      "from": "The other half is that chips",
+      "background": "CityStreet",
+      "cast": [],
+      "note": "The transit case. Crushing is the risk — a bag surviving a stack is the proof.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "bags stack high on a pallet; a truck loads them"
+        },
+        {
+          "kw": "stacked",
+          "action": "weight presses down; an unpressurised bag crumbles to crumbs"
+        },
+        {
+          "kw": "pillow",
+          "action": "the gas-filled bag springs back; the second half fills with a CUSHION tick"
+        },
+        {
+          "at": 3.41,
+          "action": "another crate stacks on top of the pallet",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "You are buying a cushion",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Bill concedes. Both halves glow. Ends without smugness.",
+      "beats": [
+        {
+          "kw": "cushion",
+          "action": "both halves glow together over the bag"
+        },
+        {
+          "kw": "preservative",
+          "action": "Bill shrugs, accepts it, and eats a chip; hard cut"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "mostly",
+      [
+        "mostly"
+      ],
+      0
+    ],
+    [
+      "not-air",
+      [
+        "air"
+      ],
+      0
+    ],
+    [
+      "oxygen",
+      [
+        "oxygen"
+      ],
+      0
+    ],
+    [
+      "rancid",
+      [
+        "rancid"
+      ],
+      0
+    ],
+    [
+      "nitrogen",
+      [
+        "nitrogen"
+      ],
+      0
+    ],
+    [
+      "inert",
+      [
+        "inert"
+      ],
+      0
+    ],
+    [
+      "freshness",
+      [
+        "freshness"
+      ],
+      0
+    ],
+    [
+      "stacked",
+      [
+        "stacked"
+      ],
+      0
+    ],
+    [
+      "pillow",
+      [
+        "pillow"
+      ],
+      0
+    ],
+    [
+      "cushion",
+      [
+        "cushion"
+      ],
+      0
+    ],
+    [
+      "preservative",
+      [
+        "preservative"
+      ],
+      0
+    ]
+  ]
+}

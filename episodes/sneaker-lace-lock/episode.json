@@ -1,0 +1,216 @@
+{
+  "slug": "sneaker-lace-lock",
+  "title": "Sneakers Come With An Anti-Blister Setting",
+  "hook": "The eyelet nobody uses is the one that stops the blister.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill has walked too far in bad shoes. Physical comedy is allowed here, gently."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Almost every sneaker",
+      "background": "BedroomFloor",
+      "cast": [
+        "bill"
+      ],
+      "note": "Find the eyelet. It is set BACK from the others — that offset is the visual tell.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a sneaker in profile; laces threaded through every hole but the last"
+        },
+        {
+          "kw": "extra",
+          "action": "the unused eyelet circles teal, sitting slightly back from the row"
+        },
+        {
+          "kw": "nobody",
+          "action": "a NEVER USED label lands beside it"
+        },
+        {
+          "at": 4.11,
+          "action": "Bill pokes a finger through the unused eyelet",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "thread",
+      "from": "Thread the lace through",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Instructional and clear. The viewer should be able to copy this.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the shoe isolates on a plain field, laces drawn in bold"
+        },
+        {
+          "kw": "thread",
+          "action": "the lace feeds through the extra eyelet on each side"
+        },
+        {
+          "kw": "loop",
+          "action": "two small loops form above the ankle and hold"
+        },
+        {
+          "at": 0.1,
+          "action": "the shoe rotates a few degrees so both eyelets read clearly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 1.29,
+          "action": "the lace end feeds through and pulls taut",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "cross",
+      "from": "Cross the laces",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "The crossing is the mechanism. Show the collar closing, not just the lace moving.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "each lace end crosses toward the opposite loop"
+        },
+        {
+          "kw": "cross",
+          "action": "the laces thread through the opposing loops"
+        },
+        {
+          "kw": "clamps",
+          "action": "the ankle collar cinches closed; arrows show the grip moving from midfoot to ankle"
+        },
+        {
+          "at": 1.45,
+          "action": "both lace ends draw across and settle into position",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.46,
+          "action": "the cinched collar holds; the laces pull a little tighter",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "heel",
+      "from": "Your heel stops",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Side-by-side cutaway of the heel: lifting versus held. The contrast carries the payoff.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "cutaway of a heel inside a shoe, lifting free with each step"
+        },
+        {
+          "kw": "lifting",
+          "action": "the locked version draws beside it; the heel stays seated"
+        },
+        {
+          "at": 0.1,
+          "action": "the cutaway shoe rocks once through a full step",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "blister",
+      "from": "Heel lift is what rubs",
+      "background": "BedroomFloor",
+      "cast": [
+        "bill"
+      ],
+      "note": "Name the consequence, then end on Bill actually using it. No gloating.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "friction marks scrub back and forth at the heel of the unlocked shoe"
+        },
+        {
+          "kw": "blister",
+          "action": "a coral hotspot blooms at the rub point on the unlocked shoe only"
+        },
+        {
+          "kw": "walk",
+          "action": "Bill laces the extra eyelet and walks off; hard cut"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "extra",
+      [
+        "extra"
+      ],
+      0
+    ],
+    [
+      "nobody",
+      [
+        "nobody"
+      ],
+      0
+    ],
+    [
+      "thread",
+      [
+        "thread"
+      ],
+      0
+    ],
+    [
+      "loop",
+      [
+        "loop"
+      ],
+      0
+    ],
+    [
+      "cross",
+      [
+        "cross"
+      ],
+      0
+    ],
+    [
+      "clamps",
+      [
+        "clamps"
+      ],
+      0
+    ],
+    [
+      "lifting",
+      [
+        "lifting"
+      ],
+      0
+    ],
+    [
+      "blister",
+      [
+        "blister"
+      ],
+      0
+    ],
+    [
+      "walk",
+      [
+        "walk"
+      ],
+      0
+    ]
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "slug": "thermal-receipt-fade",
+  "title": "Your Receipt Was Never Printed With Ink",
+  "hook": "A print process that never actually finishes.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill finds a blank receipt in a wallet at exactly the wrong moment."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "A receipt left in a wallet",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "The blank receipt is the hook. Everyone has been here.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill pulls a receipt from a wallet; the print is almost gone"
+        },
+        {
+          "kw": "blank",
+          "action": "the remaining text fades out entirely as he holds it"
+        },
+        {
+          "kw": "ink",
+          "action": "a NO INK label lands and holds"
+        }
+      ]
+    },
+    {
+      "id": "coating",
+      "from": "Receipt paper is coated",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Two chemicals, side by side, inert. They must look harmless before they react.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the paper sections; a thin surface coating draws on top"
+        },
+        {
+          "kw": "dye",
+          "action": "colourless dye particles label themselves within the coating"
+        },
+        {
+          "kw": "developer",
+          "action": "developer particles sit beside them, separate and unreacted"
+        },
+        {
+          "at": 4.09,
+          "action": "the dye and developer particles drift, still separate",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "heaters",
+      "from": "The printer has no ink",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The printer reveal: no cartridge, no ribbon, just heat. Show the absence first.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a receipt printer opens; an empty cartridge slot is circled and crossed out"
+        },
+        {
+          "kw": "ribbon",
+          "action": "a RIBBON label crosses out too"
+        },
+        {
+          "kw": "heaters",
+          "action": "a row of tiny heating elements draws across the print head, glowing"
+        },
+        {
+          "at": 0.1,
+          "action": "the printer housing opens further, showing the empty carriage",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "reaction",
+      "from": "Wherever it touches",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The reaction, magnified. Melt, meet, blacken.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a heating element presses onto the coating"
+        },
+        {
+          "kw": "melts",
+          "action": "the coating softens under the heat"
+        },
+        {
+          "kw": "black",
+          "action": "dye and developer meet and the spot turns black; letters form across the paper"
+        },
+        {
+          "at": 2.8,
+          "action": "more letters form as the head travels along the paper",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "fade",
+      "from": "The catch is the reaction",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "The flaw: the reaction never locks. Show the same chemistry continuing where it should not.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the printed spot holds, but the two chemicals stay live beneath it"
+        },
+        {
+          "kw": "locks",
+          "action": "a LOCKED? label appears over the print and crosses out"
+        },
+        {
+          "kw": "dashboard",
+          "action": "sunlight through a windscreen and friction in a pocket drive the reaction onward"
+        },
+        {
+          "kw": "vanishes",
+          "action": "the whole receipt darkens over, then empties to blank; hard cut"
+        },
+        {
+          "at": 4.68,
+          "action": "the remaining text thins toward nothing",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "blank",
+      [
+        "blank"
+      ],
+      0
+    ],
+    [
+      "ink",
+      [
+        "ink"
+      ],
+      0
+    ],
+    [
+      "dye",
+      [
+        "dye"
+      ],
+      0
+    ],
+    [
+      "developer",
+      [
+        "developer"
+      ],
+      0
+    ],
+    [
+      "ribbon",
+      [
+        "ribbon"
+      ],
+      0
+    ],
+    [
+      "heaters",
+      [
+        "heaters"
+      ],
+      0
+    ],
+    [
+      "melts",
+      [
+        "melts"
+      ],
+      0
+    ],
+    [
+      "black",
+      [
+        "black"
+      ],
+      0
+    ],
+    [
+      "locks",
+      [
+        "locks"
+      ],
+      0
+    ],
+    [
+      "dashboard",
+      [
+        "dashboard"
+      ],
+      0
+    ],
+    [
+      "vanishes",
+      [
+        "vanishes"
+      ],
+      0
+    ]
+  ]
+}

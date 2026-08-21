@@ -1,0 +1,218 @@
+{
+  "slug": "coin-reeded-edges",
+  "title": "Your Quarter Is Still Protecting Silver It Doesn't Have",
+  "hook": "A quarter is still carrying an anti-theft device for metal it stopped containing.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "gus"
+    ],
+    "note": "Gus plays the clipper in silhouette — never comic, never villainous, just a man with shears."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Run your thumb",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "Tactile opening. The ridges should be felt before they are explained.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill's thumb runs the edge of an oversized quarter; ridges tick past"
+        },
+        {
+          "kw": "ridges",
+          "action": "camera punches to the edge; each ridge draws in teal"
+        },
+        {
+          "kw": "stealing",
+          "action": "a NOTHING WORTH STEALING label lands over the coin face"
+        },
+        {
+          "at": 3.42,
+          "action": "the coin rotates slowly so the ridged edge runs past the camera",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "clipping",
+      "from": "Back when coins",
+      "background": "OldWorkshop",
+      "cast": [
+        "gus"
+      ],
+      "note": "The fraud, shown plainly. Gus shaves a rim. Slivers accumulate. No moralising.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a silver coin on a workbench; Gus enters with shears"
+        },
+        {
+          "kw": "shaved",
+          "action": "a thin sliver peels off the rim and drops into a growing pile"
+        },
+        {
+          "kw": "normal",
+          "action": "the shaved coin sits beside an intact one; they look identical"
+        },
+        {
+          "at": 3.4,
+          "action": "the pile of slivers rises another notch",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 5.22,
+          "action": "Gus squares the coin on the bench and repositions the shears",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "grooves",
+      "from": "So mints cut",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "The countermeasure. The reveal is that a shaved reeded coin has an OBVIOUS smooth gap.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a blank coin edge rotates into view"
+        },
+        {
+          "kw": "grooves",
+          "action": "reeding cuts into the edge all the way around, tick by tick"
+        },
+        {
+          "kw": "ended",
+          "action": "a sliver is shaved off; the ridge pattern stops dead at a smooth flat, circled coral"
+        },
+        {
+          "at": 2.77,
+          "action": "the reeded edge turns a full rotation, ridges ticking past",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "newton",
+      "from": "Isaac Newton used",
+      "background": "OldWorkshop",
+      "cast": [
+        "gus"
+      ],
+      "note": "One authority beat. Gus becomes the Mint, stamping. No wig, no caricature.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a mint press descends on a coin blank"
+        },
+        {
+          "kw": "newton",
+          "action": "the press stamps; a ROYAL MINT mark lands on the page beside it"
+        },
+        {
+          "at": 1.63,
+          "action": "the press lifts and the struck coin is swept aside",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "The silver is long",
+      "background": "DeskSurface",
+      "cast": [
+        "bill"
+      ],
+      "note": "The reframe: a defence outliving the thing it defended. Ends on the object, not the joke.",
+      "beats": [
+        {
+          "kw": "gone",
+          "action": "the silver drains out of the coin, leaving plain modern metal"
+        },
+        {
+          "kw": "stayed",
+          "action": "the ridges remain, drawn in full ink while everything else greys; hard cut"
+        },
+        {
+          "at": 0.1,
+          "action": "the coin face dulls from bright silver toward plain modern metal",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "ridges",
+      [
+        "ridges"
+      ],
+      0
+    ],
+    [
+      "stealing",
+      [
+        "stealing"
+      ],
+      0
+    ],
+    [
+      "shaved",
+      [
+        "shaved"
+      ],
+      0
+    ],
+    [
+      "normal",
+      [
+        "normal"
+      ],
+      0
+    ],
+    [
+      "grooves",
+      [
+        "grooves"
+      ],
+      0
+    ],
+    [
+      "ended",
+      [
+        "ended"
+      ],
+      0
+    ],
+    [
+      "newton",
+      [
+        "newton"
+      ],
+      0
+    ],
+    [
+      "gone",
+      [
+        "gone"
+      ],
+      0
+    ],
+    [
+      "stayed",
+      [
+        "stayed"
+      ],
+      0
+    ]
+  ]
+}

@@ -1,914 +1,914 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "Public toilet seats have a gap at the front,",
-      "start_time": 0.099,
-      "end_time": 1.919,
+      "start_time": 0.079,
+      "end_time": 2.119,
       "speaker": "narrator",
       "words": [
         {
           "text": "Public",
-          "start_time": 0.099,
-          "end_time": 0.319
+          "start_time": 0.079,
+          "end_time": 0.359
         },
         {
           "text": " ",
-          "start_time": 0.319,
-          "end_time": 0.419
+          "start_time": 0.359,
+          "end_time": 0.459
         },
         {
           "text": "toilet",
-          "start_time": 0.419,
-          "end_time": 0.639
+          "start_time": 0.459,
+          "end_time": 0.719
         },
         {
           "text": " ",
-          "start_time": 0.639,
-          "end_time": 0.74
+          "start_time": 0.719,
+          "end_time": 0.819
         },
         {
           "text": "seats",
-          "start_time": 0.74,
-          "end_time": 0.919
+          "start_time": 0.819,
+          "end_time": 1.019
         },
         {
           "text": " ",
-          "start_time": 0.919,
-          "end_time": 0.959
-        },
-        {
-          "text": "have",
-          "start_time": 0.959,
-          "end_time": 1.039
-        },
-        {
-          "text": " ",
-          "start_time": 1.039,
+          "start_time": 1.019,
           "end_time": 1.079
         },
         {
-          "text": "a",
+          "text": "have",
           "start_time": 1.079,
-          "end_time": 1.1
+          "end_time": 1.159
         },
         {
           "text": " ",
-          "start_time": 1.1,
-          "end_time": 1.22
+          "start_time": 1.159,
+          "end_time": 1.219
+        },
+        {
+          "text": "a",
+          "start_time": 1.22,
+          "end_time": 1.299
+        },
+        {
+          "text": " ",
+          "start_time": 1.299,
+          "end_time": 1.359
         },
         {
           "text": "gap",
-          "start_time": 1.22,
-          "end_time": 1.399
+          "start_time": 1.36,
+          "end_time": 1.559
         },
         {
           "text": " ",
-          "start_time": 1.399,
-          "end_time": 1.439
+          "start_time": 1.559,
+          "end_time": 1.599
         },
         {
           "text": "at",
-          "start_time": 1.439,
-          "end_time": 1.5
+          "start_time": 1.599,
+          "end_time": 1.679
         },
         {
           "text": " ",
-          "start_time": 1.5,
-          "end_time": 1.519
+          "start_time": 1.679,
+          "end_time": 1.699
         },
         {
           "text": "the",
-          "start_time": 1.519,
-          "end_time": 1.579
+          "start_time": 1.699,
+          "end_time": 1.759
         },
         {
           "text": " ",
-          "start_time": 1.579,
-          "end_time": 1.659
+          "start_time": 1.759,
+          "end_time": 1.86
         },
         {
           "text": "front,",
-          "start_time": 1.659,
-          "end_time": 1.919
+          "start_time": 1.86,
+          "end_time": 2.119
         }
       ]
     },
     {
       "text": "and the one in your house almost certainly",
-      "start_time": 2.139,
-      "end_time": 3.519,
+      "start_time": 2.7,
+      "end_time": 4.239,
       "speaker": "narrator",
       "words": [
         {
           "text": "and",
-          "start_time": 2.139,
-          "end_time": 2.22
+          "start_time": 2.7,
+          "end_time": 2.779
         },
         {
           "text": " ",
-          "start_time": 2.22,
-          "end_time": 2.24
+          "start_time": 2.779,
+          "end_time": 2.799
         },
         {
           "text": "the",
-          "start_time": 2.24,
-          "end_time": 2.299
+          "start_time": 2.799,
+          "end_time": 2.839
         },
         {
           "text": " ",
-          "start_time": 2.299,
-          "end_time": 2.379
+          "start_time": 2.839,
+          "end_time": 2.959
         },
         {
           "text": "one",
-          "start_time": 2.379,
-          "end_time": 2.46
+          "start_time": 2.96,
+          "end_time": 3.039
         },
         {
           "text": " ",
-          "start_time": 2.46,
-          "end_time": 2.5
+          "start_time": 3.039,
+          "end_time": 3.079
         },
         {
           "text": "in",
-          "start_time": 2.5,
-          "end_time": 2.559
+          "start_time": 3.079,
+          "end_time": 3.159
         },
         {
           "text": " ",
-          "start_time": 2.559,
-          "end_time": 2.619
+          "start_time": 3.159,
+          "end_time": 3.219
         },
         {
           "text": "your",
-          "start_time": 2.619,
-          "end_time": 2.7
-        },
-        {
-          "text": " ",
-          "start_time": 2.7,
-          "end_time": 2.74
-        },
-        {
-          "text": "house",
-          "start_time": 2.74,
-          "end_time": 2.96
-        },
-        {
-          "text": " ",
-          "start_time": 2.96,
-          "end_time": 3.019
-        },
-        {
-          "text": "almost",
-          "start_time": 3.019,
-          "end_time": 3.259
-        },
-        {
-          "text": " ",
-          "start_time": 3.259,
+          "start_time": 3.22,
           "end_time": 3.299
         },
         {
-          "text": "certainly",
+          "text": " ",
           "start_time": 3.299,
-          "end_time": 3.519
+          "end_time": 3.339
+        },
+        {
+          "text": "house",
+          "start_time": 3.339,
+          "end_time": 3.579
+        },
+        {
+          "text": " ",
+          "start_time": 3.579,
+          "end_time": 3.659
+        },
+        {
+          "text": "almost",
+          "start_time": 3.659,
+          "end_time": 3.919
+        },
+        {
+          "text": " ",
+          "start_time": 3.919,
+          "end_time": 3.959
+        },
+        {
+          "text": "certainly",
+          "start_time": 3.959,
+          "end_time": 4.239
         }
       ]
     },
     {
       "text": "does not.",
-      "start_time": 3.579,
-      "end_time": 4.179,
+      "start_time": 4.279,
+      "end_time": 4.879,
       "speaker": "narrator",
       "words": [
         {
           "text": "does",
-          "start_time": 3.579,
-          "end_time": 3.679
+          "start_time": 4.279,
+          "end_time": 4.44
         },
         {
           "text": " ",
-          "start_time": 3.679,
-          "end_time": 3.739
+          "start_time": 4.44,
+          "end_time": 4.48
         },
         {
           "text": "not.",
-          "start_time": 3.74,
-          "end_time": 3.959
+          "start_time": 4.48,
+          "end_time": 4.719
         }
       ]
     },
     {
       "text": "It is written down.",
-      "start_time": 4.219,
-      "end_time": 4.939,
+      "start_time": 5.44,
+      "end_time": 6.239,
       "speaker": "narrator",
       "words": [
         {
           "text": "It",
-          "start_time": 4.219,
-          "end_time": 4.259
+          "start_time": 5.44,
+          "end_time": 5.48
         },
         {
           "text": " ",
-          "start_time": 4.259,
-          "end_time": 4.299
+          "start_time": 5.48,
+          "end_time": 5.519
         },
         {
           "text": "is",
-          "start_time": 4.299,
-          "end_time": 4.4
+          "start_time": 5.519,
+          "end_time": 5.639
         },
         {
           "text": " ",
-          "start_time": 4.4,
-          "end_time": 4.44
+          "start_time": 5.639,
+          "end_time": 5.699
         },
         {
           "text": "written",
-          "start_time": 4.44,
-          "end_time": 4.599
+          "start_time": 5.699,
+          "end_time": 5.92
         },
         {
           "text": " ",
-          "start_time": 4.599,
-          "end_time": 4.699
+          "start_time": 5.92,
+          "end_time": 5.98
         },
         {
           "text": "down.",
-          "start_time": 4.699,
-          "end_time": 4.939
+          "start_time": 5.98,
+          "end_time": 6.239
         }
       ]
     },
     {
       "text": "The plumbing codes most of the country builds",
-      "start_time": 5.219,
-      "end_time": 6.96,
+      "start_time": 7.279,
+      "end_time": 9.22,
       "speaker": "narrator",
       "words": [
         {
           "text": "The",
-          "start_time": 5.219,
-          "end_time": 5.279
+          "start_time": 7.279,
+          "end_time": 7.339
         },
         {
           "text": " ",
-          "start_time": 5.279,
-          "end_time": 5.339
+          "start_time": 7.339,
+          "end_time": 7.399
         },
         {
           "text": "plumbing",
-          "start_time": 5.339,
-          "end_time": 5.539
+          "start_time": 7.399,
+          "end_time": 7.679
         },
         {
           "text": " ",
-          "start_time": 5.539,
-          "end_time": 5.619
+          "start_time": 7.679,
+          "end_time": 7.739
         },
         {
           "text": "codes",
-          "start_time": 5.619,
-          "end_time": 5.96
-        },
-        {
-          "text": " ",
-          "start_time": 5.96,
-          "end_time": 6.019
-        },
-        {
-          "text": "most",
-          "start_time": 6.019,
-          "end_time": 6.159
-        },
-        {
-          "text": " ",
-          "start_time": 6.159,
-          "end_time": 6.199
-        },
-        {
-          "text": "of",
-          "start_time": 6.199,
-          "end_time": 6.239
-        },
-        {
-          "text": " ",
-          "start_time": 6.239,
-          "end_time": 6.259
-        },
-        {
-          "text": "the",
-          "start_time": 6.259,
-          "end_time": 6.319
-        },
-        {
-          "text": " ",
-          "start_time": 6.319,
-          "end_time": 6.379
-        },
-        {
-          "text": "country",
-          "start_time": 6.379,
-          "end_time": 6.659
-        },
-        {
-          "text": " ",
-          "start_time": 6.659,
-          "end_time": 6.719
-        },
-        {
-          "text": "builds",
-          "start_time": 6.719,
-          "end_time": 6.96
-        }
-      ]
-    },
-    {
-      "text": "to call for open-front seats in public restrooms,",
-      "start_time": 7,
-      "end_time": 9.159,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "to",
-          "start_time": 7,
-          "end_time": 7.059
-        },
-        {
-          "text": " ",
-          "start_time": 7.059,
-          "end_time": 7.119
-        },
-        {
-          "text": "call",
-          "start_time": 7.119,
-          "end_time": 7.319
-        },
-        {
-          "text": " ",
-          "start_time": 7.319,
-          "end_time": 7.359
-        },
-        {
-          "text": "for",
-          "start_time": 7.359,
-          "end_time": 7.479
-        },
-        {
-          "text": " ",
-          "start_time": 7.479,
-          "end_time": 7.579
-        },
-        {
-          "text": "open-front",
-          "start_time": 7.579,
+          "start_time": 7.739,
           "end_time": 8.019
         },
         {
           "text": " ",
           "start_time": 8.019,
-          "end_time": 8.099
+          "end_time": 8.139
         },
         {
-          "text": "seats",
-          "start_time": 8.099,
-          "end_time": 8.279
+          "text": "most",
+          "start_time": 8.139,
+          "end_time": 8.32
         },
         {
           "text": " ",
-          "start_time": 8.279,
-          "end_time": 8.319
+          "start_time": 8.32,
+          "end_time": 8.34
         },
         {
-          "text": "in",
-          "start_time": 8.319,
+          "text": "of",
+          "start_time": 8.34,
           "end_time": 8.42
         },
         {
           "text": " ",
           "start_time": 8.42,
-          "end_time": 8.46
+          "end_time": 8.439
         },
         {
-          "text": "public",
-          "start_time": 8.46,
-          "end_time": 8.679
+          "text": "the",
+          "start_time": 8.439,
+          "end_time": 8.519
         },
         {
           "text": " ",
-          "start_time": 8.679,
-          "end_time": 8.739
+          "start_time": 8.519,
+          "end_time": 8.559
         },
         {
-          "text": "restrooms,",
-          "start_time": 8.739,
-          "end_time": 9.159
+          "text": "country",
+          "start_time": 8.559,
+          "end_time": 8.88
+        },
+        {
+          "text": " ",
+          "start_time": 8.88,
+          "end_time": 8.939
+        },
+        {
+          "text": "builds",
+          "start_time": 8.939,
+          "end_time": 9.22
         }
       ]
     },
     {
-      "text": "and have for over fifty years.",
-      "start_time": 9.46,
-      "end_time": 10.839,
+      "text": "to call for open-front seats in public restrooms,",
+      "start_time": 9.26,
+      "end_time": 11.68,
       "speaker": "narrator",
       "words": [
         {
-          "text": "and",
-          "start_time": 9.46,
+          "text": "to",
+          "start_time": 9.26,
+          "end_time": 9.36
+        },
+        {
+          "text": " ",
+          "start_time": 9.36,
+          "end_time": 9.399
+        },
+        {
+          "text": "call",
+          "start_time": 9.399,
           "end_time": 9.539
         },
         {
           "text": " ",
           "start_time": 9.539,
-          "end_time": 9.599
-        },
-        {
-          "text": "have",
-          "start_time": 9.599,
-          "end_time": 9.76
-        },
-        {
-          "text": " ",
-          "start_time": 9.76,
-          "end_time": 9.819
+          "end_time": 9.659
         },
         {
           "text": "for",
-          "start_time": 9.819,
-          "end_time": 9.92
+          "start_time": 9.659,
+          "end_time": 9.719
         },
         {
           "text": " ",
-          "start_time": 9.92,
-          "end_time": 10
+          "start_time": 9.719,
+          "end_time": 9.899
         },
         {
-          "text": "over",
-          "start_time": 10,
-          "end_time": 10.219
+          "text": "open-front",
+          "start_time": 9.899,
+          "end_time": 10.42
         },
         {
           "text": " ",
-          "start_time": 10.219,
-          "end_time": 10.259
-        },
-        {
-          "text": "fifty",
-          "start_time": 10.26,
+          "start_time": 10.42,
           "end_time": 10.479
         },
         {
-          "text": " ",
+          "text": "seats",
           "start_time": 10.479,
-          "end_time": 10.559
+          "end_time": 10.699
+        },
+        {
+          "text": " ",
+          "start_time": 10.699,
+          "end_time": 10.739
+        },
+        {
+          "text": "in",
+          "start_time": 10.739,
+          "end_time": 10.86
+        },
+        {
+          "text": " ",
+          "start_time": 10.86,
+          "end_time": 10.88
+        },
+        {
+          "text": "public",
+          "start_time": 10.88,
+          "end_time": 11.139
+        },
+        {
+          "text": " ",
+          "start_time": 11.139,
+          "end_time": 11.199
+        },
+        {
+          "text": "restrooms,",
+          "start_time": 11.199,
+          "end_time": 11.68
+        }
+      ]
+    },
+    {
+      "text": "and have for over fifty years.",
+      "start_time": 12,
+      "end_time": 13.539,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 12,
+          "end_time": 12.119
+        },
+        {
+          "text": " ",
+          "start_time": 12.119,
+          "end_time": 12.199
+        },
+        {
+          "text": "have",
+          "start_time": 12.199,
+          "end_time": 12.38
+        },
+        {
+          "text": " ",
+          "start_time": 12.38,
+          "end_time": 12.42
+        },
+        {
+          "text": "for",
+          "start_time": 12.42,
+          "end_time": 12.539
+        },
+        {
+          "text": " ",
+          "start_time": 12.539,
+          "end_time": 12.619
+        },
+        {
+          "text": "over",
+          "start_time": 12.619,
+          "end_time": 12.779
+        },
+        {
+          "text": " ",
+          "start_time": 12.779,
+          "end_time": 12.899
+        },
+        {
+          "text": "fifty",
+          "start_time": 12.899,
+          "end_time": 13.14
+        },
+        {
+          "text": " ",
+          "start_time": 13.14,
+          "end_time": 13.219
         },
         {
           "text": "years.",
-          "start_time": 10.559,
-          "end_time": 10.839
+          "start_time": 13.219,
+          "end_time": 13.539
         }
       ]
     },
     {
       "text": "The gap keeps the seat clear of the area",
-      "start_time": 11.119,
-      "end_time": 12.859,
+      "start_time": 14.479,
+      "end_time": 16.42,
       "speaker": "narrator",
       "words": [
         {
           "text": "The",
-          "start_time": 11.119,
-          "end_time": 11.179
+          "start_time": 14.479,
+          "end_time": 14.539
         },
         {
           "text": " ",
-          "start_time": 11.179,
-          "end_time": 11.259
+          "start_time": 14.539,
+          "end_time": 14.579
         },
         {
           "text": "gap",
-          "start_time": 11.259,
-          "end_time": 11.46
+          "start_time": 14.579,
+          "end_time": 14.799
         },
         {
           "text": " ",
-          "start_time": 11.46,
-          "end_time": 11.519
+          "start_time": 14.799,
+          "end_time": 14.919
         },
         {
           "text": "keeps",
-          "start_time": 11.519,
-          "end_time": 11.699
+          "start_time": 14.92,
+          "end_time": 15.119
         },
         {
           "text": " ",
-          "start_time": 11.699,
-          "end_time": 11.739
+          "start_time": 15.119,
+          "end_time": 15.159
         },
         {
           "text": "the",
-          "start_time": 11.739,
-          "end_time": 11.839
+          "start_time": 15.159,
+          "end_time": 15.199
         },
         {
           "text": " ",
-          "start_time": 11.839,
-          "end_time": 11.88
+          "start_time": 15.199,
+          "end_time": 15.319
         },
         {
           "text": "seat",
-          "start_time": 11.88,
-          "end_time": 12.059
+          "start_time": 15.319,
+          "end_time": 15.539
         },
         {
           "text": " ",
-          "start_time": 12.059,
-          "end_time": 12.139
+          "start_time": 15.539,
+          "end_time": 15.619
         },
         {
           "text": "clear",
-          "start_time": 12.139,
-          "end_time": 12.34
+          "start_time": 15.619,
+          "end_time": 15.839
         },
         {
           "text": " ",
-          "start_time": 12.34,
-          "end_time": 12.359
+          "start_time": 15.839,
+          "end_time": 15.859
         },
         {
           "text": "of",
-          "start_time": 12.359,
-          "end_time": 12.439
+          "start_time": 15.859,
+          "end_time": 15.96
         },
         {
           "text": " ",
-          "start_time": 12.439,
-          "end_time": 12.46
+          "start_time": 15.96,
+          "end_time": 15.979
         },
         {
           "text": "the",
-          "start_time": 12.46,
-          "end_time": 12.559
+          "start_time": 15.979,
+          "end_time": 16.02
         },
         {
           "text": " ",
-          "start_time": 12.559,
-          "end_time": 12.659
+          "start_time": 16.02,
+          "end_time": 16.199
         },
         {
           "text": "area",
-          "start_time": 12.659,
-          "end_time": 12.859
+          "start_time": 16.199,
+          "end_time": 16.42
         }
       ]
     },
     {
       "text": "you are most likely to touch while wiping,",
-      "start_time": 12.939,
-      "end_time": 14.599,
+      "start_time": 16.52,
+      "end_time": 18.379,
       "speaker": "narrator",
       "words": [
         {
           "text": "you",
-          "start_time": 12.939,
-          "end_time": 13.019
+          "start_time": 16.52,
+          "end_time": 16.579
         },
         {
           "text": " ",
-          "start_time": 13.019,
-          "end_time": 13.039
+          "start_time": 16.579,
+          "end_time": 16.619
         },
         {
           "text": "are",
-          "start_time": 13.039,
-          "end_time": 13.179
+          "start_time": 16.619,
+          "end_time": 16.799
         },
         {
           "text": " ",
-          "start_time": 13.179,
-          "end_time": 13.239
+          "start_time": 16.799,
+          "end_time": 16.839
         },
         {
           "text": "most",
-          "start_time": 13.239,
-          "end_time": 13.42
+          "start_time": 16.84,
+          "end_time": 17.04
         },
         {
           "text": " ",
-          "start_time": 13.42,
-          "end_time": 13.479
+          "start_time": 17.04,
+          "end_time": 17.1
         },
         {
           "text": "likely",
-          "start_time": 13.479,
-          "end_time": 13.659
+          "start_time": 17.1,
+          "end_time": 17.34
         },
         {
           "text": " ",
-          "start_time": 13.659,
-          "end_time": 13.699
+          "start_time": 17.34,
+          "end_time": 17.359
         },
         {
           "text": "to",
-          "start_time": 13.699,
-          "end_time": 13.799
+          "start_time": 17.359,
+          "end_time": 17.479
         },
         {
           "text": " ",
-          "start_time": 13.799,
-          "end_time": 13.839
+          "start_time": 17.479,
+          "end_time": 17.519
         },
         {
           "text": "touch",
-          "start_time": 13.84,
-          "end_time": 14.019
+          "start_time": 17.52,
+          "end_time": 17.719
         },
         {
           "text": " ",
-          "start_time": 14.019,
-          "end_time": 14.079
+          "start_time": 17.719,
+          "end_time": 17.779
         },
         {
           "text": "while",
-          "start_time": 14.079,
-          "end_time": 14.219
+          "start_time": 17.779,
+          "end_time": 17.96
         },
         {
           "text": " ",
-          "start_time": 14.219,
-          "end_time": 14.279
+          "start_time": 17.96,
+          "end_time": 18
         },
         {
           "text": "wiping,",
-          "start_time": 14.279,
-          "end_time": 14.599
+          "start_time": 18,
+          "end_time": 18.379
         }
       ]
     },
     {
       "text": "which matters far more when hundreds of strangers",
-      "start_time": 14.799,
-      "end_time": 16.899,
+      "start_time": 18.799,
+      "end_time": 21.119,
       "speaker": "narrator",
       "words": [
         {
           "text": "which",
-          "start_time": 14.799,
-          "end_time": 14.92
+          "start_time": 18.799,
+          "end_time": 18.94
         },
         {
           "text": " ",
-          "start_time": 14.92,
-          "end_time": 15
+          "start_time": 18.94,
+          "end_time": 19
         },
         {
           "text": "matters",
-          "start_time": 15,
-          "end_time": 15.239
+          "start_time": 19,
+          "end_time": 19.28
         },
         {
           "text": " ",
-          "start_time": 15.239,
-          "end_time": 15.359
+          "start_time": 19.28,
+          "end_time": 19.399
         },
         {
           "text": "far",
-          "start_time": 15.359,
-          "end_time": 15.559
+          "start_time": 19.399,
+          "end_time": 19.639
         },
         {
           "text": " ",
-          "start_time": 15.559,
-          "end_time": 15.599
+          "start_time": 19.639,
+          "end_time": 19.68
         },
         {
           "text": "more",
-          "start_time": 15.599,
-          "end_time": 15.739
+          "start_time": 19.68,
+          "end_time": 19.84
         },
         {
           "text": " ",
-          "start_time": 15.739,
-          "end_time": 15.799
+          "start_time": 19.84,
+          "end_time": 19.899
         },
         {
           "text": "when",
-          "start_time": 15.799,
-          "end_time": 15.939
+          "start_time": 19.899,
+          "end_time": 20.079
         },
         {
           "text": " ",
-          "start_time": 15.939,
-          "end_time": 16
+          "start_time": 20.079,
+          "end_time": 20.119
         },
         {
           "text": "hundreds",
-          "start_time": 16,
-          "end_time": 16.26
+          "start_time": 20.119,
+          "end_time": 20.44
         },
         {
           "text": " ",
-          "start_time": 16.26,
-          "end_time": 16.299
+          "start_time": 20.44,
+          "end_time": 20.459
         },
         {
           "text": "of",
-          "start_time": 16.299,
-          "end_time": 16.359
+          "start_time": 20.459,
+          "end_time": 20.579
         },
         {
           "text": " ",
-          "start_time": 16.359,
-          "end_time": 16.439
+          "start_time": 20.579,
+          "end_time": 20.619
         },
         {
           "text": "strangers",
-          "start_time": 16.44,
-          "end_time": 16.899
+          "start_time": 20.619,
+          "end_time": 21.119
         }
       ]
     },
     {
       "text": "share one seat.",
-      "start_time": 16.979,
-      "end_time": 17.719,
+      "start_time": 21.239,
+      "end_time": 22.76,
       "speaker": "narrator",
       "words": [
         {
           "text": "share",
-          "start_time": 16.979,
-          "end_time": 17.199
+          "start_time": 21.239,
+          "end_time": 21.459
         },
         {
           "text": " ",
-          "start_time": 17.199,
-          "end_time": 17.259
+          "start_time": 21.459,
+          "end_time": 21.539
         },
         {
           "text": "one",
-          "start_time": 17.26,
-          "end_time": 17.459
+          "start_time": 21.539,
+          "end_time": 21.76
         },
         {
           "text": " ",
-          "start_time": 17.459,
-          "end_time": 17.519
+          "start_time": 21.76,
+          "end_time": 21.819
         },
         {
           "text": "seat.",
-          "start_time": 17.52,
-          "end_time": 17.719
+          "start_time": 21.819,
+          "end_time": 22.76
         }
       ]
     },
     {
       "text": "It also leaves urine nowhere to pool.",
-      "start_time": 17.959,
-      "end_time": 19.539,
+      "start_time": 22.819,
+      "end_time": 24.579,
       "speaker": "narrator",
       "words": [
         {
           "text": "It",
-          "start_time": 17.959,
-          "end_time": 18.039
+          "start_time": 22.819,
+          "end_time": 22.92
         },
         {
           "text": " ",
-          "start_time": 18.039,
-          "end_time": 18.119
+          "start_time": 22.92,
+          "end_time": 22.979
         },
         {
           "text": "also",
-          "start_time": 18.119,
-          "end_time": 18.339
+          "start_time": 22.979,
+          "end_time": 23.239
         },
         {
           "text": " ",
-          "start_time": 18.339,
-          "end_time": 18.379
+          "start_time": 23.239,
+          "end_time": 23.279
         },
         {
           "text": "leaves",
-          "start_time": 18.379,
-          "end_time": 18.559
+          "start_time": 23.279,
+          "end_time": 23.5
         },
         {
           "text": " ",
-          "start_time": 18.559,
-          "end_time": 18.599
+          "start_time": 23.5,
+          "end_time": 23.539
         },
         {
           "text": "urine",
-          "start_time": 18.6,
-          "end_time": 18.819
+          "start_time": 23.539,
+          "end_time": 23.799
         },
         {
           "text": " ",
-          "start_time": 18.819,
-          "end_time": 18.879
+          "start_time": 23.799,
+          "end_time": 23.839
         },
         {
           "text": "nowhere",
-          "start_time": 18.879,
-          "end_time": 19.079
+          "start_time": 23.84,
+          "end_time": 24.1
         },
         {
           "text": " ",
-          "start_time": 19.079,
-          "end_time": 19.119
+          "start_time": 24.1,
+          "end_time": 24.101000000000003
         },
         {
           "text": "to",
-          "start_time": 19.119,
-          "end_time": 19.199
+          "start_time": 24.101000000000003,
+          "end_time": 24.219
         },
         {
           "text": " ",
-          "start_time": 19.199,
-          "end_time": 19.259
+          "start_time": 24.219,
+          "end_time": 24.279
         },
         {
           "text": "pool.",
-          "start_time": 19.26,
-          "end_time": 19.539
+          "start_time": 24.279,
+          "end_time": 24.579
         }
       ]
     },
     {
       "text": "What reads as cost-cutting is a rule.",
-      "start_time": 19.819,
-      "end_time": 21.539,
+      "start_time": 25.519,
+      "end_time": 27.439,
       "speaker": "narrator",
       "words": [
         {
           "text": "What",
-          "start_time": 19.819,
-          "end_time": 19.92
+          "start_time": 25.519,
+          "end_time": 25.639
         },
         {
           "text": " ",
-          "start_time": 19.92,
-          "end_time": 20
+          "start_time": 25.639,
+          "end_time": 25.719
         },
         {
           "text": "reads",
-          "start_time": 20,
-          "end_time": 20.199
+          "start_time": 25.719,
+          "end_time": 25.939
         },
         {
           "text": " ",
-          "start_time": 20.199,
-          "end_time": 20.259
+          "start_time": 25.939,
+          "end_time": 25.999
         },
         {
           "text": "as",
-          "start_time": 20.26,
-          "end_time": 20.34
+          "start_time": 26,
+          "end_time": 26.1
         },
         {
           "text": " ",
-          "start_time": 20.34,
-          "end_time": 20.459
+          "start_time": 26.1,
+          "end_time": 26.239
         },
         {
           "text": "cost-cutting",
-          "start_time": 20.459,
-          "end_time": 21.039
+          "start_time": 26.239,
+          "end_time": 26.879
         },
         {
           "text": " ",
-          "start_time": 21.039,
-          "end_time": 21.099
+          "start_time": 26.879,
+          "end_time": 26.939
         },
         {
           "text": "is",
-          "start_time": 21.1,
-          "end_time": 21.159
+          "start_time": 26.939,
+          "end_time": 27.02
         },
         {
           "text": " ",
-          "start_time": 21.159,
-          "end_time": 21.199
+          "start_time": 27.02,
+          "end_time": 27.059
         },
         {
           "text": "a",
-          "start_time": 21.199,
-          "end_time": 21.219
+          "start_time": 27.059,
+          "end_time": 27.139
         },
         {
           "text": " ",
-          "start_time": 21.219,
-          "end_time": 21.319
+          "start_time": 27.139,
+          "end_time": 27.199
         },
         {
           "text": "rule.",
-          "start_time": 21.319,
-          "end_time": 21.539
+          "start_time": 27.199,
+          "end_time": 27.439
         }
       ]
     }

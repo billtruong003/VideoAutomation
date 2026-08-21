@@ -1,0 +1,227 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "brick-holes",
+  "title": "A Brick Has Holes For Three Different Reasons",
+  "audio": "public/audio/brick-holes.wav",
+  "fps": 30,
+  "narrationDuration": 23.006,
+  "beatCount": 19,
+  "longestGap": 2.17,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.088,
+      "end": 5.299,
+      "startFrame": 3,
+      "endFrame": 159,
+      "duration": 5.211,
+      "narration": "A brick has holes punched straight through the middle, which is an odd thing to do to an object whose whole job is being solid.",
+      "background": "OldWorkshop",
+      "note": "The paradox up front: an object whose job is being solid, full of holes.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.088,
+          "frame": 3,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill holds up a brick; three holes run through it"
+        },
+        {
+          "t": 0.678,
+          "frame": 20,
+          "tInScene": 0.59,
+          "frameInScene": 18,
+          "action": "camera punches through one hole and out the other side"
+        },
+        {
+          "t": 5.013,
+          "frame": 150,
+          "tInScene": 4.925,
+          "frameInScene": 148,
+          "action": "a SOLID? label lands over the brick and wavers"
+        },
+        {
+          "t": 2.848,
+          "frame": 85,
+          "tInScene": 2.76,
+          "frameInScene": 83,
+          "action": "Bill turns the brick end over end, looking through the holes",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "better",
+      "start": 5.55,
+      "end": 6.532,
+      "startFrame": 167,
+      "endFrame": 196,
+      "duration": 0.982,
+      "narration": "The holes make it better.",
+      "background": "OldWorkshop",
+      "note": "Short pivot beat. Three numbered slots appear and wait to be filled.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 6.3,
+          "frame": 189,
+          "tInScene": 0.75,
+          "frameInScene": 23,
+          "action": "three empty numbered slots slide in beside the brick"
+        }
+      ]
+    },
+    {
+      "scene": "mortar",
+      "start": 6.834,
+      "end": 12.544,
+      "startFrame": 205,
+      "endFrame": 376,
+      "duration": 5.71,
+      "narration": "Mortar squeezes down into them and sets there, so each brick is keyed into the one above rather than glued along a flat face.",
+      "background": "CutawayVoid",
+      "note": "Reason one. The keying action is the good visual — mortar as a plug, not a glue line.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 6.834,
+          "frame": 205,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "two brick courses in cross-section with mortar between"
+        },
+        {
+          "t": 6.834,
+          "frame": 205,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "mortar presses down into the holes and sets, forming plugs"
+        },
+        {
+          "t": 9.766,
+          "frame": 293,
+          "tInScene": 2.932,
+          "frameInScene": 88,
+          "action": "the plugs lock the courses together; a flat-glued wall beside it slides apart"
+        },
+        {
+          "t": 8.304,
+          "frame": 249,
+          "tInScene": 1.47,
+          "frameInScene": 44,
+          "action": "more mortar presses down and fills the second hole",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 11.324,
+          "frame": 340,
+          "tInScene": 4.49,
+          "frameInScene": 135,
+          "action": "the keyed courses take weight and stay locked together",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "firing",
+      "start": 12.878,
+      "end": 19.395,
+      "startFrame": 386,
+      "endFrame": 582,
+      "duration": 6.517,
+      "narration": "Wet clay also has to dry and fire without cracking, and heat reaches the middle of a perforated brick far faster than a solid lump.",
+      "background": "CutawayVoid",
+      "note": "Reason two. Heat reaching the middle — a heat map, two bricks compared.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 12.878,
+          "frame": 386,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a solid brick and a perforated brick enter a kiln side by side"
+        },
+        {
+          "t": 15.391,
+          "frame": 462,
+          "tInScene": 2.513,
+          "frameInScene": 75,
+          "action": "the solid brick heats unevenly and cracks through the middle"
+        },
+        {
+          "t": 18.341,
+          "frame": 550,
+          "tInScene": 5.463,
+          "frameInScene": 164,
+          "action": "heat travels through the perforated brick from inside and out; it fires evenly"
+        },
+        {
+          "t": 12.978,
+          "frame": 389,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the kiln door closes over both bricks",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 14.138,
+          "frame": 424,
+          "tInScene": 1.26,
+          "frameInScene": 38,
+          "action": "heat builds in the kiln; both bricks glow at the edges",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 16.868,
+          "frame": 506,
+          "tInScene": 3.99,
+          "frameInScene": 120,
+          "action": "the crack in the solid brick widens as it cools",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 19.715,
+      "end": 22.789,
+      "startFrame": 591,
+      "endFrame": 684,
+      "duration": 3.074,
+      "narration": "Less clay, less fuel, lighter to lift, stronger wall.",
+      "background": "OldWorkshop",
+      "note": "Reason three plus the summary. The slots fill in as each phrase lands. Hard cut on the wall.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 19.947,
+          "frame": 598,
+          "tInScene": 0.232,
+          "frameInScene": 7,
+          "action": "the first slot fills: LESS CLAY"
+        },
+        {
+          "t": 20.662,
+          "frame": 620,
+          "tInScene": 0.947,
+          "frameInScene": 28,
+          "action": "the second slot fills: LESS FUEL"
+        },
+        {
+          "t": 22.538,
+          "frame": 676,
+          "tInScene": 2.823,
+          "frameInScene": 85,
+          "action": "the third fills: STRONGER WALL; a finished wall builds up behind Bill; hard cut"
+        }
+      ]
+    }
+  ]
+}

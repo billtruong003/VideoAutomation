@@ -1,0 +1,677 @@
+{
+  "note": "Timings correspond to public/audio/tactile-paving.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/tactile-paving/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/tactile-paving.timemap.json",
+  "audio": "public/audio/tactile-paving.wav",
+  "duration": 25.848,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "Those bumpy tiles at the edge of a train",
+      "start": 0.088,
+      "end": 1.732
+    },
+    {
+      "text": "platform are a language,",
+      "start": 1.787,
+      "end": 2.786
+    },
+    {
+      "text": "and it only has two words.",
+      "start": 2.989,
+      "end": 4.114
+    },
+    {
+      "text": "Round domes mean stop,",
+      "start": 4.43,
+      "end": 5.912
+    },
+    {
+      "text": "because there is an edge,",
+      "start": 6.178,
+      "end": 7.106
+    },
+    {
+      "text": "a road,",
+      "start": 7.396,
+      "end": 7.896
+    },
+    {
+      "text": "or a drop ahead.",
+      "start": 8.051,
+      "end": 8.82
+    },
+    {
+      "text": "Long parallel bars mean keep going,",
+      "start": 9.186,
+      "end": 11.152
+    },
+    {
+      "text": "this way is safe.",
+      "start": 11.33,
+      "end": 12.063
+    },
+    {
+      "text": "Both are readable through a shoe",
+      "start": 12.391,
+      "end": 13.695
+    },
+    {
+      "text": "or the tip of a cane,",
+      "start": 13.965,
+      "end": 14.859
+    },
+    {
+      "text": "and the yellow helps if you still have some",
+      "start": 15.071,
+      "end": 16.519
+    },
+    {
+      "text": "sight.",
+      "start": 16.626,
+      "end": 16.959
+    },
+    {
+      "text": "An engineer in Japan named",
+      "start": 17.112,
+      "end": 18.416
+    },
+    {
+      "text": "Seiichi Miyake",
+      "start": 18.72,
+      "end": 19.63
+    },
+    {
+      "text": "paid for the first ones himself in 1965,",
+      "start": 19.872,
+      "end": 22.212
+    },
+    {
+      "text": "because a friend was going blind.",
+      "start": 22.435,
+      "end": 23.74
+    },
+    {
+      "text": "They are under most of the world's feet now.",
+      "start": 24.051,
+      "end": 25.586
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "Those",
+      "start": 0.088,
+      "end": 0.285
+    },
+    {
+      "i": 1,
+      "text": "bumpy",
+      "start": 0.356,
+      "end": 0.554
+    },
+    {
+      "i": 2,
+      "text": "tiles",
+      "start": 0.661,
+      "end": 0.928
+    },
+    {
+      "i": 3,
+      "text": "at",
+      "start": 0.964,
+      "end": 1.035
+    },
+    {
+      "i": 4,
+      "text": "the",
+      "start": 1.053,
+      "end": 1.108
+    },
+    {
+      "i": 5,
+      "text": "edge",
+      "start": 1.196,
+      "end": 1.321
+    },
+    {
+      "i": 6,
+      "text": "of",
+      "start": 1.34,
+      "end": 1.393
+    },
+    {
+      "i": 7,
+      "text": "a",
+      "start": 1.41,
+      "end": 1.482
+    },
+    {
+      "i": 8,
+      "text": "train",
+      "start": 1.536,
+      "end": 1.732
+    },
+    {
+      "i": 9,
+      "text": "platform",
+      "start": 1.787,
+      "end": 2.161
+    },
+    {
+      "i": 10,
+      "text": "are",
+      "start": 2.197,
+      "end": 2.268
+    },
+    {
+      "i": 11,
+      "text": "a",
+      "start": 2.322,
+      "end": 2.375
+    },
+    {
+      "i": 12,
+      "text": "language,",
+      "start": 2.43,
+      "end": 2.786
+    },
+    {
+      "i": 13,
+      "text": "and",
+      "start": 2.989,
+      "end": 3.06
+    },
+    {
+      "i": 14,
+      "text": "it",
+      "start": 3.078,
+      "end": 3.15
+    },
+    {
+      "i": 15,
+      "text": "only",
+      "start": 3.221,
+      "end": 3.4
+    },
+    {
+      "i": 16,
+      "text": "has",
+      "start": 3.435,
+      "end": 3.542
+    },
+    {
+      "i": 17,
+      "text": "two",
+      "start": 3.632,
+      "end": 3.722
+    },
+    {
+      "i": 18,
+      "text": "words.",
+      "start": 3.811,
+      "end": 4.114
+    },
+    {
+      "i": 19,
+      "text": "Round",
+      "start": 4.43,
+      "end": 4.697
+    },
+    {
+      "i": 20,
+      "text": "domes",
+      "start": 4.822,
+      "end": 5.179
+    },
+    {
+      "i": 21,
+      "text": "mean",
+      "start": 5.251,
+      "end": 5.483
+    },
+    {
+      "i": 22,
+      "text": "stop,",
+      "start": 5.555,
+      "end": 5.912
+    },
+    {
+      "i": 23,
+      "text": "because",
+      "start": 6.178,
+      "end": 6.392
+    },
+    {
+      "i": 24,
+      "text": "there",
+      "start": 6.447,
+      "end": 6.535
+    },
+    {
+      "i": 25,
+      "text": "is",
+      "start": 6.589,
+      "end": 6.66
+    },
+    {
+      "i": 26,
+      "text": "an",
+      "start": 6.696,
+      "end": 6.75
+    },
+    {
+      "i": 27,
+      "text": "edge,",
+      "start": 6.893,
+      "end": 7.106
+    },
+    {
+      "i": 28,
+      "text": "a",
+      "start": 7.396,
+      "end": 7.413
+    },
+    {
+      "i": 29,
+      "text": "road,",
+      "start": 7.539,
+      "end": 7.789
+    },
+    {
+      "i": 30,
+      "text": "or",
+      "start": 8.051,
+      "end": 8.106
+    },
+    {
+      "i": 31,
+      "text": "a",
+      "start": 8.159,
+      "end": 8.177
+    },
+    {
+      "i": 32,
+      "text": "drop",
+      "start": 8.266,
+      "end": 8.498
+    },
+    {
+      "i": 33,
+      "text": "ahead.",
+      "start": 8.553,
+      "end": 8.82
+    },
+    {
+      "i": 34,
+      "text": "Long",
+      "start": 9.186,
+      "end": 9.366
+    },
+    {
+      "i": 35,
+      "text": "parallel",
+      "start": 9.472,
+      "end": 9.776
+    },
+    {
+      "i": 36,
+      "text": "bars",
+      "start": 9.883,
+      "end": 10.152
+    },
+    {
+      "i": 37,
+      "text": "mean",
+      "start": 10.24,
+      "end": 10.419
+    },
+    {
+      "i": 38,
+      "text": "keep",
+      "start": 10.651,
+      "end": 10.812
+    },
+    {
+      "i": 39,
+      "text": "going,",
+      "start": 10.866,
+      "end": 11.152
+    },
+    {
+      "i": 40,
+      "text": "this",
+      "start": 11.33,
+      "end": 11.455
+    },
+    {
+      "i": 41,
+      "text": "way",
+      "start": 11.528,
+      "end": 11.616
+    },
+    {
+      "i": 42,
+      "text": "is",
+      "start": 11.652,
+      "end": 11.741
+    },
+    {
+      "i": 43,
+      "text": "safe.",
+      "start": 11.813,
+      "end": 12.063
+    },
+    {
+      "i": 44,
+      "text": "Both",
+      "start": 12.391,
+      "end": 12.552
+    },
+    {
+      "i": 45,
+      "text": "are",
+      "start": 12.588,
+      "end": 12.695
+    },
+    {
+      "i": 46,
+      "text": "readable",
+      "start": 12.75,
+      "end": 13.034
+    },
+    {
+      "i": 47,
+      "text": "through",
+      "start": 13.106,
+      "end": 13.231
+    },
+    {
+      "i": 48,
+      "text": "a",
+      "start": 13.302,
+      "end": 13.374
+    },
+    {
+      "i": 49,
+      "text": "shoe",
+      "start": 13.445,
+      "end": 13.695
+    },
+    {
+      "i": 50,
+      "text": "or",
+      "start": 13.965,
+      "end": 14.055
+    },
+    {
+      "i": 51,
+      "text": "the",
+      "start": 14.09,
+      "end": 14.198
+    },
+    {
+      "i": 52,
+      "text": "tip",
+      "start": 14.233,
+      "end": 14.34
+    },
+    {
+      "i": 53,
+      "text": "of",
+      "start": 14.376,
+      "end": 14.431
+    },
+    {
+      "i": 54,
+      "text": "a",
+      "start": 14.448,
+      "end": 14.465
+    },
+    {
+      "i": 55,
+      "text": "cane,",
+      "start": 14.574,
+      "end": 14.859
+    },
+    {
+      "i": 56,
+      "text": "and",
+      "start": 15.071,
+      "end": 15.143
+    },
+    {
+      "i": 57,
+      "text": "the",
+      "start": 15.179,
+      "end": 15.214
+    },
+    {
+      "i": 58,
+      "text": "yellow",
+      "start": 15.286,
+      "end": 15.482
+    },
+    {
+      "i": 59,
+      "text": "helps",
+      "start": 15.537,
+      "end": 15.769
+    },
+    {
+      "i": 60,
+      "text": "if",
+      "start": 15.822,
+      "end": 15.893
+    },
+    {
+      "i": 61,
+      "text": "you",
+      "start": 15.912,
+      "end": 16
+    },
+    {
+      "i": 62,
+      "text": "still",
+      "start": 16.055,
+      "end": 16.215
+    },
+    {
+      "i": 63,
+      "text": "have",
+      "start": 16.268,
+      "end": 16.359
+    },
+    {
+      "i": 64,
+      "text": "some",
+      "start": 16.43,
+      "end": 16.519
+    },
+    {
+      "i": 65,
+      "text": "sight.",
+      "start": 16.626,
+      "end": 16.858
+    },
+    {
+      "i": 66,
+      "text": "An",
+      "start": 17.112,
+      "end": 17.183
+    },
+    {
+      "i": 67,
+      "text": "engineer",
+      "start": 17.272,
+      "end": 17.648
+    },
+    {
+      "i": 68,
+      "text": "in",
+      "start": 17.684,
+      "end": 17.756
+    },
+    {
+      "i": 69,
+      "text": "Japan",
+      "start": 17.808,
+      "end": 18.184
+    },
+    {
+      "i": 70,
+      "text": "named",
+      "start": 18.237,
+      "end": 18.416
+    },
+    {
+      "i": 71,
+      "text": "Seiichi",
+      "start": 18.72,
+      "end": 19.095
+    },
+    {
+      "i": 72,
+      "text": "Miyake",
+      "start": 19.148,
+      "end": 19.63
+    },
+    {
+      "i": 73,
+      "text": "paid",
+      "start": 19.872,
+      "end": 20.032
+    },
+    {
+      "i": 74,
+      "text": "for",
+      "start": 20.068,
+      "end": 20.122
+    },
+    {
+      "i": 75,
+      "text": "the",
+      "start": 20.158,
+      "end": 20.247
+    },
+    {
+      "i": 76,
+      "text": "first",
+      "start": 20.283,
+      "end": 20.479
+    },
+    {
+      "i": 77,
+      "text": "ones",
+      "start": 20.551,
+      "end": 20.693
+    },
+    {
+      "i": 78,
+      "text": "himself",
+      "start": 20.729,
+      "end": 21.104
+    },
+    {
+      "i": 79,
+      "text": "in",
+      "start": 21.14,
+      "end": 21.247
+    },
+    {
+      "i": 80,
+      "text": "1965,",
+      "start": 21.301,
+      "end": 22.212
+    },
+    {
+      "i": 81,
+      "text": "because",
+      "start": 22.435,
+      "end": 22.614
+    },
+    {
+      "i": 82,
+      "text": "a",
+      "start": 22.668,
+      "end": 22.739
+    },
+    {
+      "i": 83,
+      "text": "friend",
+      "start": 22.793,
+      "end": 22.971
+    },
+    {
+      "i": 84,
+      "text": "was",
+      "start": 23.025,
+      "end": 23.114
+    },
+    {
+      "i": 85,
+      "text": "going",
+      "start": 23.168,
+      "end": 23.329
+    },
+    {
+      "i": 86,
+      "text": "blind.",
+      "start": 23.436,
+      "end": 23.74
+    },
+    {
+      "i": 87,
+      "text": "They",
+      "start": 24.051,
+      "end": 24.123
+    },
+    {
+      "i": 88,
+      "text": "are",
+      "start": 24.158,
+      "end": 24.229
+    },
+    {
+      "i": 89,
+      "text": "under",
+      "start": 24.283,
+      "end": 24.479
+    },
+    {
+      "i": 90,
+      "text": "most",
+      "start": 24.515,
+      "end": 24.693
+    },
+    {
+      "i": 91,
+      "text": "of",
+      "start": 24.711,
+      "end": 24.765
+    },
+    {
+      "i": 92,
+      "text": "the",
+      "start": 24.8,
+      "end": 24.854
+    },
+    {
+      "i": 93,
+      "text": "world's",
+      "start": 24.925,
+      "end": 25.14
+    },
+    {
+      "i": 94,
+      "text": "feet",
+      "start": 25.229,
+      "end": 25.372
+    },
+    {
+      "i": 95,
+      "text": "now.",
+      "start": 25.426,
+      "end": 25.586
+    }
+  ]
+}

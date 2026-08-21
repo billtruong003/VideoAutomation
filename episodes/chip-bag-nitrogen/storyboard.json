@@ -1,0 +1,245 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "chip-bag-nitrogen",
+  "title": "Chip Bags Are Not Filled With Air",
+  "audio": "public/audio/chip-bag-nitrogen.wav",
+  "fps": 30,
+  "narrationDuration": 23.374,
+  "beatCount": 20,
+  "longestGap": 2.027,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.088,
+      "end": 3.348,
+      "startFrame": 3,
+      "endFrame": 100,
+      "duration": 3.26,
+      "narration": "A bag of chips is mostly not chips, and the empty part is not air.",
+      "background": "KitchenCounter",
+      "note": "Lead with the grievance so the payoff can answer it.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.088,
+          "frame": 3,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill opens a large bag; the chips inside fill a third of it"
+        },
+        {
+          "t": 0.893,
+          "frame": 27,
+          "tInScene": 0.805,
+          "frameInScene": 24,
+          "action": "the empty volume shades in and labels itself"
+        },
+        {
+          "t": 3.116,
+          "frame": 93,
+          "tInScene": 3.028,
+          "frameInScene": 91,
+          "action": "an AIR label appears over the empty space and crosses out"
+        },
+        {
+          "t": 2.008,
+          "frame": 60,
+          "tInScene": 1.92,
+          "frameInScene": 58,
+          "action": "Bill tilts the bag; the chips slide to one end and the empty space grows",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "oxygen",
+      "start": 3.649,
+      "end": 7.876,
+      "startFrame": 109,
+      "endFrame": 236,
+      "duration": 4.227,
+      "narration": "Air is a fifth oxygen, and oxygen turns the oil in a chip rancid within days.",
+      "background": "SchematicVoid",
+      "note": "Oxygen as the villain. Molecules attacking oil is the mechanism — keep it simple and legible.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 3.649,
+          "frame": 109,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "air separates into labelled molecule groups; the oxygen fifth highlights coral"
+        },
+        {
+          "t": 4.402,
+          "frame": 132,
+          "tInScene": 0.753,
+          "frameInScene": 23,
+          "action": "oxygen molecules drift onto a chip"
+        },
+        {
+          "t": 6.893,
+          "frame": 207,
+          "tInScene": 3.244,
+          "frameInScene": 97,
+          "action": "the oil on the chip darkens and dulls; a RANCID mark stamps"
+        },
+        {
+          "t": 5.649,
+          "frame": 169,
+          "tInScene": 2,
+          "frameInScene": 60,
+          "action": "more oxygen molecules drift down onto the chip",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "nitrogen",
+      "start": 8.215,
+      "end": 13.975,
+      "startFrame": 246,
+      "endFrame": 419,
+      "duration": 5.76,
+      "narration": "So the bag gets flushed with nitrogen, which is inert and does nothing to food, and the oxygen inside drops to almost nothing.",
+      "background": "CutawayVoid",
+      "note": "The swap, shown as a flush: nitrogen in, oxygen out. Teal displaces coral.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 8.215,
+          "frame": 246,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a filling nozzle enters the bag"
+        },
+        {
+          "t": 9.376,
+          "frame": 281,
+          "tInScene": 1.161,
+          "frameInScene": 35,
+          "action": "teal nitrogen floods in; coral oxygen is pushed out of the neck"
+        },
+        {
+          "t": 10.288,
+          "frame": 309,
+          "tInScene": 2.073,
+          "frameInScene": 62,
+          "action": "nitrogen molecules bounce off the chips without reacting"
+        },
+        {
+          "t": 12.315,
+          "frame": 369,
+          "tInScene": 4.1,
+          "frameInScene": 123,
+          "action": "the last of the coral oxygen is pushed out of the bag neck",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "freshness",
+      "start": 14.239,
+      "end": 15.311,
+      "startFrame": 427,
+      "endFrame": 459,
+      "duration": 1.072,
+      "narration": "That is the freshness half.",
+      "background": "SchematicVoid",
+      "note": "Split the frame. Half one is done; half two is coming.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 14.597,
+          "frame": 438,
+          "tInScene": 0.358,
+          "frameInScene": 11,
+          "action": "the frame splits; the first half fills with a FRESHNESS tick"
+        },
+        {
+          "t": 14.339,
+          "frame": 430,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the first half of the frame holds, ticked",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "cushion",
+      "start": 15.559,
+      "end": 20.815,
+      "startFrame": 467,
+      "endFrame": 624,
+      "duration": 5.256,
+      "narration": "The other half is that chips are fragile and get stacked, dropped and driven across a country, so the gas is also a pillow.",
+      "background": "CityStreet",
+      "note": "The transit case. Crushing is the risk — a bag surviving a stack is the proof.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 15.559,
+          "frame": 467,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "bags stack high on a pallet; a truck loads them"
+        },
+        {
+          "t": 17.435,
+          "frame": 523,
+          "tInScene": 1.876,
+          "frameInScene": 56,
+          "action": "weight presses down; an unpressurised bag crumbles to crumbs"
+        },
+        {
+          "t": 20.512,
+          "frame": 615,
+          "tInScene": 4.953,
+          "frameInScene": 149,
+          "action": "the gas-filled bag springs back; the second half fills with a CUSHION tick"
+        },
+        {
+          "t": 18.969,
+          "frame": 569,
+          "tInScene": 3.41,
+          "frameInScene": 102,
+          "action": "another crate stacks on top of the pallet",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 21.075,
+      "end": 23.129,
+      "startFrame": 632,
+      "endFrame": 694,
+      "duration": 2.054,
+      "narration": "You are buying a cushion that doubles as a preservative.",
+      "background": "KitchenCounter",
+      "note": "Bill concedes. Both halves glow. Ends without smugness.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 21.664,
+          "frame": 650,
+          "tInScene": 0.589,
+          "frameInScene": 18,
+          "action": "both halves glow together over the bag"
+        },
+        {
+          "t": 22.629,
+          "frame": 679,
+          "tInScene": 1.554,
+          "frameInScene": 47,
+          "action": "Bill shrugs, accepts it, and eats a chip; hard cut"
+        }
+      ]
+    }
+  ]
+}

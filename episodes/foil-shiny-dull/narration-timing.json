@@ -1,0 +1,866 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/foil-shiny-dull.wav.",
+  "episode": "foil-shiny-dull",
+  "title": "The Shiny Side Of Foil Is A Manufacturing Accident",
+  "audio": "public/audio/foil-shiny-dull.wav",
+  "staticAudio": "audio/foil-shiny-dull.wav",
+  "duration": 23.78,
+  "fps": 30,
+  "rawDuration": 29.768,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11992,
+  "silenceRemoved": 3.136,
+  "wordCount": 89,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "One side of aluminum foil is shiny and the other side is dull, and the box never explains why.",
+      "start": 0.071,
+      "end": 4.336,
+      "wordRange": [
+        0,
+        18
+      ]
+    },
+    {
+      "id": "notcoating",
+      "text": "It is not a coating, and it is not a nonstick side.",
+      "start": 4.62,
+      "end": 7.115,
+      "wordRange": [
+        19,
+        30
+      ]
+    },
+    {
+      "id": "mill",
+      "text": "Foil gets rolled thinner and thinner between polished steel rollers, and by the last pass it is so thin a single sheet would tear itself apart, so the mill runs two sheets through stacked together.",
+      "start": 7.492,
+      "end": 16.851,
+      "wordRange": [
+        31,
+        65
+      ]
+    },
+    {
+      "id": "outer",
+      "text": "The outer faces press against mirror-bright steel and come out shiny.",
+      "start": 17.12,
+      "end": 20.428,
+      "wordRange": [
+        66,
+        76
+      ]
+    },
+    {
+      "id": "inner",
+      "text": "The two inner faces press against each other and come out dull.",
+      "start": 20.722,
+      "end": 23.526,
+      "wordRange": [
+        77,
+        88
+      ]
+    }
+  ],
+  "keywords": {
+    "shiny": {
+      "start": 1.285,
+      "end": 1.624,
+      "wordIndex": 6
+    },
+    "dull": {
+      "start": 2.447,
+      "end": 2.679,
+      "wordIndex": 12
+    },
+    "explains": {
+      "start": 3.676,
+      "end": 4.015,
+      "wordIndex": 17
+    },
+    "nonstick": {
+      "start": 6.347,
+      "end": 6.759,
+      "wordIndex": 29
+    },
+    "thinner": {
+      "start": 8.331,
+      "end": 8.635,
+      "wordIndex": 34
+    },
+    "tear": {
+      "start": 13.654,
+      "end": 13.78,
+      "wordIndex": 54
+    },
+    "stacked": {
+      "start": 16.173,
+      "end": 16.441,
+      "wordIndex": 64
+    },
+    "mirror": {
+      "start": 18.496,
+      "end": 18.995,
+      "wordIndex": 71
+    },
+    "inner": {
+      "start": 21.079,
+      "end": 21.222,
+      "wordIndex": 79
+    },
+    "dull-out": {
+      "start": 23.276,
+      "end": 23.526,
+      "wordIndex": 88
+    }
+  },
+  "captions": [
+    {
+      "text": "One side of aluminum",
+      "words": [
+        "One",
+        "side",
+        "of",
+        "aluminum"
+      ],
+      "start": 0.071,
+      "end": 0.874
+    },
+    {
+      "text": "foil is shiny and",
+      "words": [
+        "foil",
+        "is",
+        "shiny",
+        "and"
+      ],
+      "start": 0.874,
+      "end": 1.749
+    },
+    {
+      "text": "the other side is",
+      "words": [
+        "the",
+        "other",
+        "side",
+        "is"
+      ],
+      "start": 1.749,
+      "end": 2.447
+    },
+    {
+      "text": "dull,",
+      "words": [
+        "dull,"
+      ],
+      "start": 2.447,
+      "end": 2.899
+    },
+    {
+      "text": "and the box never",
+      "words": [
+        "and",
+        "the",
+        "box",
+        "never"
+      ],
+      "start": 2.907,
+      "end": 3.676
+    },
+    {
+      "text": "explains why.",
+      "words": [
+        "explains",
+        "why."
+      ],
+      "start": 3.676,
+      "end": 4.556
+    },
+    {
+      "text": "It is not a",
+      "words": [
+        "It",
+        "is",
+        "not",
+        "a"
+      ],
+      "start": 4.62,
+      "end": 5.137
+    },
+    {
+      "text": "coating,",
+      "words": [
+        "coating,"
+      ],
+      "start": 5.137,
+      "end": 5.615
+    },
+    {
+      "text": "and it is not",
+      "words": [
+        "and",
+        "it",
+        "is",
+        "not"
+      ],
+      "start": 5.615,
+      "end": 6.168
+    },
+    {
+      "text": "a nonstick side.",
+      "words": [
+        "a",
+        "nonstick",
+        "side."
+      ],
+      "start": 6.168,
+      "end": 7.335
+    },
+    {
+      "text": "Foil gets rolled",
+      "words": [
+        "Foil",
+        "gets",
+        "rolled"
+      ],
+      "start": 7.492,
+      "end": 8.331
+    },
+    {
+      "text": "thinner and thinner",
+      "words": [
+        "thinner",
+        "and",
+        "thinner"
+      ],
+      "start": 8.331,
+      "end": 9.153
+    },
+    {
+      "text": "between polished steel",
+      "words": [
+        "between",
+        "polished",
+        "steel"
+      ],
+      "start": 9.153,
+      "end": 10.243
+    },
+    {
+      "text": "rollers,",
+      "words": [
+        "rollers,"
+      ],
+      "start": 10.243,
+      "end": 10.784
+    },
+    {
+      "text": "and by the last",
+      "words": [
+        "and",
+        "by",
+        "the",
+        "last"
+      ],
+      "start": 10.903,
+      "end": 11.564
+    },
+    {
+      "text": "pass it is so",
+      "words": [
+        "pass",
+        "it",
+        "is",
+        "so"
+      ],
+      "start": 11.564,
+      "end": 12.35
+    },
+    {
+      "text": "thin",
+      "words": [
+        "thin"
+      ],
+      "start": 12.35,
+      "end": 12.748
+    },
+    {
+      "text": "a single sheet would",
+      "words": [
+        "a",
+        "single",
+        "sheet",
+        "would"
+      ],
+      "start": 12.832,
+      "end": 13.654
+    },
+    {
+      "text": "tear itself apart,",
+      "words": [
+        "tear",
+        "itself",
+        "apart,"
+      ],
+      "start": 13.654,
+      "end": 14.659
+    },
+    {
+      "text": "so the mill runs",
+      "words": [
+        "so",
+        "the",
+        "mill",
+        "runs"
+      ],
+      "start": 14.691,
+      "end": 15.459
+    },
+    {
+      "text": "two sheets through",
+      "words": [
+        "two",
+        "sheets",
+        "through"
+      ],
+      "start": 15.459,
+      "end": 16.173
+    },
+    {
+      "text": "stacked together.",
+      "words": [
+        "stacked",
+        "together."
+      ],
+      "start": 16.173,
+      "end": 17.071
+    },
+    {
+      "text": "The outer faces press",
+      "words": [
+        "The",
+        "outer",
+        "faces",
+        "press"
+      ],
+      "start": 17.12,
+      "end": 18.102
+    },
+    {
+      "text": "against mirror-bright",
+      "words": [
+        "against",
+        "mirror-bright"
+      ],
+      "start": 18.102,
+      "end": 19.067
+    },
+    {
+      "text": "steel and come out",
+      "words": [
+        "steel",
+        "and",
+        "come",
+        "out"
+      ],
+      "start": 19.067,
+      "end": 20.107
+    },
+    {
+      "text": "shiny.",
+      "words": [
+        "shiny."
+      ],
+      "start": 20.107,
+      "end": 20.648
+    },
+    {
+      "text": "The two inner faces",
+      "words": [
+        "The",
+        "two",
+        "inner",
+        "faces"
+      ],
+      "start": 20.722,
+      "end": 21.74
+    },
+    {
+      "text": "press against each",
+      "words": [
+        "press",
+        "against",
+        "each"
+      ],
+      "start": 21.74,
+      "end": 22.383
+    },
+    {
+      "text": "other and come out",
+      "words": [
+        "other",
+        "and",
+        "come",
+        "out"
+      ],
+      "start": 22.383,
+      "end": 23.276
+    },
+    {
+      "text": "dull.",
+      "words": [
+        "dull."
+      ],
+      "start": 23.276,
+      "end": 23.746
+    }
+  ],
+  "words": [
+    {
+      "text": "One",
+      "start": 0.071,
+      "end": 0.16
+    },
+    {
+      "text": "side",
+      "start": 0.25,
+      "end": 0.374
+    },
+    {
+      "text": "of",
+      "start": 0.41,
+      "end": 0.446
+    },
+    {
+      "text": "aluminum",
+      "start": 0.481,
+      "end": 0.785
+    },
+    {
+      "text": "foil",
+      "start": 0.874,
+      "end": 1.071
+    },
+    {
+      "text": "is",
+      "start": 1.107,
+      "end": 1.249
+    },
+    {
+      "text": "shiny",
+      "start": 1.285,
+      "end": 1.624
+    },
+    {
+      "text": "and",
+      "start": 1.661,
+      "end": 1.713
+    },
+    {
+      "text": "the",
+      "start": 1.749,
+      "end": 1.803
+    },
+    {
+      "text": "other",
+      "start": 1.874,
+      "end": 1.982
+    },
+    {
+      "text": "side",
+      "start": 2.071,
+      "end": 2.214
+    },
+    {
+      "text": "is",
+      "start": 2.267,
+      "end": 2.339
+    },
+    {
+      "text": "dull,",
+      "start": 2.447,
+      "end": 2.679
+    },
+    {
+      "text": "and",
+      "start": 2.907,
+      "end": 2.979
+    },
+    {
+      "text": "the",
+      "start": 3.015,
+      "end": 3.068
+    },
+    {
+      "text": "box",
+      "start": 3.14,
+      "end": 3.372
+    },
+    {
+      "text": "never",
+      "start": 3.443,
+      "end": 3.586
+    },
+    {
+      "text": "explains",
+      "start": 3.676,
+      "end": 4.015
+    },
+    {
+      "text": "why.",
+      "start": 4.104,
+      "end": 4.336
+    },
+    {
+      "text": "It",
+      "start": 4.62,
+      "end": 4.673
+    },
+    {
+      "text": "is",
+      "start": 4.726,
+      "end": 4.816
+    },
+    {
+      "text": "not",
+      "start": 4.905,
+      "end": 5.013
+    },
+    {
+      "text": "a",
+      "start": 5.048,
+      "end": 5.101
+    },
+    {
+      "text": "coating,",
+      "start": 5.137,
+      "end": 5.422
+    },
+    {
+      "text": "and",
+      "start": 5.615,
+      "end": 5.686
+    },
+    {
+      "text": "it",
+      "start": 5.722,
+      "end": 5.758
+    },
+    {
+      "text": "is",
+      "start": 5.793,
+      "end": 5.883
+    },
+    {
+      "text": "not",
+      "start": 5.954,
+      "end": 6.079
+    },
+    {
+      "text": "a",
+      "start": 6.168,
+      "end": 6.186
+    },
+    {
+      "text": "nonstick",
+      "start": 6.347,
+      "end": 6.759
+    },
+    {
+      "text": "side.",
+      "start": 6.865,
+      "end": 7.115
+    },
+    {
+      "text": "Foil",
+      "start": 7.492,
+      "end": 7.724
+    },
+    {
+      "text": "gets",
+      "start": 7.76,
+      "end": 7.903
+    },
+    {
+      "text": "rolled",
+      "start": 8.027,
+      "end": 8.206
+    },
+    {
+      "text": "thinner",
+      "start": 8.331,
+      "end": 8.635
+    },
+    {
+      "text": "and",
+      "start": 8.67,
+      "end": 8.76
+    },
+    {
+      "text": "thinner",
+      "start": 8.885,
+      "end": 9.117
+    },
+    {
+      "text": "between",
+      "start": 9.153,
+      "end": 9.51
+    },
+    {
+      "text": "polished",
+      "start": 9.581,
+      "end": 9.868
+    },
+    {
+      "text": "steel",
+      "start": 9.921,
+      "end": 10.135
+    },
+    {
+      "text": "rollers,",
+      "start": 10.243,
+      "end": 10.564
+    },
+    {
+      "text": "and",
+      "start": 10.903,
+      "end": 10.974
+    },
+    {
+      "text": "by",
+      "start": 11.01,
+      "end": 11.082
+    },
+    {
+      "text": "the",
+      "start": 11.117,
+      "end": 11.208
+    },
+    {
+      "text": "last",
+      "start": 11.26,
+      "end": 11.475
+    },
+    {
+      "text": "pass",
+      "start": 11.564,
+      "end": 11.796
+    },
+    {
+      "text": "it",
+      "start": 11.85,
+      "end": 11.885
+    },
+    {
+      "text": "is",
+      "start": 11.921,
+      "end": 12.046
+    },
+    {
+      "text": "so",
+      "start": 12.101,
+      "end": 12.225
+    },
+    {
+      "text": "thin",
+      "start": 12.35,
+      "end": 12.528
+    },
+    {
+      "text": "a",
+      "start": 12.832,
+      "end": 12.939
+    },
+    {
+      "text": "single",
+      "start": 13.011,
+      "end": 13.207
+    },
+    {
+      "text": "sheet",
+      "start": 13.314,
+      "end": 13.457
+    },
+    {
+      "text": "would",
+      "start": 13.494,
+      "end": 13.618
+    },
+    {
+      "text": "tear",
+      "start": 13.654,
+      "end": 13.78
+    },
+    {
+      "text": "itself",
+      "start": 13.814,
+      "end": 14.083
+    },
+    {
+      "text": "apart,",
+      "start": 14.172,
+      "end": 14.439
+    },
+    {
+      "text": "so",
+      "start": 14.691,
+      "end": 14.746
+    },
+    {
+      "text": "the",
+      "start": 14.798,
+      "end": 14.888
+    },
+    {
+      "text": "mill",
+      "start": 14.941,
+      "end": 15.103
+    },
+    {
+      "text": "runs",
+      "start": 15.155,
+      "end": 15.406
+    },
+    {
+      "text": "two",
+      "start": 15.459,
+      "end": 15.584
+    },
+    {
+      "text": "sheets",
+      "start": 15.673,
+      "end": 15.852
+    },
+    {
+      "text": "through",
+      "start": 15.905,
+      "end": 16.101
+    },
+    {
+      "text": "stacked",
+      "start": 16.173,
+      "end": 16.441
+    },
+    {
+      "text": "together.",
+      "start": 16.476,
+      "end": 16.851
+    },
+    {
+      "text": "The",
+      "start": 17.12,
+      "end": 17.174
+    },
+    {
+      "text": "outer",
+      "start": 17.227,
+      "end": 17.423
+    },
+    {
+      "text": "faces",
+      "start": 17.46,
+      "end": 17.816
+    },
+    {
+      "text": "press",
+      "start": 17.87,
+      "end": 18.031
+    },
+    {
+      "text": "against",
+      "start": 18.102,
+      "end": 18.334
+    },
+    {
+      "text": "mirror-bright",
+      "start": 18.496,
+      "end": 18.995
+    },
+    {
+      "text": "steel",
+      "start": 19.067,
+      "end": 19.353
+    },
+    {
+      "text": "and",
+      "start": 19.589,
+      "end": 19.695
+    },
+    {
+      "text": "come",
+      "start": 19.75,
+      "end": 19.856
+    },
+    {
+      "text": "out",
+      "start": 19.893,
+      "end": 20.053
+    },
+    {
+      "text": "shiny.",
+      "start": 20.107,
+      "end": 20.428
+    },
+    {
+      "text": "The",
+      "start": 20.722,
+      "end": 20.794
+    },
+    {
+      "text": "two",
+      "start": 20.847,
+      "end": 20.99
+    },
+    {
+      "text": "inner",
+      "start": 21.079,
+      "end": 21.222
+    },
+    {
+      "text": "faces",
+      "start": 21.329,
+      "end": 21.687
+    },
+    {
+      "text": "press",
+      "start": 21.74,
+      "end": 21.883
+    },
+    {
+      "text": "against",
+      "start": 21.955,
+      "end": 22.17
+    },
+    {
+      "text": "each",
+      "start": 22.205,
+      "end": 22.331
+    },
+    {
+      "text": "other",
+      "start": 22.383,
+      "end": 22.545
+    },
+    {
+      "text": "and",
+      "start": 22.776,
+      "end": 22.883
+    },
+    {
+      "text": "come",
+      "start": 22.92,
+      "end": 23.026
+    },
+    {
+      "text": "out",
+      "start": 23.08,
+      "end": 23.187
+    },
+    {
+      "text": "dull.",
+      "start": 23.276,
+      "end": 23.526
+    }
+  ]
+}

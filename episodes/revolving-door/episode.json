@@ -1,0 +1,204 @@
+{
+  "slug": "revolving-door",
+  "title": "A Revolving Door Is Solving A Problem You Can't See",
+  "hook": "A worse door that solves a problem you cannot see.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill struggles through the door with a box, then understands why it wins anyway."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "A revolving door is slower",
+      "background": "MallInterior",
+      "cast": [
+        "bill"
+      ],
+      "note": "Stack the objections honestly — the episode is stronger if the door genuinely looks worse first.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill shuffles through a revolving door carrying an awkward box"
+        },
+        {
+          "kw": "slower",
+          "action": "three complaint labels stack up: SLOWER, EXPENSIVE, AWKWARD"
+        },
+        {
+          "kw": "installing",
+          "action": "the labels hold while tall buildings rise behind him"
+        },
+        {
+          "at": 2.42,
+          "action": "the door carries Bill round another slow quarter turn",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 3.71,
+          "action": "Bill shuffles another quarter turn, the box catching on the glass",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 5,
+          "action": "a tall building draws up behind him, revolving door at its base",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "stack",
+      "from": "Warm air inside a tall",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "THE invisible problem. A whole-building section — the scale of the airflow is the reveal.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a tall building sections open from lobby to roof"
+        },
+        {
+          "kw": "rises",
+          "action": "warm air columns upward through the building and vents at the top"
+        },
+        {
+          "kw": "cold",
+          "action": "cold air rushes in hard at street level to replace it"
+        },
+        {
+          "at": 2.65,
+          "action": "the warm air column keeps rising through the building section",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "windtunnel",
+      "from": "On an ordinary door",
+      "background": "CutawayVoid",
+      "cast": [
+        "bill"
+      ],
+      "note": "The consequence, played for one small laugh — a hinged door as a wind tunnel.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "an ordinary hinged door opens at the lobby"
+        },
+        {
+          "kw": "wind-tunnel",
+          "action": "air blasts through the opening; papers and hair fly"
+        },
+        {
+          "kw": "heating",
+          "action": "warm coral air pours out into the street and dissipates"
+        },
+        {
+          "at": 1.67,
+          "action": "the papers keep tumbling across the lobby floor",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "neveropens",
+      "from": "A revolving door never",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "The mechanism, from directly overhead. The seal is always closed — that is the whole trick.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "top-down view of the revolving door; four compartments rotate"
+        },
+        {
+          "kw": "never",
+          "action": "the seal between inside and outside holds continuously as it turns"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Only the wedge of air",
+      "background": "MallInterior",
+      "cast": [
+        "bill"
+      ],
+      "note": "The small wedge versus the earlier blast. Contrast carries it. Hard cut.",
+      "beats": [
+        {
+          "kw": "wedge",
+          "action": "one small wedge of air shades in and rotates through with Bill"
+        },
+        {
+          "fromEnd": 0.15,
+          "action": "the lobby air stays completely still around him; hard cut",
+          "sync": "final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "slower",
+      [
+        "slower"
+      ],
+      0
+    ],
+    [
+      "installing",
+      [
+        "installing"
+      ],
+      0
+    ],
+    [
+      "rises",
+      [
+        "rises"
+      ],
+      0
+    ],
+    [
+      "cold",
+      [
+        "cold"
+      ],
+      0
+    ],
+    [
+      "wind-tunnel",
+      [
+        "wind",
+        "tunnel"
+      ],
+      0
+    ],
+    [
+      "heating",
+      [
+        "heating"
+      ],
+      0
+    ],
+    [
+      "never",
+      [
+        "never"
+      ],
+      0
+    ],
+    [
+      "wedge",
+      [
+        "wedge"
+      ],
+      0
+    ]
+  ]
+}

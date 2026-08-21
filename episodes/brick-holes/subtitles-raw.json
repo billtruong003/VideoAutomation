@@ -1,880 +1,707 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "A brick has holes punched straight through",
-      "start_time": 0.059,
-      "end_time": 1.799,
+      "start_time": 0.099,
+      "end_time": 2,
       "speaker": "narrator",
       "words": [
         {
           "text": "A",
-          "start_time": 0.059,
+          "start_time": 0.099,
           "end_time": 0.14
         },
         {
           "text": " ",
           "start_time": 0.14,
-          "end_time": 0.199
+          "end_time": 0.219
         },
         {
           "text": "brick",
-          "start_time": 0.199,
-          "end_time": 0.399
+          "start_time": 0.219,
+          "end_time": 0.439
         },
         {
           "text": " ",
-          "start_time": 0.399,
-          "end_time": 0.479
+          "start_time": 0.439,
+          "end_time": 0.519
         },
         {
           "text": "has",
-          "start_time": 0.479,
-          "end_time": 0.639
+          "start_time": 0.519,
+          "end_time": 0.699
         },
         {
           "text": " ",
-          "start_time": 0.639,
-          "end_time": 0.659
+          "start_time": 0.699,
+          "end_time": 0.759
         },
         {
           "text": "holes",
-          "start_time": 0.659,
-          "end_time": 0.959
+          "start_time": 0.759,
+          "end_time": 1.059
         },
         {
           "text": " ",
-          "start_time": 0.959,
-          "end_time": 1.039
+          "start_time": 1.059,
+          "end_time": 1.179
         },
         {
           "text": "punched",
-          "start_time": 1.039,
-          "end_time": 1.299
+          "start_time": 1.179,
+          "end_time": 1.439
         },
         {
           "text": " ",
-          "start_time": 1.299,
-          "end_time": 1.339
+          "start_time": 1.439,
+          "end_time": 1.479
         },
         {
           "text": "straight",
-          "start_time": 1.339,
-          "end_time": 1.62
+          "start_time": 1.48,
+          "end_time": 1.799
         },
         {
           "text": " ",
-          "start_time": 1.62,
-          "end_time": 1.699
+          "start_time": 1.799,
+          "end_time": 1.899
         },
         {
           "text": "through",
-          "start_time": 1.699,
-          "end_time": 1.799
+          "start_time": 1.899,
+          "end_time": 2
         }
       ]
     },
     {
-      "text": "the middle, which is an odd thing to do",
-      "start_time": 1.839,
-      "end_time": 3.48,
+      "text": "the middle,",
+      "start_time": 2.039,
+      "end_time": 2.6390000000000002,
       "speaker": "narrator",
       "words": [
         {
           "text": "the",
-          "start_time": 1.839,
-          "end_time": 1.879
+          "start_time": 2.039,
+          "end_time": 2.119
         },
         {
           "text": " ",
-          "start_time": 1.879,
-          "end_time": 2
+          "start_time": 2.119,
+          "end_time": 2.219
         },
         {
           "text": "middle,",
-          "start_time": 2,
-          "end_time": 2.18
-        },
-        {
-          "text": " ",
-          "start_time": 2.18,
-          "end_time": 2.419
-        },
-        {
-          "text": "which",
-          "start_time": 2.419,
-          "end_time": 2.519
-        },
-        {
-          "text": " ",
-          "start_time": 2.519,
-          "end_time": 2.559
-        },
-        {
-          "text": "is",
-          "start_time": 2.559,
-          "end_time": 2.619
-        },
-        {
-          "text": " ",
-          "start_time": 2.619,
-          "end_time": 2.639
-        },
-        {
-          "text": "an",
-          "start_time": 2.639,
-          "end_time": 2.779
-        },
-        {
-          "text": " ",
-          "start_time": 2.779,
-          "end_time": 2.879
-        },
-        {
-          "text": "odd",
-          "start_time": 2.879,
-          "end_time": 3.039
-        },
-        {
-          "text": " ",
-          "start_time": 3.039,
-          "end_time": 3.059
-        },
-        {
-          "text": "thing",
-          "start_time": 3.059,
-          "end_time": 3.179
-        },
-        {
-          "text": " ",
-          "start_time": 3.179,
-          "end_time": 3.219
-        },
-        {
-          "text": "to",
-          "start_time": 3.22,
-          "end_time": 3.299
-        },
-        {
-          "text": " ",
-          "start_time": 3.299,
-          "end_time": 3.339
-        },
-        {
-          "text": "do",
-          "start_time": 3.339,
-          "end_time": 3.48
+          "start_time": 2.22,
+          "end_time": 2.44
         }
       ]
     },
     {
-      "text": "to an object whose whole job is being solid.",
-      "start_time": 3.5,
-      "end_time": 5.319,
+      "text": "which is an odd thing to do to an",
+      "start_time": 2.939,
+      "end_time": 4.339,
       "speaker": "narrator",
       "words": [
         {
-          "text": "to",
-          "start_time": 3.5,
-          "end_time": 3.559
+          "text": "which",
+          "start_time": 2.939,
+          "end_time": 3.059
         },
         {
           "text": " ",
-          "start_time": 3.559,
-          "end_time": 3.599
-        },
-        {
-          "text": "an",
-          "start_time": 3.599,
-          "end_time": 3.679
-        },
-        {
-          "text": " ",
-          "start_time": 3.679,
-          "end_time": 3.759
-        },
-        {
-          "text": "object",
-          "start_time": 3.759,
-          "end_time": 3.98
-        },
-        {
-          "text": " ",
-          "start_time": 3.98,
-          "end_time": 4.019
-        },
-        {
-          "text": "whose",
-          "start_time": 4.019,
-          "end_time": 4.179
-        },
-        {
-          "text": " ",
-          "start_time": 4.179,
-          "end_time": 4.239
-        },
-        {
-          "text": "whole",
-          "start_time": 4.239,
-          "end_time": 4.4
-        },
-        {
-          "text": " ",
-          "start_time": 4.4,
-          "end_time": 4.48
-        },
-        {
-          "text": "job",
-          "start_time": 4.48,
-          "end_time": 4.619
-        },
-        {
-          "text": " ",
-          "start_time": 4.619,
-          "end_time": 4.659
+          "start_time": 3.059,
+          "end_time": 3.099
         },
         {
           "text": "is",
-          "start_time": 4.659,
-          "end_time": 4.739
+          "start_time": 3.099,
+          "end_time": 3.159
         },
         {
           "text": " ",
-          "start_time": 4.739,
-          "end_time": 4.779
+          "start_time": 3.159,
+          "end_time": 3.199
         },
         {
-          "text": "being",
-          "start_time": 4.779,
+          "text": "an",
+          "start_time": 3.199,
+          "end_time": 3.359
+        },
+        {
+          "text": " ",
+          "start_time": 3.359,
+          "end_time": 3.459
+        },
+        {
+          "text": "odd",
+          "start_time": 3.46,
+          "end_time": 3.639
+        },
+        {
+          "text": " ",
+          "start_time": 3.639,
+          "end_time": 3.679
+        },
+        {
+          "text": "thing",
+          "start_time": 3.679,
+          "end_time": 3.799
+        },
+        {
+          "text": " ",
+          "start_time": 3.799,
+          "end_time": 3.839
+        },
+        {
+          "text": "to",
+          "start_time": 3.839,
+          "end_time": 3.919
+        },
+        {
+          "text": " ",
+          "start_time": 3.919,
+          "end_time": 3.979
+        },
+        {
+          "text": "do",
+          "start_time": 3.98,
+          "end_time": 4.119
+        },
+        {
+          "text": " ",
+          "start_time": 4.119,
+          "end_time": 4.159
+        },
+        {
+          "text": "to",
+          "start_time": 4.159,
+          "end_time": 4.219
+        },
+        {
+          "text": " ",
+          "start_time": 4.219,
+          "end_time": 4.259
+        },
+        {
+          "text": "an",
+          "start_time": 4.259,
+          "end_time": 4.339
+        }
+      ]
+    },
+    {
+      "text": "object whose whole job is being solid.",
+      "start_time": 4.44,
+      "end_time": 6.179,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "object",
+          "start_time": 4.44,
+          "end_time": 4.719
+        },
+        {
+          "text": " ",
+          "start_time": 4.719,
+          "end_time": 4.739
+        },
+        {
+          "text": "whose",
+          "start_time": 4.739,
           "end_time": 4.9
         },
         {
           "text": " ",
           "start_time": 4.9,
-          "end_time": 5.039
+          "end_time": 4.98
+        },
+        {
+          "text": "whole",
+          "start_time": 4.98,
+          "end_time": 5.099
+        },
+        {
+          "text": " ",
+          "start_time": 5.099,
+          "end_time": 5.239
+        },
+        {
+          "text": "job",
+          "start_time": 5.239,
+          "end_time": 5.42
+        },
+        {
+          "text": " ",
+          "start_time": 5.42,
+          "end_time": 5.46
+        },
+        {
+          "text": "is",
+          "start_time": 5.46,
+          "end_time": 5.559
+        },
+        {
+          "text": " ",
+          "start_time": 5.559,
+          "end_time": 5.599
+        },
+        {
+          "text": "being",
+          "start_time": 5.599,
+          "end_time": 5.799
+        },
+        {
+          "text": " ",
+          "start_time": 5.799,
+          "end_time": 5.859
         },
         {
           "text": "solid.",
-          "start_time": 5.039,
-          "end_time": 5.319
+          "start_time": 5.859,
+          "end_time": 6.179
         }
       ]
     },
     {
       "text": "The holes make it better.",
-      "start_time": 5.559,
-      "end_time": 6.539,
+      "start_time": 6.899,
+      "end_time": 7.999,
       "speaker": "narrator",
       "words": [
         {
           "text": "The",
-          "start_time": 5.559,
-          "end_time": 5.639
+          "start_time": 6.899,
+          "end_time": 6.98
         },
         {
           "text": " ",
-          "start_time": 5.639,
-          "end_time": 5.679
+          "start_time": 6.98,
+          "end_time": 7.039
         },
         {
           "text": "holes",
-          "start_time": 5.679,
-          "end_time": 5.94
+          "start_time": 7.039,
+          "end_time": 7.319
         },
         {
           "text": " ",
-          "start_time": 5.94,
-          "end_time": 6.019
+          "start_time": 7.319,
+          "end_time": 7.419
         },
         {
           "text": "make",
-          "start_time": 6.019,
-          "end_time": 6.119
+          "start_time": 7.419,
+          "end_time": 7.519
         },
         {
           "text": " ",
-          "start_time": 6.119,
-          "end_time": 6.159
+          "start_time": 7.519,
+          "end_time": 7.559
         },
         {
           "text": "it",
-          "start_time": 6.159,
-          "end_time": 6.219
+          "start_time": 7.559,
+          "end_time": 7.619
         },
         {
           "text": " ",
-          "start_time": 6.219,
-          "end_time": 6.299
+          "start_time": 7.619,
+          "end_time": 7.739
         },
         {
           "text": "better.",
-          "start_time": 6.299,
-          "end_time": 6.539
+          "start_time": 7.739,
+          "end_time": 7.999
         }
       ]
     },
     {
       "text": "Mortar squeezes down into them and sets there,",
-      "start_time": 6.839,
-      "end_time": 8.819,
+      "start_time": 9.199,
+      "end_time": 11.42,
       "speaker": "narrator",
       "words": [
         {
           "text": "Mortar",
-          "start_time": 6.839,
-          "end_time": 7.119
+          "start_time": 9.199,
+          "end_time": 9.5
         },
         {
           "text": " ",
-          "start_time": 7.119,
-          "end_time": 7.159
+          "start_time": 9.5,
+          "end_time": 9.559
         },
         {
           "text": "squeezes",
-          "start_time": 7.159,
-          "end_time": 7.539
+          "start_time": 9.559,
+          "end_time": 9.979
         },
         {
           "text": " ",
-          "start_time": 7.539,
-          "end_time": 7.599
+          "start_time": 9.979,
+          "end_time": 10.039
         },
         {
           "text": "down",
-          "start_time": 7.599,
-          "end_time": 7.759
+          "start_time": 10.039,
+          "end_time": 10.219
         },
         {
           "text": " ",
-          "start_time": 7.759,
-          "end_time": 7.799
+          "start_time": 10.219,
+          "end_time": 10.279
         },
         {
           "text": "into",
-          "start_time": 7.799,
-          "end_time": 8
+          "start_time": 10.279,
+          "end_time": 10.5
         },
         {
           "text": " ",
-          "start_time": 8,
-          "end_time": 8.039
+          "start_time": 10.5,
+          "end_time": 10.539
         },
         {
           "text": "them",
-          "start_time": 8.039,
-          "end_time": 8.159
+          "start_time": 10.539,
+          "end_time": 10.679
         },
         {
           "text": " ",
-          "start_time": 8.159,
-          "end_time": 8.199
+          "start_time": 10.679,
+          "end_time": 10.719
         },
         {
           "text": "and",
-          "start_time": 8.199,
-          "end_time": 8.28
+          "start_time": 10.719,
+          "end_time": 10.82
         },
         {
           "text": " ",
-          "start_time": 8.28,
-          "end_time": 8.38
+          "start_time": 10.82,
+          "end_time": 10.92
         },
         {
           "text": "sets",
-          "start_time": 8.38,
-          "end_time": 8.579
-        },
-        {
-          "text": " ",
-          "start_time": 8.579,
-          "end_time": 8.619
-        },
-        {
-          "text": "there,",
-          "start_time": 8.619,
-          "end_time": 8.819
-        }
-      ]
-    },
-    {
-      "text": "so each brick is keyed into the one above",
-      "start_time": 9.099,
-      "end_time": 10.679,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "so",
-          "start_time": 9.099,
-          "end_time": 9.179
-        },
-        {
-          "text": " ",
-          "start_time": 9.179,
-          "end_time": 9.239
-        },
-        {
-          "text": "each",
-          "start_time": 9.239,
-          "end_time": 9.34
-        },
-        {
-          "text": " ",
-          "start_time": 9.34,
-          "end_time": 9.439
-        },
-        {
-          "text": "brick",
-          "start_time": 9.439,
-          "end_time": 9.579
-        },
-        {
-          "text": " ",
-          "start_time": 9.579,
-          "end_time": 9.619
-        },
-        {
-          "text": "is",
-          "start_time": 9.619,
-          "end_time": 9.719
-        },
-        {
-          "text": " ",
-          "start_time": 9.719,
-          "end_time": 9.759
-        },
-        {
-          "text": "keyed",
-          "start_time": 9.76,
-          "end_time": 9.92
-        },
-        {
-          "text": " ",
-          "start_time": 9.92,
-          "end_time": 9.939
-        },
-        {
-          "text": "into",
-          "start_time": 9.939,
-          "end_time": 10.1
-        },
-        {
-          "text": " ",
-          "start_time": 10.1,
-          "end_time": 10.119
-        },
-        {
-          "text": "the",
-          "start_time": 10.119,
-          "end_time": 10.179
-        },
-        {
-          "text": " ",
-          "start_time": 10.179,
-          "end_time": 10.239
-        },
-        {
-          "text": "one",
-          "start_time": 10.239,
-          "end_time": 10.319
-        },
-        {
-          "text": " ",
-          "start_time": 10.319,
-          "end_time": 10.42
-        },
-        {
-          "text": "above",
-          "start_time": 10.42,
-          "end_time": 10.679
-        }
-      ]
-    },
-    {
-      "text": "rather than glued along a flat face.",
-      "start_time": 10.939,
-      "end_time": 12.539,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "rather",
-          "start_time": 10.939,
+          "start_time": 10.92,
           "end_time": 11.139
         },
         {
           "text": " ",
           "start_time": 11.139,
-          "end_time": 11.179
+          "end_time": 11.199
         },
         {
-          "text": "than",
-          "start_time": 11.179,
-          "end_time": 11.279
-        },
+          "text": "there,",
+          "start_time": 11.199,
+          "end_time": 11.42
+        }
+      ]
+    },
+    {
+      "text": "so each brick is keyed into the one above",
+      "start_time": 11.859,
+      "end_time": 13.639,
+      "speaker": "narrator",
+      "words": [
         {
-          "text": " ",
-          "start_time": 11.279,
-          "end_time": 11.38
-        },
-        {
-          "text": "glued",
-          "start_time": 11.38,
-          "end_time": 11.619
-        },
-        {
-          "text": " ",
-          "start_time": 11.619,
-          "end_time": 11.639
-        },
-        {
-          "text": "along",
-          "start_time": 11.639,
-          "end_time": 11.84
-        },
-        {
-          "text": " ",
-          "start_time": 11.84,
-          "end_time": 11.88
-        },
-        {
-          "text": "a",
-          "start_time": 11.88,
-          "end_time": 11.939
-        },
-        {
-          "text": " ",
-          "start_time": 11.939,
+          "text": "so",
+          "start_time": 11.859,
           "end_time": 11.96
         },
         {
-          "text": "flat",
+          "text": " ",
           "start_time": 11.96,
+          "end_time": 12.019
+        },
+        {
+          "text": "each",
+          "start_time": 12.019,
           "end_time": 12.139
         },
         {
           "text": " ",
           "start_time": 12.139,
-          "end_time": 12.239
+          "end_time": 12.259
         },
         {
-          "text": "face.",
-          "start_time": 12.239,
-          "end_time": 12.539
+          "text": "brick",
+          "start_time": 12.259,
+          "end_time": 12.399
+        },
+        {
+          "text": " ",
+          "start_time": 12.399,
+          "end_time": 12.439
+        },
+        {
+          "text": "is",
+          "start_time": 12.439,
+          "end_time": 12.559
+        },
+        {
+          "text": " ",
+          "start_time": 12.559,
+          "end_time": 12.619
+        },
+        {
+          "text": "keyed",
+          "start_time": 12.619,
+          "end_time": 12.779
+        },
+        {
+          "text": " ",
+          "start_time": 12.779,
+          "end_time": 12.819
+        },
+        {
+          "text": "into",
+          "start_time": 12.819,
+          "end_time": 12.979
+        },
+        {
+          "text": " ",
+          "start_time": 12.979,
+          "end_time": 13.019
+        },
+        {
+          "text": "the",
+          "start_time": 13.019,
+          "end_time": 13.079
+        },
+        {
+          "text": " ",
+          "start_time": 13.079,
+          "end_time": 13.159
+        },
+        {
+          "text": "one",
+          "start_time": 13.159,
+          "end_time": 13.219
+        },
+        {
+          "text": " ",
+          "start_time": 13.219,
+          "end_time": 13.339
+        },
+        {
+          "text": "above",
+          "start_time": 13.34,
+          "end_time": 13.639
         }
       ]
     },
     {
-      "text": "Wet clay also has to dry and fire without",
-      "start_time": 12.88,
-      "end_time": 15.339,
+      "text": "rather than glued along a flat face.",
+      "start_time": 14.139,
+      "end_time": 15.939,
       "speaker": "narrator",
       "words": [
         {
-          "text": "Wet",
-          "start_time": 12.88,
-          "end_time": 13.019
-        },
-        {
-          "text": " ",
-          "start_time": 13.019,
-          "end_time": 13.119
-        },
-        {
-          "text": "clay",
-          "start_time": 13.119,
-          "end_time": 13.42
-        },
-        {
-          "text": " ",
-          "start_time": 13.42,
-          "end_time": 13.519
-        },
-        {
-          "text": "also",
-          "start_time": 13.519,
-          "end_time": 13.799
-        },
-        {
-          "text": " ",
-          "start_time": 13.799,
-          "end_time": 13.859
-        },
-        {
-          "text": "has",
-          "start_time": 13.859,
-          "end_time": 13.979
-        },
-        {
-          "text": " ",
-          "start_time": 13.979,
-          "end_time": 14.019
-        },
-        {
-          "text": "to",
-          "start_time": 14.019,
-          "end_time": 14.119
-        },
-        {
-          "text": " ",
-          "start_time": 14.119,
-          "end_time": 14.159
-        },
-        {
-          "text": "dry",
-          "start_time": 14.159,
+          "text": "rather",
+          "start_time": 14.139,
           "end_time": 14.359
         },
         {
           "text": " ",
           "start_time": 14.359,
-          "end_time": 14.399
+          "end_time": 14.42
         },
         {
-          "text": "and",
-          "start_time": 14.399,
+          "text": "than",
+          "start_time": 14.42,
           "end_time": 14.519
         },
         {
           "text": " ",
           "start_time": 14.519,
-          "end_time": 14.599
+          "end_time": 14.639
         },
         {
-          "text": "fire",
-          "start_time": 14.599,
-          "end_time": 14.839
-        },
-        {
-          "text": " ",
-          "start_time": 14.839,
-          "end_time": 15.039
-        },
-        {
-          "text": "without",
-          "start_time": 15.039,
-          "end_time": 15.339
-        }
-      ]
-    },
-    {
-      "text": "cracking, and heat reaches the middle of a",
-      "start_time": 15.399,
-      "end_time": 17.159,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "cracking,",
-          "start_time": 15.399,
-          "end_time": 15.719
+          "text": "glued",
+          "start_time": 14.639,
+          "end_time": 14.899
         },
         {
           "text": " ",
-          "start_time": 15.719,
-          "end_time": 15.939
+          "start_time": 14.899,
+          "end_time": 14.939
         },
         {
-          "text": "and",
-          "start_time": 15.939,
-          "end_time": 16.039
-        },
-        {
-          "text": " ",
-          "start_time": 16.039,
-          "end_time": 16.099
-        },
-        {
-          "text": "heat",
-          "start_time": 16.1,
-          "end_time": 16.239
+          "text": "along",
+          "start_time": 14.939,
+          "end_time": 15.139
         },
         {
           "text": " ",
-          "start_time": 16.239,
-          "end_time": 16.299
-        },
-        {
-          "text": "reaches",
-          "start_time": 16.299,
-          "end_time": 16.539
-        },
-        {
-          "text": " ",
-          "start_time": 16.539,
-          "end_time": 16.579
-        },
-        {
-          "text": "the",
-          "start_time": 16.579,
-          "end_time": 16.68
-        },
-        {
-          "text": " ",
-          "start_time": 16.68,
-          "end_time": 16.719
-        },
-        {
-          "text": "middle",
-          "start_time": 16.719,
-          "end_time": 16.959
-        },
-        {
-          "text": " ",
-          "start_time": 16.959,
-          "end_time": 17
-        },
-        {
-          "text": "of",
-          "start_time": 17,
-          "end_time": 17.059
-        },
-        {
-          "text": " ",
-          "start_time": 17.059,
-          "end_time": 17.099
+          "start_time": 15.139,
+          "end_time": 15.179
         },
         {
           "text": "a",
-          "start_time": 17.1,
-          "end_time": 17.159
+          "start_time": 15.179,
+          "end_time": 15.239
+        },
+        {
+          "text": " ",
+          "start_time": 15.239,
+          "end_time": 15.299
+        },
+        {
+          "text": "flat",
+          "start_time": 15.299,
+          "end_time": 15.479
+        },
+        {
+          "text": " ",
+          "start_time": 15.479,
+          "end_time": 15.599
+        },
+        {
+          "text": "face.",
+          "start_time": 15.599,
+          "end_time": 15.939
         }
       ]
     },
     {
-      "text": "perforated brick far faster than a solid lump.",
-      "start_time": 17.239,
-      "end_time": 19.399,
+      "text": "Wet clay also has to dry and fire",
+      "start_time": 16.84,
+      "end_time": 19.039,
       "speaker": "narrator",
       "words": [
         {
-          "text": "perforated",
-          "start_time": 17.239,
-          "end_time": 17.699
+          "text": "Wet",
+          "start_time": 16.84,
+          "end_time": 17.039
         },
         {
           "text": " ",
-          "start_time": 17.699,
-          "end_time": 17.779
+          "start_time": 17.039,
+          "end_time": 17.119
         },
         {
-          "text": "brick",
-          "start_time": 17.779,
-          "end_time": 18.02
+          "text": "clay",
+          "start_time": 17.119,
+          "end_time": 17.459
         },
         {
           "text": " ",
-          "start_time": 18.02,
+          "start_time": 17.459,
+          "end_time": 17.579
+        },
+        {
+          "text": "also",
+          "start_time": 17.579,
+          "end_time": 17.84
+        },
+        {
+          "text": " ",
+          "start_time": 17.84,
+          "end_time": 17.94
+        },
+        {
+          "text": "has",
+          "start_time": 17.94,
           "end_time": 18.079
         },
         {
-          "text": "far",
+          "text": " ",
           "start_time": 18.079,
-          "end_time": 18.299
+          "end_time": 18.119
+        },
+        {
+          "text": "to",
+          "start_time": 18.119,
+          "end_time": 18.219
         },
         {
           "text": " ",
-          "start_time": 18.299,
-          "end_time": 18.34
+          "start_time": 18.219,
+          "end_time": 18.279
         },
         {
-          "text": "faster",
-          "start_time": 18.34,
-          "end_time": 18.619
-        },
-        {
-          "text": " ",
-          "start_time": 18.619,
-          "end_time": 18.639
-        },
-        {
-          "text": "than",
-          "start_time": 18.639,
-          "end_time": 18.719
+          "text": "dry",
+          "start_time": 18.279,
+          "end_time": 18.5
         },
         {
           "text": " ",
-          "start_time": 18.719,
-          "end_time": 18.779
+          "start_time": 18.5,
+          "end_time": 18.539
         },
         {
-          "text": "a",
-          "start_time": 18.779,
-          "end_time": 18.839
-        },
-        {
-          "text": " ",
-          "start_time": 18.839,
-          "end_time": 18.899
-        },
-        {
-          "text": "solid",
-          "start_time": 18.899,
-          "end_time": 19.119
+          "text": "and",
+          "start_time": 18.539,
+          "end_time": 18.68
         },
         {
           "text": " ",
-          "start_time": 19.119,
-          "end_time": 19.199
+          "start_time": 18.68,
+          "end_time": 18.76
         },
         {
-          "text": "lump.",
-          "start_time": 19.199,
-          "end_time": 19.399
+          "text": "fire",
+          "start_time": 18.76,
+          "end_time": 19.039
         }
       ]
     },
     {
-      "text": "Less clay, less fuel,",
-      "start_time": 19.719,
-      "end_time": 20.899,
+      "text": "without cracking,",
+      "start_time": 19.42,
+      "end_time": 20.159,
       "speaker": "narrator",
       "words": [
         {
-          "text": "Less",
-          "start_time": 19.719,
-          "end_time": 19.879
+          "text": "without",
+          "start_time": 19.42,
+          "end_time": 19.739
         },
         {
           "text": " ",
-          "start_time": 19.879,
-          "end_time": 19.959
+          "start_time": 19.739,
+          "end_time": 19.799
         },
         {
-          "text": "clay,",
-          "start_time": 19.959,
-          "end_time": 20.179
+          "text": "cracking,",
+          "start_time": 19.799,
+          "end_time": 20.159
+        }
+      ]
+    },
+    {
+      "text": "and heat reaches the middle of a perforated",
+      "start_time": 20.739,
+      "end_time": 22.699,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 20.739,
+          "end_time": 20.819
         },
         {
           "text": " ",
-          "start_time": 20.179,
-          "end_time": 20.42
-        },
-        {
-          "text": "less",
-          "start_time": 20.42,
-          "end_time": 20.579
-        },
-        {
-          "text": " ",
-          "start_time": 20.579,
-          "end_time": 20.659
-        },
-        {
-          "text": "fuel,",
-          "start_time": 20.659,
+          "start_time": 20.819,
           "end_time": 20.899
-        }
-      ]
-    },
-    {
-      "text": "lighter to lift, stronger wall.",
-      "start_time": 21.219,
-      "end_time": 22.759,
-      "speaker": "narrator",
-      "words": [
+        },
         {
-          "text": "lighter",
-          "start_time": 21.219,
+          "text": "heat",
+          "start_time": 20.899,
+          "end_time": 21.079
+        },
+        {
+          "text": " ",
+          "start_time": 21.079,
+          "end_time": 21.119
+        },
+        {
+          "text": "reaches",
+          "start_time": 21.119,
           "end_time": 21.399
         },
         {
@@ -883,39 +710,221 @@
           "end_time": 21.439
         },
         {
-          "text": "to",
+          "text": "the",
           "start_time": 21.439,
-          "end_time": 21.52
-        },
-        {
-          "text": " ",
-          "start_time": 21.52,
           "end_time": 21.559
         },
         {
-          "text": "lift,",
+          "text": " ",
           "start_time": 21.559,
-          "end_time": 21.779
+          "end_time": 21.619
+        },
+        {
+          "text": "middle",
+          "start_time": 21.619,
+          "end_time": 21.859
         },
         {
           "text": " ",
-          "start_time": 21.779,
-          "end_time": 22.079
+          "start_time": 21.859,
+          "end_time": 21.899
         },
+        {
+          "text": "of",
+          "start_time": 21.899,
+          "end_time": 21.959
+        },
+        {
+          "text": " ",
+          "start_time": 21.959,
+          "end_time": 22.039
+        },
+        {
+          "text": "a",
+          "start_time": 22.039,
+          "end_time": 22.119
+        },
+        {
+          "text": " ",
+          "start_time": 22.119,
+          "end_time": 22.199
+        },
+        {
+          "text": "perforated",
+          "start_time": 22.199,
+          "end_time": 22.699
+        }
+      ]
+    },
+    {
+      "text": "brick far faster than a solid lump.",
+      "start_time": 22.779,
+      "end_time": 24.6,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "brick",
+          "start_time": 22.779,
+          "end_time": 22.959
+        },
+        {
+          "text": " ",
+          "start_time": 22.959,
+          "end_time": 23.119
+        },
+        {
+          "text": "far",
+          "start_time": 23.119,
+          "end_time": 23.359
+        },
+        {
+          "text": " ",
+          "start_time": 23.359,
+          "end_time": 23.419
+        },
+        {
+          "text": "faster",
+          "start_time": 23.42,
+          "end_time": 23.719
+        },
+        {
+          "text": " ",
+          "start_time": 23.719,
+          "end_time": 23.76
+        },
+        {
+          "text": "than",
+          "start_time": 23.76,
+          "end_time": 23.84
+        },
+        {
+          "text": " ",
+          "start_time": 23.84,
+          "end_time": 23.899
+        },
+        {
+          "text": "a",
+          "start_time": 23.899,
+          "end_time": 23.979
+        },
+        {
+          "text": " ",
+          "start_time": 23.979,
+          "end_time": 24.039
+        },
+        {
+          "text": "solid",
+          "start_time": 24.039,
+          "end_time": 24.299
+        },
+        {
+          "text": " ",
+          "start_time": 24.299,
+          "end_time": 24.379
+        },
+        {
+          "text": "lump.",
+          "start_time": 24.379,
+          "end_time": 24.6
+        }
+      ]
+    },
+    {
+      "text": "Less clay, less fuel,",
+      "start_time": 25.399,
+      "end_time": 26.739,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Less",
+          "start_time": 25.399,
+          "end_time": 25.559
+        },
+        {
+          "text": " ",
+          "start_time": 25.559,
+          "end_time": 25.659
+        },
+        {
+          "text": "clay,",
+          "start_time": 25.659,
+          "end_time": 25.919
+        },
+        {
+          "text": " ",
+          "start_time": 25.919,
+          "end_time": 26.179
+        },
+        {
+          "text": "less",
+          "start_time": 26.18,
+          "end_time": 26.379
+        },
+        {
+          "text": " ",
+          "start_time": 26.379,
+          "end_time": 26.459
+        },
+        {
+          "text": "fuel,",
+          "start_time": 26.459,
+          "end_time": 26.739
+        }
+      ]
+    },
+    {
+      "text": "lighter to lift,",
+      "start_time": 27.079,
+      "end_time": 27.699,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "lighter",
+          "start_time": 27.079,
+          "end_time": 27.279
+        },
+        {
+          "text": " ",
+          "start_time": 27.279,
+          "end_time": 27.319
+        },
+        {
+          "text": "to",
+          "start_time": 27.319,
+          "end_time": 27.42
+        },
+        {
+          "text": " ",
+          "start_time": 27.42,
+          "end_time": 27.459
+        },
+        {
+          "text": "lift,",
+          "start_time": 27.459,
+          "end_time": 27.699
+        }
+      ]
+    },
+    {
+      "text": "stronger wall.",
+      "start_time": 28.079,
+      "end_time": 28.84,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "stronger",
-          "start_time": 22.079,
-          "end_time": 22.479
+          "start_time": 28.079,
+          "end_time": 28.459
         },
         {
           "text": " ",
-          "start_time": 22.479,
-          "end_time": 22.539
+          "start_time": 28.459,
+          "end_time": 28.559
         },
         {
           "text": "wall.",
-          "start_time": 22.539,
-          "end_time": 22.759
+          "start_time": 28.559,
+          "end_time": 28.84
         }
       ]
     }

@@ -1,940 +1,943 @@
 {
   "language_code": "en",
-  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "note": "Word alignment produced by the audio factory against the RAW take — the clock remap-timing.mjs projects through the time map.",
   "source": "FORCED_ALIGNMENT",
   "segments": [
     {
       "text": "One side of aluminum foil is shiny and the",
-      "start_time": 0.059,
-      "end_time": 1.819,
+      "start_time": 0.079,
+      "end_time": 2.019,
       "speaker": "narrator",
       "words": [
         {
           "text": "One",
-          "start_time": 0.059,
-          "end_time": 0.159
+          "start_time": 0.079,
+          "end_time": 0.179
         },
         {
           "text": " ",
-          "start_time": 0.159,
-          "end_time": 0.259
+          "start_time": 0.179,
+          "end_time": 0.279
         },
         {
           "text": "side",
-          "start_time": 0.259,
-          "end_time": 0.379
-        },
-        {
-          "text": " ",
-          "start_time": 0.379,
+          "start_time": 0.28,
           "end_time": 0.419
         },
         {
-          "text": "of",
+          "text": " ",
           "start_time": 0.419,
           "end_time": 0.459
         },
         {
-          "text": " ",
+          "text": "of",
           "start_time": 0.459,
-          "end_time": 0.499
+          "end_time": 0.5
+        },
+        {
+          "text": " ",
+          "start_time": 0.5,
+          "end_time": 0.539
         },
         {
           "text": "aluminum",
-          "start_time": 0.5,
-          "end_time": 0.799
+          "start_time": 0.539,
+          "end_time": 0.879
         },
         {
           "text": " ",
-          "start_time": 0.799,
-          "end_time": 0.899
+          "start_time": 0.879,
+          "end_time": 0.979
         },
         {
           "text": "foil",
-          "start_time": 0.899,
-          "end_time": 1.079
+          "start_time": 0.979,
+          "end_time": 1.199
         },
         {
           "text": " ",
-          "start_time": 1.079,
-          "end_time": 1.119
+          "start_time": 1.199,
+          "end_time": 1.239
         },
         {
           "text": "is",
-          "start_time": 1.12,
-          "end_time": 1.279
+          "start_time": 1.24,
+          "end_time": 1.399
         },
         {
           "text": " ",
-          "start_time": 1.279,
-          "end_time": 1.299
+          "start_time": 1.399,
+          "end_time": 1.439
         },
         {
           "text": "shiny",
-          "start_time": 1.299,
-          "end_time": 1.62
+          "start_time": 1.439,
+          "end_time": 1.819
         },
         {
           "text": " ",
-          "start_time": 1.62,
-          "end_time": 1.659
+          "start_time": 1.819,
+          "end_time": 1.859
         },
         {
           "text": "and",
-          "start_time": 1.659,
-          "end_time": 1.739
+          "start_time": 1.86,
+          "end_time": 1.919
         },
         {
           "text": " ",
-          "start_time": 1.739,
-          "end_time": 1.759
+          "start_time": 1.919,
+          "end_time": 1.959
         },
         {
           "text": "the",
-          "start_time": 1.759,
-          "end_time": 1.819
+          "start_time": 1.959,
+          "end_time": 2.019
         }
       ]
     },
     {
-      "text": "other side is dull, and the box never explains",
-      "start_time": 1.879,
-      "end_time": 4.079,
+      "text": "other side is dull,",
+      "start_time": 2.099,
+      "end_time": 3,
       "speaker": "narrator",
       "words": [
         {
           "text": "other",
-          "start_time": 1.879,
-          "end_time": 2.059
+          "start_time": 2.099,
+          "end_time": 2.22
         },
         {
           "text": " ",
-          "start_time": 2.059,
-          "end_time": 2.099
+          "start_time": 2.22,
+          "end_time": 2.319
         },
         {
           "text": "side",
-          "start_time": 2.099,
-          "end_time": 2.24
+          "start_time": 2.319,
+          "end_time": 2.48
         },
         {
           "text": " ",
-          "start_time": 2.24,
-          "end_time": 2.279
+          "start_time": 2.48,
+          "end_time": 2.539
         },
         {
           "text": "is",
-          "start_time": 2.279,
-          "end_time": 2.399
+          "start_time": 2.539,
+          "end_time": 2.619
         },
         {
           "text": " ",
-          "start_time": 2.399,
-          "end_time": 2.459
+          "start_time": 2.619,
+          "end_time": 2.739
         },
         {
           "text": "dull,",
-          "start_time": 2.46,
-          "end_time": 2.7
-        },
-        {
-          "text": " ",
-          "start_time": 2.7,
-          "end_time": 2.919
-        },
-        {
-          "text": "and",
-          "start_time": 2.919,
+          "start_time": 2.74,
           "end_time": 3
-        },
-        {
-          "text": " ",
-          "start_time": 3,
-          "end_time": 3.019
-        },
-        {
-          "text": "the",
-          "start_time": 3.019,
-          "end_time": 3.079
-        },
-        {
-          "text": " ",
-          "start_time": 3.079,
-          "end_time": 3.139
-        },
-        {
-          "text": "box",
-          "start_time": 3.139,
-          "end_time": 3.379
-        },
-        {
-          "text": " ",
-          "start_time": 3.379,
-          "end_time": 3.439
-        },
-        {
-          "text": "never",
-          "start_time": 3.439,
-          "end_time": 3.619
-        },
-        {
-          "text": " ",
-          "start_time": 3.619,
-          "end_time": 3.679
-        },
-        {
-          "text": "explains",
-          "start_time": 3.679,
-          "end_time": 4.079
         }
       ]
     },
     {
-      "text": "why.",
-      "start_time": 4.119,
-      "end_time": 4.619000000000001,
+      "text": "and the box never explains why.",
+      "start_time": 3.519,
+      "end_time": 5.119,
       "speaker": "narrator",
       "words": [
         {
-          "text": "why.",
+          "text": "and",
+          "start_time": 3.519,
+          "end_time": 3.599
+        },
+        {
+          "text": " ",
+          "start_time": 3.599,
+          "end_time": 3.639
+        },
+        {
+          "text": "the",
+          "start_time": 3.639,
+          "end_time": 3.699
+        },
+        {
+          "text": " ",
+          "start_time": 3.699,
+          "end_time": 3.779
+        },
+        {
+          "text": "box",
+          "start_time": 3.779,
+          "end_time": 4.039
+        },
+        {
+          "text": " ",
+          "start_time": 4.039,
+          "end_time": 4.119
+        },
+        {
+          "text": "never",
           "start_time": 4.119,
-          "end_time": 4.339
+          "end_time": 4.279
+        },
+        {
+          "text": " ",
+          "start_time": 4.279,
+          "end_time": 4.379
+        },
+        {
+          "text": "explains",
+          "start_time": 4.38,
+          "end_time": 4.759
+        },
+        {
+          "text": " ",
+          "start_time": 4.759,
+          "end_time": 4.859
+        },
+        {
+          "text": "why.",
+          "start_time": 4.859,
+          "end_time": 5.119
         }
       ]
     },
     {
-      "text": "It is not a coating, and it is not",
-      "start_time": 4.639,
-      "end_time": 6.159,
+      "text": "It is not a coating,",
+      "start_time": 5.98,
+      "end_time": 6.879,
       "speaker": "narrator",
       "words": [
         {
           "text": "It",
-          "start_time": 4.639,
-          "end_time": 4.679
+          "start_time": 5.98,
+          "end_time": 6.039
         },
         {
           "text": " ",
-          "start_time": 4.679,
-          "end_time": 4.739
+          "start_time": 6.039,
+          "end_time": 6.099
         },
         {
           "text": "is",
-          "start_time": 4.739,
-          "end_time": 4.88
+          "start_time": 6.099,
+          "end_time": 6.199
         },
         {
           "text": " ",
-          "start_time": 4.88,
-          "end_time": 4.92
+          "start_time": 6.199,
+          "end_time": 6.299
         },
         {
           "text": "not",
-          "start_time": 4.92,
-          "end_time": 5.039
+          "start_time": 6.299,
+          "end_time": 6.42
         },
         {
           "text": " ",
-          "start_time": 5.039,
-          "end_time": 5.059
+          "start_time": 6.42,
+          "end_time": 6.46
         },
         {
           "text": "a",
-          "start_time": 5.059,
-          "end_time": 5.119
+          "start_time": 6.46,
+          "end_time": 6.519
         },
         {
           "text": " ",
-          "start_time": 5.119,
-          "end_time": 5.159
+          "start_time": 6.519,
+          "end_time": 6.559
         },
         {
           "text": "coating,",
-          "start_time": 5.159,
-          "end_time": 5.44
-        },
-        {
-          "text": " ",
-          "start_time": 5.44,
-          "end_time": 5.619
-        },
+          "start_time": 6.559,
+          "end_time": 6.879
+        }
+      ]
+    },
+    {
+      "text": "and it is not a nonstick side.",
+      "start_time": 7.219,
+      "end_time": 8.899,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "and",
-          "start_time": 5.619,
-          "end_time": 5.699
+          "start_time": 7.219,
+          "end_time": 7.299
         },
         {
           "text": " ",
-          "start_time": 5.699,
-          "end_time": 5.719
+          "start_time": 7.299,
+          "end_time": 7.339
         },
         {
           "text": "it",
-          "start_time": 5.719,
-          "end_time": 5.759
+          "start_time": 7.339,
+          "end_time": 7.379
         },
         {
           "text": " ",
-          "start_time": 5.759,
-          "end_time": 5.799
+          "start_time": 7.379,
+          "end_time": 7.419
         },
         {
           "text": "is",
-          "start_time": 5.799,
-          "end_time": 5.96
+          "start_time": 7.419,
+          "end_time": 7.519
         },
         {
           "text": " ",
-          "start_time": 5.96,
-          "end_time": 5.98
+          "start_time": 7.519,
+          "end_time": 7.599
         },
         {
           "text": "not",
-          "start_time": 5.98,
-          "end_time": 6.159
-        }
-      ]
-    },
-    {
-      "text": "a nonstick side.",
-      "start_time": 6.199,
-      "end_time": 7.099,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "a",
-          "start_time": 6.199,
-          "end_time": 6.219
-        },
-        {
-          "text": " ",
-          "start_time": 6.219,
-          "end_time": 6.359
-        },
-        {
-          "text": "nonstick",
-          "start_time": 6.359,
-          "end_time": 6.779
-        },
-        {
-          "text": " ",
-          "start_time": 6.779,
-          "end_time": 6.879
-        },
-        {
-          "text": "side.",
-          "start_time": 6.879,
-          "end_time": 7.099
-        }
-      ]
-    },
-    {
-      "text": "Foil gets rolled thinner and thinner between",
-      "start_time": 7.5,
-      "end_time": 9.519,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "Foil",
-          "start_time": 7.5,
+          "start_time": 7.599,
           "end_time": 7.739
         },
         {
           "text": " ",
           "start_time": 7.739,
-          "end_time": 7.779
+          "end_time": 7.839
         },
         {
-          "text": "gets",
-          "start_time": 7.779,
-          "end_time": 7.939
+          "text": "a",
+          "start_time": 7.839,
+          "end_time": 7.859
         },
         {
           "text": " ",
-          "start_time": 7.939,
+          "start_time": 7.859,
           "end_time": 8.039
         },
         {
-          "text": "rolled",
+          "text": "nonstick",
           "start_time": 8.039,
-          "end_time": 8.24
+          "end_time": 8.5
         },
         {
           "text": " ",
-          "start_time": 8.24,
-          "end_time": 8.359
+          "start_time": 8.5,
+          "end_time": 8.619
         },
         {
-          "text": "thinner",
-          "start_time": 8.359,
-          "end_time": 8.639
-        },
-        {
-          "text": " ",
-          "start_time": 8.639,
-          "end_time": 8.679
-        },
-        {
-          "text": "and",
-          "start_time": 8.679,
-          "end_time": 8.78
-        },
-        {
-          "text": " ",
-          "start_time": 8.78,
+          "text": "side.",
+          "start_time": 8.619,
           "end_time": 8.899
+        }
+      ]
+    },
+    {
+      "text": "Foil gets rolled thinner and thinner between",
+      "start_time": 9.8,
+      "end_time": 12.059,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Foil",
+          "start_time": 9.8,
+          "end_time": 10.059
+        },
+        {
+          "text": " ",
+          "start_time": 10.059,
+          "end_time": 10.099
+        },
+        {
+          "text": "gets",
+          "start_time": 10.099,
+          "end_time": 10.26
+        },
+        {
+          "text": " ",
+          "start_time": 10.26,
+          "end_time": 10.399
+        },
+        {
+          "text": "rolled",
+          "start_time": 10.399,
+          "end_time": 10.599
+        },
+        {
+          "text": " ",
+          "start_time": 10.599,
+          "end_time": 10.739
         },
         {
           "text": "thinner",
-          "start_time": 8.899,
-          "end_time": 9.119
+          "start_time": 10.739,
+          "end_time": 11.079
         },
         {
           "text": " ",
-          "start_time": 9.119,
-          "end_time": 9.159
+          "start_time": 11.079,
+          "end_time": 11.119
         },
-        {
-          "text": "between",
-          "start_time": 9.159,
-          "end_time": 9.519
-        }
-      ]
-    },
-    {
-      "text": "polished steel rollers,",
-      "start_time": 9.579,
-      "end_time": 10.599,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "polished",
-          "start_time": 9.579,
-          "end_time": 9.9
-        },
-        {
-          "text": " ",
-          "start_time": 9.9,
-          "end_time": 9.979
-        },
-        {
-          "text": "steel",
-          "start_time": 9.979,
-          "end_time": 10.139
-        },
-        {
-          "text": " ",
-          "start_time": 10.139,
-          "end_time": 10.239
-        },
-        {
-          "text": "rollers,",
-          "start_time": 10.239,
-          "end_time": 10.599
-        }
-      ]
-    },
-    {
-      "text": "and by the last pass it is so thin",
-      "start_time": 10.92,
-      "end_time": 12.519,
-      "speaker": "narrator",
-      "words": [
         {
           "text": "and",
-          "start_time": 10.92,
-          "end_time": 10.98
-        },
-        {
-          "text": " ",
-          "start_time": 10.98,
-          "end_time": 11.019
-        },
-        {
-          "text": "by",
-          "start_time": 11.019,
-          "end_time": 11.099
-        },
-        {
-          "text": " ",
-          "start_time": 11.099,
-          "end_time": 11.139
-        },
-        {
-          "text": "the",
-          "start_time": 11.139,
+          "start_time": 11.119,
           "end_time": 11.219
         },
         {
           "text": " ",
           "start_time": 11.219,
-          "end_time": 11.259
+          "end_time": 11.359
+        },
+        {
+          "text": "thinner",
+          "start_time": 11.359,
+          "end_time": 11.619
+        },
+        {
+          "text": " ",
+          "start_time": 11.619,
+          "end_time": 11.659
+        },
+        {
+          "text": "between",
+          "start_time": 11.659,
+          "end_time": 12.059
+        }
+      ]
+    },
+    {
+      "text": "polished steel rollers,",
+      "start_time": 12.139,
+      "end_time": 13.239,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "polished",
+          "start_time": 12.139,
+          "end_time": 12.46
+        },
+        {
+          "text": " ",
+          "start_time": 12.46,
+          "end_time": 12.519
+        },
+        {
+          "text": "steel",
+          "start_time": 12.519,
+          "end_time": 12.759
+        },
+        {
+          "text": " ",
+          "start_time": 12.759,
+          "end_time": 12.879
+        },
+        {
+          "text": "rollers,",
+          "start_time": 12.88,
+          "end_time": 13.239
+        }
+      ]
+    },
+    {
+      "text": "and by the last pass it is so thin",
+      "start_time": 13.619,
+      "end_time": 15.439,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 13.619,
+          "end_time": 13.699
+        },
+        {
+          "text": " ",
+          "start_time": 13.699,
+          "end_time": 13.739
+        },
+        {
+          "text": "by",
+          "start_time": 13.739,
+          "end_time": 13.819
+        },
+        {
+          "text": " ",
+          "start_time": 13.819,
+          "end_time": 13.859
+        },
+        {
+          "text": "the",
+          "start_time": 13.859,
+          "end_time": 13.96
+        },
+        {
+          "text": " ",
+          "start_time": 13.96,
+          "end_time": 14.019
         },
         {
           "text": "last",
-          "start_time": 11.259,
-          "end_time": 11.519
+          "start_time": 14.019,
+          "end_time": 14.259
         },
         {
           "text": " ",
-          "start_time": 11.519,
-          "end_time": 11.579
+          "start_time": 14.259,
+          "end_time": 14.359
         },
         {
           "text": "pass",
-          "start_time": 11.579,
-          "end_time": 11.8
+          "start_time": 14.359,
+          "end_time": 14.619
         },
         {
           "text": " ",
-          "start_time": 11.8,
-          "end_time": 11.859
+          "start_time": 14.619,
+          "end_time": 14.679
         },
         {
           "text": "it",
-          "start_time": 11.859,
-          "end_time": 11.899
+          "start_time": 14.679,
+          "end_time": 14.719
         },
         {
           "text": " ",
-          "start_time": 11.899,
-          "end_time": 11.939
+          "start_time": 14.719,
+          "end_time": 14.759
         },
         {
           "text": "is",
-          "start_time": 11.939,
-          "end_time": 12.079
+          "start_time": 14.759,
+          "end_time": 14.899
         },
         {
           "text": " ",
-          "start_time": 12.079,
-          "end_time": 12.119
+          "start_time": 14.899,
+          "end_time": 14.96
         },
         {
           "text": "so",
-          "start_time": 12.119,
-          "end_time": 12.219
+          "start_time": 14.96,
+          "end_time": 15.099
         },
         {
           "text": " ",
-          "start_time": 12.219,
-          "end_time": 12.339
+          "start_time": 15.099,
+          "end_time": 15.239
         },
         {
           "text": "thin",
-          "start_time": 12.34,
-          "end_time": 12.519
+          "start_time": 15.239,
+          "end_time": 15.439
         }
       ]
     },
     {
       "text": "a single sheet would tear itself apart,",
-      "start_time": 12.84,
-      "end_time": 14.439,
+      "start_time": 15.779,
+      "end_time": 17.579,
       "speaker": "narrator",
       "words": [
         {
           "text": "a",
-          "start_time": 12.84,
-          "end_time": 12.96
+          "start_time": 15.779,
+          "end_time": 15.899
         },
         {
           "text": " ",
-          "start_time": 12.96,
-          "end_time": 13.019
+          "start_time": 15.899,
+          "end_time": 15.979
         },
         {
           "text": "single",
-          "start_time": 13.019,
-          "end_time": 13.239
+          "start_time": 15.979,
+          "end_time": 16.199
         },
         {
           "text": " ",
-          "start_time": 13.239,
-          "end_time": 13.339
+          "start_time": 16.199,
+          "end_time": 16.319
         },
         {
           "text": "sheet",
-          "start_time": 13.34,
-          "end_time": 13.46
+          "start_time": 16.319,
+          "end_time": 16.479
         },
         {
           "text": " ",
-          "start_time": 13.46,
-          "end_time": 13.5
+          "start_time": 16.479,
+          "end_time": 16.52
         },
         {
           "text": "would",
-          "start_time": 13.5,
-          "end_time": 13.619
+          "start_time": 16.52,
+          "end_time": 16.659
         },
         {
           "text": " ",
-          "start_time": 13.619,
-          "end_time": 13.659
+          "start_time": 16.659,
+          "end_time": 16.699
         },
         {
           "text": "tear",
-          "start_time": 13.659,
-          "end_time": 13.779
+          "start_time": 16.699,
+          "end_time": 16.84
         },
         {
           "text": " ",
-          "start_time": 13.779,
-          "end_time": 13.819
+          "start_time": 16.84,
+          "end_time": 16.879
         },
         {
           "text": "itself",
-          "start_time": 13.819,
-          "end_time": 14.1
-        },
-        {
-          "text": " ",
-          "start_time": 14.1,
-          "end_time": 14.179
-        },
-        {
-          "text": "apart,",
-          "start_time": 14.179,
-          "end_time": 14.439
-        }
-      ]
-    },
-    {
-      "text": "so the mill runs two sheets through stacked",
-      "start_time": 14.699,
-      "end_time": 16.459,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "so",
-          "start_time": 14.699,
-          "end_time": 14.759
-        },
-        {
-          "text": " ",
-          "start_time": 14.759,
-          "end_time": 14.799
-        },
-        {
-          "text": "the",
-          "start_time": 14.799,
-          "end_time": 14.859
-        },
-        {
-          "text": " ",
-          "start_time": 14.859,
-          "end_time": 14.939
-        },
-        {
-          "text": "mill",
-          "start_time": 14.939,
-          "end_time": 15.119
-        },
-        {
-          "text": " ",
-          "start_time": 15.119,
-          "end_time": 15.159
-        },
-        {
-          "text": "runs",
-          "start_time": 15.159,
-          "end_time": 15.399
-        },
-        {
-          "text": " ",
-          "start_time": 15.399,
-          "end_time": 15.46
-        },
-        {
-          "text": "two",
-          "start_time": 15.46,
-          "end_time": 15.579
-        },
-        {
-          "text": " ",
-          "start_time": 15.579,
-          "end_time": 15.679
-        },
-        {
-          "text": "sheets",
-          "start_time": 15.679,
-          "end_time": 15.859
-        },
-        {
-          "text": " ",
-          "start_time": 15.859,
-          "end_time": 15.92
-        },
-        {
-          "text": "through",
-          "start_time": 15.92,
-          "end_time": 16.119
-        },
-        {
-          "text": " ",
-          "start_time": 16.119,
-          "end_time": 16.159
-        },
-        {
-          "text": "stacked",
-          "start_time": 16.159,
-          "end_time": 16.459
-        }
-      ]
-    },
-    {
-      "text": "together.",
-      "start_time": 16.5,
-      "end_time": 17.1,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "together.",
-          "start_time": 16.5,
-          "end_time": 16.859
-        }
-      ]
-    },
-    {
-      "text": "The outer faces press against mirror-bright",
-      "start_time": 17.139,
-      "end_time": 19.02,
-      "speaker": "narrator",
-      "words": [
-        {
-          "text": "The",
-          "start_time": 17.139,
+          "start_time": 16.879,
           "end_time": 17.18
         },
         {
           "text": " ",
           "start_time": 17.18,
-          "end_time": 17.239
+          "end_time": 17.279
         },
         {
-          "text": "outer",
-          "start_time": 17.239,
-          "end_time": 17.419
-        },
-        {
-          "text": " ",
-          "start_time": 17.419,
-          "end_time": 17.479
-        },
-        {
-          "text": "faces",
-          "start_time": 17.479,
-          "end_time": 17.819
-        },
-        {
-          "text": " ",
-          "start_time": 17.819,
-          "end_time": 17.879
-        },
-        {
-          "text": "press",
-          "start_time": 17.879,
-          "end_time": 18.039
-        },
-        {
-          "text": " ",
-          "start_time": 18.039,
-          "end_time": 18.099
-        },
-        {
-          "text": "against",
-          "start_time": 18.1,
-          "end_time": 18.34
-        },
-        {
-          "text": " ",
-          "start_time": 18.34,
-          "end_time": 18.5
-        },
-        {
-          "text": "mirror-bright",
-          "start_time": 18.5,
-          "end_time": 19.02
+          "text": "apart,",
+          "start_time": 17.279,
+          "end_time": 17.579
         }
       ]
     },
     {
-      "text": "steel and come out shiny.",
-      "start_time": 19.079,
-      "end_time": 20.439,
+      "text": "so the mill runs two sheets through stacked",
+      "start_time": 18.039,
+      "end_time": 19.999,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "so",
+          "start_time": 18.039,
+          "end_time": 18.1
+        },
+        {
+          "text": " ",
+          "start_time": 18.1,
+          "end_time": 18.159
+        },
+        {
+          "text": "the",
+          "start_time": 18.159,
+          "end_time": 18.26
+        },
+        {
+          "text": " ",
+          "start_time": 18.26,
+          "end_time": 18.319
+        },
+        {
+          "text": "mill",
+          "start_time": 18.319,
+          "end_time": 18.5
+        },
+        {
+          "text": " ",
+          "start_time": 18.5,
+          "end_time": 18.559
+        },
+        {
+          "text": "runs",
+          "start_time": 18.559,
+          "end_time": 18.84
+        },
+        {
+          "text": " ",
+          "start_time": 18.84,
+          "end_time": 18.899
+        },
+        {
+          "text": "two",
+          "start_time": 18.899,
+          "end_time": 19.039
+        },
+        {
+          "text": " ",
+          "start_time": 19.039,
+          "end_time": 19.139
+        },
+        {
+          "text": "sheets",
+          "start_time": 19.139,
+          "end_time": 19.34
+        },
+        {
+          "text": " ",
+          "start_time": 19.34,
+          "end_time": 19.399
+        },
+        {
+          "text": "through",
+          "start_time": 19.399,
+          "end_time": 19.619
+        },
+        {
+          "text": " ",
+          "start_time": 19.619,
+          "end_time": 19.699
+        },
+        {
+          "text": "stacked",
+          "start_time": 19.699,
+          "end_time": 19.999
+        }
+      ]
+    },
+    {
+      "text": "together.",
+      "start_time": 20.039,
+      "end_time": 20.639000000000003,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "together.",
+          "start_time": 20.039,
+          "end_time": 20.459
+        }
+      ]
+    },
+    {
+      "text": "The outer faces press against mirror-bright",
+      "start_time": 21.459,
+      "end_time": 23.559,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 21.459,
+          "end_time": 21.52
+        },
+        {
+          "text": " ",
+          "start_time": 21.52,
+          "end_time": 21.579
+        },
+        {
+          "text": "outer",
+          "start_time": 21.579,
+          "end_time": 21.799
+        },
+        {
+          "text": " ",
+          "start_time": 21.799,
+          "end_time": 21.84
+        },
+        {
+          "text": "faces",
+          "start_time": 21.84,
+          "end_time": 22.239
+        },
+        {
+          "text": " ",
+          "start_time": 22.239,
+          "end_time": 22.299
+        },
+        {
+          "text": "press",
+          "start_time": 22.299,
+          "end_time": 22.479
+        },
+        {
+          "text": " ",
+          "start_time": 22.479,
+          "end_time": 22.559
+        },
+        {
+          "text": "against",
+          "start_time": 22.559,
+          "end_time": 22.819
+        },
+        {
+          "text": " ",
+          "start_time": 22.819,
+          "end_time": 23
+        },
+        {
+          "text": "mirror-bright",
+          "start_time": 23,
+          "end_time": 23.559
+        }
+      ]
+    },
+    {
+      "text": "steel",
+      "start_time": 23.639,
+      "end_time": 24.239,
       "speaker": "narrator",
       "words": [
         {
           "text": "steel",
-          "start_time": 19.079,
-          "end_time": 19.359
-        },
-        {
-          "text": " ",
-          "start_time": 19.359,
-          "end_time": 19.579
-        },
+          "start_time": 23.639,
+          "end_time": 23.959
+        }
+      ]
+    },
+    {
+      "text": "and come out shiny.",
+      "start_time": 24.42,
+      "end_time": 25.359,
+      "speaker": "narrator",
+      "words": [
         {
           "text": "and",
-          "start_time": 19.579,
-          "end_time": 19.699
+          "start_time": 24.42,
+          "end_time": 24.539
         },
         {
           "text": " ",
-          "start_time": 19.699,
-          "end_time": 19.739
+          "start_time": 24.539,
+          "end_time": 24.599
         },
         {
           "text": "come",
-          "start_time": 19.739,
-          "end_time": 19.859
+          "start_time": 24.6,
+          "end_time": 24.719
         },
         {
           "text": " ",
-          "start_time": 19.859,
-          "end_time": 19.899
+          "start_time": 24.719,
+          "end_time": 24.76
         },
         {
           "text": "out",
-          "start_time": 19.899,
-          "end_time": 20.079
+          "start_time": 24.76,
+          "end_time": 24.939
         },
         {
           "text": " ",
-          "start_time": 20.079,
-          "end_time": 20.119
+          "start_time": 24.939,
+          "end_time": 24.999
         },
         {
           "text": "shiny.",
-          "start_time": 20.119,
-          "end_time": 20.439
+          "start_time": 25,
+          "end_time": 25.359
         }
       ]
     },
     {
       "text": "The two inner faces press against each other",
-      "start_time": 20.719,
-      "end_time": 22.579,
+      "start_time": 26.299,
+      "end_time": 28.34,
       "speaker": "narrator",
       "words": [
         {
           "text": "The",
-          "start_time": 20.719,
-          "end_time": 20.799
+          "start_time": 26.299,
+          "end_time": 26.379
         },
         {
           "text": " ",
-          "start_time": 20.799,
-          "end_time": 20.859
+          "start_time": 26.379,
+          "end_time": 26.439
         },
         {
           "text": "two",
-          "start_time": 20.859,
-          "end_time": 21
+          "start_time": 26.439,
+          "end_time": 26.599
         },
         {
           "text": " ",
-          "start_time": 21,
-          "end_time": 21.1
+          "start_time": 26.599,
+          "end_time": 26.699
         },
         {
           "text": "inner",
-          "start_time": 21.1,
-          "end_time": 21.239
+          "start_time": 26.699,
+          "end_time": 26.859
         },
         {
           "text": " ",
-          "start_time": 21.239,
-          "end_time": 21.34
+          "start_time": 26.859,
+          "end_time": 26.979
         },
         {
           "text": "faces",
-          "start_time": 21.34,
-          "end_time": 21.679
+          "start_time": 26.979,
+          "end_time": 27.379
         },
         {
           "text": " ",
-          "start_time": 21.679,
-          "end_time": 21.739
+          "start_time": 27.379,
+          "end_time": 27.439
         },
         {
           "text": "press",
-          "start_time": 21.739,
-          "end_time": 21.899
+          "start_time": 27.439,
+          "end_time": 27.599
         },
         {
           "text": " ",
-          "start_time": 21.899,
-          "end_time": 21.959
+          "start_time": 27.599,
+          "end_time": 27.679
         },
         {
           "text": "against",
-          "start_time": 21.959,
-          "end_time": 22.18
+          "start_time": 27.68,
+          "end_time": 27.92
         },
         {
           "text": " ",
-          "start_time": 22.18,
-          "end_time": 22.199
+          "start_time": 27.92,
+          "end_time": 27.959
         },
         {
           "text": "each",
-          "start_time": 22.199,
-          "end_time": 22.34
+          "start_time": 27.959,
+          "end_time": 28.1
         },
         {
           "text": " ",
-          "start_time": 22.34,
-          "end_time": 22.399
+          "start_time": 28.1,
+          "end_time": 28.159
         },
         {
           "text": "other",
-          "start_time": 22.399,
-          "end_time": 22.579
+          "start_time": 28.159,
+          "end_time": 28.34
         }
       ]
     },
     {
       "text": "and come out dull.",
-      "start_time": 22.779,
-      "end_time": 23.519,
+      "start_time": 28.599,
+      "end_time": 29.439,
       "speaker": "narrator",
       "words": [
         {
           "text": "and",
-          "start_time": 22.779,
-          "end_time": 22.899
+          "start_time": 28.599,
+          "end_time": 28.719
         },
         {
           "text": " ",
-          "start_time": 22.899,
-          "end_time": 22.939
+          "start_time": 28.719,
+          "end_time": 28.76
         },
         {
           "text": "come",
-          "start_time": 22.939,
-          "end_time": 23.039
+          "start_time": 28.76,
+          "end_time": 28.879
         },
         {
           "text": " ",
-          "start_time": 23.039,
-          "end_time": 23.079
+          "start_time": 28.879,
+          "end_time": 28.939
         },
         {
           "text": "out",
-          "start_time": 23.079,
-          "end_time": 23.239
+          "start_time": 28.939,
+          "end_time": 29.059
         },
         {
           "text": " ",
-          "start_time": 23.239,
-          "end_time": 23.299
+          "start_time": 29.059,
+          "end_time": 29.159
         },
         {
           "text": "dull.",
-          "start_time": 23.299,
-          "end_time": 23.519
+          "start_time": 29.159,
+          "end_time": 29.439
         }
       ]
     }

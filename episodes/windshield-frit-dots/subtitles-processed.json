@@ -1,0 +1,651 @@
+{
+  "note": "Timings correspond to public/audio/windshield-frit-dots.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/windshield-frit-dots/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/windshield-frit-dots.timemap.json",
+  "audio": "public/audio/windshield-frit-dots.wav",
+  "duration": 23.892,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "Look along the top edge of a windshield",
+      "start": 0.106,
+      "end": 1.679
+    },
+    {
+      "text": "and you'll find a black border that breaks",
+      "start": 1.882,
+      "end": 3.311
+    },
+    {
+      "text": "into a scatter of dots before it fades out.",
+      "start": 3.346,
+      "end": 5.276
+    },
+    {
+      "text": "That border is ceramic paint baked into the",
+      "start": 5.542,
+      "end": 7.471
+    },
+    {
+      "text": "glass,",
+      "start": 7.525,
+      "end": 8.061
+    },
+    {
+      "text": "and it is covering the adhesive that holds",
+      "start": 8.258,
+      "end": 9.991
+    },
+    {
+      "text": "the windshield onto the car.",
+      "start": 10.026,
+      "end": 11.259
+    },
+    {
+      "text": "Sunlight would slowly cook that glue,",
+      "start": 11.62,
+      "end": 13.139
+    },
+    {
+      "text": "so the black band shields it.",
+      "start": 13.462,
+      "end": 14.622
+    },
+    {
+      "text": "The dots are the clever part.",
+      "start": 14.857,
+      "end": 15.964
+    },
+    {
+      "text": "Black glass heats faster than clear glass,",
+      "start": 16.235,
+      "end": 18.254
+    },
+    {
+      "text": "and a hard edge between the two would build",
+      "start": 18.44,
+      "end": 19.995
+    },
+    {
+      "text": "enough stress to crack the pane,",
+      "start": 20.084,
+      "end": 21.353
+    },
+    {
+      "text": "so the dots spread that change out gradually.",
+      "start": 21.581,
+      "end": 23.654
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "Look",
+      "start": 0.106,
+      "end": 0.196
+    },
+    {
+      "i": 1,
+      "text": "along",
+      "start": 0.231,
+      "end": 0.41
+    },
+    {
+      "i": 2,
+      "text": "the",
+      "start": 0.428,
+      "end": 0.535
+    },
+    {
+      "i": 3,
+      "text": "top",
+      "start": 0.571,
+      "end": 0.75
+    },
+    {
+      "i": 4,
+      "text": "edge",
+      "start": 0.911,
+      "end": 1.036
+    },
+    {
+      "i": 5,
+      "text": "of",
+      "start": 1.054,
+      "end": 1.125
+    },
+    {
+      "i": 6,
+      "text": "a",
+      "start": 1.143,
+      "end": 1.161
+    },
+    {
+      "i": 7,
+      "text": "windshield",
+      "start": 1.232,
+      "end": 1.679
+    },
+    {
+      "i": 8,
+      "text": "and",
+      "start": 1.882,
+      "end": 1.97
+    },
+    {
+      "i": 9,
+      "text": "you'll",
+      "start": 1.988,
+      "end": 2.114
+    },
+    {
+      "i": 10,
+      "text": "find",
+      "start": 2.149,
+      "end": 2.256
+    },
+    {
+      "i": 11,
+      "text": "a",
+      "start": 2.311,
+      "end": 2.364
+    },
+    {
+      "i": 12,
+      "text": "black",
+      "start": 2.417,
+      "end": 2.614
+    },
+    {
+      "i": 13,
+      "text": "border",
+      "start": 2.703,
+      "end": 2.9
+    },
+    {
+      "i": 14,
+      "text": "that",
+      "start": 2.935,
+      "end": 3.06
+    },
+    {
+      "i": 15,
+      "text": "breaks",
+      "start": 3.114,
+      "end": 3.311
+    },
+    {
+      "i": 16,
+      "text": "into",
+      "start": 3.346,
+      "end": 3.489
+    },
+    {
+      "i": 17,
+      "text": "a",
+      "start": 3.543,
+      "end": 3.632
+    },
+    {
+      "i": 18,
+      "text": "scatter",
+      "start": 3.668,
+      "end": 3.936
+    },
+    {
+      "i": 19,
+      "text": "of",
+      "start": 3.972,
+      "end": 4.025
+    },
+    {
+      "i": 20,
+      "text": "dots",
+      "start": 4.115,
+      "end": 4.365
+    },
+    {
+      "i": 21,
+      "text": "before",
+      "start": 4.401,
+      "end": 4.597
+    },
+    {
+      "i": 22,
+      "text": "it",
+      "start": 4.633,
+      "end": 4.759
+    },
+    {
+      "i": 23,
+      "text": "fades",
+      "start": 4.795,
+      "end": 5.026
+    },
+    {
+      "i": 24,
+      "text": "out.",
+      "start": 5.098,
+      "end": 5.276
+    },
+    {
+      "i": 25,
+      "text": "That",
+      "start": 5.542,
+      "end": 5.667
+    },
+    {
+      "i": 26,
+      "text": "border",
+      "start": 5.756,
+      "end": 6.006
+    },
+    {
+      "i": 27,
+      "text": "is",
+      "start": 6.061,
+      "end": 6.185
+    },
+    {
+      "i": 28,
+      "text": "ceramic",
+      "start": 6.256,
+      "end": 6.613
+    },
+    {
+      "i": 29,
+      "text": "paint",
+      "start": 6.739,
+      "end": 6.971
+    },
+    {
+      "i": 30,
+      "text": "baked",
+      "start": 7.024,
+      "end": 7.204
+    },
+    {
+      "i": 31,
+      "text": "into",
+      "start": 7.222,
+      "end": 7.383
+    },
+    {
+      "i": 32,
+      "text": "the",
+      "start": 7.4,
+      "end": 7.471
+    },
+    {
+      "i": 33,
+      "text": "glass,",
+      "start": 7.525,
+      "end": 7.864
+    },
+    {
+      "i": 34,
+      "text": "and",
+      "start": 8.258,
+      "end": 8.311
+    },
+    {
+      "i": 35,
+      "text": "it",
+      "start": 8.346,
+      "end": 8.382
+    },
+    {
+      "i": 36,
+      "text": "is",
+      "start": 8.436,
+      "end": 8.525
+    },
+    {
+      "i": 37,
+      "text": "covering",
+      "start": 8.597,
+      "end": 8.882
+    },
+    {
+      "i": 38,
+      "text": "the",
+      "start": 8.936,
+      "end": 8.973
+    },
+    {
+      "i": 39,
+      "text": "adhesive",
+      "start": 9.025,
+      "end": 9.508
+    },
+    {
+      "i": 40,
+      "text": "that",
+      "start": 9.579,
+      "end": 9.669
+    },
+    {
+      "i": 41,
+      "text": "holds",
+      "start": 9.758,
+      "end": 9.991
+    },
+    {
+      "i": 42,
+      "text": "the",
+      "start": 10.026,
+      "end": 10.08
+    },
+    {
+      "i": 43,
+      "text": "windshield",
+      "start": 10.151,
+      "end": 10.58
+    },
+    {
+      "i": 44,
+      "text": "onto",
+      "start": 10.669,
+      "end": 10.848
+    },
+    {
+      "i": 45,
+      "text": "the",
+      "start": 10.883,
+      "end": 10.938
+    },
+    {
+      "i": 46,
+      "text": "car.",
+      "start": 11.009,
+      "end": 11.259
+    },
+    {
+      "i": 47,
+      "text": "Sunlight",
+      "start": 11.62,
+      "end": 11.925
+    },
+    {
+      "i": 48,
+      "text": "would",
+      "start": 11.961,
+      "end": 12.103
+    },
+    {
+      "i": 49,
+      "text": "slowly",
+      "start": 12.174,
+      "end": 12.532
+    },
+    {
+      "i": 50,
+      "text": "cook",
+      "start": 12.568,
+      "end": 12.711
+    },
+    {
+      "i": 51,
+      "text": "that",
+      "start": 12.764,
+      "end": 12.889
+    },
+    {
+      "i": 52,
+      "text": "glue,",
+      "start": 12.925,
+      "end": 13.139
+    },
+    {
+      "i": 53,
+      "text": "so",
+      "start": 13.462,
+      "end": 13.514
+    },
+    {
+      "i": 54,
+      "text": "the",
+      "start": 13.55,
+      "end": 13.605
+    },
+    {
+      "i": 55,
+      "text": "black",
+      "start": 13.676,
+      "end": 13.907
+    },
+    {
+      "i": 56,
+      "text": "band",
+      "start": 13.943,
+      "end": 14.158
+    },
+    {
+      "i": 57,
+      "text": "shields",
+      "start": 14.212,
+      "end": 14.461
+    },
+    {
+      "i": 58,
+      "text": "it.",
+      "start": 14.533,
+      "end": 14.622
+    },
+    {
+      "i": 59,
+      "text": "The",
+      "start": 14.857,
+      "end": 14.892
+    },
+    {
+      "i": 60,
+      "text": "dots",
+      "start": 14.981,
+      "end": 15.196
+    },
+    {
+      "i": 61,
+      "text": "are",
+      "start": 15.214,
+      "end": 15.267
+    },
+    {
+      "i": 62,
+      "text": "the",
+      "start": 15.304,
+      "end": 15.374
+    },
+    {
+      "i": 63,
+      "text": "clever",
+      "start": 15.446,
+      "end": 15.696
+    },
+    {
+      "i": 64,
+      "text": "part.",
+      "start": 15.75,
+      "end": 15.964
+    },
+    {
+      "i": 65,
+      "text": "Black",
+      "start": 16.235,
+      "end": 16.45
+    },
+    {
+      "i": 66,
+      "text": "glass",
+      "start": 16.521,
+      "end": 16.807
+    },
+    {
+      "i": 67,
+      "text": "heats",
+      "start": 16.861,
+      "end": 17.057
+    },
+    {
+      "i": 68,
+      "text": "faster",
+      "start": 17.147,
+      "end": 17.415
+    },
+    {
+      "i": 69,
+      "text": "than",
+      "start": 17.469,
+      "end": 17.593
+    },
+    {
+      "i": 70,
+      "text": "clear",
+      "start": 17.665,
+      "end": 17.861
+    },
+    {
+      "i": 71,
+      "text": "glass,",
+      "start": 17.933,
+      "end": 18.254
+    },
+    {
+      "i": 72,
+      "text": "and",
+      "start": 18.44,
+      "end": 18.512
+    },
+    {
+      "i": 73,
+      "text": "a",
+      "start": 18.548,
+      "end": 18.62
+    },
+    {
+      "i": 74,
+      "text": "hard",
+      "start": 18.672,
+      "end": 18.852
+    },
+    {
+      "i": 75,
+      "text": "edge",
+      "start": 18.905,
+      "end": 19.048
+    },
+    {
+      "i": 76,
+      "text": "between",
+      "start": 19.083,
+      "end": 19.334
+    },
+    {
+      "i": 77,
+      "text": "the",
+      "start": 19.37,
+      "end": 19.459
+    },
+    {
+      "i": 78,
+      "text": "two",
+      "start": 19.513,
+      "end": 19.655
+    },
+    {
+      "i": 79,
+      "text": "would",
+      "start": 19.691,
+      "end": 19.835
+    },
+    {
+      "i": 80,
+      "text": "build",
+      "start": 19.87,
+      "end": 19.995
+    },
+    {
+      "i": 81,
+      "text": "enough",
+      "start": 20.084,
+      "end": 20.263
+    },
+    {
+      "i": 82,
+      "text": "stress",
+      "start": 20.335,
+      "end": 20.585
+    },
+    {
+      "i": 83,
+      "text": "to",
+      "start": 20.62,
+      "end": 20.711
+    },
+    {
+      "i": 84,
+      "text": "crack",
+      "start": 20.746,
+      "end": 20.942
+    },
+    {
+      "i": 85,
+      "text": "the",
+      "start": 20.978,
+      "end": 21.049
+    },
+    {
+      "i": 86,
+      "text": "pane,",
+      "start": 21.103,
+      "end": 21.353
+    },
+    {
+      "i": 87,
+      "text": "so",
+      "start": 21.581,
+      "end": 21.634
+    },
+    {
+      "i": 88,
+      "text": "the",
+      "start": 21.688,
+      "end": 21.777
+    },
+    {
+      "i": 89,
+      "text": "dots",
+      "start": 21.831,
+      "end": 22.063
+    },
+    {
+      "i": 90,
+      "text": "spread",
+      "start": 22.117,
+      "end": 22.618
+    },
+    {
+      "i": 91,
+      "text": "that",
+      "start": 22.635,
+      "end": 22.778
+    },
+    {
+      "i": 92,
+      "text": "change",
+      "start": 22.814,
+      "end": 23.028
+    },
+    {
+      "i": 93,
+      "text": "out",
+      "start": 23.082,
+      "end": 23.207
+    },
+    {
+      "i": 94,
+      "text": "gradually.",
+      "start": 23.261,
+      "end": 23.654
+    }
+  ]
+}

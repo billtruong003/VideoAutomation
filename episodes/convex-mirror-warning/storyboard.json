@@ -1,0 +1,197 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "convex-mirror-warning",
+  "title": "Why One Of Your Car Mirrors Comes With A Warning",
+  "audio": "public/audio/convex-mirror-warning.wav",
+  "fps": 30,
+  "narrationDuration": 23.168,
+  "beatCount": 17,
+  "longestGap": 2.109,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 6.685,
+      "startFrame": 2,
+      "endFrame": 201,
+      "duration": 6.614,
+      "narration": "On an American car the passenger side mirror is curved, the driver's side one is flat, and only the curved one carries a warning printed on the glass.",
+      "background": "CarInterior",
+      "note": "The asymmetry is the hook: two mirrors on one car, only one carrying text. US-specific and the script says so.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "both wing mirrors draw in side by side, seen from the driver seat"
+        },
+        {
+          "t": 2.18,
+          "frame": 65,
+          "tInScene": 2.109,
+          "frameInScene": 63,
+          "action": "the passenger mirror bulges visibly; the driver mirror stays flat"
+        },
+        {
+          "t": 5.524,
+          "frame": 166,
+          "tInScene": 5.453,
+          "frameInScene": 164,
+          "action": "the warning text appears along the bottom of the curved one and circles teal"
+        },
+        {
+          "t": 3.851,
+          "frame": 116,
+          "tInScene": 3.78,
+          "frameInScene": 113,
+          "action": "the curved mirror bulges a little further against the flat one",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "curving",
+      "start": 7.007,
+      "end": 13.573,
+      "startFrame": 210,
+      "endFrame": 407,
+      "duration": 6.566,
+      "narration": "Curving a mirror squeezes a wider slice of road into the same piece of glass, which is how it covers a blind spot a flat mirror cannot reach.",
+      "background": "SchematicVoid",
+      "note": "The optics, from above. A wider cone entering the same glass — and the blind spot it covers.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 7.007,
+          "frame": 210,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "top-down: a flat mirror reflects a narrow cone of road"
+        },
+        {
+          "t": 7.774,
+          "frame": 233,
+          "tInScene": 0.767,
+          "frameInScene": 23,
+          "action": "the mirror curves; the cone widens dramatically into the same glass"
+        },
+        {
+          "t": 11.59,
+          "frame": 348,
+          "tInScene": 4.583,
+          "frameInScene": 137,
+          "action": "a shaded blind spot beside the car is swallowed by the wider cone"
+        },
+        {
+          "t": 9.687,
+          "frame": 291,
+          "tInScene": 2.68,
+          "frameInScene": 80,
+          "action": "the widened cone sweeps back along the road",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 12.727,
+          "frame": 382,
+          "tInScene": 5.72,
+          "frameInScene": 172,
+          "action": "the swallowed blind spot shades out entirely",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "price",
+      "start": 13.857,
+      "end": 17.931,
+      "startFrame": 416,
+      "endFrame": 538,
+      "duration": 4.074,
+      "narration": "The price is that everything in it looks smaller, and your brain reads smaller as further away.",
+      "background": "CutawayVoid",
+      "note": "The trade-off. Same car, two mirrors, visibly different size — that comparison is the payoff setup.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 13.857,
+          "frame": 416,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "one car appears in both mirrors at once, at true relative size"
+        },
+        {
+          "t": 15.519,
+          "frame": 466,
+          "tInScene": 1.662,
+          "frameInScene": 50,
+          "action": "the image in the curved mirror shrinks noticeably"
+        },
+        {
+          "t": 17.306,
+          "frame": 519,
+          "tInScene": 3.449,
+          "frameInScene": 103,
+          "action": "a thought bubble reads the small image as distant; the real car is much closer"
+        },
+        {
+          "t": 13.957,
+          "frame": 419,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "both mirror images hold side by side for comparison",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "payoff",
+      "start": 18.231,
+      "end": 22.95,
+      "startFrame": 547,
+      "endFrame": 689,
+      "duration": 4.719,
+      "narration": "The warning exists because the mirror really is misleading you, and someone decided that had to be admitted in writing.",
+      "background": "CarInterior",
+      "note": "The reframe: the text is an admission, required in writing. End on the etched line.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 20.196,
+          "frame": 606,
+          "tInScene": 1.965,
+          "frameInScene": 59,
+          "action": "the real gap and the perceived gap draw together; the difference shades coral"
+        },
+        {
+          "t": 22.683,
+          "frame": 680,
+          "tInScene": 4.452,
+          "frameInScene": 134,
+          "action": "the warning text etches permanently into the glass; hard cut"
+        },
+        {
+          "t": 18.751,
+          "frame": 563,
+          "tInScene": 0.52,
+          "frameInScene": 16,
+          "action": "the coral gap between real and perceived distance pulses once",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 21.441,
+          "frame": 643,
+          "tInScene": 3.21,
+          "frameInScene": 96,
+          "action": "the etched letters finish forming along the glass edge",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}

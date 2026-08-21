@@ -1,0 +1,933 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/third-brake-light.wav.",
+  "episode": "third-brake-light",
+  "title": "Why Cars Got A Third Brake Light",
+  "audio": "public/audio/third-brake-light.wav",
+  "staticAudio": "audio/third-brake-light.wav",
+  "duration": 26.135,
+  "fps": 30,
+  "rawDuration": 33.715,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11966,
+  "silenceRemoved": 4.453,
+  "wordCount": 95,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Somewhere in the back window of every car sits a third brake light, higher and more centered than the other two.",
+      "start": 0.106,
+      "end": 4.855,
+      "wordRange": [
+        0,
+        20
+      ]
+    },
+    {
+      "id": "misread",
+      "text": "It exists because the original pair are easy to misread.",
+      "start": 5.133,
+      "end": 7.687,
+      "wordRange": [
+        21,
+        30
+      ]
+    },
+    {
+      "id": "lowwide",
+      "text": "They sit low, they sit far apart, and they are right beside tail lights that are already glowing.",
+      "start": 7.977,
+      "end": 12.139,
+      "wordRange": [
+        31,
+        48
+      ]
+    },
+    {
+      "id": "single",
+      "text": "A single light up high, dark until the driver brakes, cannot be confused with anything.",
+      "start": 12.422,
+      "end": 16.68,
+      "wordRange": [
+        49,
+        63
+      ]
+    },
+    {
+      "id": "trials",
+      "text": "Early taxi-fleet trials suggested a third fewer rear-end collisions.",
+      "start": 16.952,
+      "end": 20.328,
+      "wordRange": [
+        64,
+        72
+      ]
+    },
+    {
+      "id": "reality",
+      "text": "Once every car had one the real figure settled nearer four percent, which is still tens of thousands of crashes a year.",
+      "start": 20.67,
+      "end": 25.903,
+      "wordRange": [
+        73,
+        94
+      ]
+    }
+  ],
+  "keywords": {
+    "third": {
+      "start": 2.303,
+      "end": 2.499,
+      "wordIndex": 10
+    },
+    "centered": {
+      "start": 3.961,
+      "end": 4.229,
+      "wordIndex": 16
+    },
+    "misread": {
+      "start": 7.312,
+      "end": 7.687,
+      "wordIndex": 30
+    },
+    "apart": {
+      "start": 9.407,
+      "end": 9.692,
+      "wordIndex": 37
+    },
+    "glowing": {
+      "start": 11.835,
+      "end": 12.139,
+      "wordIndex": 48
+    },
+    "brakes": {
+      "start": 14.797,
+      "end": 15.083,
+      "wordIndex": 58
+    },
+    "confused": {
+      "start": 15.751,
+      "end": 16.144,
+      "wordIndex": 61
+    },
+    "trials": {
+      "start": 17.88,
+      "end": 18.256,
+      "wordIndex": 66
+    },
+    "settled": {
+      "start": 22.438,
+      "end": 22.67,
+      "wordIndex": 81
+    },
+    "thousands": {
+      "start": 24.76,
+      "end": 25.1,
+      "wordIndex": 90
+    }
+  },
+  "captions": [
+    {
+      "text": "Somewhere in the back",
+      "words": [
+        "Somewhere",
+        "in",
+        "the",
+        "back"
+      ],
+      "start": 0.106,
+      "end": 0.893
+    },
+    {
+      "text": "window of every car",
+      "words": [
+        "window",
+        "of",
+        "every",
+        "car"
+      ],
+      "start": 0.893,
+      "end": 1.91
+    },
+    {
+      "text": "sits a third brake",
+      "words": [
+        "sits",
+        "a",
+        "third",
+        "brake"
+      ],
+      "start": 1.91,
+      "end": 2.803
+    },
+    {
+      "text": "light,",
+      "words": [
+        "light,"
+      ],
+      "start": 2.803,
+      "end": 3.202
+    },
+    {
+      "text": "higher and more",
+      "words": [
+        "higher",
+        "and",
+        "more"
+      ],
+      "start": 3.228,
+      "end": 3.961
+    },
+    {
+      "text": "centered than the",
+      "words": [
+        "centered",
+        "than",
+        "the"
+      ],
+      "start": 3.961,
+      "end": 4.462
+    },
+    {
+      "text": "other two.",
+      "words": [
+        "other",
+        "two."
+      ],
+      "start": 4.462,
+      "end": 5.075
+    },
+    {
+      "text": "It exists because the",
+      "words": [
+        "It",
+        "exists",
+        "because",
+        "the"
+      ],
+      "start": 5.133,
+      "end": 6.061
+    },
+    {
+      "text": "original pair are easy",
+      "words": [
+        "original",
+        "pair",
+        "are",
+        "easy"
+      ],
+      "start": 6.061,
+      "end": 7.205
+    },
+    {
+      "text": "to misread.",
+      "words": [
+        "to",
+        "misread."
+      ],
+      "start": 7.205,
+      "end": 7.907
+    },
+    {
+      "text": "They sit low,",
+      "words": [
+        "They",
+        "sit",
+        "low,"
+      ],
+      "start": 7.977,
+      "end": 8.787
+    },
+    {
+      "text": "they sit far apart,",
+      "words": [
+        "they",
+        "sit",
+        "far",
+        "apart,"
+      ],
+      "start": 8.852,
+      "end": 9.912
+    },
+    {
+      "text": "and they are right",
+      "words": [
+        "and",
+        "they",
+        "are",
+        "right"
+      ],
+      "start": 9.924,
+      "end": 10.496
+    },
+    {
+      "text": "beside tail lights",
+      "words": [
+        "beside",
+        "tail",
+        "lights"
+      ],
+      "start": 10.496,
+      "end": 11.317
+    },
+    {
+      "text": "that are already",
+      "words": [
+        "that",
+        "are",
+        "already"
+      ],
+      "start": 11.317,
+      "end": 11.835
+    },
+    {
+      "text": "glowing.",
+      "words": [
+        "glowing."
+      ],
+      "start": 11.835,
+      "end": 12.359
+    },
+    {
+      "text": "A single light up",
+      "words": [
+        "A",
+        "single",
+        "light",
+        "up"
+      ],
+      "start": 12.422,
+      "end": 13.227
+    },
+    {
+      "text": "high,",
+      "words": [
+        "high,"
+      ],
+      "start": 13.227,
+      "end": 13.697
+    },
+    {
+      "text": "dark until the driver",
+      "words": [
+        "dark",
+        "until",
+        "the",
+        "driver"
+      ],
+      "start": 13.78,
+      "end": 14.797
+    },
+    {
+      "text": "brakes,",
+      "words": [
+        "brakes,"
+      ],
+      "start": 14.797,
+      "end": 15.303
+    },
+    {
+      "text": "cannot be confused",
+      "words": [
+        "cannot",
+        "be",
+        "confused"
+      ],
+      "start": 15.34,
+      "end": 16.181
+    },
+    {
+      "text": "with anything.",
+      "words": [
+        "with",
+        "anything."
+      ],
+      "start": 16.181,
+      "end": 16.9
+    },
+    {
+      "text": "Early taxi-fleet",
+      "words": [
+        "Early",
+        "taxi-fleet"
+      ],
+      "start": 16.952,
+      "end": 17.88
+    },
+    {
+      "text": "trials suggested a",
+      "words": [
+        "trials",
+        "suggested",
+        "a"
+      ],
+      "start": 17.88,
+      "end": 18.882
+    },
+    {
+      "text": "third fewer rear-end",
+      "words": [
+        "third",
+        "fewer",
+        "rear-end"
+      ],
+      "start": 18.882,
+      "end": 19.864
+    },
+    {
+      "text": "collisions.",
+      "words": [
+        "collisions."
+      ],
+      "start": 19.864,
+      "end": 20.548
+    },
+    {
+      "text": "Once every car had",
+      "words": [
+        "Once",
+        "every",
+        "car",
+        "had"
+      ],
+      "start": 20.67,
+      "end": 21.528
+    },
+    {
+      "text": "one the real figure",
+      "words": [
+        "one",
+        "the",
+        "real",
+        "figure"
+      ],
+      "start": 21.528,
+      "end": 22.438
+    },
+    {
+      "text": "settled nearer four",
+      "words": [
+        "settled",
+        "nearer",
+        "four"
+      ],
+      "start": 22.438,
+      "end": 23.206
+    },
+    {
+      "text": "percent,",
+      "words": [
+        "percent,"
+      ],
+      "start": 23.206,
+      "end": 23.766
+    },
+    {
+      "text": "which is still tens",
+      "words": [
+        "which",
+        "is",
+        "still",
+        "tens"
+      ],
+      "start": 23.885,
+      "end": 24.635
+    },
+    {
+      "text": "of thousands of",
+      "words": [
+        "of",
+        "thousands",
+        "of"
+      ],
+      "start": 24.635,
+      "end": 25.279
+    },
+    {
+      "text": "crashes a year.",
+      "words": [
+        "crashes",
+        "a",
+        "year."
+      ],
+      "start": 25.279,
+      "end": 26.123
+    }
+  ],
+  "words": [
+    {
+      "text": "Somewhere",
+      "start": 0.106,
+      "end": 0.392
+    },
+    {
+      "text": "in",
+      "start": 0.428,
+      "end": 0.499
+    },
+    {
+      "text": "the",
+      "start": 0.517,
+      "end": 0.607
+    },
+    {
+      "text": "back",
+      "start": 0.661,
+      "end": 0.839
+    },
+    {
+      "text": "window",
+      "start": 0.893,
+      "end": 1.142
+    },
+    {
+      "text": "of",
+      "start": 1.196,
+      "end": 1.267
+    },
+    {
+      "text": "every",
+      "start": 1.356,
+      "end": 1.554
+    },
+    {
+      "text": "car",
+      "start": 1.624,
+      "end": 1.857
+    },
+    {
+      "text": "sits",
+      "start": 1.91,
+      "end": 2.089
+    },
+    {
+      "text": "a",
+      "start": 2.142,
+      "end": 2.267
+    },
+    {
+      "text": "third",
+      "start": 2.303,
+      "end": 2.499
+    },
+    {
+      "text": "brake",
+      "start": 2.589,
+      "end": 2.749
+    },
+    {
+      "text": "light,",
+      "start": 2.803,
+      "end": 2.982
+    },
+    {
+      "text": "higher",
+      "start": 3.228,
+      "end": 3.568
+    },
+    {
+      "text": "and",
+      "start": 3.604,
+      "end": 3.676
+    },
+    {
+      "text": "more",
+      "start": 3.73,
+      "end": 3.836
+    },
+    {
+      "text": "centered",
+      "start": 3.961,
+      "end": 4.229
+    },
+    {
+      "text": "than",
+      "start": 4.265,
+      "end": 4.336
+    },
+    {
+      "text": "the",
+      "start": 4.372,
+      "end": 4.408
+    },
+    {
+      "text": "other",
+      "start": 4.462,
+      "end": 4.588
+    },
+    {
+      "text": "two.",
+      "start": 4.676,
+      "end": 4.855
+    },
+    {
+      "text": "It",
+      "start": 5.133,
+      "end": 5.186
+    },
+    {
+      "text": "exists",
+      "start": 5.276,
+      "end": 5.615
+    },
+    {
+      "text": "because",
+      "start": 5.651,
+      "end": 5.901
+    },
+    {
+      "text": "the",
+      "start": 5.954,
+      "end": 6.008
+    },
+    {
+      "text": "original",
+      "start": 6.061,
+      "end": 6.365
+    },
+    {
+      "text": "pair",
+      "start": 6.49,
+      "end": 6.74
+    },
+    {
+      "text": "are",
+      "start": 6.794,
+      "end": 6.92
+    },
+    {
+      "text": "easy",
+      "start": 6.991,
+      "end": 7.169
+    },
+    {
+      "text": "to",
+      "start": 7.205,
+      "end": 7.276
+    },
+    {
+      "text": "misread.",
+      "start": 7.312,
+      "end": 7.687
+    },
+    {
+      "text": "They",
+      "start": 7.977,
+      "end": 8.12
+    },
+    {
+      "text": "sit",
+      "start": 8.174,
+      "end": 8.299
+    },
+    {
+      "text": "low,",
+      "start": 8.37,
+      "end": 8.567
+    },
+    {
+      "text": "they",
+      "start": 8.852,
+      "end": 8.977
+    },
+    {
+      "text": "sit",
+      "start": 9.013,
+      "end": 9.138
+    },
+    {
+      "text": "far",
+      "start": 9.227,
+      "end": 9.335
+    },
+    {
+      "text": "apart,",
+      "start": 9.407,
+      "end": 9.692
+    },
+    {
+      "text": "and",
+      "start": 9.924,
+      "end": 10.013
+    },
+    {
+      "text": "they",
+      "start": 10.049,
+      "end": 10.138
+    },
+    {
+      "text": "are",
+      "start": 10.192,
+      "end": 10.281
+    },
+    {
+      "text": "right",
+      "start": 10.335,
+      "end": 10.46
+    },
+    {
+      "text": "beside",
+      "start": 10.496,
+      "end": 10.799
+    },
+    {
+      "text": "tail",
+      "start": 10.871,
+      "end": 11.014
+    },
+    {
+      "text": "lights",
+      "start": 11.085,
+      "end": 11.282
+    },
+    {
+      "text": "that",
+      "start": 11.317,
+      "end": 11.372
+    },
+    {
+      "text": "are",
+      "start": 11.407,
+      "end": 11.496
+    },
+    {
+      "text": "already",
+      "start": 11.55,
+      "end": 11.783
+    },
+    {
+      "text": "glowing.",
+      "start": 11.835,
+      "end": 12.139
+    },
+    {
+      "text": "A",
+      "start": 12.422,
+      "end": 12.512
+    },
+    {
+      "text": "single",
+      "start": 12.583,
+      "end": 12.78
+    },
+    {
+      "text": "light",
+      "start": 12.869,
+      "end": 13.012
+    },
+    {
+      "text": "up",
+      "start": 13.049,
+      "end": 13.173
+    },
+    {
+      "text": "high,",
+      "start": 13.227,
+      "end": 13.477
+    },
+    {
+      "text": "dark",
+      "start": 13.78,
+      "end": 14.083
+    },
+    {
+      "text": "until",
+      "start": 14.119,
+      "end": 14.297
+    },
+    {
+      "text": "the",
+      "start": 14.351,
+      "end": 14.388
+    },
+    {
+      "text": "driver",
+      "start": 14.459,
+      "end": 14.744
+    },
+    {
+      "text": "brakes,",
+      "start": 14.797,
+      "end": 15.083
+    },
+    {
+      "text": "cannot",
+      "start": 15.34,
+      "end": 15.59
+    },
+    {
+      "text": "be",
+      "start": 15.626,
+      "end": 15.715
+    },
+    {
+      "text": "confused",
+      "start": 15.751,
+      "end": 16.144
+    },
+    {
+      "text": "with",
+      "start": 16.181,
+      "end": 16.269
+    },
+    {
+      "text": "anything.",
+      "start": 16.324,
+      "end": 16.68
+    },
+    {
+      "text": "Early",
+      "start": 16.952,
+      "end": 17.202
+    },
+    {
+      "text": "taxi-fleet",
+      "start": 17.255,
+      "end": 17.827
+    },
+    {
+      "text": "trials",
+      "start": 17.88,
+      "end": 18.256
+    },
+    {
+      "text": "suggested",
+      "start": 18.327,
+      "end": 18.684
+    },
+    {
+      "text": "a",
+      "start": 18.739,
+      "end": 18.827
+    },
+    {
+      "text": "third",
+      "start": 18.882,
+      "end": 19.149
+    },
+    {
+      "text": "fewer",
+      "start": 19.203,
+      "end": 19.471
+    },
+    {
+      "text": "rear-end",
+      "start": 19.524,
+      "end": 19.81
+    },
+    {
+      "text": "collisions.",
+      "start": 19.864,
+      "end": 20.328
+    },
+    {
+      "text": "Once",
+      "start": 20.67,
+      "end": 20.849
+    },
+    {
+      "text": "every",
+      "start": 20.902,
+      "end": 21.063
+    },
+    {
+      "text": "car",
+      "start": 21.134,
+      "end": 21.259
+    },
+    {
+      "text": "had",
+      "start": 21.314,
+      "end": 21.438
+    },
+    {
+      "text": "one",
+      "start": 21.528,
+      "end": 21.652
+    },
+    {
+      "text": "the",
+      "start": 21.689,
+      "end": 21.795
+    },
+    {
+      "text": "real",
+      "start": 21.849,
+      "end": 22.081
+    },
+    {
+      "text": "figure",
+      "start": 22.135,
+      "end": 22.385
+    },
+    {
+      "text": "settled",
+      "start": 22.438,
+      "end": 22.67
+    },
+    {
+      "text": "nearer",
+      "start": 22.706,
+      "end": 22.974
+    },
+    {
+      "text": "four",
+      "start": 23.028,
+      "end": 23.118
+    },
+    {
+      "text": "percent,",
+      "start": 23.206,
+      "end": 23.546
+    },
+    {
+      "text": "which",
+      "start": 23.885,
+      "end": 23.993
+    },
+    {
+      "text": "is",
+      "start": 24.01,
+      "end": 24.099
+    },
+    {
+      "text": "still",
+      "start": 24.136,
+      "end": 24.349
+    },
+    {
+      "text": "tens",
+      "start": 24.403,
+      "end": 24.599
+    },
+    {
+      "text": "of",
+      "start": 24.635,
+      "end": 24.724
+    },
+    {
+      "text": "thousands",
+      "start": 24.76,
+      "end": 25.1
+    },
+    {
+      "text": "of",
+      "start": 25.136,
+      "end": 25.206
+    },
+    {
+      "text": "crashes",
+      "start": 25.279,
+      "end": 25.547
+    },
+    {
+      "text": "a",
+      "start": 25.599,
+      "end": 25.653
+    },
+    {
+      "text": "year.",
+      "start": 25.689,
+      "end": 25.903
+    }
+  ]
+}

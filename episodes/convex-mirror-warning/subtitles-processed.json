@@ -1,0 +1,644 @@
+{
+  "note": "Timings correspond to public/audio/convex-mirror-warning.wav (NOT the raw file).",
+  "source": "C:\\Users\\ducnq\\Downloads\\Video/episodes/convex-mirror-warning/subtitles-raw.json remapped through C:\\Users\\ducnq\\Downloads\\Video/public/audio/convex-mirror-warning.timemap.json",
+  "audio": "public/audio/convex-mirror-warning.wav",
+  "duration": 23.168,
+  "tempo": 1.12,
+  "segments": [
+    {
+      "text": "On an American car the passenger side mirror",
+      "start": 0.071,
+      "end": 1.965
+    },
+    {
+      "text": "is curved,",
+      "start": 2.018,
+      "end": 2.554
+    },
+    {
+      "text": "the driver's side one is flat,",
+      "start": 2.694,
+      "end": 3.926
+    },
+    {
+      "text": "and only the curved one carries a warning printed",
+      "start": 4.149,
+      "end": 6.078
+    },
+    {
+      "text": "on the glass.",
+      "start": 6.114,
+      "end": 6.685
+    },
+    {
+      "text": "Curving a mirror squeezes a wider slice of",
+      "start": 7.007,
+      "end": 8.954
+    },
+    {
+      "text": "road into the same piece of glass,",
+      "start": 9.043,
+      "end": 10.509
+    },
+    {
+      "text": "which is how it covers a blind spot a",
+      "start": 10.751,
+      "end": 12.215
+    },
+    {
+      "text": "flat mirror cannot reach.",
+      "start": 12.251,
+      "end": 13.573
+    },
+    {
+      "text": "The price is that everything in it looks smaller,",
+      "start": 13.857,
+      "end": 15.858
+    },
+    {
+      "text": "and your brain reads smaller as further away.",
+      "start": 16.108,
+      "end": 17.931
+    },
+    {
+      "text": "The warning exists because the mirror really",
+      "start": 18.231,
+      "end": 20.035
+    },
+    {
+      "text": "is misleading you,",
+      "start": 20.054,
+      "end": 20.731
+    },
+    {
+      "text": "and someone decided that had to be admitted",
+      "start": 20.949,
+      "end": 22.503
+    },
+    {
+      "text": "in writing.",
+      "start": 22.521,
+      "end": 23.057
+    }
+  ],
+  "words": [
+    {
+      "i": 0,
+      "text": "On",
+      "start": 0.071,
+      "end": 0.142
+    },
+    {
+      "i": 1,
+      "text": "an",
+      "start": 0.178,
+      "end": 0.213
+    },
+    {
+      "i": 2,
+      "text": "American",
+      "start": 0.304,
+      "end": 0.607
+    },
+    {
+      "i": 3,
+      "text": "car",
+      "start": 0.714,
+      "end": 0.874
+    },
+    {
+      "i": 4,
+      "text": "the",
+      "start": 0.928,
+      "end": 1
+    },
+    {
+      "i": 5,
+      "text": "passenger",
+      "start": 1.035,
+      "end": 1.464
+    },
+    {
+      "i": 6,
+      "text": "side",
+      "start": 1.518,
+      "end": 1.678
+    },
+    {
+      "i": 7,
+      "text": "mirror",
+      "start": 1.768,
+      "end": 1.965
+    },
+    {
+      "i": 8,
+      "text": "is",
+      "start": 2.018,
+      "end": 2.125
+    },
+    {
+      "i": 9,
+      "text": "curved,",
+      "start": 2.18,
+      "end": 2.464
+    },
+    {
+      "i": 10,
+      "text": "the",
+      "start": 2.694,
+      "end": 2.748
+    },
+    {
+      "i": 11,
+      "text": "driver's",
+      "start": 2.783,
+      "end": 3.105
+    },
+    {
+      "i": 12,
+      "text": "side",
+      "start": 3.14,
+      "end": 3.301
+    },
+    {
+      "i": 13,
+      "text": "one",
+      "start": 3.337,
+      "end": 3.426
+    },
+    {
+      "i": 14,
+      "text": "is",
+      "start": 3.462,
+      "end": 3.569
+    },
+    {
+      "i": 15,
+      "text": "flat,",
+      "start": 3.64,
+      "end": 3.926
+    },
+    {
+      "i": 16,
+      "text": "and",
+      "start": 4.149,
+      "end": 4.238
+    },
+    {
+      "i": 17,
+      "text": "only",
+      "start": 4.31,
+      "end": 4.47
+    },
+    {
+      "i": 18,
+      "text": "the",
+      "start": 4.488,
+      "end": 4.578
+    },
+    {
+      "i": 19,
+      "text": "curved",
+      "start": 4.649,
+      "end": 4.864
+    },
+    {
+      "i": 20,
+      "text": "one",
+      "start": 4.971,
+      "end": 5.06
+    },
+    {
+      "i": 21,
+      "text": "carries",
+      "start": 5.167,
+      "end": 5.399
+    },
+    {
+      "i": 22,
+      "text": "a",
+      "start": 5.435,
+      "end": 5.453
+    },
+    {
+      "i": 23,
+      "text": "warning",
+      "start": 5.524,
+      "end": 5.81
+    },
+    {
+      "i": 24,
+      "text": "printed",
+      "start": 5.846,
+      "end": 6.078
+    },
+    {
+      "i": 25,
+      "text": "on",
+      "start": 6.114,
+      "end": 6.186
+    },
+    {
+      "i": 26,
+      "text": "the",
+      "start": 6.204,
+      "end": 6.257
+    },
+    {
+      "i": 27,
+      "text": "glass.",
+      "start": 6.328,
+      "end": 6.685
+    },
+    {
+      "i": 28,
+      "text": "Curving",
+      "start": 7.007,
+      "end": 7.275
+    },
+    {
+      "i": 29,
+      "text": "a",
+      "start": 7.311,
+      "end": 7.363
+    },
+    {
+      "i": 30,
+      "text": "mirror",
+      "start": 7.435,
+      "end": 7.685
+    },
+    {
+      "i": 31,
+      "text": "squeezes",
+      "start": 7.774,
+      "end": 8.114
+    },
+    {
+      "i": 32,
+      "text": "a",
+      "start": 8.15,
+      "end": 8.24
+    },
+    {
+      "i": 33,
+      "text": "wider",
+      "start": 8.293,
+      "end": 8.561
+    },
+    {
+      "i": 34,
+      "text": "slice",
+      "start": 8.596,
+      "end": 8.83
+    },
+    {
+      "i": 35,
+      "text": "of",
+      "start": 8.865,
+      "end": 8.954
+    },
+    {
+      "i": 36,
+      "text": "road",
+      "start": 9.043,
+      "end": 9.276
+    },
+    {
+      "i": 37,
+      "text": "into",
+      "start": 9.329,
+      "end": 9.49
+    },
+    {
+      "i": 38,
+      "text": "the",
+      "start": 9.526,
+      "end": 9.616
+    },
+    {
+      "i": 39,
+      "text": "same",
+      "start": 9.669,
+      "end": 9.847
+    },
+    {
+      "i": 40,
+      "text": "piece",
+      "start": 9.883,
+      "end": 10.045
+    },
+    {
+      "i": 41,
+      "text": "of",
+      "start": 10.063,
+      "end": 10.17
+    },
+    {
+      "i": 42,
+      "text": "glass,",
+      "start": 10.205,
+      "end": 10.509
+    },
+    {
+      "i": 43,
+      "text": "which",
+      "start": 10.751,
+      "end": 10.841
+    },
+    {
+      "i": 44,
+      "text": "is",
+      "start": 10.875,
+      "end": 10.948
+    },
+    {
+      "i": 45,
+      "text": "how",
+      "start": 10.983,
+      "end": 11.108
+    },
+    {
+      "i": 46,
+      "text": "it",
+      "start": 11.126,
+      "end": 11.252
+    },
+    {
+      "i": 47,
+      "text": "covers",
+      "start": 11.269,
+      "end": 11.483
+    },
+    {
+      "i": 48,
+      "text": "a",
+      "start": 11.501,
+      "end": 11.554
+    },
+    {
+      "i": 49,
+      "text": "blind",
+      "start": 11.59,
+      "end": 11.804
+    },
+    {
+      "i": 50,
+      "text": "spot",
+      "start": 11.858,
+      "end": 12.072
+    },
+    {
+      "i": 51,
+      "text": "a",
+      "start": 12.144,
+      "end": 12.215
+    },
+    {
+      "i": 52,
+      "text": "flat",
+      "start": 12.251,
+      "end": 12.483
+    },
+    {
+      "i": 53,
+      "text": "mirror",
+      "start": 12.573,
+      "end": 12.823
+    },
+    {
+      "i": 54,
+      "text": "cannot",
+      "start": 12.876,
+      "end": 13.252
+    },
+    {
+      "i": 55,
+      "text": "reach.",
+      "start": 13.305,
+      "end": 13.573
+    },
+    {
+      "i": 56,
+      "text": "The",
+      "start": 13.857,
+      "end": 13.928
+    },
+    {
+      "i": 57,
+      "text": "price",
+      "start": 13.983,
+      "end": 14.25
+    },
+    {
+      "i": 58,
+      "text": "is",
+      "start": 14.304,
+      "end": 14.375
+    },
+    {
+      "i": 59,
+      "text": "that",
+      "start": 14.43,
+      "end": 14.607
+    },
+    {
+      "i": 60,
+      "text": "everything",
+      "start": 14.679,
+      "end": 15.019
+    },
+    {
+      "i": 61,
+      "text": "in",
+      "start": 15.036,
+      "end": 15.091
+    },
+    {
+      "i": 62,
+      "text": "it",
+      "start": 15.126,
+      "end": 15.198
+    },
+    {
+      "i": 63,
+      "text": "looks",
+      "start": 15.252,
+      "end": 15.447
+    },
+    {
+      "i": 64,
+      "text": "smaller,",
+      "start": 15.519,
+      "end": 15.858
+    },
+    {
+      "i": 65,
+      "text": "and",
+      "start": 16.108,
+      "end": 16.18
+    },
+    {
+      "i": 66,
+      "text": "your",
+      "start": 16.216,
+      "end": 16.323
+    },
+    {
+      "i": 67,
+      "text": "brain",
+      "start": 16.341,
+      "end": 16.537
+    },
+    {
+      "i": 68,
+      "text": "reads",
+      "start": 16.573,
+      "end": 16.752
+    },
+    {
+      "i": 69,
+      "text": "smaller",
+      "start": 16.787,
+      "end": 17.073
+    },
+    {
+      "i": 70,
+      "text": "as",
+      "start": 17.127,
+      "end": 17.198
+    },
+    {
+      "i": 71,
+      "text": "further",
+      "start": 17.306,
+      "end": 17.557
+    },
+    {
+      "i": 72,
+      "text": "away.",
+      "start": 17.663,
+      "end": 17.931
+    },
+    {
+      "i": 73,
+      "text": "The",
+      "start": 18.231,
+      "end": 18.268
+    },
+    {
+      "i": 74,
+      "text": "warning",
+      "start": 18.356,
+      "end": 18.57
+    },
+    {
+      "i": 75,
+      "text": "exists",
+      "start": 18.66,
+      "end": 18.963
+    },
+    {
+      "i": 76,
+      "text": "because",
+      "start": 19,
+      "end": 19.267
+    },
+    {
+      "i": 77,
+      "text": "the",
+      "start": 19.303,
+      "end": 19.356
+    },
+    {
+      "i": 78,
+      "text": "mirror",
+      "start": 19.481,
+      "end": 19.767
+    },
+    {
+      "i": 79,
+      "text": "really",
+      "start": 19.821,
+      "end": 20.035
+    },
+    {
+      "i": 80,
+      "text": "is",
+      "start": 20.054,
+      "end": 20.142
+    },
+    {
+      "i": 81,
+      "text": "misleading",
+      "start": 20.196,
+      "end": 20.606
+    },
+    {
+      "i": 82,
+      "text": "you,",
+      "start": 20.624,
+      "end": 20.731
+    },
+    {
+      "i": 83,
+      "text": "and",
+      "start": 20.949,
+      "end": 21.074
+    },
+    {
+      "i": 84,
+      "text": "someone",
+      "start": 21.11,
+      "end": 21.324
+    },
+    {
+      "i": 85,
+      "text": "decided",
+      "start": 21.343,
+      "end": 21.682
+    },
+    {
+      "i": 86,
+      "text": "that",
+      "start": 21.718,
+      "end": 21.86
+    },
+    {
+      "i": 87,
+      "text": "had",
+      "start": 21.914,
+      "end": 22.003
+    },
+    {
+      "i": 88,
+      "text": "to",
+      "start": 22.021,
+      "end": 22.093
+    },
+    {
+      "i": 89,
+      "text": "be",
+      "start": 22.11,
+      "end": 22.165
+    },
+    {
+      "i": 90,
+      "text": "admitted",
+      "start": 22.2,
+      "end": 22.503
+    },
+    {
+      "i": 91,
+      "text": "in",
+      "start": 22.521,
+      "end": 22.629
+    },
+    {
+      "i": 92,
+      "text": "writing.",
+      "start": 22.683,
+      "end": 22.95
+    }
+  ]
+}

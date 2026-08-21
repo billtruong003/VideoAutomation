@@ -1,0 +1,232 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "sneaker-lace-lock",
+  "title": "Sneakers Come With An Anti-Blister Setting",
+  "audio": "public/audio/sneaker-lace-lock.wav",
+  "fps": 30,
+  "narrationDuration": 20.87,
+  "beatCount": 20,
+  "longestGap": 1.782,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.071,
+      "end": 5.156,
+      "startFrame": 2,
+      "endFrame": 155,
+      "duration": 5.085,
+      "narration": "Almost every sneaker has one extra lace hole at the top that nobody uses, set slightly back from the rest.",
+      "background": "BedroomFloor",
+      "note": "Find the eyelet. It is set BACK from the others — that offset is the visual tell.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.071,
+          "frame": 2,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a sneaker in profile; laces threaded through every hole but the last"
+        },
+        {
+          "t": 1.554,
+          "frame": 47,
+          "tInScene": 1.483,
+          "frameInScene": 44,
+          "action": "the unused eyelet circles teal, sitting slightly back from the row"
+        },
+        {
+          "t": 2.894,
+          "frame": 87,
+          "tInScene": 2.823,
+          "frameInScene": 85,
+          "action": "a NEVER USED label lands beside it"
+        },
+        {
+          "t": 4.181,
+          "frame": 125,
+          "tInScene": 4.11,
+          "frameInScene": 123,
+          "action": "Bill pokes a finger through the unused eyelet",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "thread",
+      "start": 5.463,
+      "end": 8.83,
+      "startFrame": 164,
+      "endFrame": 265,
+      "duration": 3.367,
+      "narration": "Thread the lace through it on each side and you get a small loop above the ankle.",
+      "background": "SchematicVoid",
+      "note": "Instructional and clear. The viewer should be able to copy this.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 5.463,
+          "frame": 164,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the shoe isolates on a plain field, laces drawn in bold"
+        },
+        {
+          "t": 5.463,
+          "frame": 164,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the lace feeds through the extra eyelet on each side"
+        },
+        {
+          "t": 8.043,
+          "frame": 241,
+          "tInScene": 2.58,
+          "frameInScene": 77,
+          "action": "two small loops form above the ankle and hold"
+        },
+        {
+          "t": 5.563,
+          "frame": 167,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the shoe rotates a few degrees so both eyelets read clearly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 6.753,
+          "frame": 203,
+          "tInScene": 1.29,
+          "frameInScene": 39,
+          "action": "the lace end feeds through and pulls taut",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "cross",
+      "start": 9.066,
+      "end": 14.819,
+      "startFrame": 272,
+      "endFrame": 445,
+      "duration": 5.753,
+      "narration": "Cross the laces into the opposite loop, pull, and the collar clamps down around your ankle instead of squeezing the middle of your foot.",
+      "background": "SchematicVoid",
+      "note": "The crossing is the mechanism. Show the collar closing, not just the lace moving.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 9.066,
+          "frame": 272,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "each lace end crosses toward the opposite loop"
+        },
+        {
+          "t": 9.066,
+          "frame": 272,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the laces thread through the opposing loops"
+        },
+        {
+          "t": 11.96,
+          "frame": 359,
+          "tInScene": 2.894,
+          "frameInScene": 87,
+          "action": "the ankle collar cinches closed; arrows show the grip moving from midfoot to ankle"
+        },
+        {
+          "t": 10.516,
+          "frame": 315,
+          "tInScene": 1.45,
+          "frameInScene": 43,
+          "action": "both lace ends draw across and settle into position",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "t": 13.526,
+          "frame": 406,
+          "tInScene": 4.46,
+          "frameInScene": 134,
+          "action": "the cinched collar holds; the laces pull a little tighter",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "heel",
+      "start": 15.094,
+      "end": 17.345,
+      "startFrame": 453,
+      "endFrame": 520,
+      "duration": 2.251,
+      "narration": "Your heel stops lifting out of the shoe with every step.",
+      "background": "CutawayVoid",
+      "note": "Side-by-side cutaway of the heel: lifting versus held. The contrast carries the payoff.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 15.094,
+          "frame": 453,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "cutaway of a heel inside a shoe, lifting free with each step"
+        },
+        {
+          "t": 15.844,
+          "frame": 475,
+          "tInScene": 0.75,
+          "frameInScene": 23,
+          "action": "the locked version draws beside it; the heel stays seated"
+        },
+        {
+          "t": 15.194,
+          "frame": 456,
+          "tInScene": 0.1,
+          "frameInScene": 3,
+          "action": "the cutaway shoe rocks once through a full step",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "blister",
+      "start": 17.626,
+      "end": 20.664,
+      "startFrame": 529,
+      "endFrame": 620,
+      "duration": 3.038,
+      "narration": "Heel lift is what rubs a blister into the back of your foot on a long walk.",
+      "background": "BedroomFloor",
+      "note": "Name the consequence, then end on Bill actually using it. No gloating.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 17.626,
+          "frame": 529,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "friction marks scrub back and forth at the heel of the unlocked shoe"
+        },
+        {
+          "t": 18.68,
+          "frame": 560,
+          "tInScene": 1.054,
+          "frameInScene": 32,
+          "action": "a coral hotspot blooms at the rub point on the unlocked shoe only"
+        },
+        {
+          "t": 20.431,
+          "frame": 613,
+          "tInScene": 2.805,
+          "frameInScene": 84,
+          "action": "Bill laces the extra eyelet and walks off; hard cut"
+        }
+      ]
+    }
+  ]
+}

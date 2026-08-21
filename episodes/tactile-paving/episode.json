@@ -1,0 +1,243 @@
+{
+  "slug": "tactile-paving",
+  "title": "The Bumpy Tiles On The Sidewalk Are A Two-Word Language",
+  "hook": "A two-symbol alphabet written into the floor of most of the world.",
+  "cast": {
+    "lead": "bill",
+    "support": [
+      "gus"
+    ],
+    "note": "Handle with respect. Nobody stumbles, nobody is a punchline. Gus appears once as Miyake — dignified, no caricature."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "Those bumpy tiles",
+      "background": "CityStreet",
+      "cast": [
+        "bill"
+      ],
+      "note": "TONE: this is an accessibility feature, treated seriously. The comedy budget for this episode is zero.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a yellow tactile strip runs along a platform edge; Bill stands beside it"
+        },
+        {
+          "kw": "language",
+          "action": "the strip lights teal and the word LANGUAGE stamps beside it"
+        },
+        {
+          "kw": "two-words",
+          "action": "two blank symbol cards slide in, waiting to be filled"
+        },
+        {
+          "at": 1.17,
+          "action": "the yellow strip runs on ahead down the length of the platform",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "domes",
+      "from": "Round domes mean",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Symbol one. Domes fill the first card. The hazards are drawn as plain icons, not scenes of danger.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a dome-pattern tile fills frame, drawn large"
+        },
+        {
+          "kw": "stop",
+          "action": "the first card fills with domes and stamps STOP"
+        },
+        {
+          "kw": "drop",
+          "action": "three small icons appear beside it — platform edge, kerb, stair"
+        },
+        {
+          "at": 2.48,
+          "action": "the dome pattern tilts slightly so the rows read in depth",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "bars",
+      "from": "Long parallel bars",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Symbol two, deliberately mirroring the previous scene so the pair reads as a set.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a bar-pattern tile fills frame in the same framing as the domes"
+        },
+        {
+          "kw": "bars",
+          "action": "the second card fills with bars and stamps GO"
+        },
+        {
+          "kw": "safe",
+          "action": "a guiding path of bars draws forward across the floor"
+        }
+      ]
+    },
+    {
+      "id": "readable",
+      "from": "Both are readable",
+      "background": "CityStreet",
+      "cast": [
+        "bill"
+      ],
+      "note": "How it is actually read: through a sole, through a cane tip. Show contact, not a person struggling.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a shoe sole meets the domes; the pattern registers up through it"
+        },
+        {
+          "kw": "cane",
+          "action": "a cane tip taps across the bars, each tap ringing a small mark"
+        },
+        {
+          "kw": "yellow",
+          "action": "the tile colour saturates to high-contrast yellow against grey paving"
+        }
+      ]
+    },
+    {
+      "id": "miyake",
+      "from": "An engineer in Japan",
+      "background": "OldWorkshop",
+      "cast": [
+        "gus"
+      ],
+      "note": "The origin. One man, his own money, one friend. Play it straight and let it land.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a drafting desk; Gus sketches a dome tile by hand"
+        },
+        {
+          "kw": "miyake",
+          "action": "the name and 1965 letter onto the drawing"
+        },
+        {
+          "kw": "blind",
+          "action": "a second figure is sketched beside the first at the drafting table; the two drawings sit together"
+        },
+        {
+          "at": 4.18,
+          "action": "the drawing is set down; a second sheet is squared beside it",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "They are under most",
+      "background": "CityStreet",
+      "cast": [],
+      "note": "Pull back and multiply. The scale IS the payoff. End on the tile, not on a face.",
+      "beats": [
+        {
+          "kw": "worlds-feet",
+          "action": "the camera pulls back; tactile strips light up across street after street"
+        },
+        {
+          "fromEnd": 0.15,
+          "action": "the strips continue lighting to the horizon; hard cut",
+          "sync": "final beat"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "language",
+      [
+        "language"
+      ],
+      0
+    ],
+    [
+      "two-words",
+      [
+        "two",
+        "words"
+      ],
+      0
+    ],
+    [
+      "stop",
+      [
+        "stop"
+      ],
+      0
+    ],
+    [
+      "drop",
+      [
+        "drop"
+      ],
+      0
+    ],
+    [
+      "bars",
+      [
+        "bars"
+      ],
+      0
+    ],
+    [
+      "safe",
+      [
+        "safe"
+      ],
+      0
+    ],
+    [
+      "cane",
+      [
+        "cane"
+      ],
+      0
+    ],
+    [
+      "yellow",
+      [
+        "yellow"
+      ],
+      0
+    ],
+    [
+      "miyake",
+      [
+        "miyake"
+      ],
+      0
+    ],
+    [
+      "blind",
+      [
+        "blind"
+      ],
+      0
+    ],
+    [
+      "worlds-feet",
+      [
+        "world's",
+        "feet"
+      ],
+      0
+    ]
+  ]
+}

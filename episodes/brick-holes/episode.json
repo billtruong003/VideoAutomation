@@ -1,0 +1,221 @@
+{
+  "slug": "brick-holes",
+  "title": "A Brick Has Holes For Three Different Reasons",
+  "hook": "Holes make a solid object better at being solid.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill on a building site, holding a brick with obvious suspicion."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "A brick has holes",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "The paradox up front: an object whose job is being solid, full of holes.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill holds up a brick; three holes run through it"
+        },
+        {
+          "kw": "holes",
+          "action": "camera punches through one hole and out the other side"
+        },
+        {
+          "kw": "solid",
+          "action": "a SOLID? label lands over the brick and wavers"
+        },
+        {
+          "at": 2.76,
+          "action": "Bill turns the brick end over end, looking through the holes",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "better",
+      "from": "The holes make it better",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "Short pivot beat. Three numbered slots appear and wait to be filled.",
+      "beats": [
+        {
+          "kw": "better",
+          "action": "three empty numbered slots slide in beside the brick"
+        }
+      ]
+    },
+    {
+      "id": "mortar",
+      "from": "Mortar squeezes down",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Reason one. The keying action is the good visual — mortar as a plug, not a glue line.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "two brick courses in cross-section with mortar between"
+        },
+        {
+          "kw": "mortar",
+          "action": "mortar presses down into the holes and sets, forming plugs"
+        },
+        {
+          "kw": "keyed",
+          "action": "the plugs lock the courses together; a flat-glued wall beside it slides apart"
+        },
+        {
+          "at": 1.47,
+          "action": "more mortar presses down and fills the second hole",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 4.49,
+          "action": "the keyed courses take weight and stay locked together",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "firing",
+      "from": "Wet clay also has to dry",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "Reason two. Heat reaching the middle — a heat map, two bricks compared.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a solid brick and a perforated brick enter a kiln side by side"
+        },
+        {
+          "kw": "cracking",
+          "action": "the solid brick heats unevenly and cracks through the middle"
+        },
+        {
+          "kw": "faster",
+          "action": "heat travels through the perforated brick from inside and out; it fires evenly"
+        },
+        {
+          "at": 0.1,
+          "action": "the kiln door closes over both bricks",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 1.26,
+          "action": "heat builds in the kiln; both bricks glow at the edges",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "at": 3.99,
+          "action": "the crack in the solid brick widens as it cools",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Less clay",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "Reason three plus the summary. The slots fill in as each phrase lands. Hard cut on the wall.",
+      "beats": [
+        {
+          "kw": "clay",
+          "action": "the first slot fills: LESS CLAY"
+        },
+        {
+          "kw": "fuel",
+          "action": "the second slot fills: LESS FUEL"
+        },
+        {
+          "kw": "wall",
+          "action": "the third fills: STRONGER WALL; a finished wall builds up behind Bill; hard cut"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "holes",
+      [
+        "holes"
+      ],
+      0
+    ],
+    [
+      "solid",
+      [
+        "solid"
+      ],
+      0
+    ],
+    [
+      "better",
+      [
+        "better"
+      ],
+      0
+    ],
+    [
+      "mortar",
+      [
+        "mortar"
+      ],
+      0
+    ],
+    [
+      "keyed",
+      [
+        "keyed"
+      ],
+      0
+    ],
+    [
+      "cracking",
+      [
+        "cracking"
+      ],
+      0
+    ],
+    [
+      "faster",
+      [
+        "faster"
+      ],
+      0
+    ],
+    [
+      "clay",
+      [
+        "clay"
+      ],
+      1
+    ],
+    [
+      "fuel",
+      [
+        "fuel"
+      ],
+      0
+    ],
+    [
+      "wall",
+      [
+        "wall"
+      ],
+      0
+    ]
+  ]
+}

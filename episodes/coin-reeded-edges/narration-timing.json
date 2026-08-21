@@ -1,0 +1,892 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/coin-reeded-edges.wav.",
+  "episode": "coin-reeded-edges",
+  "title": "Your Quarter Is Still Protecting Silver It Doesn't Have",
+  "audio": "public/audio/coin-reeded-edges.wav",
+  "staticAudio": "audio/coin-reeded-edges.wav",
+  "duration": 23.903,
+  "fps": 30,
+  "rawDuration": 30.975,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11954,
+  "silenceRemoved": 4.215,
+  "wordCount": 93,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "Run your thumb around the edge of a quarter and you'll feel ridges, which is a strange thing to put on a coin containing nothing worth stealing.",
+      "start": 0.071,
+      "end": 5.33,
+      "wordRange": [
+        0,
+        26
+      ]
+    },
+    {
+      "id": "clipping",
+      "text": "Back when coins were actually silver, people shaved slivers off the rims, spent the coin anyway, and kept the shavings. A shaved coin looked almost normal.",
+      "start": 5.673,
+      "end": 13.3,
+      "wordRange": [
+        27,
+        52
+      ]
+    },
+    {
+      "id": "grooves",
+      "text": "So mints cut grooves into the edge, and a shaved coin stopped looking normal immediately, because the pattern just ended.",
+      "start": 13.372,
+      "end": 18.738,
+      "wordRange": [
+        53,
+        72
+      ]
+    },
+    {
+      "id": "newton",
+      "text": "Isaac Newton used it against clippers as warden of the Royal Mint.",
+      "start": 18.846,
+      "end": 21.471,
+      "wordRange": [
+        73,
+        84
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "The silver is long gone. The ridges stayed.",
+      "start": 21.738,
+      "end": 23.684,
+      "wordRange": [
+        85,
+        92
+      ]
+    }
+  ],
+  "keywords": {
+    "ridges": {
+      "start": 1.983,
+      "end": 2.286,
+      "wordIndex": 12
+    },
+    "stealing": {
+      "start": 4.991,
+      "end": 5.33,
+      "wordIndex": 26
+    },
+    "shaved": {
+      "start": 7.739,
+      "end": 7.973,
+      "wordIndex": 34
+    },
+    "normal": {
+      "start": 12.708,
+      "end": 13.3,
+      "wordIndex": 52
+    },
+    "grooves": {
+      "start": 13.998,
+      "end": 14.283,
+      "wordIndex": 56
+    },
+    "ended": {
+      "start": 18.282,
+      "end": 18.738,
+      "wordIndex": 72
+    },
+    "newton": {
+      "start": 19.113,
+      "end": 19.364,
+      "wordIndex": 74
+    },
+    "gone": {
+      "start": 22.523,
+      "end": 22.791,
+      "wordIndex": 89
+    },
+    "stayed": {
+      "start": 23.398,
+      "end": 23.684,
+      "wordIndex": 92
+    }
+  },
+  "captions": [
+    {
+      "text": "Run your thumb around",
+      "words": [
+        "Run",
+        "your",
+        "thumb",
+        "around"
+      ],
+      "start": 0.071,
+      "end": 0.767
+    },
+    {
+      "text": "the edge of a",
+      "words": [
+        "the",
+        "edge",
+        "of",
+        "a"
+      ],
+      "start": 0.767,
+      "end": 1.215
+    },
+    {
+      "text": "quarter and you'll",
+      "words": [
+        "quarter",
+        "and",
+        "you'll"
+      ],
+      "start": 1.215,
+      "end": 1.787
+    },
+    {
+      "text": "feel ridges,",
+      "words": [
+        "feel",
+        "ridges,"
+      ],
+      "start": 1.787,
+      "end": 2.506
+    },
+    {
+      "text": "which is a strange",
+      "words": [
+        "which",
+        "is",
+        "a",
+        "strange"
+      ],
+      "start": 2.526,
+      "end": 3.187
+    },
+    {
+      "text": "thing to put on",
+      "words": [
+        "thing",
+        "to",
+        "put",
+        "on"
+      ],
+      "start": 3.187,
+      "end": 3.705
+    },
+    {
+      "text": "a coin containing",
+      "words": [
+        "a",
+        "coin",
+        "containing"
+      ],
+      "start": 3.705,
+      "end": 4.491
+    },
+    {
+      "text": "nothing worth",
+      "words": [
+        "nothing",
+        "worth"
+      ],
+      "start": 4.491,
+      "end": 4.991
+    },
+    {
+      "text": "stealing.",
+      "words": [
+        "stealing."
+      ],
+      "start": 4.991,
+      "end": 5.55
+    },
+    {
+      "text": "Back when coins were",
+      "words": [
+        "Back",
+        "when",
+        "coins",
+        "were"
+      ],
+      "start": 5.673,
+      "end": 6.513
+    },
+    {
+      "text": "actually silver,",
+      "words": [
+        "actually",
+        "silver,"
+      ],
+      "start": 6.513,
+      "end": 7.412
+    },
+    {
+      "text": "people shaved slivers",
+      "words": [
+        "people",
+        "shaved",
+        "slivers"
+      ],
+      "start": 7.437,
+      "end": 8.347
+    },
+    {
+      "text": "off the rims,",
+      "words": [
+        "off",
+        "the",
+        "rims,"
+      ],
+      "start": 8.347,
+      "end": 9.085
+    },
+    {
+      "text": "spent the coin anyway,",
+      "words": [
+        "spent",
+        "the",
+        "coin",
+        "anyway,"
+      ],
+      "start": 9.151,
+      "end": 10.294
+    },
+    {
+      "text": "and kept the shavings.",
+      "words": [
+        "and",
+        "kept",
+        "the",
+        "shavings."
+      ],
+      "start": 10.294,
+      "end": 11.282
+    },
+    {
+      "text": "A shaved coin looked",
+      "words": [
+        "A",
+        "shaved",
+        "coin",
+        "looked"
+      ],
+      "start": 11.385,
+      "end": 12.385
+    },
+    {
+      "text": "almost normal.",
+      "words": [
+        "almost",
+        "normal."
+      ],
+      "start": 12.385,
+      "end": 13.372
+    },
+    {
+      "text": "So mints cut grooves",
+      "words": [
+        "So",
+        "mints",
+        "cut",
+        "grooves"
+      ],
+      "start": 13.372,
+      "end": 14.3
+    },
+    {
+      "text": "into the edge,",
+      "words": [
+        "into",
+        "the",
+        "edge,"
+      ],
+      "start": 14.3,
+      "end": 15.02
+    },
+    {
+      "text": "and a shaved coin",
+      "words": [
+        "and",
+        "a",
+        "shaved",
+        "coin"
+      ],
+      "start": 15.02,
+      "end": 15.824
+    },
+    {
+      "text": "stopped looking normal",
+      "words": [
+        "stopped",
+        "looking",
+        "normal"
+      ],
+      "start": 15.824,
+      "end": 16.755
+    },
+    {
+      "text": "immediately,",
+      "words": [
+        "immediately,"
+      ],
+      "start": 16.755,
+      "end": 17.407
+    },
+    {
+      "text": "because the pattern",
+      "words": [
+        "because",
+        "the",
+        "pattern"
+      ],
+      "start": 17.407,
+      "end": 18.068
+    },
+    {
+      "text": "just ended.",
+      "words": [
+        "just",
+        "ended."
+      ],
+      "start": 18.068,
+      "end": 18.846
+    },
+    {
+      "text": "Isaac Newton used it",
+      "words": [
+        "Isaac",
+        "Newton",
+        "used",
+        "it"
+      ],
+      "start": 18.846,
+      "end": 19.703
+    },
+    {
+      "text": "against clippers as",
+      "words": [
+        "against",
+        "clippers",
+        "as"
+      ],
+      "start": 19.703,
+      "end": 20.542
+    },
+    {
+      "text": "warden of the Royal",
+      "words": [
+        "warden",
+        "of",
+        "the",
+        "Royal"
+      ],
+      "start": 20.542,
+      "end": 21.239
+    },
+    {
+      "text": "Mint.",
+      "words": [
+        "Mint."
+      ],
+      "start": 21.239,
+      "end": 21.691
+    },
+    {
+      "text": "The silver is long",
+      "words": [
+        "The",
+        "silver",
+        "is",
+        "long"
+      ],
+      "start": 21.738,
+      "end": 22.523
+    },
+    {
+      "text": "gone.",
+      "words": [
+        "gone."
+      ],
+      "start": 22.523,
+      "end": 22.951
+    },
+    {
+      "text": "The ridges stayed.",
+      "words": [
+        "The",
+        "ridges",
+        "stayed."
+      ],
+      "start": 22.951,
+      "end": 23.903
+    }
+  ],
+  "words": [
+    {
+      "text": "Run",
+      "start": 0.071,
+      "end": 0.196
+    },
+    {
+      "text": "your",
+      "start": 0.25,
+      "end": 0.304
+    },
+    {
+      "text": "thumb",
+      "start": 0.392,
+      "end": 0.535
+    },
+    {
+      "text": "around",
+      "start": 0.571,
+      "end": 0.714
+    },
+    {
+      "text": "the",
+      "start": 0.767,
+      "end": 0.839
+    },
+    {
+      "text": "edge",
+      "start": 0.875,
+      "end": 0.983
+    },
+    {
+      "text": "of",
+      "start": 1.017,
+      "end": 1.071
+    },
+    {
+      "text": "a",
+      "start": 1.09,
+      "end": 1.16
+    },
+    {
+      "text": "quarter",
+      "start": 1.215,
+      "end": 1.464
+    },
+    {
+      "text": "and",
+      "start": 1.518,
+      "end": 1.589
+    },
+    {
+      "text": "you'll",
+      "start": 1.607,
+      "end": 1.75
+    },
+    {
+      "text": "feel",
+      "start": 1.787,
+      "end": 1.893
+    },
+    {
+      "text": "ridges,",
+      "start": 1.983,
+      "end": 2.286
+    },
+    {
+      "text": "which",
+      "start": 2.526,
+      "end": 2.598
+    },
+    {
+      "text": "is",
+      "start": 2.651,
+      "end": 2.706
+    },
+    {
+      "text": "a",
+      "start": 2.74,
+      "end": 2.794
+    },
+    {
+      "text": "strange",
+      "start": 2.865,
+      "end": 3.133
+    },
+    {
+      "text": "thing",
+      "start": 3.187,
+      "end": 3.294
+    },
+    {
+      "text": "to",
+      "start": 3.33,
+      "end": 3.437
+    },
+    {
+      "text": "put",
+      "start": 3.455,
+      "end": 3.526
+    },
+    {
+      "text": "on",
+      "start": 3.562,
+      "end": 3.633
+    },
+    {
+      "text": "a",
+      "start": 3.705,
+      "end": 3.723
+    },
+    {
+      "text": "coin",
+      "start": 3.777,
+      "end": 4.026
+    },
+    {
+      "text": "containing",
+      "start": 4.062,
+      "end": 4.437
+    },
+    {
+      "text": "nothing",
+      "start": 4.491,
+      "end": 4.706
+    },
+    {
+      "text": "worth",
+      "start": 4.759,
+      "end": 4.937
+    },
+    {
+      "text": "stealing.",
+      "start": 4.991,
+      "end": 5.33
+    },
+    {
+      "text": "Back",
+      "start": 5.673,
+      "end": 5.834
+    },
+    {
+      "text": "when",
+      "start": 5.87,
+      "end": 5.995
+    },
+    {
+      "text": "coins",
+      "start": 6.048,
+      "end": 6.316
+    },
+    {
+      "text": "were",
+      "start": 6.335,
+      "end": 6.442
+    },
+    {
+      "text": "actually",
+      "start": 6.513,
+      "end": 6.87
+    },
+    {
+      "text": "silver,",
+      "start": 6.906,
+      "end": 7.192
+    },
+    {
+      "text": "people",
+      "start": 7.437,
+      "end": 7.686
+    },
+    {
+      "text": "shaved",
+      "start": 7.739,
+      "end": 7.973
+    },
+    {
+      "text": "slivers",
+      "start": 8.007,
+      "end": 8.294
+    },
+    {
+      "text": "off",
+      "start": 8.347,
+      "end": 8.455
+    },
+    {
+      "text": "the",
+      "start": 8.473,
+      "end": 8.508
+    },
+    {
+      "text": "rims,",
+      "start": 8.597,
+      "end": 8.865
+    },
+    {
+      "text": "spent",
+      "start": 9.151,
+      "end": 9.366
+    },
+    {
+      "text": "the",
+      "start": 9.383,
+      "end": 9.455
+    },
+    {
+      "text": "coin",
+      "start": 9.508,
+      "end": 9.67
+    },
+    {
+      "text": "anyway,",
+      "start": 9.706,
+      "end": 10.241
+    },
+    {
+      "text": "and",
+      "start": 10.294,
+      "end": 10.401
+    },
+    {
+      "text": "kept",
+      "start": 10.419,
+      "end": 10.563
+    },
+    {
+      "text": "the",
+      "start": 10.58,
+      "end": 10.652
+    },
+    {
+      "text": "shavings.",
+      "start": 10.687,
+      "end": 11.062
+    },
+    {
+      "text": "A",
+      "start": 11.385,
+      "end": 11.474
+    },
+    {
+      "text": "shaved",
+      "start": 11.546,
+      "end": 11.832
+    },
+    {
+      "text": "coin",
+      "start": 11.885,
+      "end": 12.1
+    },
+    {
+      "text": "looked",
+      "start": 12.135,
+      "end": 12.332
+    },
+    {
+      "text": "almost",
+      "start": 12.385,
+      "end": 12.654
+    },
+    {
+      "text": "normal.",
+      "start": 12.708,
+      "end": 13.3
+    },
+    {
+      "text": "So",
+      "start": 13.372,
+      "end": 13.443
+    },
+    {
+      "text": "mints",
+      "start": 13.551,
+      "end": 13.783
+    },
+    {
+      "text": "cut",
+      "start": 13.8,
+      "end": 13.943
+    },
+    {
+      "text": "grooves",
+      "start": 13.998,
+      "end": 14.283
+    },
+    {
+      "text": "into",
+      "start": 14.3,
+      "end": 14.479
+    },
+    {
+      "text": "the",
+      "start": 14.498,
+      "end": 14.587
+    },
+    {
+      "text": "edge,",
+      "start": 14.658,
+      "end": 14.818
+    },
+    {
+      "text": "and",
+      "start": 15.02,
+      "end": 15.092
+    },
+    {
+      "text": "a",
+      "start": 15.127,
+      "end": 15.2
+    },
+    {
+      "text": "shaved",
+      "start": 15.253,
+      "end": 15.503
+    },
+    {
+      "text": "coin",
+      "start": 15.557,
+      "end": 15.79
+    },
+    {
+      "text": "stopped",
+      "start": 15.824,
+      "end": 16.093
+    },
+    {
+      "text": "looking",
+      "start": 16.11,
+      "end": 16.361
+    },
+    {
+      "text": "normal",
+      "start": 16.379,
+      "end": 16.646
+    },
+    {
+      "text": "immediately,",
+      "start": 16.755,
+      "end": 17.201
+    },
+    {
+      "text": "because",
+      "start": 17.407,
+      "end": 17.621
+    },
+    {
+      "text": "the",
+      "start": 17.656,
+      "end": 17.71
+    },
+    {
+      "text": "pattern",
+      "start": 17.763,
+      "end": 17.997
+    },
+    {
+      "text": "just",
+      "start": 18.068,
+      "end": 18.247
+    },
+    {
+      "text": "ended.",
+      "start": 18.282,
+      "end": 18.738
+    },
+    {
+      "text": "Isaac",
+      "start": 18.846,
+      "end": 19.042
+    },
+    {
+      "text": "Newton",
+      "start": 19.113,
+      "end": 19.364
+    },
+    {
+      "text": "used",
+      "start": 19.417,
+      "end": 19.56
+    },
+    {
+      "text": "it",
+      "start": 19.578,
+      "end": 19.649
+    },
+    {
+      "text": "against",
+      "start": 19.703,
+      "end": 19.935
+    },
+    {
+      "text": "clippers",
+      "start": 20.024,
+      "end": 20.329
+    },
+    {
+      "text": "as",
+      "start": 20.364,
+      "end": 20.453
+    },
+    {
+      "text": "warden",
+      "start": 20.542,
+      "end": 20.756
+    },
+    {
+      "text": "of",
+      "start": 20.775,
+      "end": 20.846
+    },
+    {
+      "text": "the",
+      "start": 20.864,
+      "end": 20.899
+    },
+    {
+      "text": "Royal",
+      "start": 20.971,
+      "end": 21.15
+    },
+    {
+      "text": "Mint.",
+      "start": 21.239,
+      "end": 21.471
+    },
+    {
+      "text": "The",
+      "start": 21.738,
+      "end": 21.774
+    },
+    {
+      "text": "silver",
+      "start": 21.844,
+      "end": 22.094
+    },
+    {
+      "text": "is",
+      "start": 22.13,
+      "end": 22.256
+    },
+    {
+      "text": "long",
+      "start": 22.291,
+      "end": 22.487
+    },
+    {
+      "text": "gone.",
+      "start": 22.523,
+      "end": 22.791
+    },
+    {
+      "text": "The",
+      "start": 22.951,
+      "end": 22.987
+    },
+    {
+      "text": "ridges",
+      "start": 23.058,
+      "end": 23.362
+    },
+    {
+      "text": "stayed.",
+      "start": 23.398,
+      "end": 23.684
+    }
+  ]
+}

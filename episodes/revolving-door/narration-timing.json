@@ -1,0 +1,863 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/revolving-door.wav.",
+  "episode": "revolving-door",
+  "title": "A Revolving Door Is Solving A Problem You Can't See",
+  "audio": "public/audio/revolving-door.wav",
+  "staticAudio": "audio/revolving-door.wav",
+  "duration": 23.608,
+  "fps": 30,
+  "rawDuration": 30.325,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11941,
+  "silenceRemoved": 3.898,
+  "wordCount": 89,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "A revolving door is slower than a normal door, more expensive to build, and much harder to carry anything through, and tall buildings keep installing them anyway.",
+      "start": 0.071,
+      "end": 7.249,
+      "wordRange": [
+        0,
+        26
+      ]
+    },
+    {
+      "id": "stack",
+      "text": "Warm air inside a tall building rises and escapes out of the top, and that pulls cold air in hard at street level.",
+      "start": 7.576,
+      "end": 12.719,
+      "wordRange": [
+        27,
+        49
+      ]
+    },
+    {
+      "id": "windtunnel",
+      "text": "On an ordinary door, that pressure difference turns the entrance into a wind tunnel and throws the heating out into the street.",
+      "start": 12.978,
+      "end": 18.531,
+      "wordRange": [
+        50,
+        71
+      ]
+    },
+    {
+      "id": "neveropens",
+      "text": "A revolving door never actually opens.",
+      "start": 18.788,
+      "end": 20.682,
+      "wordRange": [
+        72,
+        77
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "Only the wedge of air in your compartment travels with you.",
+      "start": 20.983,
+      "end": 23.342,
+      "wordRange": [
+        78,
+        88
+      ]
+    }
+  ],
+  "keywords": {
+    "slower": {
+      "start": 1.196,
+      "end": 1.464,
+      "wordIndex": 4
+    },
+    "installing": {
+      "start": 6.356,
+      "end": 6.714,
+      "wordIndex": 24
+    },
+    "rises": {
+      "start": 9.06,
+      "end": 9.382,
+      "wordIndex": 33
+    },
+    "cold": {
+      "start": 11.396,
+      "end": 11.593,
+      "wordIndex": 43
+    },
+    "wind-tunnel": {
+      "start": 16.318,
+      "end": 16.959,
+      "wordIndex": 62
+    },
+    "heating": {
+      "start": 17.496,
+      "end": 17.71,
+      "wordIndex": 67
+    },
+    "never": {
+      "start": 19.663,
+      "end": 19.86,
+      "wordIndex": 75
+    },
+    "wedge": {
+      "start": 21.376,
+      "end": 21.538,
+      "wordIndex": 80
+    }
+  },
+  "captions": [
+    {
+      "text": "A revolving door is",
+      "words": [
+        "A",
+        "revolving",
+        "door",
+        "is"
+      ],
+      "start": 0.071,
+      "end": 1.196
+    },
+    {
+      "text": "slower than a normal",
+      "words": [
+        "slower",
+        "than",
+        "a",
+        "normal"
+      ],
+      "start": 1.196,
+      "end": 2.036
+    },
+    {
+      "text": "door,",
+      "words": [
+        "door,"
+      ],
+      "start": 2.036,
+      "end": 2.435
+    },
+    {
+      "text": "more expensive to",
+      "words": [
+        "more",
+        "expensive",
+        "to"
+      ],
+      "start": 2.52,
+      "end": 3.217
+    },
+    {
+      "text": "build,",
+      "words": [
+        "build,"
+      ],
+      "start": 3.217,
+      "end": 3.687
+    },
+    {
+      "text": "and much harder to",
+      "words": [
+        "and",
+        "much",
+        "harder",
+        "to"
+      ],
+      "start": 3.715,
+      "end": 4.412
+    },
+    {
+      "text": "carry anything",
+      "words": [
+        "carry",
+        "anything"
+      ],
+      "start": 4.412,
+      "end": 5.037
+    },
+    {
+      "text": "through,",
+      "words": [
+        "through,"
+      ],
+      "start": 5.037,
+      "end": 5.463
+    },
+    {
+      "text": "and tall buildings",
+      "words": [
+        "and",
+        "tall",
+        "buildings"
+      ],
+      "start": 5.463,
+      "end": 6.213
+    },
+    {
+      "text": "keep installing them",
+      "words": [
+        "keep",
+        "installing",
+        "them"
+      ],
+      "start": 6.213,
+      "end": 6.892
+    },
+    {
+      "text": "anyway.",
+      "words": [
+        "anyway."
+      ],
+      "start": 6.892,
+      "end": 7.469
+    },
+    {
+      "text": "Warm air inside a",
+      "words": [
+        "Warm",
+        "air",
+        "inside",
+        "a"
+      ],
+      "start": 7.576,
+      "end": 8.506
+    },
+    {
+      "text": "tall building rises",
+      "words": [
+        "tall",
+        "building",
+        "rises"
+      ],
+      "start": 8.506,
+      "end": 9.417
+    },
+    {
+      "text": "and escapes out of",
+      "words": [
+        "and",
+        "escapes",
+        "out",
+        "of"
+      ],
+      "start": 9.417,
+      "end": 10.168
+    },
+    {
+      "text": "the top,",
+      "words": [
+        "the",
+        "top,"
+      ],
+      "start": 10.168,
+      "end": 10.753
+    },
+    {
+      "text": "and that pulls cold",
+      "words": [
+        "and",
+        "that",
+        "pulls",
+        "cold"
+      ],
+      "start": 10.753,
+      "end": 11.646
+    },
+    {
+      "text": "air in hard at",
+      "words": [
+        "air",
+        "in",
+        "hard",
+        "at"
+      ],
+      "start": 11.646,
+      "end": 12.236
+    },
+    {
+      "text": "street level.",
+      "words": [
+        "street",
+        "level."
+      ],
+      "start": 12.236,
+      "end": 12.939
+    },
+    {
+      "text": "On an ordinary door,",
+      "words": [
+        "On",
+        "an",
+        "ordinary",
+        "door,"
+      ],
+      "start": 12.978,
+      "end": 14.198
+    },
+    {
+      "text": "that pressure",
+      "words": [
+        "that",
+        "pressure"
+      ],
+      "start": 14.3,
+      "end": 14.854
+    },
+    {
+      "text": "difference turns the",
+      "words": [
+        "difference",
+        "turns",
+        "the"
+      ],
+      "start": 14.854,
+      "end": 15.658
+    },
+    {
+      "text": "entrance into a wind",
+      "words": [
+        "entrance",
+        "into",
+        "a",
+        "wind"
+      ],
+      "start": 15.658,
+      "end": 16.552
+    },
+    {
+      "text": "tunnel and throws the",
+      "words": [
+        "tunnel",
+        "and",
+        "throws",
+        "the"
+      ],
+      "start": 16.552,
+      "end": 17.496
+    },
+    {
+      "text": "heating out into the",
+      "words": [
+        "heating",
+        "out",
+        "into",
+        "the"
+      ],
+      "start": 17.496,
+      "end": 18.209
+    },
+    {
+      "text": "street.",
+      "words": [
+        "street."
+      ],
+      "start": 18.209,
+      "end": 18.751
+    },
+    {
+      "text": "A revolving door never",
+      "words": [
+        "A",
+        "revolving",
+        "door",
+        "never"
+      ],
+      "start": 18.788,
+      "end": 19.932
+    },
+    {
+      "text": "actually opens.",
+      "words": [
+        "actually",
+        "opens."
+      ],
+      "start": 19.932,
+      "end": 20.902
+    },
+    {
+      "text": "Only the wedge of",
+      "words": [
+        "Only",
+        "the",
+        "wedge",
+        "of"
+      ],
+      "start": 20.983,
+      "end": 21.77
+    },
+    {
+      "text": "air in your",
+      "words": [
+        "air",
+        "in",
+        "your"
+      ],
+      "start": 21.77,
+      "end": 22.146
+    },
+    {
+      "text": "compartment travels",
+      "words": [
+        "compartment",
+        "travels"
+      ],
+      "start": 22.146,
+      "end": 23.038
+    },
+    {
+      "text": "with you.",
+      "words": [
+        "with",
+        "you."
+      ],
+      "start": 23.038,
+      "end": 23.562
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.071,
+      "end": 0.125
+    },
+    {
+      "text": "revolving",
+      "start": 0.178,
+      "end": 0.642
+    },
+    {
+      "text": "door",
+      "start": 0.731,
+      "end": 0.91
+    },
+    {
+      "text": "is",
+      "start": 1.017,
+      "end": 1.16
+    },
+    {
+      "text": "slower",
+      "start": 1.196,
+      "end": 1.464
+    },
+    {
+      "text": "than",
+      "start": 1.517,
+      "end": 1.589
+    },
+    {
+      "text": "a",
+      "start": 1.643,
+      "end": 1.66
+    },
+    {
+      "text": "normal",
+      "start": 1.732,
+      "end": 1.965
+    },
+    {
+      "text": "door,",
+      "start": 2.036,
+      "end": 2.215
+    },
+    {
+      "text": "more",
+      "start": 2.52,
+      "end": 2.591
+    },
+    {
+      "text": "expensive",
+      "start": 2.664,
+      "end": 3.056
+    },
+    {
+      "text": "to",
+      "start": 3.093,
+      "end": 3.146
+    },
+    {
+      "text": "build,",
+      "start": 3.217,
+      "end": 3.467
+    },
+    {
+      "text": "and",
+      "start": 3.715,
+      "end": 3.786
+    },
+    {
+      "text": "much",
+      "start": 3.859,
+      "end": 3.966
+    },
+    {
+      "text": "harder",
+      "start": 4.054,
+      "end": 4.251
+    },
+    {
+      "text": "to",
+      "start": 4.287,
+      "end": 4.359
+    },
+    {
+      "text": "carry",
+      "start": 4.412,
+      "end": 4.626
+    },
+    {
+      "text": "anything",
+      "start": 4.679,
+      "end": 4.965
+    },
+    {
+      "text": "through,",
+      "start": 5.037,
+      "end": 5.27
+    },
+    {
+      "text": "and",
+      "start": 5.463,
+      "end": 5.553
+    },
+    {
+      "text": "tall",
+      "start": 5.623,
+      "end": 5.766
+    },
+    {
+      "text": "buildings",
+      "start": 5.856,
+      "end": 6.141
+    },
+    {
+      "text": "keep",
+      "start": 6.213,
+      "end": 6.32
+    },
+    {
+      "text": "installing",
+      "start": 6.356,
+      "end": 6.714
+    },
+    {
+      "text": "them",
+      "start": 6.749,
+      "end": 6.838
+    },
+    {
+      "text": "anyway.",
+      "start": 6.892,
+      "end": 7.249
+    },
+    {
+      "text": "Warm",
+      "start": 7.576,
+      "end": 7.774
+    },
+    {
+      "text": "air",
+      "start": 7.881,
+      "end": 8.023
+    },
+    {
+      "text": "inside",
+      "start": 8.077,
+      "end": 8.345
+    },
+    {
+      "text": "a",
+      "start": 8.381,
+      "end": 8.452
+    },
+    {
+      "text": "tall",
+      "start": 8.506,
+      "end": 8.649
+    },
+    {
+      "text": "building",
+      "start": 8.739,
+      "end": 8.988
+    },
+    {
+      "text": "rises",
+      "start": 9.06,
+      "end": 9.382
+    },
+    {
+      "text": "and",
+      "start": 9.417,
+      "end": 9.489
+    },
+    {
+      "text": "escapes",
+      "start": 9.542,
+      "end": 9.936
+    },
+    {
+      "text": "out",
+      "start": 9.971,
+      "end": 10.061
+    },
+    {
+      "text": "of",
+      "start": 10.079,
+      "end": 10.132
+    },
+    {
+      "text": "the",
+      "start": 10.168,
+      "end": 10.222
+    },
+    {
+      "text": "top,",
+      "start": 10.275,
+      "end": 10.543
+    },
+    {
+      "text": "and",
+      "start": 10.753,
+      "end": 10.825
+    },
+    {
+      "text": "that",
+      "start": 10.86,
+      "end": 10.985
+    },
+    {
+      "text": "pulls",
+      "start": 11.093,
+      "end": 11.326
+    },
+    {
+      "text": "cold",
+      "start": 11.396,
+      "end": 11.593
+    },
+    {
+      "text": "air",
+      "start": 11.646,
+      "end": 11.754
+    },
+    {
+      "text": "in",
+      "start": 11.772,
+      "end": 11.843
+    },
+    {
+      "text": "hard",
+      "start": 11.914,
+      "end": 12.075
+    },
+    {
+      "text": "at",
+      "start": 12.111,
+      "end": 12.183
+    },
+    {
+      "text": "street",
+      "start": 12.236,
+      "end": 12.433
+    },
+    {
+      "text": "level.",
+      "start": 12.486,
+      "end": 12.719
+    },
+    {
+      "text": "On",
+      "start": 12.978,
+      "end": 13.05
+    },
+    {
+      "text": "an",
+      "start": 13.085,
+      "end": 13.192
+    },
+    {
+      "text": "ordinary",
+      "start": 13.263,
+      "end": 13.638
+    },
+    {
+      "text": "door,",
+      "start": 13.729,
+      "end": 13.978
+    },
+    {
+      "text": "that",
+      "start": 14.3,
+      "end": 14.479
+    },
+    {
+      "text": "pressure",
+      "start": 14.551,
+      "end": 14.8
+    },
+    {
+      "text": "difference",
+      "start": 14.854,
+      "end": 15.175
+    },
+    {
+      "text": "turns",
+      "start": 15.246,
+      "end": 15.461
+    },
+    {
+      "text": "the",
+      "start": 15.497,
+      "end": 15.586
+    },
+    {
+      "text": "entrance",
+      "start": 15.658,
+      "end": 15.943
+    },
+    {
+      "text": "into",
+      "start": 15.979,
+      "end": 16.122
+    },
+    {
+      "text": "a",
+      "start": 16.176,
+      "end": 16.194
+    },
+    {
+      "text": "wind",
+      "start": 16.318,
+      "end": 16.497
+    },
+    {
+      "text": "tunnel",
+      "start": 16.552,
+      "end": 16.959
+    },
+    {
+      "text": "and",
+      "start": 17.013,
+      "end": 17.102
+    },
+    {
+      "text": "throws",
+      "start": 17.138,
+      "end": 17.352
+    },
+    {
+      "text": "the",
+      "start": 17.388,
+      "end": 17.459
+    },
+    {
+      "text": "heating",
+      "start": 17.496,
+      "end": 17.71
+    },
+    {
+      "text": "out",
+      "start": 17.763,
+      "end": 17.888
+    },
+    {
+      "text": "into",
+      "start": 17.905,
+      "end": 18.048
+    },
+    {
+      "text": "the",
+      "start": 18.085,
+      "end": 18.156
+    },
+    {
+      "text": "street.",
+      "start": 18.209,
+      "end": 18.531
+    },
+    {
+      "text": "A",
+      "start": 18.788,
+      "end": 18.824
+    },
+    {
+      "text": "revolving",
+      "start": 18.878,
+      "end": 19.288
+    },
+    {
+      "text": "door",
+      "start": 19.378,
+      "end": 19.61
+    },
+    {
+      "text": "never",
+      "start": 19.663,
+      "end": 19.86
+    },
+    {
+      "text": "actually",
+      "start": 19.932,
+      "end": 20.253
+    },
+    {
+      "text": "opens.",
+      "start": 20.325,
+      "end": 20.682
+    },
+    {
+      "text": "Only",
+      "start": 20.983,
+      "end": 21.162
+    },
+    {
+      "text": "the",
+      "start": 21.198,
+      "end": 21.269
+    },
+    {
+      "text": "wedge",
+      "start": 21.376,
+      "end": 21.538
+    },
+    {
+      "text": "of",
+      "start": 21.573,
+      "end": 21.699
+    },
+    {
+      "text": "air",
+      "start": 21.77,
+      "end": 21.877
+    },
+    {
+      "text": "in",
+      "start": 21.913,
+      "end": 21.966
+    },
+    {
+      "text": "your",
+      "start": 22.002,
+      "end": 22.109
+    },
+    {
+      "text": "compartment",
+      "start": 22.146,
+      "end": 22.627
+    },
+    {
+      "text": "travels",
+      "start": 22.699,
+      "end": 23.002
+    },
+    {
+      "text": "with",
+      "start": 23.038,
+      "end": 23.182
+    },
+    {
+      "text": "you.",
+      "start": 23.217,
+      "end": 23.342
+    }
+  ]
+}

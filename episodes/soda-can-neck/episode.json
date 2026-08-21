@@ -1,0 +1,205 @@
+{
+  "slug": "soda-can-neck",
+  "title": "Why Soda Cans Get Narrower At The Top",
+  "hook": "A taper worth two hundred million pounds of metal a year.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill with a can. The scale reveal at the end is the whole point."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "The top of a soda can",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Make the taper visible — most people have never consciously seen it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a can stands in profile; the shoulder tapers in toward the lid"
+        },
+        {
+          "kw": "narrower",
+          "action": "dimension lines measure body width against lid width"
+        },
+        {
+          "kw": "tapering",
+          "action": "the taper highlights teal along the shoulder"
+        }
+      ]
+    },
+    {
+      "id": "notmouth",
+      "from": "That taper is not shaped",
+      "background": "KitchenCounter",
+      "cast": [
+        "bill"
+      ],
+      "note": "Kill the intuitive wrong answer in one beat.",
+      "beats": [
+        {
+          "kw": "mouth",
+          "action": "a FOR YOUR MOUTH label appears and crosses out"
+        },
+        {
+          "at": 0.1,
+          "action": "the can rotates so the taper reads against the lid rim",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "lid",
+      "from": "The lid has to be much thicker",
+      "background": "CutawayVoid",
+      "cast": [],
+      "note": "The asymmetry is the mechanism: lid metal is much thicker than wall metal. Show the gauge difference plainly.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the can sections; wall and lid thickness draw at true relative scale"
+        },
+        {
+          "kw": "thicker",
+          "action": "the lid gauge highlights, several times the wall gauge"
+        },
+        {
+          "kw": "pressure",
+          "action": "internal pressure arrows push outward against the lid"
+        },
+        {
+          "kw": "tab",
+          "action": "a finger levers the tab; the lid flexes but holds"
+        }
+      ]
+    },
+    {
+      "id": "saving",
+      "from": "Thick metal is expensive",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "The comparison that justifies the design: shrink the lid, not the walls.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "two strategies draw side by side — thinner walls, or a smaller lid"
+        },
+        {
+          "kw": "shrinking",
+          "action": "the lid shrinks; a large metal saving bar fills"
+        },
+        {
+          "kw": "shaving",
+          "action": "the wall-shaving option barely moves its bar and is crossed out"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "from": "Six millimeters have come off",
+      "background": "SchematicVoid",
+      "cast": [
+        "bill"
+      ],
+      "note": "SCALE IS THE PAYOFF. Six millimetres, then multiply until the number is absurd. Hard cut.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a 6 mm dimension line draws across the lid rim — almost nothing"
+        },
+        {
+          "kw": "millimeters",
+          "action": "the tiny measurement holds alone on screen"
+        },
+        {
+          "kw": "pounds",
+          "action": "cans multiply across the frame until they fill it; a vast annual figure stamps; hard cut"
+        },
+        {
+          "at": 2.07,
+          "action": "the cans keep multiplying outward past the frame",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "narrower",
+      [
+        "narrower"
+      ],
+      0
+    ],
+    [
+      "tapering",
+      [
+        "tapering"
+      ],
+      0
+    ],
+    [
+      "mouth",
+      [
+        "mouth"
+      ],
+      0
+    ],
+    [
+      "thicker",
+      [
+        "thicker"
+      ],
+      0
+    ],
+    [
+      "pressure",
+      [
+        "pressure"
+      ],
+      0
+    ],
+    [
+      "tab",
+      [
+        "tab"
+      ],
+      0
+    ],
+    [
+      "shrinking",
+      [
+        "shrinking"
+      ],
+      0
+    ],
+    [
+      "shaving",
+      [
+        "shaving"
+      ],
+      0
+    ],
+    [
+      "millimeters",
+      [
+        "millimeters"
+      ],
+      0
+    ],
+    [
+      "pounds",
+      [
+        "pounds"
+      ],
+      0
+    ]
+  ]
+}

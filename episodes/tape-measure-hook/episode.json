@@ -1,0 +1,214 @@
+{
+  "slug": "tape-measure-hook",
+  "title": "That Wobbly Tape Measure Hook Is Not Broken",
+  "hook": "The most familiar tool in the drawer has a part everyone thinks is broken.",
+  "cast": {
+    "lead": "bill",
+    "support": [],
+    "note": "Bill is a person mildly betrayed by an object, then quietly impressed by it."
+  },
+  "audio": {
+    "tempo": 1.12,
+    "minSilence": 0.08
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "from": "The metal hook",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "The wobble is the hook of the episode. Show it moving before anyone explains it.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "Bill holds a tape measure; the end hook visibly rattles as he shakes it"
+        },
+        {
+          "kw": "wobbles",
+          "action": "camera punches onto the hook; it slides back and forth on its rivets"
+        },
+        {
+          "at": 3.2,
+          "action": "Bill turns the tape over, frowning at it",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "worn-out",
+          "action": "a WORN OUT? label lands beside the hook, then gets crossed out"
+        }
+      ]
+    },
+    {
+      "id": "slides",
+      "from": "It slides exactly",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Clean measurement diagram. The travel distance and the hook thickness are drawn as the SAME dimension.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the hook isolates on a schematic field, drawn in section"
+        },
+        {
+          "kw": "slides",
+          "action": "the hook travels its full play; a dimension line measures the travel"
+        },
+        {
+          "kw": "thick",
+          "action": "a second dimension line measures the metal thickness — the two are identical and snap together"
+        }
+      ]
+    },
+    {
+      "id": "outside",
+      "from": "Hook it over",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Outside measurement. The hook pulls OUT and the gap it leaves is exactly its own thickness.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "a board edge appears; the tape hooks over it"
+        },
+        {
+          "kw": "pulls",
+          "action": "the hook slides outward against the board; the tape body moves back by the hook thickness"
+        },
+        {
+          "kw": "adding",
+          "action": "the added thickness highlights teal against the ruler scale"
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "from": "Push it into",
+      "background": "SchematicVoid",
+      "cast": [],
+      "note": "Inside measurement — the mirror of the previous scene. Same hook, opposite direction.",
+      "beats": [
+        {
+          "at": 0,
+          "action": "the board becomes an inside corner; the tape pushes against it"
+        },
+        {
+          "kw": "corner",
+          "action": "the hook compresses flat against the wall, sliding inward"
+        },
+        {
+          "kw": "away",
+          "action": "the same thickness highlights coral and is subtracted from the scale"
+        },
+        {
+          "at": 1.73,
+          "action": "the hook face presses flat against the corner and holds there",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "id": "payoff",
+      "from": "Either way the tape",
+      "background": "OldWorkshop",
+      "cast": [
+        "bill"
+      ],
+      "note": "Both diagrams collapse into one reading. Sincere, not smug. Hard cut on the last word.",
+      "beats": [
+        {
+          "kw": "zero",
+          "action": "both measurements resolve to the same TRUE ZERO mark; the two diagrams overlay perfectly"
+        },
+        {
+          "fromEnd": 1.2,
+          "action": "Bill wiggles the hook once more, now approvingly",
+          "sync": "secondary action — closes a pacing gap"
+        },
+        {
+          "kw": "honest",
+          "action": "Bill clips the tape back on his belt; hard cut"
+        },
+        {
+          "at": 0.73,
+          "action": "the dimension lines from both diagrams slide together and align",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    [
+      "wobbles",
+      [
+        "wobbles"
+      ],
+      0
+    ],
+    [
+      "worn-out",
+      [
+        "worn",
+        "out"
+      ],
+      0
+    ],
+    [
+      "slides",
+      [
+        "slides"
+      ],
+      0
+    ],
+    [
+      "thick",
+      [
+        "thick"
+      ],
+      0
+    ],
+    [
+      "pulls",
+      [
+        "pulls"
+      ],
+      0
+    ],
+    [
+      "adding",
+      [
+        "adding"
+      ],
+      0
+    ],
+    [
+      "corner",
+      [
+        "corner"
+      ],
+      0
+    ],
+    [
+      "away",
+      [
+        "away"
+      ],
+      0
+    ],
+    [
+      "zero",
+      [
+        "zero"
+      ],
+      0
+    ],
+    [
+      "honest",
+      [
+        "honest"
+      ],
+      0
+    ]
+  ]
+}

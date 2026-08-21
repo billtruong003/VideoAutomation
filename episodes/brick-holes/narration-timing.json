@@ -1,0 +1,846 @@
+{
+  "note": "MASTER CLOCK. All timings are seconds against public/audio/brick-holes.wav.",
+  "episode": "brick-holes",
+  "title": "A Brick Has Holes For Three Different Reasons",
+  "audio": "public/audio/brick-holes.wav",
+  "staticAudio": "audio/brick-holes.wav",
+  "duration": 23.006,
+  "fps": 30,
+  "rawDuration": 29.164,
+  "tempo": 1.12,
+  "effectiveTempo": 1.11947,
+  "silenceRemoved": 3.409,
+  "wordCount": 88,
+  "phrases": [
+    {
+      "id": "hook",
+      "text": "A brick has holes punched straight through the middle, which is an odd thing to do to an object whose whole job is being solid.",
+      "start": 0.088,
+      "end": 5.299,
+      "wordRange": [
+        0,
+        24
+      ]
+    },
+    {
+      "id": "better",
+      "text": "The holes make it better.",
+      "start": 5.55,
+      "end": 6.532,
+      "wordRange": [
+        25,
+        29
+      ]
+    },
+    {
+      "id": "mortar",
+      "text": "Mortar squeezes down into them and sets there, so each brick is keyed into the one above rather than glued along a flat face.",
+      "start": 6.834,
+      "end": 12.544,
+      "wordRange": [
+        30,
+        53
+      ]
+    },
+    {
+      "id": "firing",
+      "text": "Wet clay also has to dry and fire without cracking, and heat reaches the middle of a perforated brick far faster than a solid lump.",
+      "start": 12.878,
+      "end": 19.395,
+      "wordRange": [
+        54,
+        78
+      ]
+    },
+    {
+      "id": "payoff",
+      "text": "Less clay, less fuel, lighter to lift, stronger wall.",
+      "start": 19.715,
+      "end": 22.789,
+      "wordRange": [
+        79,
+        87
+      ]
+    }
+  ],
+  "keywords": {
+    "holes": {
+      "start": 0.678,
+      "end": 0.946,
+      "wordIndex": 3
+    },
+    "solid": {
+      "start": 5.013,
+      "end": 5.299,
+      "wordIndex": 24
+    },
+    "better": {
+      "start": 6.3,
+      "end": 6.532,
+      "wordIndex": 29
+    },
+    "mortar": {
+      "start": 6.834,
+      "end": 7.103,
+      "wordIndex": 30
+    },
+    "keyed": {
+      "start": 9.766,
+      "end": 9.909,
+      "wordIndex": 42
+    },
+    "cracking": {
+      "start": 15.391,
+      "end": 15.713,
+      "wordIndex": 63
+    },
+    "faster": {
+      "start": 18.341,
+      "end": 18.608,
+      "wordIndex": 74
+    },
+    "clay": {
+      "start": 19.947,
+      "end": 20.179,
+      "wordIndex": 80
+    },
+    "fuel": {
+      "start": 20.662,
+      "end": 20.912,
+      "wordIndex": 82
+    },
+    "wall": {
+      "start": 22.538,
+      "end": 22.789,
+      "wordIndex": 87
+    }
+  },
+  "captions": [
+    {
+      "text": "A brick has holes",
+      "words": [
+        "A",
+        "brick",
+        "has",
+        "holes"
+      ],
+      "start": 0.088,
+      "end": 1.053
+    },
+    {
+      "text": "punched straight",
+      "words": [
+        "punched",
+        "straight"
+      ],
+      "start": 1.053,
+      "end": 1.696
+    },
+    {
+      "text": "through the middle,",
+      "words": [
+        "through",
+        "the",
+        "middle,"
+      ],
+      "start": 1.696,
+      "end": 2.399
+    },
+    {
+      "text": "which is an odd",
+      "words": [
+        "which",
+        "is",
+        "an",
+        "odd"
+      ],
+      "start": 2.404,
+      "end": 3.065
+    },
+    {
+      "text": "thing to do to",
+      "words": [
+        "thing",
+        "to",
+        "do",
+        "to"
+      ],
+      "start": 3.065,
+      "end": 3.584
+    },
+    {
+      "text": "an object whose whole",
+      "words": [
+        "an",
+        "object",
+        "whose",
+        "whole"
+      ],
+      "start": 3.584,
+      "end": 4.459
+    },
+    {
+      "text": "job is being solid.",
+      "words": [
+        "job",
+        "is",
+        "being",
+        "solid."
+      ],
+      "start": 4.459,
+      "end": 5.519
+    },
+    {
+      "text": "The holes make it",
+      "words": [
+        "The",
+        "holes",
+        "make",
+        "it"
+      ],
+      "start": 5.55,
+      "end": 6.3
+    },
+    {
+      "text": "better.",
+      "words": [
+        "better."
+      ],
+      "start": 6.3,
+      "end": 6.752
+    },
+    {
+      "text": "Mortar squeezes down",
+      "words": [
+        "Mortar",
+        "squeezes",
+        "down"
+      ],
+      "start": 6.834,
+      "end": 7.799
+    },
+    {
+      "text": "into them and sets",
+      "words": [
+        "into",
+        "them",
+        "and",
+        "sets"
+      ],
+      "start": 7.799,
+      "end": 8.621
+    },
+    {
+      "text": "there,",
+      "words": [
+        "there,"
+      ],
+      "start": 8.621,
+      "end": 9.038
+    },
+    {
+      "text": "so each brick is",
+      "words": [
+        "so",
+        "each",
+        "brick",
+        "is"
+      ],
+      "start": 9.086,
+      "end": 9.766
+    },
+    {
+      "text": "keyed into the one",
+      "words": [
+        "keyed",
+        "into",
+        "the",
+        "one"
+      ],
+      "start": 9.766,
+      "end": 10.41
+    },
+    {
+      "text": "above rather than",
+      "words": [
+        "above",
+        "rather",
+        "than"
+      ],
+      "start": 10.41,
+      "end": 11.382
+    },
+    {
+      "text": "glued along a flat",
+      "words": [
+        "glued",
+        "along",
+        "a",
+        "flat"
+      ],
+      "start": 11.382,
+      "end": 12.24
+    },
+    {
+      "text": "face.",
+      "words": [
+        "face."
+      ],
+      "start": 12.24,
+      "end": 12.764
+    },
+    {
+      "text": "Wet clay also has",
+      "words": [
+        "Wet",
+        "clay",
+        "also",
+        "has"
+      ],
+      "start": 12.878,
+      "end": 14.02
+    },
+    {
+      "text": "to dry and fire",
+      "words": [
+        "to",
+        "dry",
+        "and",
+        "fire"
+      ],
+      "start": 14.02,
+      "end": 15.053
+    },
+    {
+      "text": "without cracking,",
+      "words": [
+        "without",
+        "cracking,"
+      ],
+      "start": 15.053,
+      "end": 15.933
+    },
+    {
+      "text": "and heat reaches the",
+      "words": [
+        "and",
+        "heat",
+        "reaches",
+        "the"
+      ],
+      "start": 15.947,
+      "end": 16.733
+    },
+    {
+      "text": "middle of a perforated",
+      "words": [
+        "middle",
+        "of",
+        "a",
+        "perforated"
+      ],
+      "start": 16.733,
+      "end": 17.769
+    },
+    {
+      "text": "brick far faster than",
+      "words": [
+        "brick",
+        "far",
+        "faster",
+        "than"
+      ],
+      "start": 17.769,
+      "end": 18.769
+    },
+    {
+      "text": "a solid lump.",
+      "words": [
+        "a",
+        "solid",
+        "lump."
+      ],
+      "start": 18.769,
+      "end": 19.615
+    },
+    {
+      "text": "Less clay,",
+      "words": [
+        "Less",
+        "clay,"
+      ],
+      "start": 19.715,
+      "end": 20.399
+    },
+    {
+      "text": "less fuel,",
+      "words": [
+        "less",
+        "fuel,"
+      ],
+      "start": 20.413,
+      "end": 21.132
+    },
+    {
+      "text": "lighter to lift,",
+      "words": [
+        "lighter",
+        "to",
+        "lift,"
+      ],
+      "start": 21.216,
+      "end": 21.99
+    },
+    {
+      "text": "stronger wall.",
+      "words": [
+        "stronger",
+        "wall."
+      ],
+      "start": 22.109,
+      "end": 23.006
+    }
+  ],
+  "words": [
+    {
+      "text": "A",
+      "start": 0.088,
+      "end": 0.125
+    },
+    {
+      "text": "brick",
+      "start": 0.196,
+      "end": 0.392
+    },
+    {
+      "text": "has",
+      "start": 0.464,
+      "end": 0.624
+    },
+    {
+      "text": "holes",
+      "start": 0.678,
+      "end": 0.946
+    },
+    {
+      "text": "punched",
+      "start": 1.053,
+      "end": 1.285
+    },
+    {
+      "text": "straight",
+      "start": 1.322,
+      "end": 1.607
+    },
+    {
+      "text": "through",
+      "start": 1.696,
+      "end": 1.786
+    },
+    {
+      "text": "the",
+      "start": 1.821,
+      "end": 1.893
+    },
+    {
+      "text": "middle,",
+      "start": 1.983,
+      "end": 2.179
+    },
+    {
+      "text": "which",
+      "start": 2.404,
+      "end": 2.512
+    },
+    {
+      "text": "is",
+      "start": 2.547,
+      "end": 2.601
+    },
+    {
+      "text": "an",
+      "start": 2.637,
+      "end": 2.78
+    },
+    {
+      "text": "odd",
+      "start": 2.87,
+      "end": 3.03
+    },
+    {
+      "text": "thing",
+      "start": 3.065,
+      "end": 3.173
+    },
+    {
+      "text": "to",
+      "start": 3.208,
+      "end": 3.28
+    },
+    {
+      "text": "do",
+      "start": 3.334,
+      "end": 3.459
+    },
+    {
+      "text": "to",
+      "start": 3.494,
+      "end": 3.548
+    },
+    {
+      "text": "an",
+      "start": 3.584,
+      "end": 3.655
+    },
+    {
+      "text": "object",
+      "start": 3.745,
+      "end": 3.994
+    },
+    {
+      "text": "whose",
+      "start": 4.012,
+      "end": 4.156
+    },
+    {
+      "text": "whole",
+      "start": 4.228,
+      "end": 4.334
+    },
+    {
+      "text": "job",
+      "start": 4.459,
+      "end": 4.621
+    },
+    {
+      "text": "is",
+      "start": 4.656,
+      "end": 4.745
+    },
+    {
+      "text": "being",
+      "start": 4.781,
+      "end": 4.959
+    },
+    {
+      "text": "solid.",
+      "start": 5.013,
+      "end": 5.299
+    },
+    {
+      "text": "The",
+      "start": 5.55,
+      "end": 5.622
+    },
+    {
+      "text": "holes",
+      "start": 5.675,
+      "end": 5.925
+    },
+    {
+      "text": "make",
+      "start": 6.014,
+      "end": 6.103
+    },
+    {
+      "text": "it",
+      "start": 6.139,
+      "end": 6.192
+    },
+    {
+      "text": "better.",
+      "start": 6.3,
+      "end": 6.532
+    },
+    {
+      "text": "Mortar",
+      "start": 6.834,
+      "end": 7.103
+    },
+    {
+      "text": "squeezes",
+      "start": 7.156,
+      "end": 7.531
+    },
+    {
+      "text": "down",
+      "start": 7.585,
+      "end": 7.746
+    },
+    {
+      "text": "into",
+      "start": 7.799,
+      "end": 7.997
+    },
+    {
+      "text": "them",
+      "start": 8.031,
+      "end": 8.157
+    },
+    {
+      "text": "and",
+      "start": 8.192,
+      "end": 8.282
+    },
+    {
+      "text": "sets",
+      "start": 8.372,
+      "end": 8.567
+    },
+    {
+      "text": "there,",
+      "start": 8.621,
+      "end": 8.818
+    },
+    {
+      "text": "so",
+      "start": 9.086,
+      "end": 9.177
+    },
+    {
+      "text": "each",
+      "start": 9.229,
+      "end": 9.337
+    },
+    {
+      "text": "brick",
+      "start": 9.444,
+      "end": 9.569
+    },
+    {
+      "text": "is",
+      "start": 9.605,
+      "end": 9.712
+    },
+    {
+      "text": "keyed",
+      "start": 9.766,
+      "end": 9.909
+    },
+    {
+      "text": "into",
+      "start": 9.944,
+      "end": 10.087
+    },
+    {
+      "text": "the",
+      "start": 10.123,
+      "end": 10.177
+    },
+    {
+      "text": "one",
+      "start": 10.248,
+      "end": 10.302
+    },
+    {
+      "text": "above",
+      "start": 10.41,
+      "end": 10.677
+    },
+    {
+      "text": "rather",
+      "start": 10.935,
+      "end": 11.132
+    },
+    {
+      "text": "than",
+      "start": 11.186,
+      "end": 11.275
+    },
+    {
+      "text": "glued",
+      "start": 11.382,
+      "end": 11.614
+    },
+    {
+      "text": "along",
+      "start": 11.65,
+      "end": 11.829
+    },
+    {
+      "text": "a",
+      "start": 11.865,
+      "end": 11.918
+    },
+    {
+      "text": "flat",
+      "start": 11.972,
+      "end": 12.133
+    },
+    {
+      "text": "face.",
+      "start": 12.24,
+      "end": 12.544
+    },
+    {
+      "text": "Wet",
+      "start": 12.878,
+      "end": 13.056
+    },
+    {
+      "text": "clay",
+      "start": 13.127,
+      "end": 13.431
+    },
+    {
+      "text": "also",
+      "start": 13.538,
+      "end": 13.771
+    },
+    {
+      "text": "has",
+      "start": 13.86,
+      "end": 13.984
+    },
+    {
+      "text": "to",
+      "start": 14.02,
+      "end": 14.11
+    },
+    {
+      "text": "dry",
+      "start": 14.163,
+      "end": 14.361
+    },
+    {
+      "text": "and",
+      "start": 14.395,
+      "end": 14.521
+    },
+    {
+      "text": "fire",
+      "start": 14.593,
+      "end": 14.842
+    },
+    {
+      "text": "without",
+      "start": 15.053,
+      "end": 15.338
+    },
+    {
+      "text": "cracking,",
+      "start": 15.391,
+      "end": 15.713
+    },
+    {
+      "text": "and",
+      "start": 15.947,
+      "end": 16.019
+    },
+    {
+      "text": "heat",
+      "start": 16.09,
+      "end": 16.251
+    },
+    {
+      "text": "reaches",
+      "start": 16.286,
+      "end": 16.536
+    },
+    {
+      "text": "the",
+      "start": 16.572,
+      "end": 16.679
+    },
+    {
+      "text": "middle",
+      "start": 16.733,
+      "end": 16.947
+    },
+    {
+      "text": "of",
+      "start": 16.983,
+      "end": 17.037
+    },
+    {
+      "text": "a",
+      "start": 17.108,
+      "end": 17.179
+    },
+    {
+      "text": "perforated",
+      "start": 17.251,
+      "end": 17.697
+    },
+    {
+      "text": "brick",
+      "start": 17.769,
+      "end": 17.93
+    },
+    {
+      "text": "far",
+      "start": 18.073,
+      "end": 18.287
+    },
+    {
+      "text": "faster",
+      "start": 18.341,
+      "end": 18.608
+    },
+    {
+      "text": "than",
+      "start": 18.645,
+      "end": 18.716
+    },
+    {
+      "text": "a",
+      "start": 18.769,
+      "end": 18.841
+    },
+    {
+      "text": "solid",
+      "start": 18.894,
+      "end": 19.126
+    },
+    {
+      "text": "lump.",
+      "start": 19.198,
+      "end": 19.395
+    },
+    {
+      "text": "Less",
+      "start": 19.715,
+      "end": 19.858
+    },
+    {
+      "text": "clay,",
+      "start": 19.947,
+      "end": 20.179
+    },
+    {
+      "text": "less",
+      "start": 20.413,
+      "end": 20.59
+    },
+    {
+      "text": "fuel,",
+      "start": 20.662,
+      "end": 20.912
+    },
+    {
+      "text": "lighter",
+      "start": 21.216,
+      "end": 21.394
+    },
+    {
+      "text": "to",
+      "start": 21.43,
+      "end": 21.52
+    },
+    {
+      "text": "lift,",
+      "start": 21.555,
+      "end": 21.77
+    },
+    {
+      "text": "stronger",
+      "start": 22.109,
+      "end": 22.449
+    },
+    {
+      "text": "wall.",
+      "start": 22.538,
+      "end": 22.789
+    }
+  ]
+}

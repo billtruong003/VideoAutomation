@@ -1,0 +1,225 @@
+{
+  "note": "Derived from narration-timing.json. Scene bounds are spoken-phrase bounds; beats are anchored to spoken keywords.",
+  "episode": "padlock-drain-hole",
+  "title": "The Hole In A Padlock Lets Water Out, Not In",
+  "audio": "public/audio/padlock-drain-hole.wav",
+  "fps": 30,
+  "narrationDuration": 23.902,
+  "beatCount": 17,
+  "longestGap": 2.055,
+  "scenes": [
+    {
+      "scene": "hook",
+      "start": 0.106,
+      "end": 6.141,
+      "startFrame": 3,
+      "endFrame": 184,
+      "duration": 6.035,
+      "narration": "Flip a padlock over and there is a small hole in the bottom of it, which looks like an excellent way to let water into an expensive lock.",
+      "background": "OldWorkshop",
+      "note": "The objection is the hook. Let the viewer think it is a design flaw for a beat.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 0.106,
+          "frame": 3,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "Bill turns a padlock over in his hand"
+        },
+        {
+          "t": 2.107,
+          "frame": 63,
+          "tInScene": 2.001,
+          "frameInScene": 60,
+          "action": "the small hole in the base circles teal"
+        },
+        {
+          "t": 4.748,
+          "frame": 142,
+          "tInScene": 4.642,
+          "frameInScene": 139,
+          "action": "a WATER GETS IN? label lands with an arrow pointing inward"
+        },
+        {
+          "t": 3.426,
+          "frame": 103,
+          "tInScene": 3.32,
+          "frameInScene": 100,
+          "action": "Bill tilts the padlock toward the light to see into the hole",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "opposite",
+      "start": 6.41,
+      "end": 7.161,
+      "startFrame": 192,
+      "endFrame": 215,
+      "duration": 0.751,
+      "narration": "It does the opposite.",
+      "background": "OldWorkshop",
+      "note": "Flip the arrow. One beat, one reversal.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 6.803,
+          "frame": 204,
+          "tInScene": 0.393,
+          "frameInScene": 12,
+          "action": "the inward arrow spins around to point outward; the label crosses out"
+        }
+      ]
+    },
+    {
+      "scene": "moisture",
+      "start": 7.368,
+      "end": 13.134,
+      "startFrame": 221,
+      "endFrame": 394,
+      "duration": 5.766,
+      "narration": "A padlock left outdoors collects moisture no matter what you do, from rain, from washing, from the air itself.",
+      "background": "CutawayVoid",
+      "note": "Water arrives from several directions — the point is that you cannot prevent it.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 7.368,
+          "frame": 221,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "the padlock hangs on a gate in cross-section"
+        },
+        {
+          "t": 9.01,
+          "frame": 270,
+          "tInScene": 1.642,
+          "frameInScene": 49,
+          "action": "droplets arrive from rain, from a hose, from damp air"
+        },
+        {
+          "t": 12.508,
+          "frame": 375,
+          "tInScene": 5.14,
+          "frameInScene": 154,
+          "action": "the droplets collect in the lock body and pool at the bottom"
+        },
+        {
+          "t": 10.758,
+          "frame": 323,
+          "tInScene": 3.39,
+          "frameInScene": 102,
+          "action": "more droplets gather and run down the inside of the body",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    },
+    {
+      "scene": "rust",
+      "start": 13.497,
+      "end": 19.562,
+      "startFrame": 405,
+      "endFrame": 587,
+      "duration": 6.065,
+      "narration": "Sealed shut, that water sits on steel springs and pins until they rust into a solid lump, or freeze there overnight.",
+      "background": "CutawayVoid",
+      "note": "The failure this prevents. Springs and pins seizing — mechanical, not dramatic.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 13.497,
+          "frame": 405,
+          "tInScene": 0,
+          "frameInScene": 0,
+          "action": "a sealed lock body fills with standing water"
+        },
+        {
+          "t": 15.342,
+          "frame": 460,
+          "tInScene": 1.845,
+          "frameInScene": 55,
+          "action": "the pin stack and springs draw inside, submerged"
+        },
+        {
+          "t": 17.128,
+          "frame": 514,
+          "tInScene": 3.631,
+          "frameInScene": 109,
+          "action": "the pins corrode and fuse into one solid mass; the key will not turn"
+        },
+        {
+          "t": 18.653,
+          "frame": 560,
+          "tInScene": 5.156,
+          "frameInScene": 155,
+          "action": "the water crystallises to ice; the shackle locks solid"
+        }
+      ]
+    },
+    {
+      "scene": "drains",
+      "start": 19.809,
+      "end": 21.488,
+      "startFrame": 594,
+      "endFrame": 645,
+      "duration": 1.679,
+      "narration": "The hole lets it fall straight back out.",
+      "background": "CutawayVoid",
+      "note": "The fix, and it should feel like relief after the previous scene.",
+      "cast": [],
+      "beats": [
+        {
+          "t": 20.542,
+          "frame": 616,
+          "tInScene": 0.733,
+          "frameInScene": 22,
+          "action": "the hole opens; the pooled water drains straight out and the pins stay clean"
+        }
+      ]
+    },
+    {
+      "scene": "oil",
+      "start": 21.765,
+      "end": 23.659,
+      "startFrame": 653,
+      "endFrame": 710,
+      "duration": 1.894,
+      "narration": "It also gives you somewhere to put a drop of oil.",
+      "background": "OldWorkshop",
+      "note": "Second use, quick. End on Bill hanging the lock back up.",
+      "cast": [
+        "bill"
+      ],
+      "beats": [
+        {
+          "t": 23.463,
+          "frame": 704,
+          "tInScene": 1.698,
+          "frameInScene": 51,
+          "action": "a drop of lubricant enters through the same hole and spreads through the mechanism"
+        },
+        {
+          "t": 23.509,
+          "frame": 705,
+          "tInScene": 1.744,
+          "frameInScene": 52,
+          "action": "Bill snaps the padlock shut and hangs it back on the gate; hard cut",
+          "sync": "final beat"
+        },
+        {
+          "t": 22.005,
+          "frame": 660,
+          "tInScene": 0.24,
+          "frameInScene": 7,
+          "action": "the oil spreads along the pin stack and the shackle frees",
+          "sync": "secondary action — closes a pacing gap"
+        }
+      ]
+    }
+  ]
+}
