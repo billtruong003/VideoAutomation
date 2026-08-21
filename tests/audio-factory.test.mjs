@@ -17,6 +17,10 @@ import { runGates, scoreDelivery, selectTake, DELIVERY_DIMENSIONS, CLOSE_CALL_MA
 import { compareTranscript, normaliseWord, criticalTermsOf, tokenise } from '../src/audio-factory/transcript.mjs';
 import { attachTiming, buildCues, validateCues, cuesToSrt, buildSubtitles, TIMING_METHOD } from '../src/audio-factory/subtitles.mjs';
 import { BATCH_STAGE, EPISODE_STATE, canAdvance, nextStage } from '../src/audio-factory/states.mjs';
+import { lastCueEndOf } from '../src/audio-factory/orchestrator.mjs';
+import { writeFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 
 const EP = {
   id: 'episode-001',
@@ -501,5 +505,63 @@ describe('batch stage barrier', () => {
   it('orders the stages so audio finishes before visual production begins', () => {
     expect(nextStage(BATCH_STAGE.SUBTITLE_VALIDATION)).toBe(BATCH_STAGE.AUDIO_READY);
     expect(nextStage(BATCH_STAGE.AUDIO_READY)).toBe(BATCH_STAGE.VISUAL_PRODUCTION);
+  });
+});
+
+/* ============================================ the handoff to the existing pipeline */
+
+/**
+ * The factory replaced hand-exported files as the front half of an EXISTING pipeline, so the
+ * manifest it writes is a contract, not an output. It shipped once missing `subtitleEnd` --
+ * every downstream check that the subtitle actually belongs to the audio silently stopped
+ * running, and nothing failed loudly enough to notice.
+ */
+describe('handoff manifest', () => {
+  /** Exactly what tools/build-batch.mjs put on each episode. Losing one disables a check. */
+  const BUILD_BATCH_FIELDS = [
+    'n', 'slug', 'title', 'stamp', 'audio', 'subtitle',
+    'rawDuration', 'subtitleEnd', 'words', 'transcript',
+  ];
+
+  it('still lists every field the existing pipeline emitted', () => {
+    // Guards the constant above against being quietly trimmed to match a regression.
+    expect(BUILD_BATCH_FIELDS).toContain('subtitleEnd');
+    expect(new Set(BUILD_BATCH_FIELDS).size).toBe(BUILD_BATCH_FIELDS.length);
+  });
+
+  it('reads the last cue end from an SRT', () => {
+    const srt = join(tmpdir(), `bfo-handoff-${process.pid}.srt`);
+    writeFileSync(srt, [
+      '1', '00:00:00,099 --> 00:00:01,719', 'Stand on an escalator', '',
+      '2', '00:00:15,019 --> 00:00:18,079', 'is pulling your arm off.', '',
+    ].join('\n'));
+    expect(lastCueEndOf(srt)).toBeCloseTo(18.079, 3);
+    rmSync(srt, { force: true });
+  });
+
+  it('reports null rather than zero when there are no cues to read', () => {
+    // Zero would look like a real timestamp and pass a `subtitleEnd < duration` check.
+    const srt = join(tmpdir(), `bfo-handoff-empty-${process.pid}.srt`);
+    writeFileSync(srt, 'not a subtitle file\n');
+    expect(lastCueEndOf(srt)).toBeNull();
+    rmSync(srt, { force: true });
+    expect(lastCueEndOf(join(tmpdir(), 'bfo-handoff-does-not-exist.srt'))).toBeNull();
+  });
+
+  it('takes the last cue, not the largest or the first', () => {
+    const srt = join(tmpdir(), `bfo-handoff-order-${process.pid}.srt`);
+    writeFileSync(srt, [
+      '1', '00:00:00,000 --> 00:00:05,000', 'first', '',
+      '2', '00:00:05,000 --> 00:00:09,500', 'last', '',
+    ].join('\n'));
+    expect(lastCueEndOf(srt)).toBeCloseTo(9.5, 3);
+    rmSync(srt, { force: true });
+  });
+
+  it('parses hours so a long file does not wrap to a small number', () => {
+    const srt = join(tmpdir(), `bfo-handoff-hours-${process.pid}.srt`);
+    writeFileSync(srt, ['1', '01:02:03,004 --> 01:02:04,500', 'x', ''].join('\n'));
+    expect(lastCueEndOf(srt)).toBeCloseTo(3724.5, 3);
+    rmSync(srt, { force: true });
   });
 });

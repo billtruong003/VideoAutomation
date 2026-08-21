@@ -677,9 +677,32 @@ export function advanceStage(batchId) {
  * Same shape `tools/build-batch.mjs` emitted from hand-exported files, written to the same
  * place, so every existing tool downstream works unchanged.
  */
+
+/**
+ * End time of the last cue in an SRT, in seconds, or null if there are none.
+ *
+ * Read back off the written file rather than carried through from the cue objects: the file is
+ * what downstream actually loads, so a discrepancy between the two is exactly the thing this
+ * value exists to catch.
+ */
+export function lastCueEndOf(srtPath) {
+  if (!existsSync(srtPath)) return null;
+  const stamps = [...readFileSync(srtPath, 'utf8')
+    .matchAll(/-->\s*(\d{2}):(\d{2}):(\d{2}),(\d{3})/g)];
+  if (!stamps.length) return null;
+  const [, h, m, s, ms] = stamps[stamps.length - 1];
+  return Math.round((Number(h) * 3600 + Number(m) * 60 + Number(s) + Number(ms) / 1000) * 1000) / 1000;
+}
 export function writeHandoffManifest(batchId, { slugOf = (e) => e.episode_id } = {}) {
   const batch = getBatch(batchId);
   const episodes = batch.episodes.filter((e) => !e.excluded && e.processed_audio);
+
+  /*
+   * Paths go out with forward slashes because that is what build-batch.mjs emitted, and
+   * "same shape" has to include the strings themselves -- a downstream comparison against a
+   * stored path fails on separator alone, on the one platform this repo runs on.
+   */
+  const posix = (p) => String(p).replace(/\\/g, '/');
 
   const manifest = {
     note: 'Produced by the audio factory. Same shape as tools/build-batch.mjs so the existing pipeline is unchanged.',
@@ -688,14 +711,21 @@ export function writeHandoffManifest(batchId, { slugOf = (e) => e.episode_id } =
     count: episodes.length,
     episodes: episodes.map((e, i) => {
       const slug = slugOf(e);
+      const srt = join(ROOT, 'episodes', slug, 'subtitles.srt');
       return {
         n: i + 1,
         slug,
         title: e.title,
         stamp: e.selected_at,
-        audio: e.processed_audio,
-        subtitle: join(ROOT, 'episodes', slug, 'subtitles.srt'),
+        audio: posix(e.processed_audio),
+        subtitle: posix(srt),
         rawDuration: e.takes.find((t) => t.label === e.winning_take)?.duration_s ?? null,
+        /*
+         * The last cue's end time. build-batch.mjs carried this so downstream pair validation
+         * can prove the subtitle belongs to the audio; omitting it silently disabled that check
+         * for every factory-produced batch.
+         */
+        subtitleEnd: lastCueEndOf(srt),
         words: e.content.split(/\s+/).filter(Boolean).length,
         transcript: e.content,
       };
