@@ -35,7 +35,7 @@ const LIMITS = [
 ] as const;
 
 export const Ch04BanksCreateMoney: React.FC = () => {
-  const { at, w } = ctxFor(61, 79);
+  const { at, w, wAfter } = ctxFor(61, 79);
 
   return (
     <>
@@ -169,7 +169,7 @@ export const Ch04BanksCreateMoney: React.FC = () => {
       {/* ---- 3:19-3:32 your money is someone else's debt ---- */}
       <Sequence from={at(199.2)}>
         <Camera push={0.04} frames={at(212.6) - at(199.2)}>
-          <Sequence from={w('deposit') - at(199.2) - 6}>
+          <Sequence from={wAfter('deposit', at(199.2)) - at(199.2) - 6}>
             <Node at={{ x: 560, y: 400 }} label="YOUR DEPOSIT" sub="an asset, to you" width={420} height={130} tone={C.green} />
             <Yolk slug="thumbs-up-wink" height={220} x={560} y={720} anchor="bottom" />
           </Sequence>

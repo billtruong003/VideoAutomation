@@ -42,7 +42,7 @@ const CASCADE = [
 ] as const;
 
 export const Ch11CreditCrisis: React.FC = () => {
-  const { at, w } = ctxFor(182, 193);
+  const { at, w, wAfter } = ctxFor(182, 193);
 
   return (
     <>
@@ -188,7 +188,7 @@ export const Ch11CreditCrisis: React.FC = () => {
             </SlideIn>
           </Sequence>
         ))}
-        <Sequence from={w('podcast') - at(542.2) - 6}>
+        <Sequence from={wAfter('podcast', at(542.2)) - at(542.2) - 6}>
           <PopIn>
             <StockWindow id="market-crash-screen-1" x={STAGE.cx} y={800} width={520} height={230} frames={120} />
           </PopIn>

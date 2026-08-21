@@ -28,7 +28,7 @@ const QUESTIONS = [
 ] as const;
 
 export const Ch10Trust: React.FC = () => {
-  const { at, w } = ctxFor(168, 181);
+  const { at, w, wAfter } = ctxFor(168, 181);
 
   return (
     <>
@@ -119,7 +119,7 @@ export const Ch10Trust: React.FC = () => {
             </Plate>
           </PopIn>
         </Sequence>
-        <Sequence from={w('not') - at(491.2) - 4}>
+        <Sequence from={wAfter('not', at(491.2)) - at(491.2) - 4}>
           <PopIn>
             <Plate x={1490} y={420} width={520} height={180} size={T.label} tone="red" fill={C.redSoft} sub="THE MONEY DISAPPEARS">
               ABSOLUTELY NOT

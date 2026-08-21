@@ -23,7 +23,7 @@ import { Camera, FadeIn, Float, PopIn, Pulse, SlideIn } from '../components/Moti
 import { ctxFor, STAGE } from './kit';
 
 export const Ch02TimeMachine: React.FC = () => {
-  const { at, w } = ctxFor(23, 39);
+  const { at, w, wAfter } = ctxFor(23, 39);
 
   return (
     <>
@@ -94,7 +94,7 @@ export const Ch02TimeMachine: React.FC = () => {
             ]}
           />
 
-          <Sequence from={w('bank') - at(66.2) - 6}>
+          <Sequence from={wAfter('bank', at(66.2)) - at(66.2) - 6}>
             <Yolk slug="at-the-bank" height={280} x={330} y={430} anchor="bottom" />
           </Sequence>
           <Sequence from={w('future', 1) - at(66.2) - 6}>

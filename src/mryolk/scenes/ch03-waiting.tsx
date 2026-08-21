@@ -32,7 +32,7 @@ const BORROWERS = [
 ] as const;
 
 export const Ch03WaitingIsExpensive: React.FC = () => {
-  const { at, w } = ctxFor(40, 60);
+  const { at, w, wAfter } = ctxFor(40, 60);
 
   return (
     <>
@@ -134,7 +134,7 @@ export const Ch03WaitingIsExpensive: React.FC = () => {
             <Label x={1180} y={770} size={T.note} weight={900} caps width={420}>impressive spreadsheet</Label>
           </PopIn>
         </Sequence>
-        <Sequence from={w('twenty') - at(111.6) - 2}>
+        <Sequence from={wAfter('twenty', w('twelve')) - at(111.6) - 2}>
           <Pulse at={4} amount={0.14}>
             <Yolk slug="new-factory-sparkle" height={220} x={1620} y={690} anchor="center" />
           </Pulse>
@@ -166,7 +166,7 @@ export const Ch03WaitingIsExpensive: React.FC = () => {
         <Camera push={0.04} frames={at(150.6) - at(136.4)}>
           <HeroWord y={150} delay={2} tone="green" size={66}>so instead, you borrow</HeroWord>
 
-          <Sequence from={w('borrow') - at(136.4)}>
+          <Sequence from={wAfter('borrow', at(136.4)) - at(136.4)}>
             <PopIn>
               <Yolk slug="doc-business-loan" height={230} x={300} y={470} anchor="center" />
             </PopIn>

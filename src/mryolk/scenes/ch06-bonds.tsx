@@ -31,7 +31,7 @@ const BUYERS = [
 ] as const;
 
 export const Ch06GovernmentBonds: React.FC = () => {
-  const { at, w } = ctxFor(91, 123);
+  const { at, w, wAfter } = ctxFor(91, 123);
 
   return (
     <>
@@ -178,7 +178,7 @@ export const Ch06GovernmentBonds: React.FC = () => {
             matures={[
               w('matures', 1) - at(311.2),
               w('matures', 2) - at(311.2),
-              w('so') - at(311.2),
+              wAfter('so', w('matures', 2)) - at(311.2),
             ]}
           />
 
@@ -190,7 +190,7 @@ export const Ch06GovernmentBonds: React.FC = () => {
             </FadeIn>
           </Sequence>
 
-          <Sequence from={w('Basically') - at(311.2) - 4}>
+          <Sequence from={wAfter('Basically', at(311.2)) - at(311.2) - 4}>
             <PopIn>
               <Plate x={STAGE.cx} y={830} width={760} height={110} size={T.label} tone="ink">
                 “I’ll pay you Tuesday.”

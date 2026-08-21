@@ -33,8 +33,21 @@ const TONE: Record<TextTone, string> = {
  * slightly, which is invisible, while under-estimating collides, which is not.
  */
 const estimateWidth = (text: string, size: number, weight: number, caps: boolean, track: number) => {
-  const perChar = (caps ? 0.62 : 0.53) + (weight >= 900 ? 0.03 : 0);
-  return text.length * (size * perChar + track);
+  const heavy = weight >= 900 ? 0.03 : 0;
+  /*
+   * Measured per character rather than per string, because `caps` only says whether CSS will
+   * uppercase the text — it says nothing about text that arrives uppercase already. Treating
+   * "LENDERS DEMAND MORE" as lower-case under-measures it by about a sixth, which is exactly
+   * enough to push it through the sides of its own box.
+   */
+  let units = 0;
+  for (const ch of text) {
+    if (ch === ' ') units += 0.30;
+    else if (caps || (ch >= 'A' && ch <= 'Z')) units += 0.73;
+    else if ('ijltfrI.,:;\'`|!'.includes(ch)) units += 0.34;
+    else units += 0.58;
+  }
+  return units * (size + heavy * size) + text.length * track;
 };
 
 /** Split on authored line breaks, so a two-line label is measured as two lines. */
@@ -191,6 +204,20 @@ export const Plate: React.FC<{
   const widest = Math.max(...lines.map((l) => estimateWidth(l.trim(), size, 800, false, 0)));
   const room = width - 34;
   const shown = widest > room ? Math.max(13, size * (room / widest)) : size;
+
+  /*
+   * The sub-label is measured separately. It is often the longer of the two — "LENDERS DEMAND
+   * MORE" under "MAYBE" — and sizing it as a fixed fraction of the main label let it wrap and
+   * clip through the bottom border of its own box.
+   */
+  const subSize = (() => {
+    const base = shown * 0.46;
+    if (!sub) return base;
+    // A little tighter than the main label's margin: the sub sits closer to the corners.
+    const subRoom = width - 46;
+    const est = estimateWidth(sub, base, 700, false, 0);
+    return est > subRoom ? Math.max(11, base * (subRoom / est)) : base;
+  })();
   return (
     <div style={{
       position: 'absolute',
@@ -219,7 +246,7 @@ export const Plate: React.FC<{
     >
       <div style={{ whiteSpace: 'pre-line' }}>{children}</div>
       {sub && (
-        <div style={{ fontSize: shown * 0.46, fontWeight: 700, color: C.inkSoft, marginTop: 6 }}>
+        <div style={{ fontSize: subSize, fontWeight: 700, color: C.inkSoft, marginTop: 6, whiteSpace: 'nowrap' }}>
           {sub}
         </div>
       )}
