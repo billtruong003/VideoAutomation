@@ -1,258 +1,258 @@
 {
-  "generatedAt": "2026-08-21T05:14:13.738Z",
-  "maxSeconds": 16,
+  "generatedAt": "2026-08-21T05:43:02.185Z",
+  "proxySeconds": 30,
   "proxies": {
     "construction-frozen-1": {
       "file": "mryolk/stock/proxy/construction-frozen-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 22678979,
-      "proxyBytes": 5497684
+      "proxyBytes": 10364484
     },
     "construction-frozen-2": {
       "file": "mryolk/stock/proxy/construction-frozen-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 62893080,
-      "proxyBytes": 14936919
+      "proxyBytes": 23647514
     },
     "suburban-houses-1": {
       "file": "mryolk/stock/proxy/suburban-houses-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 36968525,
-      "proxyBytes": 15450604
+      "proxyBytes": 29107972
     },
     "suburban-houses-2": {
       "file": "mryolk/stock/proxy/suburban-houses-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 18703623,
-      "proxyBytes": 16787824
+      "proxyBytes": 29639909
     },
     "factory-industrial-1": {
       "file": "mryolk/stock/proxy/factory-industrial-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.013,
       "fullBleed": false,
       "sourceBytes": 10069413,
-      "proxyBytes": 7099062
+      "proxyBytes": 13293070
     },
     "factory-industrial-2": {
       "file": "mryolk/stock/proxy/factory-industrial-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 7760501,
-      "proxyBytes": 5858416
+      "proxyBytes": 10950796
     },
     "airliner-airport-1": {
       "file": "mryolk/stock/proxy/airliner-airport-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 9876031,
-      "proxyBytes": 3788785
+      "proxyBytes": 7065411
     },
     "airliner-airport-2": {
       "file": "mryolk/stock/proxy/airliner-airport-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 16620875,
-      "proxyBytes": 4106701
+      "proxyBytes": 7782401
     },
     "farm-tractor-1": {
       "file": "mryolk/stock/proxy/farm-tractor-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 17710367,
-      "proxyBytes": 16045287
+      "proxyBytes": 27949837
     },
     "farm-tractor-2": {
       "file": "mryolk/stock/proxy/farm-tractor-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 29318156,
-      "proxyBytes": 20494991
+      "proxyBytes": 38459665
     },
     "highway-interchange-1": {
       "file": "mryolk/stock/proxy/highway-interchange-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 19520162,
-      "proxyBytes": 9124616
+      "proxyBytes": 17599765
     },
     "highway-interchange-2": {
       "file": "mryolk/stock/proxy/highway-interchange-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 72551862,
-      "proxyBytes": 12788230
+      "proxyBytes": 25074950
     },
     "city-financial-district-1": {
       "file": "mryolk/stock/proxy/city-financial-district-1.mp4",
       "width": 1920,
       "height": 1080,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": true,
       "sourceBytes": 15484985,
-      "proxyBytes": 15921124
+      "proxyBytes": 30221526
     },
     "city-financial-district-2": {
       "file": "mryolk/stock/proxy/city-financial-district-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 16090527,
-      "proxyBytes": 8924382
+      "proxyBytes": 15700030
     },
     "trading-screens-1": {
       "file": "mryolk/stock/proxy/trading-screens-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 4324162,
-      "proxyBytes": 4869755
+      "proxyBytes": 9070786
     },
     "trading-screens-2": {
       "file": "mryolk/stock/proxy/trading-screens-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 749194,
-      "proxyBytes": 707090
+      "proxyBytes": 1350329
     },
     "luxury-yacht-1": {
       "file": "mryolk/stock/proxy/luxury-yacht-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.013,
       "fullBleed": false,
       "sourceBytes": 24155220,
-      "proxyBytes": 10519222
+      "proxyBytes": 20240447
     },
     "luxury-yacht-2": {
       "file": "mryolk/stock/proxy/luxury-yacht-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 15242132,
-      "proxyBytes": 12972746
+      "proxyBytes": 24206402
     },
     "market-crash-screen-1": {
       "file": "mryolk/stock/proxy/market-crash-screen-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 3349862,
-      "proxyBytes": 3263789
+      "proxyBytes": 6141255
     },
     "market-crash-screen-2": {
       "file": "mryolk/stock/proxy/market-crash-screen-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 13137363,
-      "proxyBytes": 4938587
+      "proxyBytes": 9220947
     },
     "bridge-infrastructure-1": {
       "file": "mryolk/stock/proxy/bridge-infrastructure-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 6900720,
-      "proxyBytes": 2615346
+      "proxyBytes": 4974196
     },
     "bridge-infrastructure-2": {
       "file": "mryolk/stock/proxy/bridge-infrastructure-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.013,
       "fullBleed": false,
       "sourceBytes": 69264705,
-      "proxyBytes": 19289465
+      "proxyBytes": 37311212
     },
     "city-night-aerial-1": {
       "file": "mryolk/stock/proxy/city-night-aerial-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 35305546,
-      "proxyBytes": 12898412
+      "proxyBytes": 24175459
     },
     "city-night-aerial-2": {
       "file": "mryolk/stock/proxy/city-night-aerial-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 18656661,
-      "proxyBytes": 9807085
+      "proxyBytes": 18672872
     },
     "crowd-people-1": {
       "file": "mryolk/stock/proxy/crowd-people-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 22719742,
-      "proxyBytes": 10988957
+      "proxyBytes": 19666366
     },
     "crowd-people-2": {
       "file": "mryolk/stock/proxy/crowd-people-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 7087949,
-      "proxyBytes": 20282866
+      "proxyBytes": 39190233
     },
     "sunrise-skyline-1": {
       "file": "mryolk/stock/proxy/sunrise-skyline-1.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16,
+      "durationSeconds": 30,
       "fullBleed": false,
       "sourceBytes": 5679433,
-      "proxyBytes": 1326690
+      "proxyBytes": 2497879
     },
     "sunrise-skyline-2": {
       "file": "mryolk/stock/proxy/sunrise-skyline-2.mp4",
       "width": 1280,
       "height": 720,
-      "durationSeconds": 16.016,
+      "durationSeconds": 30.03,
       "fullBleed": false,
       "sourceBytes": 26911455,
-      "proxyBytes": 5254333
+      "proxyBytes": 10069203
     }
   }
 }

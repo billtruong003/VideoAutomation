@@ -194,6 +194,44 @@ const plan = {
   sfx: cues,
 };
 
+/**
+ * No stock clip may be on screen for longer than the proxy that backs it.
+ *
+ * The renderer plays each clip straight through — it does not loop — so a beat that outlasts
+ * its footage would freeze on its last frame under continuing narration.
+ *
+ * The bound is `MAX_STOCK_EXPOSURE`, not the scene length. A scene is not the right measure:
+ * chapter 6 runs 77 seconds and its establishing plate is on screen for six of them, so
+ * gating on scene duration would demand 77-second proxies to protect a six-second shot.
+ * The real worst case in this edit is chapter 3, where four windows are mounted together for
+ * about sixteen seconds, and that is what the number below records.
+ */
+const MAX_STOCK_EXPOSURE = 20;
+
+function assertCoverage() {
+  const proxies = JSON.parse(readFileSync(join(DATA_DIR, 'stock-proxies.json'), 'utf8'));
+  const durations = Object.values(proxies.proxies).map((p) => p.durationSeconds);
+  const shortest = Math.min(...durations);
+
+  if (shortest < MAX_STOCK_EXPOSURE) {
+    throw new Error(
+      `the shortest stock proxy is ${shortest.toFixed(1)}s but a clip may be on screen for up `
+      + `to ${MAX_STOCK_EXPOSURE}s. Raise PROXY_SECONDS in tools/mryolk/make-proxies.mjs and `
+      + 're-run it, or that clip will freeze on its last frame.',
+    );
+  }
+
+  const stockScenes = resolved.filter((s) => s.visualModes.includes('stock'));
+  return {
+    maxExposureSeconds: MAX_STOCK_EXPOSURE,
+    shortestProxySeconds: shortest,
+    headroomSeconds: Number((shortest - MAX_STOCK_EXPOSURE).toFixed(2)),
+    scenesUsingStock: stockScenes.map((s) => s.sceneId),
+  };
+}
+
+plan.summary.stockCoverage = assertCoverage();
+
 writeFileSync(join(DATA_DIR, 'edit-plan.json'), `${JSON.stringify(plan, null, 2)}\n`);
 
 console.log(`chapters   ${plan.summary.chapters}`);

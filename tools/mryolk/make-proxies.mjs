@@ -19,11 +19,16 @@
  *   pixels any window shows. The handful used FULL-BLEED keep 1920x1080, because those really
  *   do fill the frame and downscaling them would be visible.
  *
- *   LENGTH. Every clip is capped at `MAX_SECONDS`. They loop anyway, and a shorter file means
- *   less to seek through and less to hold in memory.
+ *   LENGTH. Every clip is looped AT ENCODE TIME to `PROXY_SECONDS`, which is longer than the
+ *   longest beat any of them has to cover. This is the second reason the proxies exist, and
+ *   it removes a whole class of render failure: with a long-enough clip the renderer plays it
+ *   straight through and never seeks, whereas wrapping a short clip with Remotion's `<Loop>`
+ *   kept asking the compositor for a frame past the end of the file
+ *   ("No frame found at position ...") and killed two full renders outright. Repeating the
+ *   footage is a job ffmpeg does once, reliably, offline.
  *
- *   GOP. A keyframe every second, so a seek to an arbitrary time never has to decode a long
- *   run of inter-frames to get there — which is precisely what a looping clip does constantly.
+ *   GOP. A keyframe every second, so any seek lands on or near an I-frame instead of decoding
+ *   a long run of inter-frames to get there.
  *
  * The originals are left untouched and remain the licensing record; `stock-provenance.json`
  * keeps describing what was actually downloaded. The proxy table is separate, and the
@@ -37,7 +42,14 @@ import { FFMPEG, probeDuration } from '../ffbin.mjs';
 import { DATA_DIR, STOCK_DIR } from './config.mjs';
 
 const PROXY_DIR = join(STOCK_DIR, 'proxy');
-const MAX_SECONDS = 16;
+/**
+ * How long every proxy is made, by repeating the source until it reaches this length.
+ *
+ * Must exceed the longest continuous exposure any single clip gets in the edit — the four
+ * windows in chapter 3 are the worst case at about 16s. `assertCoverage()` in
+ * `export-edit-plan.mjs` fails the pipeline if a scene ever outgrows this.
+ */
+const PROXY_SECONDS = 30;
 
 /**
  * Clips that are shown edge to edge and therefore keep full resolution.
@@ -54,7 +66,7 @@ const provenance = JSON.parse(readFileSync(join(DATA_DIR, 'stock-provenance.json
 
 mkdirSync(PROXY_DIR, { recursive: true });
 
-const table = { generatedAt: new Date().toISOString(), maxSeconds: MAX_SECONDS, proxies: {} };
+const table = { generatedAt: new Date().toISOString(), proxySeconds: PROXY_SECONDS, proxies: {} };
 let savedBytes = 0;
 
 for (const asset of provenance.assets) {
@@ -69,12 +81,14 @@ for (const asset of provenance.assets) {
   const full = FULL_BLEED.has(asset.stockId);
   const height = full ? 1080 : 720;
   const out = join(PROXY_DIR, `${asset.stockId}.mp4`);
-  const seconds = Math.min(asset.durationSeconds ?? MAX_SECONDS, MAX_SECONDS);
 
   if (!existsSync(out)) {
     execFileSync(FFMPEG, [
       '-hide_banner', '-nostdin', '-v', 'error', '-y',
-      '-t', String(seconds), '-i', src,
+      // Repeat the source until the output reaches PROXY_SECONDS. The renderer then plays a
+      // single continuous clip and never has to seek past the end of one.
+      '-stream_loop', '-1', '-i', src,
+      '-t', String(PROXY_SECONDS),
       '-an',
       '-vf', `scale=-2:${height}:flags=bicubic`,
       '-c:v', 'libx264', '-preset', 'medium', '-crf', '20',

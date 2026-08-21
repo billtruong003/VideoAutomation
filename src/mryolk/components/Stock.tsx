@@ -25,27 +25,11 @@
  */
 
 import React from 'react';
-import { Img, Loop, OffthreadVideo, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
+import { Img, OffthreadVideo, interpolate, useCurrentFrame } from 'remotion';
 import { stock, stockSrc } from '../assets';
 import { C } from '../theme';
 
 export type Readability = 'none' | 'light' | 'strong';
-
-/**
- * How many frames of a clip to loop over — deliberately short of its real end.
- *
- * A container's reported duration is where the stream STOPS, not where its last decodable
- * frame STARTS, and asking the compositor for a time in the gap between those two fails the
- * render outright ("No frame found at position ..."). The margin is a third of a second,
- * which is far more than any real discrepancy and completely invisible on a looping
- * background plate.
- */
-const LOOP_SAFETY_SECONDS = 0.35;
-
-const loopFrames = (durationSeconds: number | null, fps: number): number => {
-  const usable = (durationSeconds ?? 6) - LOOP_SAFETY_SECONDS;
-  return Math.max(1, Math.floor(usable * fps));
-};
 
 const VEIL: Record<Readability, { blur: number; veil: number; saturate: number; brightness: number }> = {
   none: { blur: 0, veil: 0, saturate: 1, brightness: 1 },
@@ -75,7 +59,6 @@ export const StockPlate: React.FC<PlateProps> = ({
 }) => {
   const entry = stock(id);
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
   const t = interpolate(frame, [0, frames], [0, 1], { extrapolateRight: 'clamp' });
   const cfg = VEIL[readability];
 
@@ -104,18 +87,16 @@ export const StockPlate: React.FC<PlateProps> = ({
     <div style={box}>
       {entry.kind === 'video' ? (
         /*
-         * Clips are routinely shorter than the beat they cover. `OffthreadVideo` has no loop
-         * of its own, so the repeat is done with `Loop` around it, sized from the duration
-         * recorded in the provenance file at research time — the renderer must not be asked
-         * to inspect a media file to find out how long it is.
+         * Played straight through, never looped at render time.
          *
-         * Looping rather than holding the last frame: on the landscape and city plates used
-         * here the loop point is invisible, whereas a frozen final frame under continuing
-         * narration always reads as a playback fault.
+         * The repeat that makes a short clip cover a long beat happens once, in ffmpeg, when
+         * the proxy is built — see `tools/mryolk/make-proxies.mjs`. Doing it here instead,
+         * with Remotion's `<Loop>`, is what killed two complete renders: the compositor kept
+         * being asked for a frame slightly past the end of the file and failed the whole job
+         * with "No frame found at position ...". A clip that is simply longer than the beat
+         * cannot produce that request at all.
          */
-        <Loop durationInFrames={loopFrames(entry.durationSeconds, fps)}>
-          <OffthreadVideo src={stockSrc(id)} style={media} muted startFrom={startFrom} />
-        </Loop>
+        <OffthreadVideo src={stockSrc(id)} style={media} muted startFrom={startFrom} />
       ) : (
         <Img src={stockSrc(id)} style={media} />
       )}
