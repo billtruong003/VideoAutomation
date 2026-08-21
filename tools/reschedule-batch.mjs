@@ -41,7 +41,28 @@ const members = new Set((await api('GET',
 const results = [];
 console.log(`\n  RESCHEDULE${DRY ? ' (dry run)' : ''} — ${plan.length} videos\n`);
 
+/**
+ * Stop the batch cleanly on a quota failure, wherever it surfaces.
+ *
+ * Quota is a daily budget, not a transient fault: retrying returns the same answer. It can hit
+ * on a READ as easily as a write, so the guard wraps the whole iteration rather than just the
+ * update -- an earlier version caught it only around scheduleVideo and still died with a stack
+ * trace when the preceding read ran out.
+ */
+const quotaStop = (e, err) => {
+  if (err.reason !== 'quotaExceeded') return false;
+  const moved = results.filter((r) => r.state === 'RESCHEDULED_VERIFIED' || r.state === 'ALREADY_AT_TARGET').length;
+  console.log(`
+  QUOTA EXHAUSTED at ${e.contentId}.`);
+  console.log(`  ${moved} of ${plan.length} are at their corrected time; ${plan.length - moved} still to move.`);
+  console.log('  The YouTube Data API budget is daily and resets at 00:00 America/Los_Angeles.');
+  console.log('  Re-run this command after the reset — it skips whatever is already correct.');
+  writeFileSync('tmp/reschedule-results.json', JSON.stringify(results, null, 2));
+  return true;
+};
+
 for (const e of plan) {
+ try {
   // Snapshot everything that must NOT change, before touching anything.
   const before = await readVideo(e.videoId);
   if (!before) { console.log(`  ${e.contentId}: not found`); continue; }
@@ -55,8 +76,28 @@ for (const e of plan) {
     categoryId: before.snippet.categoryId,
     defaultLanguage: before.snippet.defaultLanguage,
   };
-  const capsBefore = (await api('GET',
-    `https://www.googleapis.com/youtube/v3/captions?part=snippet&videoId=${e.videoId}`)).items ?? [];
+  /*
+   * Caption tracks are deliberately NOT read here. captions.list costs 50 units per video --
+   * the same as the update itself -- and changing publishAt cannot affect a caption track.
+   * Paying 400 units to re-prove that is what turned a cheap correction into a quota failure.
+   * They are verified once, cheaply, at the end.
+   */
+
+  const expectedEarly = e.publishAtUtc.replace('.000Z', 'Z');
+
+  /*
+   * Already there? Skip it.
+   *
+   * A batch of 50-unit writes can run out of daily quota partway through, and the natural
+   * response is to run the tool again -- which must resume, not redo. Comparing against the
+   * live value makes every run idempotent, and makes "how many are left" a fact rather than
+   * something the operator has to remember.
+   */
+  if (before.status.publishAt === expectedEarly) {
+    console.log(`  ${e.contentId.padEnd(22)} ${e.videoId}  ${expectedEarly}  ALREADY_AT_TARGET`);
+    results.push({ ...e, actualPublishAt: expectedEarly, state: 'ALREADY_AT_TARGET' });
+    continue;
+  }
 
   if (DRY) {
     console.log(`  ${e.contentId.padEnd(22)} would set ${e.publishAtUtc}`);
@@ -71,8 +112,6 @@ for (const e of plan) {
     await new Promise((r) => { setTimeout(r, 2500); });
     after = await readVideo(e.videoId);
   }
-  const capsAfter = (await api('GET',
-    `https://www.googleapis.com/youtube/v3/captions?part=snippet&videoId=${e.videoId}`)).items ?? [];
 
   const expected = e.publishAtUtc.replace('.000Z', 'Z');
   const check = {
@@ -87,7 +126,6 @@ for (const e of plan) {
     category: after?.snippet?.categoryId === snap.categoryId,
     processing: (after?.processingDetails?.processingStatus ?? 'succeeded') === 'succeeded',
     playlist: members.has(e.videoId),
-    captions: capsAfter.length === capsBefore.length,
   };
   const ok = Object.values(check).every(Boolean);
 
@@ -101,6 +139,10 @@ for (const e of plan) {
     + `${ok ? 'RESCHEDULED_VERIFIED' : `NEEDS_REVIEW (${failed.join(', ')})`}`);
 
   results.push({ ...e, actualPublishAt: after?.status?.publishAt ?? null, check, state: ok ? 'RESCHEDULED_VERIFIED' : 'NEEDS_REVIEW' });
+ } catch (err) {
+  if (quotaStop(e, err)) process.exit(2);
+  throw err;
+ }
 }
 
 if (!DRY) {

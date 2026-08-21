@@ -1,70 +1,57 @@
-# Batch 001 — corrected release calendar
+# Batch 001 — corrected release calendar (Seoul-anchored)
 
-Supersedes the schedule in `BATCH_001_RELEASE_RECORD.md`. The original plan ran
-2026-08-27 → 2026-08-31 at 19:00 / 22:00; the user then published one video and
-scheduled a second by hand, and the rest were compacted forward.
+Supersedes the New York-anchored table in the previous revision.
 
-**Live YouTube state is the source of truth for this table.** Every value was read back
-from the API after the change.
+## Why the dates moved again
 
-## Slots
+The slots are 18:30 and 21:30 **America/New_York** — that is where the audience decision
+lives, and it has not changed. What was wrong was the anchor: a New York evening lands on
+the FOLLOWING morning in Seoul, so anchoring the block on "New York 22 Aug" put the first
+video on **Sunday 23rd** for the person reading the calendar. The block is now anchored on
+the first **Seoul** date, and the New York start day is derived from it rather than assumed.
 
-Two per day at **18:30** and **21:30 America/New_York** — thirty minutes ahead of the
-original 19:00 / 22:00, so each Short is already circulating as the larger US evening
-audience arrives rather than landing exactly on the peak. There is one `publishAt`; the
-video goes public at the earlier time.
+Each day-pair also lands on a single Seoul date: 18:30 and 21:30 New York become 07:30 and
+10:30 the next morning in Seoul, so "two per day" holds in both calendars.
 
 ## Calendar
 
-| New York | Seoul | UTC | Episode | Title | YouTube ID | State |
-|---|---|---|---|---|---|---|
-| Thu 20 Aug, 06:14 | Thu 20 Aug, 19:14 | 2026-08-20T10:14:37Z | jeans-watch-pocket | That Tiny Pocket on Your Jeans Has a Real Job | `b7vUEK2GeQg` | PUBLIC |
-| Thu 20 Aug, 21:30 | Fri 21 Aug, 10:30 | 2026-08-21T01:30:00Z | round-manhole-covers | The Hidden Reason Manhole Covers Are Round | `pO4eFDH534M` | MANUAL — UNTOUCHED |
-| Sat 22 Aug, 18:30 | Sun 23 Aug, 07:30 | 2026-08-22T22:30:00Z | gas-pump-shutoff | How a Gas Pump Knows Your Tank Is Full | `Ruuk2YGns0Q` | RESCHEDULED_VERIFIED |
-| Sat 22 Aug, 21:30 | Sun 23 Aug, 10:30 | 2026-08-23T01:30:00Z | airplane-window-hole | Why Do Airplane Windows Have That Hole? | `v-GrIqc4mwU` | RESCHEDULED_VERIFIED |
-| Sun 23 Aug, 18:30 | Mon 24 Aug, 07:30 | 2026-08-23T22:30:00Z | microwave-door-mesh | How Microwave Doors Use That Mesh | `Dw-KxQHtOvo` | RESCHEDULED_VERIFIED |
-| Sun 23 Aug, 21:30 | Mon 24 Aug, 10:30 | 2026-08-24T01:30:00Z | pen-cap-hole | Your Pen Cap Has a Hole You've Never Used | `ta84aK1fBME` | RESCHEDULED_VERIFIED |
-| Mon 24 Aug, 18:30 | Tue 25 Aug, 07:30 | 2026-08-24T22:30:00Z | highway-lane-lines | What Are Those Lane Lines on a Highway For? | `NtuMydEt_Pg` | RESCHEDULED_VERIFIED |
-| Mon 24 Aug, 21:30 | Tue 25 Aug, 10:30 | 2026-08-25T01:30:00Z | fuel-door-arrow | That Tiny Arrow on Your Car Has a Real Job | `i-szEklcZek` | RESCHEDULED_VERIFIED |
-| Tue 25 Aug, 18:30 | Wed 26 Aug, 07:30 | 2026-08-25T22:30:00Z | escalator-brushes | How Does an Escalator Use Those Brushes? | `oZW3qt1rWIo` | RESCHEDULED_VERIFIED |
-| Tue 25 Aug, 21:30 | Wed 26 Aug, 10:30 | 2026-08-26T01:30:00Z | old-book-smell | What You're Actually Smelling in an Old Book | `Ji69OrC8YFQ` | RESCHEDULED_VERIFIED |
+| Seoul | New York | UTC | Episode | YouTube ID | State |
+|---|---|---|---|---|---|
+| Thu 20 Aug, 19:14 | Thu 20 Aug, 06:14 | 2026-08-20T10:14:37Z | jeans-watch-pocket | `b7vUEK2GeQg` | PUBLIC — untouched |
+| Fri 21 Aug, 10:30 | Thu 20 Aug, 21:30 | 2026-08-21T01:30:00Z | round-manhole-covers | `pO4eFDH534M` | MANUAL — untouched |
+| Sat 22 Aug, 07:30 | Fri 21 Aug, 18:30 | 2026-08-21T22:30:00.000Z | gas-pump-shutoff | `Ruuk2YGns0Q` | RESCHEDULED_VERIFIED |
+| Sat 22 Aug, 10:30 | Fri 21 Aug, 21:30 | 2026-08-22T01:30:00.000Z | airplane-window-hole | `v-GrIqc4mwU` | PENDING — quota |
+| Sun 23 Aug, 07:30 | Sat 22 Aug, 18:30 | 2026-08-22T22:30:00.000Z | microwave-door-mesh | `Dw-KxQHtOvo` | PENDING — quota |
+| Sun 23 Aug, 10:30 | Sat 22 Aug, 21:30 | 2026-08-23T01:30:00.000Z | pen-cap-hole | `ta84aK1fBME` | PENDING — quota |
+| Mon 24 Aug, 07:30 | Sun 23 Aug, 18:30 | 2026-08-23T22:30:00.000Z | highway-lane-lines | `NtuMydEt_Pg` | PENDING — quota |
+| Mon 24 Aug, 10:30 | Sun 23 Aug, 21:30 | 2026-08-24T01:30:00.000Z | fuel-door-arrow | `i-szEklcZek` | PENDING — quota |
+| Tue 25 Aug, 07:30 | Mon 24 Aug, 18:30 | 2026-08-24T22:30:00.000Z | escalator-brushes | `oZW3qt1rWIo` | PENDING — quota |
+| Tue 25 Aug, 10:30 | Mon 24 Aug, 21:30 | 2026-08-25T01:30:00.000Z | old-book-smell | `Ji69OrC8YFQ` | PENDING — quota |
 
-## What changed
+## Outstanding: daily API quota
 
-| Episode | YouTube ID | Old publishAt | New publishAt | Verified |
-|---|---|---|---|---|
-| gas-pump-shutoff | `Ruuk2YGns0Q` | 2026-08-28T23:00:00Z | 2026-08-22T22:30:00.000Z | yes |
-| airplane-window-hole | `v-GrIqc4mwU` | 2026-08-29T23:00:00Z | 2026-08-23T01:30:00.000Z | yes |
-| microwave-door-mesh | `Dw-KxQHtOvo` | 2026-08-29T02:00:00Z | 2026-08-23T22:30:00.000Z | yes |
-| pen-cap-hole | `ta84aK1fBME` | 2026-08-30T02:00:00Z | 2026-08-24T01:30:00.000Z | yes |
-| highway-lane-lines | `NtuMydEt_Pg` | 2026-08-30T23:00:00Z | 2026-08-24T22:30:00.000Z | yes |
-| fuel-door-arrow | `i-szEklcZek` | 2026-08-31T23:00:00Z | 2026-08-25T01:30:00.000Z | yes |
-| escalator-brushes | `oZW3qt1rWIo` | 2026-08-31T02:00:00Z | 2026-08-25T22:30:00.000Z | yes |
-| old-book-smell | `Ji69OrC8YFQ` | 2026-09-01T02:00:00Z | 2026-08-26T01:30:00.000Z | yes |
+The correction stopped partway through on `quotaExceeded`. Ten uploads at 1,600 units each
+had already spent well past the 10,000-unit daily allowance before the schedule change
+began, and a schedule update costs 50 units on top of that.
 
-## Order
+`gas-pump-shutoff` moved before the budget ran out; **seven remain**. Nothing publishes
+incorrectly in the meantime — the earliest un-corrected video is not due until well after
+the reset.
 
-Two swaps against the approved order, both forced by compaction rather than by taste.
-Removing the published and the manually-scheduled episode from the middle of the ten
-pulled pairs together that were never adjacent in the plan the user approved:
+Quota resets at **00:00 America/Los_Angeles**. To finish:
 
-- `airplane-window-hole` and `microwave-door-mesh` swapped — otherwise day 1 carried two
-  MECHANISM titles both opening "How".
-- `fuel-door-arrow` and `escalator-brushes` swapped — otherwise day 3 carried two
-  QUESTION titles, and day 2 paired two episodes both about a hole.
+```bash
+node tools/finish-reschedule.mjs
+```
 
-All eight permutations were enumerated; this is the collision-free order closest to the
-one approved. No title, description or tag was regenerated.
+It is idempotent: it skips whatever is already at its target time, moves the rest, then
+rebuilds the analytics checkpoints from the live publish instants. It exits with code 2 if
+quota is still exhausted. A scheduled task is also armed to run it automatically after the
+reset.
 
 ## Untouched
 
 | Episode | YouTube ID | Why |
 |---|---|---|
 | jeans-watch-pocket | `b7vUEK2GeQg` | already public — published by hand 2026-08-20T10:14:37Z |
-| round-manhole-covers | `pO4eFDH534M` | scheduled by hand for today, 21:30 New York |
-
-## Analytics
-
-50 checkpoints rebuilt from the corrected publish instants at +1h, +6h, +24h, +72h, +7d.
-The 50 keyed to the old schedule were cancelled as SUPERSEDED rather than deleted, so the
-record of what was planned survives.
+| round-manhole-covers | `pO4eFDH534M` | scheduled by hand for 21:30 New York / 10:30 Seoul |
