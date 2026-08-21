@@ -163,10 +163,31 @@ export function generateTags(brief, { transcript = '' } = {}) {
      * does, and reads like something a person would actually type into search.
      */
     if (nouns.kind === 'PROPERTY') {
-      add(`why ${subj} are ${norm(nouns.property ?? feat)}`, 'NATURAL_QUERY');
-      add(`${norm(nouns.property ?? '')} ${subj}`.trim(), 'NATURAL_QUERY');
+      const prop = norm(nouns.property ?? feat);
+      /*
+       * A property that is ALREADY part of the subject's name makes both templates
+       * tautological: a revolving door produced "why revolving doors are revolving" and
+       * "revolving revolving doors". Nobody searches for either.
+       */
+      const inName = prop.split(' ').some((w) => subj.split(' ').includes(w));
+      /*
+       * Mass nouns take a singular verb. `aluminum foil` has the same singular and plural
+       * form, and the fixed "are" produced "why aluminum foil are shiny".
+       */
+      const isMass = norm(nouns.subject.many) === norm(nouns.subject.one);
+      if (!inName) {
+        add(`why ${subj} ${isMass ? 'is' : 'are'} ${prop}`, 'NATURAL_QUERY');
+        add(`${prop} ${subj}`.trim(), 'NATURAL_QUERY');
+      }
     } else if (nouns.kind === 'PHENOMENON') {
-      add(`why ${subj} ${feat}`, 'NATURAL_QUERY');
+      /*
+       * A phenomenon named as a GERUND cannot follow its subject directly: "why receipts
+       * fading" and "why airplane cabins dimming" are both missing a verb. Named as a plain
+       * verb it works — "why old books smell" — so the -ing case takes a different shape
+       * rather than a broken one.
+       */
+      if (/ing$/.test(feat)) add(`${feat} in ${subj}`, 'NATURAL_QUERY');
+      else add(`why ${subj} ${feat}`, 'NATURAL_QUERY');
       add(`what causes ${object}`, 'NATURAL_QUERY');
     } else {
       add(`why ${subj} have ${feat}`, 'NATURAL_QUERY');

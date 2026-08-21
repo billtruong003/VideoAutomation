@@ -1,0 +1,62 @@
+{
+  "note": "Catalogue only. The audio itself is NOT in this repository — see rights status per pack.",
+  "generatedFrom": "audio_source table, tools/audio-scan.mjs",
+  "packs": [
+    {
+      "pack": "meme_SFX_Pack",
+      "files": 1728,
+      "megabytes": 225,
+      "provenance": "USER_PROVIDED_UNKNOWN_LICENSE",
+      "risk": {
+        "avoid": 1074,
+        "review": 639,
+        "usable": 15
+      },
+      "shortlisted": 0,
+      "importedIntoRepo": 0,
+      "sourceRoot": "C:/Users/ducnq/Downloads/meme_SFX_Pack"
+    },
+    {
+      "pack": "meme-sfx",
+      "files": 1723,
+      "megabytes": 196,
+      "provenance": "USER_PROVIDED_UNKNOWN_LICENSE",
+      "risk": {
+        "avoid": 968,
+        "review": 710,
+        "usable": 45
+      },
+      "shortlisted": 0,
+      "importedIntoRepo": 0,
+      "sourceRoot": "C:/Users/ducnq/Downloads/meme-sfx"
+    },
+    {
+      "pack": "Tiktok_Trends_Pack",
+      "files": 278,
+      "megabytes": 42,
+      "provenance": "USER_PROVIDED_UNKNOWN_LICENSE",
+      "risk": {
+        "avoid": 160,
+        "review": 117,
+        "usable": 1
+      },
+      "shortlisted": 0,
+      "importedIntoRepo": 0,
+      "sourceRoot": "C:/Users/ducnq/Downloads/Tiktok_Trends_Pack"
+    },
+    {
+      "pack": "BG_SneakyMusic",
+      "files": 4,
+      "megabytes": 23,
+      "provenance": "USER_PROVIDED_UNKNOWN_LICENSE",
+      "risk": {
+        "avoid": 0,
+        "review": 4,
+        "usable": 0
+      },
+      "shortlisted": 4,
+      "importedIntoRepo": 4,
+      "sourceRoot": "C:/Users/ducnq/Downloads/BG_SneakyMusic"
+    }
+  ]
+}

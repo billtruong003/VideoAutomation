@@ -1,0 +1,232 @@
+{
+  "batch": "batch-002",
+  "timezone": "America/New_York",
+  "slots": [
+    "18:30",
+    "21:30"
+  ],
+  "startLocalDate": "2026-08-26",
+  "generatedFrom": "research score + family/mechanism/title diversity constraints",
+  "entries": [
+    {
+      "n": 1,
+      "slug": "tactile-paving",
+      "title": "The Bumpy Tiles On The Sidewalk Are A Two-Word Language",
+      "score": 94,
+      "family": "public",
+      "mechanism": "accessibility",
+      "publishAt": "2026-08-26T22:30:00.000Z",
+      "ny": "2026-08-26  18:30",
+      "kst": "2026-08-27  07:30"
+    },
+    {
+      "n": 2,
+      "slug": "thermal-receipt-fade",
+      "title": "Your Receipt Was Never Printed With Ink",
+      "score": 88,
+      "family": "personal",
+      "mechanism": "chemistry",
+      "publishAt": "2026-08-27T01:30:00.000Z",
+      "ny": "2026-08-26  21:30",
+      "kst": "2026-08-27  10:30"
+    },
+    {
+      "n": 3,
+      "slug": "tape-measure-hook",
+      "title": "That Wobbly Tape Measure Hook Is Not Broken",
+      "score": 92,
+      "family": "personal",
+      "mechanism": "mechanical",
+      "publishAt": "2026-08-27T22:30:00.000Z",
+      "ny": "2026-08-27  18:30",
+      "kst": "2026-08-28  07:30"
+    },
+    {
+      "n": 4,
+      "slug": "foil-shiny-dull",
+      "title": "The Shiny Side Of Foil Is A Manufacturing Accident",
+      "score": 88,
+      "family": "food",
+      "mechanism": "manufacturing",
+      "publishAt": "2026-08-28T01:30:00.000Z",
+      "ny": "2026-08-27  21:30",
+      "kst": "2026-08-28  10:30"
+    },
+    {
+      "n": 5,
+      "slug": "airplane-ashtray",
+      "title": "Planes Still Have Ashtrays And It's Not An Oversight",
+      "score": 91,
+      "family": "aviation",
+      "mechanism": "regulation",
+      "publishAt": "2026-08-28T22:30:00.000Z",
+      "ny": "2026-08-28  18:30",
+      "kst": "2026-08-29  07:30"
+    },
+    {
+      "n": 6,
+      "slug": "ferrite-choke",
+      "title": "Charger Cables Have A Lump That Stops Them Broadcasting",
+      "score": 85,
+      "family": "personal",
+      "mechanism": "emi",
+      "publishAt": "2026-08-29T01:30:00.000Z",
+      "ny": "2026-08-28  21:30",
+      "kst": "2026-08-29  10:30"
+    },
+    {
+      "n": 7,
+      "slug": "beer-bottle-brown-glass",
+      "title": "Light Turns Beer Into Something Close To Skunk Spray",
+      "score": 91,
+      "family": "food",
+      "mechanism": "photochemistry",
+      "publishAt": "2026-08-29T22:30:00.000Z",
+      "ny": "2026-08-29  18:30",
+      "kst": "2026-08-30  07:30"
+    },
+    {
+      "n": 8,
+      "slug": "sneaker-lace-lock",
+      "title": "Sneakers Come With An Anti-Blister Setting",
+      "score": 87,
+      "family": "personal",
+      "mechanism": "friction",
+      "publishAt": "2026-08-30T01:30:00.000Z",
+      "ny": "2026-08-29  21:30",
+      "kst": "2026-08-30  10:30"
+    },
+    {
+      "n": 9,
+      "slug": "revolving-door",
+      "title": "A Revolving Door Is Solving A Problem You Can't See",
+      "score": 90,
+      "family": "public",
+      "mechanism": "pressure",
+      "publishAt": "2026-08-30T22:30:00.000Z",
+      "ny": "2026-08-30  18:30",
+      "kst": "2026-08-31  07:30"
+    },
+    {
+      "n": 10,
+      "slug": "third-brake-light",
+      "title": "Why Cars Got A Third Brake Light",
+      "score": 86,
+      "family": "car",
+      "mechanism": "vision",
+      "publishAt": "2026-08-31T01:30:00.000Z",
+      "ny": "2026-08-30  21:30",
+      "kst": "2026-08-31  10:30"
+    },
+    {
+      "n": 11,
+      "slug": "windshield-frit-dots",
+      "title": "What The Black Dots Around Your Windshield Are Doing",
+      "score": 90,
+      "family": "car",
+      "mechanism": "materials",
+      "publishAt": "2026-08-31T22:30:00.000Z",
+      "ny": "2026-08-31  18:30",
+      "kst": "2026-09-01  07:30"
+    },
+    {
+      "n": 12,
+      "slug": "toilet-seat-gap",
+      "title": "Public Toilet Seats Have That Gap Because Of A Rulebook",
+      "score": 86,
+      "family": "public",
+      "mechanism": "regulation",
+      "publishAt": "2026-09-01T01:30:00.000Z",
+      "ny": "2026-08-31  21:30",
+      "kst": "2026-09-01  10:30"
+    },
+    {
+      "n": 13,
+      "slug": "coin-reeded-edges",
+      "title": "Your Quarter Is Still Protecting Silver It Doesn't Have",
+      "score": 89,
+      "family": "personal",
+      "mechanism": "anti-fraud",
+      "publishAt": "2026-09-01T22:30:00.000Z",
+      "ny": "2026-09-01  18:30",
+      "kst": "2026-09-02  07:30"
+    },
+    {
+      "n": 14,
+      "slug": "convex-mirror-warning",
+      "title": "Why One Of Your Car Mirrors Comes With A Warning",
+      "score": 87,
+      "family": "car",
+      "mechanism": "optics",
+      "publishAt": "2026-09-02T01:30:00.000Z",
+      "ny": "2026-09-01  21:30",
+      "kst": "2026-09-02  10:30"
+    },
+    {
+      "n": 15,
+      "slug": "soda-can-neck",
+      "title": "Why Soda Cans Get Narrower At The Top",
+      "score": 89,
+      "family": "food",
+      "mechanism": "economics",
+      "publishAt": "2026-09-02T22:30:00.000Z",
+      "ny": "2026-09-02  18:30",
+      "kst": "2026-09-03  07:30"
+    },
+    {
+      "n": 16,
+      "slug": "railway-ballast",
+      "title": "That Gravel Under Train Tracks Isn't Landscaping",
+      "score": 85,
+      "family": "infra",
+      "mechanism": "load",
+      "publishAt": "2026-09-03T01:30:00.000Z",
+      "ny": "2026-09-02  21:30",
+      "kst": "2026-09-03  10:30"
+    },
+    {
+      "n": 17,
+      "slug": "cabin-lights-dim",
+      "title": "Why The Cabin Lights Go Down Before Landing",
+      "score": 88,
+      "family": "aviation",
+      "mechanism": "vision",
+      "publishAt": "2026-09-03T22:30:00.000Z",
+      "ny": "2026-09-03  18:30",
+      "kst": "2026-09-04  07:30"
+    },
+    {
+      "n": 18,
+      "slug": "brick-holes",
+      "title": "A Brick Has Holes For Three Different Reasons",
+      "score": 84,
+      "family": "infra",
+      "mechanism": "manufacturing",
+      "publishAt": "2026-09-04T01:30:00.000Z",
+      "ny": "2026-09-03  21:30",
+      "kst": "2026-09-04  10:30"
+    },
+    {
+      "n": 19,
+      "slug": "chip-bag-nitrogen",
+      "title": "Chip Bags Are Not Filled With Air",
+      "score": 88,
+      "family": "food",
+      "mechanism": "gas",
+      "publishAt": "2026-09-04T22:30:00.000Z",
+      "ny": "2026-09-04  18:30",
+      "kst": "2026-09-05  07:30"
+    },
+    {
+      "n": 20,
+      "slug": "padlock-drain-hole",
+      "title": "The Hole In A Padlock Lets Water Out, Not In",
+      "score": 82,
+      "family": "personal",
+      "mechanism": "drainage",
+      "publishAt": "2026-09-05T01:30:00.000Z",
+      "ny": "2026-09-04  21:30",
+      "kst": "2026-09-05  10:30"
+    }
+  ]
+}

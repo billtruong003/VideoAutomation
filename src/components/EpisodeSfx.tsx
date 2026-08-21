@@ -56,6 +56,29 @@ const RULES: Rule[] = [
   { test: /ticks?|clock hands|counts?/i, file: 'tick', volume: 0.18, weight: 'TEXTURE' },
   { test: /rattles?|shuffles?|stacks? up|clutter|flakes?|dust/i, file: 'chip-clack', volume: 0.16, weight: 'TEXTURE' },
   { test: /flashes?|pulses?|flickers?|beeps?/i, file: 'blip', volume: 0.16, weight: 'TEXTURE' },
+
+  /*
+   * BATCH 002 VOCABULARY.
+   *
+   * The rules above were written by reading Batch 001's storyboards, where beats say "pops
+   * in", "slams", "crossed out", "circles teal". Batch 002's beats describe the same KINDS of
+   * event in different words -- "highlights", "draws in", "fills", "lights teal", "rotates" --
+   * and matched almost none of them. The batch averaged 4.5 cues against Batch 001's 6.0, and
+   * one episode got two.
+   *
+   * The fix belongs here rather than in the storyboards. This table is a map from "what the
+   * picture does" to "what that sounds like", and a second batch simply extended the
+   * vocabulary; rewording twenty storyboards so they match a regex would be writing the
+   * script to suit the test. Every entry below is an event that genuinely makes a sound when
+   * it happens on screen -- nothing was added to raise the count.
+   */
+  { test: /shatters?|splits? apart|cracks? (?:through|along)|punches? (?:in|through)/i, file: 'impact', volume: 0.26, weight: 'STRUCTURAL' },
+  { test: /highlights?|lights? (?:teal|coral|gold|up)|lit\b|saturates?|brightens?/i, file: 'reveal-sting', volume: 0.2, weight: 'STRUCTURAL' },
+  { test: /clamps?|locks? (?:against|closed|together)|wedges?|seizes?|cinches?|fuses?/i, file: 'tick', volume: 0.22, weight: 'STRUCTURAL' },
+  { test: /rotates?|turns? (?:over|slowly|a|once)|spins?|peels? (?:away|apart|open)|separates?/i, file: 'whoosh', volume: 0.19, weight: 'STRUCTURAL' },
+  { test: /drains?|floods?|pours?|escapes? (?:through|out)|feeds? through|travels? (?:through|with)/i, file: 'whoosh', volume: 0.18, weight: 'STRUCTURAL' },
+  { test: /fills?\b|draws? in|redraws?|stamps? in|multiplies|form(?:s)? across/i, file: 'pop', volume: 0.18, weight: 'TEXTURE' },
+  { test: /widens?|spreads?|blooms?|grades?|thins? (?:toward|out)|shrinks?/i, file: 'blip', volume: 0.15, weight: 'TEXTURE' },
 ];
 
 /** Beats that are purely a held expression or a look get nothing. */
