@@ -1,0 +1,348 @@
+{
+  "provider": "pexels",
+  "kind": "photos",
+  "params": {
+    "query": "industrial factory interior machinery",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:30:00.472Z",
+  "fetchedAtMs": 1787279400472,
+  "data": {
+    "page": 1,
+    "per_page": 15,
+    "photos": [
+      {
+        "id": 30335395,
+        "width": 7728,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/industrial-workshop-with-vintage-machinery-30335395/",
+        "photographer": "Sami TÜRK",
+        "photographer_url": "https://www.pexels.com/@trksami",
+        "photographer_id": 227884429,
+        "avg_color": "#302E22",
+        "src": {
+          "original": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg",
+          "large2x": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/30335395/pexels-photo-30335395.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A rustic industrial workshop filled with vintage machinery and tools."
+      },
+      {
+        "id": 38336747,
+        "width": 6864,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/modern-beverage-bottling-factory-interior-38336747/",
+        "photographer": "BI ravencrow",
+        "photographer_url": "https://www.pexels.com/@biravencrow",
+        "photographer_id": 2154273033,
+        "avg_color": "#5F5F5F",
+        "src": {
+          "original": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg",
+          "large2x": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38336747/pexels-photo-38336747.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Interior view of an automated beverage bottling factory with machinery and conveyor belts."
+      },
+      {
+        "id": 34718930,
+        "width": 7008,
+        "height": 4672,
+        "url": "https://www.pexels.com/photo/industrial-factory-interior-with-conveyor-34718930/",
+        "photographer": "Yetkin Ağaç",
+        "photographer_url": "https://www.pexels.com/@yetkin-agac-664866326",
+        "photographer_id": 664866326,
+        "avg_color": "#5F554C",
+        "src": {
+          "original": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg",
+          "large2x": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/34718930/pexels-photo-34718930.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Wide view of a modern factory interior showcasing industrial machinery and conveyor systems."
+      },
+      {
+        "id": 34221997,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/high-tech-industrial-manufacturing-facility-34221997/",
+        "photographer": "Freek Wolsink",
+        "photographer_url": "https://www.pexels.com/@freek-wolsink-508219",
+        "photographer_id": 508219,
+        "avg_color": "#8E8D89",
+        "src": {
+          "original": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg",
+          "large2x": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Modern industrial machine in operation in a manufacturing facility showcasing advanced technology."
+      },
+      {
+        "id": 34718926,
+        "width": 7008,
+        "height": 4672,
+        "url": "https://www.pexels.com/photo/industrial-factory-interior-with-conveyor-belt-34718926/",
+        "photographer": "Yetkin Ağaç",
+        "photographer_url": "https://www.pexels.com/@yetkin-agac-664866326",
+        "photographer_id": 664866326,
+        "avg_color": "#5F554C",
+        "src": {
+          "original": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg",
+          "large2x": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/34718926/pexels-photo-34718926.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Inside view of an industrial factory featuring conveyor belts and empty walkways."
+      },
+      {
+        "id": 34718922,
+        "width": 7008,
+        "height": 4672,
+        "url": "https://www.pexels.com/photo/industrial-factory-floor-with-machinery-and-crates-34718922/",
+        "photographer": "Yetkin Ağaç",
+        "photographer_url": "https://www.pexels.com/@yetkin-agac-664866326",
+        "photographer_id": 664866326,
+        "avg_color": "#4D4C4A",
+        "src": {
+          "original": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg",
+          "large2x": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Vast industrial factory floor with machinery, crates, and structured workstations."
+      },
+      {
+        "id": 30112375,
+        "width": 6240,
+        "height": 4160,
+        "url": "https://www.pexels.com/photo/industrial-granite-cutting-machine-in-factory-30112375/",
+        "photographer": "Deane Bayas",
+        "photographer_url": "https://www.pexels.com/@dbaler",
+        "photographer_id": 1335011,
+        "avg_color": "#858180",
+        "src": {
+          "original": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg",
+          "large2x": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/30112375/pexels-photo-30112375.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Modern industrial setting with a large granite cutting machine in action inside a factory."
+      },
+      {
+        "id": 10039994,
+        "width": 7952,
+        "height": 5304,
+        "url": "https://www.pexels.com/photo/heavy-machineries-inside-a-production-plant-10039994/",
+        "photographer": "Los Muertos Crew",
+        "photographer_url": "https://www.pexels.com/@cristian-rojas",
+        "photographer_id": 11924337,
+        "avg_color": "#5F5B40",
+        "src": {
+          "original": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg",
+          "large2x": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/10039994/pexels-photo-10039994.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of heavy machinery inside an industrial factory with focus on ironworks and conveyor systems."
+      },
+      {
+        "id": 30335251,
+        "width": 7728,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/abandoned-industrial-factory-with-vintage-machinery-30335251/",
+        "photographer": "Sami TÜRK",
+        "photographer_url": "https://www.pexels.com/@trksami",
+        "photographer_id": 227884429,
+        "avg_color": "#46514B",
+        "src": {
+          "original": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg",
+          "large2x": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/30335251/pexels-photo-30335251.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Interior of an old factory showcasing vintage machines and equipment."
+      },
+      {
+        "id": 36823725,
+        "width": 9061,
+        "height": 6031,
+        "url": "https://www.pexels.com/photo/modern-industrial-food-production-facility-interior-36823725/",
+        "photographer": "Adrien Olichon",
+        "photographer_url": "https://www.pexels.com/@adrien-olichon-1257089",
+        "photographer_id": 1257089,
+        "avg_color": "#5D6059",
+        "src": {
+          "original": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg",
+          "large2x": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/36823725/pexels-photo-36823725.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Spacious and modern food production plant interior with industrial machinery and processing line."
+      },
+      {
+        "id": 36423805,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/glass-bottle-production-line-in-factory-36423805/",
+        "photographer": "Keegan Checks",
+        "photographer_url": "https://www.pexels.com/@keeganjchecks",
+        "photographer_id": 1434513,
+        "avg_color": "#62504C",
+        "src": {
+          "original": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg",
+          "large2x": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/36423805/pexels-photo-36423805.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Glass bottles on a production line in a modern glass factory, showcasing industrial automation."
+      },
+      {
+        "id": 34718931,
+        "width": 7008,
+        "height": 4672,
+        "url": "https://www.pexels.com/photo/spacious-industrial-interior-of-an-empty-factory-34718931/",
+        "photographer": "Yetkin Ağaç",
+        "photographer_url": "https://www.pexels.com/@yetkin-agac-664866326",
+        "photographer_id": 664866326,
+        "avg_color": "#32332E",
+        "src": {
+          "original": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg",
+          "large2x": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/34718931/pexels-photo-34718931.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Moody industrial interior showcasing spaciousness and machinery in an empty factory setting."
+      },
+      {
+        "id": 5532664,
+        "width": 6184,
+        "height": 4123,
+        "url": "https://www.pexels.com/photo/aluminum-cans-passing-through-the-assembly-line-5532664/",
+        "photographer": "cottonbro studio",
+        "photographer_url": "https://www.pexels.com/@cottonbro",
+        "photographer_id": 1437723,
+        "avg_color": "#838183",
+        "src": {
+          "original": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg",
+          "large2x": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/5532664/pexels-photo-5532664.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Automated beverage can packaging in a modern factory setting."
+      },
+      {
+        "id": 30990853,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/spacious-industrial-factory-interior-in-brazil-30990853/",
+        "photographer": "Jhonny' Mages",
+        "photographer_url": "https://www.pexels.com/@jhonny-mages-2149929716",
+        "photographer_id": 2149929716,
+        "avg_color": "#B79F95",
+        "src": {
+          "original": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg",
+          "large2x": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/30990853/pexels-photo-30990853.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Wide view of an organized industrial factory with modern machinery in Pato Branco."
+      },
+      {
+        "id": 30335372,
+        "width": 7728,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/vintage-industrial-machines-in-abandoned-workshop-30335372/",
+        "photographer": "Sami TÜRK",
+        "photographer_url": "https://www.pexels.com/@trksami",
+        "photographer_id": 227884429,
+        "avg_color": "#3B4039",
+        "src": {
+          "original": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg",
+          "large2x": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/30335372/pexels-photo-30335372.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Old industrial machines in an abandoned workshop with vintage tools and equipment."
+      }
+    ],
+    "total_results": 8000,
+    "next_page": "https://api.pexels.com/v1/v1/search?orientation=landscape&page=2&per_page=15&query=industrial+factory+interior+machinery&size=large"
+  }
+}

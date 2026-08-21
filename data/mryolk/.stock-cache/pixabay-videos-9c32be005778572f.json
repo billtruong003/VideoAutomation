@@ -1,0 +1,766 @@
+{
+  "provider": "pixabay",
+  "kind": "videos",
+  "params": {
+    "query": "luxury yacht ocean",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:31:30.197Z",
+  "fetchedAtMs": 1787279490197,
+  "data": {
+    "total": 13791,
+    "totalHits": 500,
+    "hits": [
+      {
+        "id": 31660,
+        "pageURL": "https://pixabay.com/videos/id-31660/",
+        "type": "film",
+        "tags": "monaco, harbor, sea, ocean, port, city, marina, luxury, mediterranean, tourism, europe, travel, coast, summer, bay, yachts, boats, water, landscape, vacation",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7348388,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3167008,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1931222,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 667735,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/28/31660-387972246_tiny.jpg"
+          }
+        },
+        "views": 12520,
+        "downloads": 6520,
+        "likes": 95,
+        "comments": 15,
+        "user_id": 12802865,
+        "user": "caelan",
+        "userImageURL": "https://cdn.pixabay.com/user/2019/06/17/21-12-27-546_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/12802865/",
+        "name": "monaco, harbor, sea"
+      },
+      {
+        "id": 246840,
+        "pageURL": "https://pixabay.com/videos/id-246840/",
+        "type": "film",
+        "tags": "aerial, drone, city, hong kong, asia, buildings, skyline, landscape, skyscrapers, architecture, travel, downtown, harbor, bay, victoria, yacht, ship, luxury, boat, sea, water, port, clouds, mountains",
+        "duration": 16,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246840_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 60007974,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246840_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246840_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 25411489,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246840_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246840_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 14379149,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246840_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246840_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 4017561,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246840_tiny.jpg"
+          }
+        },
+        "views": 1977,
+        "downloads": 1110,
+        "likes": 17,
+        "comments": 0,
+        "user_id": 47663777,
+        "user": "ImbaStock",
+        "userImageURL": "",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/47663777/",
+        "name": "aerial, drone, city"
+      },
+      {
+        "id": 14484,
+        "pageURL": "https://pixabay.com/videos/id-14484/",
+        "type": "film",
+        "tags": "cruise, ship, sea, travel, ocean, vacation, boat, cruise ship, water, holiday, luxury, tourism, sail, sky, nautical, passenger, summer, tropical, transportation, voyage, caribbean, vessel, liner, cruising, tourist, trip, journey, sunset, transport, yacht, sailing, blue, people, destination, port, relax, deck",
+        "duration": 20,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 55417608,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 30051647,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 12513335,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 6240448,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/02/24/14484-257440745_tiny.jpg"
+          }
+        },
+        "views": 23908,
+        "downloads": 12022,
+        "likes": 123,
+        "comments": 25,
+        "user_id": 3184449,
+        "user": "wastedgeneration",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/09/28/07-13-09-75_250x250.jpeg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/3184449/",
+        "name": "cruise, ship, sea"
+      },
+      {
+        "id": 246839,
+        "pageURL": "https://pixabay.com/videos/id-246839/",
+        "type": "film",
+        "tags": "aerial, drone, city, hong kong, asia, buildings, skyline, landscape, skyscrapers, architecture, travel, downtown, harbor, bay, victoria, yacht, ship, luxury, boat, sea, water, port, clouds, mountains",
+        "duration": 13,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246839_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 33809465,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246839_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246839_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 14347223,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246839_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246839_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 8723517,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246839_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246839_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 2750073,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246839_tiny.jpg"
+          }
+        },
+        "views": 844,
+        "downloads": 347,
+        "likes": 11,
+        "comments": 1,
+        "user_id": 47663777,
+        "user": "ImbaStock",
+        "userImageURL": "",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/47663777/",
+        "name": "aerial, drone, city"
+      },
+      {
+        "id": 246843,
+        "pageURL": "https://pixabay.com/videos/id-246843/",
+        "type": "film",
+        "tags": "aerial, drone, city, hong kong, asia, buildings, skyline, landscape, skyscrapers, architecture, travel, downtown, harbor, bay, victoria, yacht, ship, luxury, boat, sea, water, port, clouds, mountains",
+        "duration": 19,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246843_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 56758743,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246843_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246843_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 24854001,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246843_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246843_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 15276203,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246843_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2024/12/15/246843_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 4924075,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/12/15/246843_tiny.jpg"
+          }
+        },
+        "views": 1009,
+        "downloads": 468,
+        "likes": 13,
+        "comments": 0,
+        "user_id": 47663777,
+        "user": "ImbaStock",
+        "userImageURL": "",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/47663777/",
+        "name": "aerial, drone, city"
+      },
+      {
+        "id": 363905,
+        "pageURL": "https://pixabay.com/videos/id-363905/",
+        "type": "animation",
+        "tags": "ai generated, yacht, luxury, cruise, travel, lifestyle, sunset, sea, ocean, lighthouse, deck, boat, exclusive, vacation",
+        "duration": 25,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/07/13/363905_large.mp4",
+            "width": 2160,
+            "height": 3840,
+            "size": 48120406,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/07/13/363905_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/07/13/363905_medium.mp4",
+            "width": 1440,
+            "height": 2560,
+            "size": 19678268,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/07/13/363905_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/07/13/363905_small.mp4",
+            "width": 1080,
+            "height": 1920,
+            "size": 12343598,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/07/13/363905_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/07/13/363905_tiny.mp4",
+            "width": 720,
+            "height": 1280,
+            "size": 4774791,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/07/13/363905_tiny.jpg"
+          }
+        },
+        "views": 407,
+        "downloads": 338,
+        "likes": 20,
+        "comments": 4,
+        "user_id": 5871510,
+        "user": "doktorkleinmusic",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/02/24/10-11-55-994_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/5871510/",
+        "name": "ai generated, yacht, luxury"
+      },
+      {
+        "id": 106066,
+        "pageURL": "https://pixabay.com/videos/id-106066/",
+        "type": "film",
+        "tags": "billionaire, blue, boat, boats, business, coast, cruise, cruise ship, exclusive, expensive, freedom, holiday, journey, large, leisure, lifestyle, luxury, luxury lifestyle, mediterranean, mega yacht, millionaire, modern, motor, motor yacht, ocean",
+        "duration": 25,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 52400057,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 27480544,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 15853414,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 7833865,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/01/29/106066-672600111_tiny.jpg"
+          }
+        },
+        "views": 23701,
+        "downloads": 11082,
+        "likes": 136,
+        "comments": 16,
+        "user_id": 25471995,
+        "user": "redemoka",
+        "userImageURL": "https://cdn.pixabay.com/user/2022/02/04/23-16-22-614_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/25471995/",
+        "name": "billionaire, blue, boat"
+      },
+      {
+        "id": 286049,
+        "pageURL": "https://pixabay.com/videos/id-286049/",
+        "type": "animation",
+        "tags": "yacht, ship, sea, ocean, wealth, luxury, turquoise, summer, sky, generated to",
+        "duration": 5,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/06/15/286049_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 5141303,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/06/15/286049_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/06/15/286049_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 1924709,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/06/15/286049_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/06/15/286049_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1198346,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/06/15/286049_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/06/15/286049_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 554651,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/06/15/286049_tiny.jpg"
+          }
+        },
+        "views": 1678,
+        "downloads": 1103,
+        "likes": 26,
+        "comments": 2,
+        "user_id": 9822790,
+        "user": "davidexyz",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/07/14/16-11-42-816_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/9822790/",
+        "name": "yacht, ship, sea"
+      },
+      {
+        "id": 351290,
+        "pageURL": "https://pixabay.com/videos/id-351290/",
+        "type": "animation",
+        "tags": "ai generated, yacht, luxury, boat, sea, travel, lifestyle, evening, water, cruise, view, interior, ocean, relax, exclusive, journey",
+        "duration": 17,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/05/07/351290_large.mp4",
+            "width": 2160,
+            "height": 3868,
+            "size": 30720692,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/05/07/351290_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/05/07/351290_medium.mp4",
+            "width": 1440,
+            "height": 2578,
+            "size": 13297836,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/05/07/351290_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/05/07/351290_small.mp4",
+            "width": 1080,
+            "height": 1934,
+            "size": 8242576,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/05/07/351290_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/05/07/351290_tiny.mp4",
+            "width": 720,
+            "height": 1289,
+            "size": 3252672,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/05/07/351290_tiny.jpg"
+          }
+        },
+        "views": 1049,
+        "downloads": 668,
+        "likes": 16,
+        "comments": 2,
+        "user_id": 5871510,
+        "user": "doktorkleinmusic",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/02/24/10-11-55-994_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/5871510/",
+        "name": "ai generated, yacht, luxury"
+      },
+      {
+        "id": 123707,
+        "pageURL": "https://pixabay.com/videos/id-123707/",
+        "type": "film",
+        "tags": "boats, yacht, sea, antalya, sailing, turkey, fethiye, anchor, boat, marina, drone çekimi, sailboat, kale, travel, myra, ruins, wind, old city marina, ocean, coast, monohull, sails, luxury yacht, sailing around the world",
+        "duration": 15,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 8721113,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 4610409,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 3125366,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 1350241,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/07/10/123707-728698095_tiny.jpg"
+          }
+        },
+        "views": 2268,
+        "downloads": 703,
+        "likes": 16,
+        "comments": 2,
+        "user_id": 12333174,
+        "user": "alihondavlat",
+        "userImageURL": "https://cdn.pixabay.com/user/2022/08/30/05-17-48-707_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/12333174/",
+        "name": "boats, yacht, sea"
+      },
+      {
+        "id": 329846,
+        "pageURL": "https://pixabay.com/videos/id-329846/",
+        "type": "animation",
+        "tags": "underwater, sea, nature, water, ocean, dive, swim, fish, coral, yacht, boat, ship, luxury, travel, luxurious, tropical, beach, ai generated",
+        "duration": 12,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329846_large.mp4",
+            "width": 2160,
+            "height": 3840,
+            "size": 52632662,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329846_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329846_medium.mp4",
+            "width": 1440,
+            "height": 2560,
+            "size": 25904334,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329846_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329846_small.mp4",
+            "width": 1080,
+            "height": 1920,
+            "size": 16003941,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329846_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329846_tiny.mp4",
+            "width": 720,
+            "height": 1280,
+            "size": 5812225,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329846_tiny.jpg"
+          }
+        },
+        "views": 520,
+        "downloads": 381,
+        "likes": 16,
+        "comments": 1,
+        "user_id": 26930749,
+        "user": "TonyDias7",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/05/07/01-12-29-167_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/26930749/",
+        "name": "underwater, sea, nature"
+      },
+      {
+        "id": 347697,
+        "pageURL": "https://pixabay.com/videos/id-347697/",
+        "type": "animation",
+        "tags": "yacht, cruise, luxury, night, moon, moonlight, ocean, sea, water, tropical, travel, ship, deck, reflection, waves, stars, sky, summer, holiday, vacation, relax, cinematic, lifestyle, marine, journey, ai generated",
+        "duration": 15,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/04/19/347697_large.mp4",
+            "width": 2160,
+            "height": 3840,
+            "size": 36517113,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/19/347697_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/04/19/347697_medium.mp4",
+            "width": 1440,
+            "height": 2560,
+            "size": 18039792,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/19/347697_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/04/19/347697_small.mp4",
+            "width": 1080,
+            "height": 1920,
+            "size": 11782180,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/19/347697_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/04/19/347697_tiny.mp4",
+            "width": 720,
+            "height": 1280,
+            "size": 4558420,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/19/347697_tiny.jpg"
+          }
+        },
+        "views": 1465,
+        "downloads": 1141,
+        "likes": 38,
+        "comments": 4,
+        "user_id": 5871510,
+        "user": "doktorkleinmusic",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/02/24/10-11-55-994_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/5871510/",
+        "name": "yacht, cruise, luxury"
+      },
+      {
+        "id": 255908,
+        "pageURL": "https://pixabay.com/videos/id-255908/",
+        "type": "film",
+        "tags": "ritz carlton, yacht, luxury, sunset, cruise, leisure, vip, expensive, rich, travel, sun, sea, ocean, view, tourism, barbados, caribbean",
+        "duration": 25,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/02/01/255908_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 78213790,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/02/01/255908_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/02/01/255908_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 30631828,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/02/01/255908_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/02/01/255908_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 16676805,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/02/01/255908_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/02/01/255908_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 4760070,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/02/01/255908_tiny.jpg"
+          }
+        },
+        "views": 2059,
+        "downloads": 905,
+        "likes": 23,
+        "comments": 0,
+        "user_id": 3867243,
+        "user": "GreenCardShow",
+        "userImageURL": "",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/3867243/",
+        "name": "ritz carlton, yacht, luxury"
+      },
+      {
+        "id": 329835,
+        "pageURL": "https://pixabay.com/videos/id-329835/",
+        "type": "animation",
+        "tags": "dog, pet, animal, nature, canine, sunset, dusk, sun, beach, sea, man, human, person, male, seagull, bird, sky, yacht, boat, luxury, ai generated",
+        "duration": 12,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329835_large.mp4",
+            "width": 2160,
+            "height": 3840,
+            "size": 29420984,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329835_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329835_medium.mp4",
+            "width": 1440,
+            "height": 2560,
+            "size": 13468707,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329835_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329835_small.mp4",
+            "width": 1080,
+            "height": 1920,
+            "size": 8058711,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329835_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/01/23/329835_tiny.mp4",
+            "width": 720,
+            "height": 1280,
+            "size": 2956395,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/23/329835_tiny.jpg"
+          }
+        },
+        "views": 965,
+        "downloads": 814,
+        "likes": 16,
+        "comments": 1,
+        "user_id": 26930749,
+        "user": "TonyDias7",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/05/07/01-12-29-167_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/26930749/",
+        "name": "dog, pet, animal"
+      },
+      {
+        "id": 300433,
+        "pageURL": "https://pixabay.com/videos/id-300433/",
+        "type": "animation",
+        "tags": "ai generated, hydrofoil, speedboat, yacht, loop, tropical, sea, ocean, water, blue, clear, crystal, transport, futuristic, modern, design, travel, exotic, luxury, speed, maritime, coast, paradise, waves, boat",
+        "duration": 5,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/08/28/300433_large.mp4",
+            "width": 2160,
+            "height": 3992,
+            "size": 12753171,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/28/300433_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/08/28/300433_medium.mp4",
+            "width": 1440,
+            "height": 2661,
+            "size": 6984700,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/28/300433_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/08/28/300433_small.mp4",
+            "width": 1080,
+            "height": 1996,
+            "size": 4488889,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/28/300433_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/08/28/300433_tiny.mp4",
+            "width": 720,
+            "height": 1330,
+            "size": 1854467,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/28/300433_tiny.jpg"
+          }
+        },
+        "views": 1263,
+        "downloads": 497,
+        "likes": 16,
+        "comments": 3,
+        "user_id": 5871510,
+        "user": "doktorkleinmusic",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/02/24/10-11-55-994_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/5871510/",
+        "name": "ai generated, hydrofoil, speedboat"
+      }
+    ]
+  }
+}

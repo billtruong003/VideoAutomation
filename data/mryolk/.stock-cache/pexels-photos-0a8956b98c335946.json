@@ -1,0 +1,348 @@
+{
+  "provider": "pexels",
+  "kind": "photos",
+  "params": {
+    "query": "closed empty shop street",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:31:48.649Z",
+  "fetchedAtMs": 1787279508649,
+  "data": {
+    "page": 1,
+    "per_page": 15,
+    "photos": [
+      {
+        "id": 26831423,
+        "width": 7728,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/view-of-a-market-street-with-closed-roller-doors-26831423/",
+        "photographer": "Doğan Alpaslan  Demir",
+        "photographer_url": "https://www.pexels.com/@izafi",
+        "photographer_id": 83080550,
+        "avg_color": "#716861",
+        "src": {
+          "original": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg",
+          "large2x": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/26831423/pexels-photo-26831423.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Deserted market street in İzmir with closed shops and roller doors."
+      },
+      {
+        "id": 26831418,
+        "width": 7728,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/view-of-an-empty-alley-with-closed-roller-doors-of-the-shops-26831418/",
+        "photographer": "Doğan Alpaslan  Demir",
+        "photographer_url": "https://www.pexels.com/@izafi",
+        "photographer_id": 83080550,
+        "avg_color": "#878382",
+        "src": {
+          "original": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg",
+          "large2x": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/26831418/pexels-photo-26831418.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Deserted alley in İzmir with closed roller doors and urban pavement."
+      },
+      {
+        "id": 26831417,
+        "width": 7601,
+        "height": 5067,
+        "url": "https://www.pexels.com/photo/closed-stores-at-bazaar-26831417/",
+        "photographer": "Doğan Alpaslan  Demir",
+        "photographer_url": "https://www.pexels.com/@izafi",
+        "photographer_id": 83080550,
+        "avg_color": "#625C60",
+        "src": {
+          "original": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg",
+          "large2x": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/26831417/pexels-photo-26831417.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A quiet, empty street market with closed shops in İzmir, Türkiye, showcasing urban tranquility."
+      },
+      {
+        "id": 13548048,
+        "width": 6240,
+        "height": 4160,
+        "url": "https://www.pexels.com/photo/an-empty-street-13548048/",
+        "photographer": "Crab Lens",
+        "photographer_url": "https://www.pexels.com/@crab-lens-179881567",
+        "photographer_id": 179881567,
+        "avg_color": "#423433",
+        "src": {
+          "original": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg",
+          "large2x": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/13548048/pexels-photo-13548048.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Empty alleyway in Istanbul featuring colorful graffiti and shuttered shops, highlighting urban street art."
+      },
+      {
+        "id": 38522970,
+        "width": 8378,
+        "height": 5876,
+        "url": "https://www.pexels.com/photo/quiet-morning-at-kemeralti-bazaar-in-izmir-38522970/",
+        "photographer": "Doğan Alpaslan  Demir",
+        "photographer_url": "https://www.pexels.com/@izafi",
+        "photographer_id": 83080550,
+        "avg_color": "#574F4C",
+        "src": {
+          "original": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg",
+          "large2x": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38522970/pexels-photo-38522970.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Shuttered stalls and empty walkways of Kemeraltı Bazaar in İzmir, Türkiye, on a tranquil morning."
+      },
+      {
+        "id": 16914723,
+        "width": 7952,
+        "height": 5304,
+        "url": "https://www.pexels.com/photo/passage-with-closed-shops-16914723/",
+        "photographer": "Jimmy Liao",
+        "photographer_url": "https://www.pexels.com/@jimmy-liao-3615017",
+        "photographer_id": 3615017,
+        "avg_color": "#574F4D",
+        "src": {
+          "original": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg",
+          "large2x": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/16914723/pexels-photo-16914723.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A deserted passage with closed shops in an Asian city, highlighting urban solitude."
+      },
+      {
+        "id": 13110111,
+        "width": 6240,
+        "height": 4160,
+        "url": "https://www.pexels.com/photo/an-alley-with-closed-stores-13110111/",
+        "photographer": "Emirhan Emiroğlu",
+        "photographer_url": "https://www.pexels.com/@eemirhannn",
+        "photographer_id": 60336010,
+        "avg_color": "#374139",
+        "src": {
+          "original": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg",
+          "large2x": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/13110111/pexels-photo-13110111.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A dark, deserted street with closed market stalls under a canopy, suggesting an abandoned marketplace."
+      },
+      {
+        "id": 30320851,
+        "width": 6093,
+        "height": 4062,
+        "url": "https://www.pexels.com/photo/night-street-scene-with-illuminated-shopfront-in-istanbul-30320851/",
+        "photographer": "Zeynep Sude  Emek",
+        "photographer_url": "https://www.pexels.com/@zeynep-sude-emek-193601188",
+        "photographer_id": 193601188,
+        "avg_color": "#4F432D",
+        "src": {
+          "original": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg",
+          "large2x": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/30320851/pexels-photo-30320851.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Urban night scene with a lit storefront on a quiet street in Istanbul, showcasing local architecture."
+      },
+      {
+        "id": 31689847,
+        "width": 6240,
+        "height": 4160,
+        "url": "https://www.pexels.com/photo/empty-market-alleyway-under-sunlit-canopy-31689847/",
+        "photographer": "Berat Yüksel",
+        "photographer_url": "https://www.pexels.com/@brtyksl",
+        "photographer_id": 2151476048,
+        "avg_color": "#313133",
+        "src": {
+          "original": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg",
+          "large2x": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/31689847/pexels-photo-31689847.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A quiet market alleyway with colorful canopies overhead, capturing an urban setting"
+      },
+      {
+        "id": 26831420,
+        "width": 7251,
+        "height": 4834,
+        "url": "https://www.pexels.com/photo/closed-stores-at-bazaar-in-turkey-26831420/",
+        "photographer": "Doğan Alpaslan  Demir",
+        "photographer_url": "https://www.pexels.com/@izafi",
+        "photographer_id": 83080550,
+        "avg_color": "#665B59",
+        "src": {
+          "original": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg",
+          "large2x": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/26831420/pexels-photo-26831420.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A deserted street in İzmir, Türkiye, lined with closed shops and shuttered storefronts."
+      },
+      {
+        "id": 38426140,
+        "width": 7728,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/quaint-street-in-izmir-s-historic-district-38426140/",
+        "photographer": "Doğan Alpaslan  Demir",
+        "photographer_url": "https://www.pexels.com/@izafi",
+        "photographer_id": 83080550,
+        "avg_color": "#4D494A",
+        "src": {
+          "original": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg",
+          "large2x": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38426140/pexels-photo-38426140.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Charming alley in İzmir, showcasing closed shops and scenic views in the daylight."
+      },
+      {
+        "id": 3742625,
+        "width": 6223,
+        "height": 4149,
+        "url": "https://www.pexels.com/photo/grayscale-photography-of-a-walkway-between-closed-business-establishments-3742625/",
+        "photographer": "Aa Dil",
+        "photographer_url": "https://www.pexels.com/@aadil",
+        "photographer_id": 840092,
+        "avg_color": "#2E2E2E",
+        "src": {
+          "original": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg",
+          "large2x": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/3742625/pexels-photo-3742625.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Black and white photo of a deserted market alley in Faisalabad, Pakistan at night."
+      },
+      {
+        "id": 26831431,
+        "width": 7728,
+        "height": 5152,
+        "url": "https://www.pexels.com/photo/view-of-a-market-street-with-closed-roller-doors-26831431/",
+        "photographer": "Doğan Alpaslan  Demir",
+        "photographer_url": "https://www.pexels.com/@izafi",
+        "photographer_id": 83080550,
+        "avg_color": "#736864",
+        "src": {
+          "original": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg",
+          "large2x": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/26831431/pexels-photo-26831431.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "An empty alley in İzmir's bustling bazaar with closed shops and visible signage."
+      },
+      {
+        "id": 38150409,
+        "width": 6240,
+        "height": 4160,
+        "url": "https://www.pexels.com/photo/abandoned-market-stalls-with-closed-shutters-38150409/",
+        "photographer": "Ayşegül  Aytören",
+        "photographer_url": "https://www.pexels.com/@aysegul-aytoren-46790226",
+        "photographer_id": 46790226,
+        "avg_color": "#777165",
+        "src": {
+          "original": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg",
+          "large2x": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38150409/pexels-photo-38150409.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Row of closed, aged market stalls with metal shutters in an outdoor urban setting."
+      },
+      {
+        "id": 1793031,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/black-and-white-license-plate-1793031/",
+        "photographer": "lil artsy",
+        "photographer_url": "https://www.pexels.com/@lilartsy",
+        "photographer_id": 116950,
+        "avg_color": "#3A3C3B",
+        "src": {
+          "original": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg",
+          "large2x": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/1793031/pexels-photo-1793031.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A closed sign hangs on a glass window of a modern urban storefront."
+      }
+    ],
+    "total_results": 8000,
+    "next_page": "https://api.pexels.com/v1/v1/search?orientation=landscape&page=2&per_page=15&query=closed+empty+shop+street&size=large"
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "generatedAt": "2026-08-21T02:39:19.132Z",
+  "providers": {
+    "pexels": {
+      "configured": true,
+      "source": "PEXELS_API_KEY"
+    },
+    "pixabay": {
+      "configured": true,
+      "source": "PIXABAY_API_KEY"
+    }
+  },
+  "queries": [
+    {
+      "id": "bank-exterior",
+      "query": "classical bank building columns facade",
+      "beat": "banks start breaking",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "3094696",
+          "width": 4446,
+          "height": 2532,
+          "durationSeconds": null,
+          "score": 9.74,
+          "sourcePage": "https://pixabay.com/photos/skyscraper-architecture-city-heaven-3094696/"
+        },
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "6576684",
+          "width": 5038,
+          "height": 3198,
+          "durationSeconds": null,
+          "score": 7.57,
+          "sourcePage": "https://pixabay.com/photos/silhouettes-people-bank-suitcase-6576684/"
+        }
+      ]
+    },
+    {
+      "id": "construction-frozen",
+      "query": "construction site crane skyline",
+      "beat": "construction projects freeze",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "18530278",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 31,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/building-worker-18530278/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "29014087",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 32,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/aerial-view-of-city-construction-site-at-dusk-29014087/"
+        }
+      ]
+    },
+    {
+      "id": "airplane-detail",
+      "query": "passenger jet flying sky",
+      "beat": "removing the screws from an airplane",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "1385789",
+          "width": 4424,
+          "height": 2489,
+          "durationSeconds": null,
+          "score": 10,
+          "sourcePage": "https://pixabay.com/photos/sky-aircraft-vapour-trail-1385789/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "photo",
+          "providerId": "20303267",
+          "width": 7052,
+          "height": 4029,
+          "durationSeconds": null,
+          "score": 9.67,
+          "sourcePage": "https://www.pexels.com/photo/airplane-flying-under-cloud-20303267/"
+        }
+      ]
+    },
+    {
+      "id": "suburban-houses",
+      "query": "suburban neighbourhood houses aerial",
+      "beat": "you want a house",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 55,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "39006674",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 20,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/aerial-view-of-a-modern-residential-suburb-39006674/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "14988962",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 26,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/drone-footage-of-a-residential-area-on-a-foggy-winter-day-14988962/"
+        }
+      ]
+    },
+    {
+      "id": "house-keys-door",
+      "query": "front door of a house",
+      "beat": "that is a mortgage",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 1,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "6919896",
+          "width": 3914,
+          "height": 2513,
+          "durationSeconds": null,
+          "score": 7.36,
+          "sourcePage": "https://pixabay.com/photos/bench-facade-garden-ivy-6919896/"
+        }
+      ]
+    },
+    {
+      "id": "factory-industrial",
+      "query": "industrial factory interior machinery",
+      "beat": "businesses borrow to build factories",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "32268404",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 21,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/automated-textile-manufacturing-process-in-factory-32268404/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "6046361",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 22,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/drone-footage-inside-industrial-building-6046361/"
+        }
+      ]
+    },
+    {
+      "id": "airliner-airport",
+      "query": "commercial airliner at airport gate",
+      "beat": "airlines borrow to buy planes",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "37177672",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 33,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/airplane-boarding-at-airport-terminal-37177672/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "17903310",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 30,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/alaska-airlines-17903310/"
+        }
+      ]
+    },
+    {
+      "id": "farm-tractor",
+      "query": "tractor harvesting field farm",
+      "beat": "farmers borrow to buy equipment",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "6685779",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 25,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/hay-grinding-truck-in-the-field-6685779/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "10201589",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 40,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/tractors-on-the-corn-field-10201589/"
+        }
+      ]
+    },
+    {
+      "id": "highway-interchange",
+      "query": "highway interchange aerial city",
+      "beat": "cities borrow to build roads",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "9702205",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 28,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/cars-on-highway-9702205/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "34030193",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 41,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/aerial-view-of-urban-construction-site-at-dusk-34030193/"
+        }
+      ]
+    },
+    {
+      "id": "bank-vault",
+      "query": "bank vault door steel",
+      "beat": "a giant vault, very Scrooge McDuck",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "2383965",
+          "width": 5344,
+          "height": 3006,
+          "durationSeconds": null,
+          "score": 10,
+          "sourcePage": "https://pixabay.com/photos/vault-vault-door-bank-safe-2383965/"
+        },
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "4715104",
+          "width": 5914,
+          "height": 3658,
+          "durationSeconds": null,
+          "score": 8.07,
+          "sourcePage": "https://pixabay.com/photos/portugal-lisbon-money-museum-safe-4715104/"
+        }
+      ]
+    },
+    {
+      "id": "government-building",
+      "query": "government parliament building facade",
+      "beat": "take government debt",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "5991196",
+          "width": 6000,
+          "height": 3368,
+          "durationSeconds": null,
+          "score": 9.96,
+          "sourcePage": "https://pixabay.com/photos/national-congress-brasilia-building-5991196/"
+        },
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "2463236",
+          "width": 5868,
+          "height": 3517,
+          "durationSeconds": null,
+          "score": 8.69,
+          "sourcePage": "https://pixabay.com/photos/bundestag-german-flag-parliament-2463236/"
+        }
+      ]
+    },
+    {
+      "id": "city-financial-district",
+      "query": "financial district skyscrapers city",
+      "beat": "banks, pension funds, insurers buy them",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 59,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "20391424",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 22,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/a-view-of-the-city-from-a-high-rise-building-20391424/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "7317055",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 24,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/modern-high-rise-buildings-in-the-city-7317055/"
+        }
+      ]
+    },
+    {
+      "id": "trading-screens",
+      "query": "stock market trading screens charts",
+      "beat": "the investment goes up ten percent",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "38656963",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 21,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/analyzing-financial-data-on-multiscreen-setup-38656963/"
+        },
+        {
+          "provider": "pixabay",
+          "kind": "video",
+          "providerId": "166289",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 20,
+          "score": 17,
+          "sourcePage": "https://pixabay.com/videos/id-166289/"
+        }
+      ]
+    },
+    {
+      "id": "luxury-yacht",
+      "query": "luxury yacht ocean",
+      "beat": "you begin researching yachts",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "37524011",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 22,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/aerial-view-of-luxury-yacht-at-sea-37524011/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "7692230",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 22,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/drone-footage-of-yachts-in-a-marina-7692230/"
+        }
+      ]
+    },
+    {
+      "id": "market-crash-screen",
+      "query": "financial crisis stock market decline",
+      "beat": "credit crises move fast",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "38736274",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 20,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/dynamic-finance-chart-display-in-dark-room-38736274/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "29344546",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 20,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/dynamic-financial-market-chart-animation-29344546/"
+        }
+      ]
+    },
+    {
+      "id": "housing-development",
+      "query": "housing development construction rows",
+      "beat": "huge amounts of mortgage debt",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "257317",
+          "width": 4000,
+          "height": 2248,
+          "durationSeconds": null,
+          "score": 9.98,
+          "sourcePage": "https://pixabay.com/photos/construction-site-cranes-257317/"
+        },
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "2375119",
+          "width": 6016,
+          "height": 3864,
+          "durationSeconds": null,
+          "score": 7.35,
+          "sourcePage": "https://pixabay.com/photos/house-home-urban-street-city-2375119/"
+        }
+      ]
+    },
+    {
+      "id": "for-sale-sign",
+      "query": "house for sale sign yard",
+      "beat": "housing prices fell",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "1633878",
+          "width": 2868,
+          "height": 1792,
+          "durationSeconds": null,
+          "score": 7.87,
+          "sourcePage": "https://pixabay.com/photos/new-home-construction-for-sale-1633878/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "photo",
+          "providerId": "8482520",
+          "width": 6092,
+          "height": 4061,
+          "durationSeconds": null,
+          "score": 6.67,
+          "sourcePage": "https://www.pexels.com/photo/a-house-for-sale-8482520/"
+        }
+      ]
+    },
+    {
+      "id": "empty-shop",
+      "query": "closed empty shop street",
+      "beat": "people spend less",
+      "kinds": [
+        "photo"
+      ],
+      "candidatesReviewed": 30,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "5023956",
+          "width": 3277,
+          "height": 1843,
+          "durationSeconds": null,
+          "score": 10,
+          "sourcePage": "https://pixabay.com/photos/pandemic-closed-covid-19-5023956/"
+        },
+        {
+          "provider": "pixabay",
+          "kind": "photo",
+          "providerId": "1487891",
+          "width": 4123,
+          "height": 2320,
+          "durationSeconds": null,
+          "score": 9.99,
+          "sourcePage": "https://pixabay.com/photos/parking-space-man-city-person-1487891/"
+        }
+      ]
+    },
+    {
+      "id": "bridge-infrastructure",
+      "query": "large bridge infrastructure engineering",
+      "beat": "infrastructure requires immediate taxation",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 58,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "11007549",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 22,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/low-angle-view-of-bridge-11007549/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "30768121",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 33,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/aerial-view-of-construction-site-on-water-30768121/"
+        }
+      ]
+    },
+    {
+      "id": "city-night-aerial",
+      "query": "city at night aerial lights",
+      "beat": "mostly we owe it to each other",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 60,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "34474542",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 20,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/stunning-aerial-view-of-budapest-at-night-34474542/"
+        },
+        {
+          "provider": "pixabay",
+          "kind": "video",
+          "providerId": "12126",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 30,
+          "score": 17,
+          "sourcePage": "https://pixabay.com/videos/id-12126/"
+        }
+      ]
+    },
+    {
+      "id": "crowd-people",
+      "query": "busy pedestrian crossing crowd",
+      "beat": "a gigantic network of promises",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 59,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "36926078",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 22,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/busy-urban-crosswalk-scene-with-traffic-and-pedestrians-36926078/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "4200101",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 20,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/time-lapse-video-of-the-busy-famous-shibuya-crossing-4200101/"
+        }
+      ]
+    },
+    {
+      "id": "sunrise-skyline",
+      "query": "city skyline sunrise",
+      "beat": "tomorrow will be productive enough",
+      "kinds": [
+        "photo",
+        "video"
+      ],
+      "candidatesReviewed": 59,
+      "shortlisted": 2,
+      "shortlist": [
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "4687314",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 22,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/silhouette-of-buildings-4687314/"
+        },
+        {
+          "provider": "pexels",
+          "kind": "video",
+          "providerId": "7000589",
+          "width": 1920,
+          "height": 1080,
+          "durationSeconds": 39,
+          "score": 17,
+          "sourcePage": "https://www.pexels.com/video/high-angle-shot-of-a-town-7000589/"
+        }
+      ]
+    }
+  ]
+}

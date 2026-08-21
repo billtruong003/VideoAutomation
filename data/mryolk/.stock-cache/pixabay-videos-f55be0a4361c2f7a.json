@@ -1,0 +1,766 @@
+{
+  "provider": "pixabay",
+  "kind": "videos",
+  "params": {
+    "query": "financial district skyscrapers city",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:30:49.926Z",
+  "fetchedAtMs": 1787279449926,
+  "data": {
+    "total": 7951,
+    "totalHits": 500,
+    "hits": [
+      {
+        "id": 198980,
+        "pageURL": "https://pixabay.com/videos/id-198980/",
+        "type": "film",
+        "tags": "buildings, skyscrapers, financial district, city, aerial, drone, urban, sunshine, park, river, water, shanghai, pudong, china",
+        "duration": 49,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 149656310,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 81893651,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 34514302,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 17342002,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/02/02/198980-909251566_tiny.jpg"
+          }
+        },
+        "views": 13074,
+        "downloads": 7692,
+        "likes": 142,
+        "comments": 12,
+        "user_id": 2408466,
+        "user": "D-GM",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/02/10/12-01-02-893_250x250.jpeg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/2408466/",
+        "name": "buildings, skyscrapers, financial district"
+      },
+      {
+        "id": 272513,
+        "pageURL": "https://pixabay.com/videos/id-272513/",
+        "type": "film",
+        "tags": "center park, nyc, new york, manhattan, cityscape, world trade, us, united states of america, united states, tower, street, skyscraper, park, new york city, lower manhattan, highrise, greens, freedom tower, financial district, financial, downtown",
+        "duration": 15,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272513_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 65077343,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272513_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272513_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 29526232,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272513_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272513_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 18627240,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272513_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272513_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 5150282,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272513_tiny.jpg"
+          }
+        },
+        "views": 15109,
+        "downloads": 10379,
+        "likes": 109,
+        "comments": 6,
+        "user_id": 38741244,
+        "user": "TungArt7",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/11/08/18-57-17-454_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38741244/",
+        "name": "center park, nyc, new york"
+      },
+      {
+        "id": 110924,
+        "pageURL": "https://pixabay.com/videos/id-110924/",
+        "type": "film",
+        "tags": "cloud, window, sky, advertisement, finance, financial, glasses, skyscraper, office, tall, business, urban, blue, outdoors, building, city, america, campaign, cloudscape, commercial, corporate, district, mirror, money",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_large.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 13446930,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_medium.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7455196,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_small.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3719157,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_tiny.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 2153481,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/03/16/110924-689949645_tiny.jpg"
+          }
+        },
+        "views": 26376,
+        "downloads": 15430,
+        "likes": 179,
+        "comments": 0,
+        "user_id": 22060942,
+        "user": "gammeholton84",
+        "userImageURL": "https://cdn.pixabay.com/user/2021/06/13/11-54-56-701_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/22060942/",
+        "name": "cloud, window, sky"
+      },
+      {
+        "id": 267747,
+        "pageURL": "https://pixabay.com/videos/id-267747/",
+        "type": "film",
+        "tags": "shanghai, building, china, city, landscape, finance, travel, urban, outdoor, sunset, center, asia, architecture, modern, high angle view, commerce, skyline, tourism, financial, sunrise, district, light, skyscraper, night",
+        "duration": 12,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 41898057,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 22193693,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 15346207,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 6304945,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_tiny.jpg"
+          }
+        },
+        "views": 7854,
+        "downloads": 5404,
+        "likes": 90,
+        "comments": 7,
+        "user_id": 38741244,
+        "user": "TungArt7",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/11/08/18-57-17-454_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38741244/",
+        "name": "shanghai, building, china"
+      },
+      {
+        "id": 272515,
+        "pageURL": "https://pixabay.com/videos/id-272515/",
+        "type": "film",
+        "tags": "urban, skyscraper, one world trade center, nyc, new york city, america, the usa, united states, tower, skyline, new york, manhattan, financial, downtown, district, city, architecture, wtc, world trade center, world trade, us, ny, metropolis, lower manhattan, highrise",
+        "duration": 14,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272515_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 30386322,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272515_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272515_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 12642315,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272515_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272515_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7546454,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272515_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/04/17/272515_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 1972127,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/04/17/272515_tiny.jpg"
+          }
+        },
+        "views": 8782,
+        "downloads": 4079,
+        "likes": 49,
+        "comments": 6,
+        "user_id": 38741244,
+        "user": "TungArt7",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/11/08/18-57-17-454_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38741244/",
+        "name": "urban, skyscraper, one world trade center"
+      },
+      {
+        "id": 4544,
+        "pageURL": "https://pixabay.com/videos/id-4544/",
+        "type": "film",
+        "tags": "manhattan, skyline, city, new, york, urban, usa, cityscape, nyc, travel, america, architecture, building, landmark, manhattan skyline, new york city skyline, business, scenic, nyc skyline, sky, modern, scene, city skyline, office, high rise, skyscraper, financial, exterior, district, panoramic, metropolis, view, upper west side, midtown, uptown, panning, pan, hudson river, west side",
+        "duration": 25,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 14529856,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 7776742,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 4710974,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 1826805,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/18/4544-179396338_tiny.jpg"
+          }
+        },
+        "views": 48275,
+        "downloads": 19623,
+        "likes": 152,
+        "comments": 38,
+        "user_id": 3120884,
+        "user": "jeffrey242",
+        "userImageURL": "https://cdn.pixabay.com/user/2018/07/08/04-53-04-190_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/3120884/",
+        "name": "manhattan, skyline, city"
+      },
+      {
+        "id": 335407,
+        "pageURL": "https://pixabay.com/videos/id-335407/",
+        "type": "film",
+        "tags": "seoul, south korea, hangang river, yeouido, n seoul tower, namsan mountain, aerial view, drone 4k, cityscape, urban skyline, financial district, skyscrapers, landmark, travel destination, asia, mavic 3 pro, cinematic, business center, horizon, metropolis",
+        "duration": 20,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335407_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 36369791,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335407_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335407_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 14177049,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335407_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335407_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7647043,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335407_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335407_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 1926257,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335407_tiny.jpg"
+          }
+        },
+        "views": 1789,
+        "downloads": 1087,
+        "likes": 14,
+        "comments": 0,
+        "user_id": 54710821,
+        "user": "YounStudios",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/02/19/05-26-58-391_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/54710821/",
+        "name": "seoul, south korea, hangang river"
+      },
+      {
+        "id": 333248,
+        "pageURL": "https://pixabay.com/videos/id-333248/",
+        "type": "animation",
+        "tags": "urban development, city skyline, skyscraper buildings, financial district, metropolitan area, contemporary architecture, real estate marketing, corporate headquarters, business district, city life, architectural design, urban planning, green screen, chromakey, vfx asset, digital compositing, film production, video editing, professional background, motion graphics, visual effects, cinematic asset, exterior view, metropolitan landscape, city buildings, ai generated",
+        "duration": 8,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/02/07/333248_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 38435592,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/07/333248_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/02/07/333248_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 20836988,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/07/333248_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/02/07/333248_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 13160996,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/07/333248_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/02/07/333248_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 4960914,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/07/333248_tiny.jpg"
+          }
+        },
+        "views": 1204,
+        "downloads": 883,
+        "likes": 8,
+        "comments": 0,
+        "user_id": 15745216,
+        "user": "MrWashingt0n",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/02/28/10-15-34-897_250x250.png",
+        "noAiTraining": true,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/15745216/",
+        "name": "urban development, city skyline, skyscraper buildings"
+      },
+      {
+        "id": 327127,
+        "pageURL": "https://pixabay.com/videos/id-327127/",
+        "type": "animation",
+        "tags": "night city, city lights, shanghai, city skyline, skyscrapers, evening, modern city, urban, downtown, river, waterfront, blue hour, asia city, chinese city, financial district, travel, cityscape, metropolitan, illuminated buildings, ai generated",
+        "duration": 14,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/01/11/327127_large.mp4",
+            "width": 1080,
+            "height": 1920,
+            "size": 20040333,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/11/327127_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/01/11/327127_medium.mp4",
+            "width": 720,
+            "height": 1280,
+            "size": 5681674,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/11/327127_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/01/11/327127_small.mp4",
+            "width": 540,
+            "height": 960,
+            "size": 3323721,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/11/327127_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/01/11/327127_tiny.mp4",
+            "width": 360,
+            "height": 640,
+            "size": 1451288,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/01/11/327127_tiny.jpg"
+          }
+        },
+        "views": 1170,
+        "downloads": 545,
+        "likes": 10,
+        "comments": 0,
+        "user_id": 29850017,
+        "user": "kjrajib",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/01/06/09-02-09-56_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/29850017/",
+        "name": "night city, city lights, shanghai"
+      },
+      {
+        "id": 348020,
+        "pageURL": "https://pixabay.com/videos/id-348020/",
+        "type": "animation",
+        "tags": "new york city skyline, urban development, architectural innovation, financial district, metropolitan area, city sunset, skyscraper architecture, globaleconomy, modern infrastructure, urban landscape, downtown skyline, office buildings, residential apartments, corporate headquarters, golden hour lighting, real estate investment, city travel, horizon view, sunset glow, aerial view, no people, wide angle, copyspace, blue, orange, ai generated",
+        "duration": 8,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/04/21/348020_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 31348459,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/21/348020_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/04/21/348020_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 15917580,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/21/348020_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/04/21/348020_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 10317143,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/21/348020_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/04/21/348020_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 4199047,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/21/348020_tiny.jpg"
+          }
+        },
+        "views": 460,
+        "downloads": 397,
+        "likes": 4,
+        "comments": 0,
+        "user_id": 15745216,
+        "user": "MrWashingt0n",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/02/28/10-15-34-897_250x250.png",
+        "noAiTraining": true,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/15745216/",
+        "name": "new york city skyline, urban development, architectural innovation"
+      },
+      {
+        "id": 333339,
+        "pageURL": "https://pixabay.com/videos/id-333339/",
+        "type": "film",
+        "tags": "frankfurt am main germany, frankfurt skyline, main banks, main, skyscrapers, skyline evening, blue hour, financial metropolis, banking district, skyscraper, modern architecture, cityscape, city lights, reflection in the water, urban, metropolis, hesse, germany, downtown, urban landscape, riverside, evening atmosphere, night lights, business district",
+        "duration": 11,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/02/08/333339_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 10694522,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/08/333339_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/02/08/333339_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3704231,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/08/333339_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/02/08/333339_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 2138946,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/08/333339_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/02/08/333339_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 902324,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/08/333339_tiny.jpg"
+          }
+        },
+        "views": 438,
+        "downloads": 236,
+        "likes": 3,
+        "comments": 0,
+        "user_id": 6733902,
+        "user": "JamesQube",
+        "userImageURL": "https://cdn.pixabay.com/user/2019/07/03/19-27-31-849_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/6733902/",
+        "name": "frankfurt am main germany, frankfurt skyline, main banks"
+      },
+      {
+        "id": 335406,
+        "pageURL": "https://pixabay.com/videos/id-335406/",
+        "type": "film",
+        "tags": "seoul, south korea, hangang river, yeouido, n seoul tower, namsan mountain, aerial view, drone 4k, cityscape, urban skyline, financial district, skyscrapers, landmark, travel destination, asia, mavic 3 pro, cinematic, business center, horizon, metropolis",
+        "duration": 19,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335406_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 27948307,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335406_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335406_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 9459391,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335406_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335406_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 4889541,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335406_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/02/19/335406_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 1157372,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/19/335406_tiny.jpg"
+          }
+        },
+        "views": 418,
+        "downloads": 201,
+        "likes": 4,
+        "comments": 0,
+        "user_id": 54710821,
+        "user": "YounStudios",
+        "userImageURL": "https://cdn.pixabay.com/user/2026/02/19/05-26-58-391_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/54710821/",
+        "name": "seoul, south korea, hangang river"
+      },
+      {
+        "id": 344229,
+        "pageURL": "https://pixabay.com/videos/id-344229/",
+        "type": "animation",
+        "tags": "urban business district, modern financial center, global economic hub, golden hour city, manhattan architecture view, downtown skyscrapers, real estate development, no people, metropolitan area, cityscape sunset, office buildings, world trade center, commerce and trade, urban growth, landmark city view, high rise structures, financial district, successful city life, corporate headquarters, wide angle, bright daylight, blue sky, orange glow, horizontal composition, ai generated",
+        "duration": 8,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/04/03/344229_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 28299910,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/03/344229_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/04/03/344229_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 14318803,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/03/344229_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/04/03/344229_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 9231664,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/03/344229_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/04/03/344229_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3521574,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/03/344229_tiny.jpg"
+          }
+        },
+        "views": 288,
+        "downloads": 199,
+        "likes": 0,
+        "comments": 0,
+        "user_id": 15745216,
+        "user": "MrWashingt0n",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/02/28/10-15-34-897_250x250.png",
+        "noAiTraining": true,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/15745216/",
+        "name": "urban business district, modern financial center, global economic hub"
+      },
+      {
+        "id": 337318,
+        "pageURL": "https://pixabay.com/videos/id-337318/",
+        "type": "animation",
+        "tags": "modern urban architecture, corporate glass building, city life motion, futuristic skyscraper design, metropolitan business district, real estate development, urban growth concept, financial district, city infrastructure, landmark, ambition, success, mirror reflection, transportation, blue sky, no people, footage, clip, cinematic, blue, white, glass, wide angle, bright, ai generated",
+        "duration": 8,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/03/01/337318_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 14507370,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/01/337318_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/03/01/337318_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 6775534,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/01/337318_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/03/01/337318_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 4203642,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/01/337318_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/03/01/337318_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 1664572,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/01/337318_tiny.jpg"
+          }
+        },
+        "views": 283,
+        "downloads": 143,
+        "likes": 0,
+        "comments": 0,
+        "user_id": 15745216,
+        "user": "MrWashingt0n",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/02/28/10-15-34-897_250x250.png",
+        "noAiTraining": true,
+        "isAiGenerated": true,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/15745216/",
+        "name": "modern urban architecture, corporate glass building, city life motion"
+      },
+      {
+        "id": 18386,
+        "pageURL": "https://pixabay.com/videos/id-18386/",
+        "type": "film",
+        "tags": "ferris wheel, architecture, cityscape, district, downtown, dusk, evening, financial district, landmark, tourism, tower, travel, square, live wallpaper",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7096907,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3636368,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 2212975,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 852678,
+            "thumbnail": "https://cdn.pixabay.com/video/2018/09/23/18386-291585298_tiny.jpg"
+          }
+        },
+        "views": 117413,
+        "downloads": 60240,
+        "likes": 599,
+        "comments": 100,
+        "user_id": 10096666,
+        "user": "Nature-Stock-Footage",
+        "userImageURL": "https://cdn.pixabay.com/user/2018/09/26/20-24-32-568_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/10096666/",
+        "name": "ferris wheel, architecture, cityscape"
+      }
+    ]
+  }
+}

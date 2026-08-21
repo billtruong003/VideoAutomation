@@ -1,0 +1,348 @@
+{
+  "provider": "pexels",
+  "kind": "photos",
+  "params": {
+    "query": "stock market trading screens charts",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:34:15.680Z",
+  "fetchedAtMs": 1787279655680,
+  "data": {
+    "page": 1,
+    "per_page": 15,
+    "photos": [
+      {
+        "id": 38412413,
+        "width": 8640,
+        "height": 5760,
+        "url": "https://www.pexels.com/photo/digital-stock-market-charts-on-multiple-screens-38412413/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#0D2237",
+        "src": {
+          "original": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg",
+          "large2x": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38412413/pexels-photo-38412413.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Monitors displaying stock market charts in a dimly lit room, perfect for finance and trading themes."
+      },
+      {
+        "id": 38375328,
+        "width": 7812,
+        "height": 5208,
+        "url": "https://www.pexels.com/photo/financial-market-trading-screen-with-graphs-and-charts-38375328/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#14202E",
+        "src": {
+          "original": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg",
+          "large2x": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38375328/pexels-photo-38375328.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up view of digital trading chart screen with vibrant graphs and data analysis."
+      },
+      {
+        "id": 6770610,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/multiple-graphs-on-a-laptop-screen-6770610/",
+        "photographer": "Alesia  Kozik",
+        "photographer_url": "https://www.pexels.com/@alesiakozik",
+        "photographer_id": 5767085,
+        "avg_color": "#182024",
+        "src": {
+          "original": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg",
+          "large2x": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of stock market trading screen displaying financial growth and charts."
+      },
+      {
+        "id": 35118208,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/stock-market-chart-displaying-bearish-trend-35118208/",
+        "photographer": "Alex Luna",
+        "photographer_url": "https://www.pexels.com/@al3jandr0",
+        "photographer_id": 198851489,
+        "avg_color": "#26231E",
+        "src": {
+          "original": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg",
+          "large2x": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Candlestick chart showing a downward trend in the stock market analysis."
+      },
+      {
+        "id": 38343508,
+        "width": 8640,
+        "height": 5760,
+        "url": "https://www.pexels.com/photo/crypto-trading-screen-with-market-analysis-graphs-38343508/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#192D45",
+        "src": {
+          "original": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg",
+          "large2x": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38343508/pexels-photo-38343508.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Colorful trading charts showing cryptocurrency market trends on a computer screen."
+      },
+      {
+        "id": 5831252,
+        "width": 6016,
+        "height": 4016,
+        "url": "https://www.pexels.com/photo/charts-in-a-monitor-5831252/",
+        "photographer": "AlphaTradeZone",
+        "photographer_url": "https://www.pexels.com/@alphatradezone",
+        "photographer_id": 3882745,
+        "avg_color": "#3E4448",
+        "src": {
+          "original": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg",
+          "large2x": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of a cryptocurrency trading chart displayed on a monitor, showing market trends and analysis."
+      },
+      {
+        "id": 6770775,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/graph-of-the-movement-of-the-value-of-bitcoin-6770775/",
+        "photographer": "Alesia  Kozik",
+        "photographer_url": "https://www.pexels.com/@alesiakozik",
+        "photographer_id": 5767085,
+        "avg_color": "#171F23",
+        "src": {
+          "original": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg",
+          "large2x": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/6770775/pexels-photo-6770775.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of a digital market analysis display showing Bitcoin and cryptocurrency price trends."
+      },
+      {
+        "id": 10653886,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/business-data-graph-on-monitor-10653886/",
+        "photographer": "Aedrian Salazar",
+        "photographer_url": "https://www.pexels.com/@aedrian",
+        "photographer_id": 29419609,
+        "avg_color": "#0E0D12",
+        "src": {
+          "original": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg",
+          "large2x": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of stock market chart showing trends and data on a digital screen."
+      },
+      {
+        "id": 38375325,
+        "width": 8640,
+        "height": 5760,
+        "url": "https://www.pexels.com/photo/laptop-displaying-cryptocurrency-market-charts-38375325/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#75807C",
+        "src": {
+          "original": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg",
+          "large2x": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38375325/pexels-photo-38375325.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of a laptop showing cryptocurrency market charts in a trading environment."
+      },
+      {
+        "id": 16902140,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/the-concept-of-trading-on-a-cryptocurrency-exchange-stock-market-chart-on-a-blue-background-share-dropdown-list-16902140/",
+        "photographer": "Саша Алалыкин",
+        "photographer_url": "https://www.pexels.com/@sash2s",
+        "photographer_id": 538957553,
+        "avg_color": "#1C1D21",
+        "src": {
+          "original": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg",
+          "large2x": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/16902140/pexels-photo-16902140.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of a computer screen showing dynamic financial market data and charts, indicating real-time trading updates."
+      },
+      {
+        "id": 5831522,
+        "width": 6016,
+        "height": 4016,
+        "url": "https://www.pexels.com/photo/a-man-monitoring-graphs-on-multiple-screens-5831522/",
+        "photographer": "AlphaTradeZone",
+        "photographer_url": "https://www.pexels.com/@alphatradezone",
+        "photographer_id": 3882745,
+        "avg_color": "#807A80",
+        "src": {
+          "original": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg",
+          "large2x": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/5831522/pexels-photo-5831522.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A trader confidently viewing stock market charts on multiple monitors in a modern workspace."
+      },
+      {
+        "id": 38343512,
+        "width": 7759,
+        "height": 5173,
+        "url": "https://www.pexels.com/photo/close-up-of-cryptocurrency-trading-screen-display-38343512/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#667771",
+        "src": {
+          "original": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg",
+          "large2x": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38343512/pexels-photo-38343512.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A laptop displays a detailed cryptocurrency trading chart with candlestick patterns."
+      },
+      {
+        "id": 7807839,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/red-and-green-graph-on-the-screen-7807839/",
+        "photographer": "Max Bonda",
+        "photographer_url": "https://www.pexels.com/@maxbond",
+        "photographer_id": 28795834,
+        "avg_color": "#A3A2A0",
+        "src": {
+          "original": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg",
+          "large2x": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of digital cryptocurrency market graph showing price fluctuations and trading data."
+      },
+      {
+        "id": 38343510,
+        "width": 8640,
+        "height": 5760,
+        "url": "https://www.pexels.com/photo/cryptocurrency-trading-charts-with-bearish-trend-38343510/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#0E151F",
+        "src": {
+          "original": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg",
+          "large2x": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38343510/pexels-photo-38343510.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A close-up view of cryptocurrency trading charts showing a bearish trend in a digital market on a computer screen."
+      },
+      {
+        "id": 38975904,
+        "width": 8640,
+        "height": 5760,
+        "url": "https://www.pexels.com/photo/financial-trading-graph-with-candlestick-chart-38975904/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#0A1010",
+        "src": {
+          "original": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg",
+          "large2x": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38975904/pexels-photo-38975904.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A detailed view of a financial trading graph featuring candlestick and line charts for market analysis."
+      }
+    ],
+    "total_results": 8000,
+    "next_page": "https://api.pexels.com/v1/v1/search?orientation=landscape&page=2&per_page=15&query=stock+market+trading+screens+charts&size=large"
+  }
+}

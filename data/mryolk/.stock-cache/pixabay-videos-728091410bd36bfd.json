@@ -1,0 +1,766 @@
+{
+  "provider": "pixabay",
+  "kind": "videos",
+  "params": {
+    "query": "city skyline sunrise",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:32:29.786Z",
+  "fetchedAtMs": 1787279549786,
+  "data": {
+    "total": 14994,
+    "totalHits": 500,
+    "hits": [
+      {
+        "id": 80724,
+        "pageURL": "https://pixabay.com/videos/id-80724/",
+        "type": "film",
+        "tags": "skyscrapers, sunset, skyline, clouds, sky, metropolis, asia, city, taiwan, live wallpaper",
+        "duration": 19,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 48353211,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 24277994,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 13945442,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 7311563,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/07/08/80724-573496156_tiny.jpg"
+          }
+        },
+        "views": 460234,
+        "downloads": 208463,
+        "likes": 1657,
+        "comments": 286,
+        "user_id": 18171246,
+        "user": "MagicTV",
+        "userImageURL": "https://cdn.pixabay.com/user/2020/09/08/11-06-02-736_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/18171246/",
+        "name": "skyscrapers, sunset, skyline"
+      },
+      {
+        "id": 296958,
+        "pageURL": "https://pixabay.com/videos/id-296958/",
+        "type": "film",
+        "tags": "travel, burjkalifa, dubai, uae, emirate, arab, burj-al-arab, burj khalifa, tourists, architecture, building, modern, skyscraper, city, landmark, historical, sunrise, skyline, landscape, urban, cityscape",
+        "duration": 25,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/08/12/296958_large.mp4",
+            "width": 1440,
+            "height": 2560,
+            "size": 29261644,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/12/296958_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/08/12/296958_medium.mp4",
+            "width": 1080,
+            "height": 1920,
+            "size": 17575045,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/12/296958_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/08/12/296958_small.mp4",
+            "width": 720,
+            "height": 1280,
+            "size": 6472402,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/12/296958_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/08/12/296958_tiny.mp4",
+            "width": 540,
+            "height": 960,
+            "size": 4116591,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/08/12/296958_tiny.jpg"
+          }
+        },
+        "views": 152273,
+        "downloads": 132786,
+        "likes": 1227,
+        "comments": 214,
+        "user_id": 24963308,
+        "user": "engrahmad2653",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/08/05/16-18-11-657_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/24963308/",
+        "name": "travel, burjkalifa, dubai"
+      },
+      {
+        "id": 343478,
+        "pageURL": "https://pixabay.com/videos/id-343478/",
+        "type": "film",
+        "tags": "aerial view, urban, cityscape, dusk, sunset, skyline, drone, city, evening, lights, architecture, urban landscape, modern city, travel, tourism, panorama, sky, buildings, metropolitan, downtown, scenic, horizon, nightfall, golden hour, urban life",
+        "duration": 38,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/03/31/343478_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 71796255,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/31/343478_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/03/31/343478_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 17905684,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/31/343478_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/03/31/343478_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 9607541,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/31/343478_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/03/31/343478_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 4036160,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/03/31/343478_tiny.jpg"
+          }
+        },
+        "views": 11748,
+        "downloads": 14014,
+        "likes": 92,
+        "comments": 3,
+        "user_id": 38152173,
+        "user": "monirulislam_bd",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/03/06/06-56-53-620_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38152173/",
+        "name": "aerial view, urban, cityscape"
+      },
+      {
+        "id": 243908,
+        "pageURL": "https://pixabay.com/videos/id-243908/",
+        "type": "film",
+        "tags": "buildings, city, urban, cityscape, town, skyline, sunrise, mountain",
+        "duration": 8,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2024/11/29/243908_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 6142309,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/11/29/243908_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2024/11/29/243908_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 2264083,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/11/29/243908_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2024/11/29/243908_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 1206722,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/11/29/243908_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2024/11/29/243908_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 388100,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/11/29/243908_tiny.jpg"
+          }
+        },
+        "views": 4882,
+        "downloads": 1739,
+        "likes": 43,
+        "comments": 4,
+        "user_id": 4960027,
+        "user": "Oliverstar",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/12/04/06-02-00-688_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/4960027/",
+        "name": "buildings, city, urban"
+      },
+      {
+        "id": 231405,
+        "pageURL": "https://pixabay.com/videos/id-231405/",
+        "type": "film",
+        "tags": "sunset, skyscraper, nyc, manhattan, city, architecture, skyline, buildings, urban",
+        "duration": 11,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2024/09/14/231405_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 17137567,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/09/14/231405_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2024/09/14/231405_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 6474570,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/09/14/231405_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2024/09/14/231405_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 3554847,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/09/14/231405_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2024/09/14/231405_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 931504,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/09/14/231405_tiny.jpg"
+          }
+        },
+        "views": 19722,
+        "downloads": 8035,
+        "likes": 130,
+        "comments": 9,
+        "user_id": 38511440,
+        "user": "Edwars08",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/08/18/17-10-51-529_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38511440/",
+        "name": "sunset, skyscraper, nyc"
+      },
+      {
+        "id": 134927,
+        "pageURL": "https://pixabay.com/videos/id-134927/",
+        "type": "film",
+        "tags": "buildings, skyscrapers, skyline, coast, city, urban, sunset",
+        "duration": 15,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 6824071,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3103872,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1950726,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 923714,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/10/14/134927-760686109_tiny.jpg"
+          }
+        },
+        "views": 1528,
+        "downloads": 733,
+        "likes": 21,
+        "comments": 2,
+        "user_id": 30606072,
+        "user": "guizinhoGD",
+        "userImageURL": "",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/30606072/",
+        "name": "buildings, skyscrapers, skyline"
+      },
+      {
+        "id": 2143,
+        "pageURL": "https://pixabay.com/videos/id-2143/",
+        "type": "film",
+        "tags": "sunrise, sun, city, silhouette, city line, landscape, skyline, cityscape, city silhouette, building, sky, urban, town, high, modern, clouds, tower, skyscraper, structure, exterior, office building exterior, outdoor",
+        "duration": 7,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 4147610,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 2296448,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1335516,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 635708,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/02/13/2143-155246339_tiny.jpg"
+          }
+        },
+        "views": 85881,
+        "downloads": 47860,
+        "likes": 350,
+        "comments": 63,
+        "user_id": 2049862,
+        "user": "FindingFootage",
+        "userImageURL": "https://cdn.pixabay.com/user/2016/02/13/17-51-45-410_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/2049862/",
+        "name": "sunrise, sun, city"
+      },
+      {
+        "id": 267741,
+        "pageURL": "https://pixabay.com/videos/id-267741/",
+        "type": "film",
+        "tags": "shanghai, building, china, city, landscape, finance, travel, urban, sunset, center, asia, business, famous, architecture, modern, twilight, commerce, skyline, tourism, destination, financial, sunrise, light, panorama",
+        "duration": 8,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267741_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 9552404,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267741_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267741_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 3814515,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267741_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267741_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 2250165,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267741_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267741_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 627179,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267741_tiny.jpg"
+          }
+        },
+        "views": 6443,
+        "downloads": 3913,
+        "likes": 75,
+        "comments": 4,
+        "user_id": 38741244,
+        "user": "TungArt7",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/11/08/18-57-17-454_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38741244/",
+        "name": "shanghai, building, china"
+      },
+      {
+        "id": 335735,
+        "pageURL": "https://pixabay.com/videos/id-335735/",
+        "type": "film",
+        "tags": "aerial view, drone view, drone footage, aerial drone, city skyline, cityscape, urban skyline, modern city, metropolitan city, urban landscape, bird eye view, top view, panoramic view, skyline sunset, golden hour, sunset city, city at dusk, city lights, cinematic, cinematic shot, 4k video, 4k footage, high resolution",
+        "duration": 28,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335735_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 30004179,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335735_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335735_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 8696734,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335735_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335735_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 5196676,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335735_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335735_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 2489996,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335735_tiny.jpg"
+          }
+        },
+        "views": 876,
+        "downloads": 607,
+        "likes": 8,
+        "comments": 1,
+        "user_id": 38152173,
+        "user": "monirulislam_bd",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/03/06/06-56-53-620_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38152173/",
+        "name": "aerial view, drone view, drone footage"
+      },
+      {
+        "id": 126990,
+        "pageURL": "https://pixabay.com/videos/id-126990/",
+        "type": "film",
+        "tags": "city, buildings, sunset, evening, skyline, industry",
+        "duration": 18,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_large.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 22710482,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_medium.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 14010845,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_small.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 7240322,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_tiny.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 4244996,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/08/07/126990-737419647_tiny.jpg"
+          }
+        },
+        "views": 3403,
+        "downloads": 1912,
+        "likes": 31,
+        "comments": 5,
+        "user_id": 29107614,
+        "user": "u_sbnzxaqqgy",
+        "userImageURL": "",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/29107614/",
+        "name": "city, buildings, sunset"
+      },
+      {
+        "id": 335736,
+        "pageURL": "https://pixabay.com/videos/id-335736/",
+        "type": "film",
+        "tags": "aerial view, drone view, drone footage, aerial drone, city skyline, cityscape, urban skyline, modern city, metropolitan city, urban landscape, bird eye view, top view, panoramic view, skyline sunset, golden hour, sunset city, city at dusk, city lights, cinematic, cinematic shot, 4k video, 4k footage, high resolution, travel destination, downtown",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335736_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 11426580,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335736_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335736_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3454144,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335736_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335736_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 2121076,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335736_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335736_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 1056212,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335736_tiny.jpg"
+          }
+        },
+        "views": 806,
+        "downloads": 509,
+        "likes": 12,
+        "comments": 0,
+        "user_id": 38152173,
+        "user": "monirulislam_bd",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/03/06/06-56-53-620_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38152173/",
+        "name": "aerial view, drone view, drone footage"
+      },
+      {
+        "id": 267747,
+        "pageURL": "https://pixabay.com/videos/id-267747/",
+        "type": "film",
+        "tags": "shanghai, building, china, city, landscape, finance, travel, urban, outdoor, sunset, center, asia, architecture, modern, high angle view, commerce, skyline, tourism, financial, sunrise, district, light, skyscraper, night",
+        "duration": 12,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 41898057,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 22193693,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 15346207,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2025/03/26/267747_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 6304945,
+            "thumbnail": "https://cdn.pixabay.com/video/2025/03/26/267747_tiny.jpg"
+          }
+        },
+        "views": 7854,
+        "downloads": 5404,
+        "likes": 90,
+        "comments": 7,
+        "user_id": 38741244,
+        "user": "TungArt7",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/11/08/18-57-17-454_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38741244/",
+        "name": "shanghai, building, china"
+      },
+      {
+        "id": 4726,
+        "pageURL": "https://pixabay.com/videos/id-4726/",
+        "type": "film",
+        "tags": "city, urban, dusk, twilight, sunset, evening, romantic, setting sun, sundown, town, cityscape, skyline, downtown",
+        "duration": 14,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 6963396,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 2872417,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1726618,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 621657,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/08/22/4726-179738639_tiny.jpg"
+          }
+        },
+        "views": 19188,
+        "downloads": 10078,
+        "likes": 94,
+        "comments": 8,
+        "user_id": 1281706,
+        "user": "Coverr-Free-Footage",
+        "userImageURL": "https://cdn.pixabay.com/user/2015/10/16/09-28-45-303_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/1281706/",
+        "name": "city, urban, dusk"
+      },
+      {
+        "id": 335734,
+        "pageURL": "https://pixabay.com/videos/id-335734/",
+        "type": "film",
+        "tags": "aerial view, drone view, drone footage, aerial drone, city skyline, cityscape, urban skyline, modern city, metropolitan city, urban landscape, bird eye view, top view, panoramic view, skyline sunset, golden hour, sunset city, city at dusk, city lights, cinematic, cinematic shot, 4k video, 4k footage, high resolution, travel destination, downtown",
+        "duration": 25,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335734_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 23105699,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335734_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335734_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 6937833,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335734_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335734_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 4169198,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335734_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/02/20/335734_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 2000556,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/02/20/335734_tiny.jpg"
+          }
+        },
+        "views": 528,
+        "downloads": 318,
+        "likes": 7,
+        "comments": 1,
+        "user_id": 38152173,
+        "user": "monirulislam_bd",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/03/06/06-56-53-620_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/38152173/",
+        "name": "aerial view, drone view, drone footage"
+      },
+      {
+        "id": 42487,
+        "pageURL": "https://pixabay.com/videos/id-42487/",
+        "type": "film",
+        "tags": "city, sunset, buildings, skyline, sky, cityscape, silhouette, urban, clouds, sun, skyscraper, sunrise, architecture, dusk, downtown, evening, panorama, landscape, orange, tower, view, manhattan, red, usa",
+        "duration": 22,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 30625251,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 11424797,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7066103,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3453138,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/06/18/42487-431756096_tiny.jpg"
+          }
+        },
+        "views": 7914,
+        "downloads": 3683,
+        "likes": 39,
+        "comments": 4,
+        "user_id": 16406505,
+        "user": "DesignScape",
+        "userImageURL": "https://cdn.pixabay.com/user/2022/10/27/16-13-00-306_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/16406505/",
+        "name": "city, sunset, buildings"
+      }
+    ]
+  }
+}

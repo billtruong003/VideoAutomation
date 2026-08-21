@@ -1,0 +1,348 @@
+{
+  "provider": "pexels",
+  "kind": "photos",
+  "params": {
+    "query": "luxury yacht ocean",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:31:29.951Z",
+  "fetchedAtMs": 1787279489951,
+  "data": {
+    "page": 1,
+    "per_page": 15,
+    "photos": [
+      {
+        "id": 17537156,
+        "width": 6240,
+        "height": 4160,
+        "url": "https://www.pexels.com/photo/yacht-in-sea-17537156/",
+        "photographer": "Tuğçe Açıkyürek",
+        "photographer_url": "https://www.pexels.com/@tugce-acikyurek-3099881",
+        "photographer_id": 3099881,
+        "avg_color": "#515848",
+        "src": {
+          "original": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg",
+          "large2x": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/17537156/pexels-photo-17537156.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A drone shot capturing a luxury yacht sailing smoothly across the serene and vast sea surface."
+      },
+      {
+        "id": 10514509,
+        "width": 8000,
+        "height": 6000,
+        "url": "https://www.pexels.com/photo/white-yacht-on-blue-sea-10514509/",
+        "photographer": "Tolga Aslantürk",
+        "photographer_url": "https://www.pexels.com/@tolgaaslanturk",
+        "photographer_id": 126770705,
+        "avg_color": "#19363A",
+        "src": {
+          "original": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg",
+          "large2x": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/10514509/pexels-photo-10514509.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Top-down aerial shot of a luxury yacht cruising in Türkiye's stunning blue sea waters."
+      },
+      {
+        "id": 38009036,
+        "width": 6960,
+        "height": 4640,
+        "url": "https://www.pexels.com/photo/elegant-yacht-cruising-in-spanish-waters-38009036/",
+        "photographer": "Joerg Mangelsen",
+        "photographer_url": "https://www.pexels.com/@joerg-mangelsen-337913024",
+        "photographer_id": 337913024,
+        "avg_color": "#2D6CA1",
+        "src": {
+          "original": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg",
+          "large2x": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38009036/pexels-photo-38009036.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Luxury yacht in serene blue sea with scenic Spanish islands in background."
+      },
+      {
+        "id": 33852930,
+        "width": 6960,
+        "height": 4640,
+        "url": "https://www.pexels.com/photo/luxurious-yacht-on-the-ionian-sea-33852930/",
+        "photographer": "Efrem  Efre",
+        "photographer_url": "https://www.pexels.com/@efrem-efre-2786187",
+        "photographer_id": 2786187,
+        "avg_color": "#77889C",
+        "src": {
+          "original": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg",
+          "large2x": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/33852930/pexels-photo-33852930.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Elegant white yacht cruising the Ionian Sea near Corfu, Greece, under a clear blue sky."
+      },
+      {
+        "id": 14011948,
+        "width": 8944,
+        "height": 6708,
+        "url": "https://www.pexels.com/photo/white-yacht-on-water-14011948/",
+        "photographer": "Engin Akyurt",
+        "photographer_url": "https://www.pexels.com/@enginakyurt",
+        "photographer_id": 631997,
+        "avg_color": "#A9AAAC",
+        "src": {
+          "original": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg",
+          "large2x": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/14011948/pexels-photo-14011948.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A luxury yacht cruises on a calm sea with a mountain backdrop during sunset, depicting leisure and elegance."
+      },
+      {
+        "id": 7873392,
+        "width": 6240,
+        "height": 4160,
+        "url": "https://www.pexels.com/photo/blue-yacht-on-sea-7873392/",
+        "photographer": "Furkan Tumer",
+        "photographer_url": "https://www.pexels.com/@furkan-tumer-1560109",
+        "photographer_id": 1560109,
+        "avg_color": "#6A93A9",
+        "src": {
+          "original": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg",
+          "large2x": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/7873392/pexels-photo-7873392.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A luxury yacht glides through the blue waters off the coast of Antalya, Türkiye, with scenic mountains in the background."
+      },
+      {
+        "id": 35155740,
+        "width": 7982,
+        "height": 5200,
+        "url": "https://www.pexels.com/photo/luxury-yacht-cruising-on-calm-ocean-waters-35155740/",
+        "photographer": "Magda Ehlers",
+        "photographer_url": "https://www.pexels.com/@magda-ehlers-pexels",
+        "photographer_id": 102775,
+        "avg_color": "#597799",
+        "src": {
+          "original": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg",
+          "large2x": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/35155740/pexels-photo-35155740.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Elegant yacht sailing on serene ocean under a clear blue sky; perfect nautical escape."
+      },
+      {
+        "id": 15883439,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/yachts-sailing-on-sea-by-shore-15883439/",
+        "photographer": "Asad Photo Maldives",
+        "photographer_url": "https://www.pexels.com/@asadphoto",
+        "photographer_id": 45786,
+        "avg_color": "#81A5BB",
+        "src": {
+          "original": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg",
+          "large2x": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/15883439/pexels-photo-15883439.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Elegant yachts and sailing boats on a clear blue sea under a bright sky, ideal for travel and leisure themes."
+      },
+      {
+        "id": 30710213,
+        "width": 6016,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/luxury-yacht-cruising-on-blue-waters-30710213/",
+        "photographer": "Saksham Vikram",
+        "photographer_url": "https://www.pexels.com/@saksham-vikram-2148641748",
+        "photographer_id": 2148641748,
+        "avg_color": "#3D5E7D",
+        "src": {
+          "original": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg",
+          "large2x": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/30710213/pexels-photo-30710213.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A luxury yacht sailing on calm blue waters under a clear sky, showcasing elegance and adventure."
+      },
+      {
+        "id": 39076874,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/luxury-yacht-moored-in-sunny-croatian-harbor-39076874/",
+        "photographer": "Botond Sebestyén",
+        "photographer_url": "https://www.pexels.com/@sebestyenbotond",
+        "photographer_id": 535155086,
+        "avg_color": "#5C7A85",
+        "src": {
+          "original": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg",
+          "large2x": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/39076874/pexels-photo-39076874.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "A luxurious yacht docked in a sunny harbor with trees and blue sky, capturing a serene summer day."
+      },
+      {
+        "id": 10256551,
+        "width": 7197,
+        "height": 4803,
+        "url": "https://www.pexels.com/photo/white-cruise-ship-on-the-sea-10256551/",
+        "photographer": "Diego F. Parra",
+        "photographer_url": "https://www.pexels.com/@diego-f-parra-33199",
+        "photographer_id": 33199,
+        "avg_color": "#6BA0BF",
+        "src": {
+          "original": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg",
+          "large2x": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/10256551/pexels-photo-10256551.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Elegant luxury yacht sailing on open sea with clear blue sky backdrop, conveying leisure and opulence."
+      },
+      {
+        "id": 8013863,
+        "width": 6118,
+        "height": 4070,
+        "url": "https://www.pexels.com/photo/a-top-view-of-a-yacht-on-the-ocean-8013863/",
+        "photographer": "Faruk Tokluoğlu",
+        "photographer_url": "https://www.pexels.com/@faruktokluoglu",
+        "photographer_id": 1370585,
+        "avg_color": "#393D3E",
+        "src": {
+          "original": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg",
+          "large2x": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/8013863/pexels-photo-8013863.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Aerial view of a luxury yacht cruising on open water, showcasing elegance and adventure."
+      },
+      {
+        "id": 15564494,
+        "width": 7360,
+        "height": 4912,
+        "url": "https://www.pexels.com/photo/clear-sky-over-motor-yachts-15564494/",
+        "photographer": "Diego F. Parra",
+        "photographer_url": "https://www.pexels.com/@diego-f-parra-33199",
+        "photographer_id": 33199,
+        "avg_color": "#8CB6CF",
+        "src": {
+          "original": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg",
+          "large2x": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/15564494/pexels-photo-15564494.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Peaceful scene of yachts sailing on the Mediterranean Sea with clear skies and distant islands."
+      },
+      {
+        "id": 9928839,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/a-luxury-boat-docked-at-a-marina-9928839/",
+        "photographer": "Mike Bird",
+        "photographer_url": "https://www.pexels.com/@mikebird",
+        "photographer_id": 20649,
+        "avg_color": "#858D90",
+        "src": {
+          "original": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg",
+          "large2x": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/9928839/pexels-photo-9928839.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Elegant luxury yachts moored at Poole Marina, showcasing modern watercraft design in England."
+      },
+      {
+        "id": 32047283,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/luxury-yacht-cruising-on-pristine-blue-waters-32047283/",
+        "photographer": "İrem Yılmaztürk",
+        "photographer_url": "https://www.pexels.com/@i-rem-yilmazturk-1831111582",
+        "photographer_id": 1831111582,
+        "avg_color": "#688080",
+        "src": {
+          "original": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg",
+          "large2x": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/32047283/pexels-photo-32047283.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Elegant white yacht sailing in clear blue waters with a scenic coastline backdrop."
+      }
+    ],
+    "total_results": 8000,
+    "next_page": "https://api.pexels.com/v1/v1/search?orientation=landscape&page=2&per_page=15&query=luxury+yacht+ocean&size=large"
+  }
+}

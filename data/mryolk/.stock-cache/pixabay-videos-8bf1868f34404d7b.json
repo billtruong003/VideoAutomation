@@ -1,0 +1,766 @@
+{
+  "provider": "pixabay",
+  "kind": "videos",
+  "params": {
+    "query": "financial crisis stock market decline",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:38:31.052Z",
+  "fetchedAtMs": 1787279911052,
+  "data": {
+    "total": 1049,
+    "totalHits": 500,
+    "hits": [
+      {
+        "id": 139336,
+        "pageURL": "https://pixabay.com/videos/id-139336/",
+        "type": "animation",
+        "tags": "line, graph, finance, decline, chart, business, money, market, red, economy, down, decrease, concept, arrow, loss, financial, diagram, crisis, stock, data, background, recession, economic, trend",
+        "duration": 6,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 61627,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 35800,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 25299,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 18200,
+            "thumbnail": "https://cdn.pixabay.com/video/2022/11/16/139336-772278284_tiny.jpg"
+          }
+        },
+        "views": 20705,
+        "downloads": 10784,
+        "likes": 72,
+        "comments": 8,
+        "user_id": 17404579,
+        "user": "Kashif_Hussain",
+        "userImageURL": "https://cdn.pixabay.com/user/2021/12/25/05-38-46-116_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": true,
+        "userURL": "https://pixabay.com/users/17404579/",
+        "name": "line, graph, finance"
+      },
+      {
+        "id": 166289,
+        "pageURL": "https://pixabay.com/videos/id-166289/",
+        "type": "animation",
+        "tags": "graph, decline, economy, finance, inflation, value, stock, stock market, graph bars, bars, demographics, elections, red bars, financial, data, chart, nasdaq, smp500",
+        "duration": 20,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 1446069,
+            "thumbnail": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 1474708,
+            "thumbnail": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 749263,
+            "thumbnail": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 481150,
+            "thumbnail": "https://cdn.pixabay.com/video/2023/06/08/166289-834580739_tiny.jpg"
+          }
+        },
+        "views": 65906,
+        "downloads": 32889,
+        "likes": 185,
+        "comments": 15,
+        "user_id": 30935610,
+        "user": "Dimitri_K",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/04/01/15-58-45-424_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/30935610/",
+        "name": "graph, decline, economy"
+      },
+      {
+        "id": 204306,
+        "pageURL": "https://pixabay.com/videos/id-204306/",
+        "type": "animation",
+        "tags": "market, values, stock, exchange, financial, graphics, silver, currency, company, economy, banking, bank, euro, payment, bitcoin",
+        "duration": 14,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 47667985,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 23479742,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 11173367,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 5796226,
+            "thumbnail": "https://cdn.pixabay.com/video/2024/03/15/204306-923909642_tiny.jpg"
+          }
+        },
+        "views": 146706,
+        "downloads": 134526,
+        "likes": 671,
+        "comments": 64,
+        "user_id": 30639570,
+        "user": "Natures_Embrace",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/08/30/13-30-33-793_250x250.jpeg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/30639570/",
+        "name": "market, values, stock"
+      },
+      {
+        "id": 88697,
+        "pageURL": "https://pixabay.com/videos/id-88697/",
+        "type": "animation",
+        "tags": "analysis, banking, broker, business, the crisis, cryptography, currency, diagram, economy, fall, finance, financial, investment, market, markets, money, price, the recession, red, report, risk, sale, statistics, stock",
+        "duration": 20,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 27769435,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 15618438,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 10279273,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 6065516,
+            "thumbnail": "https://cdn.pixabay.com/video/2021/09/15/88697-606080045_tiny.jpg"
+          }
+        },
+        "views": 237827,
+        "downloads": 197359,
+        "likes": 973,
+        "comments": 127,
+        "user_id": 2829280,
+        "user": "Gam-Ol",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/10/08/18-00-11-922_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/2829280/",
+        "name": "analysis, banking, broker"
+      },
+      {
+        "id": 33805,
+        "pageURL": "https://pixabay.com/videos/id-33805/",
+        "type": "animation",
+        "tags": "analysis, banking, broker, business, the crisis, cryptography, currency, diagram, economy, fall, finance, financial, investment, market, markets, money, price, the recession, red, report, risk, sale, statistics, stock",
+        "duration": 20,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 24249334,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 11843155,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 9323510,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 5769172,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/16/33805-398257065_tiny.jpg"
+          }
+        },
+        "views": 214767,
+        "downloads": 170983,
+        "likes": 828,
+        "comments": 153,
+        "user_id": 2829280,
+        "user": "Gam-Ol",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/10/08/18-00-11-922_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/2829280/",
+        "name": "analysis, banking, broker"
+      },
+      {
+        "id": 34065,
+        "pageURL": "https://pixabay.com/videos/id-34065/",
+        "type": "animation",
+        "tags": "covid-19, coronavirus, corona, virus, pandemic, disease, sars-cov-2, mouth guard, stock exchange, economic crisis, financial crisis, quarantine, hygiene, world economy, stock market crash, black monday, blender, 3d",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 6463620,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3309413,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1814383,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 620225,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34065-399913610_tiny.jpg"
+          }
+        },
+        "views": 16237,
+        "downloads": 8938,
+        "likes": 36,
+        "comments": 9,
+        "user_id": 638998,
+        "user": "Frank_Rietsch",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/01/09/14-49-54-449_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/638998/",
+        "name": "covid-19, coronavirus, corona"
+      },
+      {
+        "id": 5438,
+        "pageURL": "https://pixabay.com/videos/id-5438/",
+        "type": "animation",
+        "tags": "finance, numbers, calculate, maths, profits, business, financial, investment, money, economy, growth, success, income, banking, market, stock, backgrounds",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5438-183788547_medium.mp4",
+            "width": 0,
+            "height": 0,
+            "size": 0,
+            "thumbnail": ""
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5438-183788547_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 3120531,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/09/21/5438-183788547_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5438-183788547_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1857105,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/09/21/5438-183788547_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5438-183788547_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 620969,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/09/21/5438-183788547_tiny.jpg"
+          }
+        },
+        "views": 334521,
+        "downloads": 216612,
+        "likes": 1035,
+        "comments": 204,
+        "user_id": 3092371,
+        "user": "tommyvideo",
+        "userImageURL": "https://cdn.pixabay.com/user/2018/12/12/13-02-46-522_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/3092371/",
+        "name": "finance, numbers, calculate"
+      },
+      {
+        "id": 33974,
+        "pageURL": "https://pixabay.com/videos/id-33974/",
+        "type": "animation",
+        "tags": "covid-19, coronavirus, corona, virus, pandemic, disease, sars-cov-2, mouth guard, stock exchange, economic crisis, financial crisis, beautiful wallpaper, quarantine, hygiene, world economy, stock market crash, black monday, wallpaper, earth, globe, world",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 4578630,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 2605859,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1716757,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 675315,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/19/33974-399148659_tiny.jpg"
+          }
+        },
+        "views": 79965,
+        "downloads": 41332,
+        "likes": 198,
+        "comments": 73,
+        "user_id": 638998,
+        "user": "Frank_Rietsch",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/01/09/14-49-54-449_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/638998/",
+        "name": "covid-19, coronavirus, corona"
+      },
+      {
+        "id": 34319,
+        "pageURL": "https://pixabay.com/videos/id-34319/",
+        "type": "animation",
+        "tags": "covid-19, coronavirus, corona, virus, pandemic, disease, sars-cov-2, mouth guard, stock exchange, economic crisis, financial crisis, quarantine, hygiene, world economy, stock market crash, black monday, blender, 3d",
+        "duration": 15,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 9999758,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 5046209,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 2866388,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 997788,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/26/34319-400974377_tiny.jpg"
+          }
+        },
+        "views": 5964,
+        "downloads": 2752,
+        "likes": 10,
+        "comments": 9,
+        "user_id": 638998,
+        "user": "Frank_Rietsch",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/01/09/14-49-54-449_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/638998/",
+        "name": "covid-19, coronavirus, corona"
+      },
+      {
+        "id": 34062,
+        "pageURL": "https://pixabay.com/videos/id-34062/",
+        "type": "animation",
+        "tags": "covid-19, coronavirus, corona, virus, pandemic, disease, sars-cov-2, mouth guard, stock exchange, economic crisis, financial crisis, quarantine, hygiene, world economy, stock market crash, black monday, blender, 3d",
+        "duration": 60,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 38575717,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 19302733,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 10856925,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 3958724,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/21/34062-399913587_tiny.jpg"
+          }
+        },
+        "views": 9014,
+        "downloads": 3961,
+        "likes": 20,
+        "comments": 11,
+        "user_id": 638998,
+        "user": "Frank_Rietsch",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/01/09/14-49-54-449_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/638998/",
+        "name": "covid-19, coronavirus, corona"
+      },
+      {
+        "id": 33654,
+        "pageURL": "https://pixabay.com/videos/id-33654/",
+        "type": "film",
+        "tags": "covid-19, coronavirus, corona, virus, pandemic, disease, sars-cov-2, mouth guard, stock exchange, economic crisis, financial crisis, beautiful wallpaper, quarantine, hygiene, world economy, stock market crash, black monday, wallpaper, earth, globe, world",
+        "duration": 10,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_large.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 3955749,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 2230740,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 1481352,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 681914,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/03/13/33654-397860916_tiny.jpg"
+          }
+        },
+        "views": 36138,
+        "downloads": 16454,
+        "likes": 74,
+        "comments": 27,
+        "user_id": 638998,
+        "user": "Frank_Rietsch",
+        "userImageURL": "https://cdn.pixabay.com/user/2024/01/09/14-49-54-449_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/638998/",
+        "name": "covid-19, coronavirus, corona"
+      },
+      {
+        "id": 349089,
+        "pageURL": "https://pixabay.com/videos/id-349089/",
+        "type": "film",
+        "tags": "finance, money, currency, growth, investment, success, financial, banking, accounting, bitcoin, forex, trading, crypto, trader, investor, chart, analysis, market, data, investing, cryptocurrency, stock, computer, graph",
+        "duration": 15,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349089_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 23416112,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349089_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349089_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 9632535,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349089_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349089_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 5756412,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349089_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349089_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 2013197,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349089_tiny.jpg"
+          }
+        },
+        "views": 5452,
+        "downloads": 7867,
+        "likes": 36,
+        "comments": 2,
+        "user_id": 46165548,
+        "user": "MuhammadAhmad10",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/01/11/11-05-25-792_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/46165548/",
+        "name": "finance, money, currency"
+      },
+      {
+        "id": 349091,
+        "pageURL": "https://pixabay.com/videos/id-349091/",
+        "type": "film",
+        "tags": "finance, money, currency, growth, investment, success, financial, banking, accounting, bitcoin, forex, trading, crypto, trader, investor, chart, analysis, market, data, investing, cryptocurrency, stock, computer, graph",
+        "duration": 17,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349091_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 28841557,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349091_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349091_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 11392713,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349091_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349091_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7120768,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349091_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2026/04/26/349091_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 2134195,
+            "thumbnail": "https://cdn.pixabay.com/video/2026/04/26/349091_tiny.jpg"
+          }
+        },
+        "views": 2940,
+        "downloads": 3236,
+        "likes": 24,
+        "comments": 0,
+        "user_id": 46165548,
+        "user": "MuhammadAhmad10",
+        "userImageURL": "https://cdn.pixabay.com/user/2025/01/11/11-05-25-792_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/46165548/",
+        "name": "finance, money, currency"
+      },
+      {
+        "id": 31251,
+        "pageURL": "https://pixabay.com/videos/id-31251/",
+        "type": "animation",
+        "tags": "analysis, reference information, balance, bank, banking, diagram, commercial, communication, concept, credit, finance, financial, forex, index, infographics, information, investments, control, market, marketing, money, stock, trade, the transaction, trend",
+        "duration": 15,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_large.mp4",
+            "width": 3840,
+            "height": 2160,
+            "size": 19396414,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_large.jpg"
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_medium.mp4",
+            "width": 2560,
+            "height": 1440,
+            "size": 10804654,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_small.mp4",
+            "width": 1920,
+            "height": 1080,
+            "size": 7903485,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_tiny.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 4987699,
+            "thumbnail": "https://cdn.pixabay.com/video/2020/01/14/31251-385265625_tiny.jpg"
+          }
+        },
+        "views": 176502,
+        "downloads": 114644,
+        "likes": 617,
+        "comments": 96,
+        "user_id": 2829280,
+        "user": "Gam-Ol",
+        "userImageURL": "https://cdn.pixabay.com/user/2023/10/08/18-00-11-922_250x250.png",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/2829280/",
+        "name": "analysis, reference information, balance"
+      },
+      {
+        "id": 5372,
+        "pageURL": "https://pixabay.com/videos/id-5372/",
+        "type": "animation",
+        "tags": "profits, stock market, money, gold, business, graph, growth, disagram, wealth",
+        "duration": 18,
+        "videos": {
+          "large": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5372-183629063_medium.mp4",
+            "width": 0,
+            "height": 0,
+            "size": 0,
+            "thumbnail": ""
+          },
+          "medium": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5372-183629063_medium.mp4",
+            "width": 1280,
+            "height": 720,
+            "size": 5638469,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/09/21/5372-183629063_medium.jpg"
+          },
+          "small": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5372-183629063_small.mp4",
+            "width": 960,
+            "height": 540,
+            "size": 3278201,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/09/21/5372-183629063_small.jpg"
+          },
+          "tiny": {
+            "url": "https://cdn.pixabay.com/video/2016/09/21/5372-183629063_tiny.mp4",
+            "width": 640,
+            "height": 360,
+            "size": 1148767,
+            "thumbnail": "https://cdn.pixabay.com/video/2016/09/21/5372-183629063_tiny.jpg"
+          }
+        },
+        "views": 186514,
+        "downloads": 118096,
+        "likes": 503,
+        "comments": 97,
+        "user_id": 3092371,
+        "user": "tommyvideo",
+        "userImageURL": "https://cdn.pixabay.com/user/2018/12/12/13-02-46-522_250x250.jpg",
+        "noAiTraining": false,
+        "isAiGenerated": false,
+        "isGRated": true,
+        "isLowQuality": false,
+        "userURL": "https://pixabay.com/users/3092371/",
+        "name": "profits, stock market, money"
+      }
+    ]
+  }
+}

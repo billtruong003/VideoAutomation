@@ -1,0 +1,348 @@
+{
+  "provider": "pexels",
+  "kind": "photos",
+  "params": {
+    "query": "stock market crash red screen",
+    "perPage": 15
+  },
+  "fetchedAt": "2026-08-21T02:31:41.595Z",
+  "fetchedAtMs": 1787279501595,
+  "data": {
+    "page": 1,
+    "per_page": 15,
+    "photos": [
+      {
+        "id": 35118208,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/stock-market-chart-displaying-bearish-trend-35118208/",
+        "photographer": "Alex Luna",
+        "photographer_url": "https://www.pexels.com/@al3jandr0",
+        "photographer_id": 198851489,
+        "avg_color": "#26231E",
+        "src": {
+          "original": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg",
+          "large2x": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/35118208/pexels-photo-35118208.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Candlestick chart showing a downward trend in the stock market analysis."
+      },
+      {
+        "id": 5561916,
+        "width": 6016,
+        "height": 4016,
+        "url": "https://www.pexels.com/photo/clipboard-with-statistical-data-and-digital-tablet-with-stock-market-display-on-screen-5561916/",
+        "photographer": "Leeloo The First",
+        "photographer_url": "https://www.pexels.com/@leeloothefirst",
+        "photographer_id": 2946790,
+        "avg_color": "#9DA2A6",
+        "src": {
+          "original": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg",
+          "large2x": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/5561916/pexels-photo-5561916.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Magnifying glass and tablet analyze 2020 stock market crash data with charts on clipboard."
+      },
+      {
+        "id": 5561912,
+        "width": 6016,
+        "height": 4016,
+        "url": "https://www.pexels.com/photo/clipboard-with-statistical-data-and-digital-tablet-with-stock-market-display-on-screen-5561912/",
+        "photographer": "Leeloo The First",
+        "photographer_url": "https://www.pexels.com/@leeloothefirst",
+        "photographer_id": 2946790,
+        "avg_color": "#C5C5C9",
+        "src": {
+          "original": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg",
+          "large2x": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Tablet and clipboard with charts illustrating the 2020 stock market crash."
+      },
+      {
+        "id": 10653886,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/business-data-graph-on-monitor-10653886/",
+        "photographer": "Aedrian Salazar",
+        "photographer_url": "https://www.pexels.com/@aedrian",
+        "photographer_id": 29419609,
+        "avg_color": "#0E0D12",
+        "src": {
+          "original": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg",
+          "large2x": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/10653886/pexels-photo-10653886.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of stock market chart showing trends and data on a digital screen."
+      },
+      {
+        "id": 5561920,
+        "width": 6016,
+        "height": 4016,
+        "url": "https://www.pexels.com/photo/clipboard-with-statistical-data-and-digital-tablet-with-stock-market-display-on-screen-5561920/",
+        "photographer": "Leeloo The First",
+        "photographer_url": "https://www.pexels.com/@leeloothefirst",
+        "photographer_id": 2946790,
+        "avg_color": "#A0A4AF",
+        "src": {
+          "original": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg",
+          "large2x": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/5561920/pexels-photo-5561920.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Tablet displaying 2020 stock market crash amidst graphs and charts. Perfect for financial analysis themes."
+      },
+      {
+        "id": 6289061,
+        "width": 8000,
+        "height": 4500,
+        "url": "https://www.pexels.com/photo/stocks-icon-on-blue-background-6289061/",
+        "photographer": "Monstera Production",
+        "photographer_url": "https://www.pexels.com/@gabby-k",
+        "photographer_id": 3372733,
+        "avg_color": "#AABACE",
+        "src": {
+          "original": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg",
+          "large2x": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/6289061/pexels-photo-6289061.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Conceptual image of stock market impact due to COVID-19 with dollar bill."
+      },
+      {
+        "id": 5561919,
+        "width": 6016,
+        "height": 4016,
+        "url": "https://www.pexels.com/photo/clipboard-with-statistical-data-and-digital-tablet-with-stock-market-display-on-screen-5561919/",
+        "photographer": "Leeloo The First",
+        "photographer_url": "https://www.pexels.com/@leeloothefirst",
+        "photographer_id": 2946790,
+        "avg_color": "#CECED4",
+        "src": {
+          "original": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg",
+          "large2x": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/5561919/pexels-photo-5561919.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Tablet, magnifying glass, and clipboard for stock market analysis."
+      },
+      {
+        "id": 12955791,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/a-board-with-data-12955791/",
+        "photographer": "Atlantic Ambience",
+        "photographer_url": "https://www.pexels.com/@freestockpro",
+        "photographer_id": 100512,
+        "avg_color": "#84383C",
+        "src": {
+          "original": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg",
+          "large2x": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/12955791/pexels-photo-12955791.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Dynamic forex trading concept with currency symbols and candlestick chart illuminated on screen."
+      },
+      {
+        "id": 38892298,
+        "width": 7998,
+        "height": 5332,
+        "url": "https://www.pexels.com/photo/financial-market-chart-display-on-screen-38892298/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#211313",
+        "src": {
+          "original": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg",
+          "large2x": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38892298/pexels-photo-38892298.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Stock market candlestick chart showing financial data trends with red and green bars."
+      },
+      {
+        "id": 38412414,
+        "width": 7864,
+        "height": 5243,
+        "url": "https://www.pexels.com/photo/stock-market-trading-analysis-display-38412414/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#121D23",
+        "src": {
+          "original": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg",
+          "large2x": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38412414/pexels-photo-38412414.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of a digital trading chart with candlestick patterns and market analysis in a dark setting."
+      },
+      {
+        "id": 39121208,
+        "width": 8640,
+        "height": 5760,
+        "url": "https://www.pexels.com/photo/financial-trading-chart-with-indicators-39121208/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#161012",
+        "src": {
+          "original": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg",
+          "large2x": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/39121208/pexels-photo-39121208.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Illustration of a financial trading chart with various technical indicators displayed."
+      },
+      {
+        "id": 38654744,
+        "width": 7627,
+        "height": 5085,
+        "url": "https://www.pexels.com/photo/38654744/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#5B6B6A",
+        "src": {
+          "original": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg",
+          "large2x": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38654744/pexels-photo-38654744.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Free stock photo of 4k, analysis, binance"
+      },
+      {
+        "id": 38963049,
+        "width": 8640,
+        "height": 5760,
+        "url": "https://www.pexels.com/photo/stock-market-chart-showing-bearish-trend-38963049/",
+        "photographer": "Rafael Minguet Delgado",
+        "photographer_url": "https://www.pexels.com/@thales13",
+        "photographer_id": 1141366207,
+        "avg_color": "#0C0B10",
+        "src": {
+          "original": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg",
+          "large2x": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/38963049/pexels-photo-38963049.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Detailed view of a financial chart displaying a bearish trend with red and green candlesticks."
+      },
+      {
+        "id": 7807839,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/red-and-green-graph-on-the-screen-7807839/",
+        "photographer": "Max Bonda",
+        "photographer_url": "https://www.pexels.com/@maxbond",
+        "photographer_id": 28795834,
+        "avg_color": "#A3A2A0",
+        "src": {
+          "original": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg",
+          "large2x": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/7807839/pexels-photo-7807839.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of digital cryptocurrency market graph showing price fluctuations and trading data."
+      },
+      {
+        "id": 6770610,
+        "width": 6000,
+        "height": 4000,
+        "url": "https://www.pexels.com/photo/multiple-graphs-on-a-laptop-screen-6770610/",
+        "photographer": "Alesia  Kozik",
+        "photographer_url": "https://www.pexels.com/@alesiakozik",
+        "photographer_id": 5767085,
+        "avg_color": "#182024",
+        "src": {
+          "original": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg",
+          "large2x": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "large": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "medium": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&h=350",
+          "small": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&h=130",
+          "portrait": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+          "landscape": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+          "tiny": "https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
+        },
+        "liked": false,
+        "alt": "Close-up of stock market trading screen displaying financial growth and charts."
+      }
+    ],
+    "total_results": 8000,
+    "next_page": "https://api.pexels.com/v1/v1/search?orientation=landscape&page=2&per_page=15&query=stock+market+crash+red+screen&size=large"
+  }
+}
