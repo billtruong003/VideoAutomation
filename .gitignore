@@ -104,3 +104,8 @@ qa/mryolk/anchor/
 # into the bundle on every render. Both are rebuildable and neither is read at render time.
 stock-source/
 work/
+
+# Transient render/tool logs. Regenerated on every run; the artifacts they describe are
+# committed, the running commentary is not.
+qa/mryolk/*.log
+data/mryolk/*-run.log
