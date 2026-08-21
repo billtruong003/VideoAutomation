@@ -1,0 +1,22 @@
+[01] tape-measure-hook ... ok  6.3 MB  48s
+[02] windshield-frit-dots ... ok  6.4 MB  53s
+[03] coin-reeded-edges ... ok  6.7 MB  52s
+[04] foil-shiny-dull ... ok  5.4 MB  46s
+[05] tactile-paving ... ok  8.9 MB  46s
+[06] airplane-ashtray ... ok  5.6 MB  46s
+[07] third-brake-light ... ok  6.0 MB  59s
+[08] sneaker-lace-lock ... ok  5.9 MB  46s
+[09] padlock-drain-hole ... ok  5.9 MB  49s
+[10] ferrite-choke ... ok  5.3 MB  67s
+[11] brick-holes ... ok  5.1 MB  51s
+[12] railway-ballast ... ok  9.7 MB  53s
+[13] chip-bag-nitrogen ... ok  5.1 MB  72s
+[14] toilet-seat-gap ... ok  5.0 MB  50s
+[15] soda-can-neck ... ok  4.7 MB  50s
+[16] revolving-door ... ok  5.8 MB  45s
+[17] convex-mirror-warning ... ok  4.8 MB  52s
+[18] beer-bottle-brown-glass ... ok  4.9 MB  71s
+[19] cabin-lights-dim ... ok  4.4 MB  65s
+[20] thermal-receipt-fade ... ok  5.4 MB  53s
+
+20/20 rendered in 17.9 min -> out/batch-002
