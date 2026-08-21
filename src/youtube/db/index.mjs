@@ -326,6 +326,93 @@ const MIGRATIONS = [
       ALTER TABLE youtube_video ADD COLUMN metadata_hash     TEXT;
     `,
   },
+  {
+    id: 5,
+    name: 'audio-factory',
+    sql: `
+      -- A batch of scripts moving through the audio factory. The BATCH owns stage
+      -- advancement; episodes have their own finer states but cannot pull the batch forward.
+      CREATE TABLE af_batch (
+        batch_id          TEXT PRIMARY KEY,
+        stage             TEXT NOT NULL,
+        schema_version    INTEGER NOT NULL,
+        source_hash       TEXT,
+        source_json       TEXT NOT NULL,
+        defaults_json     TEXT NOT NULL,
+        -- Frozen at the moment TTS starts, so a dropdown change cannot alter half a batch.
+        voice_lock_json   TEXT,
+        voice_locked_at   TEXT,
+        created_at        TEXT NOT NULL,
+        updated_at        TEXT NOT NULL
+      );
+
+      CREATE TABLE af_episode (
+        id                INTEGER PRIMARY KEY AUTOINCREMENT,
+        batch_id          TEXT NOT NULL REFERENCES af_batch(batch_id) ON DELETE CASCADE,
+        episode_id        TEXT NOT NULL,
+        title             TEXT NOT NULL,
+        content           TEXT NOT NULL,
+        content_hash      TEXT NOT NULL,
+        language          TEXT NOT NULL,
+        voice_override    TEXT,
+        hints_json        TEXT,
+        notes             TEXT,
+        metadata_json     TEXT,
+        state             TEXT NOT NULL,
+        excluded          INTEGER NOT NULL DEFAULT 0,
+        -- Winner selection
+        winning_take      TEXT,
+        selection_method  TEXT,
+        selection_reason  TEXT,
+        selection_score   REAL,
+        selected_at       TEXT,
+        generation_round  INTEGER NOT NULL DEFAULT 0,
+        -- Downstream artefacts, by path
+        processed_audio   TEXT,
+        timemap_path      TEXT,
+        stt_path          TEXT,
+        alignment_path    TEXT,
+        alignment_method  TEXT,
+        srt_path          TEXT,
+        issues_json       TEXT,
+        created_at        TEXT NOT NULL,
+        updated_at        TEXT NOT NULL,
+        UNIQUE(batch_id, episode_id)
+      );
+
+      -- One row per generated take. The cache key is what stops a rerun re-billing.
+      CREATE TABLE af_take (
+        id                INTEGER PRIMARY KEY AUTOINCREMENT,
+        batch_id          TEXT NOT NULL,
+        episode_id        TEXT NOT NULL,
+        label             TEXT NOT NULL,
+        cache_key         TEXT NOT NULL UNIQUE,
+        voice_id          TEXT NOT NULL,
+        model_id          TEXT NOT NULL,
+        seed              INTEGER,
+        output_format     TEXT NOT NULL,
+        settings_json     TEXT,
+        audio_path        TEXT,
+        audio_hash        TEXT,
+        bytes             INTEGER,
+        duration_s        REAL,
+        request_id        TEXT,
+        characters_used   INTEGER,
+        cache_hit         INTEGER NOT NULL DEFAULT 0,
+        analysis_json     TEXT,
+        gate_json         TEXT,
+        score             REAL,
+        state             TEXT NOT NULL,
+        error_code        TEXT,
+        error_message     TEXT,
+        created_at        TEXT NOT NULL,
+        updated_at        TEXT NOT NULL
+      );
+
+      CREATE INDEX idx_af_take_ep ON af_take(batch_id, episode_id);
+      CREATE INDEX idx_af_ep_batch ON af_episode(batch_id, state);
+    `,
+  },
 ];
 
 export function getDb() {
