@@ -281,6 +281,24 @@ export async function textToSpeech({
 /* ===================================================================== STT */
 
 /**
+ * Serialise transcription keyterms the way the API actually wants them.
+ *
+ * A COMMA-SEPARATED STRING, not JSON. `JSON.stringify(["passenger"])` makes the API read the
+ * brackets and quotes as part of the keyword and reject the entire request with
+ * `invalid_keyword`. That is how this shipped: the retry path was written, never exercised by
+ * a canary clean enough to trigger it, and failed every time a real batch needed it.
+ *
+ * A term containing a comma would arrive as two terms, so those are dropped rather than sent
+ * silently broken.
+ */
+export function formatKeyterms(keyterms) {
+  const clean = (keyterms ?? [])
+    .map((t) => String(t).trim())
+    .filter((t) => t && !t.includes(','));
+  return clean.length ? clean.join(',') : null;
+}
+
+/**
  * Transcribe. This is the INDEPENDENT hearing check, so it is deliberately given no hint of
  * what the script says unless a first pass came back wrong -- see `keyterms`.
  */
@@ -299,8 +317,15 @@ export async function speechToText({
    * always-on. Sending the whole technical vocabulary on clean synthetic narration pays for
    * an accuracy improvement that is not needed and weakens the check: a transcript told what
    * to expect is a worse witness.
+   *
+   * The field is a COMMA-SEPARATED STRING, not JSON. Sending `["passenger"]` makes the API
+   * read the brackets and quotes as part of the keyword and reject the whole request with
+   * `invalid_keyword`, which is how this shipped: the retry path was written, never exercised
+   * by a clean canary, and failed 100% of the time the moment a real batch needed it. A term
+   * containing a comma would split into two, so those are dropped rather than sent broken.
    */
-  if (keyterms?.length) form.set('keyterms', JSON.stringify(keyterms));
+  const terms = formatKeyterms(keyterms);
+  if (terms) form.set('keyterms', terms);
 
   const { data, requestId, durationMs } = await request('POST', '/v1/speech-to-text', { form });
 

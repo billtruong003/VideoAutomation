@@ -573,7 +573,30 @@ export async function runSttStage(batchId, { concurrency = 2, allowKeytermRetry 
     return { episodeId: e.episode_id, ok: comparison.ok, wer: comparison.wer, issues: comparison.issues, keytermRetry };
   }, { concurrency });
 
-  return results.map((r) => (r.ok ? r.value : { ok: false, error: r.error?.code ?? 'failed' }));
+  return settleStage(results, targets, { batchId, d });
+}
+
+/**
+ * Turn `runPool` results back into per-episode outcomes, and RECORD the failures.
+ *
+ * `results` is index-aligned with the items it was given, which is the only reason a failed
+ * entry can be matched back to an episode at all -- the rejection itself carries no identity.
+ * An earlier version returned a bare `{ok:false, error}` for failures, so a batch of twenty
+ * reported "one of these failed" with no way to say which, and the episode row kept its old
+ * state with no error on it. A failure nobody can attribute is a failure nobody can fix.
+ */
+function settleStage(results, targets, { batchId, d }) {
+  return results.map((r, i) => {
+    if (r.ok) return r.value;
+    const episodeId = targets[i]?.episode_id ?? null;
+    const code = r.error?.code ?? 'failed';
+    const message = String(r.error?.message ?? r.error ?? 'failed').slice(0, 500);
+    if (episodeId) {
+      d.prepare('UPDATE af_episode SET error_code=?, error_message=?, updated_at=? WHERE batch_id=? AND episode_id=?')
+        .run(code, message, now(), batchId, episodeId);
+    }
+    return { episodeId, ok: false, error: code, message };
+  });
 }
 
 /* ====================================== stage: alignment + subtitles */
@@ -649,7 +672,7 @@ export async function runAlignmentStage(batchId, { concurrency = 2, slugOf = (e)
     };
   }, { concurrency });
 
-  return results.map((r) => (r.ok ? r.value : { ok: false, error: r.error?.code ?? 'failed' }));
+  return settleStage(results, targets, { batchId, d });
 }
 
 /* ============================================================== advance */

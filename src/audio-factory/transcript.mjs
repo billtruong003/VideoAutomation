@@ -54,8 +54,18 @@ export function normaliseWord(w) {
   return t;
 }
 
+/**
+ * Split into comparable words.
+ *
+ * A HYPHEN IS A WORD BOUNDARY HERE, because it is not one in speech. Scribe writes
+ * "passenger-side" where the script says "passenger side"; both were spoken identically. Left
+ * joined, `normaliseWord` strips the hyphen and produces "passengerside", which matches
+ * neither word, so a perfectly pronounced compound is reported as a MISSING word and the
+ * episode is held for a pronunciation defect that does not exist. Splitting on the hyphen
+ * makes the two spellings compare equal, which is the only honest answer.
+ */
 export const tokenise = (text) => String(text ?? '')
-  .split(/\s+/).map(normaliseWord).filter(Boolean);
+  .split(/[\s‐-―−-]+/).map(normaliseWord).filter(Boolean);
 
 /** Classic edit distance over word arrays, with the operations kept for reporting. */
 function align(a, b) {
@@ -172,11 +182,23 @@ export function compareTranscript(canonicalText, heardText, { criticalTerms = []
 export function criticalTermsOf(text, extraHints = []) {
   const words = String(text ?? '').split(/\s+/);
   const out = new Set(extraHints.map((h) => String(h).trim()).filter(Boolean));
+
   for (const [i, raw] of words.entries()) {
     const w = raw.replace(/[^A-Za-z'-]/g, '');
     if (!w) continue;
-    if (i > 0 && /^[A-Z][a-z]{2,}/.test(w)) out.add(w);      // proper noun mid-sentence
-    if (w.length >= 9 && /^[a-z]+$/.test(w)) out.add(w);      // long technical word
+
+    /*
+     * A capitalised word is only evidence of a proper noun if it is not sitting where every
+     * word is capitalised anyway. "Mid-sentence" means mid-ARRAY, which is not the same
+     * thing: the first word after a full stop is mid-array and capitalised for grammar, not
+     * because it names anything. Without this, "The", "Curving" and "Hit" were collected as
+     * proper nouns, sent as transcription keyterms, and reported as pronunciation errors when
+     * an ASR pass rendered them differently.
+     */
+    const prev = i > 0 ? words[i - 1] : null;
+    const startsSentence = i === 0 || (prev && /[.!?:][")\]]?$/.test(prev));
+    if (!startsSentence && /^[A-Z][a-z]{2,}/.test(w)) out.add(w);   // proper noun mid-sentence
+    if (w.length >= 9 && /^[a-z]+$/.test(w)) out.add(w);            // long technical word
   }
   return [...out];
 }

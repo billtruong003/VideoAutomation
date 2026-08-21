@@ -18,6 +18,7 @@ import { compareTranscript, normaliseWord, criticalTermsOf, tokenise } from '../
 import { attachTiming, buildCues, validateCues, cuesToSrt, buildSubtitles, TIMING_METHOD } from '../src/audio-factory/subtitles.mjs';
 import { BATCH_STAGE, EPISODE_STATE, canAdvance, nextStage } from '../src/audio-factory/states.mjs';
 import { lastCueEndOf } from '../src/audio-factory/orchestrator.mjs';
+import { formatKeyterms } from '../src/audio-factory/elevenlabs/client.mjs';
 import { writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -563,5 +564,88 @@ describe('handoff manifest', () => {
     writeFileSync(srt, ['1', '01:02:03,004 --> 01:02:04,500', 'x', ''].join('\n'));
     expect(lastCueEndOf(srt)).toBeCloseTo(3724.5, 3);
     rmSync(srt, { force: true });
+  });
+});
+
+/* ================================ defects the first real batch exposed */
+
+/**
+ * Every case below is a live failure from Batch 002, not a hypothetical. Each one had the same
+ * shape: a path that a clean canary never exercised, so it shipped broken and only failed when
+ * twenty real scripts ran through it.
+ */
+describe('transcription keyterms', () => {
+  it('sends a comma-separated string, never JSON', () => {
+    // JSON.stringify(['passenger']) made the API read [ " ] as part of the keyword and reject
+    // the whole request with invalid_keyword. The retry path failed 100% of the time.
+    expect(formatKeyterms(['passenger'])).toBe('passenger');
+    expect(formatKeyterms(['passenger', 'mirror'])).toBe('passenger,mirror');
+    expect(formatKeyterms(['passenger'])).not.toContain('[');
+    expect(formatKeyterms(['passenger'])).not.toContain('"');
+  });
+
+  it('returns null for nothing to send, rather than an empty field', () => {
+    expect(formatKeyterms([])).toBeNull();
+    expect(formatKeyterms(undefined)).toBeNull();
+    expect(formatKeyterms(['  ', ''])).toBeNull();
+  });
+
+  it('drops a term containing a comma instead of splitting it into two', () => {
+    expect(formatKeyterms(['passenger', 'Smith, John'])).toBe('passenger');
+  });
+});
+
+describe('critical term extraction', () => {
+  it('does not mistake a sentence-initial capital for a proper noun', () => {
+    // "Mid-sentence" is not "mid-array": the first word after a full stop is capitalised for
+    // grammar. These were sent as keyterms AND reported as pronunciation errors.
+    const terms = criticalTermsOf('The dog barked. Curving away, it left. Hit the brake.');
+    expect(terms).not.toContain('The');
+    expect(terms).not.toContain('Curving');
+    expect(terms).not.toContain('Hit');
+  });
+
+  it('still collects genuine proper nouns', () => {
+    const terms = criticalTermsOf('An engineer named Seiichi Miyake walked to Osaka.');
+    expect(terms).toContain('Seiichi');
+    expect(terms).toContain('Miyake');
+    expect(terms).toContain('Osaka');
+  });
+
+  it('treats a capital after a question or exclamation as sentence-initial too', () => {
+    expect(criticalTermsOf('Why? Because physics.')).not.toContain('Because');
+    expect(criticalTermsOf('Stop! Then go.')).not.toContain('Then');
+  });
+});
+
+describe('hyphenation in transcript comparison', () => {
+  it('treats a hyphenated compound as the words it is made of', () => {
+    // Scribe wrote "passenger-side" where the script said "passenger side". Joined, the
+    // hyphen-stripping produced "passengerside", matching neither word, so a perfectly spoken
+    // compound was reported as MISSING and held the episode.
+    expect(tokenise('passenger-side mirror')).toEqual(tokenise('passenger side mirror'));
+  });
+
+  it('scores a hyphenation difference as no error at all', () => {
+    const c = compareTranscript('the passenger side mirror', 'the passenger-side mirror', {
+      criticalTerms: ['passenger'],
+    });
+    expect(c.wer).toBe(0);
+    expect(c.ok).toBe(true);
+    expect(c.issues).toHaveLength(0);
+  });
+
+  it('still catches a real mispronunciation', () => {
+    // The point of the fix is to remove FALSE positives, not to stop reporting.
+    const c = compareTranscript('the diaphragm moved', 'the diagram moved', {
+      criticalTerms: ['diaphragm'],
+    });
+    expect(c.ok).toBe(false);
+    expect(c.issues.map((i) => i.code)).toContain('POSSIBLE_PRONUNCIATION_ERROR');
+  });
+
+  it('handles en dashes and em dashes as word boundaries as well', () => {
+    expect(tokenise('open—front seat')).toEqual(['open', 'front', 'seat']);
+    expect(tokenise('open–front seat')).toEqual(['open', 'front', 'seat']);
   });
 });
