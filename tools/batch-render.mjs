@@ -21,10 +21,24 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, statSync } from 'node:fs';
 import { selection } from './episode.mjs';
 
-const { slugs, manifest, rest } = selection();
+const { slugs, manifest, rest, batchId } = selection();
 const preview = rest.includes('--preview');
+/**
+ * Re-render something that already exists.
+ *
+ * Off by default so an interrupted batch resumes instead of starting over: twenty episodes is
+ * over an hour of rendering, and losing all of it to one crash at episode nineteen is the
+ * failure mode this run has to survive.
+ */
+const force = rest.includes('--force');
 
-const OUT_DIR = preview ? 'preview/batch-001' : 'out/batch-001';
+/*
+ * The output folder follows the BATCH. This was hard-coded to batch-001, which was correct
+ * when there was one batch and silently wrong the moment there were two -- batch 002 would
+ * have rendered straight over batch 001's delivered files, in a folder whose name said they
+ * were something else.
+ */
+const OUT_DIR = `${preview ? 'preview' : 'out'}/${batchId}`;
 mkdirSync(OUT_DIR, { recursive: true });
 
 const compositionId = (slug) =>
@@ -43,6 +57,14 @@ for (const slug of slugs) {
 
   const t0 = process.hrtime.bigint();
   process.stdout.write(`[${n}] ${slug} ... `);
+
+  // Resume: a finished file is left alone unless --force asks for it again.
+  if (!force && existsSync(file) && statSync(file).size > 0) {
+    const size = statSync(file).size;
+    results.push({ slug, file, ok: true, secs: 0, size, skipped: true });
+    console.log(`skip (exists ${(size / 1e6).toFixed(1)} MB)`);
+    continue;
+  }
 
   try {
     execFileSync('npx', args, {
