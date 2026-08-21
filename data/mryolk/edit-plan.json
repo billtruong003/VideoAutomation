@@ -1,0 +1,3925 @@
+{
+  "version": 1,
+  "generatedFrom": [
+    "src/mryolk/scenes/index.ts",
+    "src/mryolk/Sfx.tsx",
+    "data/mryolk/stt/segments.json",
+    "data/mryolk/audio-report.json"
+  ],
+  "title": "Why The Entire World Runs On Debt",
+  "channel": "Mr.Yolk",
+  "composition": {
+    "id": "MrYolkDebt",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 25663,
+    "durationSeconds": 855.42
+  },
+  "narration": {
+    "master": "public/mryolk/audio/narration-master.wav",
+    "rawSeconds": 1001.54,
+    "processedSeconds": 853.22,
+    "reductionPercent": 14.81,
+    "integratedLufs": -16.24,
+    "truePeakDb": -1.44,
+    "tempo": 1.08,
+    "words": 2269,
+    "subtitleCues": 299
+  },
+  "summary": {
+    "chapters": 17,
+    "beats": 273,
+    "averageBeatSeconds": 2.89,
+    "shortestBeatSeconds": 0.26,
+    "longestBeatSeconds": 16.32,
+    "visualModeUsage": {
+      "yolk": 17,
+      "stock": 7,
+      "kinetic-text": 12,
+      "diagram": 13
+    },
+    "sfxCues": 106,
+    "yolkAssetsAvailable": 216,
+    "stockAssetsAvailable": 43
+  },
+  "scenes": [
+    {
+      "sceneId": "ch01",
+      "chapter": "What if all debt disappeared?",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch01-disappearance.tsx",
+      "segments": {
+        "from": 0,
+        "to": 22,
+        "count": 23
+      },
+      "start": 0.08,
+      "end": 47.96,
+      "durationSeconds": 47.88,
+      "frames": {
+        "from": 2,
+        "count": 1436
+      },
+      "visualModes": [
+        "yolk",
+        "stock",
+        "kinetic-text"
+      ],
+      "sfxCues": 13,
+      "beats": [
+        {
+          "beatId": "ch01-s0",
+          "segment": 0,
+          "start": 0.08,
+          "end": 4.04,
+          "durationSeconds": 3.96,
+          "spokenText": "Imagine you wake up tomorrow morning and every debt on Earth is gone.",
+          "wordCount": 13
+        },
+        {
+          "beatId": "ch01-s1",
+          "segment": 1,
+          "start": 4.28,
+          "end": 4.9,
+          "durationSeconds": 0.62,
+          "spokenText": "Your mortgage?",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch01-s2",
+          "segment": 2,
+          "start": 5.3,
+          "end": 5.6,
+          "durationSeconds": 0.3,
+          "spokenText": "Gone.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch01-s3",
+          "segment": 3,
+          "start": 5.92,
+          "end": 6.46,
+          "durationSeconds": 0.54,
+          "spokenText": "Credit card?",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch01-s4",
+          "segment": 4,
+          "start": 6.74,
+          "end": 7.06,
+          "durationSeconds": 0.32,
+          "spokenText": "Gone.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch01-s5",
+          "segment": 5,
+          "start": 7.36,
+          "end": 7.99,
+          "durationSeconds": 0.63,
+          "spokenText": "Student loan?",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch01-s6",
+          "segment": 6,
+          "start": 8.3,
+          "end": 8.66,
+          "durationSeconds": 0.36,
+          "spokenText": "Gone.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch01-s7",
+          "segment": 7,
+          "start": 9.02,
+          "end": 9.66,
+          "durationSeconds": 0.64,
+          "spokenText": "Corporate debt?",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch01-s8",
+          "segment": 8,
+          "start": 9.92,
+          "end": 10.319,
+          "durationSeconds": 0.399,
+          "spokenText": "Gone.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch01-s9",
+          "segment": 9,
+          "start": 10.58,
+          "end": 11.24,
+          "durationSeconds": 0.66,
+          "spokenText": "Government debt?",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch01-s10",
+          "segment": 10,
+          "start": 11.48,
+          "end": 12.26,
+          "durationSeconds": 0.78,
+          "spokenText": "Also gone.",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch01-s11",
+          "segment": 11,
+          "start": 12.62,
+          "end": 15.16,
+          "durationSeconds": 2.54,
+          "spokenText": "Humanity has finally defeated debt.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch01-s12",
+          "segment": 12,
+          "start": 15.2,
+          "end": 16.04,
+          "durationSeconds": 0.84,
+          "spokenText": "Congratulations.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch01-s13",
+          "segment": 13,
+          "start": 16.28,
+          "end": 19.34,
+          "durationSeconds": 3.06,
+          "spokenText": "We did it for approximately five minutes.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch01-s14",
+          "segment": 14,
+          "start": 19.4,
+          "end": 21.4,
+          "durationSeconds": 2,
+          "spokenText": "Because then banks start breaking.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch01-s15",
+          "segment": 15,
+          "start": 21.44,
+          "end": 24.71,
+          "durationSeconds": 3.27,
+          "spokenText": "Companies suddenly lose access to money they use to operate and expand.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch01-s16",
+          "segment": 16,
+          "start": 25,
+          "end": 26.31,
+          "durationSeconds": 1.31,
+          "spokenText": "Construction projects freeze.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch01-s17",
+          "segment": 17,
+          "start": 26.6,
+          "end": 29.34,
+          "durationSeconds": 2.74,
+          "spokenText": "Governments lose one of their biggest sources of financing.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch01-s18",
+          "segment": 18,
+          "start": 29.38,
+          "end": 30.26,
+          "durationSeconds": 0.88,
+          "spokenText": "Investors panic.",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch01-s19",
+          "segment": 19,
+          "start": 30.54,
+          "end": 38.3,
+          "durationSeconds": 7.76,
+          "spokenText": "And the financial system begins discovering that removing all debt is a little like removing all the screws from an airplane because screws are technically adding weight.",
+          "wordCount": 27
+        },
+        {
+          "beatId": "ch01-s20",
+          "segment": 20,
+          "start": 38.66,
+          "end": 42.18,
+          "durationSeconds": 3.52,
+          "spokenText": "The weird truth is this: the world does not simply have a lot of debt.",
+          "wordCount": 15
+        },
+        {
+          "beatId": "ch01-s21",
+          "segment": 21,
+          "start": 42.449,
+          "end": 44.15,
+          "durationSeconds": 1.701,
+          "spokenText": "The modern world runs on debt.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch01-s22",
+          "segment": 22,
+          "start": 44.41,
+          "end": 47.62,
+          "durationSeconds": 3.21,
+          "spokenText": "And once you understand why, money starts looking completely different.",
+          "wordCount": 10
+        }
+      ]
+    },
+    {
+      "sceneId": "ch02",
+      "chapter": "Debt is a time machine",
+      "chapterCard": {
+        "title": "A time machine for money",
+        "sub": null
+      },
+      "source": "src\\mryolk\\scenes\\ch02-time-machine.tsx",
+      "segments": {
+        "from": 23,
+        "to": 39,
+        "count": 17
+      },
+      "start": 47.96,
+      "end": 94.62,
+      "durationSeconds": 46.66,
+      "frames": {
+        "from": 1439,
+        "count": 1400
+      },
+      "visualModes": [
+        "yolk",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 6,
+      "beats": [
+        {
+          "beatId": "ch02-s23",
+          "segment": 23,
+          "start": 47.96,
+          "end": 50.08,
+          "durationSeconds": 2.12,
+          "spokenText": "Let's begin with something painfully normal.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch02-s24",
+          "segment": 24,
+          "start": 50.1,
+          "end": 51.019,
+          "durationSeconds": 0.919,
+          "spokenText": "You want a house.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch02-s25",
+          "segment": 25,
+          "start": 51.06,
+          "end": 53.08,
+          "durationSeconds": 2.02,
+          "spokenText": "The house costs three hundred thousand dollars.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch02-s26",
+          "segment": 26,
+          "start": 53.42,
+          "end": 54.7,
+          "durationSeconds": 1.28,
+          "spokenText": "You check your bank account.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch02-s27",
+          "segment": 27,
+          "start": 54.76,
+          "end": 57.08,
+          "durationSeconds": 2.32,
+          "spokenText": "It contains not three hundred thousand dollars.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch02-s28",
+          "segment": 28,
+          "start": 57.44,
+          "end": 58.32,
+          "durationSeconds": 0.88,
+          "spokenText": "Fantastic.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch02-s29",
+          "segment": 29,
+          "start": 58.34,
+          "end": 66.78,
+          "durationSeconds": 8.44,
+          "spokenText": "But you do have something valuable: a job, an income, and hopefully several decades in which future you continues making money instead of disappearing into the woods.",
+          "wordCount": 27
+        },
+        {
+          "beatId": "ch02-s30",
+          "segment": 30,
+          "start": 66.79,
+          "end": 73.29,
+          "durationSeconds": 6.5,
+          "spokenText": "So the bank gives present you three hundred thousand dollars and future you agrees to spend the next twenty or thirty years paying it back.",
+          "wordCount": 25
+        },
+        {
+          "beatId": "ch02-s31",
+          "segment": 31,
+          "start": 73.57,
+          "end": 74.72,
+          "durationSeconds": 1.15,
+          "spokenText": "That is a mortgage.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch02-s32",
+          "segment": 32,
+          "start": 74.74,
+          "end": 77.84,
+          "durationSeconds": 3.1,
+          "spokenText": "But underneath the boring paperwork is a pretty insane idea.",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch02-s33",
+          "segment": 33,
+          "start": 77.86,
+          "end": 79.9,
+          "durationSeconds": 2.04,
+          "spokenText": "You're telling the bank, \"I don't have the money.\"",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch02-s34",
+          "segment": 34,
+          "start": 79.94,
+          "end": 81.32,
+          "durationSeconds": 1.38,
+          "spokenText": "The bank says, \"Correct.\"",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch02-s35",
+          "segment": 35,
+          "start": 81.62,
+          "end": 84.22,
+          "durationSeconds": 2.6,
+          "spokenText": "You say, \"But twenty forty-seven me probably will.\"",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch02-s36",
+          "segment": 36,
+          "start": 84.5,
+          "end": 86,
+          "durationSeconds": 1.5,
+          "spokenText": "And the bank says, \"Good enough.\"",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch02-s37",
+          "segment": 37,
+          "start": 86.32,
+          "end": 88.74,
+          "durationSeconds": 2.42,
+          "spokenText": "Debt allows you to bring future income into the present.",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch02-s38",
+          "segment": 38,
+          "start": 89,
+          "end": 90.76,
+          "durationSeconds": 1.76,
+          "spokenText": "It is basically a time machine for money.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch02-s39",
+          "segment": 39,
+          "start": 90.97,
+          "end": 94.6,
+          "durationSeconds": 3.63,
+          "spokenText": "And once humans figured that out, we began using it for almost everything.",
+          "wordCount": 13
+        }
+      ]
+    },
+    {
+      "sceneId": "ch03",
+      "chapter": "Waiting is expensive",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch03-waiting.tsx",
+      "segments": {
+        "from": 40,
+        "to": 60,
+        "count": 21
+      },
+      "start": 94.62,
+      "end": 150.82,
+      "durationSeconds": 56.2,
+      "frames": {
+        "from": 2839,
+        "count": 1686
+      },
+      "visualModes": [
+        "yolk",
+        "stock",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 8,
+      "beats": [
+        {
+          "beatId": "ch03-s40",
+          "segment": 40,
+          "start": 94.62,
+          "end": 96.55,
+          "durationSeconds": 1.93,
+          "spokenText": "Businesses borrow money to build factories.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch03-s41",
+          "segment": 41,
+          "start": 96.88,
+          "end": 98.88,
+          "durationSeconds": 2,
+          "spokenText": "Airlines borrow money to buy planes.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch03-s42",
+          "segment": 42,
+          "start": 99,
+          "end": 100.96,
+          "durationSeconds": 1.96,
+          "spokenText": "Farmers borrow money to buy equipment.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch03-s43",
+          "segment": 43,
+          "start": 100.98,
+          "end": 102.6,
+          "durationSeconds": 1.62,
+          "spokenText": "Cities borrow money to build roads.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch03-s44",
+          "segment": 44,
+          "start": 102.92,
+          "end": 111,
+          "durationSeconds": 8.08,
+          "spokenText": "Governments borrow money to build infrastructure, fund wars, survive recessions, and occasionally fund something everyone will spend the next twenty years arguing about.",
+          "wordCount": 23
+        },
+        {
+          "beatId": "ch03-s45",
+          "segment": 45,
+          "start": 111.08,
+          "end": 112.48,
+          "durationSeconds": 1.4,
+          "spokenText": "Because waiting is expensive.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch03-s46",
+          "segment": 46,
+          "start": 112.82,
+          "end": 116.02,
+          "durationSeconds": 3.2,
+          "spokenText": "Imagine you want to build a factory that costs one hundred million dollars.",
+          "wordCount": 13
+        },
+        {
+          "beatId": "ch03-s47",
+          "segment": 47,
+          "start": 116.34,
+          "end": 118.92,
+          "durationSeconds": 2.58,
+          "spokenText": "Without borrowing, maybe you spend twenty years saving.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch03-s48",
+          "segment": 48,
+          "start": 119.22,
+          "end": 120.66,
+          "durationSeconds": 1.44,
+          "spokenText": "Year one, no factory.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch03-s49",
+          "segment": 49,
+          "start": 121,
+          "end": 122.69,
+          "durationSeconds": 1.69,
+          "spokenText": "Year five, still no factory.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch03-s50",
+          "segment": 50,
+          "start": 122.99,
+          "end": 125.22,
+          "durationSeconds": 2.23,
+          "spokenText": "Year twelve, very impressive spreadsheet.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch03-s51",
+          "segment": 51,
+          "start": 125.52,
+          "end": 127.46,
+          "durationSeconds": 1.94,
+          "spokenText": "Year twenty, congratulations.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch03-s52",
+          "segment": 52,
+          "start": 127.5,
+          "end": 128.82,
+          "durationSeconds": 1.32,
+          "spokenText": "You finally have the money.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch03-s53",
+          "segment": 53,
+          "start": 128.86,
+          "end": 136.1,
+          "durationSeconds": 7.24,
+          "spokenText": "Unfortunately, your competitor built three factories, launched an app, bought your company, and renamed you Legacy Operations Division.",
+          "wordCount": 18
+        },
+        {
+          "beatId": "ch03-s54",
+          "segment": 54,
+          "start": 136.46,
+          "end": 137.7,
+          "durationSeconds": 1.24,
+          "spokenText": "So instead, you borrow.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch03-s55",
+          "segment": 55,
+          "start": 138.04,
+          "end": 139.4,
+          "durationSeconds": 1.36,
+          "spokenText": "You build the factory today.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch03-s56",
+          "segment": 56,
+          "start": 139.44,
+          "end": 141.18,
+          "durationSeconds": 1.74,
+          "spokenText": "The factory produces goods today.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch03-s57",
+          "segment": 57,
+          "start": 141.2,
+          "end": 142.43,
+          "durationSeconds": 1.23,
+          "spokenText": "It generates revenue today.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch03-s58",
+          "segment": 58,
+          "start": 142.73,
+          "end": 145.04,
+          "durationSeconds": 2.31,
+          "spokenText": "And that future revenue hopefully repays the loan.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch03-s59",
+          "segment": 59,
+          "start": 145.36,
+          "end": 147.64,
+          "durationSeconds": 2.28,
+          "spokenText": "This is the first reason debt is so powerful.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch03-s60",
+          "segment": 60,
+          "start": 147.68,
+          "end": 150.8,
+          "durationSeconds": 3.12,
+          "spokenText": "Debt turns future productivity into present investment.",
+          "wordCount": 7
+        }
+      ]
+    },
+    {
+      "sceneId": "ch04",
+      "chapter": "Banks create money",
+      "chapterCard": {
+        "title": "Where the money comes from",
+        "sub": null
+      },
+      "source": "src\\mryolk\\scenes\\ch04-banks.tsx",
+      "segments": {
+        "from": 61,
+        "to": 79,
+        "count": 19
+      },
+      "start": 150.82,
+      "end": 212.94,
+      "durationSeconds": 62.12,
+      "frames": {
+        "from": 4525,
+        "count": 1864
+      },
+      "visualModes": [
+        "yolk",
+        "stock",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 7,
+      "beats": [
+        {
+          "beatId": "ch04-s61",
+          "segment": 61,
+          "start": 150.82,
+          "end": 154.84,
+          "durationSeconds": 4.02,
+          "spokenText": "But now things get weird because you might imagine a bank giving someone a loan like this.",
+          "wordCount": 17
+        },
+        {
+          "beatId": "ch04-s62",
+          "segment": 62,
+          "start": 154.88,
+          "end": 161.16,
+          "durationSeconds": 6.28,
+          "spokenText": "The bank walks into a giant vault, finds a pile of money, scoops out one hundred thousand dollars and hands it to you.",
+          "wordCount": 23
+        },
+        {
+          "beatId": "ch04-s63",
+          "segment": 63,
+          "start": 161.26,
+          "end": 162.01,
+          "durationSeconds": 0.75,
+          "spokenText": "Very cinematic.",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch04-s64",
+          "segment": 64,
+          "start": 162.36,
+          "end": 163.32,
+          "durationSeconds": 0.96,
+          "spokenText": "Very Scrooge McDuck.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch04-s65",
+          "segment": 65,
+          "start": 163.68,
+          "end": 165.58,
+          "durationSeconds": 1.9,
+          "spokenText": "Modern banking is stranger than that.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch04-s66",
+          "segment": 66,
+          "start": 165.62,
+          "end": 168.54,
+          "durationSeconds": 2.92,
+          "spokenText": "Suppose a bank approves you for a one hundred thousand dollar loan.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch04-s67",
+          "segment": 67,
+          "start": 168.58,
+          "end": 174.58,
+          "durationSeconds": 6,
+          "spokenText": "The bank records that you now owe it one hundred thousand dollars, and then your bank account gets credited with one hundred thousand dollars.",
+          "wordCount": 24
+        },
+        {
+          "beatId": "ch04-s68",
+          "segment": 68,
+          "start": 174.9,
+          "end": 175.96,
+          "durationSeconds": 1.06,
+          "spokenText": "Congratulations.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch04-s69",
+          "segment": 69,
+          "start": 176,
+          "end": 177.28,
+          "durationSeconds": 1.28,
+          "spokenText": "There is now a new deposit.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch04-s70",
+          "segment": 70,
+          "start": 177.29,
+          "end": 181.299,
+          "durationSeconds": 4.009,
+          "spokenText": "The bank created an asset, your loan, and a liability, your deposit.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch04-s71",
+          "segment": 71,
+          "start": 181.64,
+          "end": 185.35,
+          "durationSeconds": 3.71,
+          "spokenText": "That is one reason people say banks create money when they lend, because they do.",
+          "wordCount": 15
+        },
+        {
+          "beatId": "ch04-s72",
+          "segment": 72,
+          "start": 185.42,
+          "end": 186.5,
+          "durationSeconds": 1.08,
+          "spokenText": "Not infinite money.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch04-s73",
+          "segment": 73,
+          "start": 186.52,
+          "end": 190.06,
+          "durationSeconds": 3.54,
+          "spokenText": "Banks cannot simply hit copy and paste until everyone owns a Lamborghini.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch04-s74",
+          "segment": 74,
+          "start": 190.1,
+          "end": 199.16,
+          "durationSeconds": 9.06,
+          "spokenText": "They face capital rules, liquidity requirements, funding costs, regulation, risk, and the small inconvenience that borrowers occasionally do not pay them back.",
+          "wordCount": 22
+        },
+        {
+          "beatId": "ch04-s75",
+          "segment": 75,
+          "start": 199.18,
+          "end": 203.2,
+          "durationSeconds": 4.02,
+          "spokenText": "But lending and money creation are deeply connected, which creates a strange fact.",
+          "wordCount": 13
+        },
+        {
+          "beatId": "ch04-s76",
+          "segment": 76,
+          "start": 203.26,
+          "end": 205.3,
+          "durationSeconds": 2.04,
+          "spokenText": "Your money is often connected to somebody else's debt.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch04-s77",
+          "segment": 77,
+          "start": 205.58,
+          "end": 207.58,
+          "durationSeconds": 2,
+          "spokenText": "Your bank deposit is an asset to you.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch04-s78",
+          "segment": 78,
+          "start": 207.609,
+          "end": 210.09,
+          "durationSeconds": 2.481,
+          "spokenText": "But on another balance sheet, there is a liability.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch04-s79",
+          "segment": 79,
+          "start": 210.1,
+          "end": 212.68,
+          "durationSeconds": 2.58,
+          "spokenText": "And once you notice this, you start seeing it everywhere.",
+          "wordCount": 10
+        }
+      ]
+    },
+    {
+      "sceneId": "ch05",
+      "chapter": "Who lends to whom?",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch05-who-lends.tsx",
+      "segments": {
+        "from": 80,
+        "to": 90,
+        "count": 11
+      },
+      "start": 212.94,
+      "end": 248.24,
+      "durationSeconds": 35.3,
+      "frames": {
+        "from": 6388,
+        "count": 1059
+      },
+      "visualModes": [
+        "yolk",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 4,
+      "beats": [
+        {
+          "beatId": "ch05-s80",
+          "segment": 80,
+          "start": 212.94,
+          "end": 215.92,
+          "durationSeconds": 2.98,
+          "spokenText": "Now, here's the question that makes the entire system sound impossible.",
+          "wordCount": 11
+        },
+        {
+          "beatId": "ch05-s81",
+          "segment": 81,
+          "start": 216.26,
+          "end": 218.76,
+          "durationSeconds": 2.5,
+          "spokenText": "If everyone is borrowing, who is lending all this money?",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch05-s82",
+          "segment": 82,
+          "start": 219.06,
+          "end": 220.88,
+          "durationSeconds": 1.82,
+          "spokenText": "The answer is also everyone.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch05-s83",
+          "segment": 83,
+          "start": 221.16,
+          "end": 223.14,
+          "durationSeconds": 1.98,
+          "spokenText": "Your retirement fund might own corporate bonds.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch05-s84",
+          "segment": 84,
+          "start": 223.41,
+          "end": 225.16,
+          "durationSeconds": 1.75,
+          "spokenText": "A bank might own government bonds.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch05-s85",
+          "segment": 85,
+          "start": 225.2,
+          "end": 227.54,
+          "durationSeconds": 2.34,
+          "spokenText": "An insurance company might lend to corporations.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch05-s86",
+          "segment": 86,
+          "start": 227.58,
+          "end": 229.8,
+          "durationSeconds": 2.22,
+          "spokenText": "Investment funds might finance mortgages.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch05-s87",
+          "segment": 87,
+          "start": 229.84,
+          "end": 232.46,
+          "durationSeconds": 2.62,
+          "spokenText": "Foreign governments may own another country's government debt.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch05-s88",
+          "segment": 88,
+          "start": 232.5,
+          "end": 237.44,
+          "durationSeconds": 4.94,
+          "spokenText": "Your savings may be funding somebody else's business, and somebody else's savings may be financing your house.",
+          "wordCount": 17
+        },
+        {
+          "beatId": "ch05-s89",
+          "segment": 89,
+          "start": 237.5,
+          "end": 242.91,
+          "durationSeconds": 5.41,
+          "spokenText": "The global economy is basically one enormous group chat where everyone keeps saying, \"I'll pay you later.\"",
+          "wordCount": 17
+        },
+        {
+          "beatId": "ch05-s90",
+          "segment": 90,
+          "start": 243.23,
+          "end": 248.12,
+          "durationSeconds": 4.89,
+          "spokenText": "Which is funny until you realize trillions of dollars depend on those messages actually being true.",
+          "wordCount": 16
+        }
+      ]
+    },
+    {
+      "sceneId": "ch06",
+      "chapter": "Government debt",
+      "chapterCard": {
+        "title": "Government debt",
+        "sub": "the very official I.O.U."
+      },
+      "source": "src\\mryolk\\scenes\\ch06-bonds.tsx",
+      "segments": {
+        "from": 91,
+        "to": 123,
+        "count": 33
+      },
+      "start": 248.24,
+      "end": 325.128,
+      "durationSeconds": 76.888,
+      "frames": {
+        "from": 7447,
+        "count": 2307
+      },
+      "visualModes": [
+        "yolk",
+        "stock",
+        "diagram"
+      ],
+      "sfxCues": 14,
+      "beats": [
+        {
+          "beatId": "ch06-s91",
+          "segment": 91,
+          "start": 248.24,
+          "end": 249.24,
+          "durationSeconds": 1,
+          "spokenText": "Take government debt.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch06-s92",
+          "segment": 92,
+          "start": 249.6,
+          "end": 251.48,
+          "durationSeconds": 1.88,
+          "spokenText": "Governments borrow money by selling bonds.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch06-s93",
+          "segment": 93,
+          "start": 251.85,
+          "end": 254.64,
+          "durationSeconds": 2.79,
+          "spokenText": "A bond is basically a very official IOU.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch06-s94",
+          "segment": 94,
+          "start": 255.08,
+          "end": 256.7,
+          "durationSeconds": 1.62,
+          "spokenText": "An investor says, \"Here's money.\"",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s95",
+          "segment": 95,
+          "start": 256.95,
+          "end": 258.36,
+          "durationSeconds": 1.41,
+          "spokenText": "The government says, \"Thank you.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s96",
+          "segment": 96,
+          "start": 258.78,
+          "end": 260.68,
+          "durationSeconds": 1.9,
+          "spokenText": "I promise future government will deal with this.\"",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch06-s97",
+          "segment": 97,
+          "start": 261,
+          "end": 262.48,
+          "durationSeconds": 1.48,
+          "spokenText": "The investor says, \"Excellent.\"",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch06-s98",
+          "segment": 98,
+          "start": 262.7,
+          "end": 263.98,
+          "durationSeconds": 1.28,
+          "spokenText": "Banks buy these IOUs.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch06-s99",
+          "segment": 99,
+          "start": 264.3,
+          "end": 265.34,
+          "durationSeconds": 1.04,
+          "spokenText": "Pension funds buy them.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch06-s100",
+          "segment": 100,
+          "start": 265.58,
+          "end": 266.82,
+          "durationSeconds": 1.24,
+          "spokenText": "Investment funds buy them.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch06-s101",
+          "segment": 101,
+          "start": 267.08,
+          "end": 268.42,
+          "durationSeconds": 1.34,
+          "spokenText": "Insurance companies buy them.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch06-s102",
+          "segment": 102,
+          "start": 268.76,
+          "end": 270,
+          "durationSeconds": 1.24,
+          "spokenText": "Foreign governments buy them.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch06-s103",
+          "segment": 103,
+          "start": 270.32,
+          "end": 271.85,
+          "durationSeconds": 1.53,
+          "spokenText": "Even central banks hold them.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s104",
+          "segment": 104,
+          "start": 272.22,
+          "end": 278.83,
+          "durationSeconds": 6.61,
+          "spokenText": "In major financial systems, high quality government bonds are not treated like some radioactive pile of financial shame.",
+          "wordCount": 18
+        },
+        {
+          "beatId": "ch06-s105",
+          "segment": 105,
+          "start": 279.14,
+          "end": 281.76,
+          "durationSeconds": 2.62,
+          "spokenText": "They're often considered among the safest assets available.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch06-s106",
+          "segment": 106,
+          "start": 282.02,
+          "end": 284.02,
+          "durationSeconds": 2,
+          "spokenText": "Financial institutions use them to store money.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch06-s107",
+          "segment": 107,
+          "start": 284.4,
+          "end": 285.52,
+          "durationSeconds": 1.12,
+          "spokenText": "They use them as collateral.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s108",
+          "segment": 108,
+          "start": 285.86,
+          "end": 289.52,
+          "durationSeconds": 3.66,
+          "spokenText": "Their interest rates help influence the price of loans and investments across the economy.",
+          "wordCount": 14
+        },
+        {
+          "beatId": "ch06-s109",
+          "segment": 109,
+          "start": 289.9,
+          "end": 297.8,
+          "durationSeconds": 7.9,
+          "spokenText": "So when you hear the government owes trillions of dollars, your brain naturally imagines someone receiving a very aggressive credit card bill.",
+          "wordCount": 22
+        },
+        {
+          "beatId": "ch06-s110",
+          "segment": 110,
+          "start": 298.12,
+          "end": 300.9,
+          "durationSeconds": 2.78,
+          "spokenText": "Amount due: thirty-four trillion dollars.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s111",
+          "segment": 111,
+          "start": 301.2,
+          "end": 303.26,
+          "durationSeconds": 2.06,
+          "spokenText": "Minimum payment: your entire country.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s112",
+          "segment": 112,
+          "start": 303.56,
+          "end": 306.42,
+          "durationSeconds": 2.86,
+          "spokenText": "But governments do not work exactly like households.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch06-s113",
+          "segment": 113,
+          "start": 306.76,
+          "end": 309.56,
+          "durationSeconds": 2.8,
+          "spokenText": "A household normally cannot refinance its debt forever.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch06-s114",
+          "segment": 114,
+          "start": 309.86,
+          "end": 311.08,
+          "durationSeconds": 1.22,
+          "spokenText": "Governments frequently do.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch06-s115",
+          "segment": 115,
+          "start": 311.36,
+          "end": 312.62,
+          "durationSeconds": 1.26,
+          "spokenText": "A bond matures.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch06-s116",
+          "segment": 116,
+          "start": 312.63,
+          "end": 313.94,
+          "durationSeconds": 1.31,
+          "spokenText": "The government issues another bond.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s117",
+          "segment": 117,
+          "start": 314.19,
+          "end": 315.38,
+          "durationSeconds": 1.19,
+          "spokenText": "That bond matures.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch06-s118",
+          "segment": 118,
+          "start": 315.46,
+          "end": 317.04,
+          "durationSeconds": 1.58,
+          "spokenText": "Another bond, and so on.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s119",
+          "segment": 119,
+          "start": 317.08,
+          "end": 318.95,
+          "durationSeconds": 1.87,
+          "spokenText": "This is called rolling over debt.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch06-s120",
+          "segment": 120,
+          "start": 319.16,
+          "end": 320.65,
+          "durationSeconds": 1.49,
+          "spokenText": "Basically, I'll pay you Tuesday.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch06-s121",
+          "segment": 121,
+          "start": 320.94,
+          "end": 322.02,
+          "durationSeconds": 1.08,
+          "spokenText": "Tuesday arrives.",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch06-s122",
+          "segment": 122,
+          "start": 322.06,
+          "end": 322.46,
+          "durationSeconds": 0.4,
+          "spokenText": "Interesting.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch06-s123",
+          "segment": 123,
+          "start": 322.828,
+          "end": 324.808,
+          "durationSeconds": 1.98,
+          "spokenText": "How do you feel about next Tuesday?",
+          "wordCount": 7
+        }
+      ]
+    },
+    {
+      "sceneId": "ch07",
+      "chapter": "Can it handle it?",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch07-sustainability.tsx",
+      "segments": {
+        "from": 124,
+        "to": 139,
+        "count": 16
+      },
+      "start": 325.128,
+      "end": 386.148,
+      "durationSeconds": 61.02,
+      "frames": {
+        "from": 9754,
+        "count": 1831
+      },
+      "visualModes": [
+        "yolk",
+        "kinetic-text"
+      ],
+      "sfxCues": 3,
+      "beats": [
+        {
+          "beatId": "ch07-s124",
+          "segment": 124,
+          "start": 325.128,
+          "end": 327.548,
+          "durationSeconds": 2.42,
+          "spokenText": "This does not mean government debt is harmless.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch07-s125",
+          "segment": 125,
+          "start": 327.868,
+          "end": 330.588,
+          "durationSeconds": 2.72,
+          "spokenText": "If investors lose confidence, interest rates can rise.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch07-s126",
+          "segment": 126,
+          "start": 330.868,
+          "end": 333.368,
+          "durationSeconds": 2.5,
+          "spokenText": "Higher interest costs eat into government budgets.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch07-s127",
+          "segment": 127,
+          "start": 333.648,
+          "end": 335.798,
+          "durationSeconds": 2.15,
+          "spokenText": "Borrowing too much can become dangerous.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch07-s128",
+          "segment": 128,
+          "start": 336.128,
+          "end": 341.108,
+          "durationSeconds": 4.98,
+          "spokenText": "Countries that borrow heavily in currencies they do not control can face even harsher limits.",
+          "wordCount": 15
+        },
+        {
+          "beatId": "ch07-s129",
+          "segment": 129,
+          "start": 341.408,
+          "end": 345.308,
+          "durationSeconds": 3.9,
+          "spokenText": "But the important question usually isn't, does this country have debt?",
+          "wordCount": 11
+        },
+        {
+          "beatId": "ch07-s130",
+          "segment": 130,
+          "start": 345.328,
+          "end": 347.408,
+          "durationSeconds": 2.08,
+          "spokenText": "Almost all modern countries do.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch07-s131",
+          "segment": 131,
+          "start": 347.448,
+          "end": 351.108,
+          "durationSeconds": 3.66,
+          "spokenText": "The better question is, can this country handle its debt?",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch07-s132",
+          "segment": 132,
+          "start": 351.348,
+          "end": 352.248,
+          "durationSeconds": 0.9,
+          "spokenText": "Imagine two people.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch07-s133",
+          "segment": 133,
+          "start": 352.478,
+          "end": 357.328,
+          "durationSeconds": 4.85,
+          "spokenText": "Person A owes ten thousand dollars and earns two hundred thousand dollars per year.",
+          "wordCount": 14
+        },
+        {
+          "beatId": "ch07-s134",
+          "segment": 134,
+          "start": 357.628,
+          "end": 361.888,
+          "durationSeconds": 4.26,
+          "spokenText": "Person B owes ten thousand dollars and earns twelve thousand dollars per year.",
+          "wordCount": 13
+        },
+        {
+          "beatId": "ch07-s135",
+          "segment": 135,
+          "start": 362.188,
+          "end": 364.548,
+          "durationSeconds": 2.36,
+          "spokenText": "Same debt, very different panic levels.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch07-s136",
+          "segment": 136,
+          "start": 364.888,
+          "end": 365.748,
+          "durationSeconds": 0.86,
+          "spokenText": "Countries are similar.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch07-s137",
+          "segment": 137,
+          "start": 366.028,
+          "end": 368.588,
+          "durationSeconds": 2.56,
+          "spokenText": "The raw number alone doesn't tell you enough.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch07-s138",
+          "segment": 138,
+          "start": 368.888,
+          "end": 382.068,
+          "durationSeconds": 13.18,
+          "spokenText": "You care about the size of the economy, tax revenue, interest rates, economic growth, currency, when the debt needs to be repaid, who owns it, and most importantly, what the borrowed money was used for.",
+          "wordCount": 35
+        },
+        {
+          "beatId": "ch07-s139",
+          "segment": 139,
+          "start": 382.108,
+          "end": 385.848,
+          "durationSeconds": 3.74,
+          "spokenText": "Because debt can be productive or spectacularly stupid.",
+          "wordCount": 8
+        }
+      ]
+    },
+    {
+      "sceneId": "ch08",
+      "chapter": "Productive or stupid",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch08-productive.tsx",
+      "segments": {
+        "from": 140,
+        "to": 143,
+        "count": 4
+      },
+      "start": 386.148,
+      "end": 410.748,
+      "durationSeconds": 24.6,
+      "frames": {
+        "from": 11584,
+        "count": 738
+      },
+      "visualModes": [
+        "yolk",
+        "kinetic-text"
+      ],
+      "sfxCues": 4,
+      "beats": [
+        {
+          "beatId": "ch08-s140",
+          "segment": 140,
+          "start": 386.148,
+          "end": 391.368,
+          "durationSeconds": 5.22,
+          "spokenText": "Borrow one billion dollars to build infrastructure that makes an economy more productive may be excellent.",
+          "wordCount": 16
+        },
+        {
+          "beatId": "ch08-s141",
+          "segment": 141,
+          "start": 391.628,
+          "end": 402.008,
+          "durationSeconds": 10.38,
+          "spokenText": "Borrow one billion dollars to build a four hundred meter golden statue of yourself shooting lasers from its eyes, tourism might surprise us, but financially, we have questions.",
+          "wordCount": 28
+        },
+        {
+          "beatId": "ch08-s142",
+          "segment": 142,
+          "start": 402.048,
+          "end": 405.268,
+          "durationSeconds": 3.22,
+          "spokenText": "Debt itself is not automatically good or bad.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch08-s143",
+          "segment": 143,
+          "start": 405.548,
+          "end": 410.368,
+          "durationSeconds": 4.82,
+          "spokenText": "Debt is a tool, and tools become dangerous when humans discover leverage.",
+          "wordCount": 12
+        }
+      ]
+    },
+    {
+      "sceneId": "ch09",
+      "chapter": "Leverage",
+      "chapterCard": {
+        "title": "Leverage",
+        "sub": null
+      },
+      "source": "src\\mryolk\\scenes\\ch09-leverage.tsx",
+      "segments": {
+        "from": 144,
+        "to": 167,
+        "count": 24
+      },
+      "start": 410.748,
+      "end": 466.657,
+      "durationSeconds": 55.909,
+      "frames": {
+        "from": 12322,
+        "count": 1677
+      },
+      "visualModes": [
+        "yolk",
+        "stock",
+        "kinetic-text"
+      ],
+      "sfxCues": 11,
+      "beats": [
+        {
+          "beatId": "ch09-s144",
+          "segment": 144,
+          "start": 410.748,
+          "end": 412.108,
+          "durationSeconds": 1.36,
+          "spokenText": "Leverage sounds complicated.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch09-s145",
+          "segment": 145,
+          "start": 412.328,
+          "end": 412.708,
+          "durationSeconds": 0.38,
+          "spokenText": "It isn't.",
+          "wordCount": 2
+        },
+        {
+          "beatId": "ch09-s146",
+          "segment": 146,
+          "start": 412.948,
+          "end": 416.008,
+          "durationSeconds": 3.06,
+          "spokenText": "Leverage means using borrowed money to make a bigger bet.",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch09-s147",
+          "segment": 147,
+          "start": 416.248,
+          "end": 418.588,
+          "durationSeconds": 2.34,
+          "spokenText": "Suppose you have ten dollars, you invest it.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch09-s148",
+          "segment": 148,
+          "start": 418.628,
+          "end": 420.308,
+          "durationSeconds": 1.68,
+          "spokenText": "The investment goes up ten percent.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch09-s149",
+          "segment": 149,
+          "start": 420.528,
+          "end": 421.428,
+          "durationSeconds": 0.9,
+          "spokenText": "You make one dollar.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch09-s150",
+          "segment": 150,
+          "start": 421.708,
+          "end": 421.968,
+          "durationSeconds": 0.26,
+          "spokenText": "Nice.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch09-s151",
+          "segment": 151,
+          "start": 422.248,
+          "end": 423.298,
+          "durationSeconds": 1.05,
+          "spokenText": "Buy yourself half a coffee.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch09-s152",
+          "segment": 152,
+          "start": 423.668,
+          "end": 427.448,
+          "durationSeconds": 3.78,
+          "spokenText": "Now, suppose you have ten dollars, but borrow another ninety.",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch09-s153",
+          "segment": 153,
+          "start": 427.488,
+          "end": 429.328,
+          "durationSeconds": 1.84,
+          "spokenText": "You invest one hundred dollars.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch09-s154",
+          "segment": 154,
+          "start": 429.368,
+          "end": 431.148,
+          "durationSeconds": 1.78,
+          "spokenText": "The investment rises ten percent.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch09-s155",
+          "segment": 155,
+          "start": 431.188,
+          "end": 432.248,
+          "durationSeconds": 1.06,
+          "spokenText": "You make ten dollars.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch09-s156",
+          "segment": 156,
+          "start": 432.618,
+          "end": 434.908,
+          "durationSeconds": 2.29,
+          "spokenText": "You just doubled your original money.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch09-s157",
+          "segment": 157,
+          "start": 434.968,
+          "end": 436.688,
+          "durationSeconds": 1.72,
+          "spokenText": "You are incredible.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch09-s158",
+          "segment": 158,
+          "start": 436.728,
+          "end": 437.988,
+          "durationSeconds": 1.26,
+          "spokenText": "CNBC wants an interview.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch09-s159",
+          "segment": 159,
+          "start": 438.288,
+          "end": 442.698,
+          "durationSeconds": 4.41,
+          "spokenText": "Your LinkedIn bio now says, \"Investor, visionary, thought leader.\"",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch09-s160",
+          "segment": 160,
+          "start": 443.048,
+          "end": 444.478,
+          "durationSeconds": 1.43,
+          "spokenText": "You begin researching yachts.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch09-s161",
+          "segment": 161,
+          "start": 444.828,
+          "end": 447.288,
+          "durationSeconds": 2.46,
+          "spokenText": "But then the investment falls ten percent.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch09-s162",
+          "segment": 162,
+          "start": 447.348,
+          "end": 449.048,
+          "durationSeconds": 1.7,
+          "spokenText": "You lose ten dollars.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch09-s163",
+          "segment": 163,
+          "start": 449.088,
+          "end": 450.758,
+          "durationSeconds": 1.67,
+          "spokenText": "Your original money, gone.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch09-s164",
+          "segment": 164,
+          "start": 450.788,
+          "end": 455.108,
+          "durationSeconds": 4.32,
+          "spokenText": "The lender, however, would still very much like its ninety dollars.",
+          "wordCount": 11
+        },
+        {
+          "beatId": "ch09-s165",
+          "segment": 165,
+          "start": 455.528,
+          "end": 458.078,
+          "durationSeconds": 2.55,
+          "spokenText": "Suddenly, your yacht research feels premature.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch09-s166",
+          "segment": 166,
+          "start": 458.548,
+          "end": 459.888,
+          "durationSeconds": 1.34,
+          "spokenText": "This is leverage.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch09-s167",
+          "segment": 167,
+          "start": 459.948,
+          "end": 466.348,
+          "durationSeconds": 6.4,
+          "spokenText": "It magnifies success, and it magnifies stupidity, which explains a surprising amount of financial history.",
+          "wordCount": 15
+        }
+      ]
+    },
+    {
+      "sceneId": "ch10",
+      "chapter": "Trust",
+      "chapterCard": {
+        "title": "Trust",
+        "sub": null
+      },
+      "source": "src\\mryolk\\scenes\\ch10-trust.tsx",
+      "segments": {
+        "from": 168,
+        "to": 181,
+        "count": 14
+      },
+      "start": 466.657,
+      "end": 505.628,
+      "durationSeconds": 38.971,
+      "frames": {
+        "from": 14000,
+        "count": 1169
+      },
+      "visualModes": [
+        "yolk",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 5,
+      "beats": [
+        {
+          "beatId": "ch10-s168",
+          "segment": 168,
+          "start": 466.657,
+          "end": 470.388,
+          "durationSeconds": 3.731,
+          "spokenText": "And now we reach the thing that can destroy this entire machine.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch10-s169",
+          "segment": 169,
+          "start": 470.708,
+          "end": 473.448,
+          "durationSeconds": 2.74,
+          "spokenText": "Not debt, not money, not even leverage.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch10-s170",
+          "segment": 170,
+          "start": 473.808,
+          "end": 474.328,
+          "durationSeconds": 0.52,
+          "spokenText": "Trust.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch10-s171",
+          "segment": 171,
+          "start": 474.668,
+          "end": 476.648,
+          "durationSeconds": 1.98,
+          "spokenText": "Debt is a promise about the future.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch10-s172",
+          "segment": 172,
+          "start": 476.968,
+          "end": 479.448,
+          "durationSeconds": 2.48,
+          "spokenText": "When someone lends money, they're making a prediction.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch10-s173",
+          "segment": 173,
+          "start": 479.808,
+          "end": 481.528,
+          "durationSeconds": 1.72,
+          "spokenText": "Will this person still have a job?",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch10-s174",
+          "segment": 174,
+          "start": 481.868,
+          "end": 483.108,
+          "durationSeconds": 1.24,
+          "spokenText": "Will this company make money?",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch10-s175",
+          "segment": 175,
+          "start": 483.448,
+          "end": 486.708,
+          "durationSeconds": 3.26,
+          "spokenText": "Will this government still collect taxes twenty years from now?",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch10-s176",
+          "segment": 176,
+          "start": 487.068,
+          "end": 488.668,
+          "durationSeconds": 1.6,
+          "spokenText": "Will this property stay valuable?",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch10-s177",
+          "segment": 177,
+          "start": 489.008,
+          "end": 490.928,
+          "durationSeconds": 1.92,
+          "spokenText": "Will this factory actually work?",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch10-s178",
+          "segment": 178,
+          "start": 491.268,
+          "end": 494.088,
+          "durationSeconds": 2.82,
+          "spokenText": "If the answer looks like yes, borrowing is easier.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch10-s179",
+          "segment": 179,
+          "start": 494.428,
+          "end": 498.088,
+          "durationSeconds": 3.66,
+          "spokenText": "If the answer looks like maybe, lenders demand more interest.",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch10-s180",
+          "segment": 180,
+          "start": 498.168,
+          "end": 501.558,
+          "durationSeconds": 3.39,
+          "spokenText": "If the answer looks like absolutely not, what are you doing?",
+          "wordCount": 11
+        },
+        {
+          "beatId": "ch10-s181",
+          "segment": 181,
+          "start": 501.888,
+          "end": 505.588,
+          "durationSeconds": 3.7,
+          "spokenText": "The money disappears, and that's where things can become nasty.",
+          "wordCount": 10
+        }
+      ]
+    },
+    {
+      "sceneId": "ch11",
+      "chapter": "When credit breaks",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch11-crisis.tsx",
+      "segments": {
+        "from": 182,
+        "to": 193,
+        "count": 12
+      },
+      "start": 505.628,
+      "end": 558.338,
+      "durationSeconds": 52.71,
+      "frames": {
+        "from": 15169,
+        "count": 1581
+      },
+      "visualModes": [
+        "yolk",
+        "stock",
+        "diagram"
+      ],
+      "sfxCues": 6,
+      "beats": [
+        {
+          "beatId": "ch11-s182",
+          "segment": 182,
+          "start": 505.628,
+          "end": 508.008,
+          "durationSeconds": 2.38,
+          "spokenText": "Imagine a company begins looking risky.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch11-s183",
+          "segment": 183,
+          "start": 508.088,
+          "end": 510.128,
+          "durationSeconds": 2.04,
+          "spokenText": "Lenders demand higher interest rates.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch11-s184",
+          "segment": 184,
+          "start": 510.168,
+          "end": 512.458,
+          "durationSeconds": 2.29,
+          "spokenText": "Higher interest payments make the company weaker.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch11-s185",
+          "segment": 185,
+          "start": 512.808,
+          "end": 516.388,
+          "durationSeconds": 3.58,
+          "spokenText": "That makes lenders even more nervous, so rates rise again.",
+          "wordCount": 10
+        },
+        {
+          "beatId": "ch11-s186",
+          "segment": 186,
+          "start": 516.688,
+          "end": 518.328,
+          "durationSeconds": 1.64,
+          "spokenText": "The company gets weaker again.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch11-s187",
+          "segment": 187,
+          "start": 518.408,
+          "end": 526.248,
+          "durationSeconds": 7.84,
+          "spokenText": "Eventually, lenders stop lending entirely, and suddenly, a company that looked alive yesterday can run out of money today.",
+          "wordCount": 19
+        },
+        {
+          "beatId": "ch11-s188",
+          "segment": 188,
+          "start": 526.288,
+          "end": 528.848,
+          "durationSeconds": 2.56,
+          "spokenText": "This is why credit crises move so fast.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch11-s189",
+          "segment": 189,
+          "start": 529.168,
+          "end": 534.668,
+          "durationSeconds": 5.5,
+          "spokenText": "During good times, banks lend, companies invest, consumers spend, asset prices rise.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch11-s190",
+          "segment": 190,
+          "start": 535.008,
+          "end": 536.148,
+          "durationSeconds": 1.14,
+          "spokenText": "Everyone makes money.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch11-s191",
+          "segment": 191,
+          "start": 536.208,
+          "end": 537.708,
+          "durationSeconds": 1.5,
+          "spokenText": "Everyone feels intelligent.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch11-s192",
+          "segment": 192,
+          "start": 537.748,
+          "end": 541.298,
+          "durationSeconds": 3.55,
+          "spokenText": "Someone buys a podcast microphone, then something breaks.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch11-s193",
+          "segment": 193,
+          "start": 542.008,
+          "end": 558.328,
+          "durationSeconds": 16.32,
+          "spokenText": "Borrowers start defaulting, lenders panic, banks become afraid to lend, credit disappears, companies cannot refinance, investors sell assets, prices fall, more borrowers get into trouble, and suddenly, everybody is significantly less interested in starting a podcast.",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "sceneId": "ch12",
+      "chapter": "2008",
+      "chapterCard": {
+        "title": "2008",
+        "sub": null
+      },
+      "source": "src\\mryolk\\scenes\\ch12-2008.tsx",
+      "segments": {
+        "from": 194,
+        "to": 209,
+        "count": 16
+      },
+      "start": 558.338,
+      "end": 617.688,
+      "durationSeconds": 59.35,
+      "frames": {
+        "from": 16750,
+        "count": 1781
+      },
+      "visualModes": [
+        "yolk",
+        "stock",
+        "diagram"
+      ],
+      "sfxCues": 4,
+      "beats": [
+        {
+          "beatId": "ch12-s194",
+          "segment": 194,
+          "start": 558.338,
+          "end": 562.168,
+          "durationSeconds": 3.83,
+          "spokenText": "The two thousand and eight financial crisis was one dramatic example.",
+          "wordCount": 11
+        },
+        {
+          "beatId": "ch12-s195",
+          "segment": 195,
+          "start": 562.308,
+          "end": 564.388,
+          "durationSeconds": 2.08,
+          "spokenText": "Huge amounts of mortgage debt had been created.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch12-s196",
+          "segment": 196,
+          "start": 564.748,
+          "end": 567.428,
+          "durationSeconds": 2.68,
+          "spokenText": "Those mortgages were packaged into financial products.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch12-s197",
+          "segment": 197,
+          "start": 567.808,
+          "end": 569.188,
+          "durationSeconds": 1.38,
+          "spokenText": "Housing prices kept rising.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch12-s198",
+          "segment": 198,
+          "start": 569.508,
+          "end": 571.228,
+          "durationSeconds": 1.72,
+          "spokenText": "People became increasingly confident.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch12-s199",
+          "segment": 199,
+          "start": 571.488,
+          "end": 573.708,
+          "durationSeconds": 2.22,
+          "spokenText": "Risk looked small, until it wasn't.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch12-s200",
+          "segment": 200,
+          "start": 573.748,
+          "end": 575.088,
+          "durationSeconds": 1.34,
+          "spokenText": "Housing prices fell.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch12-s201",
+          "segment": 201,
+          "start": 575.128,
+          "end": 576.468,
+          "durationSeconds": 1.34,
+          "spokenText": "Mortgage defaults rose.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch12-s202",
+          "segment": 202,
+          "start": 576.848,
+          "end": 579.948,
+          "durationSeconds": 3.1,
+          "spokenText": "Financial assets tied to those mortgages lost value.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch12-s203",
+          "segment": 203,
+          "start": 580.028,
+          "end": 583.508,
+          "durationSeconds": 3.48,
+          "spokenText": "Banks discovered that things they thought were safe were not safe.",
+          "wordCount": 11
+        },
+        {
+          "beatId": "ch12-s204",
+          "segment": 204,
+          "start": 583.798,
+          "end": 590.488,
+          "durationSeconds": 6.69,
+          "spokenText": "And because financial institutions were deeply connected, problems in American housing spread across global markets.",
+          "wordCount": 15
+        },
+        {
+          "beatId": "ch12-s205",
+          "segment": 205,
+          "start": 590.588,
+          "end": 592.388,
+          "durationSeconds": 1.8,
+          "spokenText": "Debt existed before the crisis.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch12-s206",
+          "segment": 206,
+          "start": 592.658,
+          "end": 594.758,
+          "durationSeconds": 2.1,
+          "spokenText": "Debt still exists after the crisis.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch12-s207",
+          "segment": 207,
+          "start": 595.088,
+          "end": 606.428,
+          "durationSeconds": 11.34,
+          "spokenText": "The real problem was the combination of bad lending, excessive leverage, weak incentives, underestimated risk, and far too much confidence in assumptions that turned out to be wrong.",
+          "wordCount": 28
+        },
+        {
+          "beatId": "ch12-s208",
+          "segment": 208,
+          "start": 606.748,
+          "end": 610.788,
+          "durationSeconds": 4.04,
+          "spokenText": "In other words, the system did not break because people made promises.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch12-s209",
+          "segment": 209,
+          "start": 611.088,
+          "end": 617.308,
+          "durationSeconds": 6.22,
+          "spokenText": "It broke because too many people made promises they could not keep, and everyone had bet that they would.",
+          "wordCount": 19
+        }
+      ]
+    },
+    {
+      "sceneId": "ch13",
+      "chapter": "Why not remove debt?",
+      "chapterCard": {
+        "title": "So why not get rid of it?",
+        "sub": null
+      },
+      "source": "src\\mryolk\\scenes\\ch13-no-debt.tsx",
+      "segments": {
+        "from": 210,
+        "to": 222,
+        "count": 13
+      },
+      "start": 617.688,
+      "end": 679.348,
+      "durationSeconds": 61.66,
+      "frames": {
+        "from": 18531,
+        "count": 1850
+      },
+      "visualModes": [
+        "yolk",
+        "diagram"
+      ],
+      "sfxCues": 4,
+      "beats": [
+        {
+          "beatId": "ch13-s210",
+          "segment": 210,
+          "start": 617.688,
+          "end": 619.498,
+          "durationSeconds": 1.81,
+          "spokenText": "So now the obvious question.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch13-s211",
+          "segment": 211,
+          "start": 619.528,
+          "end": 627.908,
+          "durationSeconds": 8.38,
+          "spokenText": "If debt can destroy banks, companies, economies, retirement accounts, and occasionally your uncle's property empire, why not just get rid of it?",
+          "wordCount": 22
+        },
+        {
+          "beatId": "ch13-s212",
+          "segment": 212,
+          "start": 628.208,
+          "end": 631.128,
+          "durationSeconds": 2.92,
+          "spokenText": "Because a world without debt has its own problems.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch13-s213",
+          "segment": 213,
+          "start": 631.208,
+          "end": 634.428,
+          "durationSeconds": 3.22,
+          "spokenText": "Imagine companies can only invest money they already have.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch13-s214",
+          "segment": 214,
+          "start": 634.748,
+          "end": 636.228,
+          "durationSeconds": 1.48,
+          "spokenText": "Factories take longer to build.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch13-s215",
+          "segment": 215,
+          "start": 636.548,
+          "end": 638.268,
+          "durationSeconds": 1.72,
+          "spokenText": "New businesses struggle to expand.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch13-s216",
+          "segment": 216,
+          "start": 638.588,
+          "end": 641.948,
+          "durationSeconds": 3.36,
+          "spokenText": "Infrastructure requires huge amounts of immediate taxation.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch13-s217",
+          "segment": 217,
+          "start": 642.228,
+          "end": 644.428,
+          "durationSeconds": 2.2,
+          "spokenText": "Buying a house becomes dramatically harder.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch13-s218",
+          "segment": 218,
+          "start": 644.708,
+          "end": 651.588,
+          "durationSeconds": 6.88,
+          "spokenText": "A twenty-five-year-old who might earn millions of dollars over their lifetime could still have to wait decades before buying property.",
+          "wordCount": 20
+        },
+        {
+          "beatId": "ch13-s219",
+          "segment": 219,
+          "start": 651.928,
+          "end": 656.088,
+          "durationSeconds": 4.16,
+          "spokenText": "Great entrepreneurs with little cash might never build anything.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch13-s220",
+          "segment": 220,
+          "start": 656.168,
+          "end": 665.147,
+          "durationSeconds": 8.979,
+          "spokenText": "Meanwhile, people who already have lots of money become even more powerful because investment becomes much more dependent on existing wealth.",
+          "wordCount": 21
+        },
+        {
+          "beatId": "ch13-s221",
+          "segment": 221,
+          "start": 665.188,
+          "end": 672.908,
+          "durationSeconds": 7.72,
+          "spokenText": "Debt connects two groups, people who have resources today and people who believe they can create value tomorrow.",
+          "wordCount": 18
+        },
+        {
+          "beatId": "ch13-s222",
+          "segment": 222,
+          "start": 672.948,
+          "end": 679.288,
+          "durationSeconds": 6.34,
+          "spokenText": "At its best, credit is the bridge between them, and this is why debt explodes during crises.",
+          "wordCount": 17
+        }
+      ]
+    },
+    {
+      "sceneId": "ch14",
+      "chapter": "Recessions",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch14-recession.tsx",
+      "segments": {
+        "from": 223,
+        "to": 235,
+        "count": 13
+      },
+      "start": 679.348,
+      "end": 718.888,
+      "durationSeconds": 39.54,
+      "frames": {
+        "from": 20380,
+        "count": 1186
+      },
+      "visualModes": [
+        "yolk",
+        "diagram"
+      ],
+      "sfxCues": 5,
+      "beats": [
+        {
+          "beatId": "ch14-s223",
+          "segment": 223,
+          "start": 679.348,
+          "end": 680.527,
+          "durationSeconds": 1.179,
+          "spokenText": "Imagine a recession.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch14-s224",
+          "segment": 224,
+          "start": 680.548,
+          "end": 681.358,
+          "durationSeconds": 0.81,
+          "spokenText": "People spend less.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch14-s225",
+          "segment": 225,
+          "start": 681.648,
+          "end": 682.628,
+          "durationSeconds": 0.98,
+          "spokenText": "Businesses earn less.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch14-s226",
+          "segment": 226,
+          "start": 683.008,
+          "end": 684.388,
+          "durationSeconds": 1.38,
+          "spokenText": "Businesses fire workers.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch14-s227",
+          "segment": 227,
+          "start": 684.638,
+          "end": 686.368,
+          "durationSeconds": 1.73,
+          "spokenText": "Those workers spend even less.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch14-s228",
+          "segment": 228,
+          "start": 686.628,
+          "end": 688.408,
+          "durationSeconds": 1.78,
+          "spokenText": "Businesses earn even less.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch14-s229",
+          "segment": 229,
+          "start": 688.768,
+          "end": 689.948,
+          "durationSeconds": 1.18,
+          "spokenText": "More workers get fired.",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch14-s230",
+          "segment": 230,
+          "start": 690.268,
+          "end": 691.048,
+          "durationSeconds": 0.78,
+          "spokenText": "Congratulations.",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch14-s231",
+          "segment": 231,
+          "start": 691.368,
+          "end": 693.848,
+          "durationSeconds": 2.48,
+          "spokenText": "We have invented the economic toilet flush.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch14-s232",
+          "segment": 232,
+          "start": 694.188,
+          "end": 703.348,
+          "durationSeconds": 9.16,
+          "spokenText": "Governments often try to interrupt this cycle by spending on employment support, infrastructure, emergency programs, business assistance, tax relief.",
+          "wordCount": 19
+        },
+        {
+          "beatId": "ch14-s233",
+          "segment": 233,
+          "start": 703.668,
+          "end": 705.968,
+          "durationSeconds": 2.3,
+          "spokenText": "But recessions create an annoying problem.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch14-s234",
+          "segment": 234,
+          "start": 706.458,
+          "end": 711.788,
+          "durationSeconds": 5.33,
+          "spokenText": "Tax revenue can fall exactly when governments need more money, so they borrow.",
+          "wordCount": 13
+        },
+        {
+          "beatId": "ch14-s235",
+          "segment": 235,
+          "start": 711.828,
+          "end": 718.848,
+          "durationSeconds": 7.02,
+          "spokenText": "Debt allows governments to spread crisis costs across time instead of trying to collect all the money immediately.",
+          "wordCount": 18
+        }
+      ]
+    },
+    {
+      "sceneId": "ch15",
+      "chapter": "War and state power",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch15-war.tsx",
+      "segments": {
+        "from": 236,
+        "to": 243,
+        "count": 8
+      },
+      "start": 718.888,
+      "end": 749.648,
+      "durationSeconds": 30.76,
+      "frames": {
+        "from": 21567,
+        "count": 923
+      },
+      "visualModes": [
+        "yolk",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 3,
+      "beats": [
+        {
+          "beatId": "ch15-s236",
+          "segment": 236,
+          "start": 718.888,
+          "end": 721.808,
+          "durationSeconds": 2.92,
+          "spokenText": "The same logic has historically applied to wars.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch15-s237",
+          "segment": 237,
+          "start": 722.188,
+          "end": 729.587,
+          "durationSeconds": 7.399,
+          "spokenText": "Wars are extremely expensive, and governments generally prefer, \"We are issuing war bonds,\" to, \"Good afternoon.",
+          "wordCount": 16
+        },
+        {
+          "beatId": "ch15-s238",
+          "segment": 238,
+          "start": 729.648,
+          "end": 732.398,
+          "durationSeconds": 2.75,
+          "spokenText": "Your taxes are now three hundred percent higher.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch15-s239",
+          "segment": 239,
+          "start": 732.448,
+          "end": 733.308,
+          "durationSeconds": 0.86,
+          "spokenText": "Have a wonderful day.\"",
+          "wordCount": 4
+        },
+        {
+          "beatId": "ch15-s240",
+          "segment": 240,
+          "start": 733.628,
+          "end": 737.748,
+          "durationSeconds": 4.12,
+          "spokenText": "The ability to borrow has therefore been a source of state power for centuries.",
+          "wordCount": 14
+        },
+        {
+          "beatId": "ch15-s241",
+          "segment": 241,
+          "start": 738.028,
+          "end": 745.238,
+          "durationSeconds": 7.21,
+          "spokenText": "A government that people trust enough to lend to can mobilize far more resources than the cash sitting in its treasury today.",
+          "wordCount": 22
+        },
+        {
+          "beatId": "ch15-s242",
+          "segment": 242,
+          "start": 745.648,
+          "end": 747.588,
+          "durationSeconds": 1.94,
+          "spokenText": "Debt doesn't just shape economies.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch15-s243",
+          "segment": 243,
+          "start": 747.628,
+          "end": 749.278,
+          "durationSeconds": 1.65,
+          "spokenText": "Debt has helped shape history.",
+          "wordCount": 5
+        }
+      ]
+    },
+    {
+      "sceneId": "ch16",
+      "chapter": "Who do we actually owe?",
+      "chapterCard": {
+        "title": "So who do we owe?",
+        "sub": null
+      },
+      "source": "src\\mryolk\\scenes\\ch16-who.tsx",
+      "segments": {
+        "from": 244,
+        "to": 259,
+        "count": 16
+      },
+      "start": 749.648,
+      "end": 794.248,
+      "durationSeconds": 44.6,
+      "frames": {
+        "from": 22489,
+        "count": 1338
+      },
+      "visualModes": [
+        "yolk",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 5,
+      "beats": [
+        {
+          "beatId": "ch16-s244",
+          "segment": 244,
+          "start": 749.648,
+          "end": 751.778,
+          "durationSeconds": 2.13,
+          "spokenText": "Which brings us back to our original question.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch16-s245",
+          "segment": 245,
+          "start": 752.058,
+          "end": 754.698,
+          "durationSeconds": 2.64,
+          "spokenText": "The world owes an absurd amount of money.",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch16-s246",
+          "segment": 246,
+          "start": 755.088,
+          "end": 757.378,
+          "durationSeconds": 2.29,
+          "spokenText": "So who exactly do we owe it to?",
+          "wordCount": 8
+        },
+        {
+          "beatId": "ch16-s247",
+          "segment": 247,
+          "start": 757.768,
+          "end": 758.528,
+          "durationSeconds": 0.76,
+          "spokenText": "Aliens?",
+          "wordCount": 1
+        },
+        {
+          "beatId": "ch16-s248",
+          "segment": 248,
+          "start": 758.588,
+          "end": 760.538,
+          "durationSeconds": 1.95,
+          "spokenText": "A secret billionaire underneath Switzerland?",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch16-s249",
+          "segment": 249,
+          "start": 760.968,
+          "end": 763.608,
+          "durationSeconds": 2.64,
+          "spokenText": "One extremely patient guy named Steve?",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch16-s250",
+          "segment": 250,
+          "start": 764.008,
+          "end": 766.008,
+          "durationSeconds": 2,
+          "spokenText": "Mostly, we owe it to each other.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch16-s251",
+          "segment": 251,
+          "start": 766.348,
+          "end": 767.388,
+          "durationSeconds": 1.04,
+          "spokenText": "Households owe banks.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch16-s252",
+          "segment": 252,
+          "start": 767.768,
+          "end": 769.048,
+          "durationSeconds": 1.28,
+          "spokenText": "Companies owe investors.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch16-s253",
+          "segment": 253,
+          "start": 769.348,
+          "end": 773.588,
+          "durationSeconds": 4.24,
+          "spokenText": "Governments owe banks, pension funds, citizens, and other governments.",
+          "wordCount": 9
+        },
+        {
+          "beatId": "ch16-s254",
+          "segment": 254,
+          "start": 773.908,
+          "end": 775.328,
+          "durationSeconds": 1.42,
+          "spokenText": "Banks owe depositors.",
+          "wordCount": 3
+        },
+        {
+          "beatId": "ch16-s255",
+          "segment": 255,
+          "start": 775.668,
+          "end": 777.748,
+          "durationSeconds": 2.08,
+          "spokenText": "Financial institutions owe one another.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch16-s256",
+          "segment": 256,
+          "start": 778.128,
+          "end": 781.088,
+          "durationSeconds": 2.96,
+          "spokenText": "Your asset is often somebody else's liability.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch16-s257",
+          "segment": 257,
+          "start": 781.448,
+          "end": 786.908,
+          "durationSeconds": 5.46,
+          "spokenText": "Your savings can fund somebody else's future, and their savings can fund yours.",
+          "wordCount": 13
+        },
+        {
+          "beatId": "ch16-s258",
+          "segment": 258,
+          "start": 786.948,
+          "end": 791.148,
+          "durationSeconds": 4.2,
+          "spokenText": "The global financial system is not really a giant pile of cash.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch16-s259",
+          "segment": 259,
+          "start": 791.188,
+          "end": 793.928,
+          "durationSeconds": 2.74,
+          "spokenText": "It is a gigantic network of promises.",
+          "wordCount": 7
+        }
+      ]
+    },
+    {
+      "sceneId": "ch17",
+      "chapter": "A network of promises",
+      "chapterCard": null,
+      "source": "src\\mryolk\\scenes\\ch17-network.tsx",
+      "segments": {
+        "from": 260,
+        "to": 272,
+        "count": 13
+      },
+      "start": 794.248,
+      "end": 855.42,
+      "durationSeconds": 61.172,
+      "frames": {
+        "from": 23827,
+        "count": 1835
+      },
+      "visualModes": [
+        "yolk",
+        "diagram",
+        "kinetic-text"
+      ],
+      "sfxCues": 4,
+      "beats": [
+        {
+          "beatId": "ch17-s260",
+          "segment": 260,
+          "start": 794.248,
+          "end": 795.128,
+          "durationSeconds": 0.88,
+          "spokenText": "I'll pay you next month.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch17-s261",
+          "segment": 261,
+          "start": 795.368,
+          "end": 796.208,
+          "durationSeconds": 0.84,
+          "spokenText": "I'll pay you next year.",
+          "wordCount": 5
+        },
+        {
+          "beatId": "ch17-s262",
+          "segment": 262,
+          "start": 796.508,
+          "end": 798.228,
+          "durationSeconds": 1.72,
+          "spokenText": "I'll pay you in thirty years.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch17-s263",
+          "segment": 263,
+          "start": 798.708,
+          "end": 807.178,
+          "durationSeconds": 8.47,
+          "spokenText": "Debt allows savers to give up spending today so borrowers can spend or invest today in exchange for being repaid from tomorrow.",
+          "wordCount": 22
+        },
+        {
+          "beatId": "ch17-s264",
+          "segment": 264,
+          "start": 807.548,
+          "end": 809.478,
+          "durationSeconds": 1.93,
+          "spokenText": "Interest is the price of waiting.",
+          "wordCount": 6
+        },
+        {
+          "beatId": "ch17-s265",
+          "segment": 265,
+          "start": 809.908,
+          "end": 812.788,
+          "durationSeconds": 2.88,
+          "spokenText": "Risk determines how expensive that waiting becomes.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch17-s266",
+          "segment": 266,
+          "start": 813.098,
+          "end": 822.368,
+          "durationSeconds": 9.27,
+          "spokenText": "And the entire system ultimately depends on one gigantic assumption: tomorrow will be productive enough to pay for what we build today.",
+          "wordCount": 22
+        },
+        {
+          "beatId": "ch17-s267",
+          "segment": 267,
+          "start": 822.738,
+          "end": 828.048,
+          "durationSeconds": 5.31,
+          "spokenText": "When that assumption is correct, debt can help economies grow dramatically faster.",
+          "wordCount": 12
+        },
+        {
+          "beatId": "ch17-s268",
+          "segment": 268,
+          "start": 828.088,
+          "end": 831.228,
+          "durationSeconds": 3.14,
+          "spokenText": "When it is wrong, things become interesting.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch17-s269",
+          "segment": 269,
+          "start": 831.268,
+          "end": 833.708,
+          "durationSeconds": 2.44,
+          "spokenText": "So yes, the world runs on money.",
+          "wordCount": 7
+        },
+        {
+          "beatId": "ch17-s270",
+          "segment": 270,
+          "start": 833.728,
+          "end": 845.768,
+          "durationSeconds": 12.04,
+          "spokenText": "But money itself runs on something even stranger: trust, expectations, promises about the future, and perhaps more than anything else, I-O-U-S.",
+          "wordCount": 21
+        },
+        {
+          "beatId": "ch17-s271",
+          "segment": 271,
+          "start": 846.168,
+          "end": 850.308,
+          "durationSeconds": 4.14,
+          "spokenText": "So if every debt on Earth disappeared tomorrow, you might celebrate.",
+          "wordCount": 11
+        },
+        {
+          "beatId": "ch17-s272",
+          "segment": 272,
+          "start": 850.608,
+          "end": 852.948,
+          "durationSeconds": 2.34,
+          "spokenText": "Just don't celebrate for more than five minutes.",
+          "wordCount": 8
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "segment": 1,
+      "anchorWord": "mortgage",
+      "occurrence": 1,
+      "sound": "paper",
+      "gain": null,
+      "note": "mortgage document slides in",
+      "approxSeconds": 4.28
+    },
+    {
+      "segment": 2,
+      "anchorWord": "Gone",
+      "occurrence": 1,
+      "sound": "whoosh",
+      "gain": null,
+      "note": "mortgage struck out and thrown off screen",
+      "approxSeconds": 5.3
+    },
+    {
+      "segment": 4,
+      "anchorWord": "Gone",
+      "occurrence": 1,
+      "sound": "whoosh",
+      "gain": null,
+      "note": "credit card bill thrown",
+      "approxSeconds": 6.74
+    },
+    {
+      "segment": 6,
+      "anchorWord": "Gone",
+      "occurrence": 1,
+      "sound": "whoosh",
+      "gain": null,
+      "note": "student loan thrown",
+      "approxSeconds": 8.3
+    },
+    {
+      "segment": 8,
+      "anchorWord": "Gone",
+      "occurrence": 1,
+      "sound": "whoosh",
+      "gain": null,
+      "note": "corporate debt thrown",
+      "approxSeconds": 9.92
+    },
+    {
+      "segment": 10,
+      "anchorWord": "gone",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "government debt thrown — the fifth, so it lands differently",
+      "approxSeconds": 11.48
+    },
+    {
+      "segment": 12,
+      "anchorWord": "Congratulations",
+      "occurrence": 1,
+      "sound": "sparkle",
+      "gain": null,
+      "note": "celebration",
+      "approxSeconds": 15.2
+    },
+    {
+      "segment": 13,
+      "anchorWord": "approximately",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "the turn: \"for approximately five minutes\"",
+      "approxSeconds": 16.28
+    },
+    {
+      "segment": 14,
+      "anchorWord": "breaking",
+      "occurrence": 1,
+      "sound": "crack",
+      "gain": null,
+      "note": "the bank splits",
+      "approxSeconds": 19.4
+    },
+    {
+      "segment": 16,
+      "anchorWord": "freeze",
+      "occurrence": 1,
+      "sound": "thud",
+      "gain": null,
+      "note": "construction window slams in",
+      "approxSeconds": 25
+    },
+    {
+      "segment": 18,
+      "anchorWord": "panic",
+      "occurrence": 1,
+      "sound": "crash",
+      "gain": 0.2,
+      "note": "investor panic, red arrow down",
+      "approxSeconds": 29.38
+    },
+    {
+      "segment": 19,
+      "anchorWord": "screws",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "the loose screw appears",
+      "approxSeconds": 30.54
+    },
+    {
+      "segment": 21,
+      "anchorWord": "debt",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "THE MODERN WORLD RUNS ON DEBT lands",
+      "approxSeconds": 42.45
+    },
+    {
+      "segment": 25,
+      "anchorWord": "thousand",
+      "occurrence": 1,
+      "sound": "pop",
+      "gain": null,
+      "note": "$300,000 price appears on the house",
+      "approxSeconds": 51.06
+    },
+    {
+      "segment": 27,
+      "anchorWord": "not",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "the wallet is empty",
+      "approxSeconds": 54.76
+    },
+    {
+      "segment": 30,
+      "anchorWord": "gives",
+      "occurrence": 1,
+      "sound": "cash",
+      "gain": null,
+      "note": "the bank hands over the money",
+      "approxSeconds": 66.79
+    },
+    {
+      "segment": 31,
+      "anchorWord": "mortgage",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "MORTGAGE contract stamped",
+      "approxSeconds": 73.57
+    },
+    {
+      "segment": 36,
+      "anchorWord": "enough",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "\"good enough\" — the bank agrees",
+      "approxSeconds": 84.5
+    },
+    {
+      "segment": 38,
+      "anchorWord": "machine",
+      "occurrence": 1,
+      "sound": "sparkle",
+      "gain": null,
+      "note": "the time machine portal opens",
+      "approxSeconds": 89
+    },
+    {
+      "segment": 48,
+      "anchorWord": "one",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "year one appears on the timeline",
+      "approxSeconds": 119.22
+    },
+    {
+      "segment": 49,
+      "anchorWord": "five",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "year five",
+      "approxSeconds": 121
+    },
+    {
+      "segment": 50,
+      "anchorWord": "twelve",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "year twelve, the spreadsheet",
+      "approxSeconds": 122.99
+    },
+    {
+      "segment": 51,
+      "anchorWord": "twenty",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "year twenty",
+      "approxSeconds": 125.52
+    },
+    {
+      "segment": 53,
+      "anchorWord": "competitor",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "the competitor already won",
+      "approxSeconds": 128.86
+    },
+    {
+      "segment": 54,
+      "anchorWord": "borrow",
+      "occurrence": 1,
+      "sound": "cash",
+      "gain": null,
+      "note": "the loan arrives instead",
+      "approxSeconds": 136.46
+    },
+    {
+      "segment": 55,
+      "anchorWord": "today",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "the factory is built today",
+      "approxSeconds": 138.04
+    },
+    {
+      "segment": 60,
+      "anchorWord": "investment",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "future productivity becomes present investment",
+      "approxSeconds": 147.68
+    },
+    {
+      "segment": 62,
+      "anchorWord": "vault",
+      "occurrence": 1,
+      "sound": "thud",
+      "gain": null,
+      "note": "the vault door swings open",
+      "approxSeconds": 154.88
+    },
+    {
+      "segment": 64,
+      "anchorWord": "McDuck",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "the Scrooge McDuck gag",
+      "approxSeconds": 162.36
+    },
+    {
+      "segment": 67,
+      "anchorWord": "owe",
+      "occurrence": 1,
+      "sound": "paper",
+      "gain": null,
+      "note": "the loan lands on the asset side",
+      "approxSeconds": 168.58
+    },
+    {
+      "segment": 67,
+      "anchorWord": "credited",
+      "occurrence": 1,
+      "sound": "cash",
+      "gain": null,
+      "note": "the deposit lands on the liability side",
+      "approxSeconds": 168.58
+    },
+    {
+      "segment": 70,
+      "anchorWord": "liability",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "the two entries are bracketed together",
+      "approxSeconds": 177.29
+    },
+    {
+      "segment": 73,
+      "anchorWord": "Lamborghini",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "the copy-paste joke",
+      "approxSeconds": 186.52
+    },
+    {
+      "segment": 74,
+      "anchorWord": "back",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "borrowers occasionally do not pay back",
+      "approxSeconds": 190.1
+    },
+    {
+      "segment": 81,
+      "anchorWord": "lending",
+      "occurrence": 1,
+      "sound": "pop",
+      "gain": null,
+      "note": "the question lands",
+      "approxSeconds": 216.26
+    },
+    {
+      "segment": 82,
+      "anchorWord": "everyone",
+      "occurrence": 1,
+      "sound": "sparkle",
+      "gain": null,
+      "note": "the lender ring appears",
+      "approxSeconds": 219.06
+    },
+    {
+      "segment": 89,
+      "anchorWord": "chat",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "the group chat gag",
+      "approxSeconds": 237.5
+    },
+    {
+      "segment": 90,
+      "anchorWord": "true",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "...until you realise it has to be true",
+      "approxSeconds": 243.23
+    },
+    {
+      "segment": 92,
+      "anchorWord": "bonds",
+      "occurrence": 1,
+      "sound": "paper",
+      "gain": null,
+      "note": "the bond is issued",
+      "approxSeconds": 249.6
+    },
+    {
+      "segment": 93,
+      "anchorWord": "IOU",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "A BOND IS AN I.O.U.",
+      "approxSeconds": 251.85
+    },
+    {
+      "segment": 98,
+      "anchorWord": "Banks",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "first buyer",
+      "approxSeconds": 262.7
+    },
+    {
+      "segment": 99,
+      "anchorWord": "Pension",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "second buyer",
+      "approxSeconds": 264.3
+    },
+    {
+      "segment": 100,
+      "anchorWord": "Investment",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "third buyer",
+      "approxSeconds": 265.58
+    },
+    {
+      "segment": 101,
+      "anchorWord": "Insurance",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "fourth buyer",
+      "approxSeconds": 267.08
+    },
+    {
+      "segment": 102,
+      "anchorWord": "Foreign",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "fifth buyer",
+      "approxSeconds": 268.76
+    },
+    {
+      "segment": 103,
+      "anchorWord": "central",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "even central banks",
+      "approxSeconds": 270.32
+    },
+    {
+      "segment": 110,
+      "anchorWord": "trillion",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "the enormous credit card bill gag",
+      "approxSeconds": 298.12
+    },
+    {
+      "segment": 115,
+      "anchorWord": "matures",
+      "occurrence": 1,
+      "sound": "paper",
+      "gain": null,
+      "note": "first bond matures",
+      "approxSeconds": 311.36
+    },
+    {
+      "segment": 117,
+      "anchorWord": "matures",
+      "occurrence": 1,
+      "sound": "paper",
+      "gain": null,
+      "note": "second bond matures",
+      "approxSeconds": 314.19
+    },
+    {
+      "segment": 118,
+      "anchorWord": "bond",
+      "occurrence": 1,
+      "sound": "paper",
+      "gain": null,
+      "note": "and another",
+      "approxSeconds": 315.46
+    },
+    {
+      "segment": 120,
+      "anchorWord": "Tuesday",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "\"I'll pay you Tuesday\"",
+      "approxSeconds": 319.16
+    },
+    {
+      "segment": 123,
+      "anchorWord": "Tuesday",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": 0.24,
+      "note": "\"how do you feel about NEXT Tuesday\"",
+      "approxSeconds": 322.83
+    },
+    {
+      "segment": 133,
+      "anchorWord": "thousand",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "person A appears",
+      "approxSeconds": 352.48
+    },
+    {
+      "segment": 134,
+      "anchorWord": "thousand",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "person B appears",
+      "approxSeconds": 357.63
+    },
+    {
+      "segment": 135,
+      "anchorWord": "panic",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "very different panic levels",
+      "approxSeconds": 362.19
+    },
+    {
+      "segment": 140,
+      "anchorWord": "infrastructure",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "the productive column",
+      "approxSeconds": 386.15
+    },
+    {
+      "segment": 141,
+      "anchorWord": "golden",
+      "occurrence": 1,
+      "sound": "sparkle",
+      "gain": null,
+      "note": "the golden statue rises",
+      "approxSeconds": 391.63
+    },
+    {
+      "segment": 141,
+      "anchorWord": "lasers",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "shooting lasers from its eyes",
+      "approxSeconds": 391.63
+    },
+    {
+      "segment": 143,
+      "anchorWord": "leverage",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "LEVERAGE lands",
+      "approxSeconds": 405.55
+    },
+    {
+      "segment": 147,
+      "anchorWord": "ten",
+      "occurrence": 1,
+      "sound": "pop",
+      "gain": null,
+      "note": "$10 appears",
+      "approxSeconds": 416.25
+    },
+    {
+      "segment": 149,
+      "anchorWord": "dollar",
+      "occurrence": 1,
+      "sound": "cash",
+      "gain": 0.1,
+      "note": "+$1 — deliberately small",
+      "approxSeconds": 420.53
+    },
+    {
+      "segment": 151,
+      "anchorWord": "coffee",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "half a coffee",
+      "approxSeconds": 422.25
+    },
+    {
+      "segment": 152,
+      "anchorWord": "ninety",
+      "occurrence": 1,
+      "sound": "cash",
+      "gain": null,
+      "note": "+$90 borrowed",
+      "approxSeconds": 423.67
+    },
+    {
+      "segment": 153,
+      "anchorWord": "hundred",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "$100 total bet",
+      "approxSeconds": 427.49
+    },
+    {
+      "segment": 155,
+      "anchorWord": "ten",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "+$10 gain",
+      "approxSeconds": 431.19
+    },
+    {
+      "segment": 157,
+      "anchorWord": "incredible",
+      "occurrence": 1,
+      "sound": "sparkle",
+      "gain": null,
+      "note": "the smug moment",
+      "approxSeconds": 434.97
+    },
+    {
+      "segment": 160,
+      "anchorWord": "yachts",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "researching yachts",
+      "approxSeconds": 443.05
+    },
+    {
+      "segment": 161,
+      "anchorWord": "falls",
+      "occurrence": 1,
+      "sound": "crash",
+      "gain": null,
+      "note": "the investment falls 10%",
+      "approxSeconds": 444.83
+    },
+    {
+      "segment": 163,
+      "anchorWord": "gone",
+      "occurrence": 1,
+      "sound": "vanish",
+      "gain": 0.2,
+      "note": "the original $10 is wiped out",
+      "approxSeconds": 449.09
+    },
+    {
+      "segment": 164,
+      "anchorWord": "ninety",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "the lender still wants its $90",
+      "approxSeconds": 450.79
+    },
+    {
+      "segment": 170,
+      "anchorWord": "Trust",
+      "occurrence": 1,
+      "sound": "swell",
+      "gain": null,
+      "note": "TRUST alone on white",
+      "approxSeconds": 473.81
+    },
+    {
+      "segment": 178,
+      "anchorWord": "yes",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": 0.11,
+      "note": "the YES gauge",
+      "approxSeconds": 491.27
+    },
+    {
+      "segment": 179,
+      "anchorWord": "maybe",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "the MAYBE gauge",
+      "approxSeconds": 494.43
+    },
+    {
+      "segment": 180,
+      "anchorWord": "not",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "the ABSOLUTELY NOT gauge",
+      "approxSeconds": 498.17
+    },
+    {
+      "segment": 181,
+      "anchorWord": "disappears",
+      "occurrence": 1,
+      "sound": "vanish",
+      "gain": null,
+      "note": "the money disappears",
+      "approxSeconds": 501.89
+    },
+    {
+      "segment": 183,
+      "anchorWord": "higher",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "rates rise, first turn of the loop",
+      "approxSeconds": 508.09
+    },
+    {
+      "segment": 185,
+      "anchorWord": "again",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "second turn",
+      "approxSeconds": 512.81
+    },
+    {
+      "segment": 187,
+      "anchorWord": "Eventually",
+      "occurrence": 1,
+      "sound": "vanish",
+      "gain": null,
+      "note": "lenders stop entirely",
+      "approxSeconds": 518.41
+    },
+    {
+      "segment": 192,
+      "anchorWord": "microphone",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "the podcast microphone",
+      "approxSeconds": 537.75
+    },
+    {
+      "segment": 192,
+      "anchorWord": "breaks",
+      "occurrence": 1,
+      "sound": "crack",
+      "gain": null,
+      "note": "then something breaks",
+      "approxSeconds": 537.75
+    },
+    {
+      "segment": 193,
+      "anchorWord": "defaulting",
+      "occurrence": 1,
+      "sound": "crash",
+      "gain": 0.22,
+      "note": "the cascade begins",
+      "approxSeconds": 542.01
+    },
+    {
+      "segment": 197,
+      "anchorWord": "rising",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "the housing price line climbs",
+      "approxSeconds": 567.81
+    },
+    {
+      "segment": 200,
+      "anchorWord": "fell",
+      "occurrence": 1,
+      "sound": "crash",
+      "gain": null,
+      "note": "housing prices fall",
+      "approxSeconds": 573.75
+    },
+    {
+      "segment": 203,
+      "anchorWord": "safe",
+      "occurrence": 2,
+      "sound": "error",
+      "gain": null,
+      "note": "things they thought were safe were not",
+      "approxSeconds": 580.03
+    },
+    {
+      "segment": 204,
+      "anchorWord": "global",
+      "occurrence": 1,
+      "sound": "swell",
+      "gain": null,
+      "note": "the contagion spreads across the map",
+      "approxSeconds": 583.8
+    },
+    {
+      "segment": 211,
+      "anchorWord": "it",
+      "occurrence": 1,
+      "sound": "pop",
+      "gain": null,
+      "note": "\"why not just get rid of it?\"",
+      "approxSeconds": 619.53
+    },
+    {
+      "segment": 214,
+      "anchorWord": "longer",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "factories take longer",
+      "approxSeconds": 634.75
+    },
+    {
+      "segment": 217,
+      "anchorWord": "harder",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "buying a house becomes harder",
+      "approxSeconds": 642.23
+    },
+    {
+      "segment": 222,
+      "anchorWord": "bridge",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "CREDIT IS THE BRIDGE",
+      "approxSeconds": 672.95
+    },
+    {
+      "segment": 224,
+      "anchorWord": "less",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "spending falls",
+      "approxSeconds": 680.55
+    },
+    {
+      "segment": 226,
+      "anchorWord": "workers",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "layoffs",
+      "approxSeconds": 683.01
+    },
+    {
+      "segment": 229,
+      "anchorWord": "fired",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "the loop tightens",
+      "approxSeconds": 688.77
+    },
+    {
+      "segment": 231,
+      "anchorWord": "flush",
+      "occurrence": 1,
+      "sound": "flush",
+      "gain": null,
+      "note": "the economic toilet flush",
+      "approxSeconds": 691.37
+    },
+    {
+      "segment": 234,
+      "anchorWord": "borrow",
+      "occurrence": 1,
+      "sound": "cash",
+      "gain": null,
+      "note": "the government borrows to interrupt the loop",
+      "approxSeconds": 706.46
+    },
+    {
+      "segment": 237,
+      "anchorWord": "bonds",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "WAR BONDS",
+      "approxSeconds": 722.19
+    },
+    {
+      "segment": 238,
+      "anchorWord": "higher",
+      "occurrence": 1,
+      "sound": "error",
+      "gain": null,
+      "note": "the 300% tax alternative",
+      "approxSeconds": 729.65
+    },
+    {
+      "segment": 241,
+      "anchorWord": "trust",
+      "occurrence": 1,
+      "sound": "swell",
+      "gain": null,
+      "note": "a government people trust enough to lend to",
+      "approxSeconds": 738.03
+    },
+    {
+      "segment": 247,
+      "anchorWord": "Aliens",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "aliens?",
+      "approxSeconds": 757.77
+    },
+    {
+      "segment": 249,
+      "anchorWord": "Steve",
+      "occurrence": 1,
+      "sound": "ding",
+      "gain": null,
+      "note": "one extremely patient guy named Steve",
+      "approxSeconds": 760.97
+    },
+    {
+      "segment": 250,
+      "anchorWord": "other",
+      "occurrence": 1,
+      "sound": "sparkle",
+      "gain": null,
+      "note": "mostly, we owe it to each other",
+      "approxSeconds": 764.01
+    },
+    {
+      "segment": 256,
+      "anchorWord": "liability",
+      "occurrence": 1,
+      "sound": "stamp",
+      "gain": null,
+      "note": "YOUR ASSET IS SOMEONE ELSE'S LIABILITY",
+      "approxSeconds": 778.13
+    },
+    {
+      "segment": 259,
+      "anchorWord": "promises",
+      "occurrence": 1,
+      "sound": "swell",
+      "gain": null,
+      "note": "the network resolves",
+      "approxSeconds": 791.19
+    },
+    {
+      "segment": 264,
+      "anchorWord": "waiting",
+      "occurrence": 1,
+      "sound": "tick",
+      "gain": null,
+      "note": "interest is the price of waiting",
+      "approxSeconds": 807.55
+    },
+    {
+      "segment": 270,
+      "anchorWord": "stranger",
+      "occurrence": 1,
+      "sound": "sparkle",
+      "gain": null,
+      "note": "trust, expectations, promises",
+      "approxSeconds": 833.73
+    },
+    {
+      "segment": 271,
+      "anchorWord": "celebrate",
+      "occurrence": 1,
+      "sound": "pop",
+      "gain": null,
+      "note": "the callback: he celebrates again",
+      "approxSeconds": 846.17
+    },
+    {
+      "segment": 272,
+      "anchorWord": "minutes",
+      "occurrence": 1,
+      "sound": "boing",
+      "gain": null,
+      "note": "the five-minute timer starts",
+      "approxSeconds": 850.61
+    }
+  ]
+}

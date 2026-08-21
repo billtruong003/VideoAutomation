@@ -42,7 +42,16 @@
     "creator:test": "vitest run",
     "creator:server": "node src/youtube/server/index.mjs",
     "qa:specs": "node tools/validate-specs.mjs",
-    "batch2:episodes": "node tools/batch-002-episodes.mjs"
+    "batch2:episodes": "node tools/batch-002-episodes.mjs",
+    "mryolk:assets": "node tools/mryolk/extract-sheets.mjs && node tools/mryolk/build-registry.mjs",
+    "mryolk:audio": "node tools/mryolk/build-narration.mjs",
+    "mryolk:stt": "node tools/mryolk/stt.mjs public/mryolk/audio/narration-master.wav data/mryolk/stt",
+    "mryolk:stock": "node tools/mryolk/research-stock.mjs && node tools/mryolk/make-proxies.mjs",
+    "mryolk:sfx": "node tools/mryolk/make-sfx.mjs",
+    "mryolk:plan": "node tools/mryolk/export-edit-plan.mjs",
+    "mryolk:render": "remotion render MrYolkDebt out/mryolk-why-the-world-runs-on-debt.mp4 --codec=h264 --crf=18 --concurrency=4",
+    "mryolk:verify": "node tools/mryolk/verify-output.mjs",
+    "mryolk:qa": "node tools/mryolk/qa-frames.mjs"
   },
   "dependencies": {
     "@fontsource/bangers": "^5.3.0",

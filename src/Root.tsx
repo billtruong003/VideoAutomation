@@ -15,6 +15,8 @@ import { PoseSheet } from './qa/characters/PoseSheet';
 import { ModelSheet } from './qa/characters/ModelSheet';
 import { CastLineup, HandArmTest, PhoneSizeTest, Silhouettes } from './qa/characters/CastSheets';
 import { CAST_ORDER } from './character/registry';
+import { MrYolkDebt, MRYOLK_COMPOSITION } from './mryolk/Video';
+import './mryolk/fonts';
 
 const still = { durationInFrames: 1, fps: VIDEO.fps, width: VIDEO.width, height: VIDEO.height };
 
@@ -103,6 +105,15 @@ export const RemotionRoot: React.FC = () => (
         />
       </React.Fragment>
     ))}
+
+    {/*
+      Mr.Yolk — long-form, 1920x1080.
+
+      A different channel with a different visual language, sharing this bundle only. Its
+      duration is not written here: it comes from the measured length of its own narration
+      master, so re-conditioning that audio re-sizes the composition automatically.
+    */}
+    <Composition {...MRYOLK_COMPOSITION} component={MrYolkDebt} />
 
     {/* ---- asset and style QA, inherited ---- */}
     <Composition id="StyleProbe" component={StyleProbe} {...still} />

@@ -67,3 +67,33 @@ app/dist/
 # ElevenLabs audio factory — raw take cache lives outside the repo (see orchestrator.mjs).
 # Nothing here should ever be committed, but ignore it explicitly in case of a stray copy.
 /audio-factory-cache/
+
+# ---------------------------------------------------------------------------
+# Mr.Yolk — large regenerable media.
+#
+# This repository has no LFS. Its biggest tracked file today is a 24 MB Short, and the whole
+# working tree is about 500 MB; the Mr.Yolk long-form adds roughly a gigabyte of media on its
+# own. Committing that would multiply the clone size for bytes that are all reproducible from
+# artifacts which ARE committed.
+#
+# What stays tracked is everything needed to rebuild them and to prove what they were:
+#
+#   data/mryolk/stock-provenance.json   provider, creator, licence, URL and sha256 per asset
+#   data/mryolk/stock-research.json     the queries, and how many candidates each reviewed
+#   data/mryolk/.stock-cache/           the API responses, so a rerun need not re-search
+#   data/mryolk/audio-report.json       every measurement, before and after, plus the settings
+#   data/mryolk/stt/                    the transcript and timings the whole edit hangs off
+#   public/mryolk/assets/               the 216 extracted drawings (6.7 MB — small, permanent)
+#   public/mryolk/sfx/                  the synthesised sound palette (0.9 MB, deterministic)
+#
+# Regenerate with, in order:
+#   npm run mryolk:audio      (needs the source takes in C:\Users\ducnq\Downloads\Src)
+#   npm run mryolk:stock      (needs PEXELS_API_KEY / PIXABAY_API_KEY)
+#   npm run mryolk:render
+# ---------------------------------------------------------------------------
+public/mryolk/stock/
+public/mryolk/audio/*.wav
+out/mryolk-*.mp4
+qa/mryolk/frames/
+qa/mryolk/smoke/
+qa/mryolk/fix/
