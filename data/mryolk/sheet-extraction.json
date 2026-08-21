@@ -1,0 +1,3754 @@
+{
+  "version": 1,
+  "backgroundRemoval": "edge-connectivity+ramp-v1",
+  "sheets": [
+    {
+      "id": "emote-a",
+      "file": "ChatGPT Image 09_39_58 21 thg 8, 2026.png",
+      "sha256": "c58dc5feb11d21da99739489ef54c184469195bded7bd67f4436a9aa78a848c6",
+      "width": 1254,
+      "height": 1254,
+      "rows": 6,
+      "cols": 6,
+      "gridMethod": "measured",
+      "extracted": 36
+    },
+    {
+      "id": "emote-b",
+      "file": "ChatGPT Image 09_46_58 21 thg 8, 2026.png",
+      "sha256": "40db9462793c64e35996c2011c4774a648606d892b2c161f4f73d7ce4ba9b9b3",
+      "width": 1254,
+      "height": 1254,
+      "rows": 6,
+      "cols": 6,
+      "gridMethod": "measured",
+      "extracted": 36
+    },
+    {
+      "id": "action",
+      "file": "ChatGPT Image 09_53_35 21 thg 8, 2026.png",
+      "sha256": "16a0a2caca9f99ce3d61f3cf34c468569ddb168c6f2806f8e4ba27b2775da496",
+      "width": 1254,
+      "height": 1254,
+      "rows": 6,
+      "cols": 6,
+      "gridMethod": "measured+reconciled(r2 cols 7->6, r3 cols 7->6)",
+      "extracted": 36
+    },
+    {
+      "id": "finance-a",
+      "file": "ChatGPT Image 10_43_57 21 thg 8, 2026.png",
+      "sha256": "c1090be3bf7135c5a25d4ed7c5950e357a569149132e20008909ac0c98a4b652",
+      "width": 1254,
+      "height": 1254,
+      "rows": 6,
+      "cols": 6,
+      "gridMethod": "measured+reconciled(r1 cols 7->6)",
+      "extracted": 36
+    },
+    {
+      "id": "finance-b",
+      "file": "ChatGPT Image 10_45_48 21 thg 8, 2026.png",
+      "sha256": "75ef9ef9fe6685726a747bf714957cd019020eba08206e71c5e6fb524ec85ad8",
+      "width": 1254,
+      "height": 1254,
+      "rows": 6,
+      "cols": 6,
+      "gridMethod": "measured+reconciled(r4 cols 7->6, r5 cols 7->6)",
+      "extracted": 36
+    },
+    {
+      "id": "props",
+      "file": "ChatGPT Image 10_47_23 21 thg 8, 2026.png",
+      "sha256": "7e829b283d2c8c997fe4efe9cefc171f1f8ab56b7667ee22b424219a7cd8e3db",
+      "width": 1254,
+      "height": 1254,
+      "rows": 6,
+      "cols": 6,
+      "gridMethod": "measured+reconciled(r4 cols 8->6)",
+      "extracted": 36
+    },
+    {
+      "id": "props-dup",
+      "file": "ChatGPT Image 10_49_44 21 thg 8, 2026.png",
+      "sha256": "7e829b283d2c8c997fe4efe9cefc171f1f8ab56b7667ee22b424219a7cd8e3db",
+      "duplicateOf": "props",
+      "extracted": 0,
+      "note": "byte-identical to another supplied sheet; not extracted twice"
+    }
+  ],
+  "assets": [
+    {
+      "id": "emote-a-r1c1",
+      "sheet": "emote-a",
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "sourceCrop": {
+        "x": 45,
+        "y": 57,
+        "width": 173,
+        "height": 160
+      },
+      "file": "mryolk/assets/emote-a-r1c1.png",
+      "width": 185,
+      "height": 172,
+      "sha256": "1f615de42f6dc1c20985a8fc8b3e3e0f3ce2fc7ac0cf314fc585c3bf210c4133"
+    },
+    {
+      "id": "emote-a-r1c2",
+      "sheet": "emote-a",
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "sourceCrop": {
+        "x": 256,
+        "y": 58,
+        "width": 170,
+        "height": 162
+      },
+      "file": "mryolk/assets/emote-a-r1c2.png",
+      "width": 182,
+      "height": 174,
+      "sha256": "8798b7bbbd44e7edcb9fbfbcf9c33a72b96efd3edf0da705692e2bd83abec6ae"
+    },
+    {
+      "id": "emote-a-r1c3",
+      "sheet": "emote-a",
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "sourceCrop": {
+        "x": 455,
+        "y": 59,
+        "width": 171,
+        "height": 163
+      },
+      "file": "mryolk/assets/emote-a-r1c3.png",
+      "width": 183,
+      "height": 175,
+      "sha256": "496aee58d71fb438f58c31ef30b6a286e9897658294e79d411008593b83c7e69"
+    },
+    {
+      "id": "emote-a-r1c4",
+      "sheet": "emote-a",
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "sourceCrop": {
+        "x": 658,
+        "y": 59,
+        "width": 169,
+        "height": 163
+      },
+      "file": "mryolk/assets/emote-a-r1c4.png",
+      "width": 181,
+      "height": 175,
+      "sha256": "1780bcad3c0b5ac52eaa38ced2b91b9f5a3b58e99c65a1b72b8a5fc432ebbef3"
+    },
+    {
+      "id": "emote-a-r1c5",
+      "sheet": "emote-a",
+      "index": 4,
+      "row": 1,
+      "col": 5,
+      "sourceCrop": {
+        "x": 859,
+        "y": 60,
+        "width": 160,
+        "height": 162
+      },
+      "file": "mryolk/assets/emote-a-r1c5.png",
+      "width": 172,
+      "height": 174,
+      "sha256": "3aa60d09b9651c8d3616d9d97b5df31db4c37fdbac027735378eb4f1114afda4"
+    },
+    {
+      "id": "emote-a-r1c6",
+      "sheet": "emote-a",
+      "index": 5,
+      "row": 1,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1056,
+        "y": 55,
+        "width": 173,
+        "height": 168
+      },
+      "file": "mryolk/assets/emote-a-r1c6.png",
+      "width": 185,
+      "height": 180,
+      "sha256": "3e93e7cc6191fc8ee8c39a056228479708d01bc19e37a9711a6b9ad157b12c6b"
+    },
+    {
+      "id": "emote-a-r2c1",
+      "sheet": "emote-a",
+      "index": 6,
+      "row": 2,
+      "col": 1,
+      "sourceCrop": {
+        "x": 33,
+        "y": 263,
+        "width": 176,
+        "height": 160
+      },
+      "file": "mryolk/assets/emote-a-r2c1.png",
+      "width": 188,
+      "height": 172,
+      "sha256": "7b97b3e4b2bbe9babf4451c6526207b8e03d9b090371d63596a24b7e2e267333"
+    },
+    {
+      "id": "emote-a-r2c2",
+      "sheet": "emote-a",
+      "index": 7,
+      "row": 2,
+      "col": 2,
+      "sourceCrop": {
+        "x": 246,
+        "y": 263,
+        "width": 167,
+        "height": 160
+      },
+      "file": "mryolk/assets/emote-a-r2c2.png",
+      "width": 179,
+      "height": 172,
+      "sha256": "948af13435754f49370685bb85aaf1bc0f89c49dfb730783cb5fc8184aebb44c"
+    },
+    {
+      "id": "emote-a-r2c3",
+      "sheet": "emote-a",
+      "index": 8,
+      "row": 2,
+      "col": 3,
+      "sourceCrop": {
+        "x": 449,
+        "y": 263,
+        "width": 161,
+        "height": 161
+      },
+      "file": "mryolk/assets/emote-a-r2c3.png",
+      "width": 173,
+      "height": 173,
+      "sha256": "1ed488ed202f81a146b89d042d6f264a5392c34adcc7dcb65136317a706350c2"
+    },
+    {
+      "id": "emote-a-r2c4",
+      "sheet": "emote-a",
+      "index": 9,
+      "row": 2,
+      "col": 4,
+      "sourceCrop": {
+        "x": 653,
+        "y": 261,
+        "width": 158,
+        "height": 161
+      },
+      "file": "mryolk/assets/emote-a-r2c4.png",
+      "width": 170,
+      "height": 173,
+      "sha256": "f4f4f9f45e6494ea042acf65a8921b888c5d37c47af3c0a3f41a41ee6a72da90"
+    },
+    {
+      "id": "emote-a-r2c5",
+      "sheet": "emote-a",
+      "index": 10,
+      "row": 2,
+      "col": 5,
+      "sourceCrop": {
+        "x": 864,
+        "y": 263,
+        "width": 154,
+        "height": 160
+      },
+      "file": "mryolk/assets/emote-a-r2c5.png",
+      "width": 166,
+      "height": 172,
+      "sha256": "29657f5d6f9b6ccd17f0de69205f3a48ddd020744dbfccf87f4cc6524232c0b7"
+    },
+    {
+      "id": "emote-a-r2c6",
+      "sheet": "emote-a",
+      "index": 11,
+      "row": 2,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1071,
+        "y": 265,
+        "width": 142,
+        "height": 161
+      },
+      "file": "mryolk/assets/emote-a-r2c6.png",
+      "width": 154,
+      "height": 173,
+      "sha256": "3bae9b5e879778949bd2349353fb730e0c10ba94771b2eab531aa72dda9acc0e"
+    },
+    {
+      "id": "emote-a-r3c1",
+      "sheet": "emote-a",
+      "index": 12,
+      "row": 3,
+      "col": 1,
+      "sourceCrop": {
+        "x": 40,
+        "y": 462,
+        "width": 153,
+        "height": 160
+      },
+      "file": "mryolk/assets/emote-a-r3c1.png",
+      "width": 165,
+      "height": 172,
+      "sha256": "2eaea1341f8deef956a68b9c1a5ddabf851f9bdddd48a73e2b964b1aa9cd38d9"
+    },
+    {
+      "id": "emote-a-r3c2",
+      "sheet": "emote-a",
+      "index": 13,
+      "row": 3,
+      "col": 2,
+      "sourceCrop": {
+        "x": 249,
+        "y": 463,
+        "width": 147,
+        "height": 159
+      },
+      "file": "mryolk/assets/emote-a-r3c2.png",
+      "width": 159,
+      "height": 171,
+      "sha256": "8e059ec5a3cd5f6882f5fa81278d3b88fea526dd5c388a64732426a161a2e2ac"
+    },
+    {
+      "id": "emote-a-r3c3",
+      "sheet": "emote-a",
+      "index": 14,
+      "row": 3,
+      "col": 3,
+      "sourceCrop": {
+        "x": 448,
+        "y": 462,
+        "width": 151,
+        "height": 160
+      },
+      "file": "mryolk/assets/emote-a-r3c3.png",
+      "width": 163,
+      "height": 172,
+      "sha256": "af6602f3817642fa0b3c9062225eda56cc32d42904267e393ed307f5b1b9fc77"
+    },
+    {
+      "id": "emote-a-r3c4",
+      "sheet": "emote-a",
+      "index": 15,
+      "row": 3,
+      "col": 4,
+      "sourceCrop": {
+        "x": 646,
+        "y": 462,
+        "width": 160,
+        "height": 160
+      },
+      "file": "mryolk/assets/emote-a-r3c4.png",
+      "width": 172,
+      "height": 172,
+      "sha256": "e8ab3bc7e3c111c965a7cffb059206ac0a506aae38e92d188705be0528970fa1"
+    },
+    {
+      "id": "emote-a-r3c5",
+      "sheet": "emote-a",
+      "index": 16,
+      "row": 3,
+      "col": 5,
+      "sourceCrop": {
+        "x": 854,
+        "y": 464,
+        "width": 158,
+        "height": 158
+      },
+      "file": "mryolk/assets/emote-a-r3c5.png",
+      "width": 170,
+      "height": 170,
+      "sha256": "176bd28739a98573e68a7cb10298b8f3246d4afdce5dc308fb5e47cbdc67b56c"
+    },
+    {
+      "id": "emote-a-r3c6",
+      "sheet": "emote-a",
+      "index": 17,
+      "row": 3,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1056,
+        "y": 464,
+        "width": 164,
+        "height": 158
+      },
+      "file": "mryolk/assets/emote-a-r3c6.png",
+      "width": 176,
+      "height": 170,
+      "sha256": "2687443f825ee38a7524baef90fdf9f5697c4ca3ff04f23437a503d855146ecf"
+    },
+    {
+      "id": "emote-a-r4c1",
+      "sheet": "emote-a",
+      "index": 18,
+      "row": 4,
+      "col": 1,
+      "sourceCrop": {
+        "x": 28,
+        "y": 660,
+        "width": 169,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-a-r4c1.png",
+      "width": 181,
+      "height": 168,
+      "sha256": "9393497142855283733a878eb1eedbb721b1605b6b3242d7f6537d3a11ec9bed"
+    },
+    {
+      "id": "emote-a-r4c2",
+      "sheet": "emote-a",
+      "index": 19,
+      "row": 4,
+      "col": 2,
+      "sourceCrop": {
+        "x": 237,
+        "y": 661,
+        "width": 159,
+        "height": 155
+      },
+      "file": "mryolk/assets/emote-a-r4c2.png",
+      "width": 171,
+      "height": 167,
+      "sha256": "ac965ac14f9fa2aca67f60290d19a83b598f5774c774fd911874598e8a26fa13"
+    },
+    {
+      "id": "emote-a-r4c3",
+      "sheet": "emote-a",
+      "index": 20,
+      "row": 4,
+      "col": 3,
+      "sourceCrop": {
+        "x": 447,
+        "y": 660,
+        "width": 145,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-a-r4c3.png",
+      "width": 157,
+      "height": 168,
+      "sha256": "f8688922e09547cfea3d3a63e8eb7d7c443c4e1f4711bd35eb56fe645582e71b"
+    },
+    {
+      "id": "emote-a-r4c4",
+      "sheet": "emote-a",
+      "index": 21,
+      "row": 4,
+      "col": 4,
+      "sourceCrop": {
+        "x": 653,
+        "y": 660,
+        "width": 149,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-a-r4c4.png",
+      "width": 161,
+      "height": 168,
+      "sha256": "20b29b02004f4d4bf4135a3094429dd9060a5c6858bb6c8e99397bfb7b97c49b"
+    },
+    {
+      "id": "emote-a-r4c5",
+      "sheet": "emote-a",
+      "index": 22,
+      "row": 4,
+      "col": 5,
+      "sourceCrop": {
+        "x": 860,
+        "y": 663,
+        "width": 147,
+        "height": 154
+      },
+      "file": "mryolk/assets/emote-a-r4c5.png",
+      "width": 159,
+      "height": 166,
+      "sha256": "d09ba021ae19f7995c1f47f738a8e4a5d2eb3b1b8ba4fabb07dc4145358505c6"
+    },
+    {
+      "id": "emote-a-r4c6",
+      "sheet": "emote-a",
+      "index": 23,
+      "row": 4,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1053,
+        "y": 663,
+        "width": 173,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-a-r4c6.png",
+      "width": 185,
+      "height": 168,
+      "sha256": "160d8a1c152bbed8741e53b3d589661822865da8fd808d02682e03c03ac72648"
+    },
+    {
+      "id": "emote-a-r5c1",
+      "sheet": "emote-a",
+      "index": 24,
+      "row": 5,
+      "col": 1,
+      "sourceCrop": {
+        "x": 42,
+        "y": 849,
+        "width": 148,
+        "height": 159
+      },
+      "file": "mryolk/assets/emote-a-r5c1.png",
+      "width": 160,
+      "height": 171,
+      "sha256": "2fb02b88133e3be79a1b9e8c08766066de965486ec655a9b41d0b9a8d9fdcd94"
+    },
+    {
+      "id": "emote-a-r5c2",
+      "sheet": "emote-a",
+      "index": 25,
+      "row": 5,
+      "col": 2,
+      "sourceCrop": {
+        "x": 248,
+        "y": 849,
+        "width": 138,
+        "height": 158
+      },
+      "file": "mryolk/assets/emote-a-r5c2.png",
+      "width": 150,
+      "height": 170,
+      "sha256": "ee22c8f3742c4191462b000ec4aa85f358bf592fc103314d4254449e329e2411"
+    },
+    {
+      "id": "emote-a-r5c3",
+      "sheet": "emote-a",
+      "index": 26,
+      "row": 5,
+      "col": 3,
+      "sourceCrop": {
+        "x": 452,
+        "y": 849,
+        "width": 136,
+        "height": 158
+      },
+      "file": "mryolk/assets/emote-a-r5c3.png",
+      "width": 148,
+      "height": 170,
+      "sha256": "10f0747ee5059935312221c733519649d38dc0c9f31aace393cbd8e9afc8c4e9"
+    },
+    {
+      "id": "emote-a-r5c4",
+      "sheet": "emote-a",
+      "index": 27,
+      "row": 5,
+      "col": 4,
+      "sourceCrop": {
+        "x": 663,
+        "y": 849,
+        "width": 138,
+        "height": 158
+      },
+      "file": "mryolk/assets/emote-a-r5c4.png",
+      "width": 150,
+      "height": 170,
+      "sha256": "83f257af3809a9f23076cce6232d164a18f272c91a7df8608d690752830d1a73"
+    },
+    {
+      "id": "emote-a-r5c5",
+      "sheet": "emote-a",
+      "index": 28,
+      "row": 5,
+      "col": 5,
+      "sourceCrop": {
+        "x": 879,
+        "y": 849,
+        "width": 124,
+        "height": 163
+      },
+      "file": "mryolk/assets/emote-a-r5c5.png",
+      "width": 136,
+      "height": 175,
+      "sha256": "78a737566117c4458e7b4218d335b79da55553e454856a76c84f211d6d880f62"
+    },
+    {
+      "id": "emote-a-r5c6",
+      "sheet": "emote-a",
+      "index": 29,
+      "row": 5,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1063,
+        "y": 854,
+        "width": 146,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-a-r5c6.png",
+      "width": 158,
+      "height": 168,
+      "sha256": "df891b1d6466e431f7d11f35e11b5ecfdbfd505f0dc99eb1fbde30777bf2068a"
+    },
+    {
+      "id": "emote-a-r6c1",
+      "sheet": "emote-a",
+      "index": 30,
+      "row": 6,
+      "col": 1,
+      "sourceCrop": {
+        "x": 42,
+        "y": 1046,
+        "width": 145,
+        "height": 153
+      },
+      "file": "mryolk/assets/emote-a-r6c1.png",
+      "width": 157,
+      "height": 165,
+      "sha256": "58d47dbc1693bb7b7610f30f64a65a5668f4738620469818303d7118590c14ca"
+    },
+    {
+      "id": "emote-a-r6c2",
+      "sheet": "emote-a",
+      "index": 31,
+      "row": 6,
+      "col": 2,
+      "sourceCrop": {
+        "x": 241,
+        "y": 1046,
+        "width": 151,
+        "height": 153
+      },
+      "file": "mryolk/assets/emote-a-r6c2.png",
+      "width": 163,
+      "height": 165,
+      "sha256": "fa475593c5a8f35e097182b0d4b6b905876ff6c6373b591b8233a1f39e01f33a"
+    },
+    {
+      "id": "emote-a-r6c3",
+      "sheet": "emote-a",
+      "index": 32,
+      "row": 6,
+      "col": 3,
+      "sourceCrop": {
+        "x": 443,
+        "y": 1048,
+        "width": 157,
+        "height": 154
+      },
+      "file": "mryolk/assets/emote-a-r6c3.png",
+      "width": 169,
+      "height": 166,
+      "sha256": "13894c114d1f57da99fb38a07678bc3b5bf5602f30cee8206ce8fc4ee2e2fdbc"
+    },
+    {
+      "id": "emote-a-r6c4",
+      "sheet": "emote-a",
+      "index": 33,
+      "row": 6,
+      "col": 4,
+      "sourceCrop": {
+        "x": 656,
+        "y": 1046,
+        "width": 140,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-a-r6c4.png",
+      "width": 152,
+      "height": 168,
+      "sha256": "6d52d31c2366198fefa0050d96caead77873b421d1f055401b28ca99624b957c"
+    },
+    {
+      "id": "emote-a-r6c5",
+      "sheet": "emote-a",
+      "index": 34,
+      "row": 6,
+      "col": 5,
+      "sourceCrop": {
+        "x": 865,
+        "y": 1046,
+        "width": 140,
+        "height": 158
+      },
+      "file": "mryolk/assets/emote-a-r6c5.png",
+      "width": 152,
+      "height": 170,
+      "sha256": "868763f955896a41bcc2607e8ddadc7ce63ef21e73d9b85e47822f1742d8e719"
+    },
+    {
+      "id": "emote-a-r6c6",
+      "sheet": "emote-a",
+      "index": 35,
+      "row": 6,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1065,
+        "y": 1050,
+        "width": 136,
+        "height": 154
+      },
+      "file": "mryolk/assets/emote-a-r6c6.png",
+      "width": 148,
+      "height": 166,
+      "sha256": "9b6c8108736174350b2a56910265a4472274945ab7e256f57845f2a59315e572"
+    },
+    {
+      "id": "emote-b-r1c1",
+      "sheet": "emote-b",
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "sourceCrop": {
+        "x": 50,
+        "y": 63,
+        "width": 145,
+        "height": 157
+      },
+      "file": "mryolk/assets/emote-b-r1c1.png",
+      "width": 157,
+      "height": 169,
+      "sha256": "faf8efc3fd6dc35774cff70ac608919e6dac275b40aebf003a12eaa2fce9632b"
+    },
+    {
+      "id": "emote-b-r1c2",
+      "sheet": "emote-b",
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "sourceCrop": {
+        "x": 253,
+        "y": 64,
+        "width": 158,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-b-r1c2.png",
+      "width": 170,
+      "height": 168,
+      "sha256": "902a1fb3312e11e45cecab827da005a623712ad39e42716eded2f6411ea81aa0"
+    },
+    {
+      "id": "emote-b-r1c3",
+      "sheet": "emote-b",
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "sourceCrop": {
+        "x": 458,
+        "y": 69,
+        "width": 169,
+        "height": 156
+      },
+      "file": "mryolk/assets/emote-b-r1c3.png",
+      "width": 181,
+      "height": 168,
+      "sha256": "1293980dce496fd833e8adfc7d633d15969733dada6cbf3326a92855028f7573"
+    },
+    {
+      "id": "emote-b-r1c4",
+      "sheet": "emote-b",
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "sourceCrop": {
+        "x": 665,
+        "y": 71,
+        "width": 168,
+        "height": 154
+      },
+      "file": "mryolk/assets/emote-b-r1c4.png",
+      "width": 180,
+      "height": 166,
+      "sha256": "259090e464355ab1dd3ab23d72fb0169be39c2b42b0ea49e742cc0c199a093fd"
+    },
+    {
+      "id": "emote-b-r1c5",
+      "sheet": "emote-b",
+      "index": 4,
+      "row": 1,
+      "col": 5,
+      "sourceCrop": {
+        "x": 870,
+        "y": 66,
+        "width": 159,
+        "height": 159
+      },
+      "file": "mryolk/assets/emote-b-r1c5.png",
+      "width": 171,
+      "height": 171,
+      "sha256": "b120c5ff8dbc52b313bb12d32be14a2ed5ddff65b248872043bc19266e571a77"
+    },
+    {
+      "id": "emote-b-r1c6",
+      "sheet": "emote-b",
+      "index": 5,
+      "row": 1,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1069,
+        "y": 81,
+        "width": 156,
+        "height": 144
+      },
+      "file": "mryolk/assets/emote-b-r1c6.png",
+      "width": 168,
+      "height": 156,
+      "sha256": "ca9ea06b5192acfd6a15aeecbb47054adc916cf3dbbe5404a26f3c53be55bf93"
+    },
+    {
+      "id": "emote-b-r2c1",
+      "sheet": "emote-b",
+      "index": 6,
+      "row": 2,
+      "col": 1,
+      "sourceCrop": {
+        "x": 51,
+        "y": 274,
+        "width": 129,
+        "height": 159
+      },
+      "file": "mryolk/assets/emote-b-r2c1.png",
+      "width": 141,
+      "height": 171,
+      "sha256": "7a8f4f4c38c2044ff6ccc78d2338ab5b9c2746448f83973f9b4ebca0948c6861"
+    },
+    {
+      "id": "emote-b-r2c2",
+      "sheet": "emote-b",
+      "index": 7,
+      "row": 2,
+      "col": 2,
+      "sourceCrop": {
+        "x": 234,
+        "y": 269,
+        "width": 162,
+        "height": 165
+      },
+      "file": "mryolk/assets/emote-b-r2c2.png",
+      "width": 174,
+      "height": 177,
+      "sha256": "5954597f3c814c7e1b506724efe9dcb6888f1b8223128a671454dcf92c7925d0"
+    },
+    {
+      "id": "emote-b-r2c3",
+      "sheet": "emote-b",
+      "index": 8,
+      "row": 2,
+      "col": 3,
+      "sourceCrop": {
+        "x": 447,
+        "y": 284,
+        "width": 172,
+        "height": 149
+      },
+      "file": "mryolk/assets/emote-b-r2c3.png",
+      "width": 184,
+      "height": 161,
+      "sha256": "3e147831d96c39298ba572d907257eed61c4335e2bef182ed9ecf1f3a52b2e89"
+    },
+    {
+      "id": "emote-b-r2c4",
+      "sheet": "emote-b",
+      "index": 9,
+      "row": 2,
+      "col": 4,
+      "sourceCrop": {
+        "x": 666,
+        "y": 271,
+        "width": 147,
+        "height": 163
+      },
+      "file": "mryolk/assets/emote-b-r2c4.png",
+      "width": 159,
+      "height": 175,
+      "sha256": "44e8f778dc5d82f27467cf6972dacf37c96ca87137bf4c079f3dd4f11b03e7dd"
+    },
+    {
+      "id": "emote-b-r2c5",
+      "sheet": "emote-b",
+      "index": 10,
+      "row": 2,
+      "col": 5,
+      "sourceCrop": {
+        "x": 876,
+        "y": 286,
+        "width": 133,
+        "height": 148
+      },
+      "file": "mryolk/assets/emote-b-r2c5.png",
+      "width": 145,
+      "height": 160,
+      "sha256": "953909ce7c0038c9a89afaf53e79b866fa7a300014df1d28978cb775f99bb24d"
+    },
+    {
+      "id": "emote-b-r2c6",
+      "sheet": "emote-b",
+      "index": 11,
+      "row": 2,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1073,
+        "y": 297,
+        "width": 148,
+        "height": 136
+      },
+      "file": "mryolk/assets/emote-b-r2c6.png",
+      "width": 160,
+      "height": 148,
+      "sha256": "571e383c03f4432f45ca1539b3b994857e5113b3948fd7ca9d311cc923315627"
+    },
+    {
+      "id": "emote-b-r3c1",
+      "sheet": "emote-b",
+      "index": 12,
+      "row": 3,
+      "col": 1,
+      "sourceCrop": {
+        "x": 40,
+        "y": 495,
+        "width": 141,
+        "height": 147
+      },
+      "file": "mryolk/assets/emote-b-r3c1.png",
+      "width": 153,
+      "height": 159,
+      "sha256": "55e2b8a00b8f87d346133e1b9c19d44160392123c7fd3f3fbb6e27a29747d8a3"
+    },
+    {
+      "id": "emote-b-r3c2",
+      "sheet": "emote-b",
+      "index": 13,
+      "row": 3,
+      "col": 2,
+      "sourceCrop": {
+        "x": 234,
+        "y": 493,
+        "width": 157,
+        "height": 149
+      },
+      "file": "mryolk/assets/emote-b-r3c2.png",
+      "width": 169,
+      "height": 161,
+      "sha256": "fc3e37ed71ecff8134298a99baa395ed5b9225aa2b6e2c7350d68795b0fd30a2"
+    },
+    {
+      "id": "emote-b-r3c3",
+      "sheet": "emote-b",
+      "index": 14,
+      "row": 3,
+      "col": 3,
+      "sourceCrop": {
+        "x": 454,
+        "y": 495,
+        "width": 135,
+        "height": 147
+      },
+      "file": "mryolk/assets/emote-b-r3c3.png",
+      "width": 147,
+      "height": 159,
+      "sha256": "cb9e608f9cfa9edff02545f67e13963910a7515842c93e0c085db791d507af8e"
+    },
+    {
+      "id": "emote-b-r3c4",
+      "sheet": "emote-b",
+      "index": 15,
+      "row": 3,
+      "col": 4,
+      "sourceCrop": {
+        "x": 656,
+        "y": 491,
+        "width": 155,
+        "height": 152
+      },
+      "file": "mryolk/assets/emote-b-r3c4.png",
+      "width": 167,
+      "height": 164,
+      "sha256": "b7cde7be73284a4011125d1d2b913b942edcb138fddbe0f2af78562fbea7d3a3"
+    },
+    {
+      "id": "emote-b-r3c5",
+      "sheet": "emote-b",
+      "index": 16,
+      "row": 3,
+      "col": 5,
+      "sourceCrop": {
+        "x": 869,
+        "y": 500,
+        "width": 139,
+        "height": 148
+      },
+      "file": "mryolk/assets/emote-b-r3c5.png",
+      "width": 151,
+      "height": 160,
+      "sha256": "5ae5f117d7165e06a9ded49cadb2d18af8cdef8cde2c7aa9adf4c5ca69ddeccf"
+    },
+    {
+      "id": "emote-b-r3c6",
+      "sheet": "emote-b",
+      "index": 17,
+      "row": 3,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1069,
+        "y": 498,
+        "width": 146,
+        "height": 146
+      },
+      "file": "mryolk/assets/emote-b-r3c6.png",
+      "width": 158,
+      "height": 158,
+      "sha256": "f03f1cd2b8494711e888d062e1b2c88bbfe01b1cd76dc18ae55884b3d507a299"
+    },
+    {
+      "id": "emote-b-r4c1",
+      "sheet": "emote-b",
+      "index": 18,
+      "row": 4,
+      "col": 1,
+      "sourceCrop": {
+        "x": 46,
+        "y": 694,
+        "width": 130,
+        "height": 146
+      },
+      "file": "mryolk/assets/emote-b-r4c1.png",
+      "width": 142,
+      "height": 158,
+      "sha256": "01ed4fa1b2a21414f672b8f58eeb98ebd4c4de4c7dc61b20e2a92ec5c54d6417"
+    },
+    {
+      "id": "emote-b-r4c2",
+      "sheet": "emote-b",
+      "index": 19,
+      "row": 4,
+      "col": 2,
+      "sourceCrop": {
+        "x": 251,
+        "y": 692,
+        "width": 124,
+        "height": 149
+      },
+      "file": "mryolk/assets/emote-b-r4c2.png",
+      "width": 136,
+      "height": 161,
+      "sha256": "1c9a3e2cc7a90b07d7bb3c7712c18db2414700bc3b883dfe64303902cb968912"
+    },
+    {
+      "id": "emote-b-r4c3",
+      "sheet": "emote-b",
+      "index": 20,
+      "row": 4,
+      "col": 3,
+      "sourceCrop": {
+        "x": 456,
+        "y": 692,
+        "width": 137,
+        "height": 148
+      },
+      "file": "mryolk/assets/emote-b-r4c3.png",
+      "width": 149,
+      "height": 160,
+      "sha256": "06edbad38f881d94aca87acd0bff1084fd18fc59710bb9b74a4d23b61bc38238"
+    },
+    {
+      "id": "emote-b-r4c4",
+      "sheet": "emote-b",
+      "index": 21,
+      "row": 4,
+      "col": 4,
+      "sourceCrop": {
+        "x": 677,
+        "y": 694,
+        "width": 119,
+        "height": 146
+      },
+      "file": "mryolk/assets/emote-b-r4c4.png",
+      "width": 131,
+      "height": 158,
+      "sha256": "2f6ab0280cad22cabad59a4fed7730f1fd6d181c5ba0bd3b0cc524f67a3aab1b"
+    },
+    {
+      "id": "emote-b-r4c5",
+      "sheet": "emote-b",
+      "index": 22,
+      "row": 4,
+      "col": 5,
+      "sourceCrop": {
+        "x": 868,
+        "y": 692,
+        "width": 120,
+        "height": 149
+      },
+      "file": "mryolk/assets/emote-b-r4c5.png",
+      "width": 132,
+      "height": 161,
+      "sha256": "98ed56d6e31c0c393a701041e245330390cc720ee7a00f129fda0b94f56a3691"
+    },
+    {
+      "id": "emote-b-r4c6",
+      "sheet": "emote-b",
+      "index": 23,
+      "row": 4,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1063,
+        "y": 701,
+        "width": 140,
+        "height": 141
+      },
+      "file": "mryolk/assets/emote-b-r4c6.png",
+      "width": 152,
+      "height": 153,
+      "sha256": "8544a53328aff1eecca33c2605f26b757cf4e35a6f357bba6bbeb4de97ab4770"
+    },
+    {
+      "id": "emote-b-r5c1",
+      "sheet": "emote-b",
+      "index": 24,
+      "row": 5,
+      "col": 1,
+      "sourceCrop": {
+        "x": 36,
+        "y": 891,
+        "width": 154,
+        "height": 142
+      },
+      "file": "mryolk/assets/emote-b-r5c1.png",
+      "width": 166,
+      "height": 154,
+      "sha256": "4c76098b3acb6fbbdff197cae79e9c9293b8e61eefe0ab642ee95502d951db14"
+    },
+    {
+      "id": "emote-b-r5c2",
+      "sheet": "emote-b",
+      "index": 25,
+      "row": 5,
+      "col": 2,
+      "sourceCrop": {
+        "x": 236,
+        "y": 893,
+        "width": 158,
+        "height": 141
+      },
+      "file": "mryolk/assets/emote-b-r5c2.png",
+      "width": 170,
+      "height": 153,
+      "sha256": "7235a8fdbf51d20ba13d41589b408b37269afb10f5ce9472d62d4e523b6b0b03"
+    },
+    {
+      "id": "emote-b-r5c3",
+      "sheet": "emote-b",
+      "index": 26,
+      "row": 5,
+      "col": 3,
+      "sourceCrop": {
+        "x": 452,
+        "y": 893,
+        "width": 155,
+        "height": 141
+      },
+      "file": "mryolk/assets/emote-b-r5c3.png",
+      "width": 167,
+      "height": 153,
+      "sha256": "f8bfd8a7d0f2ff0d0a372e3fe06387b0821c6cf7055b8f018f2c2b532d37413c"
+    },
+    {
+      "id": "emote-b-r5c4",
+      "sheet": "emote-b",
+      "index": 27,
+      "row": 5,
+      "col": 4,
+      "sourceCrop": {
+        "x": 653,
+        "y": 893,
+        "width": 148,
+        "height": 143
+      },
+      "file": "mryolk/assets/emote-b-r5c4.png",
+      "width": 160,
+      "height": 155,
+      "sha256": "433d59f9cf95e19c20989c0a37598481d388d75029ba62e162fae1e1ff505d39"
+    },
+    {
+      "id": "emote-b-r5c5",
+      "sheet": "emote-b",
+      "index": 28,
+      "row": 5,
+      "col": 5,
+      "sourceCrop": {
+        "x": 867,
+        "y": 889,
+        "width": 143,
+        "height": 146
+      },
+      "file": "mryolk/assets/emote-b-r5c5.png",
+      "width": 155,
+      "height": 158,
+      "sha256": "444e66ae99b2e037931fca064b1c48bec109f00d2c7fb49755a531f773cfe17d"
+    },
+    {
+      "id": "emote-b-r5c6",
+      "sheet": "emote-b",
+      "index": 29,
+      "row": 5,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1063,
+        "y": 897,
+        "width": 174,
+        "height": 139
+      },
+      "file": "mryolk/assets/emote-b-r5c6.png",
+      "width": 186,
+      "height": 151,
+      "sha256": "fa710105cba6d3478e3ebb591e0cec8722ee600d299d3d65b7596ab9afb6665d"
+    },
+    {
+      "id": "emote-b-r6c1",
+      "sheet": "emote-b",
+      "index": 30,
+      "row": 6,
+      "col": 1,
+      "sourceCrop": {
+        "x": 40,
+        "y": 1077,
+        "width": 136,
+        "height": 141
+      },
+      "file": "mryolk/assets/emote-b-r6c1.png",
+      "width": 148,
+      "height": 153,
+      "sha256": "f02de9a4c9a6aa75ade216c8eb62fe15c327a23baede1050faf8bb0f3d2169c4"
+    },
+    {
+      "id": "emote-b-r6c2",
+      "sheet": "emote-b",
+      "index": 31,
+      "row": 6,
+      "col": 2,
+      "sourceCrop": {
+        "x": 234,
+        "y": 1077,
+        "width": 172,
+        "height": 140
+      },
+      "file": "mryolk/assets/emote-b-r6c2.png",
+      "width": 184,
+      "height": 152,
+      "sha256": "1c5e7b27fb46ad6c4905d4f8f1ab7565dca43ae2b4dbead520381611e1d4c46d"
+    },
+    {
+      "id": "emote-b-r6c3",
+      "sheet": "emote-b",
+      "index": 32,
+      "row": 6,
+      "col": 3,
+      "sourceCrop": {
+        "x": 459,
+        "y": 1077,
+        "width": 119,
+        "height": 141
+      },
+      "file": "mryolk/assets/emote-b-r6c3.png",
+      "width": 131,
+      "height": 153,
+      "sha256": "1186947cb905a3d2978dd58214b8c032d50cec712cb72812e9caf1bc313e23fc"
+    },
+    {
+      "id": "emote-b-r6c4",
+      "sheet": "emote-b",
+      "index": 33,
+      "row": 6,
+      "col": 4,
+      "sourceCrop": {
+        "x": 658,
+        "y": 1086,
+        "width": 161,
+        "height": 132
+      },
+      "file": "mryolk/assets/emote-b-r6c4.png",
+      "width": 173,
+      "height": 144,
+      "sha256": "39fdd9a818f4bfcb299c953ef5740a2956a0fa51853d283121df93b7637aac47"
+    },
+    {
+      "id": "emote-b-r6c5",
+      "sheet": "emote-b",
+      "index": 34,
+      "row": 6,
+      "col": 5,
+      "sourceCrop": {
+        "x": 866,
+        "y": 1124,
+        "width": 180,
+        "height": 94
+      },
+      "file": "mryolk/assets/emote-b-r6c5.png",
+      "width": 192,
+      "height": 106,
+      "sha256": "2373a66bec6833edf537fb435aec4246dc9d5f2bbb80d937f7f0bce591cea0bd"
+    },
+    {
+      "id": "emote-b-r6c6",
+      "sheet": "emote-b",
+      "index": 35,
+      "row": 6,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1104,
+        "y": 1075,
+        "width": 93,
+        "height": 150
+      },
+      "file": "mryolk/assets/emote-b-r6c6.png",
+      "width": 105,
+      "height": 162,
+      "sha256": "2a5481f184286ba0c158055cd0b599309d3e6f43cc0f0606ec5356b2ef172ab2"
+    },
+    {
+      "id": "action-r1c1",
+      "sheet": "action",
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "sourceCrop": {
+        "x": 53,
+        "y": 59,
+        "width": 133,
+        "height": 153
+      },
+      "file": "mryolk/assets/action-r1c1.png",
+      "width": 145,
+      "height": 165,
+      "sha256": "6dde88554187229970de427aac8ffb03dfa63d785143802e83a1201b1e04a773"
+    },
+    {
+      "id": "action-r1c2",
+      "sheet": "action",
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "sourceCrop": {
+        "x": 251,
+        "y": 59,
+        "width": 140,
+        "height": 152
+      },
+      "file": "mryolk/assets/action-r1c2.png",
+      "width": 152,
+      "height": 164,
+      "sha256": "7bc328f20549a70d30b410434f728b882f1d5a36e900b53d8f89077c579bb901"
+    },
+    {
+      "id": "action-r1c3",
+      "sheet": "action",
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "sourceCrop": {
+        "x": 452,
+        "y": 72,
+        "width": 146,
+        "height": 136
+      },
+      "file": "mryolk/assets/action-r1c3.png",
+      "width": 158,
+      "height": 148,
+      "sha256": "3cdbf7c4178510b338a40d86dd5528341e8d0eb18433f4d084b6cbb4f08d0cd3"
+    },
+    {
+      "id": "action-r1c4",
+      "sheet": "action",
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "sourceCrop": {
+        "x": 657,
+        "y": 59,
+        "width": 127,
+        "height": 152
+      },
+      "file": "mryolk/assets/action-r1c4.png",
+      "width": 139,
+      "height": 164,
+      "sha256": "bfb7cde5d7d16859e995b73a961e3cbeba51e88c58d96e71c9f99dcc255345f9"
+    },
+    {
+      "id": "action-r1c5",
+      "sheet": "action",
+      "index": 4,
+      "row": 1,
+      "col": 5,
+      "sourceCrop": {
+        "x": 836,
+        "y": 62,
+        "width": 147,
+        "height": 143
+      },
+      "file": "mryolk/assets/action-r1c5.png",
+      "width": 159,
+      "height": 155,
+      "sha256": "18534a93427ee1b0e4487fc5e51ccc79c71e198f9a9ec3b393bd824a0ae1a564"
+    },
+    {
+      "id": "action-r1c6",
+      "sheet": "action",
+      "index": 5,
+      "row": 1,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1026,
+        "y": 62,
+        "width": 165,
+        "height": 153
+      },
+      "file": "mryolk/assets/action-r1c6.png",
+      "width": 177,
+      "height": 165,
+      "sha256": "f4cd0bcedb738f815be44eba4d510ab01eae0bde7a849ad7ad1455ccea470805"
+    },
+    {
+      "id": "action-r2c1",
+      "sheet": "action",
+      "index": 6,
+      "row": 2,
+      "col": 1,
+      "sourceCrop": {
+        "x": 38,
+        "y": 261,
+        "width": 189,
+        "height": 151
+      },
+      "file": "mryolk/assets/action-r2c1.png",
+      "width": 201,
+      "height": 163,
+      "sha256": "0c8dd58516facbe268346ad52d205cc46e24f5719dbb3a3d72e631661d482239"
+    },
+    {
+      "id": "action-r2c2",
+      "sheet": "action",
+      "index": 7,
+      "row": 2,
+      "col": 2,
+      "sourceCrop": {
+        "x": 256,
+        "y": 265,
+        "width": 138,
+        "height": 149
+      },
+      "file": "mryolk/assets/action-r2c2.png",
+      "width": 150,
+      "height": 161,
+      "sha256": "379c177c20a564f13b061622129b8ebdfd6378bddf9122e10ca73d6a30ea3d39"
+    },
+    {
+      "id": "action-r2c3",
+      "sheet": "action",
+      "index": 8,
+      "row": 2,
+      "col": 3,
+      "sourceCrop": {
+        "x": 457,
+        "y": 261,
+        "width": 130,
+        "height": 153
+      },
+      "file": "mryolk/assets/action-r2c3.png",
+      "width": 142,
+      "height": 165,
+      "sha256": "dff51e65c2cbb6b56fe5d81d5e2c4f8cc3214a89815de3da4ec39d17f715ac76"
+    },
+    {
+      "id": "action-r2c4",
+      "sheet": "action",
+      "index": 9,
+      "row": 2,
+      "col": 4,
+      "sourceCrop": {
+        "x": 656,
+        "y": 270,
+        "width": 147,
+        "height": 144
+      },
+      "file": "mryolk/assets/action-r2c4.png",
+      "width": 159,
+      "height": 156,
+      "sha256": "1731a9211e8796865140d09bbeca0917fa6e2b5cbc75d2f33ef8124733ac0852"
+    },
+    {
+      "id": "action-r2c5",
+      "sheet": "action",
+      "index": 10,
+      "row": 2,
+      "col": 5,
+      "sourceCrop": {
+        "x": 849,
+        "y": 265,
+        "width": 125,
+        "height": 149
+      },
+      "file": "mryolk/assets/action-r2c5.png",
+      "width": 137,
+      "height": 161,
+      "sha256": "96abfe0f0ce1b5ea7e1638979efd36676943f0aa4140351b17cec39f01977d23"
+    },
+    {
+      "id": "action-r2c6",
+      "sheet": "action",
+      "index": 11,
+      "row": 2,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1055,
+        "y": 263,
+        "width": 168,
+        "height": 153
+      },
+      "file": "mryolk/assets/action-r2c6.png",
+      "width": 180,
+      "height": 165,
+      "sha256": "fbfb548cb2a602e40755af20b0cdf0e150f17d850237f50807209a9668b31ef0"
+    },
+    {
+      "id": "action-r3c1",
+      "sheet": "action",
+      "index": 12,
+      "row": 3,
+      "col": 1,
+      "sourceCrop": {
+        "x": 35,
+        "y": 471,
+        "width": 196,
+        "height": 139
+      },
+      "file": "mryolk/assets/action-r3c1.png",
+      "width": 208,
+      "height": 151,
+      "sha256": "e3bacaa5c24b96647169603e60d9f2ae948c7226483280ab364ab8f4b5bf7725"
+    },
+    {
+      "id": "action-r3c2",
+      "sheet": "action",
+      "index": 13,
+      "row": 3,
+      "col": 2,
+      "sourceCrop": {
+        "x": 254,
+        "y": 472,
+        "width": 152,
+        "height": 138
+      },
+      "file": "mryolk/assets/action-r3c2.png",
+      "width": 164,
+      "height": 150,
+      "sha256": "198e16039786152149ca805257d6bac630f9b054476a5b69998b64bd5b9fa9ab"
+    },
+    {
+      "id": "action-r3c3",
+      "sheet": "action",
+      "index": 14,
+      "row": 3,
+      "col": 3,
+      "sourceCrop": {
+        "x": 452,
+        "y": 453,
+        "width": 153,
+        "height": 157
+      },
+      "file": "mryolk/assets/action-r3c3.png",
+      "width": 165,
+      "height": 169,
+      "sha256": "8040402f8e0fbd63c9684b670b0d2feefe978914bfa89916816581d948077337"
+    },
+    {
+      "id": "action-r3c4",
+      "sheet": "action",
+      "index": 15,
+      "row": 3,
+      "col": 4,
+      "sourceCrop": {
+        "x": 652,
+        "y": 462,
+        "width": 145,
+        "height": 157
+      },
+      "file": "mryolk/assets/action-r3c4.png",
+      "width": 157,
+      "height": 169,
+      "sha256": "bb78d7a919eb64b0825fb9b799498405fafd7c3d921dd74d600a5a6c7d6b6e7a"
+    },
+    {
+      "id": "action-r3c5",
+      "sheet": "action",
+      "index": 16,
+      "row": 3,
+      "col": 5,
+      "sourceCrop": {
+        "x": 854,
+        "y": 445,
+        "width": 129,
+        "height": 174
+      },
+      "file": "mryolk/assets/action-r3c5.png",
+      "width": 141,
+      "height": 186,
+      "sha256": "ca79b28c884346a40de22933419255173b72f507a5784440999282521324c558"
+    },
+    {
+      "id": "action-r3c6",
+      "sheet": "action",
+      "index": 17,
+      "row": 3,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1039,
+        "y": 472,
+        "width": 176,
+        "height": 135
+      },
+      "file": "mryolk/assets/action-r3c6.png",
+      "width": 188,
+      "height": 147,
+      "sha256": "2be8148171a5dd9a55f70c8be48f1f6d34aaaa6d6d83a874f5038517ec6f6ecc"
+    },
+    {
+      "id": "action-r4c1",
+      "sheet": "action",
+      "index": 18,
+      "row": 4,
+      "col": 1,
+      "sourceCrop": {
+        "x": 25,
+        "y": 685,
+        "width": 197,
+        "height": 115
+      },
+      "file": "mryolk/assets/action-r4c1.png",
+      "width": 209,
+      "height": 127,
+      "sha256": "0f092619aef5d717b40a827cbb5cc292f7f5a859dc850c51cbd35f0c3df4c4a7"
+    },
+    {
+      "id": "action-r4c2",
+      "sheet": "action",
+      "index": 19,
+      "row": 4,
+      "col": 2,
+      "sourceCrop": {
+        "x": 258,
+        "y": 640,
+        "width": 135,
+        "height": 166
+      },
+      "file": "mryolk/assets/action-r4c2.png",
+      "width": 147,
+      "height": 178,
+      "sha256": "e6152058a0be89903490b6c6ad61b9a5ca3a5199a3ab4fc88111c6e0a2ee63b3"
+    },
+    {
+      "id": "action-r4c3",
+      "sheet": "action",
+      "index": 20,
+      "row": 4,
+      "col": 3,
+      "sourceCrop": {
+        "x": 439,
+        "y": 704,
+        "width": 169,
+        "height": 106
+      },
+      "file": "mryolk/assets/action-r4c3.png",
+      "width": 181,
+      "height": 118,
+      "sha256": "544f36cd359de8f444791283e2c37b6e03bc5bd03385a419e089e81220d0b5f5"
+    },
+    {
+      "id": "action-r4c4",
+      "sheet": "action",
+      "index": 21,
+      "row": 4,
+      "col": 4,
+      "sourceCrop": {
+        "x": 667,
+        "y": 661,
+        "width": 132,
+        "height": 150
+      },
+      "file": "mryolk/assets/action-r4c4.png",
+      "width": 144,
+      "height": 162,
+      "sha256": "87feb5872db63328b9287b19b1af6ea760eb09360d52853c674c9fdc93856f6d"
+    },
+    {
+      "id": "action-r4c5",
+      "sheet": "action",
+      "index": 22,
+      "row": 4,
+      "col": 5,
+      "sourceCrop": {
+        "x": 858,
+        "y": 656,
+        "width": 151,
+        "height": 155
+      },
+      "file": "mryolk/assets/action-r4c5.png",
+      "width": 163,
+      "height": 167,
+      "sha256": "3c418c29b8cd811369c30116afc0c5bfcfb20bf23a9c86139f7bbe1a1a8d13a5"
+    },
+    {
+      "id": "action-r4c6",
+      "sheet": "action",
+      "index": 23,
+      "row": 4,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1054,
+        "y": 695,
+        "width": 157,
+        "height": 116
+      },
+      "file": "mryolk/assets/action-r4c6.png",
+      "width": 169,
+      "height": 128,
+      "sha256": "97338bee429ca44969002846488bfbff57719059c243266eed3542bce3cecfce"
+    },
+    {
+      "id": "action-r5c1",
+      "sheet": "action",
+      "index": 24,
+      "row": 5,
+      "col": 1,
+      "sourceCrop": {
+        "x": 47,
+        "y": 859,
+        "width": 112,
+        "height": 148
+      },
+      "file": "mryolk/assets/action-r5c1.png",
+      "width": 124,
+      "height": 160,
+      "sha256": "471a01c79c471c19b252f02f181b7ebfb8d84cfbf193d0a1c5a8d428fdaf3496"
+    },
+    {
+      "id": "action-r5c2",
+      "sheet": "action",
+      "index": 25,
+      "row": 5,
+      "col": 2,
+      "sourceCrop": {
+        "x": 246,
+        "y": 862,
+        "width": 142,
+        "height": 141
+      },
+      "file": "mryolk/assets/action-r5c2.png",
+      "width": 154,
+      "height": 153,
+      "sha256": "a852a39e2d4062b5df0fa27c6bfabcfc9c57fbb326544e03d66350e097083745"
+    },
+    {
+      "id": "action-r5c3",
+      "sheet": "action",
+      "index": 26,
+      "row": 5,
+      "col": 3,
+      "sourceCrop": {
+        "x": 434,
+        "y": 876,
+        "width": 171,
+        "height": 112
+      },
+      "file": "mryolk/assets/action-r5c3.png",
+      "width": 183,
+      "height": 124,
+      "sha256": "ee856b31a0fd4534bcf91f59b5e853771a2cdd46cee627b398c46df198a95b20"
+    },
+    {
+      "id": "action-r5c4",
+      "sheet": "action",
+      "index": 27,
+      "row": 5,
+      "col": 4,
+      "sourceCrop": {
+        "x": 658,
+        "y": 870,
+        "width": 123,
+        "height": 137
+      },
+      "file": "mryolk/assets/action-r5c4.png",
+      "width": 135,
+      "height": 149,
+      "sha256": "466ffb0b7cd65f680035059782e12e5804ba540e062563bc7272eeefa6eea17a"
+    },
+    {
+      "id": "action-r5c5",
+      "sheet": "action",
+      "index": 28,
+      "row": 5,
+      "col": 5,
+      "sourceCrop": {
+        "x": 854,
+        "y": 865,
+        "width": 122,
+        "height": 142
+      },
+      "file": "mryolk/assets/action-r5c5.png",
+      "width": 134,
+      "height": 154,
+      "sha256": "5f0e42e5aadc1321e5ea374ffab142f62caf6a2d6b2b54b9d5080d5e8791bb27"
+    },
+    {
+      "id": "action-r5c6",
+      "sheet": "action",
+      "index": 29,
+      "row": 5,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1047,
+        "y": 877,
+        "width": 151,
+        "height": 121
+      },
+      "file": "mryolk/assets/action-r5c6.png",
+      "width": 163,
+      "height": 133,
+      "sha256": "e18261a72d05e9a05052f767c012913d611d3fa1badba0c869e43fac1143ed07"
+    },
+    {
+      "id": "action-r6c1",
+      "sheet": "action",
+      "index": 30,
+      "row": 6,
+      "col": 1,
+      "sourceCrop": {
+        "x": 25,
+        "y": 1053,
+        "width": 157,
+        "height": 142
+      },
+      "file": "mryolk/assets/action-r6c1.png",
+      "width": 169,
+      "height": 154,
+      "sha256": "5725d6ca3e8de0bbe0ee49ec5c5b90a7f5857e83b69f5a2c0bc4b8baa83dae39"
+    },
+    {
+      "id": "action-r6c2",
+      "sheet": "action",
+      "index": 31,
+      "row": 6,
+      "col": 2,
+      "sourceCrop": {
+        "x": 241,
+        "y": 1050,
+        "width": 131,
+        "height": 146
+      },
+      "file": "mryolk/assets/action-r6c2.png",
+      "width": 143,
+      "height": 158,
+      "sha256": "7fb65f8647e304814f65d4ad952e968ea6a4793607f9d5d6c7d83b871813ea5e"
+    },
+    {
+      "id": "action-r6c3",
+      "sheet": "action",
+      "index": 32,
+      "row": 6,
+      "col": 3,
+      "sourceCrop": {
+        "x": 445,
+        "y": 1039,
+        "width": 141,
+        "height": 162
+      },
+      "file": "mryolk/assets/action-r6c3.png",
+      "width": 153,
+      "height": 174,
+      "sha256": "4bc65d4544057c20ef4ef242fe5ca8d62be67a8f05b024bbcac3ec43d99b5da2"
+    },
+    {
+      "id": "action-r6c4",
+      "sheet": "action",
+      "index": 33,
+      "row": 6,
+      "col": 4,
+      "sourceCrop": {
+        "x": 653,
+        "y": 1045,
+        "width": 149,
+        "height": 155
+      },
+      "file": "mryolk/assets/action-r6c4.png",
+      "width": 161,
+      "height": 167,
+      "sha256": "bddfa5f465d8ac83ec9307278b74eb3dd1eb9dcbf57f8750efdb85a34e548882"
+    },
+    {
+      "id": "action-r6c5",
+      "sheet": "action",
+      "index": 34,
+      "row": 6,
+      "col": 5,
+      "sourceCrop": {
+        "x": 854,
+        "y": 1047,
+        "width": 129,
+        "height": 155
+      },
+      "file": "mryolk/assets/action-r6c5.png",
+      "width": 141,
+      "height": 167,
+      "sha256": "c145dcaaba6a80f8738429b6d6bbd0fad57a3fa6ad9007dff0d088837db271cb"
+    },
+    {
+      "id": "action-r6c6",
+      "sheet": "action",
+      "index": 35,
+      "row": 6,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1042,
+        "y": 1045,
+        "width": 146,
+        "height": 158
+      },
+      "file": "mryolk/assets/action-r6c6.png",
+      "width": 158,
+      "height": 170,
+      "sha256": "2475a972929df764ce84128fe71c57b9d2d157bba492d69045bb8ba1c5cf0e03"
+    },
+    {
+      "id": "finance-a-r1c1",
+      "sheet": "finance-a",
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "sourceCrop": {
+        "x": 41,
+        "y": 51,
+        "width": 194,
+        "height": 165
+      },
+      "file": "mryolk/assets/finance-a-r1c1.png",
+      "width": 206,
+      "height": 177,
+      "sha256": "0e987a1e594e1a055724c30472a8a3a8a1c9a2dcae113f886bf8f2065be10e69"
+    },
+    {
+      "id": "finance-a-r1c2",
+      "sheet": "finance-a",
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "sourceCrop": {
+        "x": 268,
+        "y": 57,
+        "width": 136,
+        "height": 156
+      },
+      "file": "mryolk/assets/finance-a-r1c2.png",
+      "width": 148,
+      "height": 168,
+      "sha256": "aa19c5be537166553fcb2b510862de9d41000d81e467a46feead1e0b83aba67c"
+    },
+    {
+      "id": "finance-a-r1c3",
+      "sheet": "finance-a",
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "sourceCrop": {
+        "x": 465,
+        "y": 79,
+        "width": 137,
+        "height": 127
+      },
+      "file": "mryolk/assets/finance-a-r1c3.png",
+      "width": 149,
+      "height": 139,
+      "sha256": "78ae89309cbc73e2327fb2c806fcc652e4e657f01b42d110c8d1014152c8131e"
+    },
+    {
+      "id": "finance-a-r1c4",
+      "sheet": "finance-a",
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "sourceCrop": {
+        "x": 653,
+        "y": 89,
+        "width": 186,
+        "height": 133
+      },
+      "file": "mryolk/assets/finance-a-r1c4.png",
+      "width": 198,
+      "height": 145,
+      "sha256": "c408bab0bdcb5e1f63d83642ddb4bf32ccc89a53b37e237b7f0c138b15aafa40"
+    },
+    {
+      "id": "finance-a-r1c5",
+      "sheet": "finance-a",
+      "index": 4,
+      "row": 1,
+      "col": 5,
+      "sourceCrop": {
+        "x": 850,
+        "y": 50,
+        "width": 164,
+        "height": 165
+      },
+      "file": "mryolk/assets/finance-a-r1c5.png",
+      "width": 176,
+      "height": 177,
+      "sha256": "6d74fb8e55a7b22a60928ad26bfb88c3d206f6d4d6b93b7cb47abb7fb0dc905d"
+    },
+    {
+      "id": "finance-a-r1c6",
+      "sheet": "finance-a",
+      "index": 5,
+      "row": 1,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1070,
+        "y": 82,
+        "width": 128,
+        "height": 132
+      },
+      "file": "mryolk/assets/finance-a-r1c6.png",
+      "width": 140,
+      "height": 144,
+      "sha256": "81dd2d76d5256677254b720a87590370ad6533310cac961582feb6af7a2ec3b9"
+    },
+    {
+      "id": "finance-a-r2c1",
+      "sheet": "finance-a",
+      "index": 6,
+      "row": 2,
+      "col": 1,
+      "sourceCrop": {
+        "x": 39,
+        "y": 278,
+        "width": 156,
+        "height": 154
+      },
+      "file": "mryolk/assets/finance-a-r2c1.png",
+      "width": 168,
+      "height": 166,
+      "sha256": "65e94f1cf8d563fd1c843091110b0f46de0760ff0d60f1e65b7c6a0d05e9f6d4"
+    },
+    {
+      "id": "finance-a-r2c2",
+      "sheet": "finance-a",
+      "index": 7,
+      "row": 2,
+      "col": 2,
+      "sourceCrop": {
+        "x": 246,
+        "y": 288,
+        "width": 172,
+        "height": 134
+      },
+      "file": "mryolk/assets/finance-a-r2c2.png",
+      "width": 184,
+      "height": 146,
+      "sha256": "2bd7a9c3cdcd55e443bad1f8246b2ff49ab47379d9a85e1bedb59c27c657e206"
+    },
+    {
+      "id": "finance-a-r2c3",
+      "sheet": "finance-a",
+      "index": 8,
+      "row": 2,
+      "col": 3,
+      "sourceCrop": {
+        "x": 463,
+        "y": 268,
+        "width": 154,
+        "height": 162
+      },
+      "file": "mryolk/assets/finance-a-r2c3.png",
+      "width": 166,
+      "height": 174,
+      "sha256": "635cc9a25ff654cac66d1c990e40e8f289a97c973951b98dddb2889f12fea260"
+    },
+    {
+      "id": "finance-a-r2c4",
+      "sheet": "finance-a",
+      "index": 9,
+      "row": 2,
+      "col": 4,
+      "sourceCrop": {
+        "x": 656,
+        "y": 292,
+        "width": 167,
+        "height": 147
+      },
+      "file": "mryolk/assets/finance-a-r2c4.png",
+      "width": 179,
+      "height": 159,
+      "sha256": "6f5568c0309a06daa39b4fc145ce508ddd4ea6e54d5e61cdef20a3ac095f7985"
+    },
+    {
+      "id": "finance-a-r2c5",
+      "sheet": "finance-a",
+      "index": 10,
+      "row": 2,
+      "col": 5,
+      "sourceCrop": {
+        "x": 864,
+        "y": 295,
+        "width": 118,
+        "height": 136
+      },
+      "file": "mryolk/assets/finance-a-r2c5.png",
+      "width": 130,
+      "height": 148,
+      "sha256": "9da25fc02ae7b115707bc52892f395ce7b49b8c94f0676fc9a2234f4b656780c"
+    },
+    {
+      "id": "finance-a-r2c6",
+      "sheet": "finance-a",
+      "index": 11,
+      "row": 2,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1046,
+        "y": 282,
+        "width": 176,
+        "height": 157
+      },
+      "file": "mryolk/assets/finance-a-r2c6.png",
+      "width": 188,
+      "height": 169,
+      "sha256": "ce4d27b34ebfc1207df125943613de9fe28da6946097195de8573550e0eac97d"
+    },
+    {
+      "id": "finance-a-r3c1",
+      "sheet": "finance-a",
+      "index": 12,
+      "row": 3,
+      "col": 1,
+      "sourceCrop": {
+        "x": 30,
+        "y": 498,
+        "width": 190,
+        "height": 139
+      },
+      "file": "mryolk/assets/finance-a-r3c1.png",
+      "width": 202,
+      "height": 151,
+      "sha256": "01b098b6ccd709e92014b6e86d9c75ce7d024fd457db215daf80d3acc931a070"
+    },
+    {
+      "id": "finance-a-r3c2",
+      "sheet": "finance-a",
+      "index": 13,
+      "row": 3,
+      "col": 2,
+      "sourceCrop": {
+        "x": 258,
+        "y": 496,
+        "width": 121,
+        "height": 142
+      },
+      "file": "mryolk/assets/finance-a-r3c2.png",
+      "width": 133,
+      "height": 154,
+      "sha256": "55b59e8be760605118bbf9adae7db0ab46e1ef170853162916077cd6ab19f52c"
+    },
+    {
+      "id": "finance-a-r3c3",
+      "sheet": "finance-a",
+      "index": 14,
+      "row": 3,
+      "col": 3,
+      "sourceCrop": {
+        "x": 452,
+        "y": 503,
+        "width": 152,
+        "height": 131
+      },
+      "file": "mryolk/assets/finance-a-r3c3.png",
+      "width": 164,
+      "height": 143,
+      "sha256": "d0a25e646ac020566142adeeb8c1c4e433f3235d084cc86e0c9975144ac53fe8"
+    },
+    {
+      "id": "finance-a-r3c4",
+      "sheet": "finance-a",
+      "index": 15,
+      "row": 3,
+      "col": 4,
+      "sourceCrop": {
+        "x": 636,
+        "y": 498,
+        "width": 173,
+        "height": 140
+      },
+      "file": "mryolk/assets/finance-a-r3c4.png",
+      "width": 185,
+      "height": 152,
+      "sha256": "38e8a22ad5608424257d57366a414aa19ef70e9e9b6ad5a506b90738b853a5ac"
+    },
+    {
+      "id": "finance-a-r3c5",
+      "sheet": "finance-a",
+      "index": 16,
+      "row": 3,
+      "col": 5,
+      "sourceCrop": {
+        "x": 852,
+        "y": 495,
+        "width": 165,
+        "height": 142
+      },
+      "file": "mryolk/assets/finance-a-r3c5.png",
+      "width": 177,
+      "height": 154,
+      "sha256": "ae38fd82d06e102e7356edbb34f09a7ea6907cc39b7d55f3602e51aebf80b1a8"
+    },
+    {
+      "id": "finance-a-r3c6",
+      "sheet": "finance-a",
+      "index": 17,
+      "row": 3,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1055,
+        "y": 503,
+        "width": 173,
+        "height": 129
+      },
+      "file": "mryolk/assets/finance-a-r3c6.png",
+      "width": 185,
+      "height": 141,
+      "sha256": "68ae641e01c86cca178695901f2c33684a88e9fb799fd93e5b8eb58b4dd34603"
+    },
+    {
+      "id": "finance-a-r4c1",
+      "sheet": "finance-a",
+      "index": 18,
+      "row": 4,
+      "col": 1,
+      "sourceCrop": {
+        "x": 21,
+        "y": 721,
+        "width": 190,
+        "height": 117
+      },
+      "file": "mryolk/assets/finance-a-r4c1.png",
+      "width": 202,
+      "height": 129,
+      "sha256": "bafc4c85677e7bb2de8a2d993638014f548ea236d2ef5ddb2951bccc00e311ac"
+    },
+    {
+      "id": "finance-a-r4c2",
+      "sheet": "finance-a",
+      "index": 19,
+      "row": 4,
+      "col": 2,
+      "sourceCrop": {
+        "x": 244,
+        "y": 734,
+        "width": 179,
+        "height": 106
+      },
+      "file": "mryolk/assets/finance-a-r4c2.png",
+      "width": 191,
+      "height": 118,
+      "sha256": "f97818aef4fa113e8bac39383fdb7a2dcce3cdbdb833cc126c7d480c7633d377"
+    },
+    {
+      "id": "finance-a-r4c3",
+      "sheet": "finance-a",
+      "index": 20,
+      "row": 4,
+      "col": 3,
+      "sourceCrop": {
+        "x": 455,
+        "y": 688,
+        "width": 128,
+        "height": 157
+      },
+      "file": "mryolk/assets/finance-a-r4c3.png",
+      "width": 140,
+      "height": 169,
+      "sha256": "37396dee06f1da91a0109f36802b7593316e2ee363297367be1ff06053a184f8"
+    },
+    {
+      "id": "finance-a-r4c4",
+      "sheet": "finance-a",
+      "index": 21,
+      "row": 4,
+      "col": 4,
+      "sourceCrop": {
+        "x": 645,
+        "y": 708,
+        "width": 163,
+        "height": 144
+      },
+      "file": "mryolk/assets/finance-a-r4c4.png",
+      "width": 175,
+      "height": 156,
+      "sha256": "3b22941ed9fcea7344bebec0cbd84977d3f4b592d8715fd26f3ffbc044e155a6"
+    },
+    {
+      "id": "finance-a-r4c5",
+      "sheet": "finance-a",
+      "index": 22,
+      "row": 4,
+      "col": 5,
+      "sourceCrop": {
+        "x": 837,
+        "y": 714,
+        "width": 187,
+        "height": 138
+      },
+      "file": "mryolk/assets/finance-a-r4c5.png",
+      "width": 199,
+      "height": 150,
+      "sha256": "0978f0115f747120d79d31f7801ddf4553da22c43df7565b8897e6371d84f67e"
+    },
+    {
+      "id": "finance-a-r4c6",
+      "sheet": "finance-a",
+      "index": 23,
+      "row": 4,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1037,
+        "y": 736,
+        "width": 190,
+        "height": 118
+      },
+      "file": "mryolk/assets/finance-a-r4c6.png",
+      "width": 202,
+      "height": 130,
+      "sha256": "826762569eb95ee5b7784b83eeaefed9557b254629a863b393f2fd58f7216a6b"
+    },
+    {
+      "id": "finance-a-r5c1",
+      "sheet": "finance-a",
+      "index": 24,
+      "row": 5,
+      "col": 1,
+      "sourceCrop": {
+        "x": 26,
+        "y": 903,
+        "width": 157,
+        "height": 129
+      },
+      "file": "mryolk/assets/finance-a-r5c1.png",
+      "width": 169,
+      "height": 141,
+      "sha256": "757269b57e00573de5579492a3ff17df6e6550cf7b94101044f8725ee003456f"
+    },
+    {
+      "id": "finance-a-r5c2",
+      "sheet": "finance-a",
+      "index": 25,
+      "row": 5,
+      "col": 2,
+      "sourceCrop": {
+        "x": 234,
+        "y": 923,
+        "width": 174,
+        "height": 106
+      },
+      "file": "mryolk/assets/finance-a-r5c2.png",
+      "width": 186,
+      "height": 118,
+      "sha256": "2c601424ebae19c1fbb488272ff3f7153d71a14a0da0d1ea7a873af8bcaa8ae0"
+    },
+    {
+      "id": "finance-a-r5c3",
+      "sheet": "finance-a",
+      "index": 26,
+      "row": 5,
+      "col": 3,
+      "sourceCrop": {
+        "x": 450,
+        "y": 917,
+        "width": 162,
+        "height": 114
+      },
+      "file": "mryolk/assets/finance-a-r5c3.png",
+      "width": 174,
+      "height": 126,
+      "sha256": "b954b22a0bc4dcc7f9d00157f88a8480116759d286b715163b01dd74171fafa6"
+    },
+    {
+      "id": "finance-a-r5c4",
+      "sheet": "finance-a",
+      "index": 27,
+      "row": 5,
+      "col": 4,
+      "sourceCrop": {
+        "x": 636,
+        "y": 894,
+        "width": 174,
+        "height": 143
+      },
+      "file": "mryolk/assets/finance-a-r5c4.png",
+      "width": 186,
+      "height": 155,
+      "sha256": "3e236ea59eda77e6f6c1f02abacbca0e6e1dc26216997f8d5a463894499a45cb"
+    },
+    {
+      "id": "finance-a-r5c5",
+      "sheet": "finance-a",
+      "index": 28,
+      "row": 5,
+      "col": 5,
+      "sourceCrop": {
+        "x": 838,
+        "y": 907,
+        "width": 157,
+        "height": 127
+      },
+      "file": "mryolk/assets/finance-a-r5c5.png",
+      "width": 169,
+      "height": 139,
+      "sha256": "f4d77c3b574051fcd3e1570122b6a9a48851033a982412f414673ea705fdd75e"
+    },
+    {
+      "id": "finance-a-r5c6",
+      "sheet": "finance-a",
+      "index": 29,
+      "row": 5,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1041,
+        "y": 901,
+        "width": 172,
+        "height": 136
+      },
+      "file": "mryolk/assets/finance-a-r5c6.png",
+      "width": 184,
+      "height": 148,
+      "sha256": "d243c2a3e5901b33093487fd610bcdfa2b5ccdcf645cda5ad5c75280b2035685"
+    },
+    {
+      "id": "finance-a-r6c1",
+      "sheet": "finance-a",
+      "index": 30,
+      "row": 6,
+      "col": 1,
+      "sourceCrop": {
+        "x": 23,
+        "y": 1075,
+        "width": 187,
+        "height": 133
+      },
+      "file": "mryolk/assets/finance-a-r6c1.png",
+      "width": 199,
+      "height": 145,
+      "sha256": "a8eb23dbe22d2c7e2643debf516119a7a7d769b142b21c64a5ac2665fcdbd348"
+    },
+    {
+      "id": "finance-a-r6c2",
+      "sheet": "finance-a",
+      "index": 31,
+      "row": 6,
+      "col": 2,
+      "sourceCrop": {
+        "x": 241,
+        "y": 1095,
+        "width": 178,
+        "height": 108
+      },
+      "file": "mryolk/assets/finance-a-r6c2.png",
+      "width": 190,
+      "height": 120,
+      "sha256": "c2f9a57475c0e10f17da39aeb844021c55689dbf9804dea4e27df0e7aff19186"
+    },
+    {
+      "id": "finance-a-r6c3",
+      "sheet": "finance-a",
+      "index": 32,
+      "row": 6,
+      "col": 3,
+      "sourceCrop": {
+        "x": 440,
+        "y": 1087,
+        "width": 172,
+        "height": 125
+      },
+      "file": "mryolk/assets/finance-a-r6c3.png",
+      "width": 184,
+      "height": 137,
+      "sha256": "8cc5c950023baf9277227d82d2d9f0335b63b1e66cbde3c468e26c67deab05bf"
+    },
+    {
+      "id": "finance-a-r6c4",
+      "sheet": "finance-a",
+      "index": 33,
+      "row": 6,
+      "col": 4,
+      "sourceCrop": {
+        "x": 659,
+        "y": 1092,
+        "width": 162,
+        "height": 120
+      },
+      "file": "mryolk/assets/finance-a-r6c4.png",
+      "width": 174,
+      "height": 132,
+      "sha256": "335835946428dc72931e341e2f09e942ae9dd0687742455e3cd9c5b625c8ab9d"
+    },
+    {
+      "id": "finance-a-r6c5",
+      "sheet": "finance-a",
+      "index": 34,
+      "row": 6,
+      "col": 5,
+      "sourceCrop": {
+        "x": 850,
+        "y": 1079,
+        "width": 179,
+        "height": 136
+      },
+      "file": "mryolk/assets/finance-a-r6c5.png",
+      "width": 191,
+      "height": 148,
+      "sha256": "6251873bb096a264d1b912f8c95d2409cf2135885c4505e08affb8271648d971"
+    },
+    {
+      "id": "finance-a-r6c6",
+      "sheet": "finance-a",
+      "index": 35,
+      "row": 6,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1080,
+        "y": 1089,
+        "width": 120,
+        "height": 120
+      },
+      "file": "mryolk/assets/finance-a-r6c6.png",
+      "width": 132,
+      "height": 132,
+      "sha256": "ad31552e38d3218e1fd18399fac17e251a05ba841baca27bed7c1b1463c95e80"
+    },
+    {
+      "id": "finance-b-r1c1",
+      "sheet": "finance-b",
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "sourceCrop": {
+        "x": 36,
+        "y": 89,
+        "width": 162,
+        "height": 144
+      },
+      "file": "mryolk/assets/finance-b-r1c1.png",
+      "width": 174,
+      "height": 156,
+      "sha256": "1e73ce3c9ca6332e94ad0f9cadb134d96dc3cf0e74b320b3f4f9e32950f525d0"
+    },
+    {
+      "id": "finance-b-r1c2",
+      "sheet": "finance-b",
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "sourceCrop": {
+        "x": 244,
+        "y": 82,
+        "width": 152,
+        "height": 150
+      },
+      "file": "mryolk/assets/finance-b-r1c2.png",
+      "width": 164,
+      "height": 162,
+      "sha256": "982f4c79a66ba28a9397bfde79b099331de480f52ae668ffa7d4a53736c44c45"
+    },
+    {
+      "id": "finance-b-r1c3",
+      "sheet": "finance-b",
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "sourceCrop": {
+        "x": 443,
+        "y": 86,
+        "width": 169,
+        "height": 141
+      },
+      "file": "mryolk/assets/finance-b-r1c3.png",
+      "width": 181,
+      "height": 153,
+      "sha256": "55ecf9ef49ec51fd67b4bf0170782d583e2db026a29ed1b21c501d3d0c222ef8"
+    },
+    {
+      "id": "finance-b-r1c4",
+      "sheet": "finance-b",
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "sourceCrop": {
+        "x": 653,
+        "y": 83,
+        "width": 139,
+        "height": 154
+      },
+      "file": "mryolk/assets/finance-b-r1c4.png",
+      "width": 151,
+      "height": 166,
+      "sha256": "64790aa5925714d4b42dae7ac773d91362c8888d69cf404f8e39c9031c84d109"
+    },
+    {
+      "id": "finance-b-r1c5",
+      "sheet": "finance-b",
+      "index": 4,
+      "row": 1,
+      "col": 5,
+      "sourceCrop": {
+        "x": 826,
+        "y": 99,
+        "width": 174,
+        "height": 138
+      },
+      "file": "mryolk/assets/finance-b-r1c5.png",
+      "width": 186,
+      "height": 150,
+      "sha256": "059c489e4467b542cce706c3a3864e4b140930857bfd1905c4a8364f3b5a790c"
+    },
+    {
+      "id": "finance-b-r1c6",
+      "sheet": "finance-b",
+      "index": 5,
+      "row": 1,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1037,
+        "y": 79,
+        "width": 190,
+        "height": 175
+      },
+      "file": "mryolk/assets/finance-b-r1c6.png",
+      "width": 202,
+      "height": 187,
+      "sha256": "664e92335030bcd66775d66a466512274e5ef518dfedb19d0573f9068abb2596"
+    },
+    {
+      "id": "finance-b-r2c1",
+      "sheet": "finance-b",
+      "index": 6,
+      "row": 2,
+      "col": 1,
+      "sourceCrop": {
+        "x": 30,
+        "y": 292,
+        "width": 163,
+        "height": 140
+      },
+      "file": "mryolk/assets/finance-b-r2c1.png",
+      "width": 175,
+      "height": 152,
+      "sha256": "c1ea515b64ce2957b1abd518bf59494a5c6ada11ee8daffebb34e391153ea370"
+    },
+    {
+      "id": "finance-b-r2c2",
+      "sheet": "finance-b",
+      "index": 7,
+      "row": 2,
+      "col": 2,
+      "sourceCrop": {
+        "x": 261,
+        "y": 288,
+        "width": 120,
+        "height": 145
+      },
+      "file": "mryolk/assets/finance-b-r2c2.png",
+      "width": 132,
+      "height": 157,
+      "sha256": "e84f271895cbaaf9840696176474f9248f13070d87fd699393f474eb0da1b742"
+    },
+    {
+      "id": "finance-b-r2c3",
+      "sheet": "finance-b",
+      "index": 8,
+      "row": 2,
+      "col": 3,
+      "sourceCrop": {
+        "x": 448,
+        "y": 280,
+        "width": 147,
+        "height": 153
+      },
+      "file": "mryolk/assets/finance-b-r2c3.png",
+      "width": 159,
+      "height": 165,
+      "sha256": "226be18091f780af7e2fdd84cc12997e47dbc563e95674f98c7a11d67c19707a"
+    },
+    {
+      "id": "finance-b-r2c4",
+      "sheet": "finance-b",
+      "index": 9,
+      "row": 2,
+      "col": 4,
+      "sourceCrop": {
+        "x": 651,
+        "y": 291,
+        "width": 128,
+        "height": 142
+      },
+      "file": "mryolk/assets/finance-b-r2c4.png",
+      "width": 140,
+      "height": 154,
+      "sha256": "7d93ce33ceb9fd9ef12d358f4131c6a4c4afa06227b65d6294f1e76812d32593"
+    },
+    {
+      "id": "finance-b-r2c5",
+      "sheet": "finance-b",
+      "index": 10,
+      "row": 2,
+      "col": 5,
+      "sourceCrop": {
+        "x": 825,
+        "y": 283,
+        "width": 179,
+        "height": 166
+      },
+      "file": "mryolk/assets/finance-b-r2c5.png",
+      "width": 191,
+      "height": 178,
+      "sha256": "848a36bf51bce3c85f20d39817d48b8d428c43588629f74e02be41e2b8df0d28"
+    },
+    {
+      "id": "finance-b-r2c6",
+      "sheet": "finance-b",
+      "index": 11,
+      "row": 2,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1033,
+        "y": 329,
+        "width": 197,
+        "height": 120
+      },
+      "file": "mryolk/assets/finance-b-r2c6.png",
+      "width": 209,
+      "height": 132,
+      "sha256": "e7eba5546040160b8b999e8fdee3cd0719ae56a85c622f987fdbf4447b8de84d"
+    },
+    {
+      "id": "finance-b-r3c1",
+      "sheet": "finance-b",
+      "index": 12,
+      "row": 3,
+      "col": 1,
+      "sourceCrop": {
+        "x": 34,
+        "y": 483,
+        "width": 130,
+        "height": 144
+      },
+      "file": "mryolk/assets/finance-b-r3c1.png",
+      "width": 142,
+      "height": 156,
+      "sha256": "fec3ab2ab99147b8974dd2e4c7aa59a1a54c98883433463f09f00b72fc0da43b"
+    },
+    {
+      "id": "finance-b-r3c2",
+      "sheet": "finance-b",
+      "index": 13,
+      "row": 3,
+      "col": 2,
+      "sourceCrop": {
+        "x": 229,
+        "y": 493,
+        "width": 132,
+        "height": 136
+      },
+      "file": "mryolk/assets/finance-b-r3c2.png",
+      "width": 144,
+      "height": 148,
+      "sha256": "8b13287e6024b7b4a46c575a8b4088c7121fd827815ad9f7f9683dcc43cb480e"
+    },
+    {
+      "id": "finance-b-r3c3",
+      "sheet": "finance-b",
+      "index": 14,
+      "row": 3,
+      "col": 3,
+      "sourceCrop": {
+        "x": 419,
+        "y": 502,
+        "width": 179,
+        "height": 130
+      },
+      "file": "mryolk/assets/finance-b-r3c3.png",
+      "width": 191,
+      "height": 142,
+      "sha256": "608db8d80cde0ec45d89d710b9739934f2d7b2fad9f83a718e4b3f65f5646d1d"
+    },
+    {
+      "id": "finance-b-r3c4",
+      "sheet": "finance-b",
+      "index": 15,
+      "row": 3,
+      "col": 4,
+      "sourceCrop": {
+        "x": 630,
+        "y": 496,
+        "width": 162,
+        "height": 127
+      },
+      "file": "mryolk/assets/finance-b-r3c4.png",
+      "width": 174,
+      "height": 139,
+      "sha256": "1f4d42bcfafb547a06d85d68a3c51e4f2b56b665d8e79fa3292896c6de832ef8"
+    },
+    {
+      "id": "finance-b-r3c5",
+      "sheet": "finance-b",
+      "index": 16,
+      "row": 3,
+      "col": 5,
+      "sourceCrop": {
+        "x": 837,
+        "y": 486,
+        "width": 164,
+        "height": 149
+      },
+      "file": "mryolk/assets/finance-b-r3c5.png",
+      "width": 176,
+      "height": 161,
+      "sha256": "273945df74cfed5e060409bfc1186e2548d9907c567e5dfb06e19ec32bf63e77"
+    },
+    {
+      "id": "finance-b-r3c6",
+      "sheet": "finance-b",
+      "index": 17,
+      "row": 3,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1065,
+        "y": 501,
+        "width": 128,
+        "height": 133
+      },
+      "file": "mryolk/assets/finance-b-r3c6.png",
+      "width": 140,
+      "height": 145,
+      "sha256": "b2f9e35a2818b2b3bcbf39db0398770585316044a5f2aa5069674cef3d9113fb"
+    },
+    {
+      "id": "finance-b-r4c1",
+      "sheet": "finance-b",
+      "index": 18,
+      "row": 4,
+      "col": 1,
+      "sourceCrop": {
+        "x": 24,
+        "y": 684,
+        "width": 135,
+        "height": 129
+      },
+      "file": "mryolk/assets/finance-b-r4c1.png",
+      "width": 147,
+      "height": 141,
+      "sha256": "d75ec83a224483774e86c68d772869c251f7eee86c62b0c4f4b9c4defd3016bc"
+    },
+    {
+      "id": "finance-b-r4c2",
+      "sheet": "finance-b",
+      "index": 19,
+      "row": 4,
+      "col": 2,
+      "sourceCrop": {
+        "x": 227,
+        "y": 680,
+        "width": 159,
+        "height": 135
+      },
+      "file": "mryolk/assets/finance-b-r4c2.png",
+      "width": 171,
+      "height": 147,
+      "sha256": "25a1eb689352e3b057f9756e41799351a855caa57355f7e6d80dc715859fc637"
+    },
+    {
+      "id": "finance-b-r4c3",
+      "sheet": "finance-b",
+      "index": 20,
+      "row": 4,
+      "col": 3,
+      "sourceCrop": {
+        "x": 440,
+        "y": 682,
+        "width": 140,
+        "height": 130
+      },
+      "file": "mryolk/assets/finance-b-r4c3.png",
+      "width": 152,
+      "height": 142,
+      "sha256": "69b216c825acc65c121e32cebd7a474a942265c70a68a95014d79ce8819686b0"
+    },
+    {
+      "id": "finance-b-r4c4",
+      "sheet": "finance-b",
+      "index": 21,
+      "row": 4,
+      "col": 4,
+      "sourceCrop": {
+        "x": 643,
+        "y": 683,
+        "width": 135,
+        "height": 130
+      },
+      "file": "mryolk/assets/finance-b-r4c4.png",
+      "width": 147,
+      "height": 142,
+      "sha256": "98cc30269b6807c07707df513d8b6808934e01c7c75aff75ea20a5b692ece2ac"
+    },
+    {
+      "id": "finance-b-r4c5",
+      "sheet": "finance-b",
+      "index": 22,
+      "row": 4,
+      "col": 5,
+      "sourceCrop": {
+        "x": 808,
+        "y": 674,
+        "width": 194,
+        "height": 143
+      },
+      "file": "mryolk/assets/finance-b-r4c5.png",
+      "width": 206,
+      "height": 155,
+      "sha256": "a3408ba01ef57ab07575d4d6ce711a86cb918b83d9e2ab4094e1d328b78b4b02"
+    },
+    {
+      "id": "finance-b-r4c6",
+      "sheet": "finance-b",
+      "index": 23,
+      "row": 4,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1036,
+        "y": 685,
+        "width": 178,
+        "height": 133
+      },
+      "file": "mryolk/assets/finance-b-r4c6.png",
+      "width": 190,
+      "height": 145,
+      "sha256": "46c767ff8c76ba137aefa0fb15edefce0a29e51d17c6587aafacc844b8b5060a"
+    },
+    {
+      "id": "finance-b-r5c1",
+      "sheet": "finance-b",
+      "index": 24,
+      "row": 5,
+      "col": 1,
+      "sourceCrop": {
+        "x": 24,
+        "y": 874,
+        "width": 144,
+        "height": 106
+      },
+      "file": "mryolk/assets/finance-b-r5c1.png",
+      "width": 156,
+      "height": 118,
+      "sha256": "a4706be29a4c89d4851530f4a9828cfe235af133429b6c8dd7aa450b603e8116"
+    },
+    {
+      "id": "finance-b-r5c2",
+      "sheet": "finance-b",
+      "index": 25,
+      "row": 5,
+      "col": 2,
+      "sourceCrop": {
+        "x": 239,
+        "y": 868,
+        "width": 94,
+        "height": 115
+      },
+      "file": "mryolk/assets/finance-b-r5c2.png",
+      "width": 106,
+      "height": 127,
+      "sha256": "7341b4380c8cd3bb4f5568d825bd781f3fb01016692284dba5fc835fae2b9578"
+    },
+    {
+      "id": "finance-b-r5c3",
+      "sheet": "finance-b",
+      "index": 26,
+      "row": 5,
+      "col": 3,
+      "sourceCrop": {
+        "x": 428,
+        "y": 848,
+        "width": 160,
+        "height": 136
+      },
+      "file": "mryolk/assets/finance-b-r5c3.png",
+      "width": 172,
+      "height": 148,
+      "sha256": "ce070e1df07f26f05ed9e329ac2b224df14cdf44c5ec33d51f58af5c1dae87b3"
+    },
+    {
+      "id": "finance-b-r5c4",
+      "sheet": "finance-b",
+      "index": 27,
+      "row": 5,
+      "col": 4,
+      "sourceCrop": {
+        "x": 634,
+        "y": 848,
+        "width": 147,
+        "height": 142
+      },
+      "file": "mryolk/assets/finance-b-r5c4.png",
+      "width": 159,
+      "height": 154,
+      "sha256": "ec9c96dbb0cfd36103592f126a4753802f47ea32548e46687d940c07b0718f50"
+    },
+    {
+      "id": "finance-b-r5c5",
+      "sheet": "finance-b",
+      "index": 28,
+      "row": 5,
+      "col": 5,
+      "sourceCrop": {
+        "x": 828,
+        "y": 876,
+        "width": 197,
+        "height": 111
+      },
+      "file": "mryolk/assets/finance-b-r5c5.png",
+      "width": 209,
+      "height": 123,
+      "sha256": "1e72e85e43f32dd3fe4ad397c77f85d4f138d3229d9f494e28955efa79ec2630"
+    },
+    {
+      "id": "finance-b-r5c6",
+      "sheet": "finance-b",
+      "index": 29,
+      "row": 5,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1065,
+        "y": 871,
+        "width": 131,
+        "height": 108
+      },
+      "file": "mryolk/assets/finance-b-r5c6.png",
+      "width": 143,
+      "height": 120,
+      "sha256": "72cba9f2488c1dd272172eae2abe6d9a6228c03af45f81eebb074d81990d0c02"
+    },
+    {
+      "id": "finance-b-r6c1",
+      "sheet": "finance-b",
+      "index": 30,
+      "row": 6,
+      "col": 1,
+      "sourceCrop": {
+        "x": 24,
+        "y": 1051,
+        "width": 159,
+        "height": 126
+      },
+      "file": "mryolk/assets/finance-b-r6c1.png",
+      "width": 171,
+      "height": 138,
+      "sha256": "e405b334e682e9920b97587f801d23a4f97150a6e6520b5bc0154b5aefdda445"
+    },
+    {
+      "id": "finance-b-r6c2",
+      "sheet": "finance-b",
+      "index": 31,
+      "row": 6,
+      "col": 2,
+      "sourceCrop": {
+        "x": 213,
+        "y": 1053,
+        "width": 187,
+        "height": 124
+      },
+      "file": "mryolk/assets/finance-b-r6c2.png",
+      "width": 199,
+      "height": 136,
+      "sha256": "c1b90707c8c458a4230d2f4c649437b3322db01aa3250c005c5e2a4904d74001"
+    },
+    {
+      "id": "finance-b-r6c3",
+      "sheet": "finance-b",
+      "index": 32,
+      "row": 6,
+      "col": 3,
+      "sourceCrop": {
+        "x": 425,
+        "y": 1046,
+        "width": 174,
+        "height": 126
+      },
+      "file": "mryolk/assets/finance-b-r6c3.png",
+      "width": 186,
+      "height": 138,
+      "sha256": "c848629523e87cb2e0421e9b2464f2472d4b90f086f454b74dc8eb65e1a9a3c5"
+    },
+    {
+      "id": "finance-b-r6c4",
+      "sheet": "finance-b",
+      "index": 33,
+      "row": 6,
+      "col": 4,
+      "sourceCrop": {
+        "x": 631,
+        "y": 1043,
+        "width": 149,
+        "height": 136
+      },
+      "file": "mryolk/assets/finance-b-r6c4.png",
+      "width": 161,
+      "height": 148,
+      "sha256": "7ebf42dfba4b1940f00f32a74819a08f699d99bc965575ba94985b0ddad0bb2e"
+    },
+    {
+      "id": "finance-b-r6c5",
+      "sheet": "finance-b",
+      "index": 34,
+      "row": 6,
+      "col": 5,
+      "sourceCrop": {
+        "x": 830,
+        "y": 1053,
+        "width": 116,
+        "height": 127
+      },
+      "file": "mryolk/assets/finance-b-r6c5.png",
+      "width": 128,
+      "height": 139,
+      "sha256": "33c9adaa0205be9cb194541c34b3abe3a2b76f5303839d47a2f92b5ff2260158"
+    },
+    {
+      "id": "finance-b-r6c6",
+      "sheet": "finance-b",
+      "index": 35,
+      "row": 6,
+      "col": 6,
+      "sourceCrop": {
+        "x": 977,
+        "y": 1027,
+        "width": 259,
+        "height": 161
+      },
+      "file": "mryolk/assets/finance-b-r6c6.png",
+      "width": 271,
+      "height": 173,
+      "sha256": "77c9d91c2a9bfb696725279440055cb37a76b1c65b64e6f106dee5d817773027"
+    },
+    {
+      "id": "props-r1c1",
+      "sheet": "props",
+      "index": 0,
+      "row": 1,
+      "col": 1,
+      "sourceCrop": {
+        "x": 42,
+        "y": 40,
+        "width": 121,
+        "height": 165
+      },
+      "file": "mryolk/assets/props-r1c1.png",
+      "width": 133,
+      "height": 177,
+      "sha256": "7f6d5d01b0c0eb887891e69f534d19c522439090cf43280cd4063e348cce1abe"
+    },
+    {
+      "id": "props-r1c2",
+      "sheet": "props",
+      "index": 1,
+      "row": 1,
+      "col": 2,
+      "sourceCrop": {
+        "x": 227,
+        "y": 40,
+        "width": 135,
+        "height": 165
+      },
+      "file": "mryolk/assets/props-r1c2.png",
+      "width": 147,
+      "height": 177,
+      "sha256": "6c7896e2c39b5f14000f6e6eab266a66625305a83bfe58aac548624d7f87a0a4"
+    },
+    {
+      "id": "props-r1c3",
+      "sheet": "props",
+      "index": 2,
+      "row": 1,
+      "col": 3,
+      "sourceCrop": {
+        "x": 429,
+        "y": 40,
+        "width": 125,
+        "height": 165
+      },
+      "file": "mryolk/assets/props-r1c3.png",
+      "width": 137,
+      "height": 177,
+      "sha256": "7e76beaa6190f2e97006f37c2431ad080ef80dcf4a4c9a69b92a391a4119da87"
+    },
+    {
+      "id": "props-r1c4",
+      "sheet": "props",
+      "index": 3,
+      "row": 1,
+      "col": 4,
+      "sourceCrop": {
+        "x": 616,
+        "y": 40,
+        "width": 126,
+        "height": 165
+      },
+      "file": "mryolk/assets/props-r1c4.png",
+      "width": 138,
+      "height": 177,
+      "sha256": "973d57e9c91f8137e942757ea4d50987b0d3da088f716b83885ce8e5488eaf3e"
+    },
+    {
+      "id": "props-r1c5",
+      "sheet": "props",
+      "index": 4,
+      "row": 1,
+      "col": 5,
+      "sourceCrop": {
+        "x": 810,
+        "y": 40,
+        "width": 126,
+        "height": 165
+      },
+      "file": "mryolk/assets/props-r1c5.png",
+      "width": 138,
+      "height": 177,
+      "sha256": "d68944d130449bdb4112705a3554587633634ac261b60b0dc0a7343b9ba3fd0e"
+    },
+    {
+      "id": "props-r1c6",
+      "sheet": "props",
+      "index": 5,
+      "row": 1,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1005,
+        "y": 40,
+        "width": 233,
+        "height": 165
+      },
+      "file": "mryolk/assets/props-r1c6.png",
+      "width": 245,
+      "height": 177,
+      "sha256": "ee290e8a4cb9207dec58061358526e2fc5d8751e300af058b4c29e8d4e13760d"
+    },
+    {
+      "id": "props-r2c1",
+      "sheet": "props",
+      "index": 6,
+      "row": 2,
+      "col": 1,
+      "sourceCrop": {
+        "x": 24,
+        "y": 253,
+        "width": 155,
+        "height": 163
+      },
+      "file": "mryolk/assets/props-r2c1.png",
+      "width": 167,
+      "height": 175,
+      "sha256": "c91634027f19836c41f004a3a29568847506b5025ebe5f4e94084b355ee16637"
+    },
+    {
+      "id": "props-r2c2",
+      "sheet": "props",
+      "index": 7,
+      "row": 2,
+      "col": 2,
+      "sourceCrop": {
+        "x": 216,
+        "y": 258,
+        "width": 173,
+        "height": 156
+      },
+      "file": "mryolk/assets/props-r2c2.png",
+      "width": 185,
+      "height": 168,
+      "sha256": "bc2f8123f718a50d3407c848b11bfab95ff7a184de7227d2c9f2fa1b650183c0"
+    },
+    {
+      "id": "props-r2c3",
+      "sheet": "props",
+      "index": 8,
+      "row": 2,
+      "col": 3,
+      "sourceCrop": {
+        "x": 424,
+        "y": 253,
+        "width": 137,
+        "height": 161
+      },
+      "file": "mryolk/assets/props-r2c3.png",
+      "width": 149,
+      "height": 173,
+      "sha256": "4b894b45a6af8e7f2430ea745146da831f5c7054ba02022fd8edfc7666f5246f"
+    },
+    {
+      "id": "props-r2c4",
+      "sheet": "props",
+      "index": 9,
+      "row": 2,
+      "col": 4,
+      "sourceCrop": {
+        "x": 606,
+        "y": 257,
+        "width": 173,
+        "height": 172
+      },
+      "file": "mryolk/assets/props-r2c4.png",
+      "width": 185,
+      "height": 184,
+      "sha256": "3e690f46cd4390a3e9dbfb1a8f312742c73c1c68bac0deb64a2c9cd26011c11b"
+    },
+    {
+      "id": "props-r2c5",
+      "sheet": "props",
+      "index": 10,
+      "row": 2,
+      "col": 5,
+      "sourceCrop": {
+        "x": 810,
+        "y": 256,
+        "width": 176,
+        "height": 173
+      },
+      "file": "mryolk/assets/props-r2c5.png",
+      "width": 188,
+      "height": 185,
+      "sha256": "c3105f95c9e36a47557ea51c4ed9bd49972a1b627c0e0939177ffe8d90024bf7"
+    },
+    {
+      "id": "props-r2c6",
+      "sheet": "props",
+      "index": 11,
+      "row": 2,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1037,
+        "y": 280,
+        "width": 201,
+        "height": 140
+      },
+      "file": "mryolk/assets/props-r2c6.png",
+      "width": 213,
+      "height": 152,
+      "sha256": "fca3bfc1e99685dfeda9c77f9e1cd98017f641c3f2f027fba2ba689168c00d3b"
+    },
+    {
+      "id": "props-r3c1",
+      "sheet": "props",
+      "index": 12,
+      "row": 3,
+      "col": 1,
+      "sourceCrop": {
+        "x": 13,
+        "y": 478,
+        "width": 163,
+        "height": 143
+      },
+      "file": "mryolk/assets/props-r3c1.png",
+      "width": 175,
+      "height": 155,
+      "sha256": "5532990dc356cb1220bcc744e77de169ec95930e29fac4ad7095b8313e3eae20"
+    },
+    {
+      "id": "props-r3c2",
+      "sheet": "props",
+      "index": 13,
+      "row": 3,
+      "col": 2,
+      "sourceCrop": {
+        "x": 219,
+        "y": 495,
+        "width": 165,
+        "height": 127
+      },
+      "file": "mryolk/assets/props-r3c2.png",
+      "width": 177,
+      "height": 139,
+      "sha256": "b3c9e885cee57c819a707f6e1f3d423cea1f780f7f3446581019e7dc1ddfb1d1"
+    },
+    {
+      "id": "props-r3c3",
+      "sheet": "props",
+      "index": 14,
+      "row": 3,
+      "col": 3,
+      "sourceCrop": {
+        "x": 430,
+        "y": 474,
+        "width": 126,
+        "height": 155
+      },
+      "file": "mryolk/assets/props-r3c3.png",
+      "width": 138,
+      "height": 167,
+      "sha256": "122180e4567050fa02dc65d27db876043d4b066e30f88e4f6af6363ef88fe857"
+    },
+    {
+      "id": "props-r3c4",
+      "sheet": "props",
+      "index": 15,
+      "row": 3,
+      "col": 4,
+      "sourceCrop": {
+        "x": 609,
+        "y": 495,
+        "width": 159,
+        "height": 117
+      },
+      "file": "mryolk/assets/props-r3c4.png",
+      "width": 171,
+      "height": 129,
+      "sha256": "9aea133c471b04fbff875c60ea9d6b0169934dc76cc12c23d0b63e574ca0190a"
+    },
+    {
+      "id": "props-r3c5",
+      "sheet": "props",
+      "index": 16,
+      "row": 3,
+      "col": 5,
+      "sourceCrop": {
+        "x": 832,
+        "y": 474,
+        "width": 131,
+        "height": 158
+      },
+      "file": "mryolk/assets/props-r3c5.png",
+      "width": 143,
+      "height": 170,
+      "sha256": "ca513ba0690669873d4dec49c0888664de220850dbba9fc4e622705be6c89d9e"
+    },
+    {
+      "id": "props-r3c6",
+      "sheet": "props",
+      "index": 17,
+      "row": 3,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1053,
+        "y": 474,
+        "width": 139,
+        "height": 158
+      },
+      "file": "mryolk/assets/props-r3c6.png",
+      "width": 151,
+      "height": 170,
+      "sha256": "9099a07af4886d9939d13470b1327a401e40fa7ebbe46d1d81e7381d27c59597"
+    },
+    {
+      "id": "props-r4c1",
+      "sheet": "props",
+      "index": 18,
+      "row": 4,
+      "col": 1,
+      "sourceCrop": {
+        "x": 25,
+        "y": 675,
+        "width": 151,
+        "height": 151
+      },
+      "file": "mryolk/assets/props-r4c1.png",
+      "width": 163,
+      "height": 163,
+      "sha256": "63906a81aec8295a824e5b44c50926cbad7765fe9b98a7ba1b08b2f2b8de0a29"
+    },
+    {
+      "id": "props-r4c2",
+      "sheet": "props",
+      "index": 19,
+      "row": 4,
+      "col": 2,
+      "sourceCrop": {
+        "x": 216,
+        "y": 683,
+        "width": 166,
+        "height": 134
+      },
+      "file": "mryolk/assets/props-r4c2.png",
+      "width": 178,
+      "height": 146,
+      "sha256": "f3dab9304bb9b69a1fe85d85ef9177ecc423f0caccdd6ee47aa0933c2671c81f"
+    },
+    {
+      "id": "props-r4c3",
+      "sheet": "props",
+      "index": 20,
+      "row": 4,
+      "col": 3,
+      "sourceCrop": {
+        "x": 425,
+        "y": 678,
+        "width": 163,
+        "height": 148
+      },
+      "file": "mryolk/assets/props-r4c3.png",
+      "width": 175,
+      "height": 160,
+      "sha256": "bec6a6e251f0266deabb95e4b5f222506595c4f2a5ebe35a97367fa644290f4c"
+    },
+    {
+      "id": "props-r4c4",
+      "sheet": "props",
+      "index": 21,
+      "row": 4,
+      "col": 4,
+      "sourceCrop": {
+        "x": 654,
+        "y": 679,
+        "width": 91,
+        "height": 149
+      },
+      "file": "mryolk/assets/props-r4c4.png",
+      "width": 103,
+      "height": 161,
+      "sha256": "3c5e93906e75b5e8047ecff0bbc32d83da93c70741f7d1181600b0f3e0777ae6"
+    },
+    {
+      "id": "props-r4c5",
+      "sheet": "props",
+      "index": 22,
+      "row": 4,
+      "col": 5,
+      "sourceCrop": {
+        "x": 822,
+        "y": 675,
+        "width": 138,
+        "height": 153
+      },
+      "file": "mryolk/assets/props-r4c5.png",
+      "width": 150,
+      "height": 165,
+      "sha256": "e7eed2a8059e68903fd16cc332e29a5baaa31d705c926e8008165009cefb73d5"
+    },
+    {
+      "id": "props-r4c6",
+      "sheet": "props",
+      "index": 23,
+      "row": 4,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1002,
+        "y": 687,
+        "width": 229,
+        "height": 127
+      },
+      "file": "mryolk/assets/props-r4c6.png",
+      "width": 241,
+      "height": 139,
+      "sha256": "ddf2f6716566d0e10778582c76366129acd2ac4d002ac4ecfb4d3a41a4a6ffa2"
+    },
+    {
+      "id": "props-r5c1",
+      "sheet": "props",
+      "index": 24,
+      "row": 5,
+      "col": 1,
+      "sourceCrop": {
+        "x": 28,
+        "y": 871,
+        "width": 140,
+        "height": 135
+      },
+      "file": "mryolk/assets/props-r5c1.png",
+      "width": 152,
+      "height": 147,
+      "sha256": "3b0cc8b60cf81dbe2d68b483d81cbd08832e30556b9789ebaade415d6846751f"
+    },
+    {
+      "id": "props-r5c2",
+      "sheet": "props",
+      "index": 25,
+      "row": 5,
+      "col": 2,
+      "sourceCrop": {
+        "x": 217,
+        "y": 905,
+        "width": 177,
+        "height": 92
+      },
+      "file": "mryolk/assets/props-r5c2.png",
+      "width": 189,
+      "height": 104,
+      "sha256": "bf38b90b95bfd7138eb6121c6ee28ea20abd39913370479361e3d814c16644b7"
+    },
+    {
+      "id": "props-r5c3",
+      "sheet": "props",
+      "index": 26,
+      "row": 5,
+      "col": 3,
+      "sourceCrop": {
+        "x": 417,
+        "y": 881,
+        "width": 156,
+        "height": 130
+      },
+      "file": "mryolk/assets/props-r5c3.png",
+      "width": 168,
+      "height": 142,
+      "sha256": "7bd6e6eee5f556cef1dd0cecaf8c2ea4bddd73b69514941019dd059721571981"
+    },
+    {
+      "id": "props-r5c4",
+      "sheet": "props",
+      "index": 27,
+      "row": 5,
+      "col": 4,
+      "sourceCrop": {
+        "x": 607,
+        "y": 907,
+        "width": 184,
+        "height": 97
+      },
+      "file": "mryolk/assets/props-r5c4.png",
+      "width": 196,
+      "height": 109,
+      "sha256": "ee52ef257a4db31194a6e317e9ce72ea7f4a101cea301a638e3752e5abcd0beb"
+    },
+    {
+      "id": "props-r5c5",
+      "sheet": "props",
+      "index": 28,
+      "row": 5,
+      "col": 5,
+      "sourceCrop": {
+        "x": 842,
+        "y": 868,
+        "width": 126,
+        "height": 151
+      },
+      "file": "mryolk/assets/props-r5c5.png",
+      "width": 138,
+      "height": 163,
+      "sha256": "c71a5ea03f24cc1f834cfe289ffd52296eec9f77f4e0db38d6bfcdc07db5b7bf"
+    },
+    {
+      "id": "props-r5c6",
+      "sheet": "props",
+      "index": 29,
+      "row": 5,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1039,
+        "y": 867,
+        "width": 176,
+        "height": 145
+      },
+      "file": "mryolk/assets/props-r5c6.png",
+      "width": 188,
+      "height": 157,
+      "sha256": "cfe4f22884c4fb57c4589440826d6b2f0959cf3d64b49d0a3b43d024fb7c7076"
+    },
+    {
+      "id": "props-r6c1",
+      "sheet": "props",
+      "index": 30,
+      "row": 6,
+      "col": 1,
+      "sourceCrop": {
+        "x": 21,
+        "y": 1062,
+        "width": 152,
+        "height": 155
+      },
+      "file": "mryolk/assets/props-r6c1.png",
+      "width": 164,
+      "height": 167,
+      "sha256": "387621d034515037a4c19f5ed2c7153a5ee8b26a054a4e56c89fc1e8475330fa"
+    },
+    {
+      "id": "props-r6c2",
+      "sheet": "props",
+      "index": 31,
+      "row": 6,
+      "col": 2,
+      "sourceCrop": {
+        "x": 229,
+        "y": 1063,
+        "width": 155,
+        "height": 152
+      },
+      "file": "mryolk/assets/props-r6c2.png",
+      "width": 167,
+      "height": 164,
+      "sha256": "96511d4823e732c32690b6a80be88488c11c6e3a855d8530090e7067a2eed462"
+    },
+    {
+      "id": "props-r6c3",
+      "sheet": "props",
+      "index": 32,
+      "row": 6,
+      "col": 3,
+      "sourceCrop": {
+        "x": 433,
+        "y": 1060,
+        "width": 123,
+        "height": 155
+      },
+      "file": "mryolk/assets/props-r6c3.png",
+      "width": 135,
+      "height": 167,
+      "sha256": "03d90c5ba3d6abb66f32e6d45158055ace9ee03ea272a61a15221cfcb1ad7555"
+    },
+    {
+      "id": "props-r6c4",
+      "sheet": "props",
+      "index": 33,
+      "row": 6,
+      "col": 4,
+      "sourceCrop": {
+        "x": 629,
+        "y": 1061,
+        "width": 126,
+        "height": 157
+      },
+      "file": "mryolk/assets/props-r6c4.png",
+      "width": 138,
+      "height": 169,
+      "sha256": "b958301504397b9b3b4b34738f477daf43d632c67abde4914af597981bd602b3"
+    },
+    {
+      "id": "props-r6c5",
+      "sheet": "props",
+      "index": 34,
+      "row": 6,
+      "col": 5,
+      "sourceCrop": {
+        "x": 828,
+        "y": 1060,
+        "width": 159,
+        "height": 155
+      },
+      "file": "mryolk/assets/props-r6c5.png",
+      "width": 171,
+      "height": 167,
+      "sha256": "ff52e26c42350b465b31a0226761f3b7218cf69643891a84bce3f51a61ce70b9"
+    },
+    {
+      "id": "props-r6c6",
+      "sheet": "props",
+      "index": 35,
+      "row": 6,
+      "col": 6,
+      "sourceCrop": {
+        "x": 1060,
+        "y": 1060,
+        "width": 153,
+        "height": 158
+      },
+      "file": "mryolk/assets/props-r6c6.png",
+      "width": 165,
+      "height": 170,
+      "sha256": "5fd933bb605393ba238de6af18c5e2bd664318a03d0e0e76983dc242e5af465d"
+    }
+  ]
+}
