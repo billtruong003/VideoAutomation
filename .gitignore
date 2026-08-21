@@ -94,6 +94,13 @@ app/dist/
 public/mryolk/stock/
 public/mryolk/audio/*.wav
 out/mryolk-*.mp4
+out/.mryolk-chunks/
 qa/mryolk/frames/
 qa/mryolk/smoke/
 qa/mryolk/fix/
+qa/mryolk/anchor/
+
+# Stock ORIGINALS and narration intermediates, kept outside public/ so they are not copied
+# into the bundle on every render. Both are rebuildable and neither is read at render time.
+stock-source/
+work/

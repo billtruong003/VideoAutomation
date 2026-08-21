@@ -39,7 +39,7 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { basename, join } from 'node:path';
 import { FFMPEG, probeDuration } from '../ffbin.mjs';
-import { DATA_DIR, STOCK_DIR } from './config.mjs';
+import { DATA_DIR, STOCK_ARCHIVE_DIR, STOCK_DIR } from './config.mjs';
 
 const PROXY_DIR = join(STOCK_DIR, 'proxy');
 /**
@@ -49,7 +49,7 @@ const PROXY_DIR = join(STOCK_DIR, 'proxy');
  * windows in chapter 3 are the worst case at about 16s. `assertCoverage()` in
  * `export-edit-plan.mjs` fails the pipeline if a scene ever outgrows this.
  */
-const PROXY_SECONDS = 30;
+const PROXY_SECONDS = 22;
 
 /**
  * Clips that are shown edge to edge and therefore keep full resolution.
@@ -72,9 +72,12 @@ let savedBytes = 0;
 for (const asset of provenance.assets) {
   if (asset.kind !== 'video') continue;
 
-  const src = join('public', ...asset.file.split('/'));
+  // Originals live outside `public/` (see config.mjs); older trees may still have them inside.
+  const archived = join(STOCK_ARCHIVE_DIR, asset.file.split('/').pop());
+  const legacy = join('public', ...asset.file.split('/'));
+  const src = existsSync(archived) ? archived : legacy;
   if (!existsSync(src)) {
-    console.warn(`  ! missing ${asset.file}`);
+    console.warn(`  ! missing ${asset.file} — re-run research-stock.mjs`);
     continue;
   }
 
@@ -91,7 +94,14 @@ for (const asset of provenance.assets) {
       '-t', String(PROXY_SECONDS),
       '-an',
       '-vf', `scale=-2:${height}:flags=bicubic`,
-      '-c:v', 'libx264', '-preset', 'medium', '-crf', '20',
+      /*
+       * Forced to the composition's own frame rate. Sources arrive at 25, 30 and 59.94, and a
+       * clip whose rate differs from the timeline's makes the compositor resample time on
+       * every request — for no benefit, since the extra frames are discarded anyway. It also
+       * halves the size of the 59.94 fps clips.
+       */
+      '-r', '30',
+      '-c:v', 'libx264', '-preset', 'medium', '-crf', '23',
       '-pix_fmt', 'yuv420p',
       // One keyframe per second: looping seeks land on or near an I-frame every time.
       '-g', '30', '-keyint_min', '30', '-sc_threshold', '0',

@@ -44,8 +44,8 @@
     "stockAssetsAvailable": 43,
     "stockCoverage": {
       "maxExposureSeconds": 20,
-      "shortestProxySeconds": 30,
-      "headroomSeconds": 10,
+      "shortestProxySeconds": 22,
+      "headroomSeconds": 2,
       "scenesUsingStock": [
         "ch01",
         "ch03",

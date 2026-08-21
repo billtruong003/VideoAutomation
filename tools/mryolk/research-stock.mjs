@@ -23,7 +23,7 @@
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { DATA_DIR, STOCK_DIR } from './config.mjs';
+import { DATA_DIR, STOCK_ARCHIVE_DIR, STOCK_DIR } from './config.mjs';
 import { STOCK_QUERIES, STOCK_REJECTS } from './stock-plan.mjs';
 import {
   describeProviders, pexelsPhotos, pexelsVideos, pixabayImages, pixabayVideos,
@@ -135,6 +135,7 @@ async function download(url, dest) {
 async function main() {
   loadEnv();
   mkdirSync(STOCK_DIR, { recursive: true });
+  mkdirSync(STOCK_ARCHIVE_DIR, { recursive: true });
   mkdirSync(DATA_DIR, { recursive: true });
 
   const providers = describeProviders();
@@ -171,7 +172,12 @@ async function main() {
     for (let i = 0; i < picked.length; i++) {
       const c = picked[i];
       const local = `${entry.id}-${i + 1}-${c.provider}-${c.providerId}.${extFor(c)}`;
-      const dest = join(STOCK_DIR, local);
+      /*
+       * Videos land OUTSIDE the served directory: the renderer reads proxies, not originals,
+       * and everything under `public/` is copied into the bundle on every render. Photos are
+       * used directly and stay where the renderer can see them.
+       */
+      const dest = c.kind === 'video' ? join(STOCK_ARCHIVE_DIR, local) : join(STOCK_DIR, local);
       let file;
       try {
         if (existsSync(dest)) {

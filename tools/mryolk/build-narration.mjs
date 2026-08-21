@@ -43,7 +43,7 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync, rmSync } from 'node
 import { join, resolve } from 'node:path';
 import { FFMPEG } from '../ffbin.mjs';
 import { analyse } from './analyse-audio.mjs';
-import { AUDIO_DIR, DATA_DIR, NARRATION_PARTS, SOURCE_DIR } from './config.mjs';
+import { AUDIO_DIR, AUDIO_WORK_DIR, DATA_DIR, NARRATION_PARTS, SOURCE_DIR } from './config.mjs';
 
 /** Silence inserted between parts, so a section change sounds deliberate rather than spliced. */
 const PART_GAP_SECONDS = 0.42;
@@ -71,6 +71,7 @@ const ff = (args) => execFileSync(FFMPEG, ['-hide_banner', '-nostdin', '-v', 'er
 
 function main() {
   mkdirSync(AUDIO_DIR, { recursive: true });
+  mkdirSync(AUDIO_WORK_DIR, { recursive: true });
   mkdirSync(DATA_DIR, { recursive: true });
 
   const report = { settings: SETTINGS, partGapSeconds: PART_GAP_SECONDS, parts: [], master: null };
@@ -79,7 +80,8 @@ function main() {
   for (const part of NARRATION_PARTS) {
     const src = join(SOURCE_DIR, part);
     const name = part.replace(/\.mp3$/i, '').toLowerCase();
-    const out = join(AUDIO_DIR, `part-${name}.wav`);
+    // The parts are intermediates; only the master belongs in the served directory.
+    const out = join(AUDIO_WORK_DIR, `part-${name}.wav`);
 
     console.log(`\n=== ${part} ===`);
     const before = analyse(src);
@@ -100,11 +102,11 @@ function main() {
    * and a demuxer concat is a byte-level append — it cannot introduce the sample-rate
    * conversion or the boundary ramp that a re-encoding join can.
    */
-  const gap = join(AUDIO_DIR, '.part-gap.wav');
+  const gap = join(AUDIO_WORK_DIR, '.part-gap.wav');
   ff(['-y', '-f', 'lavfi', '-i', `anullsrc=r=48000:cl=mono:d=${PART_GAP_SECONDS}`,
     '-c:a', 'pcm_s16le', gap]);
 
-  const listPath = join(AUDIO_DIR, '.concat.txt');
+  const listPath = join(AUDIO_WORK_DIR, '.concat.txt');
   const items = [];
   processed.forEach((p, i) => {
     if (i > 0) items.push(gap);

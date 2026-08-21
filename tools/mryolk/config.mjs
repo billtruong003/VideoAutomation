@@ -13,7 +13,19 @@ import { join } from 'node:path';
 export const SOURCE_DIR = 'C:\\Users\\ducnq\\Downloads\\Src';
 
 export const ASSET_DIR = join('public', 'mryolk', 'assets');
+
+/**
+ * `public/` is copied WHOLESALE into the bundle at the start of every render, so only what the
+ * renderer actually reads belongs there. That copy was 1.5 GB and most of it was never read:
+ * the stock ORIGINALS exist for licensing and to rebuild proxies from, and the per-part
+ * narration WAVs are intermediates. Both now live outside the served tree.
+ *
+ * Photos stay in `public/` because they are used directly — there are fifteen and they total
+ * under 8 MB.
+ */
 export const STOCK_DIR = join('public', 'mryolk', 'stock');
+export const STOCK_ARCHIVE_DIR = join('stock-source', 'mryolk');
+export const AUDIO_WORK_DIR = join('work', 'mryolk', 'audio');
 export const AUDIO_DIR = join('public', 'mryolk', 'audio');
 export const SFX_DIR = join('public', 'mryolk', 'sfx');
 export const DATA_DIR = join('data', 'mryolk');
