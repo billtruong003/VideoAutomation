@@ -11,6 +11,7 @@
  */
 
 import { makeClock, type Clock, type NarrationTiming } from '../lib/clock';
+import { B2_ORDER, B2_STORYBOARDS, B2_TIMINGS } from './batch002';
 
 import airplaneTiming from '../../episodes/airplane-window-hole/narration-timing.json';
 import escalatorTiming from '../../episodes/escalator-brushes/narration-timing.json';
@@ -49,7 +50,14 @@ export type Storyboard = {
 };
 
 /** Episode ids, in channel publication order. */
-export const EPISODE_ORDER = [
+/**
+ * Batch 001 — hand-written scene modules.
+ *
+ * Kept separate from Batch 002 because the two batches are built differently: these episodes
+ * each own a `scenes.tsx`, while Batch 002 episodes are interpreted from a spec. Everything
+ * downstream treats them identically, which is the point.
+ */
+export const BATCH_001_ORDER = [
   'airplane-window-hole',
   'escalator-brushes',
   'gas-pump-shutoff',
@@ -62,9 +70,13 @@ export const EPISODE_ORDER = [
   'old-book-smell',
 ] as const;
 
+/** Every episode the renderer knows about, both batches. */
+export const EPISODE_ORDER = [...BATCH_001_ORDER, ...B2_ORDER] as const;
+
 export type EpisodeId = (typeof EPISODE_ORDER)[number];
 
 const TIMINGS: Record<EpisodeId, NarrationTiming> = {
+  ...B2_TIMINGS,
   'airplane-window-hole': airplaneTiming as NarrationTiming,
   'escalator-brushes': escalatorTiming as NarrationTiming,
   'gas-pump-shutoff': gasPumpTiming as NarrationTiming,
@@ -78,6 +90,7 @@ const TIMINGS: Record<EpisodeId, NarrationTiming> = {
 };
 
 export const STORYBOARDS: Record<EpisodeId, Storyboard> = {
+  ...B2_STORYBOARDS,
   'airplane-window-hole': airplaneStory as Storyboard,
   'escalator-brushes': escalatorStory as Storyboard,
   'gas-pump-shutoff': gasPumpStory as Storyboard,

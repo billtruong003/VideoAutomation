@@ -11,6 +11,10 @@
 
 import type React from 'react';
 
+import { makeEpisode } from '../scenes/dsl';
+import { clockFor } from './registry';
+import { B2_ORDER, B2_SPECS } from './batch002';
+
 import * as airplaneWindowHole from './airplane-window-hole/scenes';
 import * as escalatorBrushes from './escalator-brushes/scenes';
 import * as gasPumpShutoff from './gas-pump-shutoff/scenes';
@@ -29,7 +33,18 @@ export type SceneModule = {
   HIGHLIGHTS: Record<string, string>;
 };
 
+/**
+ * Batch 002 scenes are INTERPRETED, not written.
+ *
+ * `makeEpisode` turns a spec plus that episode's clock into the same `{ SCENES, HIGHLIGHTS }`
+ * shape a hand-written module exports, so `Episode.tsx` cannot tell the two batches apart.
+ */
+const BATCH_002: Record<string, SceneModule> = Object.fromEntries(
+  B2_ORDER.map((id) => [id, makeEpisode(clockFor(id), B2_SPECS[id])]),
+);
+
 export const SCENE_MODULES: Record<string, SceneModule> = {
+  ...BATCH_002,
   'airplane-window-hole': airplaneWindowHole,
   'escalator-brushes': escalatorBrushes,
   'gas-pump-shutoff': gasPumpShutoff,

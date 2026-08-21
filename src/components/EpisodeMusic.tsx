@@ -45,7 +45,15 @@ export type BedId = keyof typeof BEDS;
  * table is the whole interface for changing an episode's music — set an entry to `null` to
  * run that episode dry.
  */
-export const MUSIC_PLAN: Record<EpisodeId, BedId | null> = {
+/**
+ * PARTIAL on purpose: an episode with no entry runs dry.
+ *
+ * Requiring a key per episode made adding one a compile error whose only fix was to type
+ * `null` again, and the rights-safe default is exactly that. Absence and `null` mean the same
+ * thing — narration plus generated SFX, no bed — so the safe answer is also the one you get by
+ * doing nothing, which is the right way round for a rights decision.
+ */
+export const MUSIC_PLAN: Partial<Record<EpisodeId, BedId | null>> = {
   /*
    * All null: see the file header. Every bed had unverifiable rights, and the publish
    * pre-flight rule is that an asset without substantiated permission does not ship.

@@ -279,8 +279,17 @@ export type StyleMode = 'rough' | 'clean';
 export type CharacterHand = 'rough' | 'single' | 'soft' | 'clean';
 
 const _hand = typeof process !== 'undefined' ? process.env?.REMOTION_CHARACTER : undefined;
+/**
+ * Defaults to `clean`, matching the production style mode above.
+ *
+ * The character carries the performance in marks a few units across, so roughness costs the
+ * most legibility exactly here. With the world drawn crisply, a sketched figure in front of it
+ * would be the only scribbled thing on screen.
+ */
 export const CHARACTER_HAND: CharacterHand =
-  _hand === 'clean' || _hand === 'soft' || _hand === 'rough' ? _hand : 'single';
+  _hand === 'clean' || _hand === 'soft' || _hand === 'rough' || _hand === 'single'
+    ? _hand
+    : 'clean';
 
 /** Multiplier applied to every roughness/bowing value inside the character. */
 export const CHARACTER_ROUGH_SCALE =
@@ -289,7 +298,26 @@ export const CHARACTER_ROUGH_SCALE =
 /** Whether the character's outlines are drawn once instead of twice. */
 export const CHARACTER_SINGLE_PASS = CHARACTER_HAND !== 'rough';
 
+/**
+ * CLEAN IS THE PRODUCTION DEFAULT. Rough is the opt-in.
+ *
+ * The channel ships clean, polished, flat 2D: crisp outlines, exact vertices, no scribble.
+ * That is a directed art decision, not a technical one, and the switch lives here because
+ * this is the file the whole look already hangs off.
+ *
+ * What clean mode does NOT do is flatten the drawing into vector-tool output. The doodle
+ * character of these assets is AUTHORED — lopsided "circles" built from jitter tables,
+ * offset fills that overshoot their outline the way a felt-tip does, sub-degree drift on
+ * every element. All of that is geometry and all of it survives, because clean mode sets
+ * `preserveVertices` and only zeroes the wander Rough.js would add on top. The result is the
+ * hand-drawn shape rendered crisply, which is the house style; what goes away is the
+ * scribbled, multi-stroke, jittery-every-frame pass over it.
+ *
+ * Set `REMOTION_STYLE_MODE=rough` to get the sketch pass back for a shot that genuinely wants
+ * it. Batch 001 was rendered before this flip and its published files are unaffected; it would
+ * render clean if rebuilt.
+ */
 export const STYLE_MODE: StyleMode =
-  typeof process !== 'undefined' && process.env?.REMOTION_STYLE_MODE === 'clean'
-    ? 'clean'
-    : 'rough';
+  typeof process !== 'undefined' && process.env?.REMOTION_STYLE_MODE === 'rough'
+    ? 'rough'
+    : 'clean';
