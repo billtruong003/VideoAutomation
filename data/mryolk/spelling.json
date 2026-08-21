@@ -1,0 +1,8 @@
+{
+  "why": "Spellings the transcriber got wrong as TEXT while getting right as SOUND. Applied to the burned-in captions and to the exported .srt from one place, so the two can never disagree about what is written on screen. Deliberately tiny and explicit: a broad rewrite pass would be a way to quietly put words on screen that were never spoken, which is the one thing a subtitle may never do.",
+  "rules": [
+    { "find": "I-O-U-S", "replace": "I.O.U.s", "note": "Scribe spells out the letters it heard; the word is I.O.U.s" },
+    { "find": "I-O-U", "replace": "I.O.U.", "note": "singular form of the same" },
+    { "find": "IOUs", "replace": "I.O.U.s", "note": "normalise the unpunctuated variant" }
+  ]
+}

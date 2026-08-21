@@ -1,0 +1,1809 @@
+{
+  "source": "public/mryolk/audio/narration-master.wav",
+  "model": "scribe_v2",
+  "languageCode": "eng",
+  "languageProbability": 1,
+  "requestId": null,
+  "wordCount": 2269,
+  "cueCount": 299,
+  "segmentCount": 273,
+  "firstWordAt": 0.08,
+  "lastWordAt": 852.948,
+  "text": "Imagine you wake up tomorrow morning and every debt on Earth is gone. Your mortgage? Gone. Credit card? Gone. Student loan? Gone. Corporate debt? Gone. Government debt? Also gone. Humanity has finally defeated debt. Congratulations. We did it for approximately five minutes. Because then banks start breaking. Companies suddenly lose access to money they use to operate and expand. Construction projects freeze. Governments lose one of their biggest sources of financing. Investors panic. And the financial system begins discovering that removing all debt is a little like removing all the screws from an airplane because screws are technically adding weight. The weird truth is this: the world does not simply have a lot of debt. The modern world runs on debt. And once you understand why, money starts looking completely different. Let's begin with something painfully normal. You want a house. The house costs three hundred thousand dollars. You check your bank account. It contains not three hundred thousand dollars. Fantastic. But you do have something valuable: a job, an income, and hopefully several decades in which future you continues making money instead of disappearing into the woods. So the bank gives present you three hundred thousand dollars and future you agrees to spend the next twenty or thirty years paying it back. That is a mortgage. But underneath the boring paperwork is a pretty insane idea. You're telling the bank, \"I don't have the money.\" The bank says, \"Correct.\" You say, \"But twenty forty-seven me probably will.\" And the bank says, \"Good enough.\" Debt allows you to bring future income into the present. It is basically a time machine for money. And once humans figured that out, we began using it for almost everything. Businesses borrow money to build factories. Airlines borrow money to buy planes. Farmers borrow money to buy equipment. Cities borrow money to build roads. Governments borrow money to build infrastructure, fund wars, survive recessions, and occasionally fund something everyone will spend the next twenty years arguing about. Because waiting is expensive. Imagine you want to build a factory that costs one hundred million dollars. Without borrowing, maybe you spend twenty years saving. Year one, no factory. Year five, still no factory. Year twelve, very impressive spreadsheet. Year twenty, congratulations. You finally have the money. Unfortunately, your competitor built three factories, launched an app, bought your company, and renamed you Legacy Operations Division. So instead, you borrow. You build the factory today. The factory produces goods today. It generates revenue today. And that future revenue hopefully repays the loan. This is the first reason debt is so powerful. Debt turns future productivity into present investment. But now things get weird because you might imagine a bank giving someone a loan like this. The bank walks into a giant vault, finds a pile of money, scoops out one hundred thousand dollars and hands it to you. Very cinematic. Very Scrooge McDuck. Modern banking is stranger than that. Suppose a bank approves you for a one hundred thousand dollar loan. The bank records that you now owe it one hundred thousand dollars, and then your bank account gets credited with one hundred thousand dollars. Congratulations. There is now a new deposit. The bank created an asset, your loan, and a liability, your deposit. That is one reason people say banks create money when they lend, because they do. Not infinite money. Banks cannot simply hit copy and paste until everyone owns a Lamborghini. They face capital rules, liquidity requirements, funding costs, regulation, risk, and the small inconvenience that borrowers occasionally do not pay them back. But lending and money creation are deeply connected, which creates a strange fact. Your money is often connected to somebody else's debt. Your bank deposit is an asset to you. But on another balance sheet, there is a liability. And once you notice this, you start seeing it everywhere. Now, here's the question that makes the entire system sound impossible. If everyone is borrowing, who is lending all this money? The answer is also everyone. Your retirement fund might own corporate bonds. A bank might own government bonds. An insurance company might lend to corporations. Investment funds might finance mortgages. Foreign governments may own another country's government debt. Your savings may be funding somebody else's business, and somebody else's savings may be financing your house. The global economy is basically one enormous group chat where everyone keeps saying, \"I'll pay you later.\" Which is funny until you realize trillions of dollars depend on those messages actually being true. Take government debt. Governments borrow money by selling bonds. A bond is basically a very official IOU. An investor says, \"Here's money.\" The government says, \"Thank you. I promise future government will deal with this.\" The investor says, \"Excellent.\" Banks buy these IOUs. Pension funds buy them. Investment funds buy them. Insurance companies buy them. Foreign governments buy them. Even central banks hold them. In major financial systems, high quality government bonds are not treated like some radioactive pile of financial shame. They're often considered among the safest assets available. Financial institutions use them to store money. They use them as collateral. Their interest rates help influence the price of loans and investments across the economy. So when you hear the government owes trillions of dollars, your brain naturally imagines someone receiving a very aggressive credit card bill. Amount due: thirty-four trillion dollars. Minimum payment: your entire country. But governments do not work exactly like households. A household normally cannot refinance its debt forever. Governments frequently do. A bond matures. The government issues another bond. That bond matures. Another bond, and so on. This is called rolling over debt. Basically, I'll pay you Tuesday. Tuesday arrives. Interesting. How do you feel about next Tuesday? This does not mean government debt is harmless. If investors lose confidence, interest rates can rise. Higher interest costs eat into government budgets. Borrowing too much can become dangerous. Countries that borrow heavily in currencies they do not control can face even harsher limits. But the important question usually isn't, does this country have debt? Almost all modern countries do. The better question is, can this country handle its debt? Imagine two people. Person A owes ten thousand dollars and earns two hundred thousand dollars per year. Person B owes ten thousand dollars and earns twelve thousand dollars per year. Same debt, very different panic levels. Countries are similar. The raw number alone doesn't tell you enough. You care about the size of the economy, tax revenue, interest rates, economic growth, currency, when the debt needs to be repaid, who owns it, and most importantly, what the borrowed money was used for. Because debt can be productive or spectacularly stupid. Borrow one billion dollars to build infrastructure that makes an economy more productive may be excellent. Borrow one billion dollars to build a four hundred meter golden statue of yourself shooting lasers from its eyes, tourism might surprise us, but financially, we have questions. Debt itself is not automatically good or bad. Debt is a tool, and tools become dangerous when humans discover leverage. Leverage sounds complicated. It isn't. Leverage means using borrowed money to make a bigger bet. Suppose you have ten dollars, you invest it. The investment goes up ten percent. You make one dollar. Nice. Buy yourself half a coffee. Now, suppose you have ten dollars, but borrow another ninety. You invest one hundred dollars. The investment rises ten percent. You make ten dollars. You just doubled your original money. You are incredible. CNBC wants an interview. Your LinkedIn bio now says, \"Investor, visionary, thought leader.\" You begin researching yachts. But then the investment falls ten percent. You lose ten dollars. Your original money, gone. The lender, however, would still very much like its ninety dollars. Suddenly, your yacht research feels premature. This is leverage. It magnifies success, and it magnifies stupidity, which explains a surprising amount of financial history. And now we reach the thing that can destroy this entire machine. Not debt, not money, not even leverage. Trust. Debt is a promise about the future. When someone lends money, they're making a prediction. Will this person still have a job? Will this company make money? Will this government still collect taxes twenty years from now? Will this property stay valuable? Will this factory actually work? If the answer looks like yes, borrowing is easier. If the answer looks like maybe, lenders demand more interest. If the answer looks like absolutely not, what are you doing? The money disappears, and that's where things can become nasty. Imagine a company begins looking risky. Lenders demand higher interest rates. Higher interest payments make the company weaker. That makes lenders even more nervous, so rates rise again. The company gets weaker again. Eventually, lenders stop lending entirely, and suddenly, a company that looked alive yesterday can run out of money today. This is why credit crises move so fast. During good times, banks lend, companies invest, consumers spend, asset prices rise. Everyone makes money. Everyone feels intelligent. Someone buys a podcast microphone, then something breaks. Borrowers start defaulting, lenders panic, banks become afraid to lend, credit disappears, companies cannot refinance, investors sell assets, prices fall, more borrowers get into trouble, and suddenly, everybody is significantly less interested in starting a podcast. The two thousand and eight financial crisis was one dramatic example. Huge amounts of mortgage debt had been created. Those mortgages were packaged into financial products. Housing prices kept rising. People became increasingly confident. Risk looked small, until it wasn't. Housing prices fell. Mortgage defaults rose. Financial assets tied to those mortgages lost value. Banks discovered that things they thought were safe were not safe. And because financial institutions were deeply connected, problems in American housing spread across global markets. Debt existed before the crisis. Debt still exists after the crisis. The real problem was the combination of bad lending, excessive leverage, weak incentives, underestimated risk, and far too much confidence in assumptions that turned out to be wrong. In other words, the system did not break because people made promises. It broke because too many people made promises they could not keep, and everyone had bet that they would. So now the obvious question. If debt can destroy banks, companies, economies, retirement accounts, and occasionally your uncle's property empire, why not just get rid of it? Because a world without debt has its own problems. Imagine companies can only invest money they already have. Factories take longer to build. New businesses struggle to expand. Infrastructure requires huge amounts of immediate taxation. Buying a house becomes dramatically harder. A twenty-five-year-old who might earn millions of dollars over their lifetime could still have to wait decades before buying property. Great entrepreneurs with little cash might never build anything. Meanwhile, people who already have lots of money become even more powerful because investment becomes much more dependent on existing wealth. Debt connects two groups, people who have resources today and people who believe they can create value tomorrow. At its best, credit is the bridge between them, and this is why debt explodes during crises. Imagine a recession. People spend less. Businesses earn less. Businesses fire workers. Those workers spend even less. Businesses earn even less. More workers get fired. Congratulations. We have invented the economic toilet flush. Governments often try to interrupt this cycle by spending on employment support, infrastructure, emergency programs, business assistance, tax relief. But recessions create an annoying problem. Tax revenue can fall exactly when governments need more money, so they borrow. Debt allows governments to spread crisis costs across time instead of trying to collect all the money immediately. The same logic has historically applied to wars. Wars are extremely expensive, and governments generally prefer, \"We are issuing war bonds,\" to, \"Good afternoon. Your taxes are now three hundred percent higher. Have a wonderful day.\" The ability to borrow has therefore been a source of state power for centuries. A government that people trust enough to lend to can mobilize far more resources than the cash sitting in its treasury today. Debt doesn't just shape economies. Debt has helped shape history. Which brings us back to our original question. The world owes an absurd amount of money. So who exactly do we owe it to? Aliens? A secret billionaire underneath Switzerland? One extremely patient guy named Steve? Mostly, we owe it to each other. Households owe banks. Companies owe investors. Governments owe banks, pension funds, citizens, and other governments. Banks owe depositors. Financial institutions owe one another. Your asset is often somebody else's liability. Your savings can fund somebody else's future, and their savings can fund yours. The global financial system is not really a giant pile of cash. It is a gigantic network of promises. I'll pay you next month. I'll pay you next year. I'll pay you in thirty years. Debt allows savers to give up spending today so borrowers can spend or invest today in exchange for being repaid from tomorrow. Interest is the price of waiting. Risk determines how expensive that waiting becomes. And the entire system ultimately depends on one gigantic assumption: tomorrow will be productive enough to pay for what we build today. When that assumption is correct, debt can help economies grow dramatically faster. When it is wrong, things become interesting. So yes, the world runs on money. But money itself runs on something even stranger: trust, expectations, promises about the future, and perhaps more than anything else, I-O-U-S. So if every debt on Earth disappeared tomorrow, you might celebrate. Just don't celebrate for more than five minutes.",
+  "cues": [
+    {
+      "start": 0.08,
+      "end": 4.04,
+      "text": "Imagine you wake up tomorrow morning and every debt on Earth is gone.",
+      "words": 13
+    },
+    {
+      "start": 4.28,
+      "end": 5.6,
+      "text": "Your mortgage? Gone.",
+      "words": 3
+    },
+    {
+      "start": 5.92,
+      "end": 7.06,
+      "text": "Credit card? Gone.",
+      "words": 3
+    },
+    {
+      "start": 7.36,
+      "end": 8.66,
+      "text": "Student loan? Gone.",
+      "words": 3
+    },
+    {
+      "start": 9.02,
+      "end": 10.319,
+      "text": "Corporate debt? Gone.",
+      "words": 3
+    },
+    {
+      "start": 10.58,
+      "end": 12.26,
+      "text": "Government debt? Also gone.",
+      "words": 4
+    },
+    {
+      "start": 12.62,
+      "end": 15.16,
+      "text": "Humanity has finally defeated debt.",
+      "words": 5
+    },
+    {
+      "start": 15.2,
+      "end": 19.34,
+      "text": "Congratulations. We did it for approximately five minutes.",
+      "words": 8
+    },
+    {
+      "start": 19.4,
+      "end": 21.4,
+      "text": "Because then banks start breaking.",
+      "words": 5
+    },
+    {
+      "start": 21.44,
+      "end": 24.71,
+      "text": "Companies suddenly lose access to money they use to operate and expand.",
+      "words": 12
+    },
+    {
+      "start": 25,
+      "end": 26.31,
+      "text": "Construction projects freeze.",
+      "words": 3
+    },
+    {
+      "start": 26.6,
+      "end": 29.34,
+      "text": "Governments lose one of their biggest sources of financing.",
+      "words": 9
+    },
+    {
+      "start": 29.38,
+      "end": 33.68,
+      "text": "Investors panic. And the financial system begins discovering that removing all debt is",
+      "words": 13
+    },
+    {
+      "start": 33.72,
+      "end": 37.68,
+      "text": "a little like removing all the screws from an airplane because screws are technically",
+      "words": 14
+    },
+    {
+      "start": 37.76,
+      "end": 42.18,
+      "text": "adding weight. The weird truth is this: the world does not simply have a lot of debt.",
+      "words": 17
+    },
+    {
+      "start": 42.449,
+      "end": 44.15,
+      "text": "The modern world runs on debt.",
+      "words": 6
+    },
+    {
+      "start": 44.41,
+      "end": 47.62,
+      "text": "And once you understand why, money starts looking completely different.",
+      "words": 10
+    },
+    {
+      "start": 47.96,
+      "end": 50.08,
+      "text": "Let's begin with something painfully normal.",
+      "words": 6
+    },
+    {
+      "start": 50.1,
+      "end": 51.019,
+      "text": "You want a house.",
+      "words": 4
+    },
+    {
+      "start": 51.06,
+      "end": 53.08,
+      "text": "The house costs three hundred thousand dollars.",
+      "words": 7
+    },
+    {
+      "start": 53.42,
+      "end": 54.7,
+      "text": "You check your bank account.",
+      "words": 5
+    },
+    {
+      "start": 54.76,
+      "end": 57.08,
+      "text": "It contains not three hundred thousand dollars.",
+      "words": 7
+    },
+    {
+      "start": 57.44,
+      "end": 60.78,
+      "text": "Fantastic. But you do have something valuable: a job,",
+      "words": 9
+    },
+    {
+      "start": 60.82,
+      "end": 65.07,
+      "text": "an income, and hopefully several decades in which future you continues making money instead",
+      "words": 14
+    },
+    {
+      "start": 65.08,
+      "end": 66.78,
+      "text": "of disappearing into the woods.",
+      "words": 5
+    },
+    {
+      "start": 66.79,
+      "end": 70.91,
+      "text": "So the bank gives present you three hundred thousand dollars and future you agrees to",
+      "words": 15
+    },
+    {
+      "start": 71.02,
+      "end": 73.29,
+      "text": "spend the next twenty or thirty years paying it back.",
+      "words": 10
+    },
+    {
+      "start": 73.57,
+      "end": 74.72,
+      "text": "That is a mortgage.",
+      "words": 4
+    },
+    {
+      "start": 74.74,
+      "end": 77.84,
+      "text": "But underneath the boring paperwork is a pretty insane idea.",
+      "words": 10
+    },
+    {
+      "start": 77.86,
+      "end": 79.9,
+      "text": "You're telling the bank, \"I don't have the money.\"",
+      "words": 9
+    },
+    {
+      "start": 79.94,
+      "end": 81.32,
+      "text": "The bank says, \"Correct.\"",
+      "words": 4
+    },
+    {
+      "start": 81.62,
+      "end": 84.22,
+      "text": "You say, \"But twenty forty-seven me probably will.\"",
+      "words": 8
+    },
+    {
+      "start": 84.5,
+      "end": 86,
+      "text": "And the bank says, \"Good enough.\"",
+      "words": 6
+    },
+    {
+      "start": 86.32,
+      "end": 88.74,
+      "text": "Debt allows you to bring future income into the present.",
+      "words": 10
+    },
+    {
+      "start": 89,
+      "end": 90.76,
+      "text": "It is basically a time machine for money.",
+      "words": 8
+    },
+    {
+      "start": 90.97,
+      "end": 94.6,
+      "text": "And once humans figured that out, we began using it for almost everything.",
+      "words": 13
+    },
+    {
+      "start": 94.62,
+      "end": 96.55,
+      "text": "Businesses borrow money to build factories.",
+      "words": 6
+    },
+    {
+      "start": 96.88,
+      "end": 98.88,
+      "text": "Airlines borrow money to buy planes.",
+      "words": 6
+    },
+    {
+      "start": 99,
+      "end": 100.96,
+      "text": "Farmers borrow money to buy equipment.",
+      "words": 6
+    },
+    {
+      "start": 100.98,
+      "end": 102.6,
+      "text": "Cities borrow money to build roads.",
+      "words": 6
+    },
+    {
+      "start": 102.92,
+      "end": 105.82,
+      "text": "Governments borrow money to build infrastructure, fund wars,",
+      "words": 8
+    },
+    {
+      "start": 106.06,
+      "end": 109.79,
+      "text": "survive recessions, and occasionally fund something everyone will spend the next twenty",
+      "words": 12
+    },
+    {
+      "start": 109.88,
+      "end": 111,
+      "text": "years arguing about.",
+      "words": 3
+    },
+    {
+      "start": 111.08,
+      "end": 112.48,
+      "text": "Because waiting is expensive.",
+      "words": 4
+    },
+    {
+      "start": 112.82,
+      "end": 116.02,
+      "text": "Imagine you want to build a factory that costs one hundred million dollars.",
+      "words": 13
+    },
+    {
+      "start": 116.34,
+      "end": 118.92,
+      "text": "Without borrowing, maybe you spend twenty years saving.",
+      "words": 8
+    },
+    {
+      "start": 119.22,
+      "end": 120.66,
+      "text": "Year one, no factory.",
+      "words": 4
+    },
+    {
+      "start": 121,
+      "end": 122.69,
+      "text": "Year five, still no factory.",
+      "words": 5
+    },
+    {
+      "start": 122.99,
+      "end": 125.22,
+      "text": "Year twelve, very impressive spreadsheet.",
+      "words": 5
+    },
+    {
+      "start": 125.52,
+      "end": 127.46,
+      "text": "Year twenty, congratulations.",
+      "words": 3
+    },
+    {
+      "start": 127.5,
+      "end": 128.82,
+      "text": "You finally have the money.",
+      "words": 5
+    },
+    {
+      "start": 128.86,
+      "end": 131.58,
+      "text": "Unfortunately, your competitor built three factories,",
+      "words": 6
+    },
+    {
+      "start": 131.84,
+      "end": 136.1,
+      "text": "launched an app, bought your company, and renamed you Legacy Operations Division.",
+      "words": 12
+    },
+    {
+      "start": 136.46,
+      "end": 137.7,
+      "text": "So instead, you borrow.",
+      "words": 4
+    },
+    {
+      "start": 138.04,
+      "end": 139.4,
+      "text": "You build the factory today.",
+      "words": 5
+    },
+    {
+      "start": 139.44,
+      "end": 141.18,
+      "text": "The factory produces goods today.",
+      "words": 5
+    },
+    {
+      "start": 141.2,
+      "end": 142.43,
+      "text": "It generates revenue today.",
+      "words": 4
+    },
+    {
+      "start": 142.73,
+      "end": 145.04,
+      "text": "And that future revenue hopefully repays the loan.",
+      "words": 8
+    },
+    {
+      "start": 145.36,
+      "end": 147.64,
+      "text": "This is the first reason debt is so powerful.",
+      "words": 9
+    },
+    {
+      "start": 147.68,
+      "end": 150.8,
+      "text": "Debt turns future productivity into present investment.",
+      "words": 7
+    },
+    {
+      "start": 150.82,
+      "end": 154.29,
+      "text": "But now things get weird because you might imagine a bank giving someone a loan like",
+      "words": 16
+    },
+    {
+      "start": 154.36,
+      "end": 157.59,
+      "text": "this. The bank walks into a giant vault, finds a pile of money,",
+      "words": 13
+    },
+    {
+      "start": 158.06,
+      "end": 161.16,
+      "text": "scoops out one hundred thousand dollars and hands it to you.",
+      "words": 11
+    },
+    {
+      "start": 161.26,
+      "end": 163.32,
+      "text": "Very cinematic. Very Scrooge McDuck.",
+      "words": 5
+    },
+    {
+      "start": 163.68,
+      "end": 165.58,
+      "text": "Modern banking is stranger than that.",
+      "words": 6
+    },
+    {
+      "start": 165.62,
+      "end": 168.54,
+      "text": "Suppose a bank approves you for a one hundred thousand dollar loan.",
+      "words": 12
+    },
+    {
+      "start": 168.58,
+      "end": 171.24,
+      "text": "The bank records that you now owe it one hundred thousand dollars,",
+      "words": 12
+    },
+    {
+      "start": 171.59,
+      "end": 174.58,
+      "text": "and then your bank account gets credited with one hundred thousand dollars.",
+      "words": 12
+    },
+    {
+      "start": 174.9,
+      "end": 175.96,
+      "text": "Congratulations.",
+      "words": 1
+    },
+    {
+      "start": 176,
+      "end": 177.28,
+      "text": "There is now a new deposit.",
+      "words": 6
+    },
+    {
+      "start": 177.29,
+      "end": 180.75,
+      "text": "The bank created an asset, your loan, and a liability,",
+      "words": 10
+    },
+    {
+      "start": 180.78,
+      "end": 184.17,
+      "text": "your deposit. That is one reason people say banks create money when they lend,",
+      "words": 14
+    },
+    {
+      "start": 184.46,
+      "end": 186.5,
+      "text": "because they do. Not infinite money.",
+      "words": 6
+    },
+    {
+      "start": 186.52,
+      "end": 190.06,
+      "text": "Banks cannot simply hit copy and paste until everyone owns a Lamborghini.",
+      "words": 12
+    },
+    {
+      "start": 190.1,
+      "end": 193.48,
+      "text": "They face capital rules, liquidity requirements, funding costs,",
+      "words": 8
+    },
+    {
+      "start": 193.72,
+      "end": 198.47,
+      "text": "regulation, risk, and the small inconvenience that borrowers occasionally do not pay",
+      "words": 12
+    },
+    {
+      "start": 198.5,
+      "end": 201.39,
+      "text": "them back. But lending and money creation are deeply connected,",
+      "words": 10
+    },
+    {
+      "start": 201.609,
+      "end": 203.2,
+      "text": "which creates a strange fact.",
+      "words": 5
+    },
+    {
+      "start": 203.26,
+      "end": 205.3,
+      "text": "Your money is often connected to somebody else's debt.",
+      "words": 9
+    },
+    {
+      "start": 205.58,
+      "end": 207.58,
+      "text": "Your bank deposit is an asset to you.",
+      "words": 8
+    },
+    {
+      "start": 207.609,
+      "end": 210.09,
+      "text": "But on another balance sheet, there is a liability.",
+      "words": 9
+    },
+    {
+      "start": 210.1,
+      "end": 212.68,
+      "text": "And once you notice this, you start seeing it everywhere.",
+      "words": 10
+    },
+    {
+      "start": 212.94,
+      "end": 215.92,
+      "text": "Now, here's the question that makes the entire system sound impossible.",
+      "words": 11
+    },
+    {
+      "start": 216.26,
+      "end": 218.76,
+      "text": "If everyone is borrowing, who is lending all this money?",
+      "words": 10
+    },
+    {
+      "start": 219.06,
+      "end": 220.88,
+      "text": "The answer is also everyone.",
+      "words": 5
+    },
+    {
+      "start": 221.16,
+      "end": 223.14,
+      "text": "Your retirement fund might own corporate bonds.",
+      "words": 7
+    },
+    {
+      "start": 223.41,
+      "end": 225.16,
+      "text": "A bank might own government bonds.",
+      "words": 6
+    },
+    {
+      "start": 225.2,
+      "end": 227.54,
+      "text": "An insurance company might lend to corporations.",
+      "words": 7
+    },
+    {
+      "start": 227.58,
+      "end": 229.8,
+      "text": "Investment funds might finance mortgages.",
+      "words": 5
+    },
+    {
+      "start": 229.84,
+      "end": 232.46,
+      "text": "Foreign governments may own another country's government debt.",
+      "words": 8
+    },
+    {
+      "start": 232.5,
+      "end": 234.609,
+      "text": "Your savings may be funding somebody else's business,",
+      "words": 8
+    },
+    {
+      "start": 234.88,
+      "end": 237.44,
+      "text": "and somebody else's savings may be financing your house.",
+      "words": 9
+    },
+    {
+      "start": 237.5,
+      "end": 241.829,
+      "text": "The global economy is basically one enormous group chat where everyone keeps saying,",
+      "words": 13
+    },
+    {
+      "start": 242.18,
+      "end": 246.09,
+      "text": "\"I'll pay you later.\" Which is funny until you realize trillions of dollars depend on",
+      "words": 15
+    },
+    {
+      "start": 246.12,
+      "end": 248.12,
+      "text": "those messages actually being true.",
+      "words": 5
+    },
+    {
+      "start": 248.24,
+      "end": 249.24,
+      "text": "Take government debt.",
+      "words": 3
+    },
+    {
+      "start": 249.6,
+      "end": 251.48,
+      "text": "Governments borrow money by selling bonds.",
+      "words": 6
+    },
+    {
+      "start": 251.85,
+      "end": 254.64,
+      "text": "A bond is basically a very official IOU.",
+      "words": 8
+    },
+    {
+      "start": 255.08,
+      "end": 256.7,
+      "text": "An investor says, \"Here's money.\"",
+      "words": 5
+    },
+    {
+      "start": 256.95,
+      "end": 258.36,
+      "text": "The government says, \"Thank you.",
+      "words": 5
+    },
+    {
+      "start": 258.78,
+      "end": 260.68,
+      "text": "I promise future government will deal with this.\"",
+      "words": 8
+    },
+    {
+      "start": 261,
+      "end": 262.48,
+      "text": "The investor says, \"Excellent.\"",
+      "words": 4
+    },
+    {
+      "start": 262.7,
+      "end": 263.98,
+      "text": "Banks buy these IOUs.",
+      "words": 4
+    },
+    {
+      "start": 264.3,
+      "end": 265.34,
+      "text": "Pension funds buy them.",
+      "words": 4
+    },
+    {
+      "start": 265.58,
+      "end": 266.82,
+      "text": "Investment funds buy them.",
+      "words": 4
+    },
+    {
+      "start": 267.08,
+      "end": 268.42,
+      "text": "Insurance companies buy them.",
+      "words": 4
+    },
+    {
+      "start": 268.76,
+      "end": 270,
+      "text": "Foreign governments buy them.",
+      "words": 4
+    },
+    {
+      "start": 270.32,
+      "end": 271.85,
+      "text": "Even central banks hold them.",
+      "words": 5
+    },
+    {
+      "start": 272.22,
+      "end": 277.5,
+      "text": "In major financial systems, high quality government bonds are not treated like some radioactive",
+      "words": 14
+    },
+    {
+      "start": 277.56,
+      "end": 278.83,
+      "text": "pile of financial shame.",
+      "words": 4
+    },
+    {
+      "start": 279.14,
+      "end": 281.76,
+      "text": "They're often considered among the safest assets available.",
+      "words": 8
+    },
+    {
+      "start": 282.02,
+      "end": 284.02,
+      "text": "Financial institutions use them to store money.",
+      "words": 7
+    },
+    {
+      "start": 284.4,
+      "end": 285.52,
+      "text": "They use them as collateral.",
+      "words": 5
+    },
+    {
+      "start": 285.86,
+      "end": 289.52,
+      "text": "Their interest rates help influence the price of loans and investments across the economy.",
+      "words": 14
+    },
+    {
+      "start": 289.9,
+      "end": 293.02,
+      "text": "So when you hear the government owes trillions of dollars,",
+      "words": 10
+    },
+    {
+      "start": 293.42,
+      "end": 297.8,
+      "text": "your brain naturally imagines someone receiving a very aggressive credit card bill.",
+      "words": 12
+    },
+    {
+      "start": 298.12,
+      "end": 300.9,
+      "text": "Amount due: thirty-four trillion dollars.",
+      "words": 5
+    },
+    {
+      "start": 301.2,
+      "end": 303.26,
+      "text": "Minimum payment: your entire country.",
+      "words": 5
+    },
+    {
+      "start": 303.56,
+      "end": 306.42,
+      "text": "But governments do not work exactly like households.",
+      "words": 8
+    },
+    {
+      "start": 306.76,
+      "end": 309.56,
+      "text": "A household normally cannot refinance its debt forever.",
+      "words": 8
+    },
+    {
+      "start": 309.86,
+      "end": 311.08,
+      "text": "Governments frequently do.",
+      "words": 3
+    },
+    {
+      "start": 311.36,
+      "end": 312.62,
+      "text": "A bond matures.",
+      "words": 3
+    },
+    {
+      "start": 312.63,
+      "end": 313.94,
+      "text": "The government issues another bond.",
+      "words": 5
+    },
+    {
+      "start": 314.19,
+      "end": 315.38,
+      "text": "That bond matures.",
+      "words": 3
+    },
+    {
+      "start": 315.46,
+      "end": 317.04,
+      "text": "Another bond, and so on.",
+      "words": 5
+    },
+    {
+      "start": 317.08,
+      "end": 318.95,
+      "text": "This is called rolling over debt.",
+      "words": 6
+    },
+    {
+      "start": 319.16,
+      "end": 320.65,
+      "text": "Basically, I'll pay you Tuesday.",
+      "words": 5
+    },
+    {
+      "start": 320.94,
+      "end": 322.02,
+      "text": "Tuesday arrives.",
+      "words": 2
+    },
+    {
+      "start": 322.06,
+      "end": 324.808,
+      "text": "Interesting. How do you feel about next Tuesday?",
+      "words": 8
+    },
+    {
+      "start": 325.128,
+      "end": 327.548,
+      "text": "This does not mean government debt is harmless.",
+      "words": 8
+    },
+    {
+      "start": 327.868,
+      "end": 330.588,
+      "text": "If investors lose confidence, interest rates can rise.",
+      "words": 8
+    },
+    {
+      "start": 330.868,
+      "end": 333.368,
+      "text": "Higher interest costs eat into government budgets.",
+      "words": 7
+    },
+    {
+      "start": 333.648,
+      "end": 335.798,
+      "text": "Borrowing too much can become dangerous.",
+      "words": 6
+    },
+    {
+      "start": 336.128,
+      "end": 340.708,
+      "text": "Countries that borrow heavily in currencies they do not control can face even harsher",
+      "words": 14
+    },
+    {
+      "start": 340.768,
+      "end": 345.308,
+      "text": "limits. But the important question usually isn't, does this country have debt?",
+      "words": 12
+    },
+    {
+      "start": 345.328,
+      "end": 347.408,
+      "text": "Almost all modern countries do.",
+      "words": 5
+    },
+    {
+      "start": 347.448,
+      "end": 351.108,
+      "text": "The better question is, can this country handle its debt?",
+      "words": 10
+    },
+    {
+      "start": 351.348,
+      "end": 356.477,
+      "text": "Imagine two people. Person A owes ten thousand dollars and earns two hundred thousand",
+      "words": 14
+    },
+    {
+      "start": 356.528,
+      "end": 361.488,
+      "text": "dollars per year. Person B owes ten thousand dollars and earns twelve thousand dollars",
+      "words": 14
+    },
+    {
+      "start": 361.508,
+      "end": 364.548,
+      "text": "per year. Same debt, very different panic levels.",
+      "words": 8
+    },
+    {
+      "start": 364.888,
+      "end": 368.588,
+      "text": "Countries are similar. The raw number alone doesn't tell you enough.",
+      "words": 11
+    },
+    {
+      "start": 368.888,
+      "end": 370.778,
+      "text": "You care about the size of the economy,",
+      "words": 8
+    },
+    {
+      "start": 371.228,
+      "end": 375.078,
+      "text": "tax revenue, interest rates, economic growth, currency,",
+      "words": 7
+    },
+    {
+      "start": 375.588,
+      "end": 379.948,
+      "text": "when the debt needs to be repaid, who owns it, and most importantly,",
+      "words": 13
+    },
+    {
+      "start": 380.008,
+      "end": 382.068,
+      "text": "what the borrowed money was used for.",
+      "words": 7
+    },
+    {
+      "start": 382.108,
+      "end": 385.848,
+      "text": "Because debt can be productive or spectacularly stupid.",
+      "words": 8
+    },
+    {
+      "start": 386.148,
+      "end": 390.388,
+      "text": "Borrow one billion dollars to build infrastructure that makes an economy more productive",
+      "words": 13
+    },
+    {
+      "start": 390.708,
+      "end": 395.188,
+      "text": "may be excellent. Borrow one billion dollars to build a four hundred meter golden statue",
+      "words": 15
+    },
+    {
+      "start": 395.228,
+      "end": 399.138,
+      "text": "of yourself shooting lasers from its eyes, tourism might surprise us,",
+      "words": 11
+    },
+    {
+      "start": 399.408,
+      "end": 402.008,
+      "text": "but financially, we have questions.",
+      "words": 5
+    },
+    {
+      "start": 402.048,
+      "end": 405.268,
+      "text": "Debt itself is not automatically good or bad.",
+      "words": 8
+    },
+    {
+      "start": 405.548,
+      "end": 410.368,
+      "text": "Debt is a tool, and tools become dangerous when humans discover leverage.",
+      "words": 12
+    },
+    {
+      "start": 410.748,
+      "end": 412.108,
+      "text": "Leverage sounds complicated.",
+      "words": 3
+    },
+    {
+      "start": 412.328,
+      "end": 416.008,
+      "text": "It isn't. Leverage means using borrowed money to make a bigger bet.",
+      "words": 12
+    },
+    {
+      "start": 416.248,
+      "end": 418.588,
+      "text": "Suppose you have ten dollars, you invest it.",
+      "words": 8
+    },
+    {
+      "start": 418.628,
+      "end": 420.308,
+      "text": "The investment goes up ten percent.",
+      "words": 6
+    },
+    {
+      "start": 420.528,
+      "end": 421.968,
+      "text": "You make one dollar. Nice.",
+      "words": 5
+    },
+    {
+      "start": 422.248,
+      "end": 423.298,
+      "text": "Buy yourself half a coffee.",
+      "words": 5
+    },
+    {
+      "start": 423.668,
+      "end": 427.448,
+      "text": "Now, suppose you have ten dollars, but borrow another ninety.",
+      "words": 10
+    },
+    {
+      "start": 427.488,
+      "end": 429.328,
+      "text": "You invest one hundred dollars.",
+      "words": 5
+    },
+    {
+      "start": 429.368,
+      "end": 431.148,
+      "text": "The investment rises ten percent.",
+      "words": 5
+    },
+    {
+      "start": 431.188,
+      "end": 432.248,
+      "text": "You make ten dollars.",
+      "words": 4
+    },
+    {
+      "start": 432.618,
+      "end": 434.908,
+      "text": "You just doubled your original money.",
+      "words": 6
+    },
+    {
+      "start": 434.968,
+      "end": 436.688,
+      "text": "You are incredible.",
+      "words": 3
+    },
+    {
+      "start": 436.728,
+      "end": 437.988,
+      "text": "CNBC wants an interview.",
+      "words": 4
+    },
+    {
+      "start": 438.288,
+      "end": 440.678,
+      "text": "Your LinkedIn bio now says, \"Investor,",
+      "words": 6
+    },
+    {
+      "start": 441.168,
+      "end": 442.698,
+      "text": "visionary, thought leader.\"",
+      "words": 3
+    },
+    {
+      "start": 443.048,
+      "end": 444.478,
+      "text": "You begin researching yachts.",
+      "words": 4
+    },
+    {
+      "start": 444.828,
+      "end": 447.288,
+      "text": "But then the investment falls ten percent.",
+      "words": 7
+    },
+    {
+      "start": 447.348,
+      "end": 449.048,
+      "text": "You lose ten dollars.",
+      "words": 4
+    },
+    {
+      "start": 449.088,
+      "end": 450.758,
+      "text": "Your original money, gone.",
+      "words": 4
+    },
+    {
+      "start": 450.788,
+      "end": 455.108,
+      "text": "The lender, however, would still very much like its ninety dollars.",
+      "words": 11
+    },
+    {
+      "start": 455.528,
+      "end": 458.078,
+      "text": "Suddenly, your yacht research feels premature.",
+      "words": 6
+    },
+    {
+      "start": 458.548,
+      "end": 459.888,
+      "text": "This is leverage.",
+      "words": 3
+    },
+    {
+      "start": 459.948,
+      "end": 465.368,
+      "text": "It magnifies success, and it magnifies stupidity, which explains a surprising amount",
+      "words": 12
+    },
+    {
+      "start": 465.468,
+      "end": 470.388,
+      "text": "of financial history. And now we reach the thing that can destroy this entire machine.",
+      "words": 15
+    },
+    {
+      "start": 470.708,
+      "end": 473.448,
+      "text": "Not debt, not money, not even leverage.",
+      "words": 7
+    },
+    {
+      "start": 473.808,
+      "end": 476.648,
+      "text": "Trust. Debt is a promise about the future.",
+      "words": 8
+    },
+    {
+      "start": 476.968,
+      "end": 479.448,
+      "text": "When someone lends money, they're making a prediction.",
+      "words": 8
+    },
+    {
+      "start": 479.808,
+      "end": 481.528,
+      "text": "Will this person still have a job?",
+      "words": 7
+    },
+    {
+      "start": 481.868,
+      "end": 483.108,
+      "text": "Will this company make money?",
+      "words": 5
+    },
+    {
+      "start": 483.448,
+      "end": 486.708,
+      "text": "Will this government still collect taxes twenty years from now?",
+      "words": 10
+    },
+    {
+      "start": 487.068,
+      "end": 488.668,
+      "text": "Will this property stay valuable?",
+      "words": 5
+    },
+    {
+      "start": 489.008,
+      "end": 490.928,
+      "text": "Will this factory actually work?",
+      "words": 5
+    },
+    {
+      "start": 491.268,
+      "end": 494.088,
+      "text": "If the answer looks like yes, borrowing is easier.",
+      "words": 9
+    },
+    {
+      "start": 494.428,
+      "end": 498.088,
+      "text": "If the answer looks like maybe, lenders demand more interest.",
+      "words": 10
+    },
+    {
+      "start": 498.168,
+      "end": 501.558,
+      "text": "If the answer looks like absolutely not, what are you doing?",
+      "words": 11
+    },
+    {
+      "start": 501.888,
+      "end": 505.588,
+      "text": "The money disappears, and that's where things can become nasty.",
+      "words": 10
+    },
+    {
+      "start": 505.628,
+      "end": 508.008,
+      "text": "Imagine a company begins looking risky.",
+      "words": 6
+    },
+    {
+      "start": 508.088,
+      "end": 510.128,
+      "text": "Lenders demand higher interest rates.",
+      "words": 5
+    },
+    {
+      "start": 510.168,
+      "end": 512.458,
+      "text": "Higher interest payments make the company weaker.",
+      "words": 7
+    },
+    {
+      "start": 512.808,
+      "end": 516.388,
+      "text": "That makes lenders even more nervous, so rates rise again.",
+      "words": 10
+    },
+    {
+      "start": 516.688,
+      "end": 518.328,
+      "text": "The company gets weaker again.",
+      "words": 5
+    },
+    {
+      "start": 518.408,
+      "end": 522.038,
+      "text": "Eventually, lenders stop lending entirely, and suddenly,",
+      "words": 7
+    },
+    {
+      "start": 522.068,
+      "end": 526.248,
+      "text": "a company that looked alive yesterday can run out of money today.",
+      "words": 12
+    },
+    {
+      "start": 526.288,
+      "end": 528.848,
+      "text": "This is why credit crises move so fast.",
+      "words": 8
+    },
+    {
+      "start": 529.168,
+      "end": 533.128,
+      "text": "During good times, banks lend, companies invest, consumers spend,",
+      "words": 9
+    },
+    {
+      "start": 533.508,
+      "end": 534.668,
+      "text": "asset prices rise.",
+      "words": 3
+    },
+    {
+      "start": 535.008,
+      "end": 536.148,
+      "text": "Everyone makes money.",
+      "words": 3
+    },
+    {
+      "start": 536.208,
+      "end": 537.708,
+      "text": "Everyone feels intelligent.",
+      "words": 3
+    },
+    {
+      "start": 537.748,
+      "end": 541.298,
+      "text": "Someone buys a podcast microphone, then something breaks.",
+      "words": 8
+    },
+    {
+      "start": 542.008,
+      "end": 545.828,
+      "text": "Borrowers start defaulting, lenders panic, banks become afraid to lend,",
+      "words": 10
+    },
+    {
+      "start": 546.148,
+      "end": 550.428,
+      "text": "credit disappears, companies cannot refinance, investors sell assets,",
+      "words": 8
+    },
+    {
+      "start": 550.748,
+      "end": 553.268,
+      "text": "prices fall, more borrowers get into trouble,",
+      "words": 7
+    },
+    {
+      "start": 553.717,
+      "end": 558.328,
+      "text": "and suddenly, everybody is significantly less interested in starting a podcast.",
+      "words": 11
+    },
+    {
+      "start": 558.338,
+      "end": 562.168,
+      "text": "The two thousand and eight financial crisis was one dramatic example.",
+      "words": 11
+    },
+    {
+      "start": 562.308,
+      "end": 564.388,
+      "text": "Huge amounts of mortgage debt had been created.",
+      "words": 8
+    },
+    {
+      "start": 564.748,
+      "end": 567.428,
+      "text": "Those mortgages were packaged into financial products.",
+      "words": 7
+    },
+    {
+      "start": 567.808,
+      "end": 569.188,
+      "text": "Housing prices kept rising.",
+      "words": 4
+    },
+    {
+      "start": 569.508,
+      "end": 571.228,
+      "text": "People became increasingly confident.",
+      "words": 4
+    },
+    {
+      "start": 571.488,
+      "end": 573.708,
+      "text": "Risk looked small, until it wasn't.",
+      "words": 6
+    },
+    {
+      "start": 573.748,
+      "end": 575.088,
+      "text": "Housing prices fell.",
+      "words": 3
+    },
+    {
+      "start": 575.128,
+      "end": 576.468,
+      "text": "Mortgage defaults rose.",
+      "words": 3
+    },
+    {
+      "start": 576.848,
+      "end": 579.948,
+      "text": "Financial assets tied to those mortgages lost value.",
+      "words": 8
+    },
+    {
+      "start": 580.028,
+      "end": 583.508,
+      "text": "Banks discovered that things they thought were safe were not safe.",
+      "words": 11
+    },
+    {
+      "start": 583.798,
+      "end": 586.438,
+      "text": "And because financial institutions were deeply connected,",
+      "words": 7
+    },
+    {
+      "start": 586.828,
+      "end": 590.488,
+      "text": "problems in American housing spread across global markets.",
+      "words": 8
+    },
+    {
+      "start": 590.588,
+      "end": 592.388,
+      "text": "Debt existed before the crisis.",
+      "words": 5
+    },
+    {
+      "start": 592.658,
+      "end": 594.758,
+      "text": "Debt still exists after the crisis.",
+      "words": 6
+    },
+    {
+      "start": 595.088,
+      "end": 598.137,
+      "text": "The real problem was the combination of bad lending,",
+      "words": 9
+    },
+    {
+      "start": 598.528,
+      "end": 602.308,
+      "text": "excessive leverage, weak incentives, underestimated risk,",
+      "words": 6
+    },
+    {
+      "start": 602.648,
+      "end": 606.428,
+      "text": "and far too much confidence in assumptions that turned out to be wrong.",
+      "words": 13
+    },
+    {
+      "start": 606.748,
+      "end": 610.788,
+      "text": "In other words, the system did not break because people made promises.",
+      "words": 12
+    },
+    {
+      "start": 611.088,
+      "end": 615.048,
+      "text": "It broke because too many people made promises they could not keep,",
+      "words": 12
+    },
+    {
+      "start": 615.368,
+      "end": 617.308,
+      "text": "and everyone had bet that they would.",
+      "words": 7
+    },
+    {
+      "start": 617.688,
+      "end": 619.498,
+      "text": "So now the obvious question.",
+      "words": 5
+    },
+    {
+      "start": 619.528,
+      "end": 624.048,
+      "text": "If debt can destroy banks, companies, economies, retirement accounts,",
+      "words": 9
+    },
+    {
+      "start": 624.328,
+      "end": 627.908,
+      "text": "and occasionally your uncle's property empire, why not just get rid of it?",
+      "words": 13
+    },
+    {
+      "start": 628.208,
+      "end": 631.128,
+      "text": "Because a world without debt has its own problems.",
+      "words": 9
+    },
+    {
+      "start": 631.208,
+      "end": 634.428,
+      "text": "Imagine companies can only invest money they already have.",
+      "words": 9
+    },
+    {
+      "start": 634.748,
+      "end": 636.228,
+      "text": "Factories take longer to build.",
+      "words": 5
+    },
+    {
+      "start": 636.548,
+      "end": 638.268,
+      "text": "New businesses struggle to expand.",
+      "words": 5
+    },
+    {
+      "start": 638.588,
+      "end": 641.948,
+      "text": "Infrastructure requires huge amounts of immediate taxation.",
+      "words": 7
+    },
+    {
+      "start": 642.228,
+      "end": 644.428,
+      "text": "Buying a house becomes dramatically harder.",
+      "words": 6
+    },
+    {
+      "start": 644.708,
+      "end": 649.028,
+      "text": "A twenty-five-year-old who might earn millions of dollars over their lifetime could still",
+      "words": 13
+    },
+    {
+      "start": 649.088,
+      "end": 651.588,
+      "text": "have to wait decades before buying property.",
+      "words": 7
+    },
+    {
+      "start": 651.928,
+      "end": 656.088,
+      "text": "Great entrepreneurs with little cash might never build anything.",
+      "words": 9
+    },
+    {
+      "start": 656.168,
+      "end": 661.868,
+      "text": "Meanwhile, people who already have lots of money become even more powerful because investment",
+      "words": 14
+    },
+    {
+      "start": 661.938,
+      "end": 665.147,
+      "text": "becomes much more dependent on existing wealth.",
+      "words": 7
+    },
+    {
+      "start": 665.188,
+      "end": 671.038,
+      "text": "Debt connects two groups, people who have resources today and people who believe they",
+      "words": 14
+    },
+    {
+      "start": 671.048,
+      "end": 672.908,
+      "text": "can create value tomorrow.",
+      "words": 4
+    },
+    {
+      "start": 672.948,
+      "end": 675.598,
+      "text": "At its best, credit is the bridge between them,",
+      "words": 9
+    },
+    {
+      "start": 676.068,
+      "end": 679.288,
+      "text": "and this is why debt explodes during crises.",
+      "words": 8
+    },
+    {
+      "start": 679.348,
+      "end": 680.527,
+      "text": "Imagine a recession.",
+      "words": 3
+    },
+    {
+      "start": 680.548,
+      "end": 682.628,
+      "text": "People spend less. Businesses earn less.",
+      "words": 6
+    },
+    {
+      "start": 683.008,
+      "end": 684.388,
+      "text": "Businesses fire workers.",
+      "words": 3
+    },
+    {
+      "start": 684.638,
+      "end": 686.368,
+      "text": "Those workers spend even less.",
+      "words": 5
+    },
+    {
+      "start": 686.628,
+      "end": 688.408,
+      "text": "Businesses earn even less.",
+      "words": 4
+    },
+    {
+      "start": 688.768,
+      "end": 689.948,
+      "text": "More workers get fired.",
+      "words": 4
+    },
+    {
+      "start": 690.268,
+      "end": 693.848,
+      "text": "Congratulations. We have invented the economic toilet flush.",
+      "words": 8
+    },
+    {
+      "start": 694.188,
+      "end": 698.588,
+      "text": "Governments often try to interrupt this cycle by spending on employment support,",
+      "words": 12
+    },
+    {
+      "start": 698.887,
+      "end": 702.348,
+      "text": "infrastructure, emergency programs, business assistance,",
+      "words": 5
+    },
+    {
+      "start": 702.568,
+      "end": 705.968,
+      "text": "tax relief. But recessions create an annoying problem.",
+      "words": 8
+    },
+    {
+      "start": 706.458,
+      "end": 710.398,
+      "text": "Tax revenue can fall exactly when governments need more money,",
+      "words": 10
+    },
+    {
+      "start": 710.768,
+      "end": 711.788,
+      "text": "so they borrow.",
+      "words": 3
+    },
+    {
+      "start": 711.828,
+      "end": 717.318,
+      "text": "Debt allows governments to spread crisis costs across time instead of trying to collect",
+      "words": 14
+    },
+    {
+      "start": 717.388,
+      "end": 718.848,
+      "text": "all the money immediately.",
+      "words": 4
+    },
+    {
+      "start": 718.888,
+      "end": 721.808,
+      "text": "The same logic has historically applied to wars.",
+      "words": 8
+    },
+    {
+      "start": 722.188,
+      "end": 726.108,
+      "text": "Wars are extremely expensive, and governments generally prefer,",
+      "words": 8
+    },
+    {
+      "start": 726.518,
+      "end": 729.587,
+      "text": "\"We are issuing war bonds,\" to, \"Good afternoon.",
+      "words": 8
+    },
+    {
+      "start": 729.648,
+      "end": 732.398,
+      "text": "Your taxes are now three hundred percent higher.",
+      "words": 8
+    },
+    {
+      "start": 732.448,
+      "end": 736.928,
+      "text": "Have a wonderful day.\" The ability to borrow has therefore been a source of state power",
+      "words": 16
+    },
+    {
+      "start": 736.988,
+      "end": 742.368,
+      "text": "for centuries. A government that people trust enough to lend to can mobilize far more",
+      "words": 15
+    },
+    {
+      "start": 742.378,
+      "end": 745.238,
+      "text": "resources than the cash sitting in its treasury today.",
+      "words": 9
+    },
+    {
+      "start": 745.648,
+      "end": 747.588,
+      "text": "Debt doesn't just shape economies.",
+      "words": 5
+    },
+    {
+      "start": 747.628,
+      "end": 749.278,
+      "text": "Debt has helped shape history.",
+      "words": 5
+    },
+    {
+      "start": 749.648,
+      "end": 751.778,
+      "text": "Which brings us back to our original question.",
+      "words": 8
+    },
+    {
+      "start": 752.058,
+      "end": 754.698,
+      "text": "The world owes an absurd amount of money.",
+      "words": 8
+    },
+    {
+      "start": 755.088,
+      "end": 757.378,
+      "text": "So who exactly do we owe it to?",
+      "words": 8
+    },
+    {
+      "start": 757.768,
+      "end": 760.538,
+      "text": "Aliens? A secret billionaire underneath Switzerland?",
+      "words": 6
+    },
+    {
+      "start": 760.968,
+      "end": 763.608,
+      "text": "One extremely patient guy named Steve?",
+      "words": 6
+    },
+    {
+      "start": 764.008,
+      "end": 766.008,
+      "text": "Mostly, we owe it to each other.",
+      "words": 7
+    },
+    {
+      "start": 766.348,
+      "end": 767.388,
+      "text": "Households owe banks.",
+      "words": 3
+    },
+    {
+      "start": 767.768,
+      "end": 769.048,
+      "text": "Companies owe investors.",
+      "words": 3
+    },
+    {
+      "start": 769.348,
+      "end": 773.588,
+      "text": "Governments owe banks, pension funds, citizens, and other governments.",
+      "words": 9
+    },
+    {
+      "start": 773.908,
+      "end": 775.328,
+      "text": "Banks owe depositors.",
+      "words": 3
+    },
+    {
+      "start": 775.668,
+      "end": 777.748,
+      "text": "Financial institutions owe one another.",
+      "words": 5
+    },
+    {
+      "start": 778.128,
+      "end": 781.088,
+      "text": "Your asset is often somebody else's liability.",
+      "words": 7
+    },
+    {
+      "start": 781.448,
+      "end": 786.908,
+      "text": "Your savings can fund somebody else's future, and their savings can fund yours.",
+      "words": 13
+    },
+    {
+      "start": 786.948,
+      "end": 791.148,
+      "text": "The global financial system is not really a giant pile of cash.",
+      "words": 12
+    },
+    {
+      "start": 791.188,
+      "end": 793.928,
+      "text": "It is a gigantic network of promises.",
+      "words": 7
+    },
+    {
+      "start": 794.248,
+      "end": 796.208,
+      "text": "I'll pay you next month. I'll pay you next year.",
+      "words": 10
+    },
+    {
+      "start": 796.508,
+      "end": 798.228,
+      "text": "I'll pay you in thirty years.",
+      "words": 6
+    },
+    {
+      "start": 798.708,
+      "end": 804.708,
+      "text": "Debt allows savers to give up spending today so borrowers can spend or invest today in",
+      "words": 16
+    },
+    {
+      "start": 804.748,
+      "end": 807.178,
+      "text": "exchange for being repaid from tomorrow.",
+      "words": 6
+    },
+    {
+      "start": 807.548,
+      "end": 809.478,
+      "text": "Interest is the price of waiting.",
+      "words": 6
+    },
+    {
+      "start": 809.908,
+      "end": 812.788,
+      "text": "Risk determines how expensive that waiting becomes.",
+      "words": 7
+    },
+    {
+      "start": 813.098,
+      "end": 817.668,
+      "text": "And the entire system ultimately depends on one gigantic assumption:",
+      "words": 10
+    },
+    {
+      "start": 818.008,
+      "end": 822.368,
+      "text": "tomorrow will be productive enough to pay for what we build today.",
+      "words": 12
+    },
+    {
+      "start": 822.738,
+      "end": 824.208,
+      "text": "When that assumption is correct,",
+      "words": 5
+    },
+    {
+      "start": 824.657,
+      "end": 828.048,
+      "text": "debt can help economies grow dramatically faster.",
+      "words": 7
+    },
+    {
+      "start": 828.088,
+      "end": 831.228,
+      "text": "When it is wrong, things become interesting.",
+      "words": 7
+    },
+    {
+      "start": 831.268,
+      "end": 833.708,
+      "text": "So yes, the world runs on money.",
+      "words": 7
+    },
+    {
+      "start": 833.728,
+      "end": 836.828,
+      "text": "But money itself runs on something even stranger:",
+      "words": 8
+    },
+    {
+      "start": 837.248,
+      "end": 843.068,
+      "text": "trust, expectations, promises about the future, and perhaps more than anything else,",
+      "words": 12
+    },
+    {
+      "start": 843.548,
+      "end": 845.768,
+      "text": "I-O-U-S.",
+      "words": 1
+    },
+    {
+      "start": 846.168,
+      "end": 848.918,
+      "text": "So if every debt on Earth disappeared tomorrow,",
+      "words": 8
+    },
+    {
+      "start": 849.348,
+      "end": 850.308,
+      "text": "you might celebrate.",
+      "words": 3
+    },
+    {
+      "start": 850.608,
+      "end": 852.948,
+      "text": "Just don't celebrate for more than five minutes.",
+      "words": 8
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "settings": {
+    "tempo": 1.08,
+    "maxPause": 0.38,
+    "pauseTarget": 0.26,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.32,
+    "head": 0.04,
+    "tail": 0.2,
+    "lufs": -16,
+    "tp": -1.5,
+    "lra": 7,
+    "minSilence": 0.12,
+    "noiseDb": -40
+  },
+  "partGapSeconds": 0.42,
+  "parts": [
+    {
+      "part": "Debt-1.mp3",
+      "source": "C:\\Users\\ducnq\\Downloads\\Src\\Debt-1.mp3",
+      "processed": "public\\mryolk\\audio\\part-debt-1.wav",
+      "before": {
+        "file": "C:\\Users\\ducnq\\Downloads\\Src\\Debt-1.mp3",
+        "duration": 294.6,
+        "channels": null,
+        "sampleRate": 44100,
+        "peakDb": -1.958264,
+        "rmsDb": -22.820923,
+        "noiseFloorDb": null,
+        "flatFactor": 0,
+        "clippedSamples": 0,
+        "dcOffset": -0.000281,
+        "integratedLufs": -22.25,
+        "truePeakDb": -1.91,
+        "lra": 4,
+        "threshold": -32.85,
+        "silence": {
+          "count": 143,
+          "totalSeconds": 68.72,
+          "fractionOfFile": 0.233,
+          "longest": 0.95,
+          "buckets": {
+            "micro": 22,
+            "sentence": 88,
+            "long": 33,
+            "dead": 0
+          }
+        },
+        "speechSeconds": 225.88
+      },
+      "after": {
+        "file": "public\\mryolk\\audio\\part-debt-1.wav",
+        "duration": 247.71,
+        "channels": null,
+        "sampleRate": 48000,
+        "peakDb": -1.482688,
+        "rmsDb": -16.051295,
+        "noiseFloorDb": null,
+        "flatFactor": 0,
+        "clippedSamples": 0,
+        "dcOffset": -0.000683,
+        "integratedLufs": -16.04,
+        "truePeakDb": -1.48,
+        "lra": 2.4,
+        "threshold": -26.34,
+        "silence": {
+          "count": 141,
+          "totalSeconds": 35.2,
+          "fractionOfFile": 0.142,
+          "longest": 0.35,
+          "buckets": {
+            "micro": 129,
+            "sentence": 12,
+            "long": 0,
+            "dead": 0
+          }
+        },
+        "speechSeconds": 212.51
+      }
+    },
+    {
+      "part": "Debt-2.mp3",
+      "source": "C:\\Users\\ducnq\\Downloads\\Src\\Debt-2.mp3",
+      "processed": "public\\mryolk\\audio\\part-debt-2.wav",
+      "before": {
+        "file": "C:\\Users\\ducnq\\Downloads\\Src\\Debt-2.mp3",
+        "duration": 346.51,
+        "channels": null,
+        "sampleRate": 44100,
+        "peakDb": -1.439548,
+        "rmsDb": -24.209666,
+        "noiseFloorDb": null,
+        "flatFactor": 0,
+        "clippedSamples": 0,
+        "dcOffset": -0.000188,
+        "integratedLufs": -24.04,
+        "truePeakDb": -1.35,
+        "lra": 3,
+        "threshold": -34.51,
+        "silence": {
+          "count": 178,
+          "totalSeconds": 79.09,
+          "fractionOfFile": 0.228,
+          "longest": 1.01,
+          "buckets": {
+            "micro": 40,
+            "sentence": 106,
+            "long": 32,
+            "dead": 0
+          }
+        },
+        "speechSeconds": 267.42
+      },
+      "after": {
+        "file": "public\\mryolk\\audio\\part-debt-2.wav",
+        "duration": 293.28,
+        "channels": null,
+        "sampleRate": 48000,
+        "peakDb": -1.47169,
+        "rmsDb": -16.140509,
+        "noiseFloorDb": null,
+        "flatFactor": 0,
+        "clippedSamples": 0,
+        "dcOffset": -0.00054,
+        "integratedLufs": -16.44,
+        "truePeakDb": -1.44,
+        "lra": 2.2,
+        "threshold": -26.59,
+        "silence": {
+          "count": 160,
+          "totalSeconds": 37.83,
+          "fractionOfFile": 0.129,
+          "longest": 0.34,
+          "buckets": {
+            "micro": 151,
+            "sentence": 9,
+            "long": 0,
+            "dead": 0
+          }
+        },
+        "speechSeconds": 255.45
+      }
+    },
+    {
+      "part": "Debt-3.mp3",
+      "source": "C:\\Users\\ducnq\\Downloads\\Src\\Debt-3.mp3",
+      "processed": "public\\mryolk\\audio\\part-debt-3.wav",
+      "before": {
+        "file": "C:\\Users\\ducnq\\Downloads\\Src\\Debt-3.mp3",
+        "duration": 360.43,
+        "channels": null,
+        "sampleRate": 44100,
+        "peakDb": -2.405247,
+        "rmsDb": -26.055029,
+        "noiseFloorDb": null,
+        "flatFactor": 0,
+        "clippedSamples": 0,
+        "dcOffset": -0.000127,
+        "integratedLufs": -25.8,
+        "truePeakDb": -2.4,
+        "lra": 2.7,
+        "threshold": -36.28,
+        "silence": {
+          "count": 165,
+          "totalSeconds": 68.83,
+          "fractionOfFile": 0.191,
+          "longest": 1.06,
+          "buckets": {
+            "micro": 46,
+            "sentence": 94,
+            "long": 25,
+            "dead": 0
+          }
+        },
+        "speechSeconds": 291.6
+      },
+      "after": {
+        "file": "public\\mryolk\\audio\\part-debt-3.wav",
+        "duration": 311.38,
+        "channels": null,
+        "sampleRate": 48000,
+        "peakDb": -1.482688,
+        "rmsDb": -16.162628,
+        "noiseFloorDb": null,
+        "flatFactor": 0,
+        "clippedSamples": 0,
+        "dcOffset": -0.000474,
+        "integratedLufs": -16.21,
+        "truePeakDb": -1.46,
+        "lra": 2.1,
+        "threshold": -26.38,
+        "silence": {
+          "count": 114,
+          "totalSeconds": 21.16,
+          "fractionOfFile": 0.068,
+          "longest": 0.29,
+          "buckets": {
+            "micro": 114,
+            "sentence": 0,
+            "long": 0,
+            "dead": 0
+          }
+        },
+        "speechSeconds": 290.22
+      }
+    }
+  ],
+  "master": {
+    "file": "public\\mryolk\\audio\\narration-master.wav",
+    "duration": 853.22,
+    "channels": null,
+    "sampleRate": 48000,
+    "peakDb": -1.47169,
+    "rmsDb": -16.126689,
+    "noiseFloorDb": null,
+    "flatFactor": 0,
+    "clippedSamples": 0,
+    "dcOffset": -0.000557,
+    "integratedLufs": -16.24,
+    "truePeakDb": -1.44,
+    "lra": 2.3,
+    "threshold": -26.43,
+    "silence": {
+      "count": 417,
+      "totalSeconds": 95.24,
+      "fractionOfFile": 0.112,
+      "longest": 0.55,
+      "buckets": {
+        "micro": 394,
+        "sentence": 23,
+        "long": 0,
+        "dead": 0
+      }
+    },
+    "speechSeconds": 757.98,
+    "rawTotalSeconds": 1001.54,
+    "processedSeconds": 853.22,
+    "reductionPercent": 14.81
+  }
+}

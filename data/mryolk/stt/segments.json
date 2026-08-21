@@ -1,0 +1,1913 @@
+[
+  {
+    "index": 0,
+    "start": 0.08,
+    "end": 4.04,
+    "text": "Imagine you wake up tomorrow morning and every debt on Earth is gone.",
+    "wordCount": 13
+  },
+  {
+    "index": 1,
+    "start": 4.28,
+    "end": 4.9,
+    "text": "Your mortgage?",
+    "wordCount": 2
+  },
+  {
+    "index": 2,
+    "start": 5.3,
+    "end": 5.6,
+    "text": "Gone.",
+    "wordCount": 1
+  },
+  {
+    "index": 3,
+    "start": 5.92,
+    "end": 6.46,
+    "text": "Credit card?",
+    "wordCount": 2
+  },
+  {
+    "index": 4,
+    "start": 6.74,
+    "end": 7.06,
+    "text": "Gone.",
+    "wordCount": 1
+  },
+  {
+    "index": 5,
+    "start": 7.36,
+    "end": 7.99,
+    "text": "Student loan?",
+    "wordCount": 2
+  },
+  {
+    "index": 6,
+    "start": 8.3,
+    "end": 8.66,
+    "text": "Gone.",
+    "wordCount": 1
+  },
+  {
+    "index": 7,
+    "start": 9.02,
+    "end": 9.66,
+    "text": "Corporate debt?",
+    "wordCount": 2
+  },
+  {
+    "index": 8,
+    "start": 9.92,
+    "end": 10.319,
+    "text": "Gone.",
+    "wordCount": 1
+  },
+  {
+    "index": 9,
+    "start": 10.58,
+    "end": 11.24,
+    "text": "Government debt?",
+    "wordCount": 2
+  },
+  {
+    "index": 10,
+    "start": 11.48,
+    "end": 12.26,
+    "text": "Also gone.",
+    "wordCount": 2
+  },
+  {
+    "index": 11,
+    "start": 12.62,
+    "end": 15.16,
+    "text": "Humanity has finally defeated debt.",
+    "wordCount": 5
+  },
+  {
+    "index": 12,
+    "start": 15.2,
+    "end": 16.04,
+    "text": "Congratulations.",
+    "wordCount": 1
+  },
+  {
+    "index": 13,
+    "start": 16.28,
+    "end": 19.34,
+    "text": "We did it for approximately five minutes.",
+    "wordCount": 7
+  },
+  {
+    "index": 14,
+    "start": 19.4,
+    "end": 21.4,
+    "text": "Because then banks start breaking.",
+    "wordCount": 5
+  },
+  {
+    "index": 15,
+    "start": 21.44,
+    "end": 24.71,
+    "text": "Companies suddenly lose access to money they use to operate and expand.",
+    "wordCount": 12
+  },
+  {
+    "index": 16,
+    "start": 25,
+    "end": 26.31,
+    "text": "Construction projects freeze.",
+    "wordCount": 3
+  },
+  {
+    "index": 17,
+    "start": 26.6,
+    "end": 29.34,
+    "text": "Governments lose one of their biggest sources of financing.",
+    "wordCount": 9
+  },
+  {
+    "index": 18,
+    "start": 29.38,
+    "end": 30.26,
+    "text": "Investors panic.",
+    "wordCount": 2
+  },
+  {
+    "index": 19,
+    "start": 30.54,
+    "end": 38.3,
+    "text": "And the financial system begins discovering that removing all debt is a little like removing all the screws from an airplane because screws are technically adding weight.",
+    "wordCount": 27
+  },
+  {
+    "index": 20,
+    "start": 38.66,
+    "end": 42.18,
+    "text": "The weird truth is this: the world does not simply have a lot of debt.",
+    "wordCount": 15
+  },
+  {
+    "index": 21,
+    "start": 42.449,
+    "end": 44.15,
+    "text": "The modern world runs on debt.",
+    "wordCount": 6
+  },
+  {
+    "index": 22,
+    "start": 44.41,
+    "end": 47.62,
+    "text": "And once you understand why, money starts looking completely different.",
+    "wordCount": 10
+  },
+  {
+    "index": 23,
+    "start": 47.96,
+    "end": 50.08,
+    "text": "Let's begin with something painfully normal.",
+    "wordCount": 6
+  },
+  {
+    "index": 24,
+    "start": 50.1,
+    "end": 51.019,
+    "text": "You want a house.",
+    "wordCount": 4
+  },
+  {
+    "index": 25,
+    "start": 51.06,
+    "end": 53.08,
+    "text": "The house costs three hundred thousand dollars.",
+    "wordCount": 7
+  },
+  {
+    "index": 26,
+    "start": 53.42,
+    "end": 54.7,
+    "text": "You check your bank account.",
+    "wordCount": 5
+  },
+  {
+    "index": 27,
+    "start": 54.76,
+    "end": 57.08,
+    "text": "It contains not three hundred thousand dollars.",
+    "wordCount": 7
+  },
+  {
+    "index": 28,
+    "start": 57.44,
+    "end": 58.32,
+    "text": "Fantastic.",
+    "wordCount": 1
+  },
+  {
+    "index": 29,
+    "start": 58.34,
+    "end": 66.78,
+    "text": "But you do have something valuable: a job, an income, and hopefully several decades in which future you continues making money instead of disappearing into the woods.",
+    "wordCount": 27
+  },
+  {
+    "index": 30,
+    "start": 66.79,
+    "end": 73.29,
+    "text": "So the bank gives present you three hundred thousand dollars and future you agrees to spend the next twenty or thirty years paying it back.",
+    "wordCount": 25
+  },
+  {
+    "index": 31,
+    "start": 73.57,
+    "end": 74.72,
+    "text": "That is a mortgage.",
+    "wordCount": 4
+  },
+  {
+    "index": 32,
+    "start": 74.74,
+    "end": 77.84,
+    "text": "But underneath the boring paperwork is a pretty insane idea.",
+    "wordCount": 10
+  },
+  {
+    "index": 33,
+    "start": 77.86,
+    "end": 79.9,
+    "text": "You're telling the bank, \"I don't have the money.\"",
+    "wordCount": 9
+  },
+  {
+    "index": 34,
+    "start": 79.94,
+    "end": 81.32,
+    "text": "The bank says, \"Correct.\"",
+    "wordCount": 4
+  },
+  {
+    "index": 35,
+    "start": 81.62,
+    "end": 84.22,
+    "text": "You say, \"But twenty forty-seven me probably will.\"",
+    "wordCount": 8
+  },
+  {
+    "index": 36,
+    "start": 84.5,
+    "end": 86,
+    "text": "And the bank says, \"Good enough.\"",
+    "wordCount": 6
+  },
+  {
+    "index": 37,
+    "start": 86.32,
+    "end": 88.74,
+    "text": "Debt allows you to bring future income into the present.",
+    "wordCount": 10
+  },
+  {
+    "index": 38,
+    "start": 89,
+    "end": 90.76,
+    "text": "It is basically a time machine for money.",
+    "wordCount": 8
+  },
+  {
+    "index": 39,
+    "start": 90.97,
+    "end": 94.6,
+    "text": "And once humans figured that out, we began using it for almost everything.",
+    "wordCount": 13
+  },
+  {
+    "index": 40,
+    "start": 94.62,
+    "end": 96.55,
+    "text": "Businesses borrow money to build factories.",
+    "wordCount": 6
+  },
+  {
+    "index": 41,
+    "start": 96.88,
+    "end": 98.88,
+    "text": "Airlines borrow money to buy planes.",
+    "wordCount": 6
+  },
+  {
+    "index": 42,
+    "start": 99,
+    "end": 100.96,
+    "text": "Farmers borrow money to buy equipment.",
+    "wordCount": 6
+  },
+  {
+    "index": 43,
+    "start": 100.98,
+    "end": 102.6,
+    "text": "Cities borrow money to build roads.",
+    "wordCount": 6
+  },
+  {
+    "index": 44,
+    "start": 102.92,
+    "end": 111,
+    "text": "Governments borrow money to build infrastructure, fund wars, survive recessions, and occasionally fund something everyone will spend the next twenty years arguing about.",
+    "wordCount": 23
+  },
+  {
+    "index": 45,
+    "start": 111.08,
+    "end": 112.48,
+    "text": "Because waiting is expensive.",
+    "wordCount": 4
+  },
+  {
+    "index": 46,
+    "start": 112.82,
+    "end": 116.02,
+    "text": "Imagine you want to build a factory that costs one hundred million dollars.",
+    "wordCount": 13
+  },
+  {
+    "index": 47,
+    "start": 116.34,
+    "end": 118.92,
+    "text": "Without borrowing, maybe you spend twenty years saving.",
+    "wordCount": 8
+  },
+  {
+    "index": 48,
+    "start": 119.22,
+    "end": 120.66,
+    "text": "Year one, no factory.",
+    "wordCount": 4
+  },
+  {
+    "index": 49,
+    "start": 121,
+    "end": 122.69,
+    "text": "Year five, still no factory.",
+    "wordCount": 5
+  },
+  {
+    "index": 50,
+    "start": 122.99,
+    "end": 125.22,
+    "text": "Year twelve, very impressive spreadsheet.",
+    "wordCount": 5
+  },
+  {
+    "index": 51,
+    "start": 125.52,
+    "end": 127.46,
+    "text": "Year twenty, congratulations.",
+    "wordCount": 3
+  },
+  {
+    "index": 52,
+    "start": 127.5,
+    "end": 128.82,
+    "text": "You finally have the money.",
+    "wordCount": 5
+  },
+  {
+    "index": 53,
+    "start": 128.86,
+    "end": 136.1,
+    "text": "Unfortunately, your competitor built three factories, launched an app, bought your company, and renamed you Legacy Operations Division.",
+    "wordCount": 18
+  },
+  {
+    "index": 54,
+    "start": 136.46,
+    "end": 137.7,
+    "text": "So instead, you borrow.",
+    "wordCount": 4
+  },
+  {
+    "index": 55,
+    "start": 138.04,
+    "end": 139.4,
+    "text": "You build the factory today.",
+    "wordCount": 5
+  },
+  {
+    "index": 56,
+    "start": 139.44,
+    "end": 141.18,
+    "text": "The factory produces goods today.",
+    "wordCount": 5
+  },
+  {
+    "index": 57,
+    "start": 141.2,
+    "end": 142.43,
+    "text": "It generates revenue today.",
+    "wordCount": 4
+  },
+  {
+    "index": 58,
+    "start": 142.73,
+    "end": 145.04,
+    "text": "And that future revenue hopefully repays the loan.",
+    "wordCount": 8
+  },
+  {
+    "index": 59,
+    "start": 145.36,
+    "end": 147.64,
+    "text": "This is the first reason debt is so powerful.",
+    "wordCount": 9
+  },
+  {
+    "index": 60,
+    "start": 147.68,
+    "end": 150.8,
+    "text": "Debt turns future productivity into present investment.",
+    "wordCount": 7
+  },
+  {
+    "index": 61,
+    "start": 150.82,
+    "end": 154.84,
+    "text": "But now things get weird because you might imagine a bank giving someone a loan like this.",
+    "wordCount": 17
+  },
+  {
+    "index": 62,
+    "start": 154.88,
+    "end": 161.16,
+    "text": "The bank walks into a giant vault, finds a pile of money, scoops out one hundred thousand dollars and hands it to you.",
+    "wordCount": 23
+  },
+  {
+    "index": 63,
+    "start": 161.26,
+    "end": 162.01,
+    "text": "Very cinematic.",
+    "wordCount": 2
+  },
+  {
+    "index": 64,
+    "start": 162.36,
+    "end": 163.32,
+    "text": "Very Scrooge McDuck.",
+    "wordCount": 3
+  },
+  {
+    "index": 65,
+    "start": 163.68,
+    "end": 165.58,
+    "text": "Modern banking is stranger than that.",
+    "wordCount": 6
+  },
+  {
+    "index": 66,
+    "start": 165.62,
+    "end": 168.54,
+    "text": "Suppose a bank approves you for a one hundred thousand dollar loan.",
+    "wordCount": 12
+  },
+  {
+    "index": 67,
+    "start": 168.58,
+    "end": 174.58,
+    "text": "The bank records that you now owe it one hundred thousand dollars, and then your bank account gets credited with one hundred thousand dollars.",
+    "wordCount": 24
+  },
+  {
+    "index": 68,
+    "start": 174.9,
+    "end": 175.96,
+    "text": "Congratulations.",
+    "wordCount": 1
+  },
+  {
+    "index": 69,
+    "start": 176,
+    "end": 177.28,
+    "text": "There is now a new deposit.",
+    "wordCount": 6
+  },
+  {
+    "index": 70,
+    "start": 177.29,
+    "end": 181.299,
+    "text": "The bank created an asset, your loan, and a liability, your deposit.",
+    "wordCount": 12
+  },
+  {
+    "index": 71,
+    "start": 181.64,
+    "end": 185.35,
+    "text": "That is one reason people say banks create money when they lend, because they do.",
+    "wordCount": 15
+  },
+  {
+    "index": 72,
+    "start": 185.42,
+    "end": 186.5,
+    "text": "Not infinite money.",
+    "wordCount": 3
+  },
+  {
+    "index": 73,
+    "start": 186.52,
+    "end": 190.06,
+    "text": "Banks cannot simply hit copy and paste until everyone owns a Lamborghini.",
+    "wordCount": 12
+  },
+  {
+    "index": 74,
+    "start": 190.1,
+    "end": 199.16,
+    "text": "They face capital rules, liquidity requirements, funding costs, regulation, risk, and the small inconvenience that borrowers occasionally do not pay them back.",
+    "wordCount": 22
+  },
+  {
+    "index": 75,
+    "start": 199.18,
+    "end": 203.2,
+    "text": "But lending and money creation are deeply connected, which creates a strange fact.",
+    "wordCount": 13
+  },
+  {
+    "index": 76,
+    "start": 203.26,
+    "end": 205.3,
+    "text": "Your money is often connected to somebody else's debt.",
+    "wordCount": 9
+  },
+  {
+    "index": 77,
+    "start": 205.58,
+    "end": 207.58,
+    "text": "Your bank deposit is an asset to you.",
+    "wordCount": 8
+  },
+  {
+    "index": 78,
+    "start": 207.609,
+    "end": 210.09,
+    "text": "But on another balance sheet, there is a liability.",
+    "wordCount": 9
+  },
+  {
+    "index": 79,
+    "start": 210.1,
+    "end": 212.68,
+    "text": "And once you notice this, you start seeing it everywhere.",
+    "wordCount": 10
+  },
+  {
+    "index": 80,
+    "start": 212.94,
+    "end": 215.92,
+    "text": "Now, here's the question that makes the entire system sound impossible.",
+    "wordCount": 11
+  },
+  {
+    "index": 81,
+    "start": 216.26,
+    "end": 218.76,
+    "text": "If everyone is borrowing, who is lending all this money?",
+    "wordCount": 10
+  },
+  {
+    "index": 82,
+    "start": 219.06,
+    "end": 220.88,
+    "text": "The answer is also everyone.",
+    "wordCount": 5
+  },
+  {
+    "index": 83,
+    "start": 221.16,
+    "end": 223.14,
+    "text": "Your retirement fund might own corporate bonds.",
+    "wordCount": 7
+  },
+  {
+    "index": 84,
+    "start": 223.41,
+    "end": 225.16,
+    "text": "A bank might own government bonds.",
+    "wordCount": 6
+  },
+  {
+    "index": 85,
+    "start": 225.2,
+    "end": 227.54,
+    "text": "An insurance company might lend to corporations.",
+    "wordCount": 7
+  },
+  {
+    "index": 86,
+    "start": 227.58,
+    "end": 229.8,
+    "text": "Investment funds might finance mortgages.",
+    "wordCount": 5
+  },
+  {
+    "index": 87,
+    "start": 229.84,
+    "end": 232.46,
+    "text": "Foreign governments may own another country's government debt.",
+    "wordCount": 8
+  },
+  {
+    "index": 88,
+    "start": 232.5,
+    "end": 237.44,
+    "text": "Your savings may be funding somebody else's business, and somebody else's savings may be financing your house.",
+    "wordCount": 17
+  },
+  {
+    "index": 89,
+    "start": 237.5,
+    "end": 242.91,
+    "text": "The global economy is basically one enormous group chat where everyone keeps saying, \"I'll pay you later.\"",
+    "wordCount": 17
+  },
+  {
+    "index": 90,
+    "start": 243.23,
+    "end": 248.12,
+    "text": "Which is funny until you realize trillions of dollars depend on those messages actually being true.",
+    "wordCount": 16
+  },
+  {
+    "index": 91,
+    "start": 248.24,
+    "end": 249.24,
+    "text": "Take government debt.",
+    "wordCount": 3
+  },
+  {
+    "index": 92,
+    "start": 249.6,
+    "end": 251.48,
+    "text": "Governments borrow money by selling bonds.",
+    "wordCount": 6
+  },
+  {
+    "index": 93,
+    "start": 251.85,
+    "end": 254.64,
+    "text": "A bond is basically a very official IOU.",
+    "wordCount": 8
+  },
+  {
+    "index": 94,
+    "start": 255.08,
+    "end": 256.7,
+    "text": "An investor says, \"Here's money.\"",
+    "wordCount": 5
+  },
+  {
+    "index": 95,
+    "start": 256.95,
+    "end": 258.36,
+    "text": "The government says, \"Thank you.",
+    "wordCount": 5
+  },
+  {
+    "index": 96,
+    "start": 258.78,
+    "end": 260.68,
+    "text": "I promise future government will deal with this.\"",
+    "wordCount": 8
+  },
+  {
+    "index": 97,
+    "start": 261,
+    "end": 262.48,
+    "text": "The investor says, \"Excellent.\"",
+    "wordCount": 4
+  },
+  {
+    "index": 98,
+    "start": 262.7,
+    "end": 263.98,
+    "text": "Banks buy these IOUs.",
+    "wordCount": 4
+  },
+  {
+    "index": 99,
+    "start": 264.3,
+    "end": 265.34,
+    "text": "Pension funds buy them.",
+    "wordCount": 4
+  },
+  {
+    "index": 100,
+    "start": 265.58,
+    "end": 266.82,
+    "text": "Investment funds buy them.",
+    "wordCount": 4
+  },
+  {
+    "index": 101,
+    "start": 267.08,
+    "end": 268.42,
+    "text": "Insurance companies buy them.",
+    "wordCount": 4
+  },
+  {
+    "index": 102,
+    "start": 268.76,
+    "end": 270,
+    "text": "Foreign governments buy them.",
+    "wordCount": 4
+  },
+  {
+    "index": 103,
+    "start": 270.32,
+    "end": 271.85,
+    "text": "Even central banks hold them.",
+    "wordCount": 5
+  },
+  {
+    "index": 104,
+    "start": 272.22,
+    "end": 278.83,
+    "text": "In major financial systems, high quality government bonds are not treated like some radioactive pile of financial shame.",
+    "wordCount": 18
+  },
+  {
+    "index": 105,
+    "start": 279.14,
+    "end": 281.76,
+    "text": "They're often considered among the safest assets available.",
+    "wordCount": 8
+  },
+  {
+    "index": 106,
+    "start": 282.02,
+    "end": 284.02,
+    "text": "Financial institutions use them to store money.",
+    "wordCount": 7
+  },
+  {
+    "index": 107,
+    "start": 284.4,
+    "end": 285.52,
+    "text": "They use them as collateral.",
+    "wordCount": 5
+  },
+  {
+    "index": 108,
+    "start": 285.86,
+    "end": 289.52,
+    "text": "Their interest rates help influence the price of loans and investments across the economy.",
+    "wordCount": 14
+  },
+  {
+    "index": 109,
+    "start": 289.9,
+    "end": 297.8,
+    "text": "So when you hear the government owes trillions of dollars, your brain naturally imagines someone receiving a very aggressive credit card bill.",
+    "wordCount": 22
+  },
+  {
+    "index": 110,
+    "start": 298.12,
+    "end": 300.9,
+    "text": "Amount due: thirty-four trillion dollars.",
+    "wordCount": 5
+  },
+  {
+    "index": 111,
+    "start": 301.2,
+    "end": 303.26,
+    "text": "Minimum payment: your entire country.",
+    "wordCount": 5
+  },
+  {
+    "index": 112,
+    "start": 303.56,
+    "end": 306.42,
+    "text": "But governments do not work exactly like households.",
+    "wordCount": 8
+  },
+  {
+    "index": 113,
+    "start": 306.76,
+    "end": 309.56,
+    "text": "A household normally cannot refinance its debt forever.",
+    "wordCount": 8
+  },
+  {
+    "index": 114,
+    "start": 309.86,
+    "end": 311.08,
+    "text": "Governments frequently do.",
+    "wordCount": 3
+  },
+  {
+    "index": 115,
+    "start": 311.36,
+    "end": 312.62,
+    "text": "A bond matures.",
+    "wordCount": 3
+  },
+  {
+    "index": 116,
+    "start": 312.63,
+    "end": 313.94,
+    "text": "The government issues another bond.",
+    "wordCount": 5
+  },
+  {
+    "index": 117,
+    "start": 314.19,
+    "end": 315.38,
+    "text": "That bond matures.",
+    "wordCount": 3
+  },
+  {
+    "index": 118,
+    "start": 315.46,
+    "end": 317.04,
+    "text": "Another bond, and so on.",
+    "wordCount": 5
+  },
+  {
+    "index": 119,
+    "start": 317.08,
+    "end": 318.95,
+    "text": "This is called rolling over debt.",
+    "wordCount": 6
+  },
+  {
+    "index": 120,
+    "start": 319.16,
+    "end": 320.65,
+    "text": "Basically, I'll pay you Tuesday.",
+    "wordCount": 5
+  },
+  {
+    "index": 121,
+    "start": 320.94,
+    "end": 322.02,
+    "text": "Tuesday arrives.",
+    "wordCount": 2
+  },
+  {
+    "index": 122,
+    "start": 322.06,
+    "end": 322.46,
+    "text": "Interesting.",
+    "wordCount": 1
+  },
+  {
+    "index": 123,
+    "start": 322.828,
+    "end": 324.808,
+    "text": "How do you feel about next Tuesday?",
+    "wordCount": 7
+  },
+  {
+    "index": 124,
+    "start": 325.128,
+    "end": 327.548,
+    "text": "This does not mean government debt is harmless.",
+    "wordCount": 8
+  },
+  {
+    "index": 125,
+    "start": 327.868,
+    "end": 330.588,
+    "text": "If investors lose confidence, interest rates can rise.",
+    "wordCount": 8
+  },
+  {
+    "index": 126,
+    "start": 330.868,
+    "end": 333.368,
+    "text": "Higher interest costs eat into government budgets.",
+    "wordCount": 7
+  },
+  {
+    "index": 127,
+    "start": 333.648,
+    "end": 335.798,
+    "text": "Borrowing too much can become dangerous.",
+    "wordCount": 6
+  },
+  {
+    "index": 128,
+    "start": 336.128,
+    "end": 341.108,
+    "text": "Countries that borrow heavily in currencies they do not control can face even harsher limits.",
+    "wordCount": 15
+  },
+  {
+    "index": 129,
+    "start": 341.408,
+    "end": 345.308,
+    "text": "But the important question usually isn't, does this country have debt?",
+    "wordCount": 11
+  },
+  {
+    "index": 130,
+    "start": 345.328,
+    "end": 347.408,
+    "text": "Almost all modern countries do.",
+    "wordCount": 5
+  },
+  {
+    "index": 131,
+    "start": 347.448,
+    "end": 351.108,
+    "text": "The better question is, can this country handle its debt?",
+    "wordCount": 10
+  },
+  {
+    "index": 132,
+    "start": 351.348,
+    "end": 352.248,
+    "text": "Imagine two people.",
+    "wordCount": 3
+  },
+  {
+    "index": 133,
+    "start": 352.478,
+    "end": 357.328,
+    "text": "Person A owes ten thousand dollars and earns two hundred thousand dollars per year.",
+    "wordCount": 14
+  },
+  {
+    "index": 134,
+    "start": 357.628,
+    "end": 361.888,
+    "text": "Person B owes ten thousand dollars and earns twelve thousand dollars per year.",
+    "wordCount": 13
+  },
+  {
+    "index": 135,
+    "start": 362.188,
+    "end": 364.548,
+    "text": "Same debt, very different panic levels.",
+    "wordCount": 6
+  },
+  {
+    "index": 136,
+    "start": 364.888,
+    "end": 365.748,
+    "text": "Countries are similar.",
+    "wordCount": 3
+  },
+  {
+    "index": 137,
+    "start": 366.028,
+    "end": 368.588,
+    "text": "The raw number alone doesn't tell you enough.",
+    "wordCount": 8
+  },
+  {
+    "index": 138,
+    "start": 368.888,
+    "end": 382.068,
+    "text": "You care about the size of the economy, tax revenue, interest rates, economic growth, currency, when the debt needs to be repaid, who owns it, and most importantly, what the borrowed money was used for.",
+    "wordCount": 35
+  },
+  {
+    "index": 139,
+    "start": 382.108,
+    "end": 385.848,
+    "text": "Because debt can be productive or spectacularly stupid.",
+    "wordCount": 8
+  },
+  {
+    "index": 140,
+    "start": 386.148,
+    "end": 391.368,
+    "text": "Borrow one billion dollars to build infrastructure that makes an economy more productive may be excellent.",
+    "wordCount": 16
+  },
+  {
+    "index": 141,
+    "start": 391.628,
+    "end": 402.008,
+    "text": "Borrow one billion dollars to build a four hundred meter golden statue of yourself shooting lasers from its eyes, tourism might surprise us, but financially, we have questions.",
+    "wordCount": 28
+  },
+  {
+    "index": 142,
+    "start": 402.048,
+    "end": 405.268,
+    "text": "Debt itself is not automatically good or bad.",
+    "wordCount": 8
+  },
+  {
+    "index": 143,
+    "start": 405.548,
+    "end": 410.368,
+    "text": "Debt is a tool, and tools become dangerous when humans discover leverage.",
+    "wordCount": 12
+  },
+  {
+    "index": 144,
+    "start": 410.748,
+    "end": 412.108,
+    "text": "Leverage sounds complicated.",
+    "wordCount": 3
+  },
+  {
+    "index": 145,
+    "start": 412.328,
+    "end": 412.708,
+    "text": "It isn't.",
+    "wordCount": 2
+  },
+  {
+    "index": 146,
+    "start": 412.948,
+    "end": 416.008,
+    "text": "Leverage means using borrowed money to make a bigger bet.",
+    "wordCount": 10
+  },
+  {
+    "index": 147,
+    "start": 416.248,
+    "end": 418.588,
+    "text": "Suppose you have ten dollars, you invest it.",
+    "wordCount": 8
+  },
+  {
+    "index": 148,
+    "start": 418.628,
+    "end": 420.308,
+    "text": "The investment goes up ten percent.",
+    "wordCount": 6
+  },
+  {
+    "index": 149,
+    "start": 420.528,
+    "end": 421.428,
+    "text": "You make one dollar.",
+    "wordCount": 4
+  },
+  {
+    "index": 150,
+    "start": 421.708,
+    "end": 421.968,
+    "text": "Nice.",
+    "wordCount": 1
+  },
+  {
+    "index": 151,
+    "start": 422.248,
+    "end": 423.298,
+    "text": "Buy yourself half a coffee.",
+    "wordCount": 5
+  },
+  {
+    "index": 152,
+    "start": 423.668,
+    "end": 427.448,
+    "text": "Now, suppose you have ten dollars, but borrow another ninety.",
+    "wordCount": 10
+  },
+  {
+    "index": 153,
+    "start": 427.488,
+    "end": 429.328,
+    "text": "You invest one hundred dollars.",
+    "wordCount": 5
+  },
+  {
+    "index": 154,
+    "start": 429.368,
+    "end": 431.148,
+    "text": "The investment rises ten percent.",
+    "wordCount": 5
+  },
+  {
+    "index": 155,
+    "start": 431.188,
+    "end": 432.248,
+    "text": "You make ten dollars.",
+    "wordCount": 4
+  },
+  {
+    "index": 156,
+    "start": 432.618,
+    "end": 434.908,
+    "text": "You just doubled your original money.",
+    "wordCount": 6
+  },
+  {
+    "index": 157,
+    "start": 434.968,
+    "end": 436.688,
+    "text": "You are incredible.",
+    "wordCount": 3
+  },
+  {
+    "index": 158,
+    "start": 436.728,
+    "end": 437.988,
+    "text": "CNBC wants an interview.",
+    "wordCount": 4
+  },
+  {
+    "index": 159,
+    "start": 438.288,
+    "end": 442.698,
+    "text": "Your LinkedIn bio now says, \"Investor, visionary, thought leader.\"",
+    "wordCount": 9
+  },
+  {
+    "index": 160,
+    "start": 443.048,
+    "end": 444.478,
+    "text": "You begin researching yachts.",
+    "wordCount": 4
+  },
+  {
+    "index": 161,
+    "start": 444.828,
+    "end": 447.288,
+    "text": "But then the investment falls ten percent.",
+    "wordCount": 7
+  },
+  {
+    "index": 162,
+    "start": 447.348,
+    "end": 449.048,
+    "text": "You lose ten dollars.",
+    "wordCount": 4
+  },
+  {
+    "index": 163,
+    "start": 449.088,
+    "end": 450.758,
+    "text": "Your original money, gone.",
+    "wordCount": 4
+  },
+  {
+    "index": 164,
+    "start": 450.788,
+    "end": 455.108,
+    "text": "The lender, however, would still very much like its ninety dollars.",
+    "wordCount": 11
+  },
+  {
+    "index": 165,
+    "start": 455.528,
+    "end": 458.078,
+    "text": "Suddenly, your yacht research feels premature.",
+    "wordCount": 6
+  },
+  {
+    "index": 166,
+    "start": 458.548,
+    "end": 459.888,
+    "text": "This is leverage.",
+    "wordCount": 3
+  },
+  {
+    "index": 167,
+    "start": 459.948,
+    "end": 466.348,
+    "text": "It magnifies success, and it magnifies stupidity, which explains a surprising amount of financial history.",
+    "wordCount": 15
+  },
+  {
+    "index": 168,
+    "start": 466.657,
+    "end": 470.388,
+    "text": "And now we reach the thing that can destroy this entire machine.",
+    "wordCount": 12
+  },
+  {
+    "index": 169,
+    "start": 470.708,
+    "end": 473.448,
+    "text": "Not debt, not money, not even leverage.",
+    "wordCount": 7
+  },
+  {
+    "index": 170,
+    "start": 473.808,
+    "end": 474.328,
+    "text": "Trust.",
+    "wordCount": 1
+  },
+  {
+    "index": 171,
+    "start": 474.668,
+    "end": 476.648,
+    "text": "Debt is a promise about the future.",
+    "wordCount": 7
+  },
+  {
+    "index": 172,
+    "start": 476.968,
+    "end": 479.448,
+    "text": "When someone lends money, they're making a prediction.",
+    "wordCount": 8
+  },
+  {
+    "index": 173,
+    "start": 479.808,
+    "end": 481.528,
+    "text": "Will this person still have a job?",
+    "wordCount": 7
+  },
+  {
+    "index": 174,
+    "start": 481.868,
+    "end": 483.108,
+    "text": "Will this company make money?",
+    "wordCount": 5
+  },
+  {
+    "index": 175,
+    "start": 483.448,
+    "end": 486.708,
+    "text": "Will this government still collect taxes twenty years from now?",
+    "wordCount": 10
+  },
+  {
+    "index": 176,
+    "start": 487.068,
+    "end": 488.668,
+    "text": "Will this property stay valuable?",
+    "wordCount": 5
+  },
+  {
+    "index": 177,
+    "start": 489.008,
+    "end": 490.928,
+    "text": "Will this factory actually work?",
+    "wordCount": 5
+  },
+  {
+    "index": 178,
+    "start": 491.268,
+    "end": 494.088,
+    "text": "If the answer looks like yes, borrowing is easier.",
+    "wordCount": 9
+  },
+  {
+    "index": 179,
+    "start": 494.428,
+    "end": 498.088,
+    "text": "If the answer looks like maybe, lenders demand more interest.",
+    "wordCount": 10
+  },
+  {
+    "index": 180,
+    "start": 498.168,
+    "end": 501.558,
+    "text": "If the answer looks like absolutely not, what are you doing?",
+    "wordCount": 11
+  },
+  {
+    "index": 181,
+    "start": 501.888,
+    "end": 505.588,
+    "text": "The money disappears, and that's where things can become nasty.",
+    "wordCount": 10
+  },
+  {
+    "index": 182,
+    "start": 505.628,
+    "end": 508.008,
+    "text": "Imagine a company begins looking risky.",
+    "wordCount": 6
+  },
+  {
+    "index": 183,
+    "start": 508.088,
+    "end": 510.128,
+    "text": "Lenders demand higher interest rates.",
+    "wordCount": 5
+  },
+  {
+    "index": 184,
+    "start": 510.168,
+    "end": 512.458,
+    "text": "Higher interest payments make the company weaker.",
+    "wordCount": 7
+  },
+  {
+    "index": 185,
+    "start": 512.808,
+    "end": 516.388,
+    "text": "That makes lenders even more nervous, so rates rise again.",
+    "wordCount": 10
+  },
+  {
+    "index": 186,
+    "start": 516.688,
+    "end": 518.328,
+    "text": "The company gets weaker again.",
+    "wordCount": 5
+  },
+  {
+    "index": 187,
+    "start": 518.408,
+    "end": 526.248,
+    "text": "Eventually, lenders stop lending entirely, and suddenly, a company that looked alive yesterday can run out of money today.",
+    "wordCount": 19
+  },
+  {
+    "index": 188,
+    "start": 526.288,
+    "end": 528.848,
+    "text": "This is why credit crises move so fast.",
+    "wordCount": 8
+  },
+  {
+    "index": 189,
+    "start": 529.168,
+    "end": 534.668,
+    "text": "During good times, banks lend, companies invest, consumers spend, asset prices rise.",
+    "wordCount": 12
+  },
+  {
+    "index": 190,
+    "start": 535.008,
+    "end": 536.148,
+    "text": "Everyone makes money.",
+    "wordCount": 3
+  },
+  {
+    "index": 191,
+    "start": 536.208,
+    "end": 537.708,
+    "text": "Everyone feels intelligent.",
+    "wordCount": 3
+  },
+  {
+    "index": 192,
+    "start": 537.748,
+    "end": 541.298,
+    "text": "Someone buys a podcast microphone, then something breaks.",
+    "wordCount": 8
+  },
+  {
+    "index": 193,
+    "start": 542.008,
+    "end": 558.328,
+    "text": "Borrowers start defaulting, lenders panic, banks become afraid to lend, credit disappears, companies cannot refinance, investors sell assets, prices fall, more borrowers get into trouble, and suddenly, everybody is significantly less interested in starting a podcast.",
+    "wordCount": 36
+  },
+  {
+    "index": 194,
+    "start": 558.338,
+    "end": 562.168,
+    "text": "The two thousand and eight financial crisis was one dramatic example.",
+    "wordCount": 11
+  },
+  {
+    "index": 195,
+    "start": 562.308,
+    "end": 564.388,
+    "text": "Huge amounts of mortgage debt had been created.",
+    "wordCount": 8
+  },
+  {
+    "index": 196,
+    "start": 564.748,
+    "end": 567.428,
+    "text": "Those mortgages were packaged into financial products.",
+    "wordCount": 7
+  },
+  {
+    "index": 197,
+    "start": 567.808,
+    "end": 569.188,
+    "text": "Housing prices kept rising.",
+    "wordCount": 4
+  },
+  {
+    "index": 198,
+    "start": 569.508,
+    "end": 571.228,
+    "text": "People became increasingly confident.",
+    "wordCount": 4
+  },
+  {
+    "index": 199,
+    "start": 571.488,
+    "end": 573.708,
+    "text": "Risk looked small, until it wasn't.",
+    "wordCount": 6
+  },
+  {
+    "index": 200,
+    "start": 573.748,
+    "end": 575.088,
+    "text": "Housing prices fell.",
+    "wordCount": 3
+  },
+  {
+    "index": 201,
+    "start": 575.128,
+    "end": 576.468,
+    "text": "Mortgage defaults rose.",
+    "wordCount": 3
+  },
+  {
+    "index": 202,
+    "start": 576.848,
+    "end": 579.948,
+    "text": "Financial assets tied to those mortgages lost value.",
+    "wordCount": 8
+  },
+  {
+    "index": 203,
+    "start": 580.028,
+    "end": 583.508,
+    "text": "Banks discovered that things they thought were safe were not safe.",
+    "wordCount": 11
+  },
+  {
+    "index": 204,
+    "start": 583.798,
+    "end": 590.488,
+    "text": "And because financial institutions were deeply connected, problems in American housing spread across global markets.",
+    "wordCount": 15
+  },
+  {
+    "index": 205,
+    "start": 590.588,
+    "end": 592.388,
+    "text": "Debt existed before the crisis.",
+    "wordCount": 5
+  },
+  {
+    "index": 206,
+    "start": 592.658,
+    "end": 594.758,
+    "text": "Debt still exists after the crisis.",
+    "wordCount": 6
+  },
+  {
+    "index": 207,
+    "start": 595.088,
+    "end": 606.428,
+    "text": "The real problem was the combination of bad lending, excessive leverage, weak incentives, underestimated risk, and far too much confidence in assumptions that turned out to be wrong.",
+    "wordCount": 28
+  },
+  {
+    "index": 208,
+    "start": 606.748,
+    "end": 610.788,
+    "text": "In other words, the system did not break because people made promises.",
+    "wordCount": 12
+  },
+  {
+    "index": 209,
+    "start": 611.088,
+    "end": 617.308,
+    "text": "It broke because too many people made promises they could not keep, and everyone had bet that they would.",
+    "wordCount": 19
+  },
+  {
+    "index": 210,
+    "start": 617.688,
+    "end": 619.498,
+    "text": "So now the obvious question.",
+    "wordCount": 5
+  },
+  {
+    "index": 211,
+    "start": 619.528,
+    "end": 627.908,
+    "text": "If debt can destroy banks, companies, economies, retirement accounts, and occasionally your uncle's property empire, why not just get rid of it?",
+    "wordCount": 22
+  },
+  {
+    "index": 212,
+    "start": 628.208,
+    "end": 631.128,
+    "text": "Because a world without debt has its own problems.",
+    "wordCount": 9
+  },
+  {
+    "index": 213,
+    "start": 631.208,
+    "end": 634.428,
+    "text": "Imagine companies can only invest money they already have.",
+    "wordCount": 9
+  },
+  {
+    "index": 214,
+    "start": 634.748,
+    "end": 636.228,
+    "text": "Factories take longer to build.",
+    "wordCount": 5
+  },
+  {
+    "index": 215,
+    "start": 636.548,
+    "end": 638.268,
+    "text": "New businesses struggle to expand.",
+    "wordCount": 5
+  },
+  {
+    "index": 216,
+    "start": 638.588,
+    "end": 641.948,
+    "text": "Infrastructure requires huge amounts of immediate taxation.",
+    "wordCount": 7
+  },
+  {
+    "index": 217,
+    "start": 642.228,
+    "end": 644.428,
+    "text": "Buying a house becomes dramatically harder.",
+    "wordCount": 6
+  },
+  {
+    "index": 218,
+    "start": 644.708,
+    "end": 651.588,
+    "text": "A twenty-five-year-old who might earn millions of dollars over their lifetime could still have to wait decades before buying property.",
+    "wordCount": 20
+  },
+  {
+    "index": 219,
+    "start": 651.928,
+    "end": 656.088,
+    "text": "Great entrepreneurs with little cash might never build anything.",
+    "wordCount": 9
+  },
+  {
+    "index": 220,
+    "start": 656.168,
+    "end": 665.147,
+    "text": "Meanwhile, people who already have lots of money become even more powerful because investment becomes much more dependent on existing wealth.",
+    "wordCount": 21
+  },
+  {
+    "index": 221,
+    "start": 665.188,
+    "end": 672.908,
+    "text": "Debt connects two groups, people who have resources today and people who believe they can create value tomorrow.",
+    "wordCount": 18
+  },
+  {
+    "index": 222,
+    "start": 672.948,
+    "end": 679.288,
+    "text": "At its best, credit is the bridge between them, and this is why debt explodes during crises.",
+    "wordCount": 17
+  },
+  {
+    "index": 223,
+    "start": 679.348,
+    "end": 680.527,
+    "text": "Imagine a recession.",
+    "wordCount": 3
+  },
+  {
+    "index": 224,
+    "start": 680.548,
+    "end": 681.358,
+    "text": "People spend less.",
+    "wordCount": 3
+  },
+  {
+    "index": 225,
+    "start": 681.648,
+    "end": 682.628,
+    "text": "Businesses earn less.",
+    "wordCount": 3
+  },
+  {
+    "index": 226,
+    "start": 683.008,
+    "end": 684.388,
+    "text": "Businesses fire workers.",
+    "wordCount": 3
+  },
+  {
+    "index": 227,
+    "start": 684.638,
+    "end": 686.368,
+    "text": "Those workers spend even less.",
+    "wordCount": 5
+  },
+  {
+    "index": 228,
+    "start": 686.628,
+    "end": 688.408,
+    "text": "Businesses earn even less.",
+    "wordCount": 4
+  },
+  {
+    "index": 229,
+    "start": 688.768,
+    "end": 689.948,
+    "text": "More workers get fired.",
+    "wordCount": 4
+  },
+  {
+    "index": 230,
+    "start": 690.268,
+    "end": 691.048,
+    "text": "Congratulations.",
+    "wordCount": 1
+  },
+  {
+    "index": 231,
+    "start": 691.368,
+    "end": 693.848,
+    "text": "We have invented the economic toilet flush.",
+    "wordCount": 7
+  },
+  {
+    "index": 232,
+    "start": 694.188,
+    "end": 703.348,
+    "text": "Governments often try to interrupt this cycle by spending on employment support, infrastructure, emergency programs, business assistance, tax relief.",
+    "wordCount": 19
+  },
+  {
+    "index": 233,
+    "start": 703.668,
+    "end": 705.968,
+    "text": "But recessions create an annoying problem.",
+    "wordCount": 6
+  },
+  {
+    "index": 234,
+    "start": 706.458,
+    "end": 711.788,
+    "text": "Tax revenue can fall exactly when governments need more money, so they borrow.",
+    "wordCount": 13
+  },
+  {
+    "index": 235,
+    "start": 711.828,
+    "end": 718.848,
+    "text": "Debt allows governments to spread crisis costs across time instead of trying to collect all the money immediately.",
+    "wordCount": 18
+  },
+  {
+    "index": 236,
+    "start": 718.888,
+    "end": 721.808,
+    "text": "The same logic has historically applied to wars.",
+    "wordCount": 8
+  },
+  {
+    "index": 237,
+    "start": 722.188,
+    "end": 729.587,
+    "text": "Wars are extremely expensive, and governments generally prefer, \"We are issuing war bonds,\" to, \"Good afternoon.",
+    "wordCount": 16
+  },
+  {
+    "index": 238,
+    "start": 729.648,
+    "end": 732.398,
+    "text": "Your taxes are now three hundred percent higher.",
+    "wordCount": 8
+  },
+  {
+    "index": 239,
+    "start": 732.448,
+    "end": 733.308,
+    "text": "Have a wonderful day.\"",
+    "wordCount": 4
+  },
+  {
+    "index": 240,
+    "start": 733.628,
+    "end": 737.748,
+    "text": "The ability to borrow has therefore been a source of state power for centuries.",
+    "wordCount": 14
+  },
+  {
+    "index": 241,
+    "start": 738.028,
+    "end": 745.238,
+    "text": "A government that people trust enough to lend to can mobilize far more resources than the cash sitting in its treasury today.",
+    "wordCount": 22
+  },
+  {
+    "index": 242,
+    "start": 745.648,
+    "end": 747.588,
+    "text": "Debt doesn't just shape economies.",
+    "wordCount": 5
+  },
+  {
+    "index": 243,
+    "start": 747.628,
+    "end": 749.278,
+    "text": "Debt has helped shape history.",
+    "wordCount": 5
+  },
+  {
+    "index": 244,
+    "start": 749.648,
+    "end": 751.778,
+    "text": "Which brings us back to our original question.",
+    "wordCount": 8
+  },
+  {
+    "index": 245,
+    "start": 752.058,
+    "end": 754.698,
+    "text": "The world owes an absurd amount of money.",
+    "wordCount": 8
+  },
+  {
+    "index": 246,
+    "start": 755.088,
+    "end": 757.378,
+    "text": "So who exactly do we owe it to?",
+    "wordCount": 8
+  },
+  {
+    "index": 247,
+    "start": 757.768,
+    "end": 758.528,
+    "text": "Aliens?",
+    "wordCount": 1
+  },
+  {
+    "index": 248,
+    "start": 758.588,
+    "end": 760.538,
+    "text": "A secret billionaire underneath Switzerland?",
+    "wordCount": 5
+  },
+  {
+    "index": 249,
+    "start": 760.968,
+    "end": 763.608,
+    "text": "One extremely patient guy named Steve?",
+    "wordCount": 6
+  },
+  {
+    "index": 250,
+    "start": 764.008,
+    "end": 766.008,
+    "text": "Mostly, we owe it to each other.",
+    "wordCount": 7
+  },
+  {
+    "index": 251,
+    "start": 766.348,
+    "end": 767.388,
+    "text": "Households owe banks.",
+    "wordCount": 3
+  },
+  {
+    "index": 252,
+    "start": 767.768,
+    "end": 769.048,
+    "text": "Companies owe investors.",
+    "wordCount": 3
+  },
+  {
+    "index": 253,
+    "start": 769.348,
+    "end": 773.588,
+    "text": "Governments owe banks, pension funds, citizens, and other governments.",
+    "wordCount": 9
+  },
+  {
+    "index": 254,
+    "start": 773.908,
+    "end": 775.328,
+    "text": "Banks owe depositors.",
+    "wordCount": 3
+  },
+  {
+    "index": 255,
+    "start": 775.668,
+    "end": 777.748,
+    "text": "Financial institutions owe one another.",
+    "wordCount": 5
+  },
+  {
+    "index": 256,
+    "start": 778.128,
+    "end": 781.088,
+    "text": "Your asset is often somebody else's liability.",
+    "wordCount": 7
+  },
+  {
+    "index": 257,
+    "start": 781.448,
+    "end": 786.908,
+    "text": "Your savings can fund somebody else's future, and their savings can fund yours.",
+    "wordCount": 13
+  },
+  {
+    "index": 258,
+    "start": 786.948,
+    "end": 791.148,
+    "text": "The global financial system is not really a giant pile of cash.",
+    "wordCount": 12
+  },
+  {
+    "index": 259,
+    "start": 791.188,
+    "end": 793.928,
+    "text": "It is a gigantic network of promises.",
+    "wordCount": 7
+  },
+  {
+    "index": 260,
+    "start": 794.248,
+    "end": 795.128,
+    "text": "I'll pay you next month.",
+    "wordCount": 5
+  },
+  {
+    "index": 261,
+    "start": 795.368,
+    "end": 796.208,
+    "text": "I'll pay you next year.",
+    "wordCount": 5
+  },
+  {
+    "index": 262,
+    "start": 796.508,
+    "end": 798.228,
+    "text": "I'll pay you in thirty years.",
+    "wordCount": 6
+  },
+  {
+    "index": 263,
+    "start": 798.708,
+    "end": 807.178,
+    "text": "Debt allows savers to give up spending today so borrowers can spend or invest today in exchange for being repaid from tomorrow.",
+    "wordCount": 22
+  },
+  {
+    "index": 264,
+    "start": 807.548,
+    "end": 809.478,
+    "text": "Interest is the price of waiting.",
+    "wordCount": 6
+  },
+  {
+    "index": 265,
+    "start": 809.908,
+    "end": 812.788,
+    "text": "Risk determines how expensive that waiting becomes.",
+    "wordCount": 7
+  },
+  {
+    "index": 266,
+    "start": 813.098,
+    "end": 822.368,
+    "text": "And the entire system ultimately depends on one gigantic assumption: tomorrow will be productive enough to pay for what we build today.",
+    "wordCount": 22
+  },
+  {
+    "index": 267,
+    "start": 822.738,
+    "end": 828.048,
+    "text": "When that assumption is correct, debt can help economies grow dramatically faster.",
+    "wordCount": 12
+  },
+  {
+    "index": 268,
+    "start": 828.088,
+    "end": 831.228,
+    "text": "When it is wrong, things become interesting.",
+    "wordCount": 7
+  },
+  {
+    "index": 269,
+    "start": 831.268,
+    "end": 833.708,
+    "text": "So yes, the world runs on money.",
+    "wordCount": 7
+  },
+  {
+    "index": 270,
+    "start": 833.728,
+    "end": 845.768,
+    "text": "But money itself runs on something even stranger: trust, expectations, promises about the future, and perhaps more than anything else, I-O-U-S.",
+    "wordCount": 21
+  },
+  {
+    "index": 271,
+    "start": 846.168,
+    "end": 850.308,
+    "text": "So if every debt on Earth disappeared tomorrow, you might celebrate.",
+    "wordCount": 11
+  },
+  {
+    "index": 272,
+    "start": 850.608,
+    "end": 852.948,
+    "text": "Just don't celebrate for more than five minutes.",
+    "wordCount": 8
+  }
+]

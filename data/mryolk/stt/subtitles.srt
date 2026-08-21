@@ -1,0 +1,1195 @@
+1
+00:00:00,080 --> 00:00:04,040
+Imagine you wake up tomorrow morning and every debt on Earth is gone.
+
+2
+00:00:04,280 --> 00:00:05,600
+Your mortgage? Gone.
+
+3
+00:00:05,920 --> 00:00:07,060
+Credit card? Gone.
+
+4
+00:00:07,360 --> 00:00:08,660
+Student loan? Gone.
+
+5
+00:00:09,020 --> 00:00:10,319
+Corporate debt? Gone.
+
+6
+00:00:10,580 --> 00:00:12,260
+Government debt? Also gone.
+
+7
+00:00:12,620 --> 00:00:15,160
+Humanity has finally defeated debt.
+
+8
+00:00:15,200 --> 00:00:19,340
+Congratulations. We did it for approximately five minutes.
+
+9
+00:00:19,400 --> 00:00:21,400
+Because then banks start breaking.
+
+10
+00:00:21,440 --> 00:00:24,710
+Companies suddenly lose access to money they use to operate and expand.
+
+11
+00:00:25,000 --> 00:00:26,310
+Construction projects freeze.
+
+12
+00:00:26,600 --> 00:00:29,340
+Governments lose one of their biggest sources of financing.
+
+13
+00:00:29,380 --> 00:00:33,680
+Investors panic. And the financial system begins discovering that removing all debt is
+
+14
+00:00:33,720 --> 00:00:37,680
+a little like removing all the screws from an airplane because screws are technically
+
+15
+00:00:37,760 --> 00:00:42,180
+adding weight. The weird truth is this: the world does not simply have a lot of debt.
+
+16
+00:00:42,449 --> 00:00:44,150
+The modern world runs on debt.
+
+17
+00:00:44,410 --> 00:00:47,620
+And once you understand why, money starts looking completely different.
+
+18
+00:00:47,960 --> 00:00:50,080
+Let's begin with something painfully normal.
+
+19
+00:00:50,100 --> 00:00:51,019
+You want a house.
+
+20
+00:00:51,060 --> 00:00:53,080
+The house costs three hundred thousand dollars.
+
+21
+00:00:53,420 --> 00:00:54,700
+You check your bank account.
+
+22
+00:00:54,760 --> 00:00:57,080
+It contains not three hundred thousand dollars.
+
+23
+00:00:57,440 --> 00:01:00,780
+Fantastic. But you do have something valuable: a job,
+
+24
+00:01:00,820 --> 00:01:05,070
+an income, and hopefully several decades in which future you continues making money instead
+
+25
+00:01:05,080 --> 00:01:06,780
+of disappearing into the woods.
+
+26
+00:01:06,790 --> 00:01:10,910
+So the bank gives present you three hundred thousand dollars and future you agrees to
+
+27
+00:01:11,020 --> 00:01:13,290
+spend the next twenty or thirty years paying it back.
+
+28
+00:01:13,570 --> 00:01:14,720
+That is a mortgage.
+
+29
+00:01:14,740 --> 00:01:17,840
+But underneath the boring paperwork is a pretty insane idea.
+
+30
+00:01:17,860 --> 00:01:19,900
+You're telling the bank, "I don't have the money."
+
+31
+00:01:19,940 --> 00:01:21,320
+The bank says, "Correct."
+
+32
+00:01:21,620 --> 00:01:24,220
+You say, "But twenty forty-seven me probably will."
+
+33
+00:01:24,500 --> 00:01:26,000
+And the bank says, "Good enough."
+
+34
+00:01:26,320 --> 00:01:28,740
+Debt allows you to bring future income into the present.
+
+35
+00:01:29,000 --> 00:01:30,760
+It is basically a time machine for money.
+
+36
+00:01:30,970 --> 00:01:34,600
+And once humans figured that out, we began using it for almost everything.
+
+37
+00:01:34,620 --> 00:01:36,550
+Businesses borrow money to build factories.
+
+38
+00:01:36,880 --> 00:01:38,880
+Airlines borrow money to buy planes.
+
+39
+00:01:39,000 --> 00:01:40,960
+Farmers borrow money to buy equipment.
+
+40
+00:01:40,980 --> 00:01:42,600
+Cities borrow money to build roads.
+
+41
+00:01:42,920 --> 00:01:45,820
+Governments borrow money to build infrastructure, fund wars,
+
+42
+00:01:46,060 --> 00:01:49,790
+survive recessions, and occasionally fund something everyone will spend the next twenty
+
+43
+00:01:49,880 --> 00:01:51,000
+years arguing about.
+
+44
+00:01:51,080 --> 00:01:52,480
+Because waiting is expensive.
+
+45
+00:01:52,820 --> 00:01:56,020
+Imagine you want to build a factory that costs one hundred million dollars.
+
+46
+00:01:56,340 --> 00:01:58,920
+Without borrowing, maybe you spend twenty years saving.
+
+47
+00:01:59,220 --> 00:02:00,660
+Year one, no factory.
+
+48
+00:02:01,000 --> 00:02:02,690
+Year five, still no factory.
+
+49
+00:02:02,990 --> 00:02:05,220
+Year twelve, very impressive spreadsheet.
+
+50
+00:02:05,520 --> 00:02:07,460
+Year twenty, congratulations.
+
+51
+00:02:07,500 --> 00:02:08,820
+You finally have the money.
+
+52
+00:02:08,860 --> 00:02:11,580
+Unfortunately, your competitor built three factories,
+
+53
+00:02:11,840 --> 00:02:16,100
+launched an app, bought your company, and renamed you Legacy Operations Division.
+
+54
+00:02:16,460 --> 00:02:17,700
+So instead, you borrow.
+
+55
+00:02:18,040 --> 00:02:19,400
+You build the factory today.
+
+56
+00:02:19,440 --> 00:02:21,180
+The factory produces goods today.
+
+57
+00:02:21,200 --> 00:02:22,430
+It generates revenue today.
+
+58
+00:02:22,730 --> 00:02:25,040
+And that future revenue hopefully repays the loan.
+
+59
+00:02:25,360 --> 00:02:27,640
+This is the first reason debt is so powerful.
+
+60
+00:02:27,680 --> 00:02:30,800
+Debt turns future productivity into present investment.
+
+61
+00:02:30,820 --> 00:02:34,290
+But now things get weird because you might imagine a bank giving someone a loan like
+
+62
+00:02:34,360 --> 00:02:37,590
+this. The bank walks into a giant vault, finds a pile of money,
+
+63
+00:02:38,060 --> 00:02:41,160
+scoops out one hundred thousand dollars and hands it to you.
+
+64
+00:02:41,260 --> 00:02:43,320
+Very cinematic. Very Scrooge McDuck.
+
+65
+00:02:43,680 --> 00:02:45,580
+Modern banking is stranger than that.
+
+66
+00:02:45,620 --> 00:02:48,540
+Suppose a bank approves you for a one hundred thousand dollar loan.
+
+67
+00:02:48,580 --> 00:02:51,240
+The bank records that you now owe it one hundred thousand dollars,
+
+68
+00:02:51,590 --> 00:02:54,580
+and then your bank account gets credited with one hundred thousand dollars.
+
+69
+00:02:54,900 --> 00:02:55,960
+Congratulations.
+
+70
+00:02:56,000 --> 00:02:57,280
+There is now a new deposit.
+
+71
+00:02:57,290 --> 00:03:00,750
+The bank created an asset, your loan, and a liability,
+
+72
+00:03:00,780 --> 00:03:04,170
+your deposit. That is one reason people say banks create money when they lend,
+
+73
+00:03:04,460 --> 00:03:06,500
+because they do. Not infinite money.
+
+74
+00:03:06,520 --> 00:03:10,060
+Banks cannot simply hit copy and paste until everyone owns a Lamborghini.
+
+75
+00:03:10,100 --> 00:03:13,480
+They face capital rules, liquidity requirements, funding costs,
+
+76
+00:03:13,720 --> 00:03:18,470
+regulation, risk, and the small inconvenience that borrowers occasionally do not pay
+
+77
+00:03:18,500 --> 00:03:21,390
+them back. But lending and money creation are deeply connected,
+
+78
+00:03:21,609 --> 00:03:23,200
+which creates a strange fact.
+
+79
+00:03:23,260 --> 00:03:25,300
+Your money is often connected to somebody else's debt.
+
+80
+00:03:25,580 --> 00:03:27,580
+Your bank deposit is an asset to you.
+
+81
+00:03:27,609 --> 00:03:30,090
+But on another balance sheet, there is a liability.
+
+82
+00:03:30,100 --> 00:03:32,680
+And once you notice this, you start seeing it everywhere.
+
+83
+00:03:32,940 --> 00:03:35,920
+Now, here's the question that makes the entire system sound impossible.
+
+84
+00:03:36,260 --> 00:03:38,760
+If everyone is borrowing, who is lending all this money?
+
+85
+00:03:39,060 --> 00:03:40,880
+The answer is also everyone.
+
+86
+00:03:41,160 --> 00:03:43,140
+Your retirement fund might own corporate bonds.
+
+87
+00:03:43,410 --> 00:03:45,160
+A bank might own government bonds.
+
+88
+00:03:45,200 --> 00:03:47,540
+An insurance company might lend to corporations.
+
+89
+00:03:47,580 --> 00:03:49,800
+Investment funds might finance mortgages.
+
+90
+00:03:49,840 --> 00:03:52,460
+Foreign governments may own another country's government debt.
+
+91
+00:03:52,500 --> 00:03:54,609
+Your savings may be funding somebody else's business,
+
+92
+00:03:54,880 --> 00:03:57,440
+and somebody else's savings may be financing your house.
+
+93
+00:03:57,500 --> 00:04:01,829
+The global economy is basically one enormous group chat where everyone keeps saying,
+
+94
+00:04:02,180 --> 00:04:06,090
+"I'll pay you later." Which is funny until you realize trillions of dollars depend on
+
+95
+00:04:06,120 --> 00:04:08,120
+those messages actually being true.
+
+96
+00:04:08,240 --> 00:04:09,240
+Take government debt.
+
+97
+00:04:09,600 --> 00:04:11,480
+Governments borrow money by selling bonds.
+
+98
+00:04:11,850 --> 00:04:14,640
+A bond is basically a very official IOU.
+
+99
+00:04:15,080 --> 00:04:16,700
+An investor says, "Here's money."
+
+100
+00:04:16,950 --> 00:04:18,360
+The government says, "Thank you.
+
+101
+00:04:18,780 --> 00:04:20,680
+I promise future government will deal with this."
+
+102
+00:04:21,000 --> 00:04:22,480
+The investor says, "Excellent."
+
+103
+00:04:22,700 --> 00:04:23,980
+Banks buy these I.O.U.s.
+
+104
+00:04:24,300 --> 00:04:25,340
+Pension funds buy them.
+
+105
+00:04:25,580 --> 00:04:26,820
+Investment funds buy them.
+
+106
+00:04:27,080 --> 00:04:28,420
+Insurance companies buy them.
+
+107
+00:04:28,760 --> 00:04:30,000
+Foreign governments buy them.
+
+108
+00:04:30,320 --> 00:04:31,850
+Even central banks hold them.
+
+109
+00:04:32,220 --> 00:04:37,500
+In major financial systems, high quality government bonds are not treated like some radioactive
+
+110
+00:04:37,560 --> 00:04:38,830
+pile of financial shame.
+
+111
+00:04:39,140 --> 00:04:41,760
+They're often considered among the safest assets available.
+
+112
+00:04:42,020 --> 00:04:44,020
+Financial institutions use them to store money.
+
+113
+00:04:44,400 --> 00:04:45,520
+They use them as collateral.
+
+114
+00:04:45,860 --> 00:04:49,520
+Their interest rates help influence the price of loans and investments across the economy.
+
+115
+00:04:49,900 --> 00:04:53,020
+So when you hear the government owes trillions of dollars,
+
+116
+00:04:53,420 --> 00:04:57,800
+your brain naturally imagines someone receiving a very aggressive credit card bill.
+
+117
+00:04:58,120 --> 00:05:00,900
+Amount due: thirty-four trillion dollars.
+
+118
+00:05:01,200 --> 00:05:03,260
+Minimum payment: your entire country.
+
+119
+00:05:03,560 --> 00:05:06,420
+But governments do not work exactly like households.
+
+120
+00:05:06,760 --> 00:05:09,560
+A household normally cannot refinance its debt forever.
+
+121
+00:05:09,860 --> 00:05:11,080
+Governments frequently do.
+
+122
+00:05:11,360 --> 00:05:12,620
+A bond matures.
+
+123
+00:05:12,630 --> 00:05:13,940
+The government issues another bond.
+
+124
+00:05:14,190 --> 00:05:15,380
+That bond matures.
+
+125
+00:05:15,460 --> 00:05:17,040
+Another bond, and so on.
+
+126
+00:05:17,080 --> 00:05:18,950
+This is called rolling over debt.
+
+127
+00:05:19,160 --> 00:05:20,650
+Basically, I'll pay you Tuesday.
+
+128
+00:05:20,940 --> 00:05:22,020
+Tuesday arrives.
+
+129
+00:05:22,060 --> 00:05:24,808
+Interesting. How do you feel about next Tuesday?
+
+130
+00:05:25,128 --> 00:05:27,548
+This does not mean government debt is harmless.
+
+131
+00:05:27,868 --> 00:05:30,588
+If investors lose confidence, interest rates can rise.
+
+132
+00:05:30,868 --> 00:05:33,368
+Higher interest costs eat into government budgets.
+
+133
+00:05:33,648 --> 00:05:35,798
+Borrowing too much can become dangerous.
+
+134
+00:05:36,128 --> 00:05:40,708
+Countries that borrow heavily in currencies they do not control can face even harsher
+
+135
+00:05:40,768 --> 00:05:45,308
+limits. But the important question usually isn't, does this country have debt?
+
+136
+00:05:45,328 --> 00:05:47,408
+Almost all modern countries do.
+
+137
+00:05:47,448 --> 00:05:51,108
+The better question is, can this country handle its debt?
+
+138
+00:05:51,348 --> 00:05:56,477
+Imagine two people. Person A owes ten thousand dollars and earns two hundred thousand
+
+139
+00:05:56,528 --> 00:06:01,488
+dollars per year. Person B owes ten thousand dollars and earns twelve thousand dollars
+
+140
+00:06:01,508 --> 00:06:04,548
+per year. Same debt, very different panic levels.
+
+141
+00:06:04,888 --> 00:06:08,588
+Countries are similar. The raw number alone doesn't tell you enough.
+
+142
+00:06:08,888 --> 00:06:10,778
+You care about the size of the economy,
+
+143
+00:06:11,228 --> 00:06:15,078
+tax revenue, interest rates, economic growth, currency,
+
+144
+00:06:15,588 --> 00:06:19,948
+when the debt needs to be repaid, who owns it, and most importantly,
+
+145
+00:06:20,008 --> 00:06:22,068
+what the borrowed money was used for.
+
+146
+00:06:22,108 --> 00:06:25,848
+Because debt can be productive or spectacularly stupid.
+
+147
+00:06:26,148 --> 00:06:30,388
+Borrow one billion dollars to build infrastructure that makes an economy more productive
+
+148
+00:06:30,708 --> 00:06:35,188
+may be excellent. Borrow one billion dollars to build a four hundred meter golden statue
+
+149
+00:06:35,228 --> 00:06:39,138
+of yourself shooting lasers from its eyes, tourism might surprise us,
+
+150
+00:06:39,408 --> 00:06:42,008
+but financially, we have questions.
+
+151
+00:06:42,048 --> 00:06:45,268
+Debt itself is not automatically good or bad.
+
+152
+00:06:45,548 --> 00:06:50,368
+Debt is a tool, and tools become dangerous when humans discover leverage.
+
+153
+00:06:50,748 --> 00:06:52,108
+Leverage sounds complicated.
+
+154
+00:06:52,328 --> 00:06:56,008
+It isn't. Leverage means using borrowed money to make a bigger bet.
+
+155
+00:06:56,248 --> 00:06:58,588
+Suppose you have ten dollars, you invest it.
+
+156
+00:06:58,628 --> 00:07:00,308
+The investment goes up ten percent.
+
+157
+00:07:00,528 --> 00:07:01,968
+You make one dollar. Nice.
+
+158
+00:07:02,248 --> 00:07:03,298
+Buy yourself half a coffee.
+
+159
+00:07:03,668 --> 00:07:07,448
+Now, suppose you have ten dollars, but borrow another ninety.
+
+160
+00:07:07,488 --> 00:07:09,328
+You invest one hundred dollars.
+
+161
+00:07:09,368 --> 00:07:11,148
+The investment rises ten percent.
+
+162
+00:07:11,188 --> 00:07:12,248
+You make ten dollars.
+
+163
+00:07:12,618 --> 00:07:14,908
+You just doubled your original money.
+
+164
+00:07:14,968 --> 00:07:16,688
+You are incredible.
+
+165
+00:07:16,728 --> 00:07:17,988
+CNBC wants an interview.
+
+166
+00:07:18,288 --> 00:07:20,678
+Your LinkedIn bio now says, "Investor,
+
+167
+00:07:21,168 --> 00:07:22,698
+visionary, thought leader."
+
+168
+00:07:23,048 --> 00:07:24,478
+You begin researching yachts.
+
+169
+00:07:24,828 --> 00:07:27,288
+But then the investment falls ten percent.
+
+170
+00:07:27,348 --> 00:07:29,048
+You lose ten dollars.
+
+171
+00:07:29,088 --> 00:07:30,758
+Your original money, gone.
+
+172
+00:07:30,788 --> 00:07:35,108
+The lender, however, would still very much like its ninety dollars.
+
+173
+00:07:35,528 --> 00:07:38,078
+Suddenly, your yacht research feels premature.
+
+174
+00:07:38,548 --> 00:07:39,888
+This is leverage.
+
+175
+00:07:39,948 --> 00:07:45,368
+It magnifies success, and it magnifies stupidity, which explains a surprising amount
+
+176
+00:07:45,468 --> 00:07:50,388
+of financial history. And now we reach the thing that can destroy this entire machine.
+
+177
+00:07:50,708 --> 00:07:53,448
+Not debt, not money, not even leverage.
+
+178
+00:07:53,808 --> 00:07:56,648
+Trust. Debt is a promise about the future.
+
+179
+00:07:56,968 --> 00:07:59,448
+When someone lends money, they're making a prediction.
+
+180
+00:07:59,808 --> 00:08:01,528
+Will this person still have a job?
+
+181
+00:08:01,868 --> 00:08:03,108
+Will this company make money?
+
+182
+00:08:03,448 --> 00:08:06,708
+Will this government still collect taxes twenty years from now?
+
+183
+00:08:07,068 --> 00:08:08,668
+Will this property stay valuable?
+
+184
+00:08:09,008 --> 00:08:10,928
+Will this factory actually work?
+
+185
+00:08:11,268 --> 00:08:14,088
+If the answer looks like yes, borrowing is easier.
+
+186
+00:08:14,428 --> 00:08:18,088
+If the answer looks like maybe, lenders demand more interest.
+
+187
+00:08:18,168 --> 00:08:21,558
+If the answer looks like absolutely not, what are you doing?
+
+188
+00:08:21,888 --> 00:08:25,588
+The money disappears, and that's where things can become nasty.
+
+189
+00:08:25,628 --> 00:08:28,008
+Imagine a company begins looking risky.
+
+190
+00:08:28,088 --> 00:08:30,128
+Lenders demand higher interest rates.
+
+191
+00:08:30,168 --> 00:08:32,458
+Higher interest payments make the company weaker.
+
+192
+00:08:32,808 --> 00:08:36,388
+That makes lenders even more nervous, so rates rise again.
+
+193
+00:08:36,688 --> 00:08:38,328
+The company gets weaker again.
+
+194
+00:08:38,408 --> 00:08:42,038
+Eventually, lenders stop lending entirely, and suddenly,
+
+195
+00:08:42,068 --> 00:08:46,248
+a company that looked alive yesterday can run out of money today.
+
+196
+00:08:46,288 --> 00:08:48,848
+This is why credit crises move so fast.
+
+197
+00:08:49,168 --> 00:08:53,128
+During good times, banks lend, companies invest, consumers spend,
+
+198
+00:08:53,508 --> 00:08:54,668
+asset prices rise.
+
+199
+00:08:55,008 --> 00:08:56,148
+Everyone makes money.
+
+200
+00:08:56,208 --> 00:08:57,708
+Everyone feels intelligent.
+
+201
+00:08:57,748 --> 00:09:01,298
+Someone buys a podcast microphone, then something breaks.
+
+202
+00:09:02,008 --> 00:09:05,828
+Borrowers start defaulting, lenders panic, banks become afraid to lend,
+
+203
+00:09:06,148 --> 00:09:10,428
+credit disappears, companies cannot refinance, investors sell assets,
+
+204
+00:09:10,748 --> 00:09:13,268
+prices fall, more borrowers get into trouble,
+
+205
+00:09:13,717 --> 00:09:18,328
+and suddenly, everybody is significantly less interested in starting a podcast.
+
+206
+00:09:18,338 --> 00:09:22,168
+The two thousand and eight financial crisis was one dramatic example.
+
+207
+00:09:22,308 --> 00:09:24,388
+Huge amounts of mortgage debt had been created.
+
+208
+00:09:24,748 --> 00:09:27,428
+Those mortgages were packaged into financial products.
+
+209
+00:09:27,808 --> 00:09:29,188
+Housing prices kept rising.
+
+210
+00:09:29,508 --> 00:09:31,228
+People became increasingly confident.
+
+211
+00:09:31,488 --> 00:09:33,708
+Risk looked small, until it wasn't.
+
+212
+00:09:33,748 --> 00:09:35,088
+Housing prices fell.
+
+213
+00:09:35,128 --> 00:09:36,468
+Mortgage defaults rose.
+
+214
+00:09:36,848 --> 00:09:39,948
+Financial assets tied to those mortgages lost value.
+
+215
+00:09:40,028 --> 00:09:43,508
+Banks discovered that things they thought were safe were not safe.
+
+216
+00:09:43,798 --> 00:09:46,438
+And because financial institutions were deeply connected,
+
+217
+00:09:46,828 --> 00:09:50,488
+problems in American housing spread across global markets.
+
+218
+00:09:50,588 --> 00:09:52,388
+Debt existed before the crisis.
+
+219
+00:09:52,658 --> 00:09:54,758
+Debt still exists after the crisis.
+
+220
+00:09:55,088 --> 00:09:58,137
+The real problem was the combination of bad lending,
+
+221
+00:09:58,528 --> 00:10:02,308
+excessive leverage, weak incentives, underestimated risk,
+
+222
+00:10:02,648 --> 00:10:06,428
+and far too much confidence in assumptions that turned out to be wrong.
+
+223
+00:10:06,748 --> 00:10:10,788
+In other words, the system did not break because people made promises.
+
+224
+00:10:11,088 --> 00:10:15,048
+It broke because too many people made promises they could not keep,
+
+225
+00:10:15,368 --> 00:10:17,308
+and everyone had bet that they would.
+
+226
+00:10:17,688 --> 00:10:19,498
+So now the obvious question.
+
+227
+00:10:19,528 --> 00:10:24,048
+If debt can destroy banks, companies, economies, retirement accounts,
+
+228
+00:10:24,328 --> 00:10:27,908
+and occasionally your uncle's property empire, why not just get rid of it?
+
+229
+00:10:28,208 --> 00:10:31,128
+Because a world without debt has its own problems.
+
+230
+00:10:31,208 --> 00:10:34,428
+Imagine companies can only invest money they already have.
+
+231
+00:10:34,748 --> 00:10:36,228
+Factories take longer to build.
+
+232
+00:10:36,548 --> 00:10:38,268
+New businesses struggle to expand.
+
+233
+00:10:38,588 --> 00:10:41,948
+Infrastructure requires huge amounts of immediate taxation.
+
+234
+00:10:42,228 --> 00:10:44,428
+Buying a house becomes dramatically harder.
+
+235
+00:10:44,708 --> 00:10:49,028
+A twenty-five-year-old who might earn millions of dollars over their lifetime could still
+
+236
+00:10:49,088 --> 00:10:51,588
+have to wait decades before buying property.
+
+237
+00:10:51,928 --> 00:10:56,088
+Great entrepreneurs with little cash might never build anything.
+
+238
+00:10:56,168 --> 00:11:01,868
+Meanwhile, people who already have lots of money become even more powerful because investment
+
+239
+00:11:01,938 --> 00:11:05,147
+becomes much more dependent on existing wealth.
+
+240
+00:11:05,188 --> 00:11:11,038
+Debt connects two groups, people who have resources today and people who believe they
+
+241
+00:11:11,048 --> 00:11:12,908
+can create value tomorrow.
+
+242
+00:11:12,948 --> 00:11:15,598
+At its best, credit is the bridge between them,
+
+243
+00:11:16,068 --> 00:11:19,288
+and this is why debt explodes during crises.
+
+244
+00:11:19,348 --> 00:11:20,527
+Imagine a recession.
+
+245
+00:11:20,548 --> 00:11:22,628
+People spend less. Businesses earn less.
+
+246
+00:11:23,008 --> 00:11:24,388
+Businesses fire workers.
+
+247
+00:11:24,638 --> 00:11:26,368
+Those workers spend even less.
+
+248
+00:11:26,628 --> 00:11:28,408
+Businesses earn even less.
+
+249
+00:11:28,768 --> 00:11:29,948
+More workers get fired.
+
+250
+00:11:30,268 --> 00:11:33,848
+Congratulations. We have invented the economic toilet flush.
+
+251
+00:11:34,188 --> 00:11:38,588
+Governments often try to interrupt this cycle by spending on employment support,
+
+252
+00:11:38,887 --> 00:11:42,348
+infrastructure, emergency programs, business assistance,
+
+253
+00:11:42,568 --> 00:11:45,968
+tax relief. But recessions create an annoying problem.
+
+254
+00:11:46,458 --> 00:11:50,398
+Tax revenue can fall exactly when governments need more money,
+
+255
+00:11:50,768 --> 00:11:51,788
+so they borrow.
+
+256
+00:11:51,828 --> 00:11:57,318
+Debt allows governments to spread crisis costs across time instead of trying to collect
+
+257
+00:11:57,388 --> 00:11:58,848
+all the money immediately.
+
+258
+00:11:58,888 --> 00:12:01,808
+The same logic has historically applied to wars.
+
+259
+00:12:02,188 --> 00:12:06,108
+Wars are extremely expensive, and governments generally prefer,
+
+260
+00:12:06,518 --> 00:12:09,587
+"We are issuing war bonds," to, "Good afternoon.
+
+261
+00:12:09,648 --> 00:12:12,398
+Your taxes are now three hundred percent higher.
+
+262
+00:12:12,448 --> 00:12:16,928
+Have a wonderful day." The ability to borrow has therefore been a source of state power
+
+263
+00:12:16,988 --> 00:12:22,368
+for centuries. A government that people trust enough to lend to can mobilize far more
+
+264
+00:12:22,378 --> 00:12:25,238
+resources than the cash sitting in its treasury today.
+
+265
+00:12:25,648 --> 00:12:27,588
+Debt doesn't just shape economies.
+
+266
+00:12:27,628 --> 00:12:29,278
+Debt has helped shape history.
+
+267
+00:12:29,648 --> 00:12:31,778
+Which brings us back to our original question.
+
+268
+00:12:32,058 --> 00:12:34,698
+The world owes an absurd amount of money.
+
+269
+00:12:35,088 --> 00:12:37,378
+So who exactly do we owe it to?
+
+270
+00:12:37,768 --> 00:12:40,538
+Aliens? A secret billionaire underneath Switzerland?
+
+271
+00:12:40,968 --> 00:12:43,608
+One extremely patient guy named Steve?
+
+272
+00:12:44,008 --> 00:12:46,008
+Mostly, we owe it to each other.
+
+273
+00:12:46,348 --> 00:12:47,388
+Households owe banks.
+
+274
+00:12:47,768 --> 00:12:49,048
+Companies owe investors.
+
+275
+00:12:49,348 --> 00:12:53,588
+Governments owe banks, pension funds, citizens, and other governments.
+
+276
+00:12:53,908 --> 00:12:55,328
+Banks owe depositors.
+
+277
+00:12:55,668 --> 00:12:57,748
+Financial institutions owe one another.
+
+278
+00:12:58,128 --> 00:13:01,088
+Your asset is often somebody else's liability.
+
+279
+00:13:01,448 --> 00:13:06,908
+Your savings can fund somebody else's future, and their savings can fund yours.
+
+280
+00:13:06,948 --> 00:13:11,148
+The global financial system is not really a giant pile of cash.
+
+281
+00:13:11,188 --> 00:13:13,928
+It is a gigantic network of promises.
+
+282
+00:13:14,248 --> 00:13:16,208
+I'll pay you next month. I'll pay you next year.
+
+283
+00:13:16,508 --> 00:13:18,228
+I'll pay you in thirty years.
+
+284
+00:13:18,708 --> 00:13:24,708
+Debt allows savers to give up spending today so borrowers can spend or invest today in
+
+285
+00:13:24,748 --> 00:13:27,178
+exchange for being repaid from tomorrow.
+
+286
+00:13:27,548 --> 00:13:29,478
+Interest is the price of waiting.
+
+287
+00:13:29,908 --> 00:13:32,788
+Risk determines how expensive that waiting becomes.
+
+288
+00:13:33,098 --> 00:13:37,668
+And the entire system ultimately depends on one gigantic assumption:
+
+289
+00:13:38,008 --> 00:13:42,368
+tomorrow will be productive enough to pay for what we build today.
+
+290
+00:13:42,738 --> 00:13:44,208
+When that assumption is correct,
+
+291
+00:13:44,657 --> 00:13:48,048
+debt can help economies grow dramatically faster.
+
+292
+00:13:48,088 --> 00:13:51,228
+When it is wrong, things become interesting.
+
+293
+00:13:51,268 --> 00:13:53,708
+So yes, the world runs on money.
+
+294
+00:13:53,728 --> 00:13:56,828
+But money itself runs on something even stranger:
+
+295
+00:13:57,248 --> 00:14:03,068
+trust, expectations, promises about the future, and perhaps more than anything else,
+
+296
+00:14:03,548 --> 00:14:05,768
+I.O.U.s.
+
+297
+00:14:06,168 --> 00:14:08,918
+So if every debt on Earth disappeared tomorrow,
+
+298
+00:14:09,348 --> 00:14:10,308
+you might celebrate.
+
+299
+00:14:10,608 --> 00:14:12,948
+Just don't celebrate for more than five minutes.
