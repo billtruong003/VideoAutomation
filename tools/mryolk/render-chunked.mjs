@@ -25,11 +25,16 @@
  *
  * ------------------------------------------------------------------- audio and joins
  *
- * Chunks are rendered MUTED and the audio is produced once, separately, in a single audio-only
- * pass. That is not an optimisation — it is what makes the joins safe. Encoding audio per
- * chunk gives every chunk its own encoder priming and padding, and concatenating those leaves
- * a small discontinuity at every boundary. On a narration track that would be eight audible
- * clicks. One continuous audio render cannot have a seam because it never had a boundary.
+ * Chunks are rendered MUTED and the audio comes from `build-mix.mjs`, which sums the narration
+ * and the effects arithmetically without a browser. Two reasons, and the first is about joins:
+ * encoding audio per chunk gives every chunk its own encoder priming and padding, so
+ * concatenating them leaves a click at each of the twelve boundaries. One continuous track
+ * cannot have a seam because it never had a boundary.
+ *
+ * The second is that Remotion's own audio-only pass turned out to be a bad dependency — it
+ * evaluates all 25,663 frames, ran for twenty minutes without finishing, and died on the same
+ * intermittent decode failure as a video render. Nothing about summing one narration track and
+ * 106 samples needs a browser.
  *
  * The video chunks are joined by stream COPY, so the pixels in the final file are bit-identical
  * to what each chunk produced; nothing is re-encoded and nothing is re-compressed.
@@ -39,7 +44,7 @@ import { spawnSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { FFMPEG, probeDuration } from '../ffbin.mjs';
-import { DATA_DIR, VIDEO } from './config.mjs';
+import { AUDIO_DIR, DATA_DIR, VIDEO } from './config.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name, fallback) => {
@@ -59,7 +64,7 @@ const RETRIES = 3;
 
 const OUT = join('out', 'mryolk-why-the-world-runs-on-debt.mp4');
 const WORK = join('out', '.mryolk-chunks');
-const AUDIO = join(WORK, 'audio.wav');
+const AUDIO = join(AUDIO_DIR, 'final-mix.wav');
 
 const plan = JSON.parse(readFileSync(join(DATA_DIR, 'edit-plan.json'), 'utf8'));
 const TOTAL = plan.composition.durationInFrames;
@@ -78,35 +83,15 @@ const remotion = (extra, label) => {
 
 /* ------------------------------------------------------------------- audio */
 
-console.log('audio — one continuous pass, so the chunk joins cannot be heard');
-if (existsSync(AUDIO) && statSync(AUDIO).size > 0) {
-  console.log('  reusing existing audio render');
-} else {
-  /*
-   * Retried like any other stage. An audio-only render still evaluates the whole composition,
-   * which still asks the compositor for video frames — the first attempt at this stage died on
-   * exactly the same intermittent failure as a visual chunk. Losing it costs the same as losing
-   * a chunk, so it gets the same treatment.
-   */
-  let done = false;
-  for (let attempt = 0; attempt <= RETRIES && !done; attempt++) {
-    const a = remotion([
-      'render', 'MrYolkDebt', AUDIO, '--codec=wav',
-      `--concurrency=${CONCURRENCY}`, '--log=error',
-    ], 'audio');
-    if (a.ok && existsSync(AUDIO)) {
-      console.log(`  ${(statSync(AUDIO).size / 1e6).toFixed(0)} MB in ${a.secs}s${attempt ? ` (attempt ${attempt + 1})` : ''}`);
-      done = true;
-    } else {
-      console.warn(`  ${/No frame found at position \d+/.exec(a.log)?.[0] ?? 'render failed'} — retrying`);
-      rmSync(AUDIO, { force: true });
-    }
-  }
-  if (!done) {
-    console.error('audio pass failed after every attempt');
-    process.exit(1);
-  }
+console.log('audio — summed directly, not rendered');
+const mix = spawnSync(process.execPath, [join('tools', 'mryolk', 'build-mix.mjs')], {
+  stdio: ['ignore', 'pipe', 'pipe'], encoding: 'utf8',
+});
+if (mix.status !== 0 || !existsSync(AUDIO)) {
+  console.error(mix.stderr || mix.stdout || 'build-mix failed');
+  process.exit(1);
 }
+for (const line of (mix.stdout ?? '').trim().split(/\r?\n/)) console.log(`  ${line}`);
 
 /* ------------------------------------------------------------------ video */
 
@@ -132,7 +117,7 @@ for (const c of chunks) {
       `--frames=${c.from}-${c.to}`,
       '--codec=h264', '--crf=18',
       `--concurrency=${CONCURRENCY}`,
-      // Muted: the audio comes from the single pass above.
+      // Muted: the audio is summed separately by build-mix.mjs and muxed at the end.
       '--muted',
       '--log=error',
     ], `chunk ${c.index}`);

@@ -44,11 +44,15 @@ node tools/mryolk/stt.mjs public/mryolk/audio/narration-master.wav data/mryolk/s
 node tools/mryolk/research-stock.mjs      # Pexels/Pixabay → local files + provenance
 node tools/mryolk/make-proxies.mjs        # stock       → render-friendly re-encodes
 node tools/mryolk/make-sfx.mjs            # synthesised sound palette
+node tools/mryolk/lint-anchors.mjs        # refuse ambiguous word anchors
 node tools/mryolk/export-edit-plan.mjs    # scenes+cues → data/mryolk/edit-plan.json
-npm run mryolk:render
+node tools/mryolk/render-chunked.mjs      # audio mix + chunked video + join
 node tools/mryolk/verify-output.mjs       # delivery gate
 node tools/mryolk/qa-frames.mjs           # visual QA contact sheets
 ```
+
+`render-chunked.mjs` is the render. It calls `build-mix.mjs` for the audio and then renders
+the video in chunks; there is no single-process full render any more, for reasons below.
 
 ### Artifacts
 
@@ -58,6 +62,9 @@ node tools/mryolk/qa-frames.mjs           # visual QA contact sheets
 | `public/mryolk/stock/` | researched footage as downloaded (licensing record) |
 | `public/mryolk/stock/proxy/` | re-encodes the renderer actually reads |
 | `public/mryolk/audio/narration-master.wav` | the master clock |
+| `public/mryolk/audio/final-mix.wav` | narration + effects, the track that ships |
+| `stock-source/` | stock originals — licensing record, never served |
+| `work/` | narration intermediates |
 | `public/mryolk/sfx/*.wav` | 16 synthesised sounds, no licence |
 | `data/mryolk/asset-registry.json` | slug → drawing, with tags |
 | `data/mryolk/stt/` | transcript, words, segments, `subtitles.srt` |
@@ -104,6 +111,24 @@ ten-second window collects more than nine of them.
 
 **There is no music.** No verified licence exists for this channel, so the mix is narration and
 effects only.
+
+**`public/` holds only what the renderer reads.** Remotion copies the whole directory into its
+bundle before drawing a frame. With the stock originals still in there it was 1.5 GB, almost
+none of which was ever opened — the renderer reads proxies. Originals live in `stock-source/`
+and narration intermediates in `work/`, which took the per-render copy to 410 MB.
+
+**The audio is summed, not rendered.** `build-mix.mjs` adds the narration and the 106 effects
+arithmetically. Remotion's own audio-only pass evaluates all 25,663 frames — it ran for twenty
+minutes without finishing and died on the same intermittent decode failure as a video render.
+The cue list still comes from `Sfx.tsx` via the edit plan, so there is one source of truth; the
+mixer only adds numbers together.
+
+**The render is chunked because the compositor is flaky here.** Four full renders died on
+`No frame found at position ...` at frames 3233, 16735, 17673 and 808. Each of those frames
+renders perfectly as a standalone still, re-rendering the range succeeds, and the media it
+blamed is valid — 660 monotonic frames at a clean 30fps. It is an intermittent 500 from the
+compositor's frame endpoint under load, so the pipeline absorbs it: chunks in fresh processes,
+each retried, at concurrency 2. Video chunks join by stream copy, so nothing is re-encoded.
 
 ---
 

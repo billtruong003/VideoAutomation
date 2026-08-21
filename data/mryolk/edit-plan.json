@@ -2988,7 +2988,8 @@
       "sound": "paper",
       "gain": null,
       "note": "mortgage document slides in",
-      "approxSeconds": 4.28
+      "atSeconds": 4.44,
+      "segmentStartSeconds": 4.28
     },
     {
       "segment": 2,
@@ -2997,7 +2998,8 @@
       "sound": "whoosh",
       "gain": null,
       "note": "mortgage struck out and thrown off screen",
-      "approxSeconds": 5.3
+      "atSeconds": 5.3,
+      "segmentStartSeconds": 5.3
     },
     {
       "segment": 4,
@@ -3006,7 +3008,8 @@
       "sound": "whoosh",
       "gain": null,
       "note": "credit card bill thrown",
-      "approxSeconds": 6.74
+      "atSeconds": 6.74,
+      "segmentStartSeconds": 6.74
     },
     {
       "segment": 6,
@@ -3015,7 +3018,8 @@
       "sound": "whoosh",
       "gain": null,
       "note": "student loan thrown",
-      "approxSeconds": 8.3
+      "atSeconds": 8.3,
+      "segmentStartSeconds": 8.3
     },
     {
       "segment": 8,
@@ -3024,7 +3028,8 @@
       "sound": "whoosh",
       "gain": null,
       "note": "corporate debt thrown",
-      "approxSeconds": 9.92
+      "atSeconds": 9.92,
+      "segmentStartSeconds": 9.92
     },
     {
       "segment": 10,
@@ -3033,7 +3038,8 @@
       "sound": "boing",
       "gain": null,
       "note": "government debt thrown — the fifth, so it lands differently",
-      "approxSeconds": 11.48
+      "atSeconds": 11.92,
+      "segmentStartSeconds": 11.48
     },
     {
       "segment": 12,
@@ -3042,7 +3048,8 @@
       "sound": "sparkle",
       "gain": null,
       "note": "celebration",
-      "approxSeconds": 15.2
+      "atSeconds": 15.2,
+      "segmentStartSeconds": 15.2
     },
     {
       "segment": 13,
@@ -3051,7 +3058,8 @@
       "sound": "error",
       "gain": null,
       "note": "the turn: \"for approximately five minutes\"",
-      "approxSeconds": 16.28
+      "atSeconds": 17.24,
+      "segmentStartSeconds": 16.28
     },
     {
       "segment": 14,
@@ -3060,7 +3068,8 @@
       "sound": "crack",
       "gain": null,
       "note": "the bank splits",
-      "approxSeconds": 19.4
+      "atSeconds": 20.66,
+      "segmentStartSeconds": 19.4
     },
     {
       "segment": 16,
@@ -3069,7 +3078,8 @@
       "sound": "thud",
       "gain": null,
       "note": "construction window slams in",
-      "approxSeconds": 25
+      "atSeconds": 25.94,
+      "segmentStartSeconds": 25
     },
     {
       "segment": 18,
@@ -3078,7 +3088,8 @@
       "sound": "crash",
       "gain": 0.2,
       "note": "investor panic, red arrow down",
-      "approxSeconds": 29.38
+      "atSeconds": 29.9,
+      "segmentStartSeconds": 29.38
     },
     {
       "segment": 19,
@@ -3087,7 +3098,8 @@
       "sound": "tick",
       "gain": null,
       "note": "the loose screw appears",
-      "approxSeconds": 30.54
+      "atSeconds": 35.06,
+      "segmentStartSeconds": 30.54
     },
     {
       "segment": 21,
@@ -3096,7 +3108,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "THE MODERN WORLD RUNS ON DEBT lands",
-      "approxSeconds": 42.45
+      "atSeconds": 43.92,
+      "segmentStartSeconds": 42.45
     },
     {
       "segment": 25,
@@ -3105,7 +3118,8 @@
       "sound": "pop",
       "gain": null,
       "note": "$300,000 price appears on the house",
-      "approxSeconds": 51.06
+      "atSeconds": 52.34,
+      "segmentStartSeconds": 51.06
     },
     {
       "segment": 27,
@@ -3114,7 +3128,8 @@
       "sound": "error",
       "gain": null,
       "note": "the wallet is empty",
-      "approxSeconds": 54.76
+      "atSeconds": 55.69,
+      "segmentStartSeconds": 54.76
     },
     {
       "segment": 30,
@@ -3123,7 +3138,8 @@
       "sound": "cash",
       "gain": null,
       "note": "the bank hands over the money",
-      "approxSeconds": 66.79
+      "atSeconds": 67.28,
+      "segmentStartSeconds": 66.79
     },
     {
       "segment": 31,
@@ -3132,7 +3148,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "MORTGAGE contract stamped",
-      "approxSeconds": 73.57
+      "atSeconds": 73.98,
+      "segmentStartSeconds": 73.57
     },
     {
       "segment": 36,
@@ -3141,7 +3158,8 @@
       "sound": "ding",
       "gain": null,
       "note": "\"good enough\" — the bank agrees",
-      "approxSeconds": 84.5
+      "atSeconds": 85.66,
+      "segmentStartSeconds": 84.5
     },
     {
       "segment": 38,
@@ -3150,7 +3168,8 @@
       "sound": "sparkle",
       "gain": null,
       "note": "the time machine portal opens",
-      "approxSeconds": 89
+      "atSeconds": 90,
+      "segmentStartSeconds": 89
     },
     {
       "segment": 48,
@@ -3159,7 +3178,8 @@
       "sound": "tick",
       "gain": null,
       "note": "year one appears on the timeline",
-      "approxSeconds": 119.22
+      "atSeconds": 119.46,
+      "segmentStartSeconds": 119.22
     },
     {
       "segment": 49,
@@ -3168,7 +3188,8 @@
       "sound": "tick",
       "gain": null,
       "note": "year five",
-      "approxSeconds": 121
+      "atSeconds": 121.16,
+      "segmentStartSeconds": 121
     },
     {
       "segment": 50,
@@ -3177,7 +3198,8 @@
       "sound": "tick",
       "gain": null,
       "note": "year twelve, the spreadsheet",
-      "approxSeconds": 122.99
+      "atSeconds": 123.18,
+      "segmentStartSeconds": 122.99
     },
     {
       "segment": 51,
@@ -3186,7 +3208,8 @@
       "sound": "tick",
       "gain": null,
       "note": "year twenty",
-      "approxSeconds": 125.52
+      "atSeconds": 125.7,
+      "segmentStartSeconds": 125.52
     },
     {
       "segment": 53,
@@ -3195,7 +3218,8 @@
       "sound": "error",
       "gain": null,
       "note": "the competitor already won",
-      "approxSeconds": 128.86
+      "atSeconds": 130.02,
+      "segmentStartSeconds": 128.86
     },
     {
       "segment": 54,
@@ -3204,7 +3228,8 @@
       "sound": "cash",
       "gain": null,
       "note": "the loan arrives instead",
-      "approxSeconds": 136.46
+      "atSeconds": 137.4,
+      "segmentStartSeconds": 136.46
     },
     {
       "segment": 55,
@@ -3213,7 +3238,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "the factory is built today",
-      "approxSeconds": 138.04
+      "atSeconds": 138.86,
+      "segmentStartSeconds": 138.04
     },
     {
       "segment": 60,
@@ -3222,7 +3248,8 @@
       "sound": "ding",
       "gain": null,
       "note": "future productivity becomes present investment",
-      "approxSeconds": 147.68
+      "atSeconds": 150.06,
+      "segmentStartSeconds": 147.68
     },
     {
       "segment": 62,
@@ -3231,7 +3258,8 @@
       "sound": "thud",
       "gain": null,
       "note": "the vault door swings open",
-      "approxSeconds": 154.88
+      "atSeconds": 156.12,
+      "segmentStartSeconds": 154.88
     },
     {
       "segment": 64,
@@ -3240,7 +3268,8 @@
       "sound": "boing",
       "gain": null,
       "note": "the Scrooge McDuck gag",
-      "approxSeconds": 162.36
+      "atSeconds": 162.94,
+      "segmentStartSeconds": 162.36
     },
     {
       "segment": 67,
@@ -3249,7 +3278,8 @@
       "sound": "paper",
       "gain": null,
       "note": "the loan lands on the asset side",
-      "approxSeconds": 168.58
+      "atSeconds": 169.84,
+      "segmentStartSeconds": 168.58
     },
     {
       "segment": 67,
@@ -3258,7 +3288,8 @@
       "sound": "cash",
       "gain": null,
       "note": "the deposit lands on the liability side",
-      "approxSeconds": 168.58
+      "atSeconds": 172.64,
+      "segmentStartSeconds": 168.58
     },
     {
       "segment": 70,
@@ -3267,7 +3298,8 @@
       "sound": "tick",
       "gain": null,
       "note": "the two entries are bracketed together",
-      "approxSeconds": 177.29
+      "atSeconds": 179.88,
+      "segmentStartSeconds": 177.29
     },
     {
       "segment": 73,
@@ -3276,7 +3308,8 @@
       "sound": "boing",
       "gain": null,
       "note": "the copy-paste joke",
-      "approxSeconds": 186.52
+      "atSeconds": 189.24,
+      "segmentStartSeconds": 186.52
     },
     {
       "segment": 74,
@@ -3285,7 +3318,8 @@
       "sound": "error",
       "gain": null,
       "note": "borrowers occasionally do not pay back",
-      "approxSeconds": 190.1
+      "atSeconds": 198.72,
+      "segmentStartSeconds": 190.1
     },
     {
       "segment": 81,
@@ -3294,7 +3328,8 @@
       "sound": "pop",
       "gain": null,
       "note": "the question lands",
-      "approxSeconds": 216.26
+      "atSeconds": 217.96,
+      "segmentStartSeconds": 216.26
     },
     {
       "segment": 82,
@@ -3303,7 +3338,8 @@
       "sound": "sparkle",
       "gain": null,
       "note": "the lender ring appears",
-      "approxSeconds": 219.06
+      "atSeconds": 220.48,
+      "segmentStartSeconds": 219.06
     },
     {
       "segment": 89,
@@ -3312,7 +3348,8 @@
       "sound": "ding",
       "gain": null,
       "note": "the group chat gag",
-      "approxSeconds": 237.5
+      "atSeconds": 240.32,
+      "segmentStartSeconds": 237.5
     },
     {
       "segment": 90,
@@ -3321,7 +3358,8 @@
       "sound": "error",
       "gain": null,
       "note": "...until you realise it has to be true",
-      "approxSeconds": 243.23
+      "atSeconds": 247.36,
+      "segmentStartSeconds": 243.23
     },
     {
       "segment": 92,
@@ -3330,7 +3368,8 @@
       "sound": "paper",
       "gain": null,
       "note": "the bond is issued",
-      "approxSeconds": 249.6
+      "atSeconds": 251,
+      "segmentStartSeconds": 249.6
     },
     {
       "segment": 93,
@@ -3339,7 +3378,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "A BOND IS AN I.O.U.",
-      "approxSeconds": 251.85
+      "atSeconds": 254.04,
+      "segmentStartSeconds": 251.85
     },
     {
       "segment": 98,
@@ -3348,7 +3388,8 @@
       "sound": "tick",
       "gain": null,
       "note": "first buyer",
-      "approxSeconds": 262.7
+      "atSeconds": 262.7,
+      "segmentStartSeconds": 262.7
     },
     {
       "segment": 99,
@@ -3357,7 +3398,8 @@
       "sound": "tick",
       "gain": null,
       "note": "second buyer",
-      "approxSeconds": 264.3
+      "atSeconds": 264.3,
+      "segmentStartSeconds": 264.3
     },
     {
       "segment": 100,
@@ -3366,7 +3408,8 @@
       "sound": "tick",
       "gain": null,
       "note": "third buyer",
-      "approxSeconds": 265.58
+      "atSeconds": 265.58,
+      "segmentStartSeconds": 265.58
     },
     {
       "segment": 101,
@@ -3375,7 +3418,8 @@
       "sound": "tick",
       "gain": null,
       "note": "fourth buyer",
-      "approxSeconds": 267.08
+      "atSeconds": 267.08,
+      "segmentStartSeconds": 267.08
     },
     {
       "segment": 102,
@@ -3384,7 +3428,8 @@
       "sound": "tick",
       "gain": null,
       "note": "fifth buyer",
-      "approxSeconds": 268.76
+      "atSeconds": 268.76,
+      "segmentStartSeconds": 268.76
     },
     {
       "segment": 103,
@@ -3393,7 +3438,8 @@
       "sound": "ding",
       "gain": null,
       "note": "even central banks",
-      "approxSeconds": 270.32
+      "atSeconds": 270.64,
+      "segmentStartSeconds": 270.32
     },
     {
       "segment": 110,
@@ -3402,7 +3448,8 @@
       "sound": "error",
       "gain": null,
       "note": "the enormous credit card bill gag",
-      "approxSeconds": 298.12
+      "atSeconds": 299.84,
+      "segmentStartSeconds": 298.12
     },
     {
       "segment": 115,
@@ -3411,7 +3458,8 @@
       "sound": "paper",
       "gain": null,
       "note": "first bond matures",
-      "approxSeconds": 311.36
+      "atSeconds": 311.78,
+      "segmentStartSeconds": 311.36
     },
     {
       "segment": 117,
@@ -3420,7 +3468,8 @@
       "sound": "paper",
       "gain": null,
       "note": "second bond matures",
-      "approxSeconds": 314.19
+      "atSeconds": 314.64,
+      "segmentStartSeconds": 314.19
     },
     {
       "segment": 118,
@@ -3429,7 +3478,8 @@
       "sound": "paper",
       "gain": null,
       "note": "and another",
-      "approxSeconds": 315.46
+      "atSeconds": 315.8,
+      "segmentStartSeconds": 315.46
     },
     {
       "segment": 120,
@@ -3438,7 +3488,8 @@
       "sound": "boing",
       "gain": null,
       "note": "\"I'll pay you Tuesday\"",
-      "approxSeconds": 319.16
+      "atSeconds": 320.3,
+      "segmentStartSeconds": 319.16
     },
     {
       "segment": 123,
@@ -3447,7 +3498,8 @@
       "sound": "boing",
       "gain": 0.24,
       "note": "\"how do you feel about NEXT Tuesday\"",
-      "approxSeconds": 322.83
+      "atSeconds": 324.408,
+      "segmentStartSeconds": 322.83
     },
     {
       "segment": 133,
@@ -3456,7 +3508,8 @@
       "sound": "tick",
       "gain": null,
       "note": "person A appears",
-      "approxSeconds": 352.48
+      "atSeconds": 353.908,
+      "segmentStartSeconds": 352.48
     },
     {
       "segment": 134,
@@ -3465,7 +3518,8 @@
       "sound": "tick",
       "gain": null,
       "note": "person B appears",
-      "approxSeconds": 357.63
+      "atSeconds": 358.968,
+      "segmentStartSeconds": 357.63
     },
     {
       "segment": 135,
@@ -3474,7 +3528,8 @@
       "sound": "error",
       "gain": null,
       "note": "very different panic levels",
-      "approxSeconds": 362.19
+      "atSeconds": 363.868,
+      "segmentStartSeconds": 362.19
     },
     {
       "segment": 140,
@@ -3483,7 +3538,8 @@
       "sound": "ding",
       "gain": null,
       "note": "the productive column",
-      "approxSeconds": 386.15
+      "atSeconds": 388.047,
+      "segmentStartSeconds": 386.15
     },
     {
       "segment": 141,
@@ -3492,7 +3548,8 @@
       "sound": "sparkle",
       "gain": null,
       "note": "the golden statue rises",
-      "approxSeconds": 391.63
+      "atSeconds": 394.448,
+      "segmentStartSeconds": 391.63
     },
     {
       "segment": 141,
@@ -3501,7 +3558,8 @@
       "sound": "boing",
       "gain": null,
       "note": "shooting lasers from its eyes",
-      "approxSeconds": 391.63
+      "atSeconds": 396.168,
+      "segmentStartSeconds": 391.63
     },
     {
       "segment": 143,
@@ -3510,7 +3568,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "LEVERAGE lands",
-      "approxSeconds": 405.55
+      "atSeconds": 409.868,
+      "segmentStartSeconds": 405.55
     },
     {
       "segment": 147,
@@ -3519,7 +3578,8 @@
       "sound": "pop",
       "gain": null,
       "note": "$10 appears",
-      "approxSeconds": 416.25
+      "atSeconds": 416.848,
+      "segmentStartSeconds": 416.25
     },
     {
       "segment": 149,
@@ -3528,7 +3588,8 @@
       "sound": "cash",
       "gain": 0.1,
       "note": "+$1 — deliberately small",
-      "approxSeconds": 420.53
+      "atSeconds": 421.148,
+      "segmentStartSeconds": 420.53
     },
     {
       "segment": 151,
@@ -3537,7 +3598,8 @@
       "sound": "tick",
       "gain": null,
       "note": "half a coffee",
-      "approxSeconds": 422.25
+      "atSeconds": 423.008,
+      "segmentStartSeconds": 422.25
     },
     {
       "segment": 152,
@@ -3546,7 +3608,8 @@
       "sound": "cash",
       "gain": null,
       "note": "+$90 borrowed",
-      "approxSeconds": 423.67
+      "atSeconds": 426.828,
+      "segmentStartSeconds": 423.67
     },
     {
       "segment": 153,
@@ -3555,7 +3618,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "$100 total bet",
-      "approxSeconds": 427.49
+      "atSeconds": 428.328,
+      "segmentStartSeconds": 427.49
     },
     {
       "segment": 155,
@@ -3564,7 +3628,8 @@
       "sound": "ding",
       "gain": null,
       "note": "+$10 gain",
-      "approxSeconds": 431.19
+      "atSeconds": 431.608,
+      "segmentStartSeconds": 431.19
     },
     {
       "segment": 157,
@@ -3573,7 +3638,8 @@
       "sound": "sparkle",
       "gain": null,
       "note": "the smug moment",
-      "approxSeconds": 434.97
+      "atSeconds": 435.608,
+      "segmentStartSeconds": 434.97
     },
     {
       "segment": 160,
@@ -3582,7 +3648,8 @@
       "sound": "boing",
       "gain": null,
       "note": "researching yachts",
-      "approxSeconds": 443.05
+      "atSeconds": 444.128,
+      "segmentStartSeconds": 443.05
     },
     {
       "segment": 161,
@@ -3591,7 +3658,8 @@
       "sound": "crash",
       "gain": null,
       "note": "the investment falls 10%",
-      "approxSeconds": 444.83
+      "atSeconds": 445.988,
+      "segmentStartSeconds": 444.83
     },
     {
       "segment": 163,
@@ -3600,7 +3668,8 @@
       "sound": "vanish",
       "gain": 0.2,
       "note": "the original $10 is wiped out",
-      "approxSeconds": 449.09
+      "atSeconds": 450.148,
+      "segmentStartSeconds": 449.09
     },
     {
       "segment": 164,
@@ -3609,7 +3678,8 @@
       "sound": "error",
       "gain": null,
       "note": "the lender still wants its $90",
-      "approxSeconds": 450.79
+      "atSeconds": 454.248,
+      "segmentStartSeconds": 450.79
     },
     {
       "segment": 170,
@@ -3618,7 +3688,8 @@
       "sound": "swell",
       "gain": null,
       "note": "TRUST alone on white",
-      "approxSeconds": 473.81
+      "atSeconds": 473.808,
+      "segmentStartSeconds": 473.81
     },
     {
       "segment": 178,
@@ -3627,7 +3698,8 @@
       "sound": "ding",
       "gain": 0.11,
       "note": "the YES gauge",
-      "approxSeconds": 491.27
+      "atSeconds": 492.268,
+      "segmentStartSeconds": 491.27
     },
     {
       "segment": 179,
@@ -3636,7 +3708,8 @@
       "sound": "tick",
       "gain": null,
       "note": "the MAYBE gauge",
-      "approxSeconds": 494.43
+      "atSeconds": 495.628,
+      "segmentStartSeconds": 494.43
     },
     {
       "segment": 180,
@@ -3645,7 +3718,8 @@
       "sound": "error",
       "gain": null,
       "note": "the ABSOLUTELY NOT gauge",
-      "approxSeconds": 498.17
+      "atSeconds": 500.368,
+      "segmentStartSeconds": 498.17
     },
     {
       "segment": 181,
@@ -3654,7 +3728,8 @@
       "sound": "vanish",
       "gain": null,
       "note": "the money disappears",
-      "approxSeconds": 501.89
+      "atSeconds": 502.268,
+      "segmentStartSeconds": 501.89
     },
     {
       "segment": 183,
@@ -3663,7 +3738,8 @@
       "sound": "tick",
       "gain": null,
       "note": "rates rise, first turn of the loop",
-      "approxSeconds": 508.09
+      "atSeconds": 508.828,
+      "segmentStartSeconds": 508.09
     },
     {
       "segment": 185,
@@ -3672,7 +3748,8 @@
       "sound": "tick",
       "gain": null,
       "note": "second turn",
-      "approxSeconds": 512.81
+      "atSeconds": 516.088,
+      "segmentStartSeconds": 512.81
     },
     {
       "segment": 187,
@@ -3681,7 +3758,8 @@
       "sound": "vanish",
       "gain": null,
       "note": "lenders stop entirely",
-      "approxSeconds": 518.41
+      "atSeconds": 518.408,
+      "segmentStartSeconds": 518.41
     },
     {
       "segment": 192,
@@ -3690,7 +3768,8 @@
       "sound": "boing",
       "gain": null,
       "note": "the podcast microphone",
-      "approxSeconds": 537.75
+      "atSeconds": 538.888,
+      "segmentStartSeconds": 537.75
     },
     {
       "segment": 192,
@@ -3699,7 +3778,8 @@
       "sound": "crack",
       "gain": null,
       "note": "then something breaks",
-      "approxSeconds": 537.75
+      "atSeconds": 540.848,
+      "segmentStartSeconds": 537.75
     },
     {
       "segment": 193,
@@ -3708,7 +3788,8 @@
       "sound": "crash",
       "gain": 0.22,
       "note": "the cascade begins",
-      "approxSeconds": 542.01
+      "atSeconds": 542.588,
+      "segmentStartSeconds": 542.01
     },
     {
       "segment": 197,
@@ -3717,7 +3798,8 @@
       "sound": "tick",
       "gain": null,
       "note": "the housing price line climbs",
-      "approxSeconds": 567.81
+      "atSeconds": 568.748,
+      "segmentStartSeconds": 567.81
     },
     {
       "segment": 200,
@@ -3726,7 +3808,8 @@
       "sound": "crash",
       "gain": null,
       "note": "housing prices fall",
-      "approxSeconds": 573.75
+      "atSeconds": 574.428,
+      "segmentStartSeconds": 573.75
     },
     {
       "segment": 203,
@@ -3735,7 +3818,8 @@
       "sound": "error",
       "gain": null,
       "note": "things they thought were safe were not",
-      "approxSeconds": 580.03
+      "atSeconds": 583.158,
+      "segmentStartSeconds": 580.03
     },
     {
       "segment": 204,
@@ -3744,7 +3828,8 @@
       "sound": "swell",
       "gain": null,
       "note": "the contagion spreads across the map",
-      "approxSeconds": 583.8
+      "atSeconds": 589.348,
+      "segmentStartSeconds": 583.8
     },
     {
       "segment": 211,
@@ -3753,7 +3838,8 @@
       "sound": "pop",
       "gain": null,
       "note": "\"why not just get rid of it?\"",
-      "approxSeconds": 619.53
+      "atSeconds": 627.788,
+      "segmentStartSeconds": 619.53
     },
     {
       "segment": 214,
@@ -3762,7 +3848,8 @@
       "sound": "tick",
       "gain": null,
       "note": "factories take longer",
-      "approxSeconds": 634.75
+      "atSeconds": 635.508,
+      "segmentStartSeconds": 634.75
     },
     {
       "segment": 217,
@@ -3771,7 +3858,8 @@
       "sound": "error",
       "gain": null,
       "note": "buying a house becomes harder",
-      "approxSeconds": 642.23
+      "atSeconds": 644.128,
+      "segmentStartSeconds": 642.23
     },
     {
       "segment": 222,
@@ -3780,7 +3868,8 @@
       "sound": "ding",
       "gain": null,
       "note": "CREDIT IS THE BRIDGE",
-      "approxSeconds": 672.95
+      "atSeconds": 674.688,
+      "segmentStartSeconds": 672.95
     },
     {
       "segment": 224,
@@ -3789,7 +3878,8 @@
       "sound": "tick",
       "gain": null,
       "note": "spending falls",
-      "approxSeconds": 680.55
+      "atSeconds": 681.088,
+      "segmentStartSeconds": 680.55
     },
     {
       "segment": 226,
@@ -3798,7 +3888,8 @@
       "sound": "tick",
       "gain": null,
       "note": "layoffs",
-      "approxSeconds": 683.01
+      "atSeconds": 683.908,
+      "segmentStartSeconds": 683.01
     },
     {
       "segment": 229,
@@ -3807,7 +3898,8 @@
       "sound": "tick",
       "gain": null,
       "note": "the loop tightens",
-      "approxSeconds": 688.77
+      "atSeconds": 689.608,
+      "segmentStartSeconds": 688.77
     },
     {
       "segment": 231,
@@ -3816,7 +3908,8 @@
       "sound": "flush",
       "gain": null,
       "note": "the economic toilet flush",
-      "approxSeconds": 691.37
+      "atSeconds": 693.528,
+      "segmentStartSeconds": 691.37
     },
     {
       "segment": 234,
@@ -3825,7 +3918,8 @@
       "sound": "cash",
       "gain": null,
       "note": "the government borrows to interrupt the loop",
-      "approxSeconds": 706.46
+      "atSeconds": 711.048,
+      "segmentStartSeconds": 706.46
     },
     {
       "segment": 237,
@@ -3834,7 +3928,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "WAR BONDS",
-      "approxSeconds": 722.19
+      "atSeconds": 727.468,
+      "segmentStartSeconds": 722.19
     },
     {
       "segment": 238,
@@ -3843,7 +3938,8 @@
       "sound": "error",
       "gain": null,
       "note": "the 300% tax alternative",
-      "approxSeconds": 729.65
+      "atSeconds": 731.828,
+      "segmentStartSeconds": 729.65
     },
     {
       "segment": 241,
@@ -3852,7 +3948,8 @@
       "sound": "swell",
       "gain": null,
       "note": "a government people trust enough to lend to",
-      "approxSeconds": 738.03
+      "atSeconds": 739.128,
+      "segmentStartSeconds": 738.03
     },
     {
       "segment": 247,
@@ -3861,7 +3958,8 @@
       "sound": "boing",
       "gain": null,
       "note": "aliens?",
-      "approxSeconds": 757.77
+      "atSeconds": 757.768,
+      "segmentStartSeconds": 757.77
     },
     {
       "segment": 249,
@@ -3870,7 +3968,8 @@
       "sound": "ding",
       "gain": null,
       "note": "one extremely patient guy named Steve",
-      "approxSeconds": 760.97
+      "atSeconds": 763.148,
+      "segmentStartSeconds": 760.97
     },
     {
       "segment": 250,
@@ -3879,7 +3978,8 @@
       "sound": "sparkle",
       "gain": null,
       "note": "mostly, we owe it to each other",
-      "approxSeconds": 764.01
+      "atSeconds": 765.768,
+      "segmentStartSeconds": 764.01
     },
     {
       "segment": 256,
@@ -3888,7 +3988,8 @@
       "sound": "stamp",
       "gain": null,
       "note": "YOUR ASSET IS SOMEONE ELSE'S LIABILITY",
-      "approxSeconds": 778.13
+      "atSeconds": 780.488,
+      "segmentStartSeconds": 778.13
     },
     {
       "segment": 259,
@@ -3897,7 +3998,8 @@
       "sound": "swell",
       "gain": null,
       "note": "the network resolves",
-      "approxSeconds": 791.19
+      "atSeconds": 793.188,
+      "segmentStartSeconds": 791.19
     },
     {
       "segment": 264,
@@ -3906,7 +4008,8 @@
       "sound": "tick",
       "gain": null,
       "note": "interest is the price of waiting",
-      "approxSeconds": 807.55
+      "atSeconds": 809.148,
+      "segmentStartSeconds": 807.55
     },
     {
       "segment": 270,
@@ -3915,7 +4018,8 @@
       "sound": "sparkle",
       "gain": null,
       "note": "trust, expectations, promises",
-      "approxSeconds": 833.73
+      "atSeconds": 836.328,
+      "segmentStartSeconds": 833.73
     },
     {
       "segment": 271,
@@ -3924,7 +4028,8 @@
       "sound": "pop",
       "gain": null,
       "note": "the callback: he celebrates again",
-      "approxSeconds": 846.17
+      "atSeconds": 849.808,
+      "segmentStartSeconds": 846.17
     },
     {
       "segment": 272,
@@ -3933,7 +4038,8 @@
       "sound": "boing",
       "gain": null,
       "note": "the five-minute timer starts",
-      "approxSeconds": 850.61
+      "atSeconds": 852.648,
+      "segmentStartSeconds": 850.61
     }
   ]
 }

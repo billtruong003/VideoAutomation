@@ -60,6 +60,42 @@ function readScenes() {
   return out;
 }
 
+/**
+ * Does a transcript token answer to `needle`?
+ *
+ * The same rule `src/mryolk/clock.ts` uses — possessives stripped, hyphenated compounds
+ * matching on any part. Duplicated here only because this is a plain Node script and that
+ * module lives inside a TypeScript/React graph; the RULE is stated once in each language and
+ * `assertCueTimes()` below fails if the two ever disagree about how many cues resolve.
+ */
+function wordMatches(token, needle) {
+  const clean = (x) => x.toLowerCase()
+    .replace(/[‘’ʼ]/g, "'")
+    .replace(/'s/g, '')
+    .replace(/[^a-z0-9-]/g, '');
+  const t = clean(token);
+  const n = clean(needle);
+  if (!n) return false;
+  if (t.replace(/-/g, '') === n.replace(/-/g, '')) return true;
+  return t.split('-').filter(Boolean).includes(n);
+}
+
+const words = JSON.parse(read(join(DATA_DIR, 'stt', 'words.json')));
+
+/** Absolute seconds of a cue's anchor word — the exact instant the sound must land. */
+function resolveCue(from, to, needle, nth) {
+  const start = segments[from].start;
+  const end = segments[to].end;
+  let seen = 0;
+  for (const w of words) {
+    if (w.start < start - 0.001 || w.end > end + 0.001) continue;
+    if (!wordMatches(w.text, needle)) continue;
+    seen += 1;
+    if (seen === nth) return Number(w.start.toFixed(3));
+  }
+  return null;
+}
+
 /** Cue sheet, read the same way and for the same reason. */
 function readCues() {
   const src = read(join('src', 'mryolk', 'Sfx.tsx'));
@@ -75,7 +111,9 @@ function readCues() {
       sound: m[6],
       gain: m[7] ? Number(m[7]) : null,
       note: m[8].replace(/\\'/g, "'"),
-      approxSeconds: seg ? Number(seg.start.toFixed(2)) : null,
+      // The exact instant, not the sentence it sits in: the mixer places the sample here.
+      atSeconds: resolveCue(Number(m[1]), Number(m[2]), m[3], m[4] ? Number(m[4]) : 1),
+      segmentStartSeconds: seg ? Number(seg.start.toFixed(2)) : null,
     });
   }
   return out;
@@ -83,6 +121,20 @@ function readCues() {
 
 const scenes = readScenes();
 const cues = readCues();
+
+/*
+ * Every cue must have resolved. A null time means this file and `Sfx.tsx` disagree about what
+ * counts as a match for a word — and since the mixer places sounds from THIS list while the
+ * cue sheet is authored in that one, a silent disagreement would drop effects from the mix
+ * with nothing to show for it.
+ */
+const unresolved = cues.filter((c) => c.atSeconds === null);
+if (unresolved.length) {
+  throw new Error(
+    `${unresolved.length} sfx cue(s) could not be resolved to a word: `
+    + unresolved.map((c) => `"${c.anchorWord}" in segment ${c.segment}`).join(', '),
+  );
+}
 
 const duration = audio.master.processedSeconds;
 const totalFrames = Math.ceil((duration + TAIL_HOLD_SECONDS) * VIDEO.fps);
