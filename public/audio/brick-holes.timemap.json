@@ -1,0 +1,181 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/brick-holes/take-b.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/brick-holes.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11947,
+  "sampleRate": 48000,
+  "rawDuration": 29.164,
+  "cutDuration": 25.755,
+  "processedDuration": 23.006,
+  "silenceRemoved": 3.409,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 2.465,
+      "raw": 0.484,
+      "kept": 0.237,
+      "removed": 0.247
+    },
+    {
+      "kind": "shortened",
+      "at": 6.164,
+      "raw": 0.724,
+      "kept": 0.285,
+      "removed": 0.44
+    },
+    {
+      "kind": "shortened",
+      "at": 7.949,
+      "raw": 1.161,
+      "kept": 0.3,
+      "removed": 0.861
+    },
+    {
+      "kind": "shortened",
+      "at": 11.441,
+      "raw": 0.349,
+      "kept": 0.21,
+      "removed": 0.139
+    },
+    {
+      "kind": "shortened",
+      "at": 13.637,
+      "raw": 0.438,
+      "kept": 0.228,
+      "removed": 0.21
+    },
+    {
+      "kind": "shortened",
+      "at": 15.936,
+      "raw": 0.827,
+      "kept": 0.3,
+      "removed": 0.527
+    },
+    {
+      "kind": "shortened",
+      "at": 19.046,
+      "raw": 0.356,
+      "kept": 0.211,
+      "removed": 0.145
+    },
+    {
+      "kind": "shortened",
+      "at": 20.145,
+      "raw": 0.572,
+      "kept": 0.254,
+      "removed": 0.318
+    },
+    {
+      "kind": "shortened",
+      "at": 24.599,
+      "raw": 0.727,
+      "kept": 0.285,
+      "removed": 0.441
+    },
+    {
+      "kind": "kept-intact",
+      "at": 25.941,
+      "raw": 0.173,
+      "kept": 0.173,
+      "removed": 0
+    },
+    {
+      "kind": "kept-intact",
+      "at": 26.746,
+      "raw": 0.261,
+      "kept": 0.261,
+      "removed": 0
+    },
+    {
+      "kind": "kept-intact",
+      "at": 27.693,
+      "raw": 0.271,
+      "kept": 0.271,
+      "removed": 0
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.361,
+      "kept": 0.28,
+      "removed": 0.081
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 2.584,
+      "outStart": 0,
+      "outEnd": 2.308
+    },
+    {
+      "rawStart": 2.831,
+      "rawEnd": 6.307,
+      "outStart": 2.308,
+      "outEnd": 5.413
+    },
+    {
+      "rawStart": 6.746,
+      "rawEnd": 8.099,
+      "outStart": 5.413,
+      "outEnd": 6.621
+    },
+    {
+      "rawStart": 8.96,
+      "rawEnd": 11.546,
+      "outStart": 6.621,
+      "outEnd": 8.931
+    },
+    {
+      "rawStart": 11.685,
+      "rawEnd": 13.751,
+      "outStart": 8.931,
+      "outEnd": 10.777
+    },
+    {
+      "rawStart": 13.962,
+      "rawEnd": 16.086,
+      "outStart": 10.777,
+      "outEnd": 12.675
+    },
+    {
+      "rawStart": 16.613,
+      "rawEnd": 19.151,
+      "outStart": 12.675,
+      "outEnd": 14.942
+    },
+    {
+      "rawStart": 19.296,
+      "rawEnd": 20.272,
+      "outStart": 14.942,
+      "outEnd": 15.814
+    },
+    {
+      "rawStart": 20.59,
+      "rawEnd": 24.742,
+      "outStart": 15.814,
+      "outEnd": 19.522
+    },
+    {
+      "rawStart": 25.183,
+      "rawEnd": 29.083,
+      "outStart": 19.522,
+      "outEnd": 23.006
+    }
+  ]
+}

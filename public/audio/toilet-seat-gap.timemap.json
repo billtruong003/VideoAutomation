@@ -1,0 +1,134 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/toilet-seat-gap/take-a.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/toilet-seat-gap.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11947,
+  "sampleRate": 48000,
+  "rawDuration": 27.818,
+  "cutDuration": 24.407,
+  "processedDuration": 21.803,
+  "silenceRemoved": 3.41,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 2.145,
+      "raw": 0.531,
+      "kept": 0.246,
+      "removed": 0.284
+    },
+    {
+      "kind": "shortened",
+      "at": 4.708,
+      "raw": 0.708,
+      "kept": 0.282,
+      "removed": 0.427
+    },
+    {
+      "kind": "shortened",
+      "at": 6.251,
+      "raw": 1.009,
+      "kept": 0.3,
+      "removed": 0.709
+    },
+    {
+      "kind": "shortened",
+      "at": 13.528,
+      "raw": 0.897,
+      "kept": 0.3,
+      "removed": 0.597
+    },
+    {
+      "kind": "shortened",
+      "at": 18.349,
+      "raw": 0.421,
+      "kept": 0.224,
+      "removed": 0.197
+    },
+    {
+      "kind": "shortened",
+      "at": 22.002,
+      "raw": 0.783,
+      "kept": 0.297,
+      "removed": 0.486
+    },
+    {
+      "kind": "shortened",
+      "at": 24.561,
+      "raw": 0.919,
+      "kept": 0.3,
+      "removed": 0.619
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.37,
+      "kept": 0.28,
+      "removed": 0.09
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 2.268,
+      "outStart": 0,
+      "outEnd": 2.026
+    },
+    {
+      "rawStart": 2.553,
+      "rawEnd": 4.848,
+      "outStart": 2.026,
+      "outEnd": 4.077
+    },
+    {
+      "rawStart": 5.275,
+      "rawEnd": 6.401,
+      "outStart": 4.077,
+      "outEnd": 5.083
+    },
+    {
+      "rawStart": 7.11,
+      "rawEnd": 13.678,
+      "outStart": 5.083,
+      "outEnd": 10.949
+    },
+    {
+      "rawStart": 14.275,
+      "rawEnd": 18.461,
+      "outStart": 10.949,
+      "outEnd": 14.689
+    },
+    {
+      "rawStart": 18.658,
+      "rawEnd": 22.15,
+      "outStart": 14.689,
+      "outEnd": 17.808
+    },
+    {
+      "rawStart": 22.637,
+      "rawEnd": 24.711,
+      "outStart": 17.808,
+      "outEnd": 19.661
+    },
+    {
+      "rawStart": 25.33,
+      "rawEnd": 27.727,
+      "outStart": 19.661,
+      "outEnd": 21.803
+    }
+  ]
+}

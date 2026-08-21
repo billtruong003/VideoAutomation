@@ -1,0 +1,956 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "The cabin lights go down before a night landing,",
+      "start_time": 0.079,
+      "end_time": 1.939,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 0.079,
+          "end_time": 0.159
+        },
+        {
+          "text": " ",
+          "start_time": 0.159,
+          "end_time": 0.199
+        },
+        {
+          "text": "cabin",
+          "start_time": 0.199,
+          "end_time": 0.419
+        },
+        {
+          "text": " ",
+          "start_time": 0.419,
+          "end_time": 0.5
+        },
+        {
+          "text": "lights",
+          "start_time": 0.5,
+          "end_time": 0.68
+        },
+        {
+          "text": " ",
+          "start_time": 0.68,
+          "end_time": 0.719
+        },
+        {
+          "text": "go",
+          "start_time": 0.719,
+          "end_time": 0.839
+        },
+        {
+          "text": " ",
+          "start_time": 0.839,
+          "end_time": 0.879
+        },
+        {
+          "text": "down",
+          "start_time": 0.879,
+          "end_time": 1.039
+        },
+        {
+          "text": " ",
+          "start_time": 1.039,
+          "end_time": 1.079
+        },
+        {
+          "text": "before",
+          "start_time": 1.079,
+          "end_time": 1.299
+        },
+        {
+          "text": " ",
+          "start_time": 1.299,
+          "end_time": 1.339
+        },
+        {
+          "text": "a",
+          "start_time": 1.339,
+          "end_time": 1.419
+        },
+        {
+          "text": " ",
+          "start_time": 1.419,
+          "end_time": 1.459
+        },
+        {
+          "text": "night",
+          "start_time": 1.459,
+          "end_time": 1.599
+        },
+        {
+          "text": " ",
+          "start_time": 1.599,
+          "end_time": 1.659
+        },
+        {
+          "text": "landing,",
+          "start_time": 1.659,
+          "end_time": 1.939
+        }
+      ]
+    },
+    {
+      "text": "and it reads as mood lighting or saving power.",
+      "start_time": 2.24,
+      "end_time": 4.239,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 2.24,
+          "end_time": 2.319
+        },
+        {
+          "text": " ",
+          "start_time": 2.319,
+          "end_time": 2.339
+        },
+        {
+          "text": "it",
+          "start_time": 2.339,
+          "end_time": 2.419
+        },
+        {
+          "text": " ",
+          "start_time": 2.419,
+          "end_time": 2.499
+        },
+        {
+          "text": "reads",
+          "start_time": 2.5,
+          "end_time": 2.7
+        },
+        {
+          "text": " ",
+          "start_time": 2.7,
+          "end_time": 2.74
+        },
+        {
+          "text": "as",
+          "start_time": 2.74,
+          "end_time": 2.839
+        },
+        {
+          "text": " ",
+          "start_time": 2.839,
+          "end_time": 2.919
+        },
+        {
+          "text": "mood",
+          "start_time": 2.919,
+          "end_time": 3.099
+        },
+        {
+          "text": " ",
+          "start_time": 3.099,
+          "end_time": 3.139
+        },
+        {
+          "text": "lighting",
+          "start_time": 3.139,
+          "end_time": 3.399
+        },
+        {
+          "text": " ",
+          "start_time": 3.399,
+          "end_time": 3.459
+        },
+        {
+          "text": "or",
+          "start_time": 3.46,
+          "end_time": 3.519
+        },
+        {
+          "text": " ",
+          "start_time": 3.519,
+          "end_time": 3.659
+        },
+        {
+          "text": "saving",
+          "start_time": 3.659,
+          "end_time": 3.919
+        },
+        {
+          "text": " ",
+          "start_time": 3.919,
+          "end_time": 3.959
+        },
+        {
+          "text": "power.",
+          "start_time": 3.959,
+          "end_time": 4.239
+        }
+      ]
+    },
+    {
+      "text": "It is neither.",
+      "start_time": 4.519,
+      "end_time": 5.119,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "It",
+          "start_time": 4.519,
+          "end_time": 4.599
+        },
+        {
+          "text": " ",
+          "start_time": 4.599,
+          "end_time": 4.639
+        },
+        {
+          "text": "is",
+          "start_time": 4.639,
+          "end_time": 4.719
+        },
+        {
+          "text": " ",
+          "start_time": 4.719,
+          "end_time": 4.799
+        },
+        {
+          "text": "neither.",
+          "start_time": 4.799,
+          "end_time": 5.099
+        }
+      ]
+    },
+    {
+      "text": "Eyes take several minutes to adapt to darkness,",
+      "start_time": 5.42,
+      "end_time": 7.419,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Eyes",
+          "start_time": 5.42,
+          "end_time": 5.699
+        },
+        {
+          "text": " ",
+          "start_time": 5.699,
+          "end_time": 5.739
+        },
+        {
+          "text": "take",
+          "start_time": 5.739,
+          "end_time": 5.939
+        },
+        {
+          "text": " ",
+          "start_time": 5.939,
+          "end_time": 5.96
+        },
+        {
+          "text": "several",
+          "start_time": 5.96,
+          "end_time": 6.239
+        },
+        {
+          "text": " ",
+          "start_time": 6.239,
+          "end_time": 6.279
+        },
+        {
+          "text": "minutes",
+          "start_time": 6.279,
+          "end_time": 6.48
+        },
+        {
+          "text": " ",
+          "start_time": 6.48,
+          "end_time": 6.539
+        },
+        {
+          "text": "to",
+          "start_time": 6.539,
+          "end_time": 6.599
+        },
+        {
+          "text": " ",
+          "start_time": 6.599,
+          "end_time": 6.639
+        },
+        {
+          "text": "adapt",
+          "start_time": 6.639,
+          "end_time": 6.879
+        },
+        {
+          "text": " ",
+          "start_time": 6.879,
+          "end_time": 6.899
+        },
+        {
+          "text": "to",
+          "start_time": 6.899,
+          "end_time": 6.98
+        },
+        {
+          "text": " ",
+          "start_time": 6.98,
+          "end_time": 7.039
+        },
+        {
+          "text": "darkness,",
+          "start_time": 7.039,
+          "end_time": 7.419
+        }
+      ]
+    },
+    {
+      "text": "and takeoff and landing are when an evacuation",
+      "start_time": 7.719,
+      "end_time": 9.76,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 7.719,
+          "end_time": 7.799
+        },
+        {
+          "text": " ",
+          "start_time": 7.799,
+          "end_time": 7.899
+        },
+        {
+          "text": "takeoff",
+          "start_time": 7.899,
+          "end_time": 8.26
+        },
+        {
+          "text": " ",
+          "start_time": 8.26,
+          "end_time": 8.279
+        },
+        {
+          "text": "and",
+          "start_time": 8.279,
+          "end_time": 8.38
+        },
+        {
+          "text": " ",
+          "start_time": 8.38,
+          "end_time": 8.439
+        },
+        {
+          "text": "landing",
+          "start_time": 8.439,
+          "end_time": 8.76
+        },
+        {
+          "text": " ",
+          "start_time": 8.76,
+          "end_time": 8.8
+        },
+        {
+          "text": "are",
+          "start_time": 8.8,
+          "end_time": 8.899
+        },
+        {
+          "text": " ",
+          "start_time": 8.899,
+          "end_time": 8.92
+        },
+        {
+          "text": "when",
+          "start_time": 8.92,
+          "end_time": 9.019
+        },
+        {
+          "text": " ",
+          "start_time": 9.019,
+          "end_time": 9.039
+        },
+        {
+          "text": "an",
+          "start_time": 9.039,
+          "end_time": 9.079
+        },
+        {
+          "text": " ",
+          "start_time": 9.079,
+          "end_time": 9.159
+        },
+        {
+          "text": "evacuation",
+          "start_time": 9.159,
+          "end_time": 9.76
+        }
+      ]
+    },
+    {
+      "text": "is most likely to be needed.",
+      "start_time": 9.819,
+      "end_time": 10.92,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "is",
+          "start_time": 9.819,
+          "end_time": 9.899
+        },
+        {
+          "text": " ",
+          "start_time": 9.899,
+          "end_time": 9.979
+        },
+        {
+          "text": "most",
+          "start_time": 9.979,
+          "end_time": 10.139
+        },
+        {
+          "text": " ",
+          "start_time": 10.139,
+          "end_time": 10.219
+        },
+        {
+          "text": "likely",
+          "start_time": 10.219,
+          "end_time": 10.46
+        },
+        {
+          "text": " ",
+          "start_time": 10.46,
+          "end_time": 10.5
+        },
+        {
+          "text": "to",
+          "start_time": 10.5,
+          "end_time": 10.539
+        },
+        {
+          "text": " ",
+          "start_time": 10.539,
+          "end_time": 10.579
+        },
+        {
+          "text": "be",
+          "start_time": 10.579,
+          "end_time": 10.659
+        },
+        {
+          "text": " ",
+          "start_time": 10.659,
+          "end_time": 10.699
+        },
+        {
+          "text": "needed.",
+          "start_time": 10.699,
+          "end_time": 10.92
+        }
+      ]
+    },
+    {
+      "text": "If the cabin were brightly lit and the power",
+      "start_time": 11.239,
+      "end_time": 13.179,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "If",
+          "start_time": 11.239,
+          "end_time": 11.319
+        },
+        {
+          "text": " ",
+          "start_time": 11.319,
+          "end_time": 11.359
+        },
+        {
+          "text": "the",
+          "start_time": 11.359,
+          "end_time": 11.42
+        },
+        {
+          "text": " ",
+          "start_time": 11.42,
+          "end_time": 11.5
+        },
+        {
+          "text": "cabin",
+          "start_time": 11.5,
+          "end_time": 11.739
+        },
+        {
+          "text": " ",
+          "start_time": 11.739,
+          "end_time": 11.779
+        },
+        {
+          "text": "were",
+          "start_time": 11.779,
+          "end_time": 11.899
+        },
+        {
+          "text": " ",
+          "start_time": 11.899,
+          "end_time": 11.979
+        },
+        {
+          "text": "brightly",
+          "start_time": 11.979,
+          "end_time": 12.3
+        },
+        {
+          "text": " ",
+          "start_time": 12.3,
+          "end_time": 12.34
+        },
+        {
+          "text": "lit",
+          "start_time": 12.34,
+          "end_time": 12.519
+        },
+        {
+          "text": " ",
+          "start_time": 12.519,
+          "end_time": 12.699
+        },
+        {
+          "text": "and",
+          "start_time": 12.699,
+          "end_time": 12.779
+        },
+        {
+          "text": " ",
+          "start_time": 12.779,
+          "end_time": 12.819
+        },
+        {
+          "text": "the",
+          "start_time": 12.819,
+          "end_time": 12.88
+        },
+        {
+          "text": " ",
+          "start_time": 12.88,
+          "end_time": 12.96
+        },
+        {
+          "text": "power",
+          "start_time": 12.96,
+          "end_time": 13.179
+        }
+      ]
+    },
+    {
+      "text": "went, everyone aboard would be effectively",
+      "start_time": 13.259,
+      "end_time": 15.039,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "went,",
+          "start_time": 13.259,
+          "end_time": 13.479
+        },
+        {
+          "text": " ",
+          "start_time": 13.479,
+          "end_time": 13.719
+        },
+        {
+          "text": "everyone",
+          "start_time": 13.719,
+          "end_time": 13.979
+        },
+        {
+          "text": " ",
+          "start_time": 13.979,
+          "end_time": 14.039
+        },
+        {
+          "text": "aboard",
+          "start_time": 14.039,
+          "end_time": 14.279
+        },
+        {
+          "text": " ",
+          "start_time": 14.279,
+          "end_time": 14.319
+        },
+        {
+          "text": "would",
+          "start_time": 14.319,
+          "end_time": 14.4
+        },
+        {
+          "text": " ",
+          "start_time": 14.4,
+          "end_time": 14.42
+        },
+        {
+          "text": "be",
+          "start_time": 14.42,
+          "end_time": 14.5
+        },
+        {
+          "text": " ",
+          "start_time": 14.5,
+          "end_time": 14.559
+        },
+        {
+          "text": "effectively",
+          "start_time": 14.559,
+          "end_time": 15.039
+        }
+      ]
+    },
+    {
+      "text": "blind at the worst possible moment.",
+      "start_time": 15.079,
+      "end_time": 16.699,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "blind",
+          "start_time": 15.079,
+          "end_time": 15.339
+        },
+        {
+          "text": " ",
+          "start_time": 15.339,
+          "end_time": 15.379
+        },
+        {
+          "text": "at",
+          "start_time": 15.38,
+          "end_time": 15.439
+        },
+        {
+          "text": " ",
+          "start_time": 15.439,
+          "end_time": 15.479
+        },
+        {
+          "text": "the",
+          "start_time": 15.479,
+          "end_time": 15.599
+        },
+        {
+          "text": " ",
+          "start_time": 15.599,
+          "end_time": 15.659
+        },
+        {
+          "text": "worst",
+          "start_time": 15.659,
+          "end_time": 15.939
+        },
+        {
+          "text": " ",
+          "start_time": 15.939,
+          "end_time": 16
+        },
+        {
+          "text": "possible",
+          "start_time": 16,
+          "end_time": 16.339
+        },
+        {
+          "text": " ",
+          "start_time": 16.339,
+          "end_time": 16.399
+        },
+        {
+          "text": "moment.",
+          "start_time": 16.399,
+          "end_time": 16.699
+        }
+      ]
+    },
+    {
+      "text": "Dimming early means your eyes are already adjusted,",
+      "start_time": 17.02,
+      "end_time": 19.159,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Dimming",
+          "start_time": 17.02,
+          "end_time": 17.279
+        },
+        {
+          "text": " ",
+          "start_time": 17.279,
+          "end_time": 17.339
+        },
+        {
+          "text": "early",
+          "start_time": 17.34,
+          "end_time": 17.579
+        },
+        {
+          "text": " ",
+          "start_time": 17.579,
+          "end_time": 17.639
+        },
+        {
+          "text": "means",
+          "start_time": 17.639,
+          "end_time": 17.799
+        },
+        {
+          "text": " ",
+          "start_time": 17.799,
+          "end_time": 17.859
+        },
+        {
+          "text": "your",
+          "start_time": 17.859,
+          "end_time": 17.94
+        },
+        {
+          "text": " ",
+          "start_time": 17.94,
+          "end_time": 18.02
+        },
+        {
+          "text": "eyes",
+          "start_time": 18.02,
+          "end_time": 18.159
+        },
+        {
+          "text": " ",
+          "start_time": 18.159,
+          "end_time": 18.199
+        },
+        {
+          "text": "are",
+          "start_time": 18.199,
+          "end_time": 18.319
+        },
+        {
+          "text": " ",
+          "start_time": 18.319,
+          "end_time": 18.399
+        },
+        {
+          "text": "already",
+          "start_time": 18.399,
+          "end_time": 18.68
+        },
+        {
+          "text": " ",
+          "start_time": 18.68,
+          "end_time": 18.719
+        },
+        {
+          "text": "adjusted,",
+          "start_time": 18.719,
+          "end_time": 19.159
+        }
+      ]
+    },
+    {
+      "text": "and the floor path lighting reads clearly instead",
+      "start_time": 19.539,
+      "end_time": 21.84,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 19.539,
+          "end_time": 19.6
+        },
+        {
+          "text": " ",
+          "start_time": 19.6,
+          "end_time": 19.639
+        },
+        {
+          "text": "the",
+          "start_time": 19.639,
+          "end_time": 19.719
+        },
+        {
+          "text": " ",
+          "start_time": 19.719,
+          "end_time": 19.779
+        },
+        {
+          "text": "floor",
+          "start_time": 19.779,
+          "end_time": 19.92
+        },
+        {
+          "text": " ",
+          "start_time": 19.92,
+          "end_time": 20.02
+        },
+        {
+          "text": "path",
+          "start_time": 20.02,
+          "end_time": 20.199
+        },
+        {
+          "text": " ",
+          "start_time": 20.199,
+          "end_time": 20.259
+        },
+        {
+          "text": "lighting",
+          "start_time": 20.26,
+          "end_time": 20.459
+        },
+        {
+          "text": " ",
+          "start_time": 20.459,
+          "end_time": 20.5
+        },
+        {
+          "text": "reads",
+          "start_time": 20.5,
+          "end_time": 20.719
+        },
+        {
+          "text": " ",
+          "start_time": 20.719,
+          "end_time": 21.019
+        },
+        {
+          "text": "clearly",
+          "start_time": 21.02,
+          "end_time": 21.539
+        },
+        {
+          "text": " ",
+          "start_time": 21.539,
+          "end_time": 21.599
+        },
+        {
+          "text": "instead",
+          "start_time": 21.6,
+          "end_time": 21.84
+        }
+      ]
+    },
+    {
+      "text": "of washing out.",
+      "start_time": 21.879,
+      "end_time": 22.5,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "of",
+          "start_time": 21.879,
+          "end_time": 21.939
+        },
+        {
+          "text": " ",
+          "start_time": 21.939,
+          "end_time": 22.019
+        },
+        {
+          "text": "washing",
+          "start_time": 22.02,
+          "end_time": 22.279
+        },
+        {
+          "text": " ",
+          "start_time": 22.279,
+          "end_time": 22.339
+        },
+        {
+          "text": "out.",
+          "start_time": 22.34,
+          "end_time": 22.5
+        }
+      ]
+    },
+    {
+      "text": "The lights go down so you can see.",
+      "start_time": 22.76,
+      "end_time": 24.119,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 22.76,
+          "end_time": 22.819
+        },
+        {
+          "text": " ",
+          "start_time": 22.819,
+          "end_time": 22.879
+        },
+        {
+          "text": "lights",
+          "start_time": 22.879,
+          "end_time": 23.059
+        },
+        {
+          "text": " ",
+          "start_time": 23.059,
+          "end_time": 23.119
+        },
+        {
+          "text": "go",
+          "start_time": 23.119,
+          "end_time": 23.219
+        },
+        {
+          "text": " ",
+          "start_time": 23.219,
+          "end_time": 23.279
+        },
+        {
+          "text": "down",
+          "start_time": 23.279,
+          "end_time": 23.479
+        },
+        {
+          "text": " ",
+          "start_time": 23.479,
+          "end_time": 23.539
+        },
+        {
+          "text": "so",
+          "start_time": 23.539,
+          "end_time": 23.6
+        },
+        {
+          "text": " ",
+          "start_time": 23.6,
+          "end_time": 23.659
+        },
+        {
+          "text": "you",
+          "start_time": 23.659,
+          "end_time": 23.72
+        },
+        {
+          "text": " ",
+          "start_time": 23.72,
+          "end_time": 23.739
+        },
+        {
+          "text": "can",
+          "start_time": 23.739,
+          "end_time": 23.899
+        },
+        {
+          "text": " ",
+          "start_time": 23.899,
+          "end_time": 23.959
+        },
+        {
+          "text": "see.",
+          "start_time": 23.959,
+          "end_time": 24.119
+        }
+      ]
+    }
+  ]
+}

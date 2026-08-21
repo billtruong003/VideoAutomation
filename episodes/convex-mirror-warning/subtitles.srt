@@ -1,0 +1,51 @@
+1
+00:00:00,079 --> 00:00:01,959
+On an American car the passenger side mirror
+
+2
+00:00:02,019 --> 00:00:03,919
+is curved, the driver's side one is flat,
+
+3
+00:00:04,139 --> 00:00:06,079
+and only the curved one carries a warning printed
+
+4
+00:00:06,119 --> 00:00:06,719
+on the glass.
+
+5
+00:00:07,000 --> 00:00:08,960
+Curving a mirror squeezes a wider slice of
+
+6
+00:00:09,019 --> 00:00:10,500
+road into the same piece of glass,
+
+7
+00:00:10,739 --> 00:00:12,219
+which is how it covers a blind spot a
+
+8
+00:00:12,259 --> 00:00:13,579
+flat mirror cannot reach.
+
+9
+00:00:13,840 --> 00:00:15,859
+The price is that everything in it looks smaller,
+
+10
+00:00:16,100 --> 00:00:17,939
+and your brain reads smaller as further away.
+
+11
+00:00:18,219 --> 00:00:20,000
+The warning exists because the mirror really
+
+12
+00:00:20,059 --> 00:00:21,859
+is misleading you, and someone decided that
+
+13
+00:00:21,899 --> 00:00:22,959
+had to be admitted in writing.

@@ -1,0 +1,51 @@
+1
+00:00:00,079 --> 00:00:02,000
+A receipt left in a wallet slowly goes blank,
+
+2
+00:00:02,200 --> 00:00:03,539
+because there was never any ink on it.
+
+3
+00:00:03,799 --> 00:00:05,799
+Receipt paper is coated with a colorless dye
+
+4
+00:00:06,039 --> 00:00:07,659
+and a chemical developer sitting right next
+
+5
+00:00:07,699 --> 00:00:08,960
+to each other, doing nothing.
+
+6
+00:00:09,179 --> 00:00:10,880
+The printer has no ink and no ribbon.
+
+7
+00:00:11,119 --> 00:00:12,439
+It has a row of tiny heaters.
+
+8
+00:00:12,699 --> 00:00:14,579
+Wherever it touches, the coating melts,
+
+9
+00:00:14,779 --> 00:00:16,680
+the two chemicals meet, and that spot turns
+
+10
+00:00:16,779 --> 00:00:17,299
+black.
+
+11
+00:00:17,319 --> 00:00:19,339
+The catch is the reaction never locks.
+
+12
+00:00:19,579 --> 00:00:21,899
+Heat off a dashboard or friction in a back
+
+13
+00:00:22,000 --> 00:00:24,279
+pocket keeps driving it until the text vanishes.

@@ -1,0 +1,207 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/thermal-receipt-fade/take-b.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/thermal-receipt-fade.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.1196,
+  "sampleRate": 48000,
+  "rawDuration": 31.579,
+  "cutDuration": 27.453,
+  "processedDuration": 24.52,
+  "silenceRemoved": 4.126,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 2.212,
+      "raw": 0.5,
+      "kept": 0.24,
+      "removed": 0.26
+    },
+    {
+      "kind": "shortened",
+      "at": 4.179,
+      "raw": 0.882,
+      "kept": 0.3,
+      "removed": 0.581
+    },
+    {
+      "kind": "shortened",
+      "at": 7.362,
+      "raw": 0.361,
+      "kept": 0.212,
+      "removed": 0.149
+    },
+    {
+      "kind": "kept-intact",
+      "at": 10.155,
+      "raw": 0.172,
+      "kept": 0.172,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 10.959,
+      "raw": 0.909,
+      "kept": 0.3,
+      "removed": 0.609
+    },
+    {
+      "kind": "shortened",
+      "at": 13.748,
+      "raw": 0.61,
+      "kept": 0.262,
+      "removed": 0.348
+    },
+    {
+      "kind": "shortened",
+      "at": 15.848,
+      "raw": 0.911,
+      "kept": 0.3,
+      "removed": 0.611
+    },
+    {
+      "kind": "kept-intact",
+      "at": 17.76,
+      "raw": 0.277,
+      "kept": 0.277,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 18.872,
+      "raw": 0.346,
+      "kept": 0.209,
+      "removed": 0.137
+    },
+    {
+      "kind": "shortened",
+      "at": 20.269,
+      "raw": 0.449,
+      "kept": 0.23,
+      "removed": 0.219
+    },
+    {
+      "kind": "shortened",
+      "at": 21.983,
+      "raw": 0.869,
+      "kept": 0.3,
+      "removed": 0.569
+    },
+    {
+      "kind": "shortened",
+      "at": 25.108,
+      "raw": 0.793,
+      "kept": 0.299,
+      "removed": 0.495
+    },
+    {
+      "kind": "kept-intact",
+      "at": 27.186,
+      "raw": 0.177,
+      "kept": 0.177,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 28.875,
+      "raw": 0.317,
+      "kept": 0.203,
+      "removed": 0.114
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.314,
+      "kept": 0.28,
+      "removed": 0.034
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 2.332,
+      "outStart": 0,
+      "outEnd": 2.083
+    },
+    {
+      "rawStart": 2.593,
+      "rawEnd": 4.329,
+      "outStart": 2.083,
+      "outEnd": 3.634
+    },
+    {
+      "rawStart": 4.91,
+      "rawEnd": 7.469,
+      "outStart": 3.634,
+      "outEnd": 5.919
+    },
+    {
+      "rawStart": 7.617,
+      "rawEnd": 11.109,
+      "outStart": 5.919,
+      "outEnd": 9.038
+    },
+    {
+      "rawStart": 11.719,
+      "rawEnd": 13.879,
+      "outStart": 9.038,
+      "outEnd": 10.967
+    },
+    {
+      "rawStart": 14.228,
+      "rawEnd": 15.998,
+      "outStart": 10.967,
+      "outEnd": 12.549
+    },
+    {
+      "rawStart": 16.609,
+      "rawEnd": 18.976,
+      "outStart": 12.549,
+      "outEnd": 14.663
+    },
+    {
+      "rawStart": 19.113,
+      "rawEnd": 20.384,
+      "outStart": 14.663,
+      "outEnd": 15.799
+    },
+    {
+      "rawStart": 20.603,
+      "rawEnd": 22.133,
+      "outStart": 15.799,
+      "outEnd": 17.165
+    },
+    {
+      "rawStart": 22.702,
+      "rawEnd": 25.257,
+      "outStart": 17.165,
+      "outEnd": 19.448
+    },
+    {
+      "rawStart": 25.752,
+      "rawEnd": 28.977,
+      "outStart": 19.448,
+      "outEnd": 22.329
+    },
+    {
+      "rawStart": 29.091,
+      "rawEnd": 31.545,
+      "outStart": 22.329,
+      "outEnd": 24.52
+    }
+  ]
+}

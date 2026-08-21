@@ -1,0 +1,936 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "Almost every sneaker has one extra lace hole",
+      "start_time": 0.079,
+      "end_time": 2.24,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Almost",
+          "start_time": 0.079,
+          "end_time": 0.299
+        },
+        {
+          "text": " ",
+          "start_time": 0.299,
+          "end_time": 0.419
+        },
+        {
+          "text": "every",
+          "start_time": 0.419,
+          "end_time": 0.599
+        },
+        {
+          "text": " ",
+          "start_time": 0.599,
+          "end_time": 0.699
+        },
+        {
+          "text": "sneaker",
+          "start_time": 0.699,
+          "end_time": 0.959
+        },
+        {
+          "text": " ",
+          "start_time": 0.959,
+          "end_time": 1.059
+        },
+        {
+          "text": "has",
+          "start_time": 1.059,
+          "end_time": 1.259
+        },
+        {
+          "text": " ",
+          "start_time": 1.259,
+          "end_time": 1.319
+        },
+        {
+          "text": "one",
+          "start_time": 1.319,
+          "end_time": 1.439
+        },
+        {
+          "text": " ",
+          "start_time": 1.439,
+          "end_time": 1.559
+        },
+        {
+          "text": "extra",
+          "start_time": 1.559,
+          "end_time": 1.799
+        },
+        {
+          "text": " ",
+          "start_time": 1.799,
+          "end_time": 1.899
+        },
+        {
+          "text": "lace",
+          "start_time": 1.899,
+          "end_time": 2.059
+        },
+        {
+          "text": " ",
+          "start_time": 2.059,
+          "end_time": 2.119
+        },
+        {
+          "text": "hole",
+          "start_time": 2.119,
+          "end_time": 2.24
+        }
+      ]
+    },
+    {
+      "text": "at the top that nobody uses,",
+      "start_time": 2.259,
+      "end_time": 3.559,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "at",
+          "start_time": 2.259,
+          "end_time": 2.319
+        },
+        {
+          "text": " ",
+          "start_time": 2.319,
+          "end_time": 2.339
+        },
+        {
+          "text": "the",
+          "start_time": 2.339,
+          "end_time": 2.419
+        },
+        {
+          "text": " ",
+          "start_time": 2.419,
+          "end_time": 2.459
+        },
+        {
+          "text": "top",
+          "start_time": 2.46,
+          "end_time": 2.639
+        },
+        {
+          "text": " ",
+          "start_time": 2.639,
+          "end_time": 2.679
+        },
+        {
+          "text": "that",
+          "start_time": 2.679,
+          "end_time": 2.779
+        },
+        {
+          "text": " ",
+          "start_time": 2.779,
+          "end_time": 2.919
+        },
+        {
+          "text": "nobody",
+          "start_time": 2.919,
+          "end_time": 3.199
+        },
+        {
+          "text": " ",
+          "start_time": 3.199,
+          "end_time": 3.279
+        },
+        {
+          "text": "uses,",
+          "start_time": 3.279,
+          "end_time": 3.559
+        }
+      ]
+    },
+    {
+      "text": "set slightly back from the rest.",
+      "start_time": 3.859,
+      "end_time": 5.159,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "set",
+          "start_time": 3.859,
+          "end_time": 4.059
+        },
+        {
+          "text": " ",
+          "start_time": 4.059,
+          "end_time": 4.099
+        },
+        {
+          "text": "slightly",
+          "start_time": 4.099,
+          "end_time": 4.42
+        },
+        {
+          "text": " ",
+          "start_time": 4.42,
+          "end_time": 4.46
+        },
+        {
+          "text": "back",
+          "start_time": 4.46,
+          "end_time": 4.599
+        },
+        {
+          "text": " ",
+          "start_time": 4.599,
+          "end_time": 4.639
+        },
+        {
+          "text": "from",
+          "start_time": 4.639,
+          "end_time": 4.739
+        },
+        {
+          "text": " ",
+          "start_time": 4.739,
+          "end_time": 4.759
+        },
+        {
+          "text": "the",
+          "start_time": 4.759,
+          "end_time": 4.819
+        },
+        {
+          "text": " ",
+          "start_time": 4.819,
+          "end_time": 4.899
+        },
+        {
+          "text": "rest.",
+          "start_time": 4.9,
+          "end_time": 5.159
+        }
+      ]
+    },
+    {
+      "text": "Thread the lace through it on each side and",
+      "start_time": 5.46,
+      "end_time": 7.359,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Thread",
+          "start_time": 5.46,
+          "end_time": 5.679
+        },
+        {
+          "text": " ",
+          "start_time": 5.679,
+          "end_time": 5.719
+        },
+        {
+          "text": "the",
+          "start_time": 5.719,
+          "end_time": 5.779
+        },
+        {
+          "text": " ",
+          "start_time": 5.779,
+          "end_time": 5.839
+        },
+        {
+          "text": "lace",
+          "start_time": 5.839,
+          "end_time": 6.039
+        },
+        {
+          "text": " ",
+          "start_time": 6.039,
+          "end_time": 6.079
+        },
+        {
+          "text": "through",
+          "start_time": 6.079,
+          "end_time": 6.239
+        },
+        {
+          "text": " ",
+          "start_time": 6.239,
+          "end_time": 6.279
+        },
+        {
+          "text": "it",
+          "start_time": 6.279,
+          "end_time": 6.379
+        },
+        {
+          "text": " ",
+          "start_time": 6.379,
+          "end_time": 6.399
+        },
+        {
+          "text": "on",
+          "start_time": 6.399,
+          "end_time": 6.539
+        },
+        {
+          "text": " ",
+          "start_time": 6.539,
+          "end_time": 6.579
+        },
+        {
+          "text": "each",
+          "start_time": 6.579,
+          "end_time": 6.719
+        },
+        {
+          "text": " ",
+          "start_time": 6.719,
+          "end_time": 6.819
+        },
+        {
+          "text": "side",
+          "start_time": 6.819,
+          "end_time": 7.059
+        },
+        {
+          "text": " ",
+          "start_time": 7.059,
+          "end_time": 7.279
+        },
+        {
+          "text": "and",
+          "start_time": 7.279,
+          "end_time": 7.359
+        }
+      ]
+    },
+    {
+      "text": "you get a small loop above the ankle.",
+      "start_time": 7.399,
+      "end_time": 8.819,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "you",
+          "start_time": 7.399,
+          "end_time": 7.46
+        },
+        {
+          "text": " ",
+          "start_time": 7.46,
+          "end_time": 7.519
+        },
+        {
+          "text": "get",
+          "start_time": 7.519,
+          "end_time": 7.579
+        },
+        {
+          "text": " ",
+          "start_time": 7.579,
+          "end_time": 7.639
+        },
+        {
+          "text": "a",
+          "start_time": 7.639,
+          "end_time": 7.699
+        },
+        {
+          "text": " ",
+          "start_time": 7.699,
+          "end_time": 7.759
+        },
+        {
+          "text": "small",
+          "start_time": 7.759,
+          "end_time": 7.94
+        },
+        {
+          "text": " ",
+          "start_time": 7.94,
+          "end_time": 8.039
+        },
+        {
+          "text": "loop",
+          "start_time": 8.039,
+          "end_time": 8.159
+        },
+        {
+          "text": " ",
+          "start_time": 8.159,
+          "end_time": 8.239
+        },
+        {
+          "text": "above",
+          "start_time": 8.239,
+          "end_time": 8.399
+        },
+        {
+          "text": " ",
+          "start_time": 8.399,
+          "end_time": 8.439
+        },
+        {
+          "text": "the",
+          "start_time": 8.439,
+          "end_time": 8.5
+        },
+        {
+          "text": " ",
+          "start_time": 8.5,
+          "end_time": 8.579
+        },
+        {
+          "text": "ankle.",
+          "start_time": 8.579,
+          "end_time": 8.819
+        }
+      ]
+    },
+    {
+      "text": "Cross the laces into the opposite loop,",
+      "start_time": 9.079,
+      "end_time": 10.739,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Cross",
+          "start_time": 9.079,
+          "end_time": 9.279
+        },
+        {
+          "text": " ",
+          "start_time": 9.279,
+          "end_time": 9.319
+        },
+        {
+          "text": "the",
+          "start_time": 9.319,
+          "end_time": 9.38
+        },
+        {
+          "text": " ",
+          "start_time": 9.38,
+          "end_time": 9.42
+        },
+        {
+          "text": "laces",
+          "start_time": 9.42,
+          "end_time": 9.739
+        },
+        {
+          "text": " ",
+          "start_time": 9.739,
+          "end_time": 9.8
+        },
+        {
+          "text": "into",
+          "start_time": 9.8,
+          "end_time": 9.939
+        },
+        {
+          "text": " ",
+          "start_time": 9.939,
+          "end_time": 9.979
+        },
+        {
+          "text": "the",
+          "start_time": 9.979,
+          "end_time": 10.079
+        },
+        {
+          "text": " ",
+          "start_time": 10.079,
+          "end_time": 10.179
+        },
+        {
+          "text": "opposite",
+          "start_time": 10.179,
+          "end_time": 10.479
+        },
+        {
+          "text": " ",
+          "start_time": 10.479,
+          "end_time": 10.559
+        },
+        {
+          "text": "loop,",
+          "start_time": 10.559,
+          "end_time": 10.739
+        }
+      ]
+    },
+    {
+      "text": "pull, and the collar clamps down around your",
+      "start_time": 10.979,
+      "end_time": 12.84,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "pull,",
+          "start_time": 10.979,
+          "end_time": 11.179
+        },
+        {
+          "text": " ",
+          "start_time": 11.179,
+          "end_time": 11.399
+        },
+        {
+          "text": "and",
+          "start_time": 11.399,
+          "end_time": 11.46
+        },
+        {
+          "text": " ",
+          "start_time": 11.46,
+          "end_time": 11.5
+        },
+        {
+          "text": "the",
+          "start_time": 11.5,
+          "end_time": 11.559
+        },
+        {
+          "text": " ",
+          "start_time": 11.559,
+          "end_time": 11.639
+        },
+        {
+          "text": "collar",
+          "start_time": 11.639,
+          "end_time": 11.88
+        },
+        {
+          "text": " ",
+          "start_time": 11.88,
+          "end_time": 11.96
+        },
+        {
+          "text": "clamps",
+          "start_time": 11.96,
+          "end_time": 12.239
+        },
+        {
+          "text": " ",
+          "start_time": 12.239,
+          "end_time": 12.279
+        },
+        {
+          "text": "down",
+          "start_time": 12.279,
+          "end_time": 12.46
+        },
+        {
+          "text": " ",
+          "start_time": 12.46,
+          "end_time": 12.519
+        },
+        {
+          "text": "around",
+          "start_time": 12.519,
+          "end_time": 12.699
+        },
+        {
+          "text": " ",
+          "start_time": 12.699,
+          "end_time": 12.739
+        },
+        {
+          "text": "your",
+          "start_time": 12.739,
+          "end_time": 12.84
+        }
+      ]
+    },
+    {
+      "text": "ankle instead of squeezing the middle of your",
+      "start_time": 12.899,
+      "end_time": 14.579,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "ankle",
+          "start_time": 12.899,
+          "end_time": 13.099
+        },
+        {
+          "text": " ",
+          "start_time": 13.099,
+          "end_time": 13.159
+        },
+        {
+          "text": "instead",
+          "start_time": 13.159,
+          "end_time": 13.399
+        },
+        {
+          "text": " ",
+          "start_time": 13.399,
+          "end_time": 13.42
+        },
+        {
+          "text": "of",
+          "start_time": 13.42,
+          "end_time": 13.539
+        },
+        {
+          "text": " ",
+          "start_time": 13.539,
+          "end_time": 13.579
+        },
+        {
+          "text": "squeezing",
+          "start_time": 13.579,
+          "end_time": 13.939
+        },
+        {
+          "text": " ",
+          "start_time": 13.939,
+          "end_time": 13.979
+        },
+        {
+          "text": "the",
+          "start_time": 13.979,
+          "end_time": 14.079
+        },
+        {
+          "text": " ",
+          "start_time": 14.079,
+          "end_time": 14.139
+        },
+        {
+          "text": "middle",
+          "start_time": 14.139,
+          "end_time": 14.299
+        },
+        {
+          "text": " ",
+          "start_time": 14.299,
+          "end_time": 14.339
+        },
+        {
+          "text": "of",
+          "start_time": 14.34,
+          "end_time": 14.399
+        },
+        {
+          "text": " ",
+          "start_time": 14.399,
+          "end_time": 14.439
+        },
+        {
+          "text": "your",
+          "start_time": 14.439,
+          "end_time": 14.579
+        }
+      ]
+    },
+    {
+      "text": "foot.",
+      "start_time": 14.639,
+      "end_time": 15.079,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "foot.",
+          "start_time": 14.639,
+          "end_time": 14.839
+        }
+      ]
+    },
+    {
+      "text": "Your heel stops lifting out of the shoe with",
+      "start_time": 15.099,
+      "end_time": 16.759,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Your",
+          "start_time": 15.099,
+          "end_time": 15.179
+        },
+        {
+          "text": " ",
+          "start_time": 15.179,
+          "end_time": 15.239
+        },
+        {
+          "text": "heel",
+          "start_time": 15.239,
+          "end_time": 15.439
+        },
+        {
+          "text": " ",
+          "start_time": 15.439,
+          "end_time": 15.5
+        },
+        {
+          "text": "stops",
+          "start_time": 15.5,
+          "end_time": 15.759
+        },
+        {
+          "text": " ",
+          "start_time": 15.759,
+          "end_time": 15.839
+        },
+        {
+          "text": "lifting",
+          "start_time": 15.839,
+          "end_time": 16.079
+        },
+        {
+          "text": " ",
+          "start_time": 16.079,
+          "end_time": 16.119
+        },
+        {
+          "text": "out",
+          "start_time": 16.119,
+          "end_time": 16.18
+        },
+        {
+          "text": " ",
+          "start_time": 16.18,
+          "end_time": 16.219
+        },
+        {
+          "text": "of",
+          "start_time": 16.219,
+          "end_time": 16.26
+        },
+        {
+          "text": " ",
+          "start_time": 16.26,
+          "end_time": 16.299
+        },
+        {
+          "text": "the",
+          "start_time": 16.299,
+          "end_time": 16.36
+        },
+        {
+          "text": " ",
+          "start_time": 16.36,
+          "end_time": 16.459
+        },
+        {
+          "text": "shoe",
+          "start_time": 16.459,
+          "end_time": 16.6
+        },
+        {
+          "text": " ",
+          "start_time": 16.6,
+          "end_time": 16.639
+        },
+        {
+          "text": "with",
+          "start_time": 16.639,
+          "end_time": 16.759
+        }
+      ]
+    },
+    {
+      "text": "every step.",
+      "start_time": 16.84,
+      "end_time": 17.44,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "every",
+          "start_time": 16.84,
+          "end_time": 17.059
+        },
+        {
+          "text": " ",
+          "start_time": 17.059,
+          "end_time": 17.119
+        },
+        {
+          "text": "step.",
+          "start_time": 17.119,
+          "end_time": 17.34
+        }
+      ]
+    },
+    {
+      "text": "Heel lift is what rubs a blister into the",
+      "start_time": 17.619,
+      "end_time": 19.279,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Heel",
+          "start_time": 17.619,
+          "end_time": 17.799
+        },
+        {
+          "text": " ",
+          "start_time": 17.799,
+          "end_time": 17.859
+        },
+        {
+          "text": "lift",
+          "start_time": 17.859,
+          "end_time": 18
+        },
+        {
+          "text": " ",
+          "start_time": 18,
+          "end_time": 18.039
+        },
+        {
+          "text": "is",
+          "start_time": 18.039,
+          "end_time": 18.119
+        },
+        {
+          "text": " ",
+          "start_time": 18.119,
+          "end_time": 18.159
+        },
+        {
+          "text": "what",
+          "start_time": 18.159,
+          "end_time": 18.279
+        },
+        {
+          "text": " ",
+          "start_time": 18.279,
+          "end_time": 18.359
+        },
+        {
+          "text": "rubs",
+          "start_time": 18.359,
+          "end_time": 18.52
+        },
+        {
+          "text": " ",
+          "start_time": 18.52,
+          "end_time": 18.579
+        },
+        {
+          "text": "a",
+          "start_time": 18.579,
+          "end_time": 18.6
+        },
+        {
+          "text": " ",
+          "start_time": 18.6,
+          "end_time": 18.68
+        },
+        {
+          "text": "blister",
+          "start_time": 18.68,
+          "end_time": 18.979
+        },
+        {
+          "text": " ",
+          "start_time": 18.979,
+          "end_time": 19.02
+        },
+        {
+          "text": "into",
+          "start_time": 19.02,
+          "end_time": 19.159
+        },
+        {
+          "text": " ",
+          "start_time": 19.159,
+          "end_time": 19.199
+        },
+        {
+          "text": "the",
+          "start_time": 19.199,
+          "end_time": 19.279
+        }
+      ]
+    },
+    {
+      "text": "back of your foot on a long walk.",
+      "start_time": 19.319,
+      "end_time": 20.659,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "back",
+          "start_time": 19.319,
+          "end_time": 19.479
+        },
+        {
+          "text": " ",
+          "start_time": 19.479,
+          "end_time": 19.52
+        },
+        {
+          "text": "of",
+          "start_time": 19.52,
+          "end_time": 19.559
+        },
+        {
+          "text": " ",
+          "start_time": 19.559,
+          "end_time": 19.619
+        },
+        {
+          "text": "your",
+          "start_time": 19.619,
+          "end_time": 19.719
+        },
+        {
+          "text": " ",
+          "start_time": 19.719,
+          "end_time": 19.76
+        },
+        {
+          "text": "foot",
+          "start_time": 19.76,
+          "end_time": 19.899
+        },
+        {
+          "text": " ",
+          "start_time": 19.899,
+          "end_time": 19.939
+        },
+        {
+          "text": "on",
+          "start_time": 19.939,
+          "end_time": 20
+        },
+        {
+          "text": " ",
+          "start_time": 20,
+          "end_time": 20.039
+        },
+        {
+          "text": "a",
+          "start_time": 20.039,
+          "end_time": 20.099
+        },
+        {
+          "text": " ",
+          "start_time": 20.099,
+          "end_time": 20.159
+        },
+        {
+          "text": "long",
+          "start_time": 20.159,
+          "end_time": 20.379
+        },
+        {
+          "text": " ",
+          "start_time": 20.379,
+          "end_time": 20.439
+        },
+        {
+          "text": "walk.",
+          "start_time": 20.439,
+          "end_time": 20.659
+        }
+      ]
+    }
+  ]
+}

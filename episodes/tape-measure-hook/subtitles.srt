@@ -1,0 +1,55 @@
+1
+00:00:00,079 --> 00:00:01,339
+The metal hook on the end of a tape
+
+2
+00:00:01,399 --> 00:00:03,159
+measure wobbles, and every time you notice
+
+3
+00:00:03,199 --> 00:00:04,639
+it you assume the thing is worn out.
+
+4
+00:00:04,880 --> 00:00:06,000
+The hook is supposed to move.
+
+5
+00:00:06,279 --> 00:00:08,179
+It slides exactly as far as the hook is
+
+6
+00:00:08,239 --> 00:00:09,719
+thick, about a sixteenth of an inch.
+
+7
+00:00:10,000 --> 00:00:11,180
+Hook it over the edge of a board and
+
+8
+00:00:11,199 --> 00:00:13,139
+it pulls out, adding that thickness back.
+
+9
+00:00:13,380 --> 00:00:15,119
+Push it into a corner and it slides in,
+
+10
+00:00:15,380 --> 00:00:16,559
+taking that thickness away.
+
+11
+00:00:16,879 --> 00:00:18,899
+Either way the tape starts reading from true
+
+12
+00:00:18,959 --> 00:00:19,519
+zero.
+
+13
+00:00:19,539 --> 00:00:21,119
+The loosest part of the tool is the part
+
+14
+00:00:21,159 --> 00:00:21,879
+keeping it honest.

@@ -1,0 +1,916 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "Public toilet seats have a gap at the front,",
+      "start_time": 0.099,
+      "end_time": 1.919,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Public",
+          "start_time": 0.099,
+          "end_time": 0.319
+        },
+        {
+          "text": " ",
+          "start_time": 0.319,
+          "end_time": 0.419
+        },
+        {
+          "text": "toilet",
+          "start_time": 0.419,
+          "end_time": 0.639
+        },
+        {
+          "text": " ",
+          "start_time": 0.639,
+          "end_time": 0.74
+        },
+        {
+          "text": "seats",
+          "start_time": 0.74,
+          "end_time": 0.919
+        },
+        {
+          "text": " ",
+          "start_time": 0.919,
+          "end_time": 0.959
+        },
+        {
+          "text": "have",
+          "start_time": 0.959,
+          "end_time": 1.039
+        },
+        {
+          "text": " ",
+          "start_time": 1.039,
+          "end_time": 1.079
+        },
+        {
+          "text": "a",
+          "start_time": 1.079,
+          "end_time": 1.1
+        },
+        {
+          "text": " ",
+          "start_time": 1.1,
+          "end_time": 1.22
+        },
+        {
+          "text": "gap",
+          "start_time": 1.22,
+          "end_time": 1.399
+        },
+        {
+          "text": " ",
+          "start_time": 1.399,
+          "end_time": 1.439
+        },
+        {
+          "text": "at",
+          "start_time": 1.439,
+          "end_time": 1.5
+        },
+        {
+          "text": " ",
+          "start_time": 1.5,
+          "end_time": 1.519
+        },
+        {
+          "text": "the",
+          "start_time": 1.519,
+          "end_time": 1.579
+        },
+        {
+          "text": " ",
+          "start_time": 1.579,
+          "end_time": 1.659
+        },
+        {
+          "text": "front,",
+          "start_time": 1.659,
+          "end_time": 1.919
+        }
+      ]
+    },
+    {
+      "text": "and the one in your house almost certainly",
+      "start_time": 2.139,
+      "end_time": 3.519,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 2.139,
+          "end_time": 2.22
+        },
+        {
+          "text": " ",
+          "start_time": 2.22,
+          "end_time": 2.24
+        },
+        {
+          "text": "the",
+          "start_time": 2.24,
+          "end_time": 2.299
+        },
+        {
+          "text": " ",
+          "start_time": 2.299,
+          "end_time": 2.379
+        },
+        {
+          "text": "one",
+          "start_time": 2.379,
+          "end_time": 2.46
+        },
+        {
+          "text": " ",
+          "start_time": 2.46,
+          "end_time": 2.5
+        },
+        {
+          "text": "in",
+          "start_time": 2.5,
+          "end_time": 2.559
+        },
+        {
+          "text": " ",
+          "start_time": 2.559,
+          "end_time": 2.619
+        },
+        {
+          "text": "your",
+          "start_time": 2.619,
+          "end_time": 2.7
+        },
+        {
+          "text": " ",
+          "start_time": 2.7,
+          "end_time": 2.74
+        },
+        {
+          "text": "house",
+          "start_time": 2.74,
+          "end_time": 2.96
+        },
+        {
+          "text": " ",
+          "start_time": 2.96,
+          "end_time": 3.019
+        },
+        {
+          "text": "almost",
+          "start_time": 3.019,
+          "end_time": 3.259
+        },
+        {
+          "text": " ",
+          "start_time": 3.259,
+          "end_time": 3.299
+        },
+        {
+          "text": "certainly",
+          "start_time": 3.299,
+          "end_time": 3.519
+        }
+      ]
+    },
+    {
+      "text": "does not.",
+      "start_time": 3.579,
+      "end_time": 4.179,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "does",
+          "start_time": 3.579,
+          "end_time": 3.679
+        },
+        {
+          "text": " ",
+          "start_time": 3.679,
+          "end_time": 3.739
+        },
+        {
+          "text": "not.",
+          "start_time": 3.74,
+          "end_time": 3.959
+        }
+      ]
+    },
+    {
+      "text": "It is written down.",
+      "start_time": 4.219,
+      "end_time": 4.939,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "It",
+          "start_time": 4.219,
+          "end_time": 4.259
+        },
+        {
+          "text": " ",
+          "start_time": 4.259,
+          "end_time": 4.299
+        },
+        {
+          "text": "is",
+          "start_time": 4.299,
+          "end_time": 4.4
+        },
+        {
+          "text": " ",
+          "start_time": 4.4,
+          "end_time": 4.44
+        },
+        {
+          "text": "written",
+          "start_time": 4.44,
+          "end_time": 4.599
+        },
+        {
+          "text": " ",
+          "start_time": 4.599,
+          "end_time": 4.699
+        },
+        {
+          "text": "down.",
+          "start_time": 4.699,
+          "end_time": 4.939
+        }
+      ]
+    },
+    {
+      "text": "The plumbing codes most of the country builds",
+      "start_time": 5.219,
+      "end_time": 6.96,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 5.219,
+          "end_time": 5.279
+        },
+        {
+          "text": " ",
+          "start_time": 5.279,
+          "end_time": 5.339
+        },
+        {
+          "text": "plumbing",
+          "start_time": 5.339,
+          "end_time": 5.539
+        },
+        {
+          "text": " ",
+          "start_time": 5.539,
+          "end_time": 5.619
+        },
+        {
+          "text": "codes",
+          "start_time": 5.619,
+          "end_time": 5.96
+        },
+        {
+          "text": " ",
+          "start_time": 5.96,
+          "end_time": 6.019
+        },
+        {
+          "text": "most",
+          "start_time": 6.019,
+          "end_time": 6.159
+        },
+        {
+          "text": " ",
+          "start_time": 6.159,
+          "end_time": 6.199
+        },
+        {
+          "text": "of",
+          "start_time": 6.199,
+          "end_time": 6.239
+        },
+        {
+          "text": " ",
+          "start_time": 6.239,
+          "end_time": 6.259
+        },
+        {
+          "text": "the",
+          "start_time": 6.259,
+          "end_time": 6.319
+        },
+        {
+          "text": " ",
+          "start_time": 6.319,
+          "end_time": 6.379
+        },
+        {
+          "text": "country",
+          "start_time": 6.379,
+          "end_time": 6.659
+        },
+        {
+          "text": " ",
+          "start_time": 6.659,
+          "end_time": 6.719
+        },
+        {
+          "text": "builds",
+          "start_time": 6.719,
+          "end_time": 6.96
+        }
+      ]
+    },
+    {
+      "text": "to call for open-front seats in public restrooms,",
+      "start_time": 7,
+      "end_time": 9.159,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "to",
+          "start_time": 7,
+          "end_time": 7.059
+        },
+        {
+          "text": " ",
+          "start_time": 7.059,
+          "end_time": 7.119
+        },
+        {
+          "text": "call",
+          "start_time": 7.119,
+          "end_time": 7.319
+        },
+        {
+          "text": " ",
+          "start_time": 7.319,
+          "end_time": 7.359
+        },
+        {
+          "text": "for",
+          "start_time": 7.359,
+          "end_time": 7.479
+        },
+        {
+          "text": " ",
+          "start_time": 7.479,
+          "end_time": 7.579
+        },
+        {
+          "text": "open-front",
+          "start_time": 7.579,
+          "end_time": 8.019
+        },
+        {
+          "text": " ",
+          "start_time": 8.019,
+          "end_time": 8.099
+        },
+        {
+          "text": "seats",
+          "start_time": 8.099,
+          "end_time": 8.279
+        },
+        {
+          "text": " ",
+          "start_time": 8.279,
+          "end_time": 8.319
+        },
+        {
+          "text": "in",
+          "start_time": 8.319,
+          "end_time": 8.42
+        },
+        {
+          "text": " ",
+          "start_time": 8.42,
+          "end_time": 8.46
+        },
+        {
+          "text": "public",
+          "start_time": 8.46,
+          "end_time": 8.679
+        },
+        {
+          "text": " ",
+          "start_time": 8.679,
+          "end_time": 8.739
+        },
+        {
+          "text": "restrooms,",
+          "start_time": 8.739,
+          "end_time": 9.159
+        }
+      ]
+    },
+    {
+      "text": "and have for over fifty years.",
+      "start_time": 9.46,
+      "end_time": 10.839,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 9.46,
+          "end_time": 9.539
+        },
+        {
+          "text": " ",
+          "start_time": 9.539,
+          "end_time": 9.599
+        },
+        {
+          "text": "have",
+          "start_time": 9.599,
+          "end_time": 9.76
+        },
+        {
+          "text": " ",
+          "start_time": 9.76,
+          "end_time": 9.819
+        },
+        {
+          "text": "for",
+          "start_time": 9.819,
+          "end_time": 9.92
+        },
+        {
+          "text": " ",
+          "start_time": 9.92,
+          "end_time": 10
+        },
+        {
+          "text": "over",
+          "start_time": 10,
+          "end_time": 10.219
+        },
+        {
+          "text": " ",
+          "start_time": 10.219,
+          "end_time": 10.259
+        },
+        {
+          "text": "fifty",
+          "start_time": 10.26,
+          "end_time": 10.479
+        },
+        {
+          "text": " ",
+          "start_time": 10.479,
+          "end_time": 10.559
+        },
+        {
+          "text": "years.",
+          "start_time": 10.559,
+          "end_time": 10.839
+        }
+      ]
+    },
+    {
+      "text": "The gap keeps the seat clear of the area",
+      "start_time": 11.119,
+      "end_time": 12.859,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 11.119,
+          "end_time": 11.179
+        },
+        {
+          "text": " ",
+          "start_time": 11.179,
+          "end_time": 11.259
+        },
+        {
+          "text": "gap",
+          "start_time": 11.259,
+          "end_time": 11.46
+        },
+        {
+          "text": " ",
+          "start_time": 11.46,
+          "end_time": 11.519
+        },
+        {
+          "text": "keeps",
+          "start_time": 11.519,
+          "end_time": 11.699
+        },
+        {
+          "text": " ",
+          "start_time": 11.699,
+          "end_time": 11.739
+        },
+        {
+          "text": "the",
+          "start_time": 11.739,
+          "end_time": 11.839
+        },
+        {
+          "text": " ",
+          "start_time": 11.839,
+          "end_time": 11.88
+        },
+        {
+          "text": "seat",
+          "start_time": 11.88,
+          "end_time": 12.059
+        },
+        {
+          "text": " ",
+          "start_time": 12.059,
+          "end_time": 12.139
+        },
+        {
+          "text": "clear",
+          "start_time": 12.139,
+          "end_time": 12.34
+        },
+        {
+          "text": " ",
+          "start_time": 12.34,
+          "end_time": 12.359
+        },
+        {
+          "text": "of",
+          "start_time": 12.359,
+          "end_time": 12.439
+        },
+        {
+          "text": " ",
+          "start_time": 12.439,
+          "end_time": 12.46
+        },
+        {
+          "text": "the",
+          "start_time": 12.46,
+          "end_time": 12.559
+        },
+        {
+          "text": " ",
+          "start_time": 12.559,
+          "end_time": 12.659
+        },
+        {
+          "text": "area",
+          "start_time": 12.659,
+          "end_time": 12.859
+        }
+      ]
+    },
+    {
+      "text": "you are most likely to touch while wiping,",
+      "start_time": 12.939,
+      "end_time": 14.599,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "you",
+          "start_time": 12.939,
+          "end_time": 13.019
+        },
+        {
+          "text": " ",
+          "start_time": 13.019,
+          "end_time": 13.039
+        },
+        {
+          "text": "are",
+          "start_time": 13.039,
+          "end_time": 13.179
+        },
+        {
+          "text": " ",
+          "start_time": 13.179,
+          "end_time": 13.239
+        },
+        {
+          "text": "most",
+          "start_time": 13.239,
+          "end_time": 13.42
+        },
+        {
+          "text": " ",
+          "start_time": 13.42,
+          "end_time": 13.479
+        },
+        {
+          "text": "likely",
+          "start_time": 13.479,
+          "end_time": 13.659
+        },
+        {
+          "text": " ",
+          "start_time": 13.659,
+          "end_time": 13.699
+        },
+        {
+          "text": "to",
+          "start_time": 13.699,
+          "end_time": 13.799
+        },
+        {
+          "text": " ",
+          "start_time": 13.799,
+          "end_time": 13.839
+        },
+        {
+          "text": "touch",
+          "start_time": 13.84,
+          "end_time": 14.019
+        },
+        {
+          "text": " ",
+          "start_time": 14.019,
+          "end_time": 14.079
+        },
+        {
+          "text": "while",
+          "start_time": 14.079,
+          "end_time": 14.219
+        },
+        {
+          "text": " ",
+          "start_time": 14.219,
+          "end_time": 14.279
+        },
+        {
+          "text": "wiping,",
+          "start_time": 14.279,
+          "end_time": 14.599
+        }
+      ]
+    },
+    {
+      "text": "which matters far more when hundreds of strangers",
+      "start_time": 14.799,
+      "end_time": 16.899,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "which",
+          "start_time": 14.799,
+          "end_time": 14.92
+        },
+        {
+          "text": " ",
+          "start_time": 14.92,
+          "end_time": 15
+        },
+        {
+          "text": "matters",
+          "start_time": 15,
+          "end_time": 15.239
+        },
+        {
+          "text": " ",
+          "start_time": 15.239,
+          "end_time": 15.359
+        },
+        {
+          "text": "far",
+          "start_time": 15.359,
+          "end_time": 15.559
+        },
+        {
+          "text": " ",
+          "start_time": 15.559,
+          "end_time": 15.599
+        },
+        {
+          "text": "more",
+          "start_time": 15.599,
+          "end_time": 15.739
+        },
+        {
+          "text": " ",
+          "start_time": 15.739,
+          "end_time": 15.799
+        },
+        {
+          "text": "when",
+          "start_time": 15.799,
+          "end_time": 15.939
+        },
+        {
+          "text": " ",
+          "start_time": 15.939,
+          "end_time": 16
+        },
+        {
+          "text": "hundreds",
+          "start_time": 16,
+          "end_time": 16.26
+        },
+        {
+          "text": " ",
+          "start_time": 16.26,
+          "end_time": 16.299
+        },
+        {
+          "text": "of",
+          "start_time": 16.299,
+          "end_time": 16.359
+        },
+        {
+          "text": " ",
+          "start_time": 16.359,
+          "end_time": 16.439
+        },
+        {
+          "text": "strangers",
+          "start_time": 16.44,
+          "end_time": 16.899
+        }
+      ]
+    },
+    {
+      "text": "share one seat.",
+      "start_time": 16.979,
+      "end_time": 17.719,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "share",
+          "start_time": 16.979,
+          "end_time": 17.199
+        },
+        {
+          "text": " ",
+          "start_time": 17.199,
+          "end_time": 17.259
+        },
+        {
+          "text": "one",
+          "start_time": 17.26,
+          "end_time": 17.459
+        },
+        {
+          "text": " ",
+          "start_time": 17.459,
+          "end_time": 17.519
+        },
+        {
+          "text": "seat.",
+          "start_time": 17.52,
+          "end_time": 17.719
+        }
+      ]
+    },
+    {
+      "text": "It also leaves urine nowhere to pool.",
+      "start_time": 17.959,
+      "end_time": 19.539,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "It",
+          "start_time": 17.959,
+          "end_time": 18.039
+        },
+        {
+          "text": " ",
+          "start_time": 18.039,
+          "end_time": 18.119
+        },
+        {
+          "text": "also",
+          "start_time": 18.119,
+          "end_time": 18.339
+        },
+        {
+          "text": " ",
+          "start_time": 18.339,
+          "end_time": 18.379
+        },
+        {
+          "text": "leaves",
+          "start_time": 18.379,
+          "end_time": 18.559
+        },
+        {
+          "text": " ",
+          "start_time": 18.559,
+          "end_time": 18.599
+        },
+        {
+          "text": "urine",
+          "start_time": 18.6,
+          "end_time": 18.819
+        },
+        {
+          "text": " ",
+          "start_time": 18.819,
+          "end_time": 18.879
+        },
+        {
+          "text": "nowhere",
+          "start_time": 18.879,
+          "end_time": 19.079
+        },
+        {
+          "text": " ",
+          "start_time": 19.079,
+          "end_time": 19.119
+        },
+        {
+          "text": "to",
+          "start_time": 19.119,
+          "end_time": 19.199
+        },
+        {
+          "text": " ",
+          "start_time": 19.199,
+          "end_time": 19.259
+        },
+        {
+          "text": "pool.",
+          "start_time": 19.26,
+          "end_time": 19.539
+        }
+      ]
+    },
+    {
+      "text": "What reads as cost-cutting is a rule.",
+      "start_time": 19.819,
+      "end_time": 21.539,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "What",
+          "start_time": 19.819,
+          "end_time": 19.92
+        },
+        {
+          "text": " ",
+          "start_time": 19.92,
+          "end_time": 20
+        },
+        {
+          "text": "reads",
+          "start_time": 20,
+          "end_time": 20.199
+        },
+        {
+          "text": " ",
+          "start_time": 20.199,
+          "end_time": 20.259
+        },
+        {
+          "text": "as",
+          "start_time": 20.26,
+          "end_time": 20.34
+        },
+        {
+          "text": " ",
+          "start_time": 20.34,
+          "end_time": 20.459
+        },
+        {
+          "text": "cost-cutting",
+          "start_time": 20.459,
+          "end_time": 21.039
+        },
+        {
+          "text": " ",
+          "start_time": 21.039,
+          "end_time": 21.099
+        },
+        {
+          "text": "is",
+          "start_time": 21.1,
+          "end_time": 21.159
+        },
+        {
+          "text": " ",
+          "start_time": 21.159,
+          "end_time": 21.199
+        },
+        {
+          "text": "a",
+          "start_time": 21.199,
+          "end_time": 21.219
+        },
+        {
+          "text": " ",
+          "start_time": 21.219,
+          "end_time": 21.319
+        },
+        {
+          "text": "rule.",
+          "start_time": 21.319,
+          "end_time": 21.539
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+1
+00:00:00,079 --> 00:00:02,019
+Beer almost always comes in brown glass,
+
+2
+00:00:02,220 --> 00:00:03,679
+because light physically breaks beer.
+
+3
+00:00:03,939 --> 00:00:05,960
+Hops leave compounds in the liquid that are
+
+4
+00:00:05,980 --> 00:00:06,759
+stable in the dark.
+
+5
+00:00:07,019 --> 00:00:08,800
+Hit them with blue and ultraviolet light,
+
+6
+00:00:09,039 --> 00:00:11,439
+and riboflavin, a vitamin already in the beer,
+
+7
+00:00:11,719 --> 00:00:12,479
+acts as a middleman.
+
+8
+00:00:12,739 --> 00:00:14,819
+It absorbs the light and hands the energy along
+
+9
+00:00:14,859 --> 00:00:15,979
+until those hop compounds
+
+10
+00:00:16,359 --> 00:00:17,940
+shatter into something chemically close to
+
+11
+00:00:18,039 --> 00:00:18,639
+skunk spray.
+
+12
+00:00:18,859 --> 00:00:20,299
+That is not a figure of speech.
+
+13
+00:00:20,600 --> 00:00:22,899
+Brown glass blocks nearly all of those wavelengths.
+
+14
+00:00:23,239 --> 00:00:25,139
+Green blocks a fraction, which is why some
+
+15
+00:00:25,199 --> 00:00:26,719
+imports taste faintly like a warning.

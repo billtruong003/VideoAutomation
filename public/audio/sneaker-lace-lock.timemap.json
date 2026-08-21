@@ -1,0 +1,141 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/sneaker-lace-lock/take-a.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/sneaker-lace-lock.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.1195,
+  "sampleRate": 48000,
+  "rawDuration": 26.146,
+  "cutDuration": 23.364,
+  "processedDuration": 20.87,
+  "silenceRemoved": 2.782,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 3.993,
+      "raw": 0.308,
+      "kept": 0.202,
+      "removed": 0.106
+    },
+    {
+      "kind": "shortened",
+      "at": 5.877,
+      "raw": 1.097,
+      "kept": 0.3,
+      "removed": 0.797
+    },
+    {
+      "kind": "shortened",
+      "at": 8.828,
+      "raw": 0.34,
+      "kept": 0.208,
+      "removed": 0.132
+    },
+    {
+      "kind": "shortened",
+      "at": 10.878,
+      "raw": 0.617,
+      "kept": 0.263,
+      "removed": 0.353
+    },
+    {
+      "kind": "kept-intact",
+      "at": 13.411,
+      "raw": 0.226,
+      "kept": 0.226,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 13.917,
+      "raw": 0.327,
+      "kept": 0.205,
+      "removed": 0.122
+    },
+    {
+      "kind": "shortened",
+      "at": 18.077,
+      "raw": 0.932,
+      "kept": 0.3,
+      "removed": 0.632
+    },
+    {
+      "kind": "shortened",
+      "at": 21.528,
+      "raw": 0.904,
+      "kept": 0.3,
+      "removed": 0.604
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.315,
+      "kept": 0.28,
+      "removed": 0.035
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 4.094,
+      "outStart": 0,
+      "outEnd": 3.657
+    },
+    {
+      "rawStart": 4.2,
+      "rawEnd": 6.027,
+      "outStart": 3.657,
+      "outEnd": 5.288
+    },
+    {
+      "rawStart": 6.823,
+      "rawEnd": 8.932,
+      "outStart": 5.288,
+      "outEnd": 7.172
+    },
+    {
+      "rawStart": 9.064,
+      "rawEnd": 11.009,
+      "outStart": 7.172,
+      "outEnd": 8.909
+    },
+    {
+      "rawStart": 11.363,
+      "rawEnd": 14.019,
+      "outStart": 8.909,
+      "outEnd": 11.283
+    },
+    {
+      "rawStart": 14.141,
+      "rawEnd": 18.227,
+      "outStart": 11.283,
+      "outEnd": 14.933
+    },
+    {
+      "rawStart": 18.859,
+      "rawEnd": 21.678,
+      "outStart": 14.933,
+      "outEnd": 17.451
+    },
+    {
+      "rawStart": 22.283,
+      "rawEnd": 26.11,
+      "outStart": 17.451,
+      "outEnd": 20.87
+    }
+  ]
+}

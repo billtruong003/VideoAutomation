@@ -1,0 +1,1009 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "Those bumpy tiles at the edge of a train",
+      "start_time": 0.099,
+      "end_time": 1.74,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Those",
+          "start_time": 0.099,
+          "end_time": 0.28
+        },
+        {
+          "text": " ",
+          "start_time": 0.28,
+          "end_time": 0.359
+        },
+        {
+          "text": "bumpy",
+          "start_time": 0.359,
+          "end_time": 0.56
+        },
+        {
+          "text": " ",
+          "start_time": 0.56,
+          "end_time": 0.659
+        },
+        {
+          "text": "tiles",
+          "start_time": 0.659,
+          "end_time": 0.939
+        },
+        {
+          "text": " ",
+          "start_time": 0.939,
+          "end_time": 0.959
+        },
+        {
+          "text": "at",
+          "start_time": 0.959,
+          "end_time": 1.039
+        },
+        {
+          "text": " ",
+          "start_time": 1.039,
+          "end_time": 1.059
+        },
+        {
+          "text": "the",
+          "start_time": 1.059,
+          "end_time": 1.12
+        },
+        {
+          "text": " ",
+          "start_time": 1.12,
+          "end_time": 1.199
+        },
+        {
+          "text": "edge",
+          "start_time": 1.199,
+          "end_time": 1.319
+        },
+        {
+          "text": " ",
+          "start_time": 1.319,
+          "end_time": 1.339
+        },
+        {
+          "text": "of",
+          "start_time": 1.339,
+          "end_time": 1.399
+        },
+        {
+          "text": " ",
+          "start_time": 1.399,
+          "end_time": 1.419
+        },
+        {
+          "text": "a",
+          "start_time": 1.419,
+          "end_time": 1.48
+        },
+        {
+          "text": " ",
+          "start_time": 1.48,
+          "end_time": 1.539
+        },
+        {
+          "text": "train",
+          "start_time": 1.539,
+          "end_time": 1.74
+        }
+      ]
+    },
+    {
+      "text": "platform are a language, and it only has two",
+      "start_time": 1.779,
+      "end_time": 3.72,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "platform",
+          "start_time": 1.779,
+          "end_time": 2.159
+        },
+        {
+          "text": " ",
+          "start_time": 2.159,
+          "end_time": 2.199
+        },
+        {
+          "text": "are",
+          "start_time": 2.2,
+          "end_time": 2.279
+        },
+        {
+          "text": " ",
+          "start_time": 2.279,
+          "end_time": 2.299
+        },
+        {
+          "text": "a",
+          "start_time": 2.299,
+          "end_time": 2.379
+        },
+        {
+          "text": " ",
+          "start_time": 2.379,
+          "end_time": 2.439
+        },
+        {
+          "text": "language,",
+          "start_time": 2.44,
+          "end_time": 2.799
+        },
+        {
+          "text": " ",
+          "start_time": 2.799,
+          "end_time": 3
+        },
+        {
+          "text": "and",
+          "start_time": 3,
+          "end_time": 3.059
+        },
+        {
+          "text": " ",
+          "start_time": 3.059,
+          "end_time": 3.099
+        },
+        {
+          "text": "it",
+          "start_time": 3.099,
+          "end_time": 3.159
+        },
+        {
+          "text": " ",
+          "start_time": 3.159,
+          "end_time": 3.219
+        },
+        {
+          "text": "only",
+          "start_time": 3.22,
+          "end_time": 3.379
+        },
+        {
+          "text": " ",
+          "start_time": 3.379,
+          "end_time": 3.439
+        },
+        {
+          "text": "has",
+          "start_time": 3.439,
+          "end_time": 3.579
+        },
+        {
+          "text": " ",
+          "start_time": 3.579,
+          "end_time": 3.619
+        },
+        {
+          "text": "two",
+          "start_time": 3.619,
+          "end_time": 3.72
+        }
+      ]
+    },
+    {
+      "text": "words.",
+      "start_time": 3.819,
+      "end_time": 4.419,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "words.",
+          "start_time": 3.819,
+          "end_time": 4.119
+        }
+      ]
+    },
+    {
+      "text": "Round domes mean stop, because there is an",
+      "start_time": 4.44,
+      "end_time": 6.799,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Round",
+          "start_time": 4.44,
+          "end_time": 4.699
+        },
+        {
+          "text": " ",
+          "start_time": 4.699,
+          "end_time": 4.799
+        },
+        {
+          "text": "domes",
+          "start_time": 4.799,
+          "end_time": 5.179
+        },
+        {
+          "text": " ",
+          "start_time": 5.179,
+          "end_time": 5.259
+        },
+        {
+          "text": "mean",
+          "start_time": 5.259,
+          "end_time": 5.419
+        },
+        {
+          "text": " ",
+          "start_time": 5.419,
+          "end_time": 5.559
+        },
+        {
+          "text": "stop,",
+          "start_time": 5.559,
+          "end_time": 5.92
+        },
+        {
+          "text": " ",
+          "start_time": 5.92,
+          "end_time": 6.179
+        },
+        {
+          "text": "because",
+          "start_time": 6.179,
+          "end_time": 6.399
+        },
+        {
+          "text": " ",
+          "start_time": 6.399,
+          "end_time": 6.439
+        },
+        {
+          "text": "there",
+          "start_time": 6.44,
+          "end_time": 6.539
+        },
+        {
+          "text": " ",
+          "start_time": 6.539,
+          "end_time": 6.599
+        },
+        {
+          "text": "is",
+          "start_time": 6.599,
+          "end_time": 6.659
+        },
+        {
+          "text": " ",
+          "start_time": 6.659,
+          "end_time": 6.699
+        },
+        {
+          "text": "an",
+          "start_time": 6.699,
+          "end_time": 6.799
+        }
+      ]
+    },
+    {
+      "text": "edge, a road, or a drop ahead.",
+      "start_time": 6.899,
+      "end_time": 8.819,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "edge,",
+          "start_time": 6.899,
+          "end_time": 7.119
+        },
+        {
+          "text": " ",
+          "start_time": 7.119,
+          "end_time": 7.359
+        },
+        {
+          "text": "a",
+          "start_time": 7.359,
+          "end_time": 7.459
+        },
+        {
+          "text": " ",
+          "start_time": 7.459,
+          "end_time": 7.519
+        },
+        {
+          "text": "road,",
+          "start_time": 7.519,
+          "end_time": 7.759
+        },
+        {
+          "text": " ",
+          "start_time": 7.759,
+          "end_time": 8.059
+        },
+        {
+          "text": "or",
+          "start_time": 8.059,
+          "end_time": 8.119
+        },
+        {
+          "text": " ",
+          "start_time": 8.119,
+          "end_time": 8.159
+        },
+        {
+          "text": "a",
+          "start_time": 8.159,
+          "end_time": 8.179
+        },
+        {
+          "text": " ",
+          "start_time": 8.179,
+          "end_time": 8.279
+        },
+        {
+          "text": "drop",
+          "start_time": 8.279,
+          "end_time": 8.5
+        },
+        {
+          "text": " ",
+          "start_time": 8.5,
+          "end_time": 8.559
+        },
+        {
+          "text": "ahead.",
+          "start_time": 8.559,
+          "end_time": 8.819
+        }
+      ]
+    },
+    {
+      "text": "Long parallel bars mean keep going,",
+      "start_time": 9.179,
+      "end_time": 11.159,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Long",
+          "start_time": 9.179,
+          "end_time": 9.359
+        },
+        {
+          "text": " ",
+          "start_time": 9.359,
+          "end_time": 9.479
+        },
+        {
+          "text": "parallel",
+          "start_time": 9.479,
+          "end_time": 9.8
+        },
+        {
+          "text": " ",
+          "start_time": 9.8,
+          "end_time": 9.88
+        },
+        {
+          "text": "bars",
+          "start_time": 9.88,
+          "end_time": 10.159
+        },
+        {
+          "text": " ",
+          "start_time": 10.159,
+          "end_time": 10.239
+        },
+        {
+          "text": "mean",
+          "start_time": 10.239,
+          "end_time": 10.42
+        },
+        {
+          "text": " ",
+          "start_time": 10.42,
+          "end_time": 10.639
+        },
+        {
+          "text": "keep",
+          "start_time": 10.639,
+          "end_time": 10.819
+        },
+        {
+          "text": " ",
+          "start_time": 10.819,
+          "end_time": 10.859
+        },
+        {
+          "text": "going,",
+          "start_time": 10.859,
+          "end_time": 11.159
+        }
+      ]
+    },
+    {
+      "text": "this way is safe.",
+      "start_time": 11.319,
+      "end_time": 12.059,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "this",
+          "start_time": 11.319,
+          "end_time": 11.479
+        },
+        {
+          "text": " ",
+          "start_time": 11.479,
+          "end_time": 11.519
+        },
+        {
+          "text": "way",
+          "start_time": 11.519,
+          "end_time": 11.619
+        },
+        {
+          "text": " ",
+          "start_time": 11.619,
+          "end_time": 11.659
+        },
+        {
+          "text": "is",
+          "start_time": 11.659,
+          "end_time": 11.759
+        },
+        {
+          "text": " ",
+          "start_time": 11.759,
+          "end_time": 11.819
+        },
+        {
+          "text": "safe.",
+          "start_time": 11.819,
+          "end_time": 12.059
+        }
+      ]
+    },
+    {
+      "text": "Both are readable through a shoe or the tip",
+      "start_time": 12.38,
+      "end_time": 14.34,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Both",
+          "start_time": 12.38,
+          "end_time": 12.559
+        },
+        {
+          "text": " ",
+          "start_time": 12.559,
+          "end_time": 12.599
+        },
+        {
+          "text": "are",
+          "start_time": 12.599,
+          "end_time": 12.699
+        },
+        {
+          "text": " ",
+          "start_time": 12.699,
+          "end_time": 12.739
+        },
+        {
+          "text": "readable",
+          "start_time": 12.739,
+          "end_time": 13.039
+        },
+        {
+          "text": " ",
+          "start_time": 13.039,
+          "end_time": 13.099
+        },
+        {
+          "text": "through",
+          "start_time": 13.099,
+          "end_time": 13.239
+        },
+        {
+          "text": " ",
+          "start_time": 13.239,
+          "end_time": 13.299
+        },
+        {
+          "text": "a",
+          "start_time": 13.299,
+          "end_time": 13.319
+        },
+        {
+          "text": " ",
+          "start_time": 13.319,
+          "end_time": 13.439
+        },
+        {
+          "text": "shoe",
+          "start_time": 13.439,
+          "end_time": 13.699
+        },
+        {
+          "text": " ",
+          "start_time": 13.699,
+          "end_time": 13.979
+        },
+        {
+          "text": "or",
+          "start_time": 13.979,
+          "end_time": 14.059
+        },
+        {
+          "text": " ",
+          "start_time": 14.059,
+          "end_time": 14.099
+        },
+        {
+          "text": "the",
+          "start_time": 14.099,
+          "end_time": 14.179
+        },
+        {
+          "text": " ",
+          "start_time": 14.179,
+          "end_time": 14.239
+        },
+        {
+          "text": "tip",
+          "start_time": 14.239,
+          "end_time": 14.34
+        }
+      ]
+    },
+    {
+      "text": "of a cane, and the yellow helps if you",
+      "start_time": 14.359,
+      "end_time": 16,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "of",
+          "start_time": 14.359,
+          "end_time": 14.42
+        },
+        {
+          "text": " ",
+          "start_time": 14.42,
+          "end_time": 14.46
+        },
+        {
+          "text": "a",
+          "start_time": 14.46,
+          "end_time": 14.479
+        },
+        {
+          "text": " ",
+          "start_time": 14.479,
+          "end_time": 14.559
+        },
+        {
+          "text": "cane,",
+          "start_time": 14.559,
+          "end_time": 14.859
+        },
+        {
+          "text": " ",
+          "start_time": 14.859,
+          "end_time": 15.079
+        },
+        {
+          "text": "and",
+          "start_time": 15.079,
+          "end_time": 15.139
+        },
+        {
+          "text": " ",
+          "start_time": 15.139,
+          "end_time": 15.179
+        },
+        {
+          "text": "the",
+          "start_time": 15.179,
+          "end_time": 15.239
+        },
+        {
+          "text": " ",
+          "start_time": 15.239,
+          "end_time": 15.279
+        },
+        {
+          "text": "yellow",
+          "start_time": 15.279,
+          "end_time": 15.5
+        },
+        {
+          "text": " ",
+          "start_time": 15.5,
+          "end_time": 15.539
+        },
+        {
+          "text": "helps",
+          "start_time": 15.539,
+          "end_time": 15.779
+        },
+        {
+          "text": " ",
+          "start_time": 15.779,
+          "end_time": 15.819
+        },
+        {
+          "text": "if",
+          "start_time": 15.819,
+          "end_time": 15.88
+        },
+        {
+          "text": " ",
+          "start_time": 15.88,
+          "end_time": 15.92
+        },
+        {
+          "text": "you",
+          "start_time": 15.92,
+          "end_time": 16
+        }
+      ]
+    },
+    {
+      "text": "still have some sight.",
+      "start_time": 16.039,
+      "end_time": 16.859,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "still",
+          "start_time": 16.039,
+          "end_time": 16.219
+        },
+        {
+          "text": " ",
+          "start_time": 16.219,
+          "end_time": 16.26
+        },
+        {
+          "text": "have",
+          "start_time": 16.26,
+          "end_time": 16.359
+        },
+        {
+          "text": " ",
+          "start_time": 16.359,
+          "end_time": 16.419
+        },
+        {
+          "text": "some",
+          "start_time": 16.42,
+          "end_time": 16.52
+        },
+        {
+          "text": " ",
+          "start_time": 16.52,
+          "end_time": 16.619
+        },
+        {
+          "text": "sight.",
+          "start_time": 16.619,
+          "end_time": 16.859
+        }
+      ]
+    },
+    {
+      "text": "An engineer in Japan named Seiichi Miyake paid",
+      "start_time": 17.1,
+      "end_time": 20.039,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "An",
+          "start_time": 17.1,
+          "end_time": 17.18
+        },
+        {
+          "text": " ",
+          "start_time": 17.18,
+          "end_time": 17.26
+        },
+        {
+          "text": "engineer",
+          "start_time": 17.26,
+          "end_time": 17.639
+        },
+        {
+          "text": " ",
+          "start_time": 17.639,
+          "end_time": 17.699
+        },
+        {
+          "text": "in",
+          "start_time": 17.699,
+          "end_time": 17.739
+        },
+        {
+          "text": " ",
+          "start_time": 17.739,
+          "end_time": 17.819
+        },
+        {
+          "text": "Japan",
+          "start_time": 17.819,
+          "end_time": 18.179
+        },
+        {
+          "text": " ",
+          "start_time": 18.179,
+          "end_time": 18.239
+        },
+        {
+          "text": "named",
+          "start_time": 18.239,
+          "end_time": 18.42
+        },
+        {
+          "text": " ",
+          "start_time": 18.42,
+          "end_time": 18.719
+        },
+        {
+          "text": "Seiichi",
+          "start_time": 18.719,
+          "end_time": 19.079
+        },
+        {
+          "text": " ",
+          "start_time": 19.079,
+          "end_time": 19.139
+        },
+        {
+          "text": "Miyake",
+          "start_time": 19.139,
+          "end_time": 19.799
+        },
+        {
+          "text": " ",
+          "start_time": 19.799,
+          "end_time": 19.879
+        },
+        {
+          "text": "paid",
+          "start_time": 19.879,
+          "end_time": 20.039
+        }
+      ]
+    },
+    {
+      "text": "for the first ones himself in 1965,",
+      "start_time": 20.079,
+      "end_time": 22.219,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "for",
+          "start_time": 20.079,
+          "end_time": 20.14
+        },
+        {
+          "text": " ",
+          "start_time": 20.14,
+          "end_time": 20.159
+        },
+        {
+          "text": "the",
+          "start_time": 20.159,
+          "end_time": 20.239
+        },
+        {
+          "text": " ",
+          "start_time": 20.239,
+          "end_time": 20.299
+        },
+        {
+          "text": "first",
+          "start_time": 20.299,
+          "end_time": 20.479
+        },
+        {
+          "text": " ",
+          "start_time": 20.479,
+          "end_time": 20.539
+        },
+        {
+          "text": "ones",
+          "start_time": 20.539,
+          "end_time": 20.699
+        },
+        {
+          "text": " ",
+          "start_time": 20.699,
+          "end_time": 20.739
+        },
+        {
+          "text": "himself",
+          "start_time": 20.739,
+          "end_time": 21.119
+        },
+        {
+          "text": " ",
+          "start_time": 21.119,
+          "end_time": 21.159
+        },
+        {
+          "text": "in",
+          "start_time": 21.159,
+          "end_time": 21.26
+        },
+        {
+          "text": " ",
+          "start_time": 21.26,
+          "end_time": 21.299
+        },
+        {
+          "text": "1965,",
+          "start_time": 21.299,
+          "end_time": 22.219
+        }
+      ]
+    },
+    {
+      "text": "because a friend was going blind.",
+      "start_time": 22.439,
+      "end_time": 23.739,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "because",
+          "start_time": 22.439,
+          "end_time": 22.619
+        },
+        {
+          "text": " ",
+          "start_time": 22.619,
+          "end_time": 22.679
+        },
+        {
+          "text": "a",
+          "start_time": 22.68,
+          "end_time": 22.739
+        },
+        {
+          "text": " ",
+          "start_time": 22.739,
+          "end_time": 22.799
+        },
+        {
+          "text": "friend",
+          "start_time": 22.799,
+          "end_time": 22.979
+        },
+        {
+          "text": " ",
+          "start_time": 22.979,
+          "end_time": 23.019
+        },
+        {
+          "text": "was",
+          "start_time": 23.019,
+          "end_time": 23.119
+        },
+        {
+          "text": " ",
+          "start_time": 23.119,
+          "end_time": 23.159
+        },
+        {
+          "text": "going",
+          "start_time": 23.159,
+          "end_time": 23.34
+        },
+        {
+          "text": " ",
+          "start_time": 23.34,
+          "end_time": 23.439
+        },
+        {
+          "text": "blind.",
+          "start_time": 23.439,
+          "end_time": 23.739
+        }
+      ]
+    },
+    {
+      "text": "They are under most of the world's feet now.",
+      "start_time": 24.039,
+      "end_time": 25.579,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "They",
+          "start_time": 24.039,
+          "end_time": 24.119
+        },
+        {
+          "text": " ",
+          "start_time": 24.119,
+          "end_time": 24.159
+        },
+        {
+          "text": "are",
+          "start_time": 24.159,
+          "end_time": 24.219
+        },
+        {
+          "text": " ",
+          "start_time": 24.219,
+          "end_time": 24.279
+        },
+        {
+          "text": "under",
+          "start_time": 24.279,
+          "end_time": 24.479
+        },
+        {
+          "text": " ",
+          "start_time": 24.479,
+          "end_time": 24.519
+        },
+        {
+          "text": "most",
+          "start_time": 24.519,
+          "end_time": 24.68
+        },
+        {
+          "text": " ",
+          "start_time": 24.68,
+          "end_time": 24.719
+        },
+        {
+          "text": "of",
+          "start_time": 24.719,
+          "end_time": 24.779
+        },
+        {
+          "text": " ",
+          "start_time": 24.779,
+          "end_time": 24.799
+        },
+        {
+          "text": "the",
+          "start_time": 24.799,
+          "end_time": 24.86
+        },
+        {
+          "text": " ",
+          "start_time": 24.86,
+          "end_time": 24.92
+        },
+        {
+          "text": "world's",
+          "start_time": 24.92,
+          "end_time": 25.159
+        },
+        {
+          "text": " ",
+          "start_time": 25.159,
+          "end_time": 25.219
+        },
+        {
+          "text": "feet",
+          "start_time": 25.219,
+          "end_time": 25.379
+        },
+        {
+          "text": " ",
+          "start_time": 25.379,
+          "end_time": 25.439
+        },
+        {
+          "text": "now.",
+          "start_time": 25.439,
+          "end_time": 25.579
+        }
+      ]
+    }
+  ]
+}

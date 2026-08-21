@@ -1,0 +1,147 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/soda-can-neck/take-b.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/soda-can-neck.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11951,
+  "sampleRate": 48000,
+  "rawDuration": 28.282,
+  "cutDuration": 25.296,
+  "processedDuration": 22.595,
+  "silenceRemoved": 2.986,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 3.128,
+      "raw": 0.583,
+      "kept": 0.257,
+      "removed": 0.327
+    },
+    {
+      "kind": "shortened",
+      "at": 5.572,
+      "raw": 0.781,
+      "kept": 0.296,
+      "removed": 0.485
+    },
+    {
+      "kind": "shortened",
+      "at": 8.073,
+      "raw": 0.851,
+      "kept": 0.3,
+      "removed": 0.551
+    },
+    {
+      "kind": "shortened",
+      "at": 10.976,
+      "raw": 0.477,
+      "kept": 0.235,
+      "removed": 0.241
+    },
+    {
+      "kind": "shortened",
+      "at": 15.254,
+      "raw": 0.844,
+      "kept": 0.3,
+      "removed": 0.544
+    },
+    {
+      "kind": "shortened",
+      "at": 17.777,
+      "raw": 0.379,
+      "kept": 0.216,
+      "removed": 0.163
+    },
+    {
+      "kind": "shortened",
+      "at": 21.945,
+      "raw": 0.759,
+      "kept": 0.292,
+      "removed": 0.467
+    },
+    {
+      "kind": "shortened",
+      "at": 25.254,
+      "raw": 0.336,
+      "kept": 0.207,
+      "removed": 0.129
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.36,
+      "kept": 0.28,
+      "removed": 0.08
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 3.257,
+      "outStart": 0,
+      "outEnd": 2.909
+    },
+    {
+      "rawStart": 3.583,
+      "rawEnd": 5.721,
+      "outStart": 2.909,
+      "outEnd": 4.818
+    },
+    {
+      "rawStart": 6.205,
+      "rawEnd": 8.223,
+      "outStart": 4.818,
+      "outEnd": 6.62
+    },
+    {
+      "rawStart": 8.774,
+      "rawEnd": 11.094,
+      "outStart": 6.62,
+      "outEnd": 8.693
+    },
+    {
+      "rawStart": 11.335,
+      "rawEnd": 15.404,
+      "outStart": 8.693,
+      "outEnd": 12.327
+    },
+    {
+      "rawStart": 15.948,
+      "rawEnd": 17.885,
+      "outStart": 12.327,
+      "outEnd": 14.058
+    },
+    {
+      "rawStart": 18.048,
+      "rawEnd": 22.091,
+      "outStart": 14.058,
+      "outEnd": 17.669
+    },
+    {
+      "rawStart": 22.558,
+      "rawEnd": 25.358,
+      "outStart": 17.669,
+      "outEnd": 20.169
+    },
+    {
+      "rawStart": 25.486,
+      "rawEnd": 28.202,
+      "outStart": 20.169,
+      "outEnd": 22.595
+    }
+  ]
+}

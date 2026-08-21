@@ -1,0 +1,233 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/tactile-paving/take-b.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/tactile-paving.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11955,
+  "sampleRate": 48000,
+  "rawDuration": 33.994,
+  "cutDuration": 28.939,
+  "processedDuration": 25.848,
+  "silenceRemoved": 5.055,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 3.12,
+      "raw": 0.417,
+      "kept": 0.223,
+      "removed": 0.193
+    },
+    {
+      "kind": "shortened",
+      "at": 4.797,
+      "raw": 1.068,
+      "kept": 0.3,
+      "removed": 0.768
+    },
+    {
+      "kind": "shortened",
+      "at": 7.619,
+      "raw": 0.478,
+      "kept": 0.236,
+      "removed": 0.242
+    },
+    {
+      "kind": "shortened",
+      "at": 9.183,
+      "raw": 0.47,
+      "kept": 0.234,
+      "removed": 0.236
+    },
+    {
+      "kind": "shortened",
+      "at": 10.156,
+      "raw": 0.532,
+      "kept": 0.246,
+      "removed": 0.286
+    },
+    {
+      "kind": "shortened",
+      "at": 11.605,
+      "raw": 1.049,
+      "kept": 0.3,
+      "removed": 0.749
+    },
+    {
+      "kind": "kept-intact",
+      "at": 14.192,
+      "raw": 0.138,
+      "kept": 0.138,
+      "removed": 0
+    },
+    {
+      "kind": "kept-intact",
+      "at": 14.946,
+      "raw": 0.159,
+      "kept": 0.159,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 15.958,
+      "raw": 0.812,
+      "kept": 0.3,
+      "removed": 0.512
+    },
+    {
+      "kind": "shortened",
+      "at": 18.35,
+      "raw": 0.323,
+      "kept": 0.205,
+      "removed": 0.118
+    },
+    {
+      "kind": "shortened",
+      "at": 19.729,
+      "raw": 0.503,
+      "kept": 0.241,
+      "removed": 0.262
+    },
+    {
+      "kind": "shortened",
+      "at": 22.202,
+      "raw": 0.896,
+      "kept": 0.3,
+      "removed": 0.596
+    },
+    {
+      "kind": "kept-intact",
+      "at": 24.612,
+      "raw": 0.176,
+      "kept": 0.176,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 25.958,
+      "raw": 0.462,
+      "kept": 0.232,
+      "removed": 0.23
+    },
+    {
+      "kind": "shortened",
+      "at": 29.066,
+      "raw": 0.463,
+      "kept": 0.233,
+      "removed": 0.23
+    },
+    {
+      "kind": "shortened",
+      "at": 31.003,
+      "raw": 0.872,
+      "kept": 0.3,
+      "removed": 0.572
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.342,
+      "kept": 0.28,
+      "removed": 0.062
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 3.232,
+      "outStart": 0,
+      "outEnd": 2.887
+    },
+    {
+      "rawStart": 3.425,
+      "rawEnd": 4.947,
+      "outStart": 2.887,
+      "outEnd": 4.246
+    },
+    {
+      "rawStart": 5.714,
+      "rawEnd": 7.737,
+      "outStart": 4.246,
+      "outEnd": 6.053
+    },
+    {
+      "rawStart": 7.979,
+      "rawEnd": 9.3,
+      "outStart": 6.053,
+      "outEnd": 7.232
+    },
+    {
+      "rawStart": 9.536,
+      "rawEnd": 10.279,
+      "outStart": 7.232,
+      "outEnd": 7.896
+    },
+    {
+      "rawStart": 10.565,
+      "rawEnd": 11.755,
+      "outStart": 7.896,
+      "outEnd": 8.959
+    },
+    {
+      "rawStart": 12.505,
+      "rawEnd": 16.108,
+      "outStart": 8.959,
+      "outEnd": 12.178
+    },
+    {
+      "rawStart": 16.62,
+      "rawEnd": 18.452,
+      "outStart": 12.178,
+      "outEnd": 13.814
+    },
+    {
+      "rawStart": 18.57,
+      "rawEnd": 19.849,
+      "outStart": 13.814,
+      "outEnd": 14.957
+    },
+    {
+      "rawStart": 20.111,
+      "rawEnd": 22.352,
+      "outStart": 14.957,
+      "outEnd": 16.959
+    },
+    {
+      "rawStart": 22.948,
+      "rawEnd": 26.074,
+      "outStart": 16.959,
+      "outEnd": 19.751
+    },
+    {
+      "rawStart": 26.304,
+      "rawEnd": 29.182,
+      "outStart": 19.751,
+      "outEnd": 22.322
+    },
+    {
+      "rawStart": 29.412,
+      "rawEnd": 31.153,
+      "outStart": 22.322,
+      "outEnd": 23.877
+    },
+    {
+      "rawStart": 31.725,
+      "rawEnd": 33.932,
+      "outStart": 23.877,
+      "outEnd": 25.848
+    }
+  ]
+}

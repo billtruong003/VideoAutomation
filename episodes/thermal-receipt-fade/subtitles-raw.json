@@ -1,0 +1,956 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "A receipt left in a wallet slowly goes blank,",
+      "start_time": 0.079,
+      "end_time": 2,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "A",
+          "start_time": 0.079,
+          "end_time": 0.119
+        },
+        {
+          "text": " ",
+          "start_time": 0.119,
+          "end_time": 0.179
+        },
+        {
+          "text": "receipt",
+          "start_time": 0.179,
+          "end_time": 0.519
+        },
+        {
+          "text": " ",
+          "start_time": 0.519,
+          "end_time": 0.579
+        },
+        {
+          "text": "left",
+          "start_time": 0.579,
+          "end_time": 0.74
+        },
+        {
+          "text": " ",
+          "start_time": 0.74,
+          "end_time": 0.779
+        },
+        {
+          "text": "in",
+          "start_time": 0.779,
+          "end_time": 0.819
+        },
+        {
+          "text": " ",
+          "start_time": 0.819,
+          "end_time": 0.859
+        },
+        {
+          "text": "a",
+          "start_time": 0.859,
+          "end_time": 0.919
+        },
+        {
+          "text": " ",
+          "start_time": 0.919,
+          "end_time": 0.959
+        },
+        {
+          "text": "wallet",
+          "start_time": 0.959,
+          "end_time": 1.259
+        },
+        {
+          "text": " ",
+          "start_time": 1.259,
+          "end_time": 1.279
+        },
+        {
+          "text": "slowly",
+          "start_time": 1.279,
+          "end_time": 1.539
+        },
+        {
+          "text": " ",
+          "start_time": 1.539,
+          "end_time": 1.579
+        },
+        {
+          "text": "goes",
+          "start_time": 1.579,
+          "end_time": 1.719
+        },
+        {
+          "text": " ",
+          "start_time": 1.719,
+          "end_time": 1.779
+        },
+        {
+          "text": "blank,",
+          "start_time": 1.779,
+          "end_time": 2
+        }
+      ]
+    },
+    {
+      "text": "because there was never any ink on it.",
+      "start_time": 2.2,
+      "end_time": 3.539,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "because",
+          "start_time": 2.2,
+          "end_time": 2.44
+        },
+        {
+          "text": " ",
+          "start_time": 2.44,
+          "end_time": 2.48
+        },
+        {
+          "text": "there",
+          "start_time": 2.48,
+          "end_time": 2.559
+        },
+        {
+          "text": " ",
+          "start_time": 2.559,
+          "end_time": 2.599
+        },
+        {
+          "text": "was",
+          "start_time": 2.599,
+          "end_time": 2.679
+        },
+        {
+          "text": " ",
+          "start_time": 2.679,
+          "end_time": 2.739
+        },
+        {
+          "text": "never",
+          "start_time": 2.74,
+          "end_time": 2.879
+        },
+        {
+          "text": " ",
+          "start_time": 2.879,
+          "end_time": 2.939
+        },
+        {
+          "text": "any",
+          "start_time": 2.939,
+          "end_time": 3.079
+        },
+        {
+          "text": " ",
+          "start_time": 3.079,
+          "end_time": 3.119
+        },
+        {
+          "text": "ink",
+          "start_time": 3.119,
+          "end_time": 3.259
+        },
+        {
+          "text": " ",
+          "start_time": 3.259,
+          "end_time": 3.319
+        },
+        {
+          "text": "on",
+          "start_time": 3.319,
+          "end_time": 3.379
+        },
+        {
+          "text": " ",
+          "start_time": 3.379,
+          "end_time": 3.419
+        },
+        {
+          "text": "it.",
+          "start_time": 3.419,
+          "end_time": 3.539
+        }
+      ]
+    },
+    {
+      "text": "Receipt paper is coated with a colorless dye",
+      "start_time": 3.799,
+      "end_time": 5.799,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Receipt",
+          "start_time": 3.799,
+          "end_time": 4.079
+        },
+        {
+          "text": " ",
+          "start_time": 4.079,
+          "end_time": 4.139
+        },
+        {
+          "text": "paper",
+          "start_time": 4.139,
+          "end_time": 4.4
+        },
+        {
+          "text": " ",
+          "start_time": 4.4,
+          "end_time": 4.44
+        },
+        {
+          "text": "is",
+          "start_time": 4.44,
+          "end_time": 4.559
+        },
+        {
+          "text": " ",
+          "start_time": 4.559,
+          "end_time": 4.599
+        },
+        {
+          "text": "coated",
+          "start_time": 4.599,
+          "end_time": 4.819
+        },
+        {
+          "text": " ",
+          "start_time": 4.819,
+          "end_time": 4.839
+        },
+        {
+          "text": "with",
+          "start_time": 4.839,
+          "end_time": 4.92
+        },
+        {
+          "text": " ",
+          "start_time": 4.92,
+          "end_time": 4.98
+        },
+        {
+          "text": "a",
+          "start_time": 4.98,
+          "end_time": 5.039
+        },
+        {
+          "text": " ",
+          "start_time": 5.039,
+          "end_time": 5.079
+        },
+        {
+          "text": "colorless",
+          "start_time": 5.079,
+          "end_time": 5.44
+        },
+        {
+          "text": " ",
+          "start_time": 5.44,
+          "end_time": 5.539
+        },
+        {
+          "text": "dye",
+          "start_time": 5.539,
+          "end_time": 5.799
+        }
+      ]
+    },
+    {
+      "text": "and a chemical developer sitting right next",
+      "start_time": 6.039,
+      "end_time": 7.659,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 6.039,
+          "end_time": 6.099
+        },
+        {
+          "text": " ",
+          "start_time": 6.099,
+          "end_time": 6.139
+        },
+        {
+          "text": "a",
+          "start_time": 6.139,
+          "end_time": 6.199
+        },
+        {
+          "text": " ",
+          "start_time": 6.199,
+          "end_time": 6.239
+        },
+        {
+          "text": "chemical",
+          "start_time": 6.239,
+          "end_time": 6.519
+        },
+        {
+          "text": " ",
+          "start_time": 6.519,
+          "end_time": 6.599
+        },
+        {
+          "text": "developer",
+          "start_time": 6.599,
+          "end_time": 7.019
+        },
+        {
+          "text": " ",
+          "start_time": 7.019,
+          "end_time": 7.059
+        },
+        {
+          "text": "sitting",
+          "start_time": 7.059,
+          "end_time": 7.239
+        },
+        {
+          "text": " ",
+          "start_time": 7.239,
+          "end_time": 7.319
+        },
+        {
+          "text": "right",
+          "start_time": 7.319,
+          "end_time": 7.44
+        },
+        {
+          "text": " ",
+          "start_time": 7.44,
+          "end_time": 7.519
+        },
+        {
+          "text": "next",
+          "start_time": 7.519,
+          "end_time": 7.659
+        }
+      ]
+    },
+    {
+      "text": "to each other, doing nothing.",
+      "start_time": 7.699,
+      "end_time": 8.96,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "to",
+          "start_time": 7.699,
+          "end_time": 7.739
+        },
+        {
+          "text": " ",
+          "start_time": 7.739,
+          "end_time": 7.779
+        },
+        {
+          "text": "each",
+          "start_time": 7.779,
+          "end_time": 7.919
+        },
+        {
+          "text": " ",
+          "start_time": 7.919,
+          "end_time": 7.959
+        },
+        {
+          "text": "other,",
+          "start_time": 7.96,
+          "end_time": 8.159
+        },
+        {
+          "text": " ",
+          "start_time": 8.159,
+          "end_time": 8.42
+        },
+        {
+          "text": "doing",
+          "start_time": 8.42,
+          "end_time": 8.599
+        },
+        {
+          "text": " ",
+          "start_time": 8.599,
+          "end_time": 8.639
+        },
+        {
+          "text": "nothing.",
+          "start_time": 8.639,
+          "end_time": 8.96
+        }
+      ]
+    },
+    {
+      "text": "The printer has no ink and no ribbon.",
+      "start_time": 9.179,
+      "end_time": 10.88,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 9.179,
+          "end_time": 9.279
+        },
+        {
+          "text": " ",
+          "start_time": 9.279,
+          "end_time": 9.319
+        },
+        {
+          "text": "printer",
+          "start_time": 9.319,
+          "end_time": 9.599
+        },
+        {
+          "text": " ",
+          "start_time": 9.599,
+          "end_time": 9.659
+        },
+        {
+          "text": "has",
+          "start_time": 9.659,
+          "end_time": 9.76
+        },
+        {
+          "text": " ",
+          "start_time": 9.76,
+          "end_time": 9.84
+        },
+        {
+          "text": "no",
+          "start_time": 9.84,
+          "end_time": 9.979
+        },
+        {
+          "text": " ",
+          "start_time": 9.979,
+          "end_time": 10.059
+        },
+        {
+          "text": "ink",
+          "start_time": 10.059,
+          "end_time": 10.239
+        },
+        {
+          "text": " ",
+          "start_time": 10.239,
+          "end_time": 10.3
+        },
+        {
+          "text": "and",
+          "start_time": 10.3,
+          "end_time": 10.38
+        },
+        {
+          "text": " ",
+          "start_time": 10.38,
+          "end_time": 10.439
+        },
+        {
+          "text": "no",
+          "start_time": 10.439,
+          "end_time": 10.519
+        },
+        {
+          "text": " ",
+          "start_time": 10.519,
+          "end_time": 10.599
+        },
+        {
+          "text": "ribbon.",
+          "start_time": 10.599,
+          "end_time": 10.88
+        }
+      ]
+    },
+    {
+      "text": "It has a row of tiny heaters.",
+      "start_time": 11.119,
+      "end_time": 12.439,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "It",
+          "start_time": 11.119,
+          "end_time": 11.179
+        },
+        {
+          "text": " ",
+          "start_time": 11.179,
+          "end_time": 11.239
+        },
+        {
+          "text": "has",
+          "start_time": 11.239,
+          "end_time": 11.34
+        },
+        {
+          "text": " ",
+          "start_time": 11.34,
+          "end_time": 11.38
+        },
+        {
+          "text": "a",
+          "start_time": 11.38,
+          "end_time": 11.439
+        },
+        {
+          "text": " ",
+          "start_time": 11.439,
+          "end_time": 11.5
+        },
+        {
+          "text": "row",
+          "start_time": 11.5,
+          "end_time": 11.619
+        },
+        {
+          "text": " ",
+          "start_time": 11.619,
+          "end_time": 11.659
+        },
+        {
+          "text": "of",
+          "start_time": 11.659,
+          "end_time": 11.719
+        },
+        {
+          "text": " ",
+          "start_time": 11.719,
+          "end_time": 11.839
+        },
+        {
+          "text": "tiny",
+          "start_time": 11.84,
+          "end_time": 12.039
+        },
+        {
+          "text": " ",
+          "start_time": 12.039,
+          "end_time": 12.099
+        },
+        {
+          "text": "heaters.",
+          "start_time": 12.099,
+          "end_time": 12.439
+        }
+      ]
+    },
+    {
+      "text": "Wherever it touches, the coating melts,",
+      "start_time": 12.699,
+      "end_time": 14.579,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Wherever",
+          "start_time": 12.699,
+          "end_time": 13
+        },
+        {
+          "text": " ",
+          "start_time": 13,
+          "end_time": 13.039
+        },
+        {
+          "text": "it",
+          "start_time": 13.039,
+          "end_time": 13.139
+        },
+        {
+          "text": " ",
+          "start_time": 13.139,
+          "end_time": 13.179
+        },
+        {
+          "text": "touches,",
+          "start_time": 13.179,
+          "end_time": 13.599
+        },
+        {
+          "text": " ",
+          "start_time": 13.599,
+          "end_time": 13.819
+        },
+        {
+          "text": "the",
+          "start_time": 13.819,
+          "end_time": 13.92
+        },
+        {
+          "text": " ",
+          "start_time": 13.92,
+          "end_time": 13.979
+        },
+        {
+          "text": "coating",
+          "start_time": 13.979,
+          "end_time": 14.219
+        },
+        {
+          "text": " ",
+          "start_time": 14.219,
+          "end_time": 14.259
+        },
+        {
+          "text": "melts,",
+          "start_time": 14.259,
+          "end_time": 14.579
+        }
+      ]
+    },
+    {
+      "text": "the two chemicals meet, and that spot turns",
+      "start_time": 14.779,
+      "end_time": 16.68,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "the",
+          "start_time": 14.779,
+          "end_time": 14.839
+        },
+        {
+          "text": " ",
+          "start_time": 14.839,
+          "end_time": 14.899
+        },
+        {
+          "text": "two",
+          "start_time": 14.899,
+          "end_time": 15.019
+        },
+        {
+          "text": " ",
+          "start_time": 15.019,
+          "end_time": 15.059
+        },
+        {
+          "text": "chemicals",
+          "start_time": 15.059,
+          "end_time": 15.46
+        },
+        {
+          "text": " ",
+          "start_time": 15.46,
+          "end_time": 15.519
+        },
+        {
+          "text": "meet,",
+          "start_time": 15.519,
+          "end_time": 15.719
+        },
+        {
+          "text": " ",
+          "start_time": 15.719,
+          "end_time": 15.899
+        },
+        {
+          "text": "and",
+          "start_time": 15.899,
+          "end_time": 15.979
+        },
+        {
+          "text": " ",
+          "start_time": 15.979,
+          "end_time": 16.02
+        },
+        {
+          "text": "that",
+          "start_time": 16.02,
+          "end_time": 16.139
+        },
+        {
+          "text": " ",
+          "start_time": 16.139,
+          "end_time": 16.199
+        },
+        {
+          "text": "spot",
+          "start_time": 16.199,
+          "end_time": 16.419
+        },
+        {
+          "text": " ",
+          "start_time": 16.419,
+          "end_time": 16.479
+        },
+        {
+          "text": "turns",
+          "start_time": 16.479,
+          "end_time": 16.68
+        }
+      ]
+    },
+    {
+      "text": "black.",
+      "start_time": 16.779,
+      "end_time": 17.299,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "black.",
+          "start_time": 16.779,
+          "end_time": 17.079
+        }
+      ]
+    },
+    {
+      "text": "The catch is the reaction never locks.",
+      "start_time": 17.319,
+      "end_time": 19.339,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 17.319,
+          "end_time": 17.379
+        },
+        {
+          "text": " ",
+          "start_time": 17.379,
+          "end_time": 17.459
+        },
+        {
+          "text": "catch",
+          "start_time": 17.459,
+          "end_time": 17.76
+        },
+        {
+          "text": " ",
+          "start_time": 17.76,
+          "end_time": 17.819
+        },
+        {
+          "text": "is",
+          "start_time": 17.819,
+          "end_time": 17.899
+        },
+        {
+          "text": " ",
+          "start_time": 17.899,
+          "end_time": 17.94
+        },
+        {
+          "text": "the",
+          "start_time": 17.94,
+          "end_time": 18
+        },
+        {
+          "text": " ",
+          "start_time": 18,
+          "end_time": 18.059
+        },
+        {
+          "text": "reaction",
+          "start_time": 18.059,
+          "end_time": 18.539
+        },
+        {
+          "text": " ",
+          "start_time": 18.539,
+          "end_time": 18.719
+        },
+        {
+          "text": "never",
+          "start_time": 18.719,
+          "end_time": 18.919
+        },
+        {
+          "text": " ",
+          "start_time": 18.919,
+          "end_time": 18.979
+        },
+        {
+          "text": "locks.",
+          "start_time": 18.979,
+          "end_time": 19.339
+        }
+      ]
+    },
+    {
+      "text": "Heat off a dashboard or friction in a back",
+      "start_time": 19.579,
+      "end_time": 21.899,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Heat",
+          "start_time": 19.579,
+          "end_time": 19.819
+        },
+        {
+          "text": " ",
+          "start_time": 19.819,
+          "end_time": 19.879
+        },
+        {
+          "text": "off",
+          "start_time": 19.879,
+          "end_time": 20
+        },
+        {
+          "text": " ",
+          "start_time": 20,
+          "end_time": 20.039
+        },
+        {
+          "text": "a",
+          "start_time": 20.039,
+          "end_time": 20.099
+        },
+        {
+          "text": " ",
+          "start_time": 20.099,
+          "end_time": 20.18
+        },
+        {
+          "text": "dashboard",
+          "start_time": 20.18,
+          "end_time": 20.659
+        },
+        {
+          "text": " ",
+          "start_time": 20.659,
+          "end_time": 20.899
+        },
+        {
+          "text": "or",
+          "start_time": 20.899,
+          "end_time": 20.979
+        },
+        {
+          "text": " ",
+          "start_time": 20.979,
+          "end_time": 21.119
+        },
+        {
+          "text": "friction",
+          "start_time": 21.119,
+          "end_time": 21.459
+        },
+        {
+          "text": " ",
+          "start_time": 21.459,
+          "end_time": 21.519
+        },
+        {
+          "text": "in",
+          "start_time": 21.52,
+          "end_time": 21.579
+        },
+        {
+          "text": " ",
+          "start_time": 21.579,
+          "end_time": 21.619
+        },
+        {
+          "text": "a",
+          "start_time": 21.619,
+          "end_time": 21.699
+        },
+        {
+          "text": " ",
+          "start_time": 21.699,
+          "end_time": 21.739
+        },
+        {
+          "text": "back",
+          "start_time": 21.739,
+          "end_time": 21.899
+        }
+      ]
+    },
+    {
+      "text": "pocket keeps driving it until the text vanishes.",
+      "start_time": 22,
+      "end_time": 24.279,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "pocket",
+          "start_time": 22,
+          "end_time": 22.399
+        },
+        {
+          "text": " ",
+          "start_time": 22.399,
+          "end_time": 22.459
+        },
+        {
+          "text": "keeps",
+          "start_time": 22.459,
+          "end_time": 22.659
+        },
+        {
+          "text": " ",
+          "start_time": 22.659,
+          "end_time": 22.719
+        },
+        {
+          "text": "driving",
+          "start_time": 22.719,
+          "end_time": 23.019
+        },
+        {
+          "text": " ",
+          "start_time": 23.019,
+          "end_time": 23.039
+        },
+        {
+          "text": "it",
+          "start_time": 23.039,
+          "end_time": 23.119
+        },
+        {
+          "text": " ",
+          "start_time": 23.119,
+          "end_time": 23.159
+        },
+        {
+          "text": "until",
+          "start_time": 23.159,
+          "end_time": 23.359
+        },
+        {
+          "text": " ",
+          "start_time": 23.359,
+          "end_time": 23.399
+        },
+        {
+          "text": "the",
+          "start_time": 23.399,
+          "end_time": 23.479
+        },
+        {
+          "text": " ",
+          "start_time": 23.479,
+          "end_time": 23.519
+        },
+        {
+          "text": "text",
+          "start_time": 23.519,
+          "end_time": 23.76
+        },
+        {
+          "text": " ",
+          "start_time": 23.76,
+          "end_time": 23.84
+        },
+        {
+          "text": "vanishes.",
+          "start_time": 23.84,
+          "end_time": 24.279
+        }
+      ]
+    }
+  ]
+}

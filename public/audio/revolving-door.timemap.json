@@ -1,0 +1,167 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/revolving-door/take-a.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/revolving-door.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11941,
+  "sampleRate": 48000,
+  "rawDuration": 30.325,
+  "cutDuration": 26.427,
+  "processedDuration": 23.608,
+  "silenceRemoved": 3.898,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 2.51,
+      "raw": 0.497,
+      "kept": 0.239,
+      "removed": 0.258
+    },
+    {
+      "kind": "shortened",
+      "at": 4.15,
+      "raw": 0.553,
+      "kept": 0.251,
+      "removed": 0.303
+    },
+    {
+      "kind": "shortened",
+      "at": 6.441,
+      "raw": 0.405,
+      "kept": 0.221,
+      "removed": 0.184
+    },
+    {
+      "kind": "shortened",
+      "at": 8.836,
+      "raw": 1.113,
+      "kept": 0.3,
+      "removed": 0.813
+    },
+    {
+      "kind": "shortened",
+      "at": 13.359,
+      "raw": 0.456,
+      "kept": 0.231,
+      "removed": 0.225
+    },
+    {
+      "kind": "shortened",
+      "at": 15.994,
+      "raw": 0.91,
+      "kept": 0.3,
+      "removed": 0.61
+    },
+    {
+      "kind": "kept-intact",
+      "at": 18.055,
+      "raw": 0.246,
+      "kept": 0.246,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 21.207,
+      "raw": 0.329,
+      "kept": 0.206,
+      "removed": 0.123
+    },
+    {
+      "kind": "shortened",
+      "at": 23.207,
+      "raw": 0.992,
+      "kept": 0.3,
+      "removed": 0.692
+    },
+    {
+      "kind": "shortened",
+      "at": 26.342,
+      "raw": 0.983,
+      "kept": 0.3,
+      "removed": 0.683
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.288,
+      "kept": 0.28,
+      "removed": 0.008
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 2.63,
+      "outStart": 0,
+      "outEnd": 2.349
+    },
+    {
+      "rawStart": 2.888,
+      "rawEnd": 4.275,
+      "outStart": 2.349,
+      "outEnd": 3.589
+    },
+    {
+      "rawStart": 4.578,
+      "rawEnd": 6.552,
+      "outStart": 3.589,
+      "outEnd": 5.352
+    },
+    {
+      "rawStart": 6.735,
+      "rawEnd": 8.986,
+      "outStart": 5.352,
+      "outEnd": 7.362
+    },
+    {
+      "rawStart": 9.799,
+      "rawEnd": 13.474,
+      "outStart": 7.362,
+      "outEnd": 10.646
+    },
+    {
+      "rawStart": 13.699,
+      "rawEnd": 16.144,
+      "outStart": 10.646,
+      "outEnd": 12.83
+    },
+    {
+      "rawStart": 16.754,
+      "rawEnd": 21.31,
+      "outStart": 12.83,
+      "outEnd": 16.9
+    },
+    {
+      "rawStart": 21.433,
+      "rawEnd": 23.357,
+      "outStart": 16.9,
+      "outEnd": 18.618
+    },
+    {
+      "rawStart": 24.049,
+      "rawEnd": 26.492,
+      "outStart": 18.618,
+      "outEnd": 20.801
+    },
+    {
+      "rawStart": 27.175,
+      "rawEnd": 30.317,
+      "outStart": 20.801,
+      "outEnd": 23.608
+    }
+  ]
+}

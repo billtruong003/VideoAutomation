@@ -1,0 +1,55 @@
+1
+00:00:00,099 --> 00:00:02,099
+There is a hard lump molded around your laptop
+
+2
+00:00:02,200 --> 00:00:04,259
+charger cable, and it is surprisingly heavy
+
+3
+00:00:04,339 --> 00:00:04,939
+for its size.
+
+4
+00:00:05,219 --> 00:00:06,779
+Inside it is a ring of ferrite,
+
+5
+00:00:06,980 --> 00:00:08,179
+an iron-based ceramic.
+
+6
+00:00:08,439 --> 00:00:10,479
+A power cable is a long piece of wire,
+
+7
+00:00:10,719 --> 00:00:12,319
+and a long piece of wire is an antenna,
+
+8
+00:00:12,619 --> 00:00:14,579
+so it picks up and radiates high-frequency
+
+9
+00:00:14,679 --> 00:00:16,000
+noise it was never meant to carry.
+
+10
+00:00:16,199 --> 00:00:18,319
+The ferrite ring lets your actual power pass
+
+11
+00:00:18,399 --> 00:00:20,319
+straight through, and turns that noise into
+
+12
+00:00:20,379 --> 00:00:21,379
+a tiny amount of heat.
+
+13
+00:00:21,639 --> 00:00:23,319
+It is a filter wrapped around a cable,
+
+14
+00:00:23,600 --> 00:00:25,179
+stopping your charger from transmitting.

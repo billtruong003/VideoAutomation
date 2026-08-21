@@ -1,0 +1,187 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/coin-reeded-edges/take-a.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/coin-reeded-edges.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11954,
+  "sampleRate": 48000,
+  "rawDuration": 30.975,
+  "cutDuration": 26.76,
+  "processedDuration": 23.903,
+  "silenceRemoved": 4.215,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 2.577,
+      "raw": 0.415,
+      "kept": 0.223,
+      "removed": 0.192
+    },
+    {
+      "kind": "shortened",
+      "at": 6.113,
+      "raw": 0.955,
+      "kept": 0.3,
+      "removed": 0.655
+    },
+    {
+      "kind": "shortened",
+      "at": 8.92,
+      "raw": 0.384,
+      "kept": 0.217,
+      "removed": 0.167
+    },
+    {
+      "kind": "kept-intact",
+      "at": 10.94,
+      "raw": 0.25,
+      "kept": 0.25,
+      "removed": 0
+    },
+    {
+      "kind": "kept-intact",
+      "at": 12.221,
+      "raw": 0.283,
+      "kept": 0.283,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 13.384,
+      "raw": 1.019,
+      "kept": 0.3,
+      "removed": 0.719
+    },
+    {
+      "kind": "shortened",
+      "at": 16.315,
+      "raw": 0.836,
+      "kept": 0.3,
+      "removed": 0.536
+    },
+    {
+      "kind": "shortened",
+      "at": 18.848,
+      "raw": 0.467,
+      "kept": 0.233,
+      "removed": 0.234
+    },
+    {
+      "kind": "shortened",
+      "at": 21.756,
+      "raw": 0.412,
+      "kept": 0.222,
+      "removed": 0.189
+    },
+    {
+      "kind": "shortened",
+      "at": 23.393,
+      "raw": 0.848,
+      "kept": 0.3,
+      "removed": 0.548
+    },
+    {
+      "kind": "shortened",
+      "at": 27.249,
+      "raw": 0.903,
+      "kept": 0.3,
+      "removed": 0.603
+    },
+    {
+      "kind": "shortened",
+      "at": 29.313,
+      "raw": 0.326,
+      "kept": 0.205,
+      "removed": 0.121
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.531,
+      "kept": 0.28,
+      "removed": 0.251
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 2.689,
+      "outStart": 0,
+      "outEnd": 2.402
+    },
+    {
+      "rawStart": 2.88,
+      "rawEnd": 6.263,
+      "outStart": 2.402,
+      "outEnd": 5.423
+    },
+    {
+      "rawStart": 6.919,
+      "rawEnd": 9.029,
+      "outStart": 5.423,
+      "outEnd": 7.308
+    },
+    {
+      "rawStart": 9.196,
+      "rawEnd": 13.534,
+      "outStart": 7.308,
+      "outEnd": 11.183
+    },
+    {
+      "rawStart": 14.253,
+      "rawEnd": 16.465,
+      "outStart": 11.183,
+      "outEnd": 13.159
+    },
+    {
+      "rawStart": 17.001,
+      "rawEnd": 18.965,
+      "outStart": 13.159,
+      "outEnd": 14.913
+    },
+    {
+      "rawStart": 19.199,
+      "rawEnd": 21.867,
+      "outStart": 14.913,
+      "outEnd": 17.297
+    },
+    {
+      "rawStart": 22.057,
+      "rawEnd": 23.543,
+      "outStart": 17.297,
+      "outEnd": 18.625
+    },
+    {
+      "rawStart": 24.092,
+      "rawEnd": 27.399,
+      "outStart": 18.625,
+      "outEnd": 21.578
+    },
+    {
+      "rawStart": 28.001,
+      "rawEnd": 29.416,
+      "outStart": 21.578,
+      "outEnd": 22.842
+    },
+    {
+      "rawStart": 29.537,
+      "rawEnd": 30.724,
+      "outStart": 22.842,
+      "outEnd": 23.903
+    }
+  ]
+}

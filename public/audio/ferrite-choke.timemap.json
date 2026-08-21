@@ -1,0 +1,161 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/ferrite-choke/take-a.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/ferrite-choke.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11939,
+  "sampleRate": 48000,
+  "rawDuration": 31.486,
+  "cutDuration": 28.449,
+  "processedDuration": 25.415,
+  "silenceRemoved": 3.037,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "kept-intact",
+      "at": 3.403,
+      "raw": 0.254,
+      "kept": 0.254,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 5.464,
+      "raw": 0.88,
+      "kept": 0.3,
+      "removed": 0.58
+    },
+    {
+      "kind": "shortened",
+      "at": 8.153,
+      "raw": 0.489,
+      "kept": 0.238,
+      "removed": 0.251
+    },
+    {
+      "kind": "shortened",
+      "at": 9.956,
+      "raw": 0.893,
+      "kept": 0.3,
+      "removed": 0.593
+    },
+    {
+      "kind": "shortened",
+      "at": 13.161,
+      "raw": 0.584,
+      "kept": 0.257,
+      "removed": 0.327
+    },
+    {
+      "kind": "shortened",
+      "at": 15.556,
+      "raw": 0.493,
+      "kept": 0.239,
+      "removed": 0.254
+    },
+    {
+      "kind": "shortened",
+      "at": 19.895,
+      "raw": 0.503,
+      "kept": 0.241,
+      "removed": 0.262
+    },
+    {
+      "kind": "kept-intact",
+      "at": 23.438,
+      "raw": 0.151,
+      "kept": 0.151,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 26.18,
+      "raw": 0.866,
+      "kept": 0.3,
+      "removed": 0.566
+    },
+    {
+      "kind": "shortened",
+      "at": 28.954,
+      "raw": 0.322,
+      "kept": 0.204,
+      "removed": 0.117
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.366,
+      "kept": 0.28,
+      "removed": 0.086
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 5.614,
+      "outStart": 0,
+      "outEnd": 5.015
+    },
+    {
+      "rawStart": 6.194,
+      "rawEnd": 8.271,
+      "outStart": 5.015,
+      "outEnd": 6.871
+    },
+    {
+      "rawStart": 8.522,
+      "rawEnd": 10.106,
+      "outStart": 6.871,
+      "outEnd": 8.286
+    },
+    {
+      "rawStart": 10.699,
+      "rawEnd": 13.289,
+      "outStart": 8.286,
+      "outEnd": 10.6
+    },
+    {
+      "rawStart": 13.616,
+      "rawEnd": 15.675,
+      "outStart": 10.6,
+      "outEnd": 12.439
+    },
+    {
+      "rawStart": 15.929,
+      "rawEnd": 20.015,
+      "outStart": 12.439,
+      "outEnd": 16.089
+    },
+    {
+      "rawStart": 20.277,
+      "rawEnd": 26.33,
+      "outStart": 16.089,
+      "outEnd": 21.497
+    },
+    {
+      "rawStart": 26.896,
+      "rawEnd": 29.056,
+      "outStart": 21.497,
+      "outEnd": 23.426
+    },
+    {
+      "rawStart": 29.173,
+      "rawEnd": 31.4,
+      "outStart": 23.426,
+      "outEnd": 25.415
+    }
+  ]
+}

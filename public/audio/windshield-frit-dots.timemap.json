@@ -1,0 +1,155 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/windshield-frit-dots/take-a.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/windshield-frit-dots.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11926,
+  "sampleRate": 48000,
+  "rawDuration": 30.418,
+  "cutDuration": 26.741,
+  "processedDuration": 23.892,
+  "silenceRemoved": 3.677,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 1.88,
+      "raw": 0.342,
+      "kept": 0.208,
+      "removed": 0.134
+    },
+    {
+      "kind": "shortened",
+      "at": 6.013,
+      "raw": 1.344,
+      "kept": 0.3,
+      "removed": 1.044
+    },
+    {
+      "kind": "kept-intact",
+      "at": 9.972,
+      "raw": 0.277,
+      "kept": 0.277,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 13.766,
+      "raw": 1.236,
+      "kept": 0.3,
+      "removed": 0.936
+    },
+    {
+      "kind": "kept-intact",
+      "at": 16.822,
+      "raw": 0.284,
+      "kept": 0.284,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 18.415,
+      "raw": 1.058,
+      "kept": 0.3,
+      "removed": 0.758
+    },
+    {
+      "kind": "shortened",
+      "at": 20.701,
+      "raw": 0.795,
+      "kept": 0.299,
+      "removed": 0.496
+    },
+    {
+      "kind": "shortened",
+      "at": 23.791,
+      "raw": 0.34,
+      "kept": 0.208,
+      "removed": 0.132
+    },
+    {
+      "kind": "shortened",
+      "at": 27.395,
+      "raw": 0.307,
+      "kept": 0.201,
+      "removed": 0.105
+    },
+    {
+      "kind": "kept-intact",
+      "at": 28.72,
+      "raw": 0.219,
+      "kept": 0.219,
+      "removed": 0
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.353,
+      "kept": 0.28,
+      "removed": 0.073
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 1.984,
+      "outStart": 0,
+      "outEnd": 1.773
+    },
+    {
+      "rawStart": 2.118,
+      "rawEnd": 6.163,
+      "outStart": 1.773,
+      "outEnd": 5.387
+    },
+    {
+      "rawStart": 7.206,
+      "rawEnd": 13.916,
+      "outStart": 5.387,
+      "outEnd": 11.381
+    },
+    {
+      "rawStart": 14.851,
+      "rawEnd": 18.565,
+      "outStart": 11.381,
+      "outEnd": 14.699
+    },
+    {
+      "rawStart": 19.323,
+      "rawEnd": 20.85,
+      "outStart": 14.699,
+      "outEnd": 16.063
+    },
+    {
+      "rawStart": 21.346,
+      "rawEnd": 23.895,
+      "outStart": 16.063,
+      "outEnd": 18.34
+    },
+    {
+      "rawStart": 24.027,
+      "rawEnd": 27.495,
+      "outStart": 18.34,
+      "outEnd": 21.439
+    },
+    {
+      "rawStart": 27.601,
+      "rawEnd": 30.345,
+      "outStart": 21.439,
+      "outEnd": 23.892
+    }
+  ]
+}

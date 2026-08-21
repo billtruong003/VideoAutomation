@@ -1,0 +1,187 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/beer-bottle-brown-glass/take-a.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/beer-bottle-brown-glass.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11947,
+  "sampleRate": 48000,
+  "rawDuration": 34.505,
+  "cutDuration": 30.181,
+  "processedDuration": 26.96,
+  "silenceRemoved": 4.324,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 2.259,
+      "raw": 0.381,
+      "kept": 0.216,
+      "removed": 0.165
+    },
+    {
+      "kind": "shortened",
+      "at": 4.247,
+      "raw": 1.013,
+      "kept": 0.3,
+      "removed": 0.713
+    },
+    {
+      "kind": "kept-intact",
+      "at": 6.994,
+      "raw": 0.3,
+      "kept": 0.3,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 8.422,
+      "raw": 1.141,
+      "kept": 0.3,
+      "removed": 0.841
+    },
+    {
+      "kind": "shortened",
+      "at": 11.558,
+      "raw": 0.47,
+      "kept": 0.234,
+      "removed": 0.236
+    },
+    {
+      "kind": "kept-intact",
+      "at": 13.077,
+      "raw": 0.249,
+      "kept": 0.249,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 14.782,
+      "raw": 0.408,
+      "kept": 0.222,
+      "removed": 0.186
+    },
+    {
+      "kind": "shortened",
+      "at": 16.096,
+      "raw": 0.758,
+      "kept": 0.292,
+      "removed": 0.466
+    },
+    {
+      "kind": "shortened",
+      "at": 23.396,
+      "raw": 0.883,
+      "kept": 0.3,
+      "removed": 0.583
+    },
+    {
+      "kind": "shortened",
+      "at": 25.891,
+      "raw": 0.743,
+      "kept": 0.289,
+      "removed": 0.455
+    },
+    {
+      "kind": "shortened",
+      "at": 29.278,
+      "raw": 0.7,
+      "kept": 0.28,
+      "removed": 0.42
+    },
+    {
+      "kind": "shortened",
+      "at": 31.251,
+      "raw": 0.418,
+      "kept": 0.224,
+      "removed": 0.194
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.344,
+      "kept": 0.28,
+      "removed": 0.064
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 2.367,
+      "outStart": 0,
+      "outEnd": 2.114
+    },
+    {
+      "rawStart": 2.532,
+      "rawEnd": 4.397,
+      "outStart": 2.114,
+      "outEnd": 3.78
+    },
+    {
+      "rawStart": 5.11,
+      "rawEnd": 8.572,
+      "outStart": 3.78,
+      "outEnd": 6.873
+    },
+    {
+      "rawStart": 9.414,
+      "rawEnd": 11.675,
+      "outStart": 6.873,
+      "outEnd": 8.893
+    },
+    {
+      "rawStart": 11.911,
+      "rawEnd": 14.893,
+      "outStart": 8.893,
+      "outEnd": 11.556
+    },
+    {
+      "rawStart": 15.079,
+      "rawEnd": 16.242,
+      "outStart": 11.556,
+      "outEnd": 12.595
+    },
+    {
+      "rawStart": 16.708,
+      "rawEnd": 23.546,
+      "outStart": 12.595,
+      "outEnd": 18.703
+    },
+    {
+      "rawStart": 24.129,
+      "rawEnd": 26.036,
+      "outStart": 18.703,
+      "outEnd": 20.406
+    },
+    {
+      "rawStart": 26.49,
+      "rawEnd": 29.418,
+      "outStart": 20.406,
+      "outEnd": 23.021
+    },
+    {
+      "rawStart": 29.838,
+      "rawEnd": 31.363,
+      "outStart": 23.021,
+      "outEnd": 24.384
+    },
+    {
+      "rawStart": 31.557,
+      "rawEnd": 34.441,
+      "outStart": 24.384,
+      "outEnd": 26.96
+    }
+  ]
+}

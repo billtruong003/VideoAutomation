@@ -1,0 +1,976 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "On an American car the passenger side mirror",
+      "start_time": 0.079,
+      "end_time": 1.959,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "On",
+          "start_time": 0.079,
+          "end_time": 0.159
+        },
+        {
+          "text": " ",
+          "start_time": 0.159,
+          "end_time": 0.179
+        },
+        {
+          "text": "an",
+          "start_time": 0.179,
+          "end_time": 0.239
+        },
+        {
+          "text": " ",
+          "start_time": 0.239,
+          "end_time": 0.299
+        },
+        {
+          "text": "American",
+          "start_time": 0.299,
+          "end_time": 0.62
+        },
+        {
+          "text": " ",
+          "start_time": 0.62,
+          "end_time": 0.719
+        },
+        {
+          "text": "car",
+          "start_time": 0.719,
+          "end_time": 0.899
+        },
+        {
+          "text": " ",
+          "start_time": 0.899,
+          "end_time": 0.939
+        },
+        {
+          "text": "the",
+          "start_time": 0.939,
+          "end_time": 1.019
+        },
+        {
+          "text": " ",
+          "start_time": 1.019,
+          "end_time": 1.059
+        },
+        {
+          "text": "passenger",
+          "start_time": 1.059,
+          "end_time": 1.48
+        },
+        {
+          "text": " ",
+          "start_time": 1.48,
+          "end_time": 1.519
+        },
+        {
+          "text": "side",
+          "start_time": 1.519,
+          "end_time": 1.679
+        },
+        {
+          "text": " ",
+          "start_time": 1.679,
+          "end_time": 1.779
+        },
+        {
+          "text": "mirror",
+          "start_time": 1.779,
+          "end_time": 1.959
+        }
+      ]
+    },
+    {
+      "text": "is curved, the driver's side one is flat,",
+      "start_time": 2.019,
+      "end_time": 3.919,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "is",
+          "start_time": 2.019,
+          "end_time": 2.099
+        },
+        {
+          "text": " ",
+          "start_time": 2.099,
+          "end_time": 2.179
+        },
+        {
+          "text": "curved,",
+          "start_time": 2.18,
+          "end_time": 2.48
+        },
+        {
+          "text": " ",
+          "start_time": 2.48,
+          "end_time": 2.699
+        },
+        {
+          "text": "the",
+          "start_time": 2.7,
+          "end_time": 2.759
+        },
+        {
+          "text": " ",
+          "start_time": 2.759,
+          "end_time": 2.799
+        },
+        {
+          "text": "driver's",
+          "start_time": 2.799,
+          "end_time": 3.119
+        },
+        {
+          "text": " ",
+          "start_time": 3.119,
+          "end_time": 3.139
+        },
+        {
+          "text": "side",
+          "start_time": 3.139,
+          "end_time": 3.299
+        },
+        {
+          "text": " ",
+          "start_time": 3.299,
+          "end_time": 3.359
+        },
+        {
+          "text": "one",
+          "start_time": 3.359,
+          "end_time": 3.439
+        },
+        {
+          "text": " ",
+          "start_time": 3.439,
+          "end_time": 3.479
+        },
+        {
+          "text": "is",
+          "start_time": 3.48,
+          "end_time": 3.559
+        },
+        {
+          "text": " ",
+          "start_time": 3.559,
+          "end_time": 3.639
+        },
+        {
+          "text": "flat,",
+          "start_time": 3.639,
+          "end_time": 3.919
+        }
+      ]
+    },
+    {
+      "text": "and only the curved one carries a warning printed",
+      "start_time": 4.139,
+      "end_time": 6.079,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 4.139,
+          "end_time": 4.259
+        },
+        {
+          "text": " ",
+          "start_time": 4.259,
+          "end_time": 4.299
+        },
+        {
+          "text": "only",
+          "start_time": 4.299,
+          "end_time": 4.46
+        },
+        {
+          "text": " ",
+          "start_time": 4.46,
+          "end_time": 4.48
+        },
+        {
+          "text": "the",
+          "start_time": 4.48,
+          "end_time": 4.539
+        },
+        {
+          "text": " ",
+          "start_time": 4.539,
+          "end_time": 4.639
+        },
+        {
+          "text": "curved",
+          "start_time": 4.639,
+          "end_time": 4.9
+        },
+        {
+          "text": " ",
+          "start_time": 4.9,
+          "end_time": 4.96
+        },
+        {
+          "text": "one",
+          "start_time": 4.96,
+          "end_time": 5.119
+        },
+        {
+          "text": " ",
+          "start_time": 5.119,
+          "end_time": 5.159
+        },
+        {
+          "text": "carries",
+          "start_time": 5.159,
+          "end_time": 5.38
+        },
+        {
+          "text": " ",
+          "start_time": 5.38,
+          "end_time": 5.42
+        },
+        {
+          "text": "a",
+          "start_time": 5.42,
+          "end_time": 5.48
+        },
+        {
+          "text": " ",
+          "start_time": 5.48,
+          "end_time": 5.519
+        },
+        {
+          "text": "warning",
+          "start_time": 5.519,
+          "end_time": 5.799
+        },
+        {
+          "text": " ",
+          "start_time": 5.799,
+          "end_time": 5.839
+        },
+        {
+          "text": "printed",
+          "start_time": 5.839,
+          "end_time": 6.079
+        }
+      ]
+    },
+    {
+      "text": "on the glass.",
+      "start_time": 6.119,
+      "end_time": 6.718999999999999,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "on",
+          "start_time": 6.119,
+          "end_time": 6.179
+        },
+        {
+          "text": " ",
+          "start_time": 6.179,
+          "end_time": 6.199
+        },
+        {
+          "text": "the",
+          "start_time": 6.199,
+          "end_time": 6.279
+        },
+        {
+          "text": " ",
+          "start_time": 6.279,
+          "end_time": 6.319
+        },
+        {
+          "text": "glass.",
+          "start_time": 6.319,
+          "end_time": 6.699
+        }
+      ]
+    },
+    {
+      "text": "Curving a mirror squeezes a wider slice of",
+      "start_time": 7,
+      "end_time": 8.96,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Curving",
+          "start_time": 7,
+          "end_time": 7.259
+        },
+        {
+          "text": " ",
+          "start_time": 7.259,
+          "end_time": 7.299
+        },
+        {
+          "text": "a",
+          "start_time": 7.299,
+          "end_time": 7.339
+        },
+        {
+          "text": " ",
+          "start_time": 7.339,
+          "end_time": 7.439
+        },
+        {
+          "text": "mirror",
+          "start_time": 7.44,
+          "end_time": 7.699
+        },
+        {
+          "text": " ",
+          "start_time": 7.699,
+          "end_time": 7.779
+        },
+        {
+          "text": "squeezes",
+          "start_time": 7.779,
+          "end_time": 8.099
+        },
+        {
+          "text": " ",
+          "start_time": 8.099,
+          "end_time": 8.159
+        },
+        {
+          "text": "a",
+          "start_time": 8.159,
+          "end_time": 8.239
+        },
+        {
+          "text": " ",
+          "start_time": 8.239,
+          "end_time": 8.3
+        },
+        {
+          "text": "wider",
+          "start_time": 8.3,
+          "end_time": 8.559
+        },
+        {
+          "text": " ",
+          "start_time": 8.559,
+          "end_time": 8.619
+        },
+        {
+          "text": "slice",
+          "start_time": 8.619,
+          "end_time": 8.84
+        },
+        {
+          "text": " ",
+          "start_time": 8.84,
+          "end_time": 8.88
+        },
+        {
+          "text": "of",
+          "start_time": 8.88,
+          "end_time": 8.96
+        }
+      ]
+    },
+    {
+      "text": "road into the same piece of glass,",
+      "start_time": 9.019,
+      "end_time": 10.5,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "road",
+          "start_time": 9.019,
+          "end_time": 9.279
+        },
+        {
+          "text": " ",
+          "start_time": 9.279,
+          "end_time": 9.319
+        },
+        {
+          "text": "into",
+          "start_time": 9.319,
+          "end_time": 9.479
+        },
+        {
+          "text": " ",
+          "start_time": 9.479,
+          "end_time": 9.519
+        },
+        {
+          "text": "the",
+          "start_time": 9.519,
+          "end_time": 9.619
+        },
+        {
+          "text": " ",
+          "start_time": 9.619,
+          "end_time": 9.679
+        },
+        {
+          "text": "same",
+          "start_time": 9.679,
+          "end_time": 9.84
+        },
+        {
+          "text": " ",
+          "start_time": 9.84,
+          "end_time": 9.88
+        },
+        {
+          "text": "piece",
+          "start_time": 9.88,
+          "end_time": 10.059
+        },
+        {
+          "text": " ",
+          "start_time": 10.059,
+          "end_time": 10.079
+        },
+        {
+          "text": "of",
+          "start_time": 10.079,
+          "end_time": 10.159
+        },
+        {
+          "text": " ",
+          "start_time": 10.159,
+          "end_time": 10.219
+        },
+        {
+          "text": "glass,",
+          "start_time": 10.219,
+          "end_time": 10.5
+        }
+      ]
+    },
+    {
+      "text": "which is how it covers a blind spot a",
+      "start_time": 10.739,
+      "end_time": 12.219,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "which",
+          "start_time": 10.739,
+          "end_time": 10.84
+        },
+        {
+          "text": " ",
+          "start_time": 10.84,
+          "end_time": 10.88
+        },
+        {
+          "text": "is",
+          "start_time": 10.88,
+          "end_time": 10.939
+        },
+        {
+          "text": " ",
+          "start_time": 10.939,
+          "end_time": 11
+        },
+        {
+          "text": "how",
+          "start_time": 11,
+          "end_time": 11.099
+        },
+        {
+          "text": " ",
+          "start_time": 11.099,
+          "end_time": 11.139
+        },
+        {
+          "text": "it",
+          "start_time": 11.139,
+          "end_time": 11.219
+        },
+        {
+          "text": " ",
+          "start_time": 11.219,
+          "end_time": 11.279
+        },
+        {
+          "text": "covers",
+          "start_time": 11.279,
+          "end_time": 11.46
+        },
+        {
+          "text": " ",
+          "start_time": 11.46,
+          "end_time": 11.519
+        },
+        {
+          "text": "a",
+          "start_time": 11.519,
+          "end_time": 11.559
+        },
+        {
+          "text": " ",
+          "start_time": 11.559,
+          "end_time": 11.599
+        },
+        {
+          "text": "blind",
+          "start_time": 11.599,
+          "end_time": 11.819
+        },
+        {
+          "text": " ",
+          "start_time": 11.819,
+          "end_time": 11.88
+        },
+        {
+          "text": "spot",
+          "start_time": 11.88,
+          "end_time": 12.059
+        },
+        {
+          "text": " ",
+          "start_time": 12.059,
+          "end_time": 12.139
+        },
+        {
+          "text": "a",
+          "start_time": 12.139,
+          "end_time": 12.219
+        }
+      ]
+    },
+    {
+      "text": "flat mirror cannot reach.",
+      "start_time": 12.259,
+      "end_time": 13.579,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "flat",
+          "start_time": 12.259,
+          "end_time": 12.5
+        },
+        {
+          "text": " ",
+          "start_time": 12.5,
+          "end_time": 12.579
+        },
+        {
+          "text": "mirror",
+          "start_time": 12.579,
+          "end_time": 12.84
+        },
+        {
+          "text": " ",
+          "start_time": 12.84,
+          "end_time": 12.88
+        },
+        {
+          "text": "cannot",
+          "start_time": 12.88,
+          "end_time": 13.239
+        },
+        {
+          "text": " ",
+          "start_time": 13.239,
+          "end_time": 13.299
+        },
+        {
+          "text": "reach.",
+          "start_time": 13.299,
+          "end_time": 13.579
+        }
+      ]
+    },
+    {
+      "text": "The price is that everything in it looks smaller,",
+      "start_time": 13.84,
+      "end_time": 15.859,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 13.84,
+          "end_time": 13.92
+        },
+        {
+          "text": " ",
+          "start_time": 13.92,
+          "end_time": 14
+        },
+        {
+          "text": "price",
+          "start_time": 14,
+          "end_time": 14.259
+        },
+        {
+          "text": " ",
+          "start_time": 14.259,
+          "end_time": 14.319
+        },
+        {
+          "text": "is",
+          "start_time": 14.319,
+          "end_time": 14.38
+        },
+        {
+          "text": " ",
+          "start_time": 14.38,
+          "end_time": 14.42
+        },
+        {
+          "text": "that",
+          "start_time": 14.42,
+          "end_time": 14.599
+        },
+        {
+          "text": " ",
+          "start_time": 14.599,
+          "end_time": 14.699
+        },
+        {
+          "text": "everything",
+          "start_time": 14.699,
+          "end_time": 15.02
+        },
+        {
+          "text": " ",
+          "start_time": 15.02,
+          "end_time": 15.039
+        },
+        {
+          "text": "in",
+          "start_time": 15.039,
+          "end_time": 15.099
+        },
+        {
+          "text": " ",
+          "start_time": 15.099,
+          "end_time": 15.119
+        },
+        {
+          "text": "it",
+          "start_time": 15.119,
+          "end_time": 15.199
+        },
+        {
+          "text": " ",
+          "start_time": 15.199,
+          "end_time": 15.239
+        },
+        {
+          "text": "looks",
+          "start_time": 15.239,
+          "end_time": 15.439
+        },
+        {
+          "text": " ",
+          "start_time": 15.439,
+          "end_time": 15.479
+        },
+        {
+          "text": "smaller,",
+          "start_time": 15.479,
+          "end_time": 15.859
+        }
+      ]
+    },
+    {
+      "text": "and your brain reads smaller as further away.",
+      "start_time": 16.1,
+      "end_time": 17.939,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 16.1,
+          "end_time": 16.18
+        },
+        {
+          "text": " ",
+          "start_time": 16.18,
+          "end_time": 16.219
+        },
+        {
+          "text": "your",
+          "start_time": 16.219,
+          "end_time": 16.299
+        },
+        {
+          "text": " ",
+          "start_time": 16.299,
+          "end_time": 16.359
+        },
+        {
+          "text": "brain",
+          "start_time": 16.359,
+          "end_time": 16.52
+        },
+        {
+          "text": " ",
+          "start_time": 16.52,
+          "end_time": 16.559
+        },
+        {
+          "text": "reads",
+          "start_time": 16.559,
+          "end_time": 16.76
+        },
+        {
+          "text": " ",
+          "start_time": 16.76,
+          "end_time": 16.799
+        },
+        {
+          "text": "smaller",
+          "start_time": 16.799,
+          "end_time": 17.079
+        },
+        {
+          "text": " ",
+          "start_time": 17.079,
+          "end_time": 17.139
+        },
+        {
+          "text": "as",
+          "start_time": 17.139,
+          "end_time": 17.219
+        },
+        {
+          "text": " ",
+          "start_time": 17.219,
+          "end_time": 17.319
+        },
+        {
+          "text": "further",
+          "start_time": 17.319,
+          "end_time": 17.539
+        },
+        {
+          "text": " ",
+          "start_time": 17.539,
+          "end_time": 17.659
+        },
+        {
+          "text": "away.",
+          "start_time": 17.659,
+          "end_time": 17.939
+        }
+      ]
+    },
+    {
+      "text": "The warning exists because the mirror really",
+      "start_time": 18.219,
+      "end_time": 20,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 18.219,
+          "end_time": 18.299
+        },
+        {
+          "text": " ",
+          "start_time": 18.299,
+          "end_time": 18.34
+        },
+        {
+          "text": "warning",
+          "start_time": 18.34,
+          "end_time": 18.559
+        },
+        {
+          "text": " ",
+          "start_time": 18.559,
+          "end_time": 18.659
+        },
+        {
+          "text": "exists",
+          "start_time": 18.659,
+          "end_time": 18.959
+        },
+        {
+          "text": " ",
+          "start_time": 18.959,
+          "end_time": 19
+        },
+        {
+          "text": "because",
+          "start_time": 19,
+          "end_time": 19.26
+        },
+        {
+          "text": " ",
+          "start_time": 19.26,
+          "end_time": 19.299
+        },
+        {
+          "text": "the",
+          "start_time": 19.299,
+          "end_time": 19.439
+        },
+        {
+          "text": " ",
+          "start_time": 19.439,
+          "end_time": 19.479
+        },
+        {
+          "text": "mirror",
+          "start_time": 19.479,
+          "end_time": 19.76
+        },
+        {
+          "text": " ",
+          "start_time": 19.76,
+          "end_time": 19.819
+        },
+        {
+          "text": "really",
+          "start_time": 19.819,
+          "end_time": 20
+        }
+      ]
+    },
+    {
+      "text": "is misleading you, and someone decided that",
+      "start_time": 20.059,
+      "end_time": 21.859,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "is",
+          "start_time": 20.059,
+          "end_time": 20.139
+        },
+        {
+          "text": " ",
+          "start_time": 20.139,
+          "end_time": 20.199
+        },
+        {
+          "text": "misleading",
+          "start_time": 20.199,
+          "end_time": 20.579
+        },
+        {
+          "text": " ",
+          "start_time": 20.579,
+          "end_time": 20.639
+        },
+        {
+          "text": "you,",
+          "start_time": 20.639,
+          "end_time": 20.719
+        },
+        {
+          "text": " ",
+          "start_time": 20.719,
+          "end_time": 20.939
+        },
+        {
+          "text": "and",
+          "start_time": 20.939,
+          "end_time": 21.039
+        },
+        {
+          "text": " ",
+          "start_time": 21.039,
+          "end_time": 21.099
+        },
+        {
+          "text": "someone",
+          "start_time": 21.1,
+          "end_time": 21.299
+        },
+        {
+          "text": " ",
+          "start_time": 21.299,
+          "end_time": 21.34
+        },
+        {
+          "text": "decided",
+          "start_time": 21.34,
+          "end_time": 21.68
+        },
+        {
+          "text": " ",
+          "start_time": 21.68,
+          "end_time": 21.719
+        },
+        {
+          "text": "that",
+          "start_time": 21.719,
+          "end_time": 21.859
+        }
+      ]
+    },
+    {
+      "text": "had to be admitted in writing.",
+      "start_time": 21.899,
+      "end_time": 22.959,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "had",
+          "start_time": 21.899,
+          "end_time": 22
+        },
+        {
+          "text": " ",
+          "start_time": 22,
+          "end_time": 22.02
+        },
+        {
+          "text": "to",
+          "start_time": 22.02,
+          "end_time": 22.079
+        },
+        {
+          "text": " ",
+          "start_time": 22.079,
+          "end_time": 22.119
+        },
+        {
+          "text": "be",
+          "start_time": 22.119,
+          "end_time": 22.159
+        },
+        {
+          "text": " ",
+          "start_time": 22.159,
+          "end_time": 22.219
+        },
+        {
+          "text": "admitted",
+          "start_time": 22.219,
+          "end_time": 22.5
+        },
+        {
+          "text": " ",
+          "start_time": 22.5,
+          "end_time": 22.539
+        },
+        {
+          "text": "in",
+          "start_time": 22.539,
+          "end_time": 22.619
+        },
+        {
+          "text": " ",
+          "start_time": 22.619,
+          "end_time": 22.679
+        },
+        {
+          "text": "writing.",
+          "start_time": 22.68,
+          "end_time": 22.959
+        }
+      ]
+    }
+  ]
+}

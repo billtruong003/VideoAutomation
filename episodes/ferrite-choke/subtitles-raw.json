@@ -1,0 +1,989 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "There is a hard lump molded around your laptop",
+      "start_time": 0.099,
+      "end_time": 2.099,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "There",
+          "start_time": 0.099,
+          "end_time": 0.219
+        },
+        {
+          "text": " ",
+          "start_time": 0.219,
+          "end_time": 0.28
+        },
+        {
+          "text": "is",
+          "start_time": 0.28,
+          "end_time": 0.359
+        },
+        {
+          "text": " ",
+          "start_time": 0.359,
+          "end_time": 0.419
+        },
+        {
+          "text": "a",
+          "start_time": 0.419,
+          "end_time": 0.539
+        },
+        {
+          "text": " ",
+          "start_time": 0.539,
+          "end_time": 0.579
+        },
+        {
+          "text": "hard",
+          "start_time": 0.579,
+          "end_time": 0.779
+        },
+        {
+          "text": " ",
+          "start_time": 0.779,
+          "end_time": 0.859
+        },
+        {
+          "text": "lump",
+          "start_time": 0.859,
+          "end_time": 1.039
+        },
+        {
+          "text": " ",
+          "start_time": 1.039,
+          "end_time": 1.079
+        },
+        {
+          "text": "molded",
+          "start_time": 1.079,
+          "end_time": 1.299
+        },
+        {
+          "text": " ",
+          "start_time": 1.299,
+          "end_time": 1.339
+        },
+        {
+          "text": "around",
+          "start_time": 1.339,
+          "end_time": 1.559
+        },
+        {
+          "text": " ",
+          "start_time": 1.559,
+          "end_time": 1.619
+        },
+        {
+          "text": "your",
+          "start_time": 1.62,
+          "end_time": 1.719
+        },
+        {
+          "text": " ",
+          "start_time": 1.719,
+          "end_time": 1.759
+        },
+        {
+          "text": "laptop",
+          "start_time": 1.759,
+          "end_time": 2.099
+        }
+      ]
+    },
+    {
+      "text": "charger cable, and it is surprisingly heavy",
+      "start_time": 2.2,
+      "end_time": 4.259,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "charger",
+          "start_time": 2.2,
+          "end_time": 2.44
+        },
+        {
+          "text": " ",
+          "start_time": 2.44,
+          "end_time": 2.519
+        },
+        {
+          "text": "cable,",
+          "start_time": 2.519,
+          "end_time": 2.779
+        },
+        {
+          "text": " ",
+          "start_time": 2.779,
+          "end_time": 2.879
+        },
+        {
+          "text": "and",
+          "start_time": 2.879,
+          "end_time": 2.98
+        },
+        {
+          "text": " ",
+          "start_time": 2.98,
+          "end_time": 3.299
+        },
+        {
+          "text": "it",
+          "start_time": 3.299,
+          "end_time": 3.359
+        },
+        {
+          "text": " ",
+          "start_time": 3.359,
+          "end_time": 3.399
+        },
+        {
+          "text": "is",
+          "start_time": 3.399,
+          "end_time": 3.5
+        },
+        {
+          "text": " ",
+          "start_time": 3.5,
+          "end_time": 3.519
+        },
+        {
+          "text": "surprisingly",
+          "start_time": 3.519,
+          "end_time": 4.079
+        },
+        {
+          "text": " ",
+          "start_time": 4.079,
+          "end_time": 4.099
+        },
+        {
+          "text": "heavy",
+          "start_time": 4.099,
+          "end_time": 4.259
+        }
+      ]
+    },
+    {
+      "text": "for its size.",
+      "start_time": 4.339,
+      "end_time": 4.939,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "for",
+          "start_time": 4.339,
+          "end_time": 4.38
+        },
+        {
+          "text": " ",
+          "start_time": 4.38,
+          "end_time": 4.42
+        },
+        {
+          "text": "its",
+          "start_time": 4.42,
+          "end_time": 4.539
+        },
+        {
+          "text": " ",
+          "start_time": 4.539,
+          "end_time": 4.579
+        },
+        {
+          "text": "size.",
+          "start_time": 4.579,
+          "end_time": 4.899
+        }
+      ]
+    },
+    {
+      "text": "Inside it is a ring of ferrite,",
+      "start_time": 5.219,
+      "end_time": 6.779,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Inside",
+          "start_time": 5.219,
+          "end_time": 5.619
+        },
+        {
+          "text": " ",
+          "start_time": 5.619,
+          "end_time": 5.679
+        },
+        {
+          "text": "it",
+          "start_time": 5.679,
+          "end_time": 5.739
+        },
+        {
+          "text": " ",
+          "start_time": 5.739,
+          "end_time": 5.779
+        },
+        {
+          "text": "is",
+          "start_time": 5.779,
+          "end_time": 5.859
+        },
+        {
+          "text": " ",
+          "start_time": 5.859,
+          "end_time": 5.919
+        },
+        {
+          "text": "a",
+          "start_time": 5.92,
+          "end_time": 5.96
+        },
+        {
+          "text": " ",
+          "start_time": 5.96,
+          "end_time": 6.079
+        },
+        {
+          "text": "ring",
+          "start_time": 6.079,
+          "end_time": 6.219
+        },
+        {
+          "text": " ",
+          "start_time": 6.219,
+          "end_time": 6.259
+        },
+        {
+          "text": "of",
+          "start_time": 6.259,
+          "end_time": 6.319
+        },
+        {
+          "text": " ",
+          "start_time": 6.319,
+          "end_time": 6.479
+        },
+        {
+          "text": "ferrite,",
+          "start_time": 6.48,
+          "end_time": 6.779
+        }
+      ]
+    },
+    {
+      "text": "an iron-based ceramic.",
+      "start_time": 6.98,
+      "end_time": 8.179,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "an",
+          "start_time": 6.98,
+          "end_time": 7.079
+        },
+        {
+          "text": " ",
+          "start_time": 7.079,
+          "end_time": 7.139
+        },
+        {
+          "text": "iron-based",
+          "start_time": 7.139,
+          "end_time": 7.659
+        },
+        {
+          "text": " ",
+          "start_time": 7.659,
+          "end_time": 7.739
+        },
+        {
+          "text": "ceramic.",
+          "start_time": 7.739,
+          "end_time": 8.179
+        }
+      ]
+    },
+    {
+      "text": "A power cable is a long piece of wire,",
+      "start_time": 8.439,
+      "end_time": 10.479,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "A",
+          "start_time": 8.439,
+          "end_time": 8.5
+        },
+        {
+          "text": " ",
+          "start_time": 8.5,
+          "end_time": 8.579
+        },
+        {
+          "text": "power",
+          "start_time": 8.579,
+          "end_time": 8.8
+        },
+        {
+          "text": " ",
+          "start_time": 8.8,
+          "end_time": 8.899
+        },
+        {
+          "text": "cable",
+          "start_time": 8.899,
+          "end_time": 9.159
+        },
+        {
+          "text": " ",
+          "start_time": 9.159,
+          "end_time": 9.199
+        },
+        {
+          "text": "is",
+          "start_time": 9.199,
+          "end_time": 9.26
+        },
+        {
+          "text": " ",
+          "start_time": 9.26,
+          "end_time": 9.319
+        },
+        {
+          "text": "a",
+          "start_time": 9.319,
+          "end_time": 9.42
+        },
+        {
+          "text": " ",
+          "start_time": 9.42,
+          "end_time": 9.479
+        },
+        {
+          "text": "long",
+          "start_time": 9.479,
+          "end_time": 9.679
+        },
+        {
+          "text": " ",
+          "start_time": 9.679,
+          "end_time": 9.779
+        },
+        {
+          "text": "piece",
+          "start_time": 9.779,
+          "end_time": 9.939
+        },
+        {
+          "text": " ",
+          "start_time": 9.939,
+          "end_time": 9.979
+        },
+        {
+          "text": "of",
+          "start_time": 9.979,
+          "end_time": 10.079
+        },
+        {
+          "text": " ",
+          "start_time": 10.079,
+          "end_time": 10.179
+        },
+        {
+          "text": "wire,",
+          "start_time": 10.179,
+          "end_time": 10.479
+        }
+      ]
+    },
+    {
+      "text": "and a long piece of wire is an antenna,",
+      "start_time": 10.719,
+      "end_time": 12.319,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 10.719,
+          "end_time": 10.779
+        },
+        {
+          "text": " ",
+          "start_time": 10.779,
+          "end_time": 10.819
+        },
+        {
+          "text": "a",
+          "start_time": 10.819,
+          "end_time": 10.84
+        },
+        {
+          "text": " ",
+          "start_time": 10.84,
+          "end_time": 10.939
+        },
+        {
+          "text": "long",
+          "start_time": 10.939,
+          "end_time": 11.119
+        },
+        {
+          "text": " ",
+          "start_time": 11.119,
+          "end_time": 11.159
+        },
+        {
+          "text": "piece",
+          "start_time": 11.159,
+          "end_time": 11.319
+        },
+        {
+          "text": " ",
+          "start_time": 11.319,
+          "end_time": 11.359
+        },
+        {
+          "text": "of",
+          "start_time": 11.359,
+          "end_time": 11.42
+        },
+        {
+          "text": " ",
+          "start_time": 11.42,
+          "end_time": 11.5
+        },
+        {
+          "text": "wire",
+          "start_time": 11.5,
+          "end_time": 11.699
+        },
+        {
+          "text": " ",
+          "start_time": 11.699,
+          "end_time": 11.739
+        },
+        {
+          "text": "is",
+          "start_time": 11.739,
+          "end_time": 11.819
+        },
+        {
+          "text": " ",
+          "start_time": 11.819,
+          "end_time": 11.84
+        },
+        {
+          "text": "an",
+          "start_time": 11.84,
+          "end_time": 11.88
+        },
+        {
+          "text": " ",
+          "start_time": 11.88,
+          "end_time": 11.939
+        },
+        {
+          "text": "antenna,",
+          "start_time": 11.939,
+          "end_time": 12.319
+        }
+      ]
+    },
+    {
+      "text": "so it picks up and radiates high-frequency",
+      "start_time": 12.619,
+      "end_time": 14.579,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "so",
+          "start_time": 12.619,
+          "end_time": 12.679
+        },
+        {
+          "text": " ",
+          "start_time": 12.679,
+          "end_time": 12.719
+        },
+        {
+          "text": "it",
+          "start_time": 12.719,
+          "end_time": 12.799
+        },
+        {
+          "text": " ",
+          "start_time": 12.799,
+          "end_time": 12.859
+        },
+        {
+          "text": "picks",
+          "start_time": 12.859,
+          "end_time": 13.059
+        },
+        {
+          "text": " ",
+          "start_time": 13.059,
+          "end_time": 13.139
+        },
+        {
+          "text": "up",
+          "start_time": 13.139,
+          "end_time": 13.259
+        },
+        {
+          "text": " ",
+          "start_time": 13.259,
+          "end_time": 13.299
+        },
+        {
+          "text": "and",
+          "start_time": 13.299,
+          "end_time": 13.38
+        },
+        {
+          "text": " ",
+          "start_time": 13.38,
+          "end_time": 13.479
+        },
+        {
+          "text": "radiates",
+          "start_time": 13.479,
+          "end_time": 13.899
+        },
+        {
+          "text": " ",
+          "start_time": 13.899,
+          "end_time": 13.96
+        },
+        {
+          "text": "high-frequency",
+          "start_time": 13.96,
+          "end_time": 14.579
+        }
+      ]
+    },
+    {
+      "text": "noise it was never meant to carry.",
+      "start_time": 14.679,
+      "end_time": 16,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "noise",
+          "start_time": 14.679,
+          "end_time": 14.899
+        },
+        {
+          "text": " ",
+          "start_time": 14.899,
+          "end_time": 14.939
+        },
+        {
+          "text": "it",
+          "start_time": 14.939,
+          "end_time": 15
+        },
+        {
+          "text": " ",
+          "start_time": 15,
+          "end_time": 15.039
+        },
+        {
+          "text": "was",
+          "start_time": 15.039,
+          "end_time": 15.239
+        },
+        {
+          "text": " ",
+          "start_time": 15.239,
+          "end_time": 15.279
+        },
+        {
+          "text": "never",
+          "start_time": 15.279,
+          "end_time": 15.439
+        },
+        {
+          "text": " ",
+          "start_time": 15.439,
+          "end_time": 15.479
+        },
+        {
+          "text": "meant",
+          "start_time": 15.479,
+          "end_time": 15.579
+        },
+        {
+          "text": " ",
+          "start_time": 15.579,
+          "end_time": 15.619
+        },
+        {
+          "text": "to",
+          "start_time": 15.619,
+          "end_time": 15.699
+        },
+        {
+          "text": " ",
+          "start_time": 15.699,
+          "end_time": 15.739
+        },
+        {
+          "text": "carry.",
+          "start_time": 15.739,
+          "end_time": 16
+        }
+      ]
+    },
+    {
+      "text": "The ferrite ring lets your actual power pass",
+      "start_time": 16.199,
+      "end_time": 18.319,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 16.199,
+          "end_time": 16.26
+        },
+        {
+          "text": " ",
+          "start_time": 16.26,
+          "end_time": 16.34
+        },
+        {
+          "text": "ferrite",
+          "start_time": 16.34,
+          "end_time": 16.559
+        },
+        {
+          "text": " ",
+          "start_time": 16.559,
+          "end_time": 16.619
+        },
+        {
+          "text": "ring",
+          "start_time": 16.619,
+          "end_time": 16.819
+        },
+        {
+          "text": " ",
+          "start_time": 16.819,
+          "end_time": 16.859
+        },
+        {
+          "text": "lets",
+          "start_time": 16.859,
+          "end_time": 17.039
+        },
+        {
+          "text": " ",
+          "start_time": 17.039,
+          "end_time": 17.079
+        },
+        {
+          "text": "your",
+          "start_time": 17.079,
+          "end_time": 17.219
+        },
+        {
+          "text": " ",
+          "start_time": 17.219,
+          "end_time": 17.319
+        },
+        {
+          "text": "actual",
+          "start_time": 17.319,
+          "end_time": 17.599
+        },
+        {
+          "text": " ",
+          "start_time": 17.599,
+          "end_time": 17.68
+        },
+        {
+          "text": "power",
+          "start_time": 17.68,
+          "end_time": 17.939
+        },
+        {
+          "text": " ",
+          "start_time": 17.939,
+          "end_time": 18.02
+        },
+        {
+          "text": "pass",
+          "start_time": 18.02,
+          "end_time": 18.319
+        }
+      ]
+    },
+    {
+      "text": "straight through, and turns that noise into",
+      "start_time": 18.399,
+      "end_time": 20.319,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "straight",
+          "start_time": 18.399,
+          "end_time": 18.639
+        },
+        {
+          "text": " ",
+          "start_time": 18.639,
+          "end_time": 18.68
+        },
+        {
+          "text": "through,",
+          "start_time": 18.68,
+          "end_time": 18.999
+        },
+        {
+          "text": " ",
+          "start_time": 18.999,
+          "end_time": 19.26
+        },
+        {
+          "text": "and",
+          "start_time": 19.26,
+          "end_time": 19.379
+        },
+        {
+          "text": " ",
+          "start_time": 19.379,
+          "end_time": 19.439
+        },
+        {
+          "text": "turns",
+          "start_time": 19.439,
+          "end_time": 19.639
+        },
+        {
+          "text": " ",
+          "start_time": 19.639,
+          "end_time": 19.68
+        },
+        {
+          "text": "that",
+          "start_time": 19.68,
+          "end_time": 19.779
+        },
+        {
+          "text": " ",
+          "start_time": 19.779,
+          "end_time": 19.859
+        },
+        {
+          "text": "noise",
+          "start_time": 19.859,
+          "end_time": 20.1
+        },
+        {
+          "text": " ",
+          "start_time": 20.1,
+          "end_time": 20.139
+        },
+        {
+          "text": "into",
+          "start_time": 20.139,
+          "end_time": 20.319
+        }
+      ]
+    },
+    {
+      "text": "a tiny amount of heat.",
+      "start_time": 20.379,
+      "end_time": 21.379,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "a",
+          "start_time": 20.379,
+          "end_time": 20.459
+        },
+        {
+          "text": " ",
+          "start_time": 20.459,
+          "end_time": 20.5
+        },
+        {
+          "text": "tiny",
+          "start_time": 20.5,
+          "end_time": 20.76
+        },
+        {
+          "text": " ",
+          "start_time": 20.76,
+          "end_time": 20.819
+        },
+        {
+          "text": "amount",
+          "start_time": 20.819,
+          "end_time": 21
+        },
+        {
+          "text": " ",
+          "start_time": 21,
+          "end_time": 21.039
+        },
+        {
+          "text": "of",
+          "start_time": 21.039,
+          "end_time": 21.119
+        },
+        {
+          "text": " ",
+          "start_time": 21.119,
+          "end_time": 21.179
+        },
+        {
+          "text": "heat.",
+          "start_time": 21.18,
+          "end_time": 21.379
+        }
+      ]
+    },
+    {
+      "text": "It is a filter wrapped around a cable,",
+      "start_time": 21.639,
+      "end_time": 23.319,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "It",
+          "start_time": 21.639,
+          "end_time": 21.68
+        },
+        {
+          "text": " ",
+          "start_time": 21.68,
+          "end_time": 21.719
+        },
+        {
+          "text": "is",
+          "start_time": 21.719,
+          "end_time": 21.799
+        },
+        {
+          "text": " ",
+          "start_time": 21.799,
+          "end_time": 21.859
+        },
+        {
+          "text": "a",
+          "start_time": 21.859,
+          "end_time": 21.959
+        },
+        {
+          "text": " ",
+          "start_time": 21.959,
+          "end_time": 22.019
+        },
+        {
+          "text": "filter",
+          "start_time": 22.02,
+          "end_time": 22.319
+        },
+        {
+          "text": " ",
+          "start_time": 22.319,
+          "end_time": 22.399
+        },
+        {
+          "text": "wrapped",
+          "start_time": 22.399,
+          "end_time": 22.619
+        },
+        {
+          "text": " ",
+          "start_time": 22.619,
+          "end_time": 22.659
+        },
+        {
+          "text": "around",
+          "start_time": 22.659,
+          "end_time": 22.819
+        },
+        {
+          "text": " ",
+          "start_time": 22.819,
+          "end_time": 22.879
+        },
+        {
+          "text": "a",
+          "start_time": 22.879,
+          "end_time": 22.92
+        },
+        {
+          "text": " ",
+          "start_time": 22.92,
+          "end_time": 23
+        },
+        {
+          "text": "cable,",
+          "start_time": 23,
+          "end_time": 23.319
+        }
+      ]
+    },
+    {
+      "text": "stopping your charger from transmitting.",
+      "start_time": 23.6,
+      "end_time": 25.179,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "stopping",
+          "start_time": 23.6,
+          "end_time": 23.879
+        },
+        {
+          "text": " ",
+          "start_time": 23.879,
+          "end_time": 23.939
+        },
+        {
+          "text": "your",
+          "start_time": 23.939,
+          "end_time": 24.079
+        },
+        {
+          "text": " ",
+          "start_time": 24.079,
+          "end_time": 24.119
+        },
+        {
+          "text": "charger",
+          "start_time": 24.119,
+          "end_time": 24.42
+        },
+        {
+          "text": " ",
+          "start_time": 24.42,
+          "end_time": 24.459
+        },
+        {
+          "text": "from",
+          "start_time": 24.459,
+          "end_time": 24.579
+        },
+        {
+          "text": " ",
+          "start_time": 24.579,
+          "end_time": 24.639
+        },
+        {
+          "text": "transmitting.",
+          "start_time": 24.639,
+          "end_time": 25.179
+        }
+      ]
+    }
+  ]
+}

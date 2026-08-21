@@ -1,0 +1,1009 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "The metal hook on the end of a tape",
+      "start_time": 0.079,
+      "end_time": 1.339,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 0.079,
+          "end_time": 0.159
+        },
+        {
+          "text": " ",
+          "start_time": 0.159,
+          "end_time": 0.199
+        },
+        {
+          "text": "metal",
+          "start_time": 0.199,
+          "end_time": 0.359
+        },
+        {
+          "text": " ",
+          "start_time": 0.359,
+          "end_time": 0.459
+        },
+        {
+          "text": "hook",
+          "start_time": 0.459,
+          "end_time": 0.62
+        },
+        {
+          "text": " ",
+          "start_time": 0.62,
+          "end_time": 0.639
+        },
+        {
+          "text": "on",
+          "start_time": 0.639,
+          "end_time": 0.699
+        },
+        {
+          "text": " ",
+          "start_time": 0.699,
+          "end_time": 0.74
+        },
+        {
+          "text": "the",
+          "start_time": 0.74,
+          "end_time": 0.78
+        },
+        {
+          "text": " ",
+          "start_time": 0.78,
+          "end_time": 0.859
+        },
+        {
+          "text": "end",
+          "start_time": 0.859,
+          "end_time": 0.959
+        },
+        {
+          "text": " ",
+          "start_time": 0.959,
+          "end_time": 1
+        },
+        {
+          "text": "of",
+          "start_time": 1,
+          "end_time": 1.039
+        },
+        {
+          "text": " ",
+          "start_time": 1.039,
+          "end_time": 1.059
+        },
+        {
+          "text": "a",
+          "start_time": 1.059,
+          "end_time": 1.139
+        },
+        {
+          "text": " ",
+          "start_time": 1.139,
+          "end_time": 1.179
+        },
+        {
+          "text": "tape",
+          "start_time": 1.179,
+          "end_time": 1.339
+        }
+      ]
+    },
+    {
+      "text": "measure wobbles, and every time you notice",
+      "start_time": 1.399,
+      "end_time": 3.159,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "measure",
+          "start_time": 1.399,
+          "end_time": 1.679
+        },
+        {
+          "text": " ",
+          "start_time": 1.679,
+          "end_time": 1.699
+        },
+        {
+          "text": "wobbles,",
+          "start_time": 1.699,
+          "end_time": 2.099
+        },
+        {
+          "text": " ",
+          "start_time": 2.099,
+          "end_time": 2.299
+        },
+        {
+          "text": "and",
+          "start_time": 2.299,
+          "end_time": 2.379
+        },
+        {
+          "text": " ",
+          "start_time": 2.379,
+          "end_time": 2.419
+        },
+        {
+          "text": "every",
+          "start_time": 2.419,
+          "end_time": 2.579
+        },
+        {
+          "text": " ",
+          "start_time": 2.579,
+          "end_time": 2.639
+        },
+        {
+          "text": "time",
+          "start_time": 2.639,
+          "end_time": 2.759
+        },
+        {
+          "text": " ",
+          "start_time": 2.759,
+          "end_time": 2.799
+        },
+        {
+          "text": "you",
+          "start_time": 2.799,
+          "end_time": 2.859
+        },
+        {
+          "text": " ",
+          "start_time": 2.859,
+          "end_time": 2.939
+        },
+        {
+          "text": "notice",
+          "start_time": 2.939,
+          "end_time": 3.159
+        }
+      ]
+    },
+    {
+      "text": "it you assume the thing is worn out.",
+      "start_time": 3.199,
+      "end_time": 4.639,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "it",
+          "start_time": 3.199,
+          "end_time": 3.279
+        },
+        {
+          "text": " ",
+          "start_time": 3.279,
+          "end_time": 3.319
+        },
+        {
+          "text": "you",
+          "start_time": 3.319,
+          "end_time": 3.399
+        },
+        {
+          "text": " ",
+          "start_time": 3.399,
+          "end_time": 3.439
+        },
+        {
+          "text": "assume",
+          "start_time": 3.439,
+          "end_time": 3.699
+        },
+        {
+          "text": " ",
+          "start_time": 3.699,
+          "end_time": 3.739
+        },
+        {
+          "text": "the",
+          "start_time": 3.74,
+          "end_time": 3.839
+        },
+        {
+          "text": " ",
+          "start_time": 3.839,
+          "end_time": 3.879
+        },
+        {
+          "text": "thing",
+          "start_time": 3.879,
+          "end_time": 4
+        },
+        {
+          "text": " ",
+          "start_time": 4,
+          "end_time": 4.039
+        },
+        {
+          "text": "is",
+          "start_time": 4.039,
+          "end_time": 4.159
+        },
+        {
+          "text": " ",
+          "start_time": 4.159,
+          "end_time": 4.219
+        },
+        {
+          "text": "worn",
+          "start_time": 4.219,
+          "end_time": 4.38
+        },
+        {
+          "text": " ",
+          "start_time": 4.38,
+          "end_time": 4.44
+        },
+        {
+          "text": "out.",
+          "start_time": 4.44,
+          "end_time": 4.639
+        }
+      ]
+    },
+    {
+      "text": "The hook is supposed to move.",
+      "start_time": 4.88,
+      "end_time": 6,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 4.88,
+          "end_time": 4.94
+        },
+        {
+          "text": " ",
+          "start_time": 4.94,
+          "end_time": 5
+        },
+        {
+          "text": "hook",
+          "start_time": 5,
+          "end_time": 5.119
+        },
+        {
+          "text": " ",
+          "start_time": 5.119,
+          "end_time": 5.159
+        },
+        {
+          "text": "is",
+          "start_time": 5.159,
+          "end_time": 5.239
+        },
+        {
+          "text": " ",
+          "start_time": 5.239,
+          "end_time": 5.279
+        },
+        {
+          "text": "supposed",
+          "start_time": 5.279,
+          "end_time": 5.599
+        },
+        {
+          "text": " ",
+          "start_time": 5.599,
+          "end_time": 5.619
+        },
+        {
+          "text": "to",
+          "start_time": 5.619,
+          "end_time": 5.719
+        },
+        {
+          "text": " ",
+          "start_time": 5.719,
+          "end_time": 5.759
+        },
+        {
+          "text": "move.",
+          "start_time": 5.759,
+          "end_time": 6
+        }
+      ]
+    },
+    {
+      "text": "It slides exactly as far as the hook is",
+      "start_time": 6.279,
+      "end_time": 8.179,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "It",
+          "start_time": 6.279,
+          "end_time": 6.359
+        },
+        {
+          "text": " ",
+          "start_time": 6.359,
+          "end_time": 6.439
+        },
+        {
+          "text": "slides",
+          "start_time": 6.44,
+          "end_time": 6.779
+        },
+        {
+          "text": " ",
+          "start_time": 6.779,
+          "end_time": 6.879
+        },
+        {
+          "text": "exactly",
+          "start_time": 6.879,
+          "end_time": 7.319
+        },
+        {
+          "text": " ",
+          "start_time": 7.319,
+          "end_time": 7.359
+        },
+        {
+          "text": "as",
+          "start_time": 7.359,
+          "end_time": 7.46
+        },
+        {
+          "text": " ",
+          "start_time": 7.46,
+          "end_time": 7.539
+        },
+        {
+          "text": "far",
+          "start_time": 7.539,
+          "end_time": 7.639
+        },
+        {
+          "text": " ",
+          "start_time": 7.639,
+          "end_time": 7.699
+        },
+        {
+          "text": "as",
+          "start_time": 7.699,
+          "end_time": 7.759
+        },
+        {
+          "text": " ",
+          "start_time": 7.759,
+          "end_time": 7.819
+        },
+        {
+          "text": "the",
+          "start_time": 7.819,
+          "end_time": 7.859
+        },
+        {
+          "text": " ",
+          "start_time": 7.859,
+          "end_time": 7.899
+        },
+        {
+          "text": "hook",
+          "start_time": 7.899,
+          "end_time": 8.039
+        },
+        {
+          "text": " ",
+          "start_time": 8.039,
+          "end_time": 8.079
+        },
+        {
+          "text": "is",
+          "start_time": 8.079,
+          "end_time": 8.179
+        }
+      ]
+    },
+    {
+      "text": "thick, about a sixteenth of an inch.",
+      "start_time": 8.239,
+      "end_time": 9.719,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "thick,",
+          "start_time": 8.239,
+          "end_time": 8.399
+        },
+        {
+          "text": " ",
+          "start_time": 8.399,
+          "end_time": 8.659
+        },
+        {
+          "text": "about",
+          "start_time": 8.659,
+          "end_time": 8.8
+        },
+        {
+          "text": " ",
+          "start_time": 8.8,
+          "end_time": 8.84
+        },
+        {
+          "text": "a",
+          "start_time": 8.84,
+          "end_time": 8.92
+        },
+        {
+          "text": " ",
+          "start_time": 8.92,
+          "end_time": 8.96
+        },
+        {
+          "text": "sixteenth",
+          "start_time": 8.96,
+          "end_time": 9.3
+        },
+        {
+          "text": " ",
+          "start_time": 9.3,
+          "end_time": 9.319
+        },
+        {
+          "text": "of",
+          "start_time": 9.319,
+          "end_time": 9.38
+        },
+        {
+          "text": " ",
+          "start_time": 9.38,
+          "end_time": 9.399
+        },
+        {
+          "text": "an",
+          "start_time": 9.399,
+          "end_time": 9.46
+        },
+        {
+          "text": " ",
+          "start_time": 9.46,
+          "end_time": 9.519
+        },
+        {
+          "text": "inch.",
+          "start_time": 9.519,
+          "end_time": 9.719
+        }
+      ]
+    },
+    {
+      "text": "Hook it over the edge of a board and",
+      "start_time": 10,
+      "end_time": 11.18,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Hook",
+          "start_time": 10,
+          "end_time": 10.119
+        },
+        {
+          "text": " ",
+          "start_time": 10.119,
+          "end_time": 10.159
+        },
+        {
+          "text": "it",
+          "start_time": 10.159,
+          "end_time": 10.199
+        },
+        {
+          "text": " ",
+          "start_time": 10.199,
+          "end_time": 10.219
+        },
+        {
+          "text": "over",
+          "start_time": 10.219,
+          "end_time": 10.34
+        },
+        {
+          "text": " ",
+          "start_time": 10.34,
+          "end_time": 10.38
+        },
+        {
+          "text": "the",
+          "start_time": 10.38,
+          "end_time": 10.46
+        },
+        {
+          "text": " ",
+          "start_time": 10.46,
+          "end_time": 10.519
+        },
+        {
+          "text": "edge",
+          "start_time": 10.519,
+          "end_time": 10.639
+        },
+        {
+          "text": " ",
+          "start_time": 10.639,
+          "end_time": 10.659
+        },
+        {
+          "text": "of",
+          "start_time": 10.659,
+          "end_time": 10.699
+        },
+        {
+          "text": " ",
+          "start_time": 10.699,
+          "end_time": 10.739
+        },
+        {
+          "text": "a",
+          "start_time": 10.739,
+          "end_time": 10.8
+        },
+        {
+          "text": " ",
+          "start_time": 10.8,
+          "end_time": 10.859
+        },
+        {
+          "text": "board",
+          "start_time": 10.859,
+          "end_time": 11.059
+        },
+        {
+          "text": " ",
+          "start_time": 11.059,
+          "end_time": 11.099
+        },
+        {
+          "text": "and",
+          "start_time": 11.099,
+          "end_time": 11.18
+        }
+      ]
+    },
+    {
+      "text": "it pulls out, adding that thickness back.",
+      "start_time": 11.199,
+      "end_time": 13.139,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "it",
+          "start_time": 11.199,
+          "end_time": 11.3
+        },
+        {
+          "text": " ",
+          "start_time": 11.3,
+          "end_time": 11.359
+        },
+        {
+          "text": "pulls",
+          "start_time": 11.359,
+          "end_time": 11.619
+        },
+        {
+          "text": " ",
+          "start_time": 11.619,
+          "end_time": 11.699
+        },
+        {
+          "text": "out,",
+          "start_time": 11.699,
+          "end_time": 11.88
+        },
+        {
+          "text": " ",
+          "start_time": 11.88,
+          "end_time": 12.139
+        },
+        {
+          "text": "adding",
+          "start_time": 12.139,
+          "end_time": 12.319
+        },
+        {
+          "text": " ",
+          "start_time": 12.319,
+          "end_time": 12.359
+        },
+        {
+          "text": "that",
+          "start_time": 12.359,
+          "end_time": 12.479
+        },
+        {
+          "text": " ",
+          "start_time": 12.479,
+          "end_time": 12.559
+        },
+        {
+          "text": "thickness",
+          "start_time": 12.559,
+          "end_time": 12.859
+        },
+        {
+          "text": " ",
+          "start_time": 12.859,
+          "end_time": 12.92
+        },
+        {
+          "text": "back.",
+          "start_time": 12.92,
+          "end_time": 13.139
+        }
+      ]
+    },
+    {
+      "text": "Push it into a corner and it slides in,",
+      "start_time": 13.38,
+      "end_time": 15.119,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Push",
+          "start_time": 13.38,
+          "end_time": 13.519
+        },
+        {
+          "text": " ",
+          "start_time": 13.519,
+          "end_time": 13.539
+        },
+        {
+          "text": "it",
+          "start_time": 13.539,
+          "end_time": 13.579
+        },
+        {
+          "text": " ",
+          "start_time": 13.579,
+          "end_time": 13.619
+        },
+        {
+          "text": "into",
+          "start_time": 13.619,
+          "end_time": 13.8
+        },
+        {
+          "text": " ",
+          "start_time": 13.8,
+          "end_time": 13.84
+        },
+        {
+          "text": "a",
+          "start_time": 13.84,
+          "end_time": 13.88
+        },
+        {
+          "text": " ",
+          "start_time": 13.88,
+          "end_time": 13.96
+        },
+        {
+          "text": "corner",
+          "start_time": 13.96,
+          "end_time": 14.199
+        },
+        {
+          "text": " ",
+          "start_time": 14.199,
+          "end_time": 14.239
+        },
+        {
+          "text": "and",
+          "start_time": 14.239,
+          "end_time": 14.3
+        },
+        {
+          "text": " ",
+          "start_time": 14.3,
+          "end_time": 14.319
+        },
+        {
+          "text": "it",
+          "start_time": 14.319,
+          "end_time": 14.46
+        },
+        {
+          "text": " ",
+          "start_time": 14.46,
+          "end_time": 14.519
+        },
+        {
+          "text": "slides",
+          "start_time": 14.519,
+          "end_time": 14.88
+        },
+        {
+          "text": " ",
+          "start_time": 14.88,
+          "end_time": 14.96
+        },
+        {
+          "text": "in,",
+          "start_time": 14.96,
+          "end_time": 15.119
+        }
+      ]
+    },
+    {
+      "text": "taking that thickness away.",
+      "start_time": 15.38,
+      "end_time": 16.559,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "taking",
+          "start_time": 15.38,
+          "end_time": 15.599
+        },
+        {
+          "text": " ",
+          "start_time": 15.599,
+          "end_time": 15.639
+        },
+        {
+          "text": "that",
+          "start_time": 15.639,
+          "end_time": 15.739
+        },
+        {
+          "text": " ",
+          "start_time": 15.739,
+          "end_time": 15.859
+        },
+        {
+          "text": "thickness",
+          "start_time": 15.859,
+          "end_time": 16.159
+        },
+        {
+          "text": " ",
+          "start_time": 16.159,
+          "end_time": 16.279
+        },
+        {
+          "text": "away.",
+          "start_time": 16.279,
+          "end_time": 16.559
+        }
+      ]
+    },
+    {
+      "text": "Either way the tape starts reading from true",
+      "start_time": 16.879,
+      "end_time": 18.899,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Either",
+          "start_time": 16.879,
+          "end_time": 17.059
+        },
+        {
+          "text": " ",
+          "start_time": 17.059,
+          "end_time": 17.1
+        },
+        {
+          "text": "way",
+          "start_time": 17.1,
+          "end_time": 17.34
+        },
+        {
+          "text": " ",
+          "start_time": 17.34,
+          "end_time": 17.559
+        },
+        {
+          "text": "the",
+          "start_time": 17.559,
+          "end_time": 17.62
+        },
+        {
+          "text": " ",
+          "start_time": 17.62,
+          "end_time": 17.699
+        },
+        {
+          "text": "tape",
+          "start_time": 17.699,
+          "end_time": 17.879
+        },
+        {
+          "text": " ",
+          "start_time": 17.879,
+          "end_time": 17.92
+        },
+        {
+          "text": "starts",
+          "start_time": 17.92,
+          "end_time": 18.139
+        },
+        {
+          "text": " ",
+          "start_time": 18.139,
+          "end_time": 18.199
+        },
+        {
+          "text": "reading",
+          "start_time": 18.199,
+          "end_time": 18.399
+        },
+        {
+          "text": " ",
+          "start_time": 18.399,
+          "end_time": 18.479
+        },
+        {
+          "text": "from",
+          "start_time": 18.479,
+          "end_time": 18.619
+        },
+        {
+          "text": " ",
+          "start_time": 18.619,
+          "end_time": 18.679
+        },
+        {
+          "text": "true",
+          "start_time": 18.68,
+          "end_time": 18.899
+        }
+      ]
+    },
+    {
+      "text": "zero.",
+      "start_time": 18.959,
+      "end_time": 19.519000000000002,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "zero.",
+          "start_time": 18.959,
+          "end_time": 19.219
+        }
+      ]
+    },
+    {
+      "text": "The loosest part of the tool is the part",
+      "start_time": 19.539,
+      "end_time": 21.119,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 19.539,
+          "end_time": 19.6
+        },
+        {
+          "text": " ",
+          "start_time": 19.6,
+          "end_time": 19.68
+        },
+        {
+          "text": "loosest",
+          "start_time": 19.68,
+          "end_time": 19.979
+        },
+        {
+          "text": " ",
+          "start_time": 19.979,
+          "end_time": 20.02
+        },
+        {
+          "text": "part",
+          "start_time": 20.02,
+          "end_time": 20.119
+        },
+        {
+          "text": " ",
+          "start_time": 20.119,
+          "end_time": 20.159
+        },
+        {
+          "text": "of",
+          "start_time": 20.159,
+          "end_time": 20.219
+        },
+        {
+          "text": " ",
+          "start_time": 20.219,
+          "end_time": 20.239
+        },
+        {
+          "text": "the",
+          "start_time": 20.239,
+          "end_time": 20.319
+        },
+        {
+          "text": " ",
+          "start_time": 20.319,
+          "end_time": 20.379
+        },
+        {
+          "text": "tool",
+          "start_time": 20.379,
+          "end_time": 20.659
+        },
+        {
+          "text": " ",
+          "start_time": 20.659,
+          "end_time": 20.699
+        },
+        {
+          "text": "is",
+          "start_time": 20.699,
+          "end_time": 20.779
+        },
+        {
+          "text": " ",
+          "start_time": 20.779,
+          "end_time": 20.819
+        },
+        {
+          "text": "the",
+          "start_time": 20.819,
+          "end_time": 20.899
+        },
+        {
+          "text": " ",
+          "start_time": 20.899,
+          "end_time": 20.959
+        },
+        {
+          "text": "part",
+          "start_time": 20.959,
+          "end_time": 21.119
+        }
+      ]
+    },
+    {
+      "text": "keeping it honest.",
+      "start_time": 21.159,
+      "end_time": 21.879,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "keeping",
+          "start_time": 21.159,
+          "end_time": 21.379
+        },
+        {
+          "text": " ",
+          "start_time": 21.379,
+          "end_time": 21.42
+        },
+        {
+          "text": "it",
+          "start_time": 21.42,
+          "end_time": 21.479
+        },
+        {
+          "text": " ",
+          "start_time": 21.479,
+          "end_time": 21.559
+        },
+        {
+          "text": "honest.",
+          "start_time": 21.559,
+          "end_time": 21.879
+        }
+      ]
+    }
+  ]
+}

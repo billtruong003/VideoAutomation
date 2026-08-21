@@ -1,0 +1,939 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "A revolving door is slower than a normal door,",
+      "start_time": 0.059,
+      "end_time": 2.2,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "A",
+          "start_time": 0.059,
+          "end_time": 0.119
+        },
+        {
+          "text": " ",
+          "start_time": 0.119,
+          "end_time": 0.179
+        },
+        {
+          "text": "revolving",
+          "start_time": 0.179,
+          "end_time": 0.639
+        },
+        {
+          "text": " ",
+          "start_time": 0.639,
+          "end_time": 0.74
+        },
+        {
+          "text": "door",
+          "start_time": 0.74,
+          "end_time": 0.979
+        },
+        {
+          "text": " ",
+          "start_time": 0.979,
+          "end_time": 1.019
+        },
+        {
+          "text": "is",
+          "start_time": 1.019,
+          "end_time": 1.179
+        },
+        {
+          "text": " ",
+          "start_time": 1.179,
+          "end_time": 1.199
+        },
+        {
+          "text": "slower",
+          "start_time": 1.199,
+          "end_time": 1.459
+        },
+        {
+          "text": " ",
+          "start_time": 1.459,
+          "end_time": 1.519
+        },
+        {
+          "text": "than",
+          "start_time": 1.519,
+          "end_time": 1.599
+        },
+        {
+          "text": " ",
+          "start_time": 1.599,
+          "end_time": 1.639
+        },
+        {
+          "text": "a",
+          "start_time": 1.639,
+          "end_time": 1.699
+        },
+        {
+          "text": " ",
+          "start_time": 1.699,
+          "end_time": 1.739
+        },
+        {
+          "text": "normal",
+          "start_time": 1.74,
+          "end_time": 1.959
+        },
+        {
+          "text": " ",
+          "start_time": 1.959,
+          "end_time": 2.059
+        },
+        {
+          "text": "door,",
+          "start_time": 2.059,
+          "end_time": 2.2
+        }
+      ]
+    },
+    {
+      "text": "more expensive to build, and much harder to",
+      "start_time": 2.5,
+      "end_time": 4.36,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "more",
+          "start_time": 2.5,
+          "end_time": 2.599
+        },
+        {
+          "text": " ",
+          "start_time": 2.599,
+          "end_time": 2.679
+        },
+        {
+          "text": "expensive",
+          "start_time": 2.679,
+          "end_time": 3.059
+        },
+        {
+          "text": " ",
+          "start_time": 3.059,
+          "end_time": 3.099
+        },
+        {
+          "text": "to",
+          "start_time": 3.099,
+          "end_time": 3.159
+        },
+        {
+          "text": " ",
+          "start_time": 3.159,
+          "end_time": 3.219
+        },
+        {
+          "text": "build,",
+          "start_time": 3.22,
+          "end_time": 3.46
+        },
+        {
+          "text": " ",
+          "start_time": 3.46,
+          "end_time": 3.719
+        },
+        {
+          "text": "and",
+          "start_time": 3.72,
+          "end_time": 3.799
+        },
+        {
+          "text": " ",
+          "start_time": 3.799,
+          "end_time": 3.859
+        },
+        {
+          "text": "much",
+          "start_time": 3.859,
+          "end_time": 3.98
+        },
+        {
+          "text": " ",
+          "start_time": 3.98,
+          "end_time": 4.079
+        },
+        {
+          "text": "harder",
+          "start_time": 4.079,
+          "end_time": 4.259
+        },
+        {
+          "text": " ",
+          "start_time": 4.259,
+          "end_time": 4.279
+        },
+        {
+          "text": "to",
+          "start_time": 4.279,
+          "end_time": 4.36
+        }
+      ]
+    },
+    {
+      "text": "carry anything through, and tall buildings",
+      "start_time": 4.42,
+      "end_time": 6.159,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "carry",
+          "start_time": 4.42,
+          "end_time": 4.639
+        },
+        {
+          "text": " ",
+          "start_time": 4.639,
+          "end_time": 4.699
+        },
+        {
+          "text": "anything",
+          "start_time": 4.699,
+          "end_time": 4.96
+        },
+        {
+          "text": " ",
+          "start_time": 4.96,
+          "end_time": 5.039
+        },
+        {
+          "text": "through,",
+          "start_time": 5.039,
+          "end_time": 5.279
+        },
+        {
+          "text": " ",
+          "start_time": 5.279,
+          "end_time": 5.48
+        },
+        {
+          "text": "and",
+          "start_time": 5.48,
+          "end_time": 5.559
+        },
+        {
+          "text": " ",
+          "start_time": 5.559,
+          "end_time": 5.619
+        },
+        {
+          "text": "tall",
+          "start_time": 5.619,
+          "end_time": 5.759
+        },
+        {
+          "text": " ",
+          "start_time": 5.759,
+          "end_time": 5.859
+        },
+        {
+          "text": "buildings",
+          "start_time": 5.859,
+          "end_time": 6.159
+        }
+      ]
+    },
+    {
+      "text": "keep installing them anyway.",
+      "start_time": 6.219,
+      "end_time": 7.239,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "keep",
+          "start_time": 6.219,
+          "end_time": 6.319
+        },
+        {
+          "text": " ",
+          "start_time": 6.319,
+          "end_time": 6.359
+        },
+        {
+          "text": "installing",
+          "start_time": 6.359,
+          "end_time": 6.719
+        },
+        {
+          "text": " ",
+          "start_time": 6.719,
+          "end_time": 6.739
+        },
+        {
+          "text": "them",
+          "start_time": 6.739,
+          "end_time": 6.839
+        },
+        {
+          "text": " ",
+          "start_time": 6.839,
+          "end_time": 6.899
+        },
+        {
+          "text": "anyway.",
+          "start_time": 6.899,
+          "end_time": 7.239
+        }
+      ]
+    },
+    {
+      "text": "Warm air inside a tall building rises and escapes",
+      "start_time": 7.579,
+      "end_time": 9.939,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Warm",
+          "start_time": 7.579,
+          "end_time": 7.779
+        },
+        {
+          "text": " ",
+          "start_time": 7.779,
+          "end_time": 7.899
+        },
+        {
+          "text": "air",
+          "start_time": 7.899,
+          "end_time": 8.019
+        },
+        {
+          "text": " ",
+          "start_time": 8.019,
+          "end_time": 8.079
+        },
+        {
+          "text": "inside",
+          "start_time": 8.079,
+          "end_time": 8.359
+        },
+        {
+          "text": " ",
+          "start_time": 8.359,
+          "end_time": 8.399
+        },
+        {
+          "text": "a",
+          "start_time": 8.399,
+          "end_time": 8.46
+        },
+        {
+          "text": " ",
+          "start_time": 8.46,
+          "end_time": 8.519
+        },
+        {
+          "text": "tall",
+          "start_time": 8.519,
+          "end_time": 8.659
+        },
+        {
+          "text": " ",
+          "start_time": 8.659,
+          "end_time": 8.739
+        },
+        {
+          "text": "building",
+          "start_time": 8.739,
+          "end_time": 9
+        },
+        {
+          "text": " ",
+          "start_time": 9,
+          "end_time": 9.059
+        },
+        {
+          "text": "rises",
+          "start_time": 9.059,
+          "end_time": 9.399
+        },
+        {
+          "text": " ",
+          "start_time": 9.399,
+          "end_time": 9.439
+        },
+        {
+          "text": "and",
+          "start_time": 9.439,
+          "end_time": 9.5
+        },
+        {
+          "text": " ",
+          "start_time": 9.5,
+          "end_time": 9.539
+        },
+        {
+          "text": "escapes",
+          "start_time": 9.539,
+          "end_time": 9.939
+        }
+      ]
+    },
+    {
+      "text": "out of the top, and that pulls cold air",
+      "start_time": 9.979,
+      "end_time": 11.759,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "out",
+          "start_time": 9.979,
+          "end_time": 10.059
+        },
+        {
+          "text": " ",
+          "start_time": 10.059,
+          "end_time": 10.079
+        },
+        {
+          "text": "of",
+          "start_time": 10.079,
+          "end_time": 10.139
+        },
+        {
+          "text": " ",
+          "start_time": 10.139,
+          "end_time": 10.159
+        },
+        {
+          "text": "the",
+          "start_time": 10.159,
+          "end_time": 10.239
+        },
+        {
+          "text": " ",
+          "start_time": 10.239,
+          "end_time": 10.279
+        },
+        {
+          "text": "top,",
+          "start_time": 10.279,
+          "end_time": 10.539
+        },
+        {
+          "text": " ",
+          "start_time": 10.539,
+          "end_time": 10.759
+        },
+        {
+          "text": "and",
+          "start_time": 10.76,
+          "end_time": 10.84
+        },
+        {
+          "text": " ",
+          "start_time": 10.84,
+          "end_time": 10.88
+        },
+        {
+          "text": "that",
+          "start_time": 10.88,
+          "end_time": 11
+        },
+        {
+          "text": " ",
+          "start_time": 11,
+          "end_time": 11.079
+        },
+        {
+          "text": "pulls",
+          "start_time": 11.079,
+          "end_time": 11.319
+        },
+        {
+          "text": " ",
+          "start_time": 11.319,
+          "end_time": 11.399
+        },
+        {
+          "text": "cold",
+          "start_time": 11.399,
+          "end_time": 11.599
+        },
+        {
+          "text": " ",
+          "start_time": 11.599,
+          "end_time": 11.659
+        },
+        {
+          "text": "air",
+          "start_time": 11.659,
+          "end_time": 11.759
+        }
+      ]
+    },
+    {
+      "text": "in hard at street level.",
+      "start_time": 11.779,
+      "end_time": 12.739,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "in",
+          "start_time": 11.779,
+          "end_time": 11.84
+        },
+        {
+          "text": " ",
+          "start_time": 11.84,
+          "end_time": 11.92
+        },
+        {
+          "text": "hard",
+          "start_time": 11.92,
+          "end_time": 12.079
+        },
+        {
+          "text": " ",
+          "start_time": 12.079,
+          "end_time": 12.119
+        },
+        {
+          "text": "at",
+          "start_time": 12.119,
+          "end_time": 12.199
+        },
+        {
+          "text": " ",
+          "start_time": 12.199,
+          "end_time": 12.239
+        },
+        {
+          "text": "street",
+          "start_time": 12.239,
+          "end_time": 12.439
+        },
+        {
+          "text": " ",
+          "start_time": 12.439,
+          "end_time": 12.5
+        },
+        {
+          "text": "level.",
+          "start_time": 12.5,
+          "end_time": 12.739
+        }
+      ]
+    },
+    {
+      "text": "On an ordinary door,",
+      "start_time": 12.979,
+      "end_time": 13.979,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "On",
+          "start_time": 12.979,
+          "end_time": 13.059
+        },
+        {
+          "text": " ",
+          "start_time": 13.059,
+          "end_time": 13.079
+        },
+        {
+          "text": "an",
+          "start_time": 13.079,
+          "end_time": 13.199
+        },
+        {
+          "text": " ",
+          "start_time": 13.199,
+          "end_time": 13.279
+        },
+        {
+          "text": "ordinary",
+          "start_time": 13.279,
+          "end_time": 13.639
+        },
+        {
+          "text": " ",
+          "start_time": 13.639,
+          "end_time": 13.739
+        },
+        {
+          "text": "door,",
+          "start_time": 13.739,
+          "end_time": 13.979
+        }
+      ]
+    },
+    {
+      "text": "that pressure difference turns the entrance",
+      "start_time": 14.299,
+      "end_time": 15.939,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "that",
+          "start_time": 14.299,
+          "end_time": 14.46
+        },
+        {
+          "text": " ",
+          "start_time": 14.46,
+          "end_time": 14.539
+        },
+        {
+          "text": "pressure",
+          "start_time": 14.539,
+          "end_time": 14.819
+        },
+        {
+          "text": " ",
+          "start_time": 14.819,
+          "end_time": 14.859
+        },
+        {
+          "text": "difference",
+          "start_time": 14.859,
+          "end_time": 15.199
+        },
+        {
+          "text": " ",
+          "start_time": 15.199,
+          "end_time": 15.259
+        },
+        {
+          "text": "turns",
+          "start_time": 15.259,
+          "end_time": 15.46
+        },
+        {
+          "text": " ",
+          "start_time": 15.46,
+          "end_time": 15.5
+        },
+        {
+          "text": "the",
+          "start_time": 15.5,
+          "end_time": 15.579
+        },
+        {
+          "text": " ",
+          "start_time": 15.579,
+          "end_time": 15.639
+        },
+        {
+          "text": "entrance",
+          "start_time": 15.639,
+          "end_time": 15.939
+        }
+      ]
+    },
+    {
+      "text": "into a wind tunnel and throws the heating out",
+      "start_time": 15.979,
+      "end_time": 17.879,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "into",
+          "start_time": 15.979,
+          "end_time": 16.119
+        },
+        {
+          "text": " ",
+          "start_time": 16.119,
+          "end_time": 16.179
+        },
+        {
+          "text": "a",
+          "start_time": 16.18,
+          "end_time": 16.199
+        },
+        {
+          "text": " ",
+          "start_time": 16.199,
+          "end_time": 16.319
+        },
+        {
+          "text": "wind",
+          "start_time": 16.319,
+          "end_time": 16.5
+        },
+        {
+          "text": " ",
+          "start_time": 16.5,
+          "end_time": 16.559
+        },
+        {
+          "text": "tunnel",
+          "start_time": 16.559,
+          "end_time": 16.959
+        },
+        {
+          "text": " ",
+          "start_time": 16.959,
+          "end_time": 17
+        },
+        {
+          "text": "and",
+          "start_time": 17,
+          "end_time": 17.1
+        },
+        {
+          "text": " ",
+          "start_time": 17.1,
+          "end_time": 17.139
+        },
+        {
+          "text": "throws",
+          "start_time": 17.139,
+          "end_time": 17.359
+        },
+        {
+          "text": " ",
+          "start_time": 17.359,
+          "end_time": 17.399
+        },
+        {
+          "text": "the",
+          "start_time": 17.399,
+          "end_time": 17.459
+        },
+        {
+          "text": " ",
+          "start_time": 17.459,
+          "end_time": 17.5
+        },
+        {
+          "text": "heating",
+          "start_time": 17.5,
+          "end_time": 17.699
+        },
+        {
+          "text": " ",
+          "start_time": 17.699,
+          "end_time": 17.759
+        },
+        {
+          "text": "out",
+          "start_time": 17.76,
+          "end_time": 17.879
+        }
+      ]
+    },
+    {
+      "text": "into the street.",
+      "start_time": 17.92,
+      "end_time": 18.520000000000003,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "into",
+          "start_time": 17.92,
+          "end_time": 18.059
+        },
+        {
+          "text": " ",
+          "start_time": 18.059,
+          "end_time": 18.1
+        },
+        {
+          "text": "the",
+          "start_time": 18.1,
+          "end_time": 18.179
+        },
+        {
+          "text": " ",
+          "start_time": 18.179,
+          "end_time": 18.219
+        },
+        {
+          "text": "street.",
+          "start_time": 18.219,
+          "end_time": 18.519
+        }
+      ]
+    },
+    {
+      "text": "A revolving door never actually opens.",
+      "start_time": 18.799,
+      "end_time": 20.699,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "A",
+          "start_time": 18.799,
+          "end_time": 18.819
+        },
+        {
+          "text": " ",
+          "start_time": 18.819,
+          "end_time": 18.879
+        },
+        {
+          "text": "revolving",
+          "start_time": 18.879,
+          "end_time": 19.279
+        },
+        {
+          "text": " ",
+          "start_time": 19.279,
+          "end_time": 19.379
+        },
+        {
+          "text": "door",
+          "start_time": 19.379,
+          "end_time": 19.6
+        },
+        {
+          "text": " ",
+          "start_time": 19.6,
+          "end_time": 19.659
+        },
+        {
+          "text": "never",
+          "start_time": 19.659,
+          "end_time": 19.859
+        },
+        {
+          "text": " ",
+          "start_time": 19.859,
+          "end_time": 19.939
+        },
+        {
+          "text": "actually",
+          "start_time": 19.939,
+          "end_time": 20.259
+        },
+        {
+          "text": " ",
+          "start_time": 20.259,
+          "end_time": 20.34
+        },
+        {
+          "text": "opens.",
+          "start_time": 20.34,
+          "end_time": 20.699
+        }
+      ]
+    },
+    {
+      "text": "Only the wedge of air in your compartment travels",
+      "start_time": 20.979,
+      "end_time": 22.979,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Only",
+          "start_time": 20.979,
+          "end_time": 21.159
+        },
+        {
+          "text": " ",
+          "start_time": 21.159,
+          "end_time": 21.199
+        },
+        {
+          "text": "the",
+          "start_time": 21.199,
+          "end_time": 21.26
+        },
+        {
+          "text": " ",
+          "start_time": 21.26,
+          "end_time": 21.379
+        },
+        {
+          "text": "wedge",
+          "start_time": 21.379,
+          "end_time": 21.539
+        },
+        {
+          "text": " ",
+          "start_time": 21.539,
+          "end_time": 21.579
+        },
+        {
+          "text": "of",
+          "start_time": 21.579,
+          "end_time": 21.679
+        },
+        {
+          "text": " ",
+          "start_time": 21.679,
+          "end_time": 21.76
+        },
+        {
+          "text": "air",
+          "start_time": 21.76,
+          "end_time": 21.879
+        },
+        {
+          "text": " ",
+          "start_time": 21.879,
+          "end_time": 21.899
+        },
+        {
+          "text": "in",
+          "start_time": 21.899,
+          "end_time": 21.959
+        },
+        {
+          "text": " ",
+          "start_time": 21.959,
+          "end_time": 22
+        },
+        {
+          "text": "your",
+          "start_time": 22,
+          "end_time": 22.1
+        },
+        {
+          "text": " ",
+          "start_time": 22.1,
+          "end_time": 22.139
+        },
+        {
+          "text": "compartment",
+          "start_time": 22.139,
+          "end_time": 22.639
+        },
+        {
+          "text": " ",
+          "start_time": 22.639,
+          "end_time": 22.699
+        },
+        {
+          "text": "travels",
+          "start_time": 22.699,
+          "end_time": 22.979
+        }
+      ]
+    },
+    {
+      "text": "with you.",
+      "start_time": 23.019,
+      "end_time": 23.619,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "with",
+          "start_time": 23.019,
+          "end_time": 23.159
+        },
+        {
+          "text": " ",
+          "start_time": 23.159,
+          "end_time": 23.219
+        },
+        {
+          "text": "you.",
+          "start_time": 23.219,
+          "end_time": 23.339
+        }
+      ]
+    }
+  ]
+}

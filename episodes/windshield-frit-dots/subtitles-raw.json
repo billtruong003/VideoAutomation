@@ -1,0 +1,999 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "Look along the top edge of a windshield and",
+      "start_time": 0.099,
+      "end_time": 1.959,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Look",
+          "start_time": 0.099,
+          "end_time": 0.199
+        },
+        {
+          "text": " ",
+          "start_time": 0.199,
+          "end_time": 0.239
+        },
+        {
+          "text": "along",
+          "start_time": 0.239,
+          "end_time": 0.419
+        },
+        {
+          "text": " ",
+          "start_time": 0.419,
+          "end_time": 0.459
+        },
+        {
+          "text": "the",
+          "start_time": 0.459,
+          "end_time": 0.539
+        },
+        {
+          "text": " ",
+          "start_time": 0.539,
+          "end_time": 0.579
+        },
+        {
+          "text": "top",
+          "start_time": 0.579,
+          "end_time": 0.759
+        },
+        {
+          "text": " ",
+          "start_time": 0.759,
+          "end_time": 0.899
+        },
+        {
+          "text": "edge",
+          "start_time": 0.899,
+          "end_time": 1.039
+        },
+        {
+          "text": " ",
+          "start_time": 1.039,
+          "end_time": 1.079
+        },
+        {
+          "text": "of",
+          "start_time": 1.079,
+          "end_time": 1.12
+        },
+        {
+          "text": " ",
+          "start_time": 1.12,
+          "end_time": 1.159
+        },
+        {
+          "text": "a",
+          "start_time": 1.159,
+          "end_time": 1.179
+        },
+        {
+          "text": " ",
+          "start_time": 1.179,
+          "end_time": 1.239
+        },
+        {
+          "text": "windshield",
+          "start_time": 1.24,
+          "end_time": 1.679
+        },
+        {
+          "text": " ",
+          "start_time": 1.679,
+          "end_time": 1.879
+        },
+        {
+          "text": "and",
+          "start_time": 1.879,
+          "end_time": 1.959
+        }
+      ]
+    },
+    {
+      "text": "you'll find a black border that breaks into",
+      "start_time": 1.979,
+      "end_time": 3.5,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "you'll",
+          "start_time": 1.979,
+          "end_time": 2.099
+        },
+        {
+          "text": " ",
+          "start_time": 2.099,
+          "end_time": 2.139
+        },
+        {
+          "text": "find",
+          "start_time": 2.139,
+          "end_time": 2.279
+        },
+        {
+          "text": " ",
+          "start_time": 2.279,
+          "end_time": 2.319
+        },
+        {
+          "text": "a",
+          "start_time": 2.319,
+          "end_time": 2.359
+        },
+        {
+          "text": " ",
+          "start_time": 2.359,
+          "end_time": 2.399
+        },
+        {
+          "text": "black",
+          "start_time": 2.399,
+          "end_time": 2.619
+        },
+        {
+          "text": " ",
+          "start_time": 2.619,
+          "end_time": 2.719
+        },
+        {
+          "text": "border",
+          "start_time": 2.72,
+          "end_time": 2.919
+        },
+        {
+          "text": " ",
+          "start_time": 2.919,
+          "end_time": 2.959
+        },
+        {
+          "text": "that",
+          "start_time": 2.96,
+          "end_time": 3.059
+        },
+        {
+          "text": " ",
+          "start_time": 3.059,
+          "end_time": 3.119
+        },
+        {
+          "text": "breaks",
+          "start_time": 3.119,
+          "end_time": 3.319
+        },
+        {
+          "text": " ",
+          "start_time": 3.319,
+          "end_time": 3.339
+        },
+        {
+          "text": "into",
+          "start_time": 3.339,
+          "end_time": 3.5
+        }
+      ]
+    },
+    {
+      "text": "a scatter of dots before it fades out.",
+      "start_time": 3.559,
+      "end_time": 5.279,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "a",
+          "start_time": 3.559,
+          "end_time": 3.639
+        },
+        {
+          "text": " ",
+          "start_time": 3.639,
+          "end_time": 3.679
+        },
+        {
+          "text": "scatter",
+          "start_time": 3.679,
+          "end_time": 3.939
+        },
+        {
+          "text": " ",
+          "start_time": 3.939,
+          "end_time": 3.979
+        },
+        {
+          "text": "of",
+          "start_time": 3.98,
+          "end_time": 4.039
+        },
+        {
+          "text": " ",
+          "start_time": 4.039,
+          "end_time": 4.119
+        },
+        {
+          "text": "dots",
+          "start_time": 4.119,
+          "end_time": 4.36
+        },
+        {
+          "text": " ",
+          "start_time": 4.36,
+          "end_time": 4.42
+        },
+        {
+          "text": "before",
+          "start_time": 4.42,
+          "end_time": 4.599
+        },
+        {
+          "text": " ",
+          "start_time": 4.599,
+          "end_time": 4.659
+        },
+        {
+          "text": "it",
+          "start_time": 4.659,
+          "end_time": 4.759
+        },
+        {
+          "text": " ",
+          "start_time": 4.759,
+          "end_time": 4.799
+        },
+        {
+          "text": "fades",
+          "start_time": 4.799,
+          "end_time": 5.019
+        },
+        {
+          "text": " ",
+          "start_time": 5.019,
+          "end_time": 5.099
+        },
+        {
+          "text": "out.",
+          "start_time": 5.099,
+          "end_time": 5.279
+        }
+      ]
+    },
+    {
+      "text": "That border is ceramic paint baked into the",
+      "start_time": 5.539,
+      "end_time": 7.46,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "That",
+          "start_time": 5.539,
+          "end_time": 5.679
+        },
+        {
+          "text": " ",
+          "start_time": 5.679,
+          "end_time": 5.759
+        },
+        {
+          "text": "border",
+          "start_time": 5.759,
+          "end_time": 6.019
+        },
+        {
+          "text": " ",
+          "start_time": 6.019,
+          "end_time": 6.079
+        },
+        {
+          "text": "is",
+          "start_time": 6.079,
+          "end_time": 6.199
+        },
+        {
+          "text": " ",
+          "start_time": 6.199,
+          "end_time": 6.259
+        },
+        {
+          "text": "ceramic",
+          "start_time": 6.259,
+          "end_time": 6.619
+        },
+        {
+          "text": " ",
+          "start_time": 6.619,
+          "end_time": 6.739
+        },
+        {
+          "text": "paint",
+          "start_time": 6.739,
+          "end_time": 6.94
+        },
+        {
+          "text": " ",
+          "start_time": 6.94,
+          "end_time": 7.019
+        },
+        {
+          "text": "baked",
+          "start_time": 7.019,
+          "end_time": 7.199
+        },
+        {
+          "text": " ",
+          "start_time": 7.199,
+          "end_time": 7.219
+        },
+        {
+          "text": "into",
+          "start_time": 7.219,
+          "end_time": 7.379
+        },
+        {
+          "text": " ",
+          "start_time": 7.379,
+          "end_time": 7.399
+        },
+        {
+          "text": "the",
+          "start_time": 7.399,
+          "end_time": 7.46
+        }
+      ]
+    },
+    {
+      "text": "glass,",
+      "start_time": 7.539,
+      "end_time": 8.139,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "glass,",
+          "start_time": 7.539,
+          "end_time": 7.859
+        }
+      ]
+    },
+    {
+      "text": "and it is covering the adhesive that holds",
+      "start_time": 8.26,
+      "end_time": 10,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 8.26,
+          "end_time": 8.32
+        },
+        {
+          "text": " ",
+          "start_time": 8.32,
+          "end_time": 8.34
+        },
+        {
+          "text": "it",
+          "start_time": 8.34,
+          "end_time": 8.38
+        },
+        {
+          "text": " ",
+          "start_time": 8.38,
+          "end_time": 8.42
+        },
+        {
+          "text": "is",
+          "start_time": 8.42,
+          "end_time": 8.539
+        },
+        {
+          "text": " ",
+          "start_time": 8.539,
+          "end_time": 8.599
+        },
+        {
+          "text": "covering",
+          "start_time": 8.599,
+          "end_time": 8.88
+        },
+        {
+          "text": " ",
+          "start_time": 8.88,
+          "end_time": 8.92
+        },
+        {
+          "text": "the",
+          "start_time": 8.92,
+          "end_time": 8.979
+        },
+        {
+          "text": " ",
+          "start_time": 8.979,
+          "end_time": 9.039
+        },
+        {
+          "text": "adhesive",
+          "start_time": 9.039,
+          "end_time": 9.539
+        },
+        {
+          "text": " ",
+          "start_time": 9.539,
+          "end_time": 9.579
+        },
+        {
+          "text": "that",
+          "start_time": 9.579,
+          "end_time": 9.699
+        },
+        {
+          "text": " ",
+          "start_time": 9.699,
+          "end_time": 9.76
+        },
+        {
+          "text": "holds",
+          "start_time": 9.76,
+          "end_time": 10
+        }
+      ]
+    },
+    {
+      "text": "the windshield onto the car.",
+      "start_time": 10.019,
+      "end_time": 11.259,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "the",
+          "start_time": 10.019,
+          "end_time": 10.079
+        },
+        {
+          "text": " ",
+          "start_time": 10.079,
+          "end_time": 10.139
+        },
+        {
+          "text": "windshield",
+          "start_time": 10.139,
+          "end_time": 10.579
+        },
+        {
+          "text": " ",
+          "start_time": 10.579,
+          "end_time": 10.659
+        },
+        {
+          "text": "onto",
+          "start_time": 10.659,
+          "end_time": 10.84
+        },
+        {
+          "text": " ",
+          "start_time": 10.84,
+          "end_time": 10.88
+        },
+        {
+          "text": "the",
+          "start_time": 10.88,
+          "end_time": 10.939
+        },
+        {
+          "text": " ",
+          "start_time": 10.939,
+          "end_time": 11
+        },
+        {
+          "text": "car.",
+          "start_time": 11,
+          "end_time": 11.259
+        }
+      ]
+    },
+    {
+      "text": "Sunlight would slowly cook that glue,",
+      "start_time": 11.639,
+      "end_time": 13.139,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Sunlight",
+          "start_time": 11.639,
+          "end_time": 11.939
+        },
+        {
+          "text": " ",
+          "start_time": 11.939,
+          "end_time": 11.979
+        },
+        {
+          "text": "would",
+          "start_time": 11.979,
+          "end_time": 12.099
+        },
+        {
+          "text": " ",
+          "start_time": 12.099,
+          "end_time": 12.159
+        },
+        {
+          "text": "slowly",
+          "start_time": 12.159,
+          "end_time": 12.519
+        },
+        {
+          "text": " ",
+          "start_time": 12.519,
+          "end_time": 12.559
+        },
+        {
+          "text": "cook",
+          "start_time": 12.559,
+          "end_time": 12.699
+        },
+        {
+          "text": " ",
+          "start_time": 12.699,
+          "end_time": 12.739
+        },
+        {
+          "text": "that",
+          "start_time": 12.739,
+          "end_time": 12.88
+        },
+        {
+          "text": " ",
+          "start_time": 12.88,
+          "end_time": 12.939
+        },
+        {
+          "text": "glue,",
+          "start_time": 12.939,
+          "end_time": 13.139
+        }
+      ]
+    },
+    {
+      "text": "so the black band shields it.",
+      "start_time": 13.46,
+      "end_time": 14.619,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "so",
+          "start_time": 13.46,
+          "end_time": 13.519
+        },
+        {
+          "text": " ",
+          "start_time": 13.519,
+          "end_time": 13.559
+        },
+        {
+          "text": "the",
+          "start_time": 13.559,
+          "end_time": 13.619
+        },
+        {
+          "text": " ",
+          "start_time": 13.619,
+          "end_time": 13.679
+        },
+        {
+          "text": "black",
+          "start_time": 13.679,
+          "end_time": 13.899
+        },
+        {
+          "text": " ",
+          "start_time": 13.899,
+          "end_time": 13.939
+        },
+        {
+          "text": "band",
+          "start_time": 13.939,
+          "end_time": 14.159
+        },
+        {
+          "text": " ",
+          "start_time": 14.159,
+          "end_time": 14.199
+        },
+        {
+          "text": "shields",
+          "start_time": 14.199,
+          "end_time": 14.479
+        },
+        {
+          "text": " ",
+          "start_time": 14.479,
+          "end_time": 14.519
+        },
+        {
+          "text": "it.",
+          "start_time": 14.519,
+          "end_time": 14.619
+        }
+      ]
+    },
+    {
+      "text": "The dots are the clever part.",
+      "start_time": 14.839,
+      "end_time": 15.96,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 14.839,
+          "end_time": 14.92
+        },
+        {
+          "text": " ",
+          "start_time": 14.92,
+          "end_time": 14.979
+        },
+        {
+          "text": "dots",
+          "start_time": 14.979,
+          "end_time": 15.179
+        },
+        {
+          "text": " ",
+          "start_time": 15.179,
+          "end_time": 15.219
+        },
+        {
+          "text": "are",
+          "start_time": 15.219,
+          "end_time": 15.279
+        },
+        {
+          "text": " ",
+          "start_time": 15.279,
+          "end_time": 15.299
+        },
+        {
+          "text": "the",
+          "start_time": 15.299,
+          "end_time": 15.38
+        },
+        {
+          "text": " ",
+          "start_time": 15.38,
+          "end_time": 15.439
+        },
+        {
+          "text": "clever",
+          "start_time": 15.439,
+          "end_time": 15.699
+        },
+        {
+          "text": " ",
+          "start_time": 15.699,
+          "end_time": 15.739
+        },
+        {
+          "text": "part.",
+          "start_time": 15.739,
+          "end_time": 15.96
+        }
+      ]
+    },
+    {
+      "text": "Black glass heats faster than clear glass,",
+      "start_time": 16.239,
+      "end_time": 18.239,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Black",
+          "start_time": 16.239,
+          "end_time": 16.439
+        },
+        {
+          "text": " ",
+          "start_time": 16.439,
+          "end_time": 16.479
+        },
+        {
+          "text": "glass",
+          "start_time": 16.479,
+          "end_time": 16.779
+        },
+        {
+          "text": " ",
+          "start_time": 16.779,
+          "end_time": 16.859
+        },
+        {
+          "text": "heats",
+          "start_time": 16.859,
+          "end_time": 17.039
+        },
+        {
+          "text": " ",
+          "start_time": 17.039,
+          "end_time": 17.139
+        },
+        {
+          "text": "faster",
+          "start_time": 17.139,
+          "end_time": 17.42
+        },
+        {
+          "text": " ",
+          "start_time": 17.42,
+          "end_time": 17.459
+        },
+        {
+          "text": "than",
+          "start_time": 17.459,
+          "end_time": 17.599
+        },
+        {
+          "text": " ",
+          "start_time": 17.599,
+          "end_time": 17.659
+        },
+        {
+          "text": "clear",
+          "start_time": 17.659,
+          "end_time": 17.859
+        },
+        {
+          "text": " ",
+          "start_time": 17.859,
+          "end_time": 17.919
+        },
+        {
+          "text": "glass,",
+          "start_time": 17.92,
+          "end_time": 18.239
+        }
+      ]
+    },
+    {
+      "text": "and a hard edge between the two would build",
+      "start_time": 18.44,
+      "end_time": 20,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 18.44,
+          "end_time": 18.5
+        },
+        {
+          "text": " ",
+          "start_time": 18.5,
+          "end_time": 18.539
+        },
+        {
+          "text": "a",
+          "start_time": 18.539,
+          "end_time": 18.599
+        },
+        {
+          "text": " ",
+          "start_time": 18.599,
+          "end_time": 18.659
+        },
+        {
+          "text": "hard",
+          "start_time": 18.659,
+          "end_time": 18.859
+        },
+        {
+          "text": " ",
+          "start_time": 18.859,
+          "end_time": 18.899
+        },
+        {
+          "text": "edge",
+          "start_time": 18.899,
+          "end_time": 19.039
+        },
+        {
+          "text": " ",
+          "start_time": 19.039,
+          "end_time": 19.079
+        },
+        {
+          "text": "between",
+          "start_time": 19.079,
+          "end_time": 19.339
+        },
+        {
+          "text": " ",
+          "start_time": 19.339,
+          "end_time": 19.359
+        },
+        {
+          "text": "the",
+          "start_time": 19.359,
+          "end_time": 19.459
+        },
+        {
+          "text": " ",
+          "start_time": 19.459,
+          "end_time": 19.5
+        },
+        {
+          "text": "two",
+          "start_time": 19.5,
+          "end_time": 19.619
+        },
+        {
+          "text": " ",
+          "start_time": 19.619,
+          "end_time": 19.679
+        },
+        {
+          "text": "would",
+          "start_time": 19.68,
+          "end_time": 19.799
+        },
+        {
+          "text": " ",
+          "start_time": 19.799,
+          "end_time": 19.859
+        },
+        {
+          "text": "build",
+          "start_time": 19.859,
+          "end_time": 20
+        }
+      ]
+    },
+    {
+      "text": "enough stress to crack the pane,",
+      "start_time": 20.039,
+      "end_time": 21.34,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "enough",
+          "start_time": 20.039,
+          "end_time": 20.259
+        },
+        {
+          "text": " ",
+          "start_time": 20.259,
+          "end_time": 20.319
+        },
+        {
+          "text": "stress",
+          "start_time": 20.319,
+          "end_time": 20.559
+        },
+        {
+          "text": " ",
+          "start_time": 20.559,
+          "end_time": 20.6
+        },
+        {
+          "text": "to",
+          "start_time": 20.6,
+          "end_time": 20.68
+        },
+        {
+          "text": " ",
+          "start_time": 20.68,
+          "end_time": 20.739
+        },
+        {
+          "text": "crack",
+          "start_time": 20.739,
+          "end_time": 20.92
+        },
+        {
+          "text": " ",
+          "start_time": 20.92,
+          "end_time": 20.959
+        },
+        {
+          "text": "the",
+          "start_time": 20.959,
+          "end_time": 21.039
+        },
+        {
+          "text": " ",
+          "start_time": 21.039,
+          "end_time": 21.099
+        },
+        {
+          "text": "pane,",
+          "start_time": 21.1,
+          "end_time": 21.34
+        }
+      ]
+    },
+    {
+      "text": "so the dots spread that change out gradually.",
+      "start_time": 21.579,
+      "end_time": 23.639,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "so",
+          "start_time": 21.579,
+          "end_time": 21.639
+        },
+        {
+          "text": " ",
+          "start_time": 21.639,
+          "end_time": 21.659
+        },
+        {
+          "text": "the",
+          "start_time": 21.659,
+          "end_time": 21.759
+        },
+        {
+          "text": " ",
+          "start_time": 21.759,
+          "end_time": 21.819
+        },
+        {
+          "text": "dots",
+          "start_time": 21.819,
+          "end_time": 22.079
+        },
+        {
+          "text": " ",
+          "start_time": 22.079,
+          "end_time": 22.119
+        },
+        {
+          "text": "spread",
+          "start_time": 22.119,
+          "end_time": 22.439
+        },
+        {
+          "text": " ",
+          "start_time": 22.439,
+          "end_time": 22.639
+        },
+        {
+          "text": "that",
+          "start_time": 22.639,
+          "end_time": 22.759
+        },
+        {
+          "text": " ",
+          "start_time": 22.759,
+          "end_time": 22.799
+        },
+        {
+          "text": "change",
+          "start_time": 22.799,
+          "end_time": 23.039
+        },
+        {
+          "text": " ",
+          "start_time": 23.039,
+          "end_time": 23.079
+        },
+        {
+          "text": "out",
+          "start_time": 23.079,
+          "end_time": 23.199
+        },
+        {
+          "text": " ",
+          "start_time": 23.199,
+          "end_time": 23.239
+        },
+        {
+          "text": "gradually.",
+          "start_time": 23.239,
+          "end_time": 23.639
+        }
+      ]
+    }
+  ]
+}

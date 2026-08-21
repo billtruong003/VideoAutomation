@@ -1,0 +1,168 @@
+{
+  "generatedBy": "tools/process-voiceover.mjs",
+  "input": "C:/Users/ducnq/AppData/Local/BillFindsOut/audio-factory/batch-002/cabin-lights-dim/take-b.mp3",
+  "output": "C:/Users/ducnq/Downloads/Video/public/audio/cabin-lights-dim.wav",
+  "tempo": 1.12,
+  "effectiveTempo": 1.11973,
+  "sampleRate": 48000,
+  "rawDuration": 30.557,
+  "cutDuration": 27.241,
+  "processedDuration": 24.328,
+  "silenceRemoved": 3.316,
+  "options": {
+    "tempo": 1.12,
+    "noiseDb": -40,
+    "minSilence": 0.12,
+    "maxPause": 0.3,
+    "pauseTarget": 0.2,
+    "pauseSlope": 0.2,
+    "pauseCap": 0.3,
+    "head": 0.04,
+    "tail": 0.28,
+    "lufs": -14,
+    "tp": -1.5,
+    "lra": 11,
+    "sampleRate": 48000
+  },
+  "decisions": [
+    {
+      "kind": "shortened",
+      "at": 4.774,
+      "raw": 0.62,
+      "kept": 0.264,
+      "removed": 0.356
+    },
+    {
+      "kind": "shortened",
+      "at": 6.07,
+      "raw": 0.8,
+      "kept": 0.3,
+      "removed": 0.5
+    },
+    {
+      "kind": "shortened",
+      "at": 9.167,
+      "raw": 0.351,
+      "kept": 0.21,
+      "removed": 0.141
+    },
+    {
+      "kind": "shortened",
+      "at": 13.252,
+      "raw": 0.872,
+      "kept": 0.3,
+      "removed": 0.572
+    },
+    {
+      "kind": "kept-intact",
+      "at": 15.564,
+      "raw": 0.219,
+      "kept": 0.219,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 16.637,
+      "raw": 0.514,
+      "kept": 0.243,
+      "removed": 0.271
+    },
+    {
+      "kind": "shortened",
+      "at": 20.494,
+      "raw": 0.855,
+      "kept": 0.3,
+      "removed": 0.555
+    },
+    {
+      "kind": "kept-intact",
+      "at": 23.87,
+      "raw": 0.203,
+      "kept": 0.203,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 25.595,
+      "raw": 0.454,
+      "kept": 0.231,
+      "removed": 0.223
+    },
+    {
+      "kind": "kept-intact",
+      "at": 26.565,
+      "raw": 0.234,
+      "kept": 0.234,
+      "removed": 0
+    },
+    {
+      "kind": "shortened",
+      "at": 27.78,
+      "raw": 0.927,
+      "kept": 0.3,
+      "removed": 0.627
+    },
+    {
+      "kind": "trailing",
+      "raw": 0.351,
+      "kept": 0.28,
+      "removed": 0.071
+    }
+  ],
+  "segments": [
+    {
+      "rawStart": 0,
+      "rawEnd": 4.906,
+      "outStart": 0,
+      "outEnd": 4.382
+    },
+    {
+      "rawStart": 5.263,
+      "rawEnd": 6.22,
+      "outStart": 4.382,
+      "outEnd": 5.237
+    },
+    {
+      "rawStart": 6.72,
+      "rawEnd": 9.272,
+      "outStart": 5.237,
+      "outEnd": 7.516
+    },
+    {
+      "rawStart": 9.412,
+      "rawEnd": 13.402,
+      "outStart": 7.516,
+      "outEnd": 11.078
+    },
+    {
+      "rawStart": 13.974,
+      "rawEnd": 16.759,
+      "outStart": 11.078,
+      "outEnd": 13.566
+    },
+    {
+      "rawStart": 17.03,
+      "rawEnd": 20.644,
+      "outStart": 13.566,
+      "outEnd": 16.793
+    },
+    {
+      "rawStart": 21.199,
+      "rawEnd": 25.71,
+      "outStart": 16.793,
+      "outEnd": 20.822
+    },
+    {
+      "rawStart": 25.933,
+      "rawEnd": 27.93,
+      "outStart": 20.822,
+      "outEnd": 22.605
+    },
+    {
+      "rawStart": 28.557,
+      "rawEnd": 30.487,
+      "outStart": 22.605,
+      "outEnd": 24.328
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+1
+00:00:00,099 --> 00:00:02,099
+Somewhere in the back window of every car sits
+
+2
+00:00:02,159 --> 00:00:04,219
+a third brake light, higher and more centered
+
+3
+00:00:04,259 --> 00:00:04,859
+than the other two.
+
+4
+00:00:05,119 --> 00:00:07,179
+It exists because the original pair are easy
+
+5
+00:00:07,219 --> 00:00:07,819
+to misread.
+
+6
+00:00:07,980 --> 00:00:09,699
+They sit low, they sit far apart,
+
+7
+00:00:09,920 --> 00:00:11,380
+and they are right beside tail lights that
+
+8
+00:00:11,420 --> 00:00:12,139
+are already glowing.
+
+9
+00:00:12,420 --> 00:00:14,759
+A single light up high, dark until the driver
+
+10
+00:00:14,799 --> 00:00:16,680
+brakes, cannot be confused with anything.
+
+11
+00:00:16,959 --> 00:00:19,459
+Early taxi-fleet trials suggested a third fewer
+
+12
+00:00:19,520 --> 00:00:20,340
+rear-end collisions.
+
+13
+00:00:20,680 --> 00:00:22,680
+Once every car had one the real figure settled
+
+14
+00:00:22,699 --> 00:00:24,719
+nearer four percent, which is still tens of
+
+15
+00:00:24,760 --> 00:00:25,899
+thousands of crashes a year.

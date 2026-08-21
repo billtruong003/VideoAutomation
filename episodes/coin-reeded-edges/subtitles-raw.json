@@ -1,0 +1,982 @@
+{
+  "language_code": "en",
+  "note": "Word alignment produced by the audio factory against the PROCESSED narration.",
+  "source": "FORCED_ALIGNMENT",
+  "segments": [
+    {
+      "text": "Run your thumb around the edge of a quarter",
+      "start_time": 0.099,
+      "end_time": 1.48,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Run",
+          "start_time": 0.099,
+          "end_time": 0.199
+        },
+        {
+          "text": " ",
+          "start_time": 0.199,
+          "end_time": 0.259
+        },
+        {
+          "text": "your",
+          "start_time": 0.259,
+          "end_time": 0.379
+        },
+        {
+          "text": " ",
+          "start_time": 0.379,
+          "end_time": 0.399
+        },
+        {
+          "text": "thumb",
+          "start_time": 0.399,
+          "end_time": 0.539
+        },
+        {
+          "text": " ",
+          "start_time": 0.539,
+          "end_time": 0.56
+        },
+        {
+          "text": "around",
+          "start_time": 0.56,
+          "end_time": 0.719
+        },
+        {
+          "text": " ",
+          "start_time": 0.719,
+          "end_time": 0.759
+        },
+        {
+          "text": "the",
+          "start_time": 0.759,
+          "end_time": 0.819
+        },
+        {
+          "text": " ",
+          "start_time": 0.819,
+          "end_time": 0.879
+        },
+        {
+          "text": "edge",
+          "start_time": 0.879,
+          "end_time": 1
+        },
+        {
+          "text": " ",
+          "start_time": 1,
+          "end_time": 1.019
+        },
+        {
+          "text": "of",
+          "start_time": 1.019,
+          "end_time": 1.059
+        },
+        {
+          "text": " ",
+          "start_time": 1.059,
+          "end_time": 1.099
+        },
+        {
+          "text": "a",
+          "start_time": 1.1,
+          "end_time": 1.159
+        },
+        {
+          "text": " ",
+          "start_time": 1.159,
+          "end_time": 1.219
+        },
+        {
+          "text": "quarter",
+          "start_time": 1.22,
+          "end_time": 1.48
+        }
+      ]
+    },
+    {
+      "text": "and you'll feel ridges, which is a strange",
+      "start_time": 1.519,
+      "end_time": 3.159,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 1.519,
+          "end_time": 1.599
+        },
+        {
+          "text": " ",
+          "start_time": 1.599,
+          "end_time": 1.619
+        },
+        {
+          "text": "you'll",
+          "start_time": 1.62,
+          "end_time": 1.74
+        },
+        {
+          "text": " ",
+          "start_time": 1.74,
+          "end_time": 1.779
+        },
+        {
+          "text": "feel",
+          "start_time": 1.779,
+          "end_time": 1.899
+        },
+        {
+          "text": " ",
+          "start_time": 1.899,
+          "end_time": 1.979
+        },
+        {
+          "text": "ridges,",
+          "start_time": 1.979,
+          "end_time": 2.299
+        },
+        {
+          "text": " ",
+          "start_time": 2.299,
+          "end_time": 2.519
+        },
+        {
+          "text": "which",
+          "start_time": 2.519,
+          "end_time": 2.619
+        },
+        {
+          "text": " ",
+          "start_time": 2.619,
+          "end_time": 2.659
+        },
+        {
+          "text": "is",
+          "start_time": 2.659,
+          "end_time": 2.72
+        },
+        {
+          "text": " ",
+          "start_time": 2.72,
+          "end_time": 2.759
+        },
+        {
+          "text": "a",
+          "start_time": 2.759,
+          "end_time": 2.819
+        },
+        {
+          "text": " ",
+          "start_time": 2.819,
+          "end_time": 2.879
+        },
+        {
+          "text": "strange",
+          "start_time": 2.879,
+          "end_time": 3.159
+        }
+      ]
+    },
+    {
+      "text": "thing to put on a coin containing nothing worth",
+      "start_time": 3.199,
+      "end_time": 4.9,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "thing",
+          "start_time": 3.199,
+          "end_time": 3.299
+        },
+        {
+          "text": " ",
+          "start_time": 3.299,
+          "end_time": 3.339
+        },
+        {
+          "text": "to",
+          "start_time": 3.339,
+          "end_time": 3.419
+        },
+        {
+          "text": " ",
+          "start_time": 3.419,
+          "end_time": 3.459
+        },
+        {
+          "text": "put",
+          "start_time": 3.46,
+          "end_time": 3.519
+        },
+        {
+          "text": " ",
+          "start_time": 3.519,
+          "end_time": 3.559
+        },
+        {
+          "text": "on",
+          "start_time": 3.559,
+          "end_time": 3.619
+        },
+        {
+          "text": " ",
+          "start_time": 3.619,
+          "end_time": 3.659
+        },
+        {
+          "text": "a",
+          "start_time": 3.659,
+          "end_time": 3.72
+        },
+        {
+          "text": " ",
+          "start_time": 3.72,
+          "end_time": 3.779
+        },
+        {
+          "text": "coin",
+          "start_time": 3.779,
+          "end_time": 4.019
+        },
+        {
+          "text": " ",
+          "start_time": 4.019,
+          "end_time": 4.059
+        },
+        {
+          "text": "containing",
+          "start_time": 4.059,
+          "end_time": 4.38
+        },
+        {
+          "text": " ",
+          "start_time": 4.38,
+          "end_time": 4.5
+        },
+        {
+          "text": "nothing",
+          "start_time": 4.5,
+          "end_time": 4.719
+        },
+        {
+          "text": " ",
+          "start_time": 4.719,
+          "end_time": 4.759
+        },
+        {
+          "text": "worth",
+          "start_time": 4.759,
+          "end_time": 4.9
+        }
+      ]
+    },
+    {
+      "text": "stealing.",
+      "start_time": 5,
+      "end_time": 5.6,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "stealing.",
+          "start_time": 5,
+          "end_time": 5.339
+        }
+      ]
+    },
+    {
+      "text": "Back when coins were actually silver,",
+      "start_time": 5.679,
+      "end_time": 7.199,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Back",
+          "start_time": 5.679,
+          "end_time": 5.819
+        },
+        {
+          "text": " ",
+          "start_time": 5.819,
+          "end_time": 5.879
+        },
+        {
+          "text": "when",
+          "start_time": 5.879,
+          "end_time": 5.96
+        },
+        {
+          "text": " ",
+          "start_time": 5.96,
+          "end_time": 6.039
+        },
+        {
+          "text": "coins",
+          "start_time": 6.039,
+          "end_time": 6.299
+        },
+        {
+          "text": " ",
+          "start_time": 6.299,
+          "end_time": 6.339
+        },
+        {
+          "text": "were",
+          "start_time": 6.339,
+          "end_time": 6.44
+        },
+        {
+          "text": " ",
+          "start_time": 6.44,
+          "end_time": 6.519
+        },
+        {
+          "text": "actually",
+          "start_time": 6.519,
+          "end_time": 6.779
+        },
+        {
+          "text": " ",
+          "start_time": 6.779,
+          "end_time": 6.919
+        },
+        {
+          "text": "silver,",
+          "start_time": 6.92,
+          "end_time": 7.199
+        }
+      ]
+    },
+    {
+      "text": "people shaved slivers off the rims,",
+      "start_time": 7.44,
+      "end_time": 8.88,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "people",
+          "start_time": 7.44,
+          "end_time": 7.699
+        },
+        {
+          "text": " ",
+          "start_time": 7.699,
+          "end_time": 7.739
+        },
+        {
+          "text": "shaved",
+          "start_time": 7.739,
+          "end_time": 7.96
+        },
+        {
+          "text": " ",
+          "start_time": 7.96,
+          "end_time": 8.019
+        },
+        {
+          "text": "slivers",
+          "start_time": 8.019,
+          "end_time": 8.3
+        },
+        {
+          "text": " ",
+          "start_time": 8.3,
+          "end_time": 8.34
+        },
+        {
+          "text": "off",
+          "start_time": 8.34,
+          "end_time": 8.439
+        },
+        {
+          "text": " ",
+          "start_time": 8.439,
+          "end_time": 8.479
+        },
+        {
+          "text": "the",
+          "start_time": 8.479,
+          "end_time": 8.539
+        },
+        {
+          "text": " ",
+          "start_time": 8.539,
+          "end_time": 8.599
+        },
+        {
+          "text": "rims,",
+          "start_time": 8.599,
+          "end_time": 8.88
+        }
+      ]
+    },
+    {
+      "text": "spent the coin anyway, and kept the shavings.",
+      "start_time": 9.159,
+      "end_time": 11.079,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "spent",
+          "start_time": 9.159,
+          "end_time": 9.359
+        },
+        {
+          "text": " ",
+          "start_time": 9.359,
+          "end_time": 9.38
+        },
+        {
+          "text": "the",
+          "start_time": 9.38,
+          "end_time": 9.439
+        },
+        {
+          "text": " ",
+          "start_time": 9.439,
+          "end_time": 9.5
+        },
+        {
+          "text": "coin",
+          "start_time": 9.5,
+          "end_time": 9.679
+        },
+        {
+          "text": " ",
+          "start_time": 9.679,
+          "end_time": 9.719
+        },
+        {
+          "text": "anyway,",
+          "start_time": 9.719,
+          "end_time": 10
+        },
+        {
+          "text": " ",
+          "start_time": 10,
+          "end_time": 10.279
+        },
+        {
+          "text": "and",
+          "start_time": 10.279,
+          "end_time": 10.36
+        },
+        {
+          "text": " ",
+          "start_time": 10.36,
+          "end_time": 10.42
+        },
+        {
+          "text": "kept",
+          "start_time": 10.42,
+          "end_time": 10.539
+        },
+        {
+          "text": " ",
+          "start_time": 10.539,
+          "end_time": 10.579
+        },
+        {
+          "text": "the",
+          "start_time": 10.579,
+          "end_time": 10.659
+        },
+        {
+          "text": " ",
+          "start_time": 10.659,
+          "end_time": 10.699
+        },
+        {
+          "text": "shavings.",
+          "start_time": 10.699,
+          "end_time": 11.079
+        }
+      ]
+    },
+    {
+      "text": "A shaved coin looked almost normal.",
+      "start_time": 11.38,
+      "end_time": 13.039,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "A",
+          "start_time": 11.38,
+          "end_time": 11.479
+        },
+        {
+          "text": " ",
+          "start_time": 11.479,
+          "end_time": 11.539
+        },
+        {
+          "text": "shaved",
+          "start_time": 11.539,
+          "end_time": 11.779
+        },
+        {
+          "text": " ",
+          "start_time": 11.779,
+          "end_time": 11.899
+        },
+        {
+          "text": "coin",
+          "start_time": 11.899,
+          "end_time": 12.099
+        },
+        {
+          "text": " ",
+          "start_time": 12.099,
+          "end_time": 12.139
+        },
+        {
+          "text": "looked",
+          "start_time": 12.139,
+          "end_time": 12.319
+        },
+        {
+          "text": " ",
+          "start_time": 12.319,
+          "end_time": 12.359
+        },
+        {
+          "text": "almost",
+          "start_time": 12.359,
+          "end_time": 12.639
+        },
+        {
+          "text": " ",
+          "start_time": 12.639,
+          "end_time": 12.719
+        },
+        {
+          "text": "normal.",
+          "start_time": 12.719,
+          "end_time": 13.039
+        }
+      ]
+    },
+    {
+      "text": "So mints cut grooves into the edge,",
+      "start_time": 13.38,
+      "end_time": 14.839,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "So",
+          "start_time": 13.38,
+          "end_time": 13.46
+        },
+        {
+          "text": " ",
+          "start_time": 13.46,
+          "end_time": 13.539
+        },
+        {
+          "text": "mints",
+          "start_time": 13.539,
+          "end_time": 13.759
+        },
+        {
+          "text": " ",
+          "start_time": 13.759,
+          "end_time": 13.799
+        },
+        {
+          "text": "cut",
+          "start_time": 13.799,
+          "end_time": 13.92
+        },
+        {
+          "text": " ",
+          "start_time": 13.92,
+          "end_time": 14
+        },
+        {
+          "text": "grooves",
+          "start_time": 14,
+          "end_time": 14.259
+        },
+        {
+          "text": " ",
+          "start_time": 14.259,
+          "end_time": 14.299
+        },
+        {
+          "text": "into",
+          "start_time": 14.299,
+          "end_time": 14.48
+        },
+        {
+          "text": " ",
+          "start_time": 14.48,
+          "end_time": 14.5
+        },
+        {
+          "text": "the",
+          "start_time": 14.5,
+          "end_time": 14.579
+        },
+        {
+          "text": " ",
+          "start_time": 14.579,
+          "end_time": 14.659
+        },
+        {
+          "text": "edge,",
+          "start_time": 14.659,
+          "end_time": 14.839
+        }
+      ]
+    },
+    {
+      "text": "and a shaved coin stopped looking normal immediately,",
+      "start_time": 15.019,
+      "end_time": 17.199,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "and",
+          "start_time": 15.019,
+          "end_time": 15.1
+        },
+        {
+          "text": " ",
+          "start_time": 15.1,
+          "end_time": 15.139
+        },
+        {
+          "text": "a",
+          "start_time": 15.139,
+          "end_time": 15.199
+        },
+        {
+          "text": " ",
+          "start_time": 15.199,
+          "end_time": 15.259
+        },
+        {
+          "text": "shaved",
+          "start_time": 15.259,
+          "end_time": 15.5
+        },
+        {
+          "text": " ",
+          "start_time": 15.5,
+          "end_time": 15.559
+        },
+        {
+          "text": "coin",
+          "start_time": 15.559,
+          "end_time": 15.759
+        },
+        {
+          "text": " ",
+          "start_time": 15.759,
+          "end_time": 15.819
+        },
+        {
+          "text": "stopped",
+          "start_time": 15.819,
+          "end_time": 16.039
+        },
+        {
+          "text": " ",
+          "start_time": 16.039,
+          "end_time": 16.099
+        },
+        {
+          "text": "looking",
+          "start_time": 16.1,
+          "end_time": 16.339
+        },
+        {
+          "text": " ",
+          "start_time": 16.339,
+          "end_time": 16.399
+        },
+        {
+          "text": "normal",
+          "start_time": 16.399,
+          "end_time": 16.639
+        },
+        {
+          "text": " ",
+          "start_time": 16.639,
+          "end_time": 16.699
+        },
+        {
+          "text": "immediately,",
+          "start_time": 16.699,
+          "end_time": 17.199
+        }
+      ]
+    },
+    {
+      "text": "because the pattern just ended.",
+      "start_time": 17.399,
+      "end_time": 18.519,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "because",
+          "start_time": 17.399,
+          "end_time": 17.619
+        },
+        {
+          "text": " ",
+          "start_time": 17.619,
+          "end_time": 17.659
+        },
+        {
+          "text": "the",
+          "start_time": 17.659,
+          "end_time": 17.719
+        },
+        {
+          "text": " ",
+          "start_time": 17.719,
+          "end_time": 17.76
+        },
+        {
+          "text": "pattern",
+          "start_time": 17.76,
+          "end_time": 18.02
+        },
+        {
+          "text": " ",
+          "start_time": 18.02,
+          "end_time": 18.1
+        },
+        {
+          "text": "just",
+          "start_time": 18.1,
+          "end_time": 18.219
+        },
+        {
+          "text": " ",
+          "start_time": 18.219,
+          "end_time": 18.279
+        },
+        {
+          "text": "ended.",
+          "start_time": 18.279,
+          "end_time": 18.519
+        }
+      ]
+    },
+    {
+      "text": "Isaac Newton used it against clippers as warden",
+      "start_time": 18.84,
+      "end_time": 20.76,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "Isaac",
+          "start_time": 18.84,
+          "end_time": 19.039
+        },
+        {
+          "text": " ",
+          "start_time": 19.039,
+          "end_time": 19.099
+        },
+        {
+          "text": "Newton",
+          "start_time": 19.1,
+          "end_time": 19.359
+        },
+        {
+          "text": " ",
+          "start_time": 19.359,
+          "end_time": 19.419
+        },
+        {
+          "text": "used",
+          "start_time": 19.42,
+          "end_time": 19.559
+        },
+        {
+          "text": " ",
+          "start_time": 19.559,
+          "end_time": 19.579
+        },
+        {
+          "text": "it",
+          "start_time": 19.579,
+          "end_time": 19.619
+        },
+        {
+          "text": " ",
+          "start_time": 19.619,
+          "end_time": 19.699
+        },
+        {
+          "text": "against",
+          "start_time": 19.699,
+          "end_time": 19.92
+        },
+        {
+          "text": " ",
+          "start_time": 19.92,
+          "end_time": 20.02
+        },
+        {
+          "text": "clippers",
+          "start_time": 20.02,
+          "end_time": 20.319
+        },
+        {
+          "text": " ",
+          "start_time": 20.319,
+          "end_time": 20.359
+        },
+        {
+          "text": "as",
+          "start_time": 20.359,
+          "end_time": 20.439
+        },
+        {
+          "text": " ",
+          "start_time": 20.439,
+          "end_time": 20.539
+        },
+        {
+          "text": "warden",
+          "start_time": 20.539,
+          "end_time": 20.76
+        }
+      ]
+    },
+    {
+      "text": "of the Royal Mint.",
+      "start_time": 20.779,
+      "end_time": 21.459,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "of",
+          "start_time": 20.779,
+          "end_time": 20.84
+        },
+        {
+          "text": " ",
+          "start_time": 20.84,
+          "end_time": 20.859
+        },
+        {
+          "text": "the",
+          "start_time": 20.859,
+          "end_time": 20.92
+        },
+        {
+          "text": " ",
+          "start_time": 20.92,
+          "end_time": 20.979
+        },
+        {
+          "text": "Royal",
+          "start_time": 20.979,
+          "end_time": 21.139
+        },
+        {
+          "text": " ",
+          "start_time": 21.139,
+          "end_time": 21.239
+        },
+        {
+          "text": "Mint.",
+          "start_time": 21.239,
+          "end_time": 21.459
+        }
+      ]
+    },
+    {
+      "text": "The silver is long gone.",
+      "start_time": 21.719,
+      "end_time": 22.799,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 21.719,
+          "end_time": 21.78
+        },
+        {
+          "text": " ",
+          "start_time": 21.78,
+          "end_time": 21.879
+        },
+        {
+          "text": "silver",
+          "start_time": 21.879,
+          "end_time": 22.079
+        },
+        {
+          "text": " ",
+          "start_time": 22.079,
+          "end_time": 22.139
+        },
+        {
+          "text": "is",
+          "start_time": 22.139,
+          "end_time": 22.239
+        },
+        {
+          "text": " ",
+          "start_time": 22.239,
+          "end_time": 22.299
+        },
+        {
+          "text": "long",
+          "start_time": 22.299,
+          "end_time": 22.479
+        },
+        {
+          "text": " ",
+          "start_time": 22.479,
+          "end_time": 22.539
+        },
+        {
+          "text": "gone.",
+          "start_time": 22.539,
+          "end_time": 22.799
+        }
+      ]
+    },
+    {
+      "text": "The ridges stayed.",
+      "start_time": 22.939,
+      "end_time": 23.679,
+      "speaker": "narrator",
+      "words": [
+        {
+          "text": "The",
+          "start_time": 22.939,
+          "end_time": 22.979
+        },
+        {
+          "text": " ",
+          "start_time": 22.979,
+          "end_time": 23.059
+        },
+        {
+          "text": "ridges",
+          "start_time": 23.059,
+          "end_time": 23.34
+        },
+        {
+          "text": " ",
+          "start_time": 23.34,
+          "end_time": 23.379
+        },
+        {
+          "text": "stayed.",
+          "start_time": 23.379,
+          "end_time": 23.679
+        }
+      ]
+    }
+  ]
+}

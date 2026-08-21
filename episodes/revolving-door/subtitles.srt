@@ -1,0 +1,55 @@
+1
+00:00:00,059 --> 00:00:02,200
+A revolving door is slower than a normal door,
+
+2
+00:00:02,500 --> 00:00:04,360
+more expensive to build, and much harder to
+
+3
+00:00:04,420 --> 00:00:06,159
+carry anything through, and tall buildings
+
+4
+00:00:06,219 --> 00:00:07,239
+keep installing them anyway.
+
+5
+00:00:07,579 --> 00:00:09,939
+Warm air inside a tall building rises and escapes
+
+6
+00:00:09,979 --> 00:00:11,759
+out of the top, and that pulls cold air
+
+7
+00:00:11,779 --> 00:00:12,739
+in hard at street level.
+
+8
+00:00:12,979 --> 00:00:13,979
+On an ordinary door,
+
+9
+00:00:14,299 --> 00:00:15,939
+that pressure difference turns the entrance
+
+10
+00:00:15,979 --> 00:00:17,879
+into a wind tunnel and throws the heating out
+
+11
+00:00:17,920 --> 00:00:18,520
+into the street.
+
+12
+00:00:18,799 --> 00:00:20,699
+A revolving door never actually opens.
+
+13
+00:00:20,979 --> 00:00:22,979
+Only the wedge of air in your compartment travels
+
+14
+00:00:23,019 --> 00:00:23,619
+with you.
