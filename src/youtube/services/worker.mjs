@@ -18,6 +18,17 @@ import { getDb, now } from '../db/index.mjs';
 import { JOB_STATE, JOB_TYPE, PUBLISH_STATE } from '../domain/states.mjs';
 import { log } from '../server/logger.mjs';
 
+/**
+ * The claim predicate, exported so a test can exercise the REAL query.
+ *
+ * A copy of this SQL in a test would pass happily while the worker drifted, and this exact
+ * clause is the one that regressed: `next_retry_at` was honoured when promoting a retry but
+ * ignored when claiming, so a job queued for next week ran the instant it was created.
+ */
+export const CLAIM_SQL = `SELECT * FROM job WHERE state = ?
+                          AND (next_retry_at IS NULL OR next_retry_at <= ?)
+                          ORDER BY id ASC LIMIT 1`;
+
 const POLL_MS = 1000;
 const RETRYABLE = new Set(['UPSTREAM_ERROR', 'NETWORK', 'INTERNAL']);
 
@@ -63,9 +74,7 @@ async function tick() {
    * later. A queue that cannot hold work for later is not a scheduler.
    */
   const claim = db.transaction(() => {
-    const j = db.prepare(`SELECT * FROM job WHERE state = ?
-                          AND (next_retry_at IS NULL OR next_retry_at <= ?)
-                          ORDER BY id ASC LIMIT 1`).get(JOB_STATE.PENDING, now());
+    const j = db.prepare(CLAIM_SQL).get(JOB_STATE.PENDING, now());
     if (!j) return null;
     db.prepare('UPDATE job SET state = ?, attempt = attempt + 1, updated_at = ? WHERE id = ?')
       .run(JOB_STATE.RUNNING, now(), j.id);
