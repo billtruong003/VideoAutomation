@@ -80,7 +80,7 @@ const PAGE = (title, body) =>
  * Resolves only after Google redirects back to the loopback listener, so the caller can
  * simply await it. The listener is torn down in every path, including failure.
  */
-async function authorizeInteractive(client, scopes) {
+async function authorizeInteractive(client, scopes, { openInBrowser = true } = {}) {
   const verifier = b64url(randomBytes(48));
   const challenge = b64url(createHash('sha256').update(verifier).digest());
   const state = b64url(randomBytes(24));
@@ -150,8 +150,22 @@ async function authorizeInteractive(client, scopes) {
       });
 
       console.log(`  loopback listener : ${redirectUri}`);
-      const via = openBrowser(authUrl);
-      console.log(`  browser           : ${via === 'system default' ? 'OS default' : 'Chrome'}`);
+      if (openInBrowser) {
+        const via = openBrowser(authUrl);
+        console.log(`  browser           : ${via === 'system default' ? 'OS default' : 'Chrome'}`);
+      } else {
+        /*
+         * Launching the URL hands it to the ALREADY RUNNING Chrome, which opens a tab in
+         * whichever window has focus and takes that focus away. Acceptable for a one-off
+         * setup, rude in the middle of someone's work — so a caller can ask for the URL and
+         * open it where it belongs.
+         */
+        console.log('');
+        console.log('  Nothing was launched. Open this URL yourself:');
+        console.log('');
+        console.log(`  ${authUrl}`);
+        console.log('');
+      }
       console.log('  waiting for the Google consent callback (5 min timeout)…\n');
     });
 
@@ -168,7 +182,7 @@ async function authorizeInteractive(client, scopes) {
  * `google-auth-library` refreshes the access token on demand from the refresh token, and we
  * persist whatever it hands back so a rotated refresh token is never lost.
  */
-export async function getAuthorisedClient({ scopes = SCOPES.read, interactive = true } = {}) {
+export async function getAuthorisedClient({ scopes = SCOPES.read, interactive = true, openInBrowser = true } = {}) {
   const cfg = loadOAuthClientConfig();
 
   if (cfg.kind !== 'installed') {
@@ -203,7 +217,7 @@ export async function getAuthorisedClient({ scopes = SCOPES.read, interactive = 
 
   if (!interactive) throw new Error('AUTH_REQUIRED: no usable stored grant and interactive mode is off');
 
-  const tokens = await authorizeInteractive(client, scopes);
+  const tokens = await authorizeInteractive(client, scopes, { openInBrowser });
   client.setCredentials(tokens);
   saveTokens(tokens);
   client.on('tokens', (t) => saveTokens({ ...tokens, ...t }));

@@ -66,7 +66,43 @@ function dpapiAvailable() {
 
 export const storageMode = () => (dpapiAvailable() ? 'dpapi' : 'plaintext');
 
-export function saveTokens(tokens) {
+/** The scopes a token grants, as a set. */
+const scopeSet = (t) => new Set(
+  typeof t?.scope === 'string' ? t.scope.split(' ').filter(Boolean) : [],
+);
+
+/**
+ * Refuse to replace a grant with a strictly narrower one.
+ *
+ * This is not hypothetical. `youtube-doctor.mjs` asks for read scopes and re-consents when the
+ * stored token is stale; running it after a release grant existed overwrote that grant with a
+ * read-only one, and the next publish attempt failed with "no usable stored grant". The upload
+ * capability was gone and nothing had said so.
+ *
+ * A narrower consent still WORKS for the tool that requested it — the client is live in memory
+ * either way. What it must not do is destroy a broader stored grant on its way past. So a
+ * subset is used and not persisted, and anything else is written normally.
+ *
+ * `allowDowngrade` exists for a deliberate reduction, which is a real thing to want and should
+ * have to be asked for by name.
+ */
+export function saveTokens(tokens, { allowDowngrade = false } = {}) {
+  if (!allowDowngrade) {
+    const incoming = scopeSet(tokens);
+    const stored = scopeSet(loadTokens());
+    // A refresh returns no `scope` field; that is not a downgrade, it is the same grant.
+    if (incoming.size && stored.size) {
+      const lost = [...stored].filter((s) => !incoming.has(s));
+      if (lost.length && [...incoming].every((s) => stored.has(s))) {
+        console.warn(
+          `  [auth] keeping the broader stored grant; not persisting a narrower one.\n`
+          + `         would have lost: ${lost.map((s) => s.split('/auth/')[1]).join(', ')}`,
+        );
+        return;
+      }
+    }
+  }
+
   ensureStateDir();
   const json = JSON.stringify(tokens);
 
