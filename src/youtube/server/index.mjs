@@ -12,7 +12,10 @@
  */
 
 import express from 'express';
-import { createReadStream, statSync } from 'node:fs';
+import { createReadStream, existsSync, statSync } from 'node:fs';
+import * as af from '../../audio-factory/orchestrator.mjs';
+import * as afSecret from '../../audio-factory/elevenlabs/secret.mjs';
+import { validateBatch as afValidateBatch } from '../../audio-factory/intake.mjs';
 import { extname } from 'node:path';
 import { z } from 'zod';
 
@@ -161,6 +164,114 @@ export function createServer() {
   // UI must not own a second implementation of them.
   app.post('/api/tags/normalise', wrap(async (req, res) =>
     res.json(svc.normaliseTags(TagsBody.parse(req.body ?? {}).tags))));
+
+  // ------------------------------------------------------ audio factory
+  /*
+   * The script-to-audio factory. Everything ElevenLabs happens behind these routes: the
+   * frontend never holds the API key and never calls ElevenLabs directly.
+   */
+  app.get('/api/factory/health', wrap(async (req, res) => {
+    const key = afSecret.describeKey();
+    if (!key.present) { res.json({ key, connected: false }); return; }
+    try {
+      const [subscription, models] = await Promise.all([af.getSubscription(), af.listModels()]);
+      let voice = null; let voiceError = null;
+      try { voice = await af.getVoice('TX3LPaxmHKxFdv7VOQHJ'); }
+      catch (e) { voiceError = { code: e.code, message: e.message }; }
+      res.json({ key, connected: true, subscription, models, defaultVoice: voice, voiceError });
+    } catch (e) {
+      res.json({ key, connected: false, error: { code: e.code ?? 'ELEVENLABS_UNKNOWN', message: e.message } });
+    }
+  }));
+
+  const KeyBody = z.object({ apiKey: z.string().min(10) });
+  app.post('/api/factory/key', wrap(async (req, res) => {
+    const { apiKey } = KeyBody.parse(req.body ?? {});
+    const mode = afSecret.saveKey(apiKey);
+    // The response says only how it was stored. It never echoes the key back.
+    res.json({ stored: true, mode, ...afSecret.describeKey() });
+  }));
+
+  app.delete('/api/factory/key', wrap(async (req, res) => {
+    afSecret.clearKey();
+    res.json(afSecret.describeKey());
+  }));
+
+  app.get('/api/factory/voices', wrap(async (req, res) => {
+    const search = typeof req.query.search === 'string' ? req.query.search : undefined;
+    res.json(await af.listVoices({ search }));
+  }));
+
+  app.get('/api/factory/batches', wrap(async (req, res) => res.json(af.listBatches())));
+
+  app.get('/api/factory/batches/:id', wrap(async (req, res) => res.json(af.getBatch(req.params.id))));
+
+  const ImportBody = z.object({ batchId: z.string().optional(), input: z.any() });
+  app.post('/api/factory/batches', wrap(async (req, res) => {
+    const { batchId, input } = ImportBody.parse(req.body ?? {});
+    res.json(af.importBatch(input, { batchId }));
+  }));
+
+  /** Dry validation, for the import screen -- persists nothing. */
+  app.post('/api/factory/validate', wrap(async (req, res) => {
+    const { input } = ImportBody.parse(req.body ?? {});
+    res.json(afValidateBatch(input));
+  }));
+
+  app.get('/api/factory/batches/:id/preflight', wrap(async (req, res) =>
+    res.json(await af.preflight(req.params.id, { modelPreference: req.query.strategy || 'quality' }))));
+
+  const LockBody = z.object({
+    voiceId: z.string().optional(), modelId: z.string().optional(),
+    outputFormat: z.string().optional(), preference: z.string().optional(),
+  });
+  app.post('/api/factory/batches/:id/lock-voice', wrap(async (req, res) =>
+    res.json(await af.lockVoice(req.params.id, LockBody.parse(req.body ?? {})))));
+
+  app.post('/api/factory/batches/:id/stage/tts', wrap(async (req, res) =>
+    res.json(await af.runTtsStage(req.params.id, { concurrency: Number(req.body?.concurrency) || undefined }))));
+
+  app.post('/api/factory/batches/:id/stage/review', wrap(async (req, res) =>
+    res.json(af.runReviewStage(req.params.id))));
+
+  app.post('/api/factory/batches/:id/stage/process', wrap(async (req, res) =>
+    res.json(af.runProcessingStage(req.params.id))));
+
+  app.post('/api/factory/batches/:id/stage/stt', wrap(async (req, res) =>
+    res.json(await af.runSttStage(req.params.id))));
+
+  app.post('/api/factory/batches/:id/stage/align', wrap(async (req, res) =>
+    res.json(await af.runAlignmentStage(req.params.id))));
+
+  app.post('/api/factory/batches/:id/advance', wrap(async (req, res) =>
+    res.json(af.advanceStage(req.params.id))));
+
+  const OverrideBody = z.object({ episodeId: z.string(), take: z.enum(['A', 'B', 'C', 'D']), reason: z.string().optional() });
+  app.post('/api/factory/batches/:id/override', wrap(async (req, res) => {
+    const { episodeId, take, reason } = OverrideBody.parse(req.body ?? {});
+    res.json(af.overrideWinner(req.params.id, episodeId, take, reason));
+  }));
+
+  const ExcludeBody = z.object({ episodeId: z.string(), excluded: z.boolean().default(true) });
+  app.post('/api/factory/batches/:id/exclude', wrap(async (req, res) => {
+    const { episodeId, excluded } = ExcludeBody.parse(req.body ?? {});
+    res.json(af.excludeEpisode(req.params.id, episodeId, excluded));
+  }));
+
+  app.get('/api/factory/batches/:id/export', wrap(async (req, res) => res.json(af.exportBatch(req.params.id))));
+
+  /**
+   * Stream one take for audition. Located by database id, never by a path from the request,
+   * so no input can name a file outside the take cache.
+   */
+  app.get('/api/factory/takes/:takeId/audio', wrap(async (req, res) => {
+    const t = getDb().prepare('SELECT audio_path FROM af_take WHERE id = ?').get(Number(req.params.takeId));
+    if (!t?.audio_path || !existsSync(t.audio_path)) { res.status(404).json({ error: 'take audio not found' }); return; }
+    const stat = statSync(t.audio_path);
+    res.set({ 'Content-Type': t.audio_path.endsWith('.mp3') ? 'audio/mpeg' : 'audio/wav',
+      'Content-Length': stat.size, 'Accept-Ranges': 'bytes' });
+    createReadStream(t.audio_path).pipe(res);
+  }));
 
   // --------------------------------------------------------- audio library
   const AudioQuery = z.object({

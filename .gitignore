@@ -63,3 +63,7 @@ desktop.ini
 # Creator OS local build output
 app/dist/
 
+
+# ElevenLabs audio factory — raw take cache lives outside the repo (see orchestrator.mjs).
+# Nothing here should ever be committed, but ignore it explicitly in case of a stray copy.
+/audio-factory-cache/

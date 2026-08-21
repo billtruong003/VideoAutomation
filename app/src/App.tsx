@@ -15,6 +15,7 @@ import VideoDetail from './pages/VideoDetail';
 import MetadataStudio from './pages/MetadataStudio';
 import PublishStudio from './pages/PublishStudio';
 import Queue from './pages/Queue';
+import Batches from './pages/Batches';
 import AudioLibrary from './pages/AudioLibrary';
 import BatchReview from './pages/BatchReview';
 import Analytics from './pages/Analytics';
@@ -24,6 +25,12 @@ import Settings from './pages/Settings';
 
 const NAV = [
   { label: null, items: [{ to: '/dashboard', text: 'Dashboard' }] },
+  {
+    label: 'Production',
+    items: [
+      { to: '/batches', text: 'Batches' },
+    ],
+  },
   {
     label: 'Content',
     items: [
@@ -103,6 +110,7 @@ export default function App() {
           <Route path="/videos/:id" element={<VideoDetail />} />
           <Route path="/metadata" element={<MetadataStudio />} />
           <Route path="/metadata/:id" element={<MetadataStudio />} />
+          <Route path="/batches" element={<Batches />} />
           <Route path="/batch" element={<BatchReview />} />
           <Route path="/audio" element={<AudioLibrary />} />
           <Route path="/publish" element={<PublishStudio />} />
