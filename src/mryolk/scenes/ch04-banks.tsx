@@ -169,6 +169,12 @@ export const Ch04BanksCreateMoney: React.FC = () => {
       {/* ---- 3:19-3:32 your money is someone else's debt ---- */}
       <Sequence from={at(199.2)}>
         <Camera push={0.04} frames={at(212.6) - at(199.2)}>
+          {/* Lands at once, so the section does not open on four seconds of empty page. */}
+          <FadeIn delay={2}>
+            <Label x={STAGE.cx} y={230} size={T.title} weight={900} tone="violet" caps width={1700} track={2} fit>
+              a strange fact
+            </Label>
+          </FadeIn>
           <Sequence from={wAfter('deposit', at(199.2)) - at(199.2) - 6}>
             <Node at={{ x: 560, y: 400 }} label="YOUR DEPOSIT" sub="an asset, to you" width={420} height={130} tone={C.green} />
             <Yolk slug="thumbs-up-wink" height={220} x={560} y={720} anchor="bottom" />

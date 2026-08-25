@@ -151,7 +151,13 @@ export const Ch02TimeMachine: React.FC = () => {
           rather than narration because the joke is that it is a negotiation nobody thinks
           about — seeing it written down as a conversation is what makes it land.
         */}
-        <Sequence from={at(77.8)}>
+        {/*
+          `- at(74.2)` because this sits INSIDE the sequence that starts there, and a nested
+          `from` is measured from its parent rather than from the scene. Without the
+          subtraction the dialogue was scheduled 30 seconds past the end of the chapter and
+          simply never appeared — the four plates were absent from the whole first render.
+        */}
+        <Sequence from={at(77.8) - at(74.2)}>
           <Yolk slug="shrug-empty-hands" height={300} x={430} y={720} anchor="bottom" />
           <Yolk slug="at-the-bank" height={300} x={1490} y={720} anchor="bottom" />
 

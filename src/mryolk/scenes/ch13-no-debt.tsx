@@ -57,7 +57,7 @@ export const Ch13WhyNotRemoveIt: React.FC = () => {
       </Sequence>
 
       {/* ---- 10:28-10:56 the world without it ---- */}
-      <Sequence from={at(631.2)} durationInFrames={at(656.4) - at(631.2)}>
+      <Sequence from={at(631.2)} durationInFrames={at(665.2) - at(631.2)}>
         <Label x={STAGE.cx} y={140} size={T.title} weight={900} tone="ink" caps width={1700} track={2}>
           a world where you can only spend what you have
         </Label>
@@ -114,9 +114,9 @@ export const Ch13WhyNotRemoveIt: React.FC = () => {
       </Sequence>
 
       {/* ---- 11:05-11:19 the bridge ---- */}
-      <Sequence from={at(656.2)}>
-        <Camera push={0.04} frames={at(679.6) - at(656.2)}>
-          <Sequence from={w('connects') - at(656.2) - 6}>
+      <Sequence from={at(665.0)}>
+        <Camera push={0.04} frames={at(679.6) - at(665.0)}>
+          <Sequence from={Math.max(0, w('connects') - at(665.0) - 6)}>
             <Node
               at={{ x: 400, y: 400 }}
               label="RESOURCES TODAY"
@@ -128,7 +128,7 @@ export const Ch13WhyNotRemoveIt: React.FC = () => {
             <Yolk slug="piggy-bank-saving" height={230} x={400} y={780} anchor="bottom" />
           </Sequence>
 
-          <Sequence from={w('tomorrow', 1) - at(656.2) - 6}>
+          <Sequence from={w('tomorrow', 1) - at(665.0) - 6}>
             <Node
               at={{ x: 1520, y: 400 }}
               label="VALUE TOMORROW"
@@ -140,7 +140,7 @@ export const Ch13WhyNotRemoveIt: React.FC = () => {
             <Yolk slug="new-factory-sparkle" height={230} x={1520} y={780} anchor="bottom" />
           </Sequence>
 
-          <Sequence from={w('bridge') - at(656.2) - 6}>
+          <Sequence from={w('bridge') - at(665.0) - 6}>
             <Arrow
               from={{ x: 650, y: 400 }}
               to={{ x: 1270, y: 400 }}

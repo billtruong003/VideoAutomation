@@ -25,10 +25,10 @@ import { ctxFor, STAGE } from './kit';
 
 /** The four borrowers, each with the drawing and the footage that proves it is real. */
 const BORROWERS = [
-  { word: 'factories', stock: 'factory-industrial-1', label: 'FACTORIES' },
-  { word: 'planes', stock: 'airliner-airport-1', label: 'PLANES' },
-  { word: 'equipment', stock: 'farm-tractor-1', label: 'EQUIPMENT' },
-  { word: 'roads', stock: 'highway-interchange-1', label: 'ROADS' },
+  { word: 'Businesses', stock: 'factory-industrial-1', label: 'FACTORIES' },
+  { word: 'Airlines', stock: 'airliner-airport-1', label: 'PLANES' },
+  { word: 'Farmers', stock: 'farm-tractor-1', label: 'EQUIPMENT' },
+  { word: 'Cities', stock: 'highway-interchange-1', label: 'ROADS' },
 ] as const;
 
 export const Ch03WaitingIsExpensive: React.FC = () => {

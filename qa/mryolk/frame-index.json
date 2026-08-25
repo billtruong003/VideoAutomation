@@ -1,0 +1,920 @@
+[
+  {
+    "file": "q000-0001s.png",
+    "atSeconds": 1.3,
+    "reason": "ch01 opens — What if all debt disappeared?",
+    "blankFraction": 0.9181
+  },
+  {
+    "file": "q001-0003s.png",
+    "atSeconds": 3,
+    "reason": "sweep",
+    "blankFraction": 0.8991
+  },
+  {
+    "file": "q002-0014s.png",
+    "atSeconds": 14,
+    "reason": "sweep",
+    "blankFraction": 0.9238
+  },
+  {
+    "file": "q003-0019s.png",
+    "atSeconds": 19.2,
+    "reason": "ch01 mid",
+    "blankFraction": 0.8875
+  },
+  {
+    "file": "q004-0025s.png",
+    "atSeconds": 25,
+    "reason": "sweep",
+    "blankFraction": 0.6813
+  },
+  {
+    "file": "q005-0036s.png",
+    "atSeconds": 36,
+    "reason": "ch01 late",
+    "blankFraction": 0.0168
+  },
+  {
+    "file": "q006-0047s.png",
+    "atSeconds": 47,
+    "reason": "sweep",
+    "blankFraction": 0.8986
+  },
+  {
+    "file": "q007-0047s.png",
+    "atSeconds": 47.2,
+    "reason": "ch01 ends",
+    "blankFraction": 0.8989
+  },
+  {
+    "file": "q008-0049s.png",
+    "atSeconds": 48.9,
+    "reason": "ch02 chapter card",
+    "blankFraction": 0.9534
+  },
+  {
+    "file": "q009-0049s.png",
+    "atSeconds": 49.2,
+    "reason": "ch02 opens — Debt is a time machine",
+    "blankFraction": 0.9534
+  },
+  {
+    "file": "q010-0058s.png",
+    "atSeconds": 58,
+    "reason": "sweep",
+    "blankFraction": 0.8646
+  },
+  {
+    "file": "q011-0067s.png",
+    "atSeconds": 66.6,
+    "reason": "ch02 mid",
+    "blankFraction": 0.955
+  },
+  {
+    "file": "q012-0069s.png",
+    "atSeconds": 69,
+    "reason": "sweep",
+    "blankFraction": 0.9051
+  },
+  {
+    "file": "q013-0080s.png",
+    "atSeconds": 80,
+    "reason": "sweep",
+    "blankFraction": 0.9186
+  },
+  {
+    "file": "q014-0083s.png",
+    "atSeconds": 83,
+    "reason": "ch02 late",
+    "blankFraction": 0.9118
+  },
+  {
+    "file": "q015-0091s.png",
+    "atSeconds": 91,
+    "reason": "sweep",
+    "blankFraction": 0.8716
+  },
+  {
+    "file": "q016-0094s.png",
+    "atSeconds": 93.8,
+    "reason": "ch02 ends",
+    "blankFraction": 0.8611
+  },
+  {
+    "file": "q017-0096s.png",
+    "atSeconds": 95.8,
+    "reason": "ch03 opens — Waiting is expensive",
+    "blankFraction": 0.8319
+  },
+  {
+    "file": "q018-0102s.png",
+    "atSeconds": 102,
+    "reason": "sweep",
+    "blankFraction": 0.3551
+  },
+  {
+    "file": "q019-0113s.png",
+    "atSeconds": 113,
+    "reason": "sweep",
+    "blankFraction": 0.9791
+  },
+  {
+    "file": "q020-0117s.png",
+    "atSeconds": 117.1,
+    "reason": "ch03 mid",
+    "blankFraction": 0.9572
+  },
+  {
+    "file": "q021-0124s.png",
+    "atSeconds": 124,
+    "reason": "sweep",
+    "blankFraction": 0.9247
+  },
+  {
+    "file": "q022-0135s.png",
+    "atSeconds": 135,
+    "reason": "sweep",
+    "blankFraction": 0.893
+  },
+  {
+    "file": "q023-0137s.png",
+    "atSeconds": 136.8,
+    "reason": "ch03 late",
+    "blankFraction": 0.9618
+  },
+  {
+    "file": "q024-0146s.png",
+    "atSeconds": 146,
+    "reason": "sweep",
+    "blankFraction": 0.8801
+  },
+  {
+    "file": "q025-0150s.png",
+    "atSeconds": 150,
+    "reason": "ch03 ends",
+    "blankFraction": 0.8809
+  },
+  {
+    "file": "q026-0152s.png",
+    "atSeconds": 151.7,
+    "reason": "ch04 chapter card",
+    "blankFraction": 0.2447
+  },
+  {
+    "file": "q027-0152s.png",
+    "atSeconds": 152,
+    "reason": "ch04 opens — Banks create money",
+    "blankFraction": 0.2447
+  },
+  {
+    "file": "q028-0157s.png",
+    "atSeconds": 157,
+    "reason": "sweep",
+    "blankFraction": 0.0239
+  },
+  {
+    "file": "q029-0168s.png",
+    "atSeconds": 168,
+    "reason": "sweep",
+    "blankFraction": 0.9342
+  },
+  {
+    "file": "q030-0176s.png",
+    "atSeconds": 175.7,
+    "reason": "ch04 mid",
+    "blankFraction": 0.8518
+  },
+  {
+    "file": "q031-0179s.png",
+    "atSeconds": 179,
+    "reason": "sweep",
+    "blankFraction": 0.8506
+  },
+  {
+    "file": "q032-0190s.png",
+    "atSeconds": 190,
+    "reason": "sweep",
+    "blankFraction": 0.9024
+  },
+  {
+    "file": "q033-0197s.png",
+    "atSeconds": 197.4,
+    "reason": "ch04 late",
+    "blankFraction": 0.8525
+  },
+  {
+    "file": "q034-0201s.png",
+    "atSeconds": 201,
+    "reason": "sweep",
+    "blankFraction": 0.9915
+  },
+  {
+    "file": "q035-0212s.png",
+    "atSeconds": 212,
+    "reason": "sweep",
+    "blankFraction": 0.911
+  },
+  {
+    "file": "q036-0212s.png",
+    "atSeconds": 212.1,
+    "reason": "ch04 ends",
+    "blankFraction": 0.9106
+  },
+  {
+    "file": "q037-0214s.png",
+    "atSeconds": 214.1,
+    "reason": "ch05 opens — Who lends to whom?",
+    "blankFraction": 0.9305
+  },
+  {
+    "file": "q038-0223s.png",
+    "atSeconds": 223,
+    "reason": "sweep",
+    "blankFraction": 0.9754
+  },
+  {
+    "file": "q039-0227s.png",
+    "atSeconds": 227.1,
+    "reason": "ch05 mid",
+    "blankFraction": 0.9268
+  },
+  {
+    "file": "q040-0234s.png",
+    "atSeconds": 234,
+    "reason": "sweep",
+    "blankFraction": 0.8521
+  },
+  {
+    "file": "q041-0239s.png",
+    "atSeconds": 239.4,
+    "reason": "ch05 late",
+    "blankFraction": 0.9347
+  },
+  {
+    "file": "q042-0245s.png",
+    "atSeconds": 245,
+    "reason": "sweep",
+    "blankFraction": 0.8881
+  },
+  {
+    "file": "q043-0247s.png",
+    "atSeconds": 247.4,
+    "reason": "ch05 ends",
+    "blankFraction": 0.8863
+  },
+  {
+    "file": "q044-0249s.png",
+    "atSeconds": 249.1,
+    "reason": "ch06 chapter card",
+    "blankFraction": 0.2652
+  },
+  {
+    "file": "q045-0249s.png",
+    "atSeconds": 249.4,
+    "reason": "ch06 opens — Government debt",
+    "blankFraction": 0.2655
+  },
+  {
+    "file": "q046-0256s.png",
+    "atSeconds": 256,
+    "reason": "sweep",
+    "blankFraction": 0.8101
+  },
+  {
+    "file": "q047-0267s.png",
+    "atSeconds": 267,
+    "reason": "sweep",
+    "blankFraction": 0.9368
+  },
+  {
+    "file": "q048-0278s.png",
+    "atSeconds": 278,
+    "reason": "sweep",
+    "blankFraction": 0.9182
+  },
+  {
+    "file": "q049-0279s.png",
+    "atSeconds": 279,
+    "reason": "ch06 mid",
+    "blankFraction": 0.9182
+  },
+  {
+    "file": "q050-0289s.png",
+    "atSeconds": 289,
+    "reason": "sweep",
+    "blankFraction": 0.7143
+  },
+  {
+    "file": "q051-0300s.png",
+    "atSeconds": 300,
+    "reason": "sweep",
+    "blankFraction": 0.8398
+  },
+  {
+    "file": "q052-0306s.png",
+    "atSeconds": 305.9,
+    "reason": "ch06 late",
+    "blankFraction": 0.9834
+  },
+  {
+    "file": "q053-0311s.png",
+    "atSeconds": 311,
+    "reason": "sweep",
+    "blankFraction": 0.8875
+  },
+  {
+    "file": "q054-0322s.png",
+    "atSeconds": 322,
+    "reason": "sweep",
+    "blankFraction": 0.9645
+  },
+  {
+    "file": "q055-0324s.png",
+    "atSeconds": 324.3,
+    "reason": "ch06 ends",
+    "blankFraction": 0.9565
+  },
+  {
+    "file": "q056-0326s.png",
+    "atSeconds": 326.3,
+    "reason": "ch07 opens — Can it handle it?",
+    "blankFraction": 0.98
+  },
+  {
+    "file": "q057-0333s.png",
+    "atSeconds": 333,
+    "reason": "sweep",
+    "blankFraction": 0.8008
+  },
+  {
+    "file": "q058-0344s.png",
+    "atSeconds": 344,
+    "reason": "sweep",
+    "blankFraction": 0.9766
+  },
+  {
+    "file": "q059-0350s.png",
+    "atSeconds": 349.5,
+    "reason": "ch07 mid",
+    "blankFraction": 0.9663
+  },
+  {
+    "file": "q060-0355s.png",
+    "atSeconds": 355,
+    "reason": "sweep",
+    "blankFraction": 0.9227
+  },
+  {
+    "file": "q061-0366s.png",
+    "atSeconds": 366,
+    "reason": "sweep",
+    "blankFraction": 0.943
+  },
+  {
+    "file": "q062-0371s.png",
+    "atSeconds": 370.9,
+    "reason": "ch07 late",
+    "blankFraction": 0.9102
+  },
+  {
+    "file": "q063-0377s.png",
+    "atSeconds": 377,
+    "reason": "sweep",
+    "blankFraction": 0.8119
+  },
+  {
+    "file": "q064-0385s.png",
+    "atSeconds": 385.3,
+    "reason": "ch07 ends",
+    "blankFraction": 0.7399
+  },
+  {
+    "file": "q065-0387s.png",
+    "atSeconds": 387.3,
+    "reason": "ch08 opens — Productive or stupid",
+    "blankFraction": 0.9816
+  },
+  {
+    "file": "q066-0388s.png",
+    "atSeconds": 388,
+    "reason": "sweep",
+    "blankFraction": 0.8879
+  },
+  {
+    "file": "q067-0396s.png",
+    "atSeconds": 396,
+    "reason": "ch08 mid",
+    "blankFraction": 0.7997
+  },
+  {
+    "file": "q068-0399s.png",
+    "atSeconds": 399,
+    "reason": "sweep",
+    "blankFraction": 0.7965
+  },
+  {
+    "file": "q069-0405s.png",
+    "atSeconds": 404.6,
+    "reason": "ch08 late",
+    "blankFraction": 0.97
+  },
+  {
+    "file": "q070-0410s.png",
+    "atSeconds": 409.9,
+    "reason": "ch08 ends",
+    "blankFraction": 0.9664
+  },
+  {
+    "file": "q071-0410s.png",
+    "atSeconds": 410,
+    "reason": "sweep",
+    "blankFraction": 0.9637
+  },
+  {
+    "file": "q072-0412s.png",
+    "atSeconds": 411.6,
+    "reason": "ch09 chapter card",
+    "blankFraction": 0.9464
+  },
+  {
+    "file": "q073-0412s.png",
+    "atSeconds": 411.9,
+    "reason": "ch09 opens — Leverage",
+    "blankFraction": 0.9464
+  },
+  {
+    "file": "q074-0421s.png",
+    "atSeconds": 421,
+    "reason": "sweep",
+    "blankFraction": 0.9549
+  },
+  {
+    "file": "q075-0432s.png",
+    "atSeconds": 432,
+    "reason": "sweep",
+    "blankFraction": 0.9611
+  },
+  {
+    "file": "q076-0433s.png",
+    "atSeconds": 433.1,
+    "reason": "ch09 mid",
+    "blankFraction": 0.9492
+  },
+  {
+    "file": "q077-0443s.png",
+    "atSeconds": 443,
+    "reason": "sweep",
+    "blankFraction": 0.8444
+  },
+  {
+    "file": "q078-0453s.png",
+    "atSeconds": 452.7,
+    "reason": "ch09 late",
+    "blankFraction": 0.9601
+  },
+  {
+    "file": "q079-0454s.png",
+    "atSeconds": 454,
+    "reason": "sweep",
+    "blankFraction": 0.9601
+  },
+  {
+    "file": "q080-0465s.png",
+    "atSeconds": 465,
+    "reason": "sweep",
+    "blankFraction": 0.902
+  },
+  {
+    "file": "q081-0466s.png",
+    "atSeconds": 465.9,
+    "reason": "ch09 ends",
+    "blankFraction": 0.9019
+  },
+  {
+    "file": "q082-0468s.png",
+    "atSeconds": 467.6,
+    "reason": "ch10 chapter card",
+    "blankFraction": 0.9722
+  },
+  {
+    "file": "q083-0468s.png",
+    "atSeconds": 467.9,
+    "reason": "ch10 opens — Trust",
+    "blankFraction": 0.9722
+  },
+  {
+    "file": "q084-0476s.png",
+    "atSeconds": 476,
+    "reason": "sweep",
+    "blankFraction": 0.9551
+  },
+  {
+    "file": "q085-0482s.png",
+    "atSeconds": 482.2,
+    "reason": "ch10 mid",
+    "blankFraction": 0.9758
+  },
+  {
+    "file": "q086-0487s.png",
+    "atSeconds": 487,
+    "reason": "sweep",
+    "blankFraction": 0.96
+  },
+  {
+    "file": "q087-0496s.png",
+    "atSeconds": 495.9,
+    "reason": "ch10 late",
+    "blankFraction": 0.9004
+  },
+  {
+    "file": "q088-0498s.png",
+    "atSeconds": 498,
+    "reason": "sweep",
+    "blankFraction": 0.8921
+  },
+  {
+    "file": "q089-0505s.png",
+    "atSeconds": 504.8,
+    "reason": "ch10 ends",
+    "blankFraction": 0.7936
+  },
+  {
+    "file": "q090-0507s.png",
+    "atSeconds": 506.8,
+    "reason": "ch11 opens — When credit breaks",
+    "blankFraction": 0.9886
+  },
+  {
+    "file": "q091-0509s.png",
+    "atSeconds": 509,
+    "reason": "sweep",
+    "blankFraction": 0.9784
+  },
+  {
+    "file": "q092-0520s.png",
+    "atSeconds": 520,
+    "reason": "sweep",
+    "blankFraction": 0.9291
+  },
+  {
+    "file": "q093-0527s.png",
+    "atSeconds": 526.7,
+    "reason": "ch11 mid",
+    "blankFraction": 0.9289
+  },
+  {
+    "file": "q094-0531s.png",
+    "atSeconds": 531,
+    "reason": "sweep",
+    "blankFraction": 0.8607
+  },
+  {
+    "file": "q095-0542s.png",
+    "atSeconds": 542,
+    "reason": "sweep",
+    "blankFraction": 0.8867
+  },
+  {
+    "file": "q096-0545s.png",
+    "atSeconds": 545.2,
+    "reason": "ch11 late",
+    "blankFraction": 0.7945
+  },
+  {
+    "file": "q097-0553s.png",
+    "atSeconds": 553,
+    "reason": "sweep",
+    "blankFraction": 0.4451
+  },
+  {
+    "file": "q098-0558s.png",
+    "atSeconds": 557.5,
+    "reason": "ch11 ends",
+    "blankFraction": 0.3914
+  },
+  {
+    "file": "q099-0559s.png",
+    "atSeconds": 559.2,
+    "reason": "ch12 chapter card",
+    "blankFraction": 0.2657
+  },
+  {
+    "file": "q100-0560s.png",
+    "atSeconds": 559.5,
+    "reason": "ch12 opens — 2008",
+    "blankFraction": 0.2662
+  },
+  {
+    "file": "q101-0564s.png",
+    "atSeconds": 564,
+    "reason": "sweep",
+    "blankFraction": 0.0224
+  },
+  {
+    "file": "q102-0575s.png",
+    "atSeconds": 575,
+    "reason": "sweep",
+    "blankFraction": 0.9694
+  },
+  {
+    "file": "q103-0582s.png",
+    "atSeconds": 582.1,
+    "reason": "ch12 mid",
+    "blankFraction": 0.8812
+  },
+  {
+    "file": "q104-0586s.png",
+    "atSeconds": 586,
+    "reason": "sweep",
+    "blankFraction": 0.8315
+  },
+  {
+    "file": "q105-0597s.png",
+    "atSeconds": 597,
+    "reason": "sweep",
+    "blankFraction": 0.9352
+  },
+  {
+    "file": "q106-0603s.png",
+    "atSeconds": 602.9,
+    "reason": "ch12 late",
+    "blankFraction": 0.7369
+  },
+  {
+    "file": "q107-0608s.png",
+    "atSeconds": 608,
+    "reason": "sweep",
+    "blankFraction": 0.6702
+  },
+  {
+    "file": "q108-0617s.png",
+    "atSeconds": 616.9,
+    "reason": "ch12 ends",
+    "blankFraction": 0.8608
+  },
+  {
+    "file": "q109-0619s.png",
+    "atSeconds": 618.6,
+    "reason": "ch13 chapter card",
+    "blankFraction": 0.9558
+  },
+  {
+    "file": "q110-0619s.png",
+    "atSeconds": 618.9,
+    "reason": "ch13 opens — Why not remove debt?",
+    "blankFraction": 0.9558
+  },
+  {
+    "file": "q111-0619s.png",
+    "atSeconds": 619,
+    "reason": "sweep",
+    "blankFraction": 0.9558
+  },
+  {
+    "file": "q112-0630s.png",
+    "atSeconds": 630,
+    "reason": "sweep",
+    "blankFraction": 0.7082
+  },
+  {
+    "file": "q113-0641s.png",
+    "atSeconds": 641,
+    "reason": "sweep",
+    "blankFraction": 0.8144
+  },
+  {
+    "file": "q114-0642s.png",
+    "atSeconds": 642.4,
+    "reason": "ch13 mid",
+    "blankFraction": 0.7354
+  },
+  {
+    "file": "q115-0652s.png",
+    "atSeconds": 652,
+    "reason": "sweep",
+    "blankFraction": 0.9294
+  },
+  {
+    "file": "q116-0663s.png",
+    "atSeconds": 663,
+    "reason": "sweep",
+    "blankFraction": 0.5793
+  },
+  {
+    "file": "q117-0664s.png",
+    "atSeconds": 663.9,
+    "reason": "ch13 late",
+    "blankFraction": 0.5793
+  },
+  {
+    "file": "q118-0674s.png",
+    "atSeconds": 674,
+    "reason": "sweep",
+    "blankFraction": 0.9392
+  },
+  {
+    "file": "q119-0679s.png",
+    "atSeconds": 678.5,
+    "reason": "ch13 ends",
+    "blankFraction": 0.9106
+  },
+  {
+    "file": "q120-0681s.png",
+    "atSeconds": 680.5,
+    "reason": "ch14 opens — Recessions",
+    "blankFraction": 0.9863
+  },
+  {
+    "file": "q121-0685s.png",
+    "atSeconds": 685,
+    "reason": "sweep",
+    "blankFraction": 0.9484
+  },
+  {
+    "file": "q122-0695s.png",
+    "atSeconds": 695.2,
+    "reason": "ch14 mid",
+    "blankFraction": 0.8708
+  },
+  {
+    "file": "q123-0696s.png",
+    "atSeconds": 696,
+    "reason": "sweep",
+    "blankFraction": 0.8708
+  },
+  {
+    "file": "q124-0707s.png",
+    "atSeconds": 707,
+    "reason": "sweep",
+    "blankFraction": 0.6298
+  },
+  {
+    "file": "q125-0709s.png",
+    "atSeconds": 709,
+    "reason": "ch14 late",
+    "blankFraction": 0.6298
+  },
+  {
+    "file": "q126-0718s.png",
+    "atSeconds": 718,
+    "reason": "sweep",
+    "blankFraction": 0.9369
+  },
+  {
+    "file": "q127-0718s.png",
+    "atSeconds": 718.1,
+    "reason": "ch14 ends",
+    "blankFraction": 0.9368
+  },
+  {
+    "file": "q128-0720s.png",
+    "atSeconds": 720.1,
+    "reason": "ch15 opens — War and state power",
+    "blankFraction": 0.9668
+  },
+  {
+    "file": "q129-0729s.png",
+    "atSeconds": 729,
+    "reason": "sweep",
+    "blankFraction": 0.8039
+  },
+  {
+    "file": "q130-0731s.png",
+    "atSeconds": 731.2,
+    "reason": "ch15 mid",
+    "blankFraction": 0.8039
+  },
+  {
+    "file": "q131-0740s.png",
+    "atSeconds": 740,
+    "reason": "sweep",
+    "blankFraction": 0.9581
+  },
+  {
+    "file": "q132-0742s.png",
+    "atSeconds": 742,
+    "reason": "ch15 late",
+    "blankFraction": 0.9401
+  },
+  {
+    "file": "q133-0749s.png",
+    "atSeconds": 748.8,
+    "reason": "ch15 ends",
+    "blankFraction": 0.9668
+  },
+  {
+    "file": "q134-0751s.png",
+    "atSeconds": 750.5,
+    "reason": "ch16 chapter card",
+    "blankFraction": 0.9595
+  },
+  {
+    "file": "q135-0751s.png",
+    "atSeconds": 750.8,
+    "reason": "ch16 opens — Who do we actually owe?",
+    "blankFraction": 0.9595
+  },
+  {
+    "file": "q136-0751s.png",
+    "atSeconds": 751,
+    "reason": "sweep",
+    "blankFraction": 0.9595
+  },
+  {
+    "file": "q137-0762s.png",
+    "atSeconds": 762,
+    "reason": "sweep",
+    "blankFraction": 0.877
+  },
+  {
+    "file": "q138-0768s.png",
+    "atSeconds": 767.5,
+    "reason": "ch16 mid",
+    "blankFraction": 0.9834
+  },
+  {
+    "file": "q139-0773s.png",
+    "atSeconds": 773,
+    "reason": "sweep",
+    "blankFraction": 0.9504
+  },
+  {
+    "file": "q140-0783s.png",
+    "atSeconds": 783.1,
+    "reason": "ch16 late",
+    "blankFraction": 0.808
+  },
+  {
+    "file": "q141-0784s.png",
+    "atSeconds": 784,
+    "reason": "sweep",
+    "blankFraction": 0.8083
+  },
+  {
+    "file": "q142-0793s.png",
+    "atSeconds": 793.4,
+    "reason": "ch16 ends",
+    "blankFraction": 0.7994
+  },
+  {
+    "file": "q143-0795s.png",
+    "atSeconds": 795,
+    "reason": "sweep",
+    "blankFraction": 0.9285
+  },
+  {
+    "file": "q144-0795s.png",
+    "atSeconds": 795.4,
+    "reason": "ch17 opens — A network of promises",
+    "blankFraction": 0.9225
+  },
+  {
+    "file": "q145-0806s.png",
+    "atSeconds": 806,
+    "reason": "sweep",
+    "blankFraction": 0.9439
+  },
+  {
+    "file": "q146-0817s.png",
+    "atSeconds": 817,
+    "reason": "sweep",
+    "blankFraction": 0.9119
+  },
+  {
+    "file": "q147-0819s.png",
+    "atSeconds": 818.7,
+    "reason": "ch17 mid",
+    "blankFraction": 0.8976
+  },
+  {
+    "file": "q148-0828s.png",
+    "atSeconds": 828,
+    "reason": "sweep",
+    "blankFraction": 0.8272
+  },
+  {
+    "file": "q149-0839s.png",
+    "atSeconds": 839,
+    "reason": "sweep",
+    "blankFraction": 0.9226
+  },
+  {
+    "file": "q150-0840s.png",
+    "atSeconds": 840.1,
+    "reason": "ch17 late",
+    "blankFraction": 0.923
+  },
+  {
+    "file": "q151-0850s.png",
+    "atSeconds": 850,
+    "reason": "sweep",
+    "blankFraction": 0.9374
+  },
+  {
+    "file": "q152-0855s.png",
+    "atSeconds": 854.6,
+    "reason": "ch17 ends",
+    "blankFraction": 0.8741
+  }
+]

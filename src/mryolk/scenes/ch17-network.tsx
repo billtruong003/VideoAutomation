@@ -154,8 +154,8 @@ export const Ch17NetworkOfPromises: React.FC = () => {
         </Sequence>
         <Sequence from={w('stranger') - at(831.2) - 4}>
           <Pulse at={5} amount={0.06}>
-            <Label x={STAGE.cx} y={880} size={T.title} weight={900} tone="ink" caps width={1780} track={1} fit>
-              trust · expectations · promises · I.O.U.s
+            <Label x={STAGE.cx} y={880} size={T.title} weight={900} tone="ink" width={1780} track={1} fit>
+              TRUST · EXPECTATIONS · PROMISES · I.O.U.s
             </Label>
           </Pulse>
         </Sequence>
@@ -165,10 +165,10 @@ export const Ch17NetworkOfPromises: React.FC = () => {
       <Sequence from={at(845.8)}>
         <Sequence from={w('celebrate', 1) - at(845.8) - 6}>
           <PopIn>
-            <YolkHero slug="papers-flying-away-happy" height={470} x={STAGE.cx} y={720} anchor="bottom" />
+            <YolkHero slug="papers-flying-away-happy" height={330} x={STAGE.cx} y={890} anchor="bottom" />
           </PopIn>
           <FadeIn delay={8}>
-            <Label x={STAGE.cx} y={200} size={T.title} weight={900} tone="green" caps width={1700} track={2}>
+            <Label x={STAGE.cx} y={160} size={T.title} weight={900} tone="green" caps width={1700} track={2} fit>
               if every debt disappeared tomorrow
             </Label>
           </FadeIn>
@@ -176,7 +176,7 @@ export const Ch17NetworkOfPromises: React.FC = () => {
 
         <Sequence from={w('minutes') - at(845.8) - 10}>
           <PopIn>
-            <Label x={STAGE.cx} y={300} size={T.big} weight={900} tone="red" caps width={1700} track={3}>
+            <Label x={STAGE.cx} y={252} size={T.big} weight={900} tone="red" caps width={1740} track={3} fit>
               don’t celebrate for more than
             </Label>
           </PopIn>
@@ -207,12 +207,12 @@ const CountdownTimer: React.FC<{ startDelay: number }> = ({ startDelay }) => {
     <div style={{
       position: 'absolute',
       left: 0,
-      top: 400,
+      top: 320,
       width: 1920,
       textAlign: 'center',
       fontFamily: FONT.sans,
       fontWeight: 900,
-      fontSize: 240,
+      fontSize: 196,
       color: C.ink,
       fontVariantNumeric: 'tabular-nums',
       letterSpacing: 6,

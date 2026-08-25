@@ -49,8 +49,13 @@ export const Ch11CreditCrisis: React.FC = () => {
       {/* ---- 8:25-8:48 the doom loop ---- */}
       <Sequence from={0} durationInFrames={at(528.6)}>
         <Camera push={0.03} frames={at(528.6)}>
+          {/*
+            The first node opens the chapter, so it lands at frame 0 rather than on "risky" —
+            which is the LAST word of "Imagine a company begins looking risky" and left the
+            section opening on a second and a half of empty page.
+          */}
           {LOOP.map((n, i) => (
-            <Sequence key={n.label} from={w(n.word) - 6}>
+            <Sequence key={n.label} from={i === 0 ? 0 : Math.max(0, w(n.word) - 14)}>
               <Node
                 at={n.at}
                 label={n.label}

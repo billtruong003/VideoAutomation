@@ -43,6 +43,11 @@ export const Ch14Recession: React.FC = () => {
       {/* ---- 11:19-11:31 the spiral ---- */}
       <Sequence from={0} durationInFrames={at(693.4)}>
         <Camera push={0.03} frames={at(693.4)}>
+          <FadeIn delay={2}>
+            <Label x={STAGE.cx} y={140} size={T.title} weight={900} tone="red" caps width={1700} track={2} fit>
+              imagine a recession
+            </Label>
+          </FadeIn>
           {SPIRAL.map((n, i) => (
             <Sequence key={n.label} from={w(n.word, n.nth) - 5}>
               <Node at={n.at} label={n.label} width={470} height={116} size={26} tone={C.red} />

@@ -108,7 +108,7 @@ export const Ch05WhoLends: React.FC = () => {
 
       {/* ---- 3:57-4:08 the group chat, and the sting under it ---- */}
       <Sequence from={at(236.6)}>
-        <Sequence from={w('chat') - at(236.6) - 12}>
+        <Sequence from={0}>
           <PopIn delay={2}>
             <YolkHero slug="using-tablet" height={380} x={470} y={740} anchor="bottom" />
           </PopIn>
@@ -117,7 +117,7 @@ export const Ch05WhoLends: React.FC = () => {
             all saying the same thing, which is the joke.
           */}
           {['“I’ll pay you later.”', '“I’ll pay you later.”', '“I’ll pay you later.”'].map((t, i) => (
-            <SlideIn key={i} delay={10 + i * 9} dx={1} distance={90}>
+            <SlideIn key={i} delay={w('chat') - at(236.6) - 12 + i * 9} dx={1} distance={90}>
               <Plate
                 x={1260}
                 y={250 + i * 150}
@@ -132,7 +132,7 @@ export const Ch05WhoLends: React.FC = () => {
               </Plate>
             </SlideIn>
           ))}
-          <Sequence from={w('economy') - w('chat') + 6}>
+          <Sequence from={w('economy') - at(236.6) + 6}>
             <FadeIn>
               <Label x={1260} y={730} size={T.note} weight={900} tone="inkSoft" caps width={900}>
                 the global economy

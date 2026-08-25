@@ -132,11 +132,11 @@ export const Ch01Disappearance: React.FC = () => {
       </Sequence>
 
       {/* ---- 0:14-0:19 the celebration, and the sting ---- */}
-      <Sequence from={at(14.4)} durationInFrames={at(19.3) - at(14.4)}>
+      <Sequence from={at(13.0)} durationInFrames={at(19.3) - at(13.0)}>
         <PopIn delay={2}>
           <YolkHero slug="papers-flying-away-happy" height={470} x={STAGE.cx} y={720} anchor="bottom" />
         </PopIn>
-        <FadeIn delay={at(15.2) - at(14.4)}>
+        <FadeIn delay={at(15.2) - at(13.0)}>
           <Label x={STAGE.cx} y={186} size={T.title} weight={900} tone="green" caps width={1500} track={2}>
             humanity defeated debt
           </Label>
@@ -145,7 +145,7 @@ export const Ch01Disappearance: React.FC = () => {
           The turn. "for approximately five minutes" arrives in red under a celebration that is
           still on screen — the contradiction is the joke, so both have to be visible at once.
         */}
-        <Sequence from={w('approximately') - at(14.4)}>
+        <Sequence from={w('approximately') - at(13.0)}>
           <PopIn>
             {/* Below the character, clear of the flying paper and above the caption band. */}
             <Label x={STAGE.cx} y={838} size={T.title} weight={900} tone="red" caps track={2} width={1500}>

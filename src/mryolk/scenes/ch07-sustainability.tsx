@@ -32,6 +32,11 @@ export const Ch07CanItHandleIt: React.FC = () => {
     <>
       {/* ---- 5:25-5:41 government debt is not harmless ---- */}
       <Sequence from={0} durationInFrames={at(341.4)}>
+        <FadeIn delay={2}>
+          <Label x={STAGE.cx} y={160} size={T.title} weight={900} tone="ink" caps width={1700} track={2} fit>
+            government debt is not harmless
+          </Label>
+        </FadeIn>
         <Sequence from={w('confidence') - 6}>
           <PopIn>
             <YolkHero slug="skeptical-doubt" height={360} x={430} y={740} anchor="bottom" />
