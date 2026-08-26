@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "batch": {
+    "id": "batch-003",
+    "defaults": {
+      "language": "en",
+      "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+      "takesPerScript": 1,
+      "modelStrategy": "quality"
+    }
+  },
+  "episodes": [
+    {
+      "id": "emergency-exit-outward",
+      "title": "Exit Doors Open Outward Because Of One Night In 1903",
+      "notes": "Iroquois Theatre fire, Chicago, 30 Dec 1903, 602 dead. Inward doors + crowd crush. Panic bar patents followed.",
+      "content": "Every exit door in a public building opens outward, and it is the one design rule that was written in blood. In 1903 a Chicago theatre caught fire with about two thousand people inside, and the doors from the auditorium opened inward. A crowd running for an exit does not queue. It presses, and a door that needs pulling cannot be pulled against the weight of the people behind you. Six hundred and two died, many of them within reach of a door that was never locked. Now the door gives way when you fall against it."
+    },
+    {
+      "id": "bread-stale-fridge",
+      "title": "The Fridge Makes Bread Go Stale Faster, Not Slower",
+      "notes": "Retrogradation, not drying. Stale bread weighs the same. Fastest just above freezing; freezing halts it.",
+      "content": "Putting bread in the fridge to keep it fresh makes it go stale about six times faster. Stale bread is not dry bread, which is the part everyone gets wrong. Weigh a stale loaf and the water is still in there. Baking swells the starch into a soft, loose structure, and as the bread cools that structure slowly folds itself back into crystals, squeezing the water out as it goes. That folding runs fastest at fridge temperature. The freezer stops it almost completely, so the bin is fine, the freezer is better, and the fridge is the worst place you could pick."
+    },
+    {
+      "id": "toothpaste-eye-marks",
+      "title": "That Colored Square On Toothpaste Is Not A Code",
+      "notes": "Eye marks for packaging sensors. Ingredient-colour claim debunked by Snopes and Colgate.",
+      "content": "There is a small colored square at the crimped end of a toothpaste tube, and a story that follows it everywhere: green means natural, red means chemicals, black means avoid it. That is invented. The square is an eye mark, and it is there for a machine. Tubes come off the line as a continuous run, and a sensor watches for that block of color to know exactly where to cut, fold and seal. The color is chosen for contrast against the artwork, nothing else. What is actually in the tube is on the side, in words, where it always was."
+    },
+    {
+      "id": "phillips-cam-out",
+      "title": "The Phillips Screw Was Not Designed To Slip",
+      "notes": "1933 patent explicitly claims NO tendency to cam out. Cam-out later found useful with early clutchless power tools.",
+      "content": "Push hard on a Phillips screwdriver and it climbs out of the screw, and everyone will tell you that is deliberate, a clutch that stops you overtightening. The original patent says the opposite. Filed in 1933, it lists as a goal that the driver should have no tendency to cam out at all. The slipping was a flaw. What happened next is why the story spread: early power drivers had unreliable torque limits, and a screw that let go before something snapped turned out to be quietly useful. A defect got promoted to a feature, and then to an intention nobody ever had."
+    },
+    {
+      "id": "hi-vis-yellow-green",
+      "title": "Safety Vests Are That Color For One Reason",
+      "notes": "Peak photopic sensitivity ~555 nm. Fluorescent yellow-green sits on it.",
+      "content": "High-visibility vests are a specific sour yellow-green, and no committee picked it for looks. Your eye is not equally sensitive across the spectrum. It peaks, sharply, at a wavelength of about five hundred and fifty-five nanometres, and that wavelength is exactly this color. The same light coming off a red vest and a yellow-green one does not land on you equally; the yellow-green simply registers as brighter. Make it fluorescent and it also converts invisible ultraviolet into more of that same color. It is not a warning color by convention. It is the one your eye is best built to catch."
+    },
+    {
+      "id": "plug-prong-holes",
+      "title": "The Holes In A Plug Are Left Over From 1904",
+      "notes": "NEMA: hole is optional, manufacturing purposes only, no mechanical/electrical/thermal function. Origin: Hubbell detent bumps.",
+      "content": "The flat prongs on a plug have holes in them, and there is a good reason nobody uses any more. Early sockets had small bumps inside that dropped into a matching dent on the prong, so the plug held itself in rather than relying on friction. The dents became holes. Modern sockets grip instead, so the holes do nothing electrical at all, and the standards body says so in writing: optional, for manufacturing purposes only. What they are actually for now is the factory, which threads a rod through a whole row of prongs to hold them still while the plastic is moulded around them."
+    },
+    {
+      "id": "winglets",
+      "title": "Those Bent Wingtips Save Billions In Fuel",
+      "notes": "Wingtip vortices from pressure spillover. NASA 707 tests 1979-80: 6.5% fuel reduction.",
+      "content": "The wingtips on most airliners are bent upward, and that bend exists because a wing leaks. Lift comes from higher pressure under the wing than above it, and at the open end of the wing that high-pressure air simply rolls around the tip into the low-pressure side. It spins off as a vortex, and every one of those is energy the engines paid for and the aircraft never used. The upturned tip blocks most of that spill and generates a little forward-angled lift of its own. Flight tests measured about six and a half percent less fuel, from bending the last few feet."
+    },
+    {
+      "id": "aircraft-tyres",
+      "title": "Airplane Tires Have Almost No Tread On Purpose",
+      "notes": "Circumferential ribs only. Aircraft go straight; grooves are for water and cooling, not cornering.",
+      "content": "An airliner tire has a few straight grooves running around it and nothing else, which looks alarming next to the block pattern on a car. Car tread is mostly for cornering, and an aircraft never corners at speed. It goes down a straight prepared runway and stops. What it actually needs is the largest possible patch of rubber touching the ground, because that is what brakes, so anything cut out of the tread is contact area given away. The straight grooves are the compromise: enough to push standing water out of the way, and pointing the one direction the aircraft is ever travelling fast."
+    },
+    {
+      "id": "hard-hat-gap",
+      "title": "A Hard Hat Works Because Of The Gap Inside It",
+      "notes": "Suspension gap ~25-32 mm. Shell flexes, straps stretch, head never contacts shell.",
+      "content": "Your head does not touch the inside of a hard hat. There is a webbing cradle holding the shell about an inch clear, and that empty inch is the part doing the work. When something lands on the shell, the shell caves in and the straps stretch, and both of those take time. Spreading an impact over even a few extra milliseconds is what turns a fracture into a bruise, and the gap is the room that lets it happen. Which is why nobody should store a phone or a pair of gloves up there. Filling the gap removes the protection."
+    },
+    {
+      "id": "honey-never-spoils",
+      "title": "Honey Is The Only Food That Never Goes Off",
+      "notes": "Water activity 0.6 (moulds need >0.75), pH 3.2-4.5, glucose oxidase makes hydrogen peroxide.",
+      "content": "A jar of honey has no expiry date that means anything, and it is because honey is a genuinely hostile place to live. It is about eighty percent sugar and almost no free water, so anything that lands in it has the water pulled straight out of its cells. It is acidic, down around pH four. And the bees add an enzyme that quietly generates small amounts of hydrogen peroxide. Three separate defences, none of which run out. Archaeologists have opened sealed jars thousands of years old and found honey that was still, by any reasonable definition, honey."
+    },
+    {
+      "id": "yellow-highlighter",
+      "title": "Yellow Highlighter Disappears When You Photocopy It",
+      "notes": "Yellow reflects nearly as much as white paper; copier reads it as white. Fluorescence is not reproduced.",
+      "content": "Highlight a page in yellow, photocopy it, and the highlighting is gone while the text underneath is perfectly readable. A copier does not see color. It measures how much light bounces back off each spot, and turns dark into toner. Yellow bounces back almost as much light as blank paper does, so the machine reads a highlighted line as paper and prints nothing there. Try the same thing in blue or green and you get a grey smear across your own words. The one color that survives being marked and copied is the one that barely registers as a mark at all."
+    },
+    {
+      "id": "pill-score-line",
+      "title": "The Line On A Pill Is Not Always Permission To Break It",
+      "notes": "An FDA-evaluated score means halves are equivalent. But a score alone is not approval; the label says.",
+      "content": "Plenty of tablets have a groove across the middle, and it looks like an instruction. Sometimes it is. A properly evaluated score means somebody has tested that both halves carry the same dose, which is not automatic, because a tablet is a pressed powder and powder does not divide itself evenly. But a groove on its own is not that guarantee. Some are pressed in for grip, or because the tooling had one. The label is what tells you, and it matters most for the drugs where it matters most: a slow-release coating cut in half stops being slow-release."
+    },
+    {
+      "id": "barcode-guard-bars",
+      "title": "Those Long Bars On A Barcode Are Not Numbers",
+      "notes": "Guard bars at both ends and centre. No data. Enable bidirectional scanning.",
+      "content": "Look at a barcode and a few bars hang down lower than the rest, at both ends and in the middle. Those carry no information at all. They are guard bars, and they tell the scanner where the code starts, where it stops, and which way round it is being read. That last one is the useful part. A scanner has no idea which direction you dragged the item, and the guard pattern is deliberately not a mirror image of itself, so the machine reads the marker, works out it is looking at the thing backwards, and flips the whole number without complaining."
+    },
+    {
+      "id": "chocolate-bloom",
+      "title": "That White Film On Old Chocolate Is Not Mold",
+      "notes": "Fat bloom: cocoa butter migrates and recrystallises Form V -> Form VI. Safe. Sugar bloom is the humidity version.",
+      "content": "Chocolate left in a warm cupboard goes pale and chalky on the surface, and it looks exactly like something you should throw away. It is the chocolate rearranging itself. Cocoa butter can set into several different crystal forms, and a chocolatier tempers it into the one that snaps and shines. Warmth lets some of that fat migrate to the surface and recrystallise into a duller, more stable form, which is the white you can see. Nothing has grown and nothing has spoiled. Mould on chocolate is fuzzy and sits in patches; bloom is flat, even, and only a disappointment to look at."
+    },
+    {
+      "id": "tuned-mass-damper",
+      "title": "A Skyscraper Can Hold A 660-Ton Ball To Stay Still",
+      "notes": "Taipei 101: 660-tonne steel sphere on 8 cables between floors 88-92, moves up to 5 ft, cuts sway 30-40%.",
+      "content": "Near the top of Taipei 101 hangs a steel ball weighing six hundred and sixty tonnes, on eight cables, and tourists queue to look at it. It is there because a tall building in wind does not fall over, it sways, and swaying is what makes the people inside feel ill. The ball is tuned to swing at the same rate the tower does, but it starts late. So when the building leans one way the ball is still travelling the other, pulling against it the whole time. It cuts the sway by a third or more, by being deliberately slow."
+    },
+    {
+      "id": "kettle-whistle",
+      "title": "A Kettle Whistle Is Two Different Sounds",
+      "notes": "Cambridge 2013 aeroacoustics: Helmholtz resonance at low flow, vortex shedding above a threshold. Two orifice plates.",
+      "content": "Take a whistling kettle apart and the whistle is two little discs with a gap between them, not one hole. Steam has to cross that gap, and what happens there changes as the kettle heats up. At first the cavity behaves like blowing across a bottle top, resonating at one steady note. Push more steam through and it switches: the jet starts shedding little spinning rings of air, and those set the pitch instead. Physicists at Cambridge only worked this out properly in 2013, which means the kettle was making a sound nobody could fully explain for about a century."
+    },
+    {
+      "id": "granton-edge",
+      "title": "Those Dimples On A Knife Are Trapping Air",
+      "notes": "Granton edge / kullenschliff, patented 1928. Oval hollows break suction so wet food releases.",
+      "content": "Some kitchen knives have a row of shallow ovals ground into the blade just above the edge, and they are not decoration. Cut something wet and thin, a potato or a side of salmon, and the slice does not fall away. It sticks flat to the steel, held by a film of moisture with no air behind it. The hollows break that seal. Each one holds a pocket of air against the blade, so the slice never grips and drops off on its own. Patented in 1928, for butchers, who were tired of unpicking their own work."
+    },
+    {
+      "id": "twist-drill",
+      "title": "A Drill Bit Is Twisted Because Someone Twisted It",
+      "notes": "Morse, early 1860s. Original manufacture: cut two straight grooves in a round bar, then twist the bar.",
+      "content": "The spiral on a drill bit is not what cuts. The cutting happens on the small edge at the very tip; everything behind it is a pair of channels, and their job is getting the chips out of a hole that keeps getting deeper. A bit packed with its own waste stops cutting and starts heating until it snaps. The reason the channels curve is beautifully literal. When Steven Morse made the first ones in the 1860s, he cut two straight grooves down a round bar and then twisted the bar. That is why it is called a twist drill."
+    },
+    {
+      "id": "banknote-thread",
+      "title": "The Strip In A Banknote Is Inside The Paper",
+      "notes": "Thread embedded during papermaking; windowed threads surface at intervals. Removal destroys it.",
+      "content": "Hold a banknote to the light and a dark line runs down through it. Turn it flat again and the line mostly vanishes, surfacing only as short silver dashes. That thread is not printed on and not stuck on. It was laid into the pulp while the paper was still being made, so the paper formed around it. That is the whole point. A counterfeiter can photograph anything on the surface, but reproducing something suspended inside the sheet means making the sheet, and pulling the real thread out of a real note destroys the note it came from."
+    },
+    {
+      "id": "onion-tears",
+      "title": "An Onion Is Attacking You On Purpose",
+      "notes": "Cut cells release alliinase + lachrymatory factor synthase -> syn-propanethial-S-oxide. Reacts with eye water to form acid.",
+      "content": "An onion does not make you cry by accident. Intact, it is harmless; the ingredients are kept in separate compartments. Cutting it breaks those compartments open and lets two enzymes reach a sulphur compound that was sitting there waiting. In under a second they build a small volatile molecule that drifts straight upward, which is where your face is. It reaches the water on your eye and turns into a mild acid, and your eye floods to wash it away. That is a chemical defence, evolved against animals that dig up bulbs, working exactly as designed on you."
+    },
+    {
+      "id": "bus-hammer",
+      "title": "The Bus Hammer Only Works On One Part Of The Window",
+      "notes": "Tempered glass: compressed surface, tension core. Corners/edges weakest; sharp point beats a blunt blow.",
+      "content": "There is a little hammer by the window on a bus, and swinging it at the middle of the glass will not do much. Bus windows are tempered, which means the surface was cooled fast and locked into compression while the middle stayed in tension. That makes the face extremely hard to break and the whole pane a loaded spring. The trick is not force, it is a point. A hardened tip at a corner or an edge punches through the compressed skin, the tension underneath is released all at once, and the entire window turns to gravel in your lap."
+    },
+    {
+      "id": "spirit-level",
+      "title": "A Spirit Level Works Because The Tube Is Bent",
+      "notes": "Vial curved (or barrel-shaped) so the highest point is at the centre when level. Bubble seeks the high point.",
+      "content": "A spirit level is a tube of liquid with a bubble in it, and the bubble finds the middle when things are flat. If that tube were straight, none of it would work. A bubble is just the lightest thing in the tube, so it goes to the highest point available, and in a straight tube every point is equally high. So the glass is made with a very slight upward curve. When the level sits flat, the top of that curve is exactly in the middle, between the two lines. Tilt it, and the highest point moves, and the bubble goes to find it."
+    },
+    {
+      "id": "ykk-zipper",
+      "title": "Almost Every Zipper You Own Says The Same Three Letters",
+      "notes": "Yoshida Kogyo Kabushikikaisha, 1934. ~7bn zippers/yr. Smelts own brass, weaves own tape.",
+      "content": "Check the zip on whatever you are wearing. There is a good chance it says YKK, and the same three letters are on the next four things you check. It stands for a Japanese company founded in 1934 that now makes something like seven billion zippers a year. What made them unavoidable is that they refused to buy anything. They smelt their own brass, spin their own thread, weave their own tape and build their own machines, because a zipper fails at whichever part someone else cut a corner on. The one component nobody notices is the one component nobody was willing to gamble on."
+    },
+    {
+      "id": "book-blank-pages",
+      "title": "The Blank Pages At The End Of A Book Are Arithmetic",
+      "notes": "Books print in signatures of 8/16/32; page count is forced to a multiple. Leftovers stay blank.",
+      "content": "Finish a novel and there are two or three blank pages after the last line, and it always feels like a mistake at the printers. It is arithmetic. Books are not printed a page at a time. They are printed on big sheets that carry sixteen or thirty-two pages at once, arranged so that folding and trimming puts them in order. You cannot print two-thirds of a sheet, so the total page count has to land on a multiple. A story that runs to three hundred and thirteen pages gets a book of three hundred and twenty, and seven pages of nothing at the end."
+    },
+    {
+      "id": "stair-riser",
+      "title": "One Stair A Few Millimeters Off Will Trip You",
+      "notes": "Code allows max 3/8 inch (9.5 mm) variation across a flight. Common failure: finish flooring changes the top or bottom step.",
+      "content": "Building codes let the steps in a staircase vary in height by three-eighths of an inch across the whole flight, and not a fraction more. That sounds obsessive for something under a centimetre. It is not, because after the second step you stop looking. Your body measures one riser and then repeats that movement blind, lifting the foot just far enough and no further. A step that is a few millimetres taller than the rest catches a toe that was never going to clear it. Which is why the odd one out is almost always the top or the bottom, where the flooring changed."
+    },
+    {
+      "id": "pill-bottle-cotton",
+      "title": "You Should Throw Away The Cotton In A Pill Bottle",
+      "notes": "Originally to stop fragile tablets rattling in transit (Bayer, c.1900). Once opened, cotton holds moisture against the pills.",
+      "content": "The wad of cotton in a bottle of tablets is doing nothing for you, and after you open it, it is working against you. It dates to about 1900, when tablets were fragile and shipping was rough, and the cotton stopped them knocking each other apart in transit. Coatings got better, and by the eighties it was unnecessary, but customers had decided a bottle without it looked tampered with, so it stayed. The problem is what cotton does: it holds moisture. Sealed at the factory that is harmless. Sitting in your bathroom it keeps damp air pressed against the pills, so take it out."
+    },
+    {
+      "id": "fire-extinguisher-seal",
+      "title": "A Fire Extinguisher Seal Is Designed To Be Weak",
+      "notes": "Tamper seal threaded through the pin. Must break on a hard pull. Its presence is the monthly inspection evidence.",
+      "content": "A fire extinguisher has a plastic tie threaded through the pin, and unlike almost every other seal in the world it is built to fail. It has to snap the instant somebody pulls the pin in a panic, because a security device that slows down the person holding the extinguisher would be worse than no device at all. So it is not really securing anything. It is a witness. If the tie is intact, that extinguisher has not been fired and nobody has fiddled with the pin, which is a fact an inspector can establish from across a room in half a second."
+    },
+    {
+      "id": "phone-oleophobic",
+      "title": "Your Phone Screen Has A Coating You Are Wearing Off",
+      "notes": "Fluorinated polymer, molecules thick. Degrades from abrasion, alcohol, ammonia glass cleaner. Typically months to ~2 years.",
+      "content": "New phones wipe clean with one pass and old ones just smear, and the glass has not changed. There is a coating on top of it, a fluorinated polymer only molecules thick, and its job is to give fingerprint oil nothing to spread across. It is not glass and it does not last. Every wipe on a shirt, every trip in a pocket with sand in it, takes a little away, and cleaning it with anything containing alcohol or ammonia strips it fast. Usually somewhere between a few months and two years, and after that you are touching the glass itself."
+    },
+    {
+      "id": "escalator-handrail",
+      "title": "Why The Escalator Handrail Moves At A Different Speed",
+      "notes": "Same drive as the steps, longer loop around a smaller wheel, rubber stretches. Set slightly fast deliberately.",
+      "content": "Stand on an escalator with your hand on the rail, and after a few seconds your arm is either ahead of you or trailing behind. The handrail is driven by the same motor as the steps, but it runs on a longer loop around a smaller wheel, and the rubber stretches as it wraps. Engineers deliberately set it to run slightly fast, because a rail that drags feels like the escalator is pulling your arm off."
+    },
+    {
+      "id": "key-grooves",
+      "title": "The Grooves On A Key Are Not The Part That Opens It",
+      "notes": "Keyway warding: milled grooves clear internal wards so the key can enter. Bittings do the lifting.",
+      "content": "A key has two completely different sets of shapes on it. The jagged top edge is the part that lifts the pins and turns the lock, and everyone knows that one. The long grooves milled down each flat side do something else entirely: they decide whether the key can get in the lock at all. Inside the keyhole are matching ridges, and a key without the right channels simply will not slide past them. So a key can be cut with perfect teeth for your lock and still be useless, because it never reaches the pins to try."
+    }
+  ]
+}

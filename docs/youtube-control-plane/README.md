@@ -63,6 +63,7 @@ working tree.
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | System shape, module boundaries, request path, error model |
 | [AUDIO_FACTORY.md](./AUDIO_FACTORY.md) | Scripts to narration: stage barriers, take selection, the handoff contract |
 | [BATCH_002_RESEARCH.md](./BATCH_002_RESEARCH.md) | Batch 002 evidence trail: candidates, rejections, verified sources |
+| [BATCH_003_RESEARCH.md](./BATCH_003_RESEARCH.md) | Batch 003: 30 topics and scripts, awaiting approval |
 | [SMOKE_TEST_REPORT.md](./SMOKE_TEST_REPORT.md) | What was actually verified, and the two bugs running it found |
 | [API_CAPABILITY_MATRIX.md](./API_CAPABILITY_MATRIX.md) | Every capability, scope, quota cost and priority — plus what is *not* available |
 | [OAUTH_AND_SECURITY.md](./OAUTH_AND_SECURITY.md) | Flow, scope matrix, token storage, secret handling |
